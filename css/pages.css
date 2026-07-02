@@ -107,3 +107,32 @@
   font-size: 0.8rem;
   font-weight: bold;
 }
+/* GEAR PAGE */
+.gear-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.gear-card {
+  background: #1F2937;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.gear-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.gear-card p {
+  margin-bottom: 1rem;
+}
+
+.gear-card span{
+  background: #22C55E;
+  color: #111827;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
