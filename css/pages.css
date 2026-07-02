@@ -101,3 +101,9 @@
     background: #8B5CF6;
     color: #F9FAFB;
 }
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
