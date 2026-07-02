@@ -1,0 +1,25 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.welcome-section,
+.recent-updates {
+  background: #1F2937;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.stat-card {
+  background: #374151;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
