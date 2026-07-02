@@ -196,3 +196,33 @@
   font-size: 0.8rem;
   font-weight: bold;
 }
+
+/* CRAFTING PAGE */
+.crafting-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.crafting-card {
+  background: #1F2937;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.crafting-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.crafting-card p {
+  margin-bottom: 1rem;
+}
+
+.crafting-card span{
+  background: #F59E0B;
+  color: #111827;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}

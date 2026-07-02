@@ -26,6 +26,10 @@
   .loot-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+/* CRAFTING PAGE */
+  .crafting-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
@@ -63,6 +67,10 @@
   }
 /* LOOT PAGE */
   .loot-grid {
+    grid-template-columns: 1fr;
+  }
+/* CRAFTING PAGE */
+  .crafting-grid {
     grid-template-columns: 1fr;
   }
 }
