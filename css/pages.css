@@ -34,3 +34,46 @@
   border-radius: 12px;
   text-align: center;
 }
+
+.page-header {
+  margin-bottom: 1.5rem;
+}
+
+.search-section {
+  margin-bottom: 1.5rem;
+}
+.search-section input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.guides-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.guide-card {
+  background: #1F2937;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.guide-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.guide-card p {
+  margin-bottom: 1rem;
+}
+
+.guide-card span{
+  background: #22C55E;
+  color: #111827;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
