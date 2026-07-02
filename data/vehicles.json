@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Ada 4x4",
+    "type": "Car",
+    "fuelType": "Gasoline",
+    "seats": 4,
+    "description": "Reliable off-road vehicle."
+  },
+  {
+    "id": 2,
+    "name": "Gunter 2",
+    "type": "Sedan",
+    "fuelType": "Gasoline",
+    "seats": 4,
+    "description": "Fast civilian car."
+  },
+  {
+    "id": 3,
+    "name": "M3S Truck",
+    "type": "Truck",
+    "fuelType": "Diesel",
+    "seats": 2,
+    "description": "Large cargo transport vehicle."
+  }
+]

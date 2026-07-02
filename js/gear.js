@@ -1,12 +1,12 @@
-fetch("../data/survival.json")
+fetch("../data/gear.json")
   .then(response => response.json())
-  .then(survivalItems => {
-    const container = document.getElementById("survival-container");
+  .then(gear => {
+    const container = document.getElementById("gear-container");
 
-    survivalItems.forEach(item => {
+    gear.forEach(item => {
       container.innerHTML += `
         <article class="content-card">
-          <h3>${item.title}</h3>
+          <h3>${item.name}</h3>
           <p>${item.description}</p>
 
           <div class="card-meta">

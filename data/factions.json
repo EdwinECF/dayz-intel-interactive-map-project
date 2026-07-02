@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "The Survivors",
+    "type": "Friendly",
+    "description": "Group focused on helping new players."
+  },
+  {
+    "id": 2,
+    "name": "Black Zone Raiders",
+    "type": "Hostile",
+    "description": "Aggressive military faction."
+  },
+  {
+    "id": 3,
+    "name": "Nomad Traders",
+    "type": "Trader",
+    "description": "Traveling merchants across Chernarus."
+  }
+]

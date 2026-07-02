@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Plate Carrier",
+    "category": "Armor",
+    "description": "Heavy ballistic vest providing excellent protection."
+  },
+  {
+    "id": 2,
+    "name": "Field Backpack",
+    "category": "Backpack",
+    "description": "Large backpack with high storage capacity."
+  },
+  {
+    "id": 3,
+    "name": "Bandage",
+    "category": "Medical",
+    "description": "Stops bleeding and prevents blood loss."
+  }
+]
