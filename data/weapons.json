@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "AKM",
+    "category": "Assault Rifle",
+    "caliber": "7.62x39",
+    "damage": 95,
+    "description": "Powerful Soviet assault rifle."
+  },
+  {
+    "id": 2,
+    "name": "M4-A1",
+    "category": "Assault Rifle",
+    "caliber": "5.56x45",
+    "damage": 90,
+    "description": "Modern military rifle with high customization."
+  },
+  {
+    "id": 3,
+    "name": "Mosin 91/30",
+    "category": "Sniper Rifle",
+    "caliber": "7.62x54R",
+    "damage": 110,
+    "description": "Bolt-action rifle with excellent range."
+  }
+]

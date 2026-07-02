@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Northwest Airfield",
+    "type": "Military",
+    "x": 4500,
+    "y": 10200
+  },
+  {
+    "id": 2,
+    "name": "Tisy Military Base",
+    "type": "Military",
+    "x": 1800,
+    "y": 14500
+  },
+  {
+    "id": 3,
+    "name": "Green Mountain",
+    "type": "Landmark",
+    "x": 3700,
+    "y": 8000
+  }
+]

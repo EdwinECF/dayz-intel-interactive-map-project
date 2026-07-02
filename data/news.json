@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "DayZ 1.29 Released",
+    "category": "Patch Notes",
+    "date": "2026-07-02",
+    "description": "New weapons, fixes, and balancing changes."
+  },
+  {
+    "id": 2,
+    "title": "Summer Event Announced",
+    "category": "Event",
+    "date": "2026-07-01",
+    "description": "Official servers receive limited-time activities."
+  },
+  {
+    "id": 3,
+    "title": "Community Server Spotlight",
+    "category": "Community",
+    "date": "2026-06-28",
+    "description": "Featured community servers and unique experiences."
+  }
+]

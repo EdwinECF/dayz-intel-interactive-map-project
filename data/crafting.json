@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Stone Knife",
+    "category": "Tool",
+    "ingredients": "2 Small Stones",
+    "description": "Basic survival knife."
+  },
+  {
+    "id": 2,
+    "name": "Improvised Rope",
+    "category": "Basic",
+    "ingredients": "12 Rags",
+    "description": "Used for multiple crafting recipes."
+  },
+  {
+    "id": 3,
+    "name": "Fireplace",
+    "category": "Survival",
+    "ingredients": "Sticks + Bark",
+    "description": "Allows cooking and warmth."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Canned Beans",
+    "category": "Food",
+    "rarity": "Common",
+    "description": "Popular canned food item."
+  },
+  {
+    "id": 2,
+    "name": "Ammo Box",
+    "category": "Storage",
+    "rarity": "Uncommon",
+    "description": "Stores different ammunition types."
+  },
+  {
+    "id": 3,
+    "name": "Military Crate",
+    "category": "Military",
+    "rarity": "Rare",
+    "description": "Contains valuable military equipment."
+  }
+]
