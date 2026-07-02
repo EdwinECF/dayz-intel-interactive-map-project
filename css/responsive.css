@@ -22,6 +22,10 @@
   .vehicles-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+/* LOOT PAGE */
+  .loot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
@@ -55,6 +59,10 @@
   }
 /* VEHICLES PAGE */
   .vehicles-grid {
+    grid-template-columns: 1fr;
+  }
+/* LOOT PAGE */
+  .loot-grid {
     grid-template-columns: 1fr;
   }
 }
