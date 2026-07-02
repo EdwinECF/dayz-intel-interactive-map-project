@@ -38,6 +38,10 @@
   .factions-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+/* NEWS PAGE */
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
@@ -87,6 +91,10 @@
   }
 /* FACTIONS PAGE */
   .factions-grid {
+    grid-template-columns: 1fr;
+  }
+/* NEWS PAGE */
+  .news-grid {
     grid-template-columns: 1fr;
   }
 }
