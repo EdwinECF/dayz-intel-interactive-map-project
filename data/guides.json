@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Beginner Survival Guide",
+    "category": "Beginner",
+    "description": "Learn the basics of surviving your first day in Chernarus.",
+    "difficulty": "Easy",
+    "readTime": "10 min"
+  },
+  {
+    "id": 2,
+    "title": "Food & Water Guide",
+    "category": "Survival",
+    "description": "Understand hunger, thirst, wells, food safety, and survival priorities.",
+    "difficulty": "Easy",
+    "readTime": "8 min"
+  },
+  {
+    "id": 3,
+    "title": "Medical Guide",
+    "category": "Medical",
+    "description": "Learn how bleeding, sickness, bandages, and medicine work.",
+    "difficulty": "Medium",
+    "readTime": "12 min"
+  },
+  {
+    "id": 4,
+    "title": "Base Building Guide",
+    "category": "Advanced",
+    "description": "Learn the basics of building, securing, and defending a base.",
+    "difficulty": "Hard",
+    "readTime": "15 min"
+  },
+  {
+    "id": 5,
+    "title": "Navigation Guide",
+    "category": "Map",
+    "description": "Learn how to use landmarks, roads, towns, and terrain to navigate Chernarus.",
+    "difficulty": "Medium",
+    "readTime": "10 min"
+  }
+]
