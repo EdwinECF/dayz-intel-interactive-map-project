@@ -6,40 +6,8 @@
   .stats-section {
     grid-template-columns: repeat(2, 1fr);
   }
-/* GUIDES PAGE */
-  .guides-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* WEAPONS PAGE */
-  .weapons-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* GEAR PAGE */
-  .gear-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* VEHICLES PAGE */
-  .vehicles-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* LOOT PAGE */
-  .loot-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* CRAFTING PAGE */
-  .crafting-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* SURVIVAL PAGE */
-  .survival-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* FACTIONS PAGE */
-  .factions-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* NEWS PAGE */
-  .news-grid {
+/* CARD GRID */
+  .card-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -61,40 +29,8 @@
   .stats-section {
     grid-template-columns: 1fr;
   }
-/* GUIDES PAGE */
-  .guides-grid {
-    grid-template-columns: 1fr;
-  }
-/* WEAPONS PAGE */
-  .weapons-grid {
-    grid-template-columns: 1fr;
-  }
-/* GEAR PAGE */
-  .gear-grid {
-    grid-template-columns: 1fr;
-  }
-/* VEHICLES PAGE */
-  .vehicles-grid {
-    grid-template-columns: 1fr;
-  }
-/* LOOT PAGE */
-  .loot-grid {
-    grid-template-columns: 1fr;
-  }
-/* CRAFTING PAGE */
-  .crafting-grid {
-    grid-template-columns: 1fr;
-  }
-/* SURVIVAL PAGE */
-  .survival-grid {
-    grid-template-columns: 1fr;
-  }
-/* FACTIONS PAGE */
-  .factions-grid {
-    grid-template-columns: 1fr;
-  }
-/* NEWS PAGE */
-  .news-grid {
+/* CARD GRID */
+  .card-grid {
     grid-template-columns: 1fr;
   }
 }
