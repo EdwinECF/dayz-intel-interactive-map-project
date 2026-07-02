@@ -48,7 +48,7 @@
   border-radius: 8px;
   border: none;
 }
-
+/* GUIDES PAGE */
 .guides-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -71,6 +71,36 @@
 
 .guide-card span{
   background: #22C55E;
+  color: #111827;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* WEAPONS PAGE */
+.weapons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.weapon-card {
+  background: #1F2937;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.weapon-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.weapon-card p {
+  margin-bottom: 1rem;
+}
+
+.weapon-card span{
+  background: #F59E0B;
   color: #111827;
   padding: 0.3rem 0.6rem;
   border-radius: 999px;
