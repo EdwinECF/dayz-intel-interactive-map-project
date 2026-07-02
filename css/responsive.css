@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+  .sidebar {
+    width: 220px;
+  }
+
+  .stats-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  
+  .stats-section {
+    grid-template-columns: 1fr;
+  }
+}
