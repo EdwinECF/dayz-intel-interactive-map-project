@@ -1,7 +1,17 @@
+let allCraftingItems = []
+
 fetch("../data/crafting.json")
   .then(response => response.json())
   .then(craftingItems => {
+    allCraftingItems = craftingItems;
+    renderCraftingItems(allCraftingItems);
+  })
+  .catch(error => console.error(error));
+
+function renderCraftingItems(craftingItems) {
     const container = document.getElementById("crafting-container");
+
+    container.innerHTML = "";
 
     craftingItems.forEach(item => {
       container.innerHTML += `
@@ -15,5 +25,20 @@ fetch("../data/crafting.json")
         </article>
       `;
     });
-  })
-  .catch(error => console.error(error));
+}
+
+const searchInput = document.getElementById("crafting-search");
+
+searchInput.addEventListener("input", function () {
+    const searchText = searchInput.value.toLowerCase();
+
+    const filteredItems = allCraftingItems.filter(item => {
+        return (
+            item.name.toLowerCase().includes(searchText) ||
+            item.category.toLowerCase().includes(searchText) ||
+            item.description.toLowerCase().includes(searchText) ||
+            item.ingredients.toLowerCase().includes(searchText));
+    });
+
+    renderCraftingItems(filteredItems);
+});

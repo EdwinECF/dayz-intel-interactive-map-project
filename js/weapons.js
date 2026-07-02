@@ -1,7 +1,18 @@
+let allWeapons = []
+
 fetch("../data/weapons.json")
   .then(response => response.json())
   .then(weapons => {
+    allWeapons = weapons;
+    renderWeapons(allWeapons);
+  })
+  .catch(error => console.error(error));
+
+
+function renderWeapons(weapons) {
     const container = document.getElementById("weapons-container");
+
+    container.innerHTML = "";
 
     weapons.forEach(weapon => {
       container.innerHTML += `
@@ -17,5 +28,21 @@ fetch("../data/weapons.json")
         </article>
       `;
     });
-  })
-  .catch(error => console.error(error));
+}
+
+const searchInput = document.getElementById("weapons-search");
+
+searchInput.addEventListener("input", function () {
+    const searchText = searchInput.value.toLowerCase();
+
+    const filteredItems = allWeapons.filter(weapon => {
+        return (
+            weapon.name.toLowerCase().includes(searchText) ||
+            weapon.description.toLowerCase().includes(searchText) ||
+            weapon.category.toLowerCase().includes(searchText) ||
+            weapon.caliber.toLowerCase().includes(searchText) ||
+            String(weapon.damage).includes(searchText));
+      });
+
+    renderWeapons(filteredItems);
+});

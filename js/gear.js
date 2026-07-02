@@ -1,7 +1,18 @@
+let allGear = []
+
 fetch("../data/gear.json")
   .then(response => response.json())
   .then(gear => {
+    allGear = gear;
+    renderGear(allGear);
+  })
+  .catch(error => console.error(error));
+
+
+  function renderGear(gear) {
     const container = document.getElementById("gear-container");
+
+    container.innerHTML = "";
 
     gear.forEach(item => {
       container.innerHTML += `
@@ -15,5 +26,18 @@ fetch("../data/gear.json")
         </article>
       `;
     });
-  })
-  .catch(error => console.error(error));
+  
+  }
+  const searchInput = document.getElementById("gear-search");
+
+  searchInput.addEventListener("input", function () {
+      const searchText = searchInput.value.toLowerCase();
+
+      const filteredItems = allGear.filter(gear => {
+          return (
+              gear.name.toLowerCase().includes(searchText) ||
+              gear.category.toLowerCase().includes(searchText));
+      });
+
+      renderGear(filteredItems);
+});

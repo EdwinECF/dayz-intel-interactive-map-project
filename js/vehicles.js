@@ -1,7 +1,18 @@
+let allVehicles = []
+
 fetch("../data/vehicles.json")
   .then(response => response.json())
   .then(vehicles => {
+    allVehicles = vehicles;
+    renderVehicles(allVehicles);
+  })
+  .catch(error => console.error(error));
+
+
+function renderVehicles(vehicles) {
     const container = document.getElementById("vehicles-container");
+
+    container.innerHTML = "";
 
     vehicles.forEach(vehicle => {
       container.innerHTML += `
@@ -17,5 +28,21 @@ fetch("../data/vehicles.json")
         </article>
       `;
     });
-  })
-  .catch(error => console.error(error));
+}
+
+const searchInput = document.getElementById("vehicles-search");
+
+searchInput.addEventListener("input", function () {
+    const searchText = searchInput.value.toLowerCase();
+
+    const filteredItems = allVehicles.filter(vehicle => {
+        return (
+            vehicle.name.toLowerCase().includes(searchText) ||
+            vehicle.description.toLowerCase().includes(searchText) ||
+            vehicle.type.toLowerCase().includes(searchText) ||
+            vehicle.fuelType.toLowerCase().includes(searchText) ||
+            vehicle.seats.toString().includes(searchText));
+    });
+
+    renderVehicles(filteredItems);
+});

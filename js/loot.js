@@ -1,7 +1,17 @@
+let allLoot = []
+
 fetch("../data/loot.json")
   .then(response => response.json())
   .then(lootItems => {
+    allLoot = lootItems;
+    renderLoot(allLoot);
+  })
+  .catch(error => console.error(error));
+
+  function renderLoot(lootItems) {
     const container = document.getElementById("loot-container");
+
+    container.innerHTML = "";
 
     lootItems.forEach(item => {
       container.innerHTML += `
@@ -16,5 +26,21 @@ fetch("../data/loot.json")
         </article>
       `;
     });
-  })
-  .catch(error => console.error(error));
+}
+
+const searchInput = document.getElementById("loot-search");
+
+searchInput.addEventListener("input", function () {
+    const searchText = searchInput.value.toLowerCase();
+
+    const filteredItems = allLoot.filter(item => {
+        return (
+            item.name.toLowerCase().includes(searchText) ||
+            item.description.toLowerCase().includes(searchText) ||
+            item.category.toLowerCase().includes(searchText) ||
+            item.rarity.toLowerCase().includes(searchText)
+        );
+    });
+
+    renderLoot(filteredItems);
+});
