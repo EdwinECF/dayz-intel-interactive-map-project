@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     tileLayer.addTo(map);
 
-    map.setView([-mapSize / 2, mapSize / 2], -3);
+    map.setView([-mapSize / 2, mapSize / 2], -7);
 
     setTimeout(() => {
         map.invalidateSize();
