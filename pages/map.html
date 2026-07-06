@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/map.css">
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -73,13 +74,24 @@
             <header class="header">
                 <h1>Map</h1>
             </header>
-            <section class="content">
+            <section class="content map-page">
                 <section class="map-toolbar">
-                  Search | Filters | Layers
+                    <input type="text" placeholder="Search location...">
+
+                    <div class="map-filters">
+                        <button>Military</button>
+                        <button>Medical</button>
+                        <button>Water</button>
+                        <button>Vehicles</button>
+                        <button>Towns</button>
+                    </div>
                 </section>
 
-                <section class="map-container">
-                  Map goes here
+                <section class="map-layout">
+                    <div class="map-container">
+                        <h2>Chernarus Map</h2>
+                        <p>Interactive map coming soon.</p>
+                    </div>
                 </section>
 
                 <aside class="info-panel">
@@ -87,7 +99,8 @@
                 </aside>
 
                 <div class="map-placeholder">
-                  ---------------------------Interactive Map Coming Soon--------------------------
+                    <h3>Location Info</h3>
+                    <p>Select a marker to view location details.</p>
                 </div>
 
             </section>

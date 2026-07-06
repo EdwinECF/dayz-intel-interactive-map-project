@@ -1,0 +1,65 @@
+.map-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.map-toolbar {
+  background: #1F2937;
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.map-toolbar input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.map-filters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.map-filters button {
+  background: #374151;
+  color: #F9FAFB;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.map-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 1rem;
+}
+
+.map-container {
+  min-height: 600px;
+  background: #111827;
+  border: 2px solid #374151;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.map-placeholder {
+  height: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-info-panel { 
+  background: #1F2937;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
