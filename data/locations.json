@@ -1,23 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Northwest Airfield",
-    "type": "Military",
-    "x": 4500,
-    "y": 10200
+    "name": "Chernogorsk",
+    "type": "Town",
+    "size": "major",
+    "x": 13712,
+    "y": 26123
   },
   {
     "id": 2,
-    "name": "Tisy Military Base",
-    "type": "Military",
-    "x": 1800,
-    "y": 14500
+    "name": "Elektrozavodsk",
+    "type": "Town",
+    "size": "major",
+    "x": 20992,
+    "y": 28269
   },
   {
     "id": 3,
-    "name": "Green Mountain",
-    "type": "Landmark",
-    "x": 3700,
-    "y": 8000
+    "name": "Northwest Airfield",
+    "type": "Military",
+    "size": "major",
+    "x": 8456,
+    "y": 11019
   }
 ]

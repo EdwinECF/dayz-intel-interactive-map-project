@@ -51,6 +51,44 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     tileLayer.addTo(map);
+    
+    const crosshair = document.getElementById("map-crosshair");
+    const coordinateTooltip = document.getElementById("coordinate-tooltip");
+    map.on("mousemove", function (event) {
+    const x = Math.round(event.latlng.lng);
+    const y = Math.round(Math.abs(event.latlng.lat));
+
+    coordinateTooltip.style.display = "block";
+    coordinateTooltip.style.left = `${event.originalEvent.offsetX}px`;
+    coordinateTooltip.style.top = `${event.originalEvent.offsetY}px`;
+    coordinateTooltip.textContent = `X: ${x} | Y: ${y}`;
+    
+    crosshair.style.display = "block";
+    crosshair.style.left = `${event.originalEvent.offsetX}px`;
+    crosshair.style.top = `${event.originalEvent.offsetY}px`;
+    });
+    
+    map.on("mouseout", function () {
+        coordinateTooltip.style.display = "none";
+        crosshair.style.display = "none";
+    });
+
+
+    fetch("../data/locations.json")
+    .then(response => response.json())
+    .then(locations => {
+        locations.forEach(location => {
+            const label = L.marker([-location.y, location.x], {
+                icon: L.divIcon({
+                    className: `map-label ${location.size}`,
+                    html: location.name,
+                    iconSize: null
+                })
+            }).addTo(map);
+        });
+    })
+
+    .catch(error => console.error("Error loading locations:", error));
 
     map.setView([-mapSize / 2, mapSize / 2], -7);
 

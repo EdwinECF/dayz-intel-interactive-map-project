@@ -69,5 +69,73 @@
   width: 100%;
   height: 600px;
   background: #111827;
+
+/* Map Marker Design */
+}
+.map-label {
+    color: #f9fafb;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: 2px 2px 4px #000;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
 }
 
+.map-label.major {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.map-label.medium {
+    font-size: 13px;
+}
+
+.map-label.small {
+    font-size: 11px;
+}
+
+/* MAP Pointer Design */
+
+.map-container {
+    position: relative;
+}
+
+.coordinate-tooltip {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1000;
+
+    background: rgba(17, 24, 39, 0.9);
+    color: #22C55E;
+    border: 1px solid #22C55E;
+    border-radius: 8px;
+
+    padding: 0.4rem 0.7rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+    box-shadow: 0 0 12px rgba(34, 197, 94, 0.5);
+    transform: translate(14px, 14px);
+
+    display: none;
+}
+
+/* CROSSHAIR POINTER */
+#dayz-map {
+    cursor: none;
+}
+
+#map-crosshair {
+    position: absolute;
+    z-index: 1001;
+    pointer-events: none;
+    color: #b7ff70;
+    font-size: 1.4rem;
+    text-shadow:
+        0 0 5px #b7ff70,
+        0 0 10px #b7ff70;
+    display: none;
+    transform: translate(-50%, -50%);
+}
