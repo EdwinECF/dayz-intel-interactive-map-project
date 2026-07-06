@@ -13,6 +13,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
     <link rel="stylesheet" href="../css/responsive.css">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
 </head>
 <body>
   <div class="app-container">
@@ -89,8 +93,7 @@
 
                 <section class="map-layout">
                     <div class="map-container">
-                        <h2>Chernarus Map</h2>
-                        <p>Interactive map coming soon.</p>
+                        <div id="dayz-map"></div>
                     </div>
                 </section>
 
@@ -106,6 +109,7 @@
             </section>
         </main>
   </div>
-  
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../js/map.js"></script>
 </body>
 </html>

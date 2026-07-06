@@ -63,3 +63,11 @@
   padding: 1.5rem;
   border-radius: 12px;
 }
+
+/* MAP */
+#dayz-map {
+  width: 100%;
+  height: 600px;
+  background: #111827;
+}
+
