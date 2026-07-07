@@ -22,5 +22,13 @@
     "size": "major",
     "x": 8456,
     "y": 11019
+  },
+    {
+    "id": 3,
+    "name": "Solnichy",
+    "type": "Town",
+    "size": "small",
+    "x": 27553,
+    "y": 19552
   }
 ]
