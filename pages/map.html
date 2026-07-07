@@ -83,15 +83,9 @@
 
                     <section class="map-main-panel">
                         <section class="map-toolbar">
+
                             <input type="text" placeholder="Search location...">
 
-                            <div class="map-filters">
-                                <button>Military</button>
-                                <button>Medical</button>
-                                <button>Water</button>
-                                <button>Vehicles</button>
-                                <button>Towns</button>
-                            </div>
                         </section>
 
                         <section class="map-container">
@@ -115,21 +109,43 @@
                         </section>
                     </section>
 
-                    <aside class="map-sidebar-right">
-                        <section class="map-widget">
-                            <h3>Map Layers</h3>
+                    <aside class="map-sidebar-right" id="map-side-panel">
 
-                            <label><input type="checkbox" checked> Military</label>
-                            <label><input type="checkbox"> Loot</label>
-                            <label><input type="checkbox"> Vehicles</label>
-                            <label><input type="checkbox"> Medical</label>
-                            <label><input type="checkbox"> Water</label>
+                        <section class="map-widget panel-view" id="panel-layers">
+                            <h3>Map Layers</h3>
+                            <p>Choose what you want to see</p>
+
+                            <div class="layer-list" id="layer-list"></div>
+
+                            <div class="map-settings">
+                            <label>
+                                City label size
+                                <input id="label-size-slider" type="range" min="0.7" max="1.6" step="0.1" value="1">
+                            </label>
+
+                            <label>
+                                Marker size
+                                <input id="marker-size-slider" type="range" min="0.7" max="1.8" step="0.1" value="1">
+                            </label>
+                            </div>
+
+                        </section>
+
+                        <section class="map-widget panel-view panel-info" id="panel-info">
+                            <button id="close-info-panel" class="close-info-btn">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+
+                            <h3 id="info-title">Location</h3>
+                            <p id="info-type">Type</p>
+                            <p id="info-coords">Coordinates</p>
                         </section>
 
                         <section class="map-widget">
                             <h3>Recent Markers</h3>
                             <p>No custom markers yet.</p>
                         </section>
+
                     </aside>
 
             </section>
