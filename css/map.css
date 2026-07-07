@@ -81,6 +81,8 @@
     border: 2px solid #374151;
     border-radius: 12px;
     overflow: hidden;
+    --label-scale: 1;
+    --marker-scale: 1;
 }
 
 #dayz-map {
@@ -123,15 +125,15 @@
 }
 
 .map-label.major {
-    font-size: 22px;
+    font-size: calc(22px * var(--label-scale));
 }
 
 .map-label.medium {
-    font-size: 16px;
+    font-size: calc(16px * var(--label-scale));
 }
 
 .map-label.small {
-    font-size: 12px;
+    font-size: calc(12px * var(--label-scale));
 }
 
 /* ===========================
@@ -277,4 +279,89 @@
         0 0 3px #000,
         0 0 6px #000;
     cursor: none !important;
+}
+
+.military-marker {
+    color: #ef4444;
+    font-size: 15px;
+    text-shadow: 0 0 3px #000, 0 0 6px #000;
+    cursor: none !important;
+}
+
+.map-filters button.active {
+    background: #2563eb;
+}
+
+.medical-marker {
+    color: #22c55e;
+    font-size: 15px;
+    text-shadow: 0 0 3px #000, 0 0 6px #000;
+    cursor: none !important;
+}
+
+.police-marker {
+    color: #38bdf8;
+    font-size: 15px;
+    text-shadow: 0 0 3px #000, 0 0 6px #000;
+    cursor: none !important;
+}
+
+.industrial-marker {
+    color: #facc15;
+    font-size: 15px;
+    text-shadow: 0 0 3px #000, 0 0 6px #000;
+    cursor: none !important;
+}
+
+.hunting-marker {
+    color: #a16207;
+    font-size: 15px;
+    text-shadow: 0 0 3px #000, 0 0 6px #000;
+    cursor: none !important;
+}
+
+.farm-marker { color: #eab308; }
+.landmark-marker { color: #f97316; }
+.event-marker { color: #a855f7; }
+.animal-marker { color: #d97706; }
+.nature-marker { color: #22c55e; }
+.infected-marker { color: #84cc16; }
+.area-marker { color: #ef4444; }
+
+.water-marker,
+.military-marker,
+.medical-marker,
+.police-marker,
+.industrial-marker,
+.hunting-marker,
+.farm-marker,
+.landmark-marker,
+.area-marker {
+    font-size: calc(15px * var(--marker-scale));
+}
+/* ===========================
+   INFO-PANEL
+=========================== */
+
+#panel-info {
+    display: none;
+    position: relative;
+}
+
+.map-sidebar-right.show-info #panel-layers {
+    display: none;
+}
+
+.map-sidebar-right.show-info #panel-info {
+    display: block;
+}
+
+.close-info-btn {
+    background: #374151;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    float: right;
 }

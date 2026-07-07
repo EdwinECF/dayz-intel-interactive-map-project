@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "water",
+      "title": "Water",
+      "icon": "droplet",
+      "file": "../data/markers-urban.json",
+      "className": "water-marker",
+      "default": true,
+      "filterType": "water"
+    },
+    {
+      "id": "military",
+      "title": "Military",
+      "icon": "shield-halved",
+      "file": "../data/markers-military.json",
+      "className": "military-marker",
+      "default": false,
+      "filterType": "all"
+    },
+    {
+      "id": "medical",
+      "title": "Medical",
+      "icon": "kit-medical",
+      "file": "../data/markers-medical.json",
+      "className": "medical-marker",
+      "default": false,
+      "filterType": "all"
+    },
+    {
+      "id": "police",
+      "title": "Police",
+      "icon": "building-shield",
+      "file": "../data/markers-military.json",
+      "className": "police-marker",
+      "default": false,
+      "filterType": "police"
+    },
+    {
+      "id": "industrial",
+      "title": "Industrial",
+      "icon": "industry",
+      "file": "../data/markers-industrial.json",
+      "className": "industrial-marker",
+      "default": false,
+      "filterType": "all"
+    },
+    {
+      "id": "hunting",
+      "title": "Hunting",
+      "icon": "campground",
+      "file": "../data/markers-rural.json",
+      "className": "hunting-marker",
+      "default": false,
+      "filterType": "hunting"
+    },
+    {
+      "id": "farm",
+      "title": "Farm",
+      "icon": "wheat-awn",
+      "file": "../data/markers-rural.json",
+      "className": "farm-marker",
+      "default": false,
+      "filterType": "farm"
+    },
+    {
+      "id": "landmark",
+      "title": "Landmarks",
+      "icon": "location-dot",
+      "file": "../data/markers-landmark.json",
+      "className": "landmark-marker",
+      "default": false,
+      "filterType": "all"
+    },
+    {
+      "id": "areas",
+      "title": "Areas",
+      "icon": "radiation",
+      "file": "../data/markers-areas.json",
+      "className": "area-marker",
+      "default": false,
+      "filterType": "all"
+    }
+  ]
+}
