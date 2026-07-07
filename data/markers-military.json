@@ -1,0 +1,4997 @@
+[
+  {
+    "id": "military-land_mil_atc_big-1",
+    "name": "Land Mil Atc Big",
+    "type": "Military",
+    "group": "ATCTower",
+    "objectName": "land_mil_atc_big",
+    "lat": 48.78193,
+    "lng": -75.16822,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks1-1",
+    "name": "Land Mil Barracks1",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks1",
+    "lat": 80.64465,
+    "lng": -142.33217,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks1-2",
+    "name": "Land Mil Barracks1",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks1",
+    "lat": 65.19606,
+    "lng": -89.15492,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks1-3",
+    "name": "Land Mil Barracks1",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks1",
+    "lat": 64.9689,
+    "lng": -89.93827,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks1-4",
+    "name": "Land Mil Barracks1",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks1",
+    "lat": 7.87177,
+    "lng": -77.71836,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks1-5",
+    "name": "Land Mil Barracks1",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks1",
+    "lat": 51.37301,
+    "lng": -72.4083,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks1-6",
+    "name": "Land Mil Barracks1",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks1",
+    "lat": 82.1615,
+    "lng": -3.76723,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-1",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 80.72651,
+    "lng": -142.7375,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-2",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 80.79357,
+    "lng": -142.98626,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-3",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 79.14683,
+    "lng": -141.88688,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-4",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": -71.08475,
+    "lng": -135.80655,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-5",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": -70.45203,
+    "lng": -132.60771,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-6",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": -71.35008,
+    "lng": -131.58836,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea",
+      "medic"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks2-7",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": -71.55072,
+    "lng": -129.80657,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks2-8",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": -54.7182,
+    "lng": -123.14767,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-9",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": -54.22501,
+    "lng": -123.13225,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-10",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": -81.94649,
+    "lng": -116.87397,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "police"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks2-11",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 65.13505,
+    "lng": -89.91027,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-12",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 65.92795,
+    "lng": -89.61439,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-13",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 65.0101,
+    "lng": -89.09847,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-14",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 65.75277,
+    "lng": -88.99662,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-15",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 7.10297,
+    "lng": -78.96794,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-16",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 8.26224,
+    "lng": -77.55817,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-17",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 8.15023,
+    "lng": -76.95611,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-18",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 38.38417,
+    "lng": -65.84054,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks2-19",
+    "name": "Land Mil Barracks2",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks2",
+    "lat": 82.1997,
+    "lng": -3.96152,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-1",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 80.84961,
+    "lng": -141.87891,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-2",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": -54.02446,
+    "lng": -123.36691,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-3",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": -54.49025,
+    "lng": -122.61466,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-4",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": -41.30351,
+    "lng": -96.12379,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-5",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 65.37844,
+    "lng": -89.8381,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-6",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 48.9943,
+    "lng": -87.08459,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks3-7",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 7.40798,
+    "lng": -78.68125,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-8",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 7.62334,
+    "lng": -77.1908,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-9",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 33.49568,
+    "lng": -77.04322,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-10",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 50.15519,
+    "lng": -73.02105,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-11",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 38.96988,
+    "lng": -66.07911,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-12",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 37.80451,
+    "lng": -60.15978,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks3-13",
+    "name": "Land Mil Barracks3",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks3",
+    "lat": 82.31612,
+    "lng": -2.98309,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks4-1",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": -81.76189,
+    "lng": -122.0797,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks4-2",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": -81.77234,
+    "lng": -121.78976,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks4-3",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": -81.7846,
+    "lng": -121.43513,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks4-4",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 82.68182,
+    "lng": -97.32304,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks4-5",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 82.70174,
+    "lng": -97.48153,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks4-6",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 74.15133,
+    "lng": -67.93134,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks4-7",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 74.30966,
+    "lng": -67.92117,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks4-8",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 74.4568,
+    "lng": -67.93165,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks4-9",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 81.41622,
+    "lng": -19.68778,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks4-10",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 79.32135,
+    "lng": 12.28124,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks4-11",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 79.41559,
+    "lng": 13.02188,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks4-12",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 76.52555,
+    "lng": 66.8506,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks4-13",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 76.62956,
+    "lng": 67.64955,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks4-14",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 76.59193,
+    "lng": 68.13506,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks4-15",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": 76.66832,
+    "lng": 67.16537,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks4-16",
+    "name": "Land Mil Barracks4",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks4",
+    "lat": -37.97706,
+    "lng": 121.03929,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks6-1",
+    "name": "Land Mil Barracks6",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks6",
+    "lat": 33.68391,
+    "lng": -78.29029,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks6_old-1",
+    "name": "Land Mil Barracks6 Old",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks6_old",
+    "lat": 33.08666,
+    "lng": -78.4886,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks6_old-2",
+    "name": "Land Mil Barracks6 Old",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks6_old",
+    "lat": 34.30785,
+    "lng": -78.0655,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks_round-1",
+    "name": "Land Mil Barracks Round",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks_round",
+    "lat": 78.52191,
+    "lng": -148.82852,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks_round-2",
+    "name": "Land Mil Barracks Round",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks_round",
+    "lat": 81.07911,
+    "lng": -146.1753,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks_round-3",
+    "name": "Land Mil Barracks Round",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks_round",
+    "lat": 80.93168,
+    "lng": -142.27491,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks_round-4",
+    "name": "Land Mil Barracks Round",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks_round",
+    "lat": -53.20081,
+    "lng": -124.65436,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks_round-5",
+    "name": "Land Mil Barracks Round",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks_round",
+    "lat": 42.72334,
+    "lng": -68.53456,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks_round-6",
+    "name": "Land Mil Barracks Round",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_mil_barracks_round",
+    "lat": -77.70967,
+    "lng": -65.23987,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_barracks-1",
+    "name": "Land Tisy Barracks",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_tisy_barracks",
+    "lat": 81.08425,
+    "lng": -148.55281,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_barracks-2",
+    "name": "Land Tisy Barracks",
+    "type": "Military",
+    "group": "Barracks",
+    "objectName": "land_tisy_barracks",
+    "lat": 81.74953,
+    "lng": 1.56489,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-1",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -7.53465,
+    "lng": -159.32327,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-2",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -7.58037,
+    "lng": -158.85681,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-3",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -16.61251,
+    "lng": -154.38835,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-4",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -16.40015,
+    "lng": -154.15048,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-5",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -16.45589,
+    "lng": -154.12159,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-6",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 78.0413,
+    "lng": -147.6783,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-7",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 77.84855,
+    "lng": -146.3403,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-8",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 77.83757,
+    "lng": -146.30996,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-9",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 77.51544,
+    "lng": -144.83623,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-10",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 77.85738,
+    "lng": -146.06723,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-11",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 79.94376,
+    "lng": -144.92502,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-12",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 79.9636,
+    "lng": -145.0724,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-13",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 77.82682,
+    "lng": -144.67122,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-14",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 80.03281,
+    "lng": -144.31078,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-15",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 80.05205,
+    "lng": -144.52632,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-16",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 80.9083,
+    "lng": -144.38097,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-17",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 80.82576,
+    "lng": -143.99672,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-18",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 80.86895,
+    "lng": -144.19381,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-19",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 80.76933,
+    "lng": -142.46999,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-20",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 80.80664,
+    "lng": -142.39,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-21",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -70.99266,
+    "lng": -137.51823,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-22",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -70.98812,
+    "lng": -137.45885,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-23",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 38.62623,
+    "lng": -134.49286,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-24",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 38.78306,
+    "lng": -134.20425,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-25",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 39.74222,
+    "lng": -134.57256,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-26",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -70.40146,
+    "lng": -133.26953,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-27",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -70.40767,
+    "lng": -132.85134,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-28",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -71.94037,
+    "lng": -130.50512,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-29",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -71.39106,
+    "lng": -130.11868,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea",
+      "medic"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-30",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -71.36138,
+    "lng": -129.83995,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-31",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -71.37665,
+    "lng": -130.4008,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea",
+      "medic"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-32",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -71.39549,
+    "lng": -130.40943,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea",
+      "medic"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-33",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -53.30232,
+    "lng": -124.38993,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-34",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -81.94767,
+    "lng": -123.87516,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-35",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -81.55452,
+    "lng": -124.24805,
+    "tier": 2,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-36",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -54.56008,
+    "lng": -123.5181,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-37",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -54.58598,
+    "lng": -123.46752,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-38",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -53.25576,
+    "lng": -123.60766,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-39",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -52.9672,
+    "lng": -123.90121,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-40",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -52.96842,
+    "lng": -123.8249,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-41",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -52.95777,
+    "lng": -123.14589,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-42",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -53.34141,
+    "lng": -124.34721,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-43",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -52.9846,
+    "lng": -124.1497,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-44",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -53.22845,
+    "lng": -124.06653,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-45",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -53.21049,
+    "lng": -123.22316,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-46",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 37.498,
+    "lng": -115.42687,
+    "tier": 4,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-47",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 37.40619,
+    "lng": -115.36284,
+    "tier": 4,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-48",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 70.88253,
+    "lng": -101.91336,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-49",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 70.97158,
+    "lng": -101.37842,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-50",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -78.07801,
+    "lng": -98.34922,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-51",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -78.07682,
+    "lng": -98.59261,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-52",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 65.36257,
+    "lng": -89.29008,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-53",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 63.50622,
+    "lng": -88.86809,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-54",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 63.47576,
+    "lng": -88.08033,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-55",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 63.4963,
+    "lng": -88.93674,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-56",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 63.71455,
+    "lng": -88.58608,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-57",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 63.6845,
+    "lng": -88.17893,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-58",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 20.25902,
+    "lng": -87.07435,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-59",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 22.1999,
+    "lng": -85.68254,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-60",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 48.35162,
+    "lng": -85.92458,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-61",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 56.6777,
+    "lng": -84.26255,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-62",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 56.92256,
+    "lng": -84.98097,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-63",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 57.46047,
+    "lng": -84.85587,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-64",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 56.91392,
+    "lng": -84.91942,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-65",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 57.36094,
+    "lng": -84.34858,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-66",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 36.98387,
+    "lng": -79.89166,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-67",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 6.52967,
+    "lng": -79.45398,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-68",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 38.76264,
+    "lng": -79.33787,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-69",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 7.19199,
+    "lng": -77.69636,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-70",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 7.30999,
+    "lng": -78.04003,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-71",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 9.00321,
+    "lng": -77.05334,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-72",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 6.57682,
+    "lng": -76.59196,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-73",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 8.9105,
+    "lng": -76.72856,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-74",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 48.70345,
+    "lng": -75.87447,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-75",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 49.88464,
+    "lng": -75.55698,
+    "tier": 4,
+    "tags": [
+      "firefighter"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-76",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 49.93426,
+    "lng": -75.54962,
+    "tier": 4,
+    "tags": [
+      "firefighter"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-77",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 54.23364,
+    "lng": -76.53526,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-78",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 55.44577,
+    "lng": -76.75401,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-79",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 47.31184,
+    "lng": -74.8035,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-80",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 49.02924,
+    "lng": -75.33628,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-81",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 56.41032,
+    "lng": -74.82949,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-82",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 56.34853,
+    "lng": -75.15146,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-83",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 56.43442,
+    "lng": -74.45258,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-84",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 49.09558,
+    "lng": -71.23645,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-85",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 49.21527,
+    "lng": -71.32883,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-86",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 50.16505,
+    "lng": -69.77028,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-87",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 38.59421,
+    "lng": -66.18969,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-88",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 37.68702,
+    "lng": -63.87061,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-89",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 41.26152,
+    "lng": -58.15351,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-90",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -3.57106,
+    "lng": -37.9611,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-91",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -2.59744,
+    "lng": -37.72455,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-92",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -3.9868,
+    "lng": -37.25324,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-93",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -4.10611,
+    "lng": -37.01899,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-94",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -4.2456,
+    "lng": -36.89421,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-95",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -3.77911,
+    "lng": -36.15189,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-96",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 72.45628,
+    "lng": -19.60896,
+    "tier": 3,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-97",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -76.05977,
+    "lng": -12.35211,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-98",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -75.34528,
+    "lng": -10.94793,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-99",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -75.04451,
+    "lng": -9.7772,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-100",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -74.12907,
+    "lng": -8.40739,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-101",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -73.67648,
+    "lng": -7.26678,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-102",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -73.77497,
+    "lng": -5.51501,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-103",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 82.21797,
+    "lng": -4.35128,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-104",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 81.50627,
+    "lng": -3.06847,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-105",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 82.29836,
+    "lng": -2.77686,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-106",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 82.27353,
+    "lng": -2.70722,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-107",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 82.20215,
+    "lng": -3.50113,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-108",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -74.23373,
+    "lng": -1.50496,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-109",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 81.99758,
+    "lng": -1.43751,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-110",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -73.88376,
+    "lng": -0.89925,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-111",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 81.71307,
+    "lng": -0.04395,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-112",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 81.86258,
+    "lng": -0.37441,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-113",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 81.83975,
+    "lng": 1.40182,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-114",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -79.90825,
+    "lng": 44.39114,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-115",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -80.53978,
+    "lng": 46.56964,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-116",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -80.53058,
+    "lng": 46.58427,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-117",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": -79.66291,
+    "lng": 52.59127,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-118",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 79.87811,
+    "lng": 84.85408,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-119",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 79.88202,
+    "lng": 84.64235,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-120",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 70.93633,
+    "lng": 90.31734,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-121",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 70.91562,
+    "lng": 90.35602,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-122",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 40.49219,
+    "lng": 116.28126,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-123",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 45.80353,
+    "lng": 116.94111,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-124",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 46.10771,
+    "lng": 116.40196,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-125",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 46.24671,
+    "lng": 117.27899,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-126",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 80.21757,
+    "lng": 125.77216,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1mo-127",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 58.29915,
+    "lng": 133.23653,
+    "tier": 1,
+    "tags": [
+      "contaminatedarea",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-128",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 58.38364,
+    "lng": 132.90618,
+    "tier": 1,
+    "tags": [
+      "contaminatedarea",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-129",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 76.14818,
+    "lng": 139.34775,
+    "tier": 1,
+    "tags": [
+      "coast",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-130",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 75.14111,
+    "lng": 140.39693,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_container_1mo-131",
+    "name": "Land Container 1mo",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1mo",
+    "lat": 75.27624,
+    "lng": 140.15233,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-1",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -71.63398,
+    "lng": -129.83221,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-2",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -71.60374,
+    "lng": -129.92925,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-3",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -52.92482,
+    "lng": -124.2006,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-4",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -53.28563,
+    "lng": -123.85778,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-5",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -53.27135,
+    "lng": -123.01197,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-6",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -52.80445,
+    "lng": -122.81094,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-7",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -53.25588,
+    "lng": -122.87967,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-8",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 48.57936,
+    "lng": -85.96132,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-9",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 37.46474,
+    "lng": -79.18942,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-10",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 37.50635,
+    "lng": -79.20955,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-11",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 38.59476,
+    "lng": -79.01982,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-12",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 36.74355,
+    "lng": -78.131,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-13",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 36.32508,
+    "lng": -77.68217,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-14",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 36.36742,
+    "lng": -77.70215,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-15",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 50.64379,
+    "lng": -77.34675,
+    "tier": 4,
+    "tags": [
+      "firefighter"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-16",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 50.41783,
+    "lng": -76.51529,
+    "tier": 4,
+    "tags": [
+      "firefighter"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-17",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 49.31605,
+    "lng": -72.67758,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-18",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 50.93521,
+    "lng": -71.11851,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-19",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 39.07888,
+    "lng": -60.02505,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-20",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 39.00065,
+    "lng": -60.02381,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-21",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 41.22319,
+    "lng": -58.36547,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-22",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -3.70306,
+    "lng": -36.38511,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-23",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 81.73622,
+    "lng": 0.01006,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-24",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -79.75811,
+    "lng": 46.32018,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-25",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -80.50822,
+    "lng": 46.70839,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-26",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -79.99924,
+    "lng": 47.31608,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-27",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": -79.59513,
+    "lng": 49.68697,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-28",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 70.86105,
+    "lng": 90.27739,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-29",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 71.02406,
+    "lng": 90.54351,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_container_1moh-30",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 58.26551,
+    "lng": 133.2336,
+    "tier": 1,
+    "tags": [
+      "contaminatedarea",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-31",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 58.23987,
+    "lng": 133.20473,
+    "tier": 1,
+    "tags": [
+      "contaminatedarea",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_container_1moh-32",
+    "name": "Land Container 1moh",
+    "type": "Military",
+    "group": "Container",
+    "objectName": "land_container_1moh",
+    "lat": 58.3096,
+    "lng": 133.41591,
+    "tier": 1,
+    "tags": [
+      "contaminatedarea",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardtower-1",
+    "name": "Land Mil Guardtower",
+    "type": "Military",
+    "group": "GuardTower",
+    "objectName": "land_mil_guardtower",
+    "lat": 81.59298,
+    "lng": -164.07045,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardtower-2",
+    "name": "Land Mil Guardtower",
+    "type": "Military",
+    "group": "GuardTower",
+    "objectName": "land_mil_guardtower",
+    "lat": 79.44761,
+    "lng": -151.98475,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardtower-3",
+    "name": "Land Mil Guardtower",
+    "type": "Military",
+    "group": "GuardTower",
+    "objectName": "land_mil_guardtower",
+    "lat": 77.89568,
+    "lng": -147.63508,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardtower-4",
+    "name": "Land Mil Guardtower",
+    "type": "Military",
+    "group": "GuardTower",
+    "objectName": "land_mil_guardtower",
+    "lat": 80.466,
+    "lng": -140.86187,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardtower-5",
+    "name": "Land Mil Guardtower",
+    "type": "Military",
+    "group": "GuardTower",
+    "objectName": "land_mil_guardtower",
+    "lat": 79.53408,
+    "lng": -138.23113,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardtower-6",
+    "name": "Land Mil Guardtower",
+    "type": "Military",
+    "group": "GuardTower",
+    "objectName": "land_mil_guardtower",
+    "lat": 78.58905,
+    "lng": -133.73571,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-1",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -70.97008,
+    "lng": -138.01829,
+    "tier": 2,
+    "tags": [
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-2",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 78.544,
+    "lng": -138.62051,
+    "tier": 4,
+    "tags": [
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-3",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -72.05012,
+    "lng": -133.03282,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea",
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-4",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -71.29352,
+    "lng": -130.52904,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea",
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-5",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -69.02738,
+    "lng": -127.83184,
+    "tier": 2,
+    "tags": [
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-6",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -81.70321,
+    "lng": -120.42661,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "industrial",
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-7",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -40.40193,
+    "lng": -96.21031,
+    "tier": 3,
+    "tags": [
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-8",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 74.89209,
+    "lng": -94.49302,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-9",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 21.84411,
+    "lng": -88.19979,
+    "tier": 3,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-10",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 63.36451,
+    "lng": -85.95275,
+    "tier": 2,
+    "tags": [
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-11",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 37.63797,
+    "lng": -78.53022,
+    "tier": 2,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-12",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 30.61126,
+    "lng": -77.82469,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-13",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 6.14507,
+    "lng": -76.5617,
+    "tier": 3,
+    "tags": [
+      "military"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-14",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -76.48061,
+    "lng": -44.213,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-15",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -75.37908,
+    "lng": -31.9473,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-16",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -75.21388,
+    "lng": -22.1892,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-17",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -74.11569,
+    "lng": -22.04439,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-18",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 72.27478,
+    "lng": -5.21745,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-19",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 73.42997,
+    "lng": 16.4616,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-20",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -79.22711,
+    "lng": 35.09321,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-21",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -79.27511,
+    "lng": 47.24864,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-22",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -79.94576,
+    "lng": 48.99799,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-23",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -77.12123,
+    "lng": 55.39335,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-24",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 80.72258,
+    "lng": 61.0859,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-25",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -75.30598,
+    "lng": 65.41287,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-26",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 81.04459,
+    "lng": 73.10529,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-27",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": -9.35016,
+    "lng": 79.49706,
+    "tier": 999,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-28",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 80.52942,
+    "lng": 84.56224,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-29",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 26.02755,
+    "lng": 90.97401,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-30",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 80.58371,
+    "lng": 90.81153,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-31",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 36.90668,
+    "lng": 95.63207,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-32",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 80.79968,
+    "lng": 99.45777,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-33",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 37.27348,
+    "lng": 110.47381,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse1-34",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 41.83994,
+    "lng": 114.18786,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-35",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 47.26401,
+    "lng": 116.82139,
+    "tier": 1,
+    "tags": [
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse1-36",
+    "name": "Land Mil Guardhouse1",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse1",
+    "lat": 75.9705,
+    "lng": 138.98324,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_mil_guardhouse2-1",
+    "name": "Land Mil Guardhouse2",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse2",
+    "lat": 80.58064,
+    "lng": -140.924,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse2-2",
+    "name": "Land Mil Guardhouse2",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse2",
+    "lat": -54.85868,
+    "lng": -122.81847,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse2-3",
+    "name": "Land Mil Guardhouse2",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse2",
+    "lat": 58.51525,
+    "lng": -98.3006,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse2-4",
+    "name": "Land Mil Guardhouse2",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse2",
+    "lat": 30.10534,
+    "lng": -60.31252,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse2-5",
+    "name": "Land Mil Guardhouse2",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse2",
+    "lat": -72.75969,
+    "lng": -11.07504,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardhouse2-6",
+    "name": "Land Mil Guardhouse2",
+    "type": "Military",
+    "group": "Guardhouse",
+    "objectName": "land_mil_guardhouse2",
+    "lat": 30.22476,
+    "lng": 2.56784,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-1",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": 74.48265,
+    "lng": -102.64069,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-2",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": -77.12952,
+    "lng": -99.28589,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-3",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": 21.14501,
+    "lng": -95.75031,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-4",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": -59.40921,
+    "lng": -47.34621,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-5",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": 47.32902,
+    "lng": -44.25426,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-6",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": -74.41944,
+    "lng": -39.78067,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-7",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": -6.62664,
+    "lng": -17.90755,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-8",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": 18.5041,
+    "lng": 35.43677,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-9",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": -48.1122,
+    "lng": 49.62812,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-10",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": 70.91674,
+    "lng": 70.2241,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-11",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": -29.6484,
+    "lng": 72.87195,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-12",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": -69.66415,
+    "lng": 92.5795,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_village_policestation-13",
+    "name": "Land Village Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_village_policestation",
+    "lat": 44.72776,
+    "lng": 112.22339,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_city_policestation-1",
+    "name": "Land City Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_city_policestation",
+    "lat": -50.41095,
+    "lng": -118.25765,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_city_policestation-2",
+    "name": "Land City Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_city_policestation",
+    "lat": -76.32418,
+    "lng": -30.04321,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_city_policestation-3",
+    "name": "Land City Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_city_policestation",
+    "lat": 71.98963,
+    "lng": -5.08445,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_city_policestation-4",
+    "name": "Land City Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_city_policestation",
+    "lat": -77.90252,
+    "lng": 56.36789,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_city_policestation-5",
+    "name": "Land City Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_city_policestation",
+    "lat": 81.25234,
+    "lng": 79.73223,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_city_policestation-6",
+    "name": "Land City Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_city_policestation",
+    "lat": 24.07896,
+    "lng": 92.72594,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_city_policestation-7",
+    "name": "Land City Policestation",
+    "type": "Military",
+    "group": "PoliceStation",
+    "objectName": "land_city_policestation",
+    "lat": 75.63633,
+    "lng": 133.01035,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks5-1",
+    "name": "Land Mil Barracks5",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_mil_barracks5",
+    "lat": 80.14013,
+    "lng": -141.69711,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks5-2",
+    "name": "Land Mil Barracks5",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_mil_barracks5",
+    "lat": -53.78693,
+    "lng": -124.24148,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks5-3",
+    "name": "Land Mil Barracks5",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_mil_barracks5",
+    "lat": -81.79537,
+    "lng": -120.52962,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "industrial"
+    ]
+  },
+  {
+    "id": "military-land_mil_barracks5-4",
+    "name": "Land Mil Barracks5",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_mil_barracks5",
+    "lat": -40.83253,
+    "lng": -96.64834,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks5-5",
+    "name": "Land Mil Barracks5",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_mil_barracks5",
+    "lat": 6.84745,
+    "lng": -77.86482,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks5-6",
+    "name": "Land Mil Barracks5",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_mil_barracks5",
+    "lat": 38.11687,
+    "lng": -59.62827,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_barracks5_basement-1",
+    "name": "Land Mil Barracks5 Basement",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_mil_barracks5_basement",
+    "lat": 64.29573,
+    "lng": -88.48938,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_prison_main-1",
+    "name": "Land Prison Main",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_prison_main",
+    "lat": -81.78438,
+    "lng": -117.60604,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "police"
+    ]
+  },
+  {
+    "id": "military-land_prison_side-1",
+    "name": "Land Prison Side",
+    "type": "Military",
+    "group": "Prison",
+    "objectName": "land_prison_side",
+    "lat": -81.89973,
+    "lng": -116.73361,
+    "tier": 2,
+    "tags": [
+      "coast",
+      "military",
+      "police"
+    ]
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-1",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": -16.71696,
+    "lng": -153.46702,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-2",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": 77.43845,
+    "lng": -145.67427,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-3",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": 77.79437,
+    "lng": -145.50743,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-4",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": -26.21717,
+    "lng": -119.02742,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-5",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": 57.32809,
+    "lng": -85.04045,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-6",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": -73.44826,
+    "lng": -48.74723,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-7",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": -3.65956,
+    "lng": -37.18753,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-8",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": -73.80061,
+    "lng": -15.96669,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-9",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": 65.07541,
+    "lng": 36.287,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_1-10",
+    "name": "Land Mil Tent Big1 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_1",
+    "lat": 25.72234,
+    "lng": 56.64381,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-1",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": 30.68933,
+    "lng": -171.70955,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-2",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": -79.57403,
+    "lng": -162.68875,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-3",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": -16.19575,
+    "lng": -154.15666,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-4",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": 77.45408,
+    "lng": -145.41916,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-5",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": 56.3854,
+    "lng": -84.62425,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-6",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": 47.64814,
+    "lng": -75.11312,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-7",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": 72.56576,
+    "lng": -20.0843,
+    "tier": 3,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-8",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": -73.78124,
+    "lng": -15.74467,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-9",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": 82.05665,
+    "lng": -2.14498,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_2-10",
+    "name": "Land Mil Tent Big1 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_2",
+    "lat": 78.35375,
+    "lng": 127.40248,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-1",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": 30.51551,
+    "lng": -171.83284,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-2",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": -79.6486,
+    "lng": -163.20857,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-3",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": -16.22344,
+    "lng": -153.47926,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-4",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": 77.7502,
+    "lng": -146.48056,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-5",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": 77.47208,
+    "lng": -145.13365,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-6",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": 47.77023,
+    "lng": -75.21955,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-7",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": -3.28627,
+    "lng": -36.91216,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-8",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": 82.02448,
+    "lng": -2.22298,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_3-9",
+    "name": "Land Mil Tent Big1 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_3",
+    "lat": -41.43873,
+    "lng": 56.02934,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-1",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": 29.60684,
+    "lng": -172.43614,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-2",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": -79.6919,
+    "lng": -162.80428,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-3",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": -16.20677,
+    "lng": -153.89248,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-4",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": 77.78951,
+    "lng": -145.81051,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-5",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": 57.36762,
+    "lng": -84.78211,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-6",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": 47.89263,
+    "lng": -75.3258,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-7",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": -3.50828,
+    "lng": -37.42068,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-8",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": 81.74581,
+    "lng": -0.6372,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_4-9",
+    "name": "Land Mil Tent Big1 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_4",
+    "lat": -41.34976,
+    "lng": 55.68669,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-1",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": -15.9923,
+    "lng": -153.4891,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-2",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": -16.65614,
+    "lng": -153.81743,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-3",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": 77.76838,
+    "lng": -146.18819,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-4",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": 56.97024,
+    "lng": -84.66506,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-5",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": -77.85359,
+    "lng": -64.82988,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-6",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": -73.51168,
+    "lng": -48.99811,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-7",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": -3.05151,
+    "lng": -37.24534,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-8",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": 81.74623,
+    "lng": -0.88292,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big1_5-9",
+    "name": "Land Mil Tent Big1 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big1_5",
+    "lat": -66.091,
+    "lng": 51.38806,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-1",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": -16.67847,
+    "lng": -154.10836,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-2",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": 77.68643,
+    "lng": -146.08306,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-3",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": 77.46153,
+    "lng": -143.49983,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-4",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": -78.19552,
+    "lng": -60.86728,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-5",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": 39.48217,
+    "lng": -58.19729,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-6",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": -73.41959,
+    "lng": -49.05665,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-7",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": 81.97823,
+    "lng": -1.58536,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-8",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": -41.20759,
+    "lng": 56.09435,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_1-9",
+    "name": "Land Mil Tent Big2 1",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_1",
+    "lat": 25.41058,
+    "lng": 90.50793,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_2-1",
+    "name": "Land Mil Tent Big2 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_2",
+    "lat": -15.74312,
+    "lng": -153.99392,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_2-2",
+    "name": "Land Mil Tent Big2 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_2",
+    "lat": 77.71065,
+    "lng": -145.70504,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_2-3",
+    "name": "Land Mil Tent Big2 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_2",
+    "lat": 57.33925,
+    "lng": -85.46718,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_2-4",
+    "name": "Land Mil Tent Big2 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_2",
+    "lat": -4.08702,
+    "lng": -36.51188,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_2-5",
+    "name": "Land Mil Tent Big2 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_2",
+    "lat": 81.76385,
+    "lng": -0.3506,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_2-6",
+    "name": "Land Mil Tent Big2 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_2",
+    "lat": -41.0602,
+    "lng": 56.10165,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_2-7",
+    "name": "Land Mil Tent Big2 2",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_2",
+    "lat": 78.30082,
+    "lng": 128.1589,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_3-1",
+    "name": "Land Mil Tent Big2 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_3",
+    "lat": 77.53207,
+    "lng": -145.72597,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_3-2",
+    "name": "Land Mil Tent Big2 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_3",
+    "lat": -26.47077,
+    "lng": -118.99506,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_3-3",
+    "name": "Land Mil Tent Big2 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_3",
+    "lat": 57.0624,
+    "lng": -85.05236,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_3-4",
+    "name": "Land Mil Tent Big2 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_3",
+    "lat": 72.57836,
+    "lng": -19.66638,
+    "tier": 3,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_mil_tent_big2_3-5",
+    "name": "Land Mil Tent Big2 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_3",
+    "lat": 81.80026,
+    "lng": -0.34122,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_3-6",
+    "name": "Land Mil Tent Big2 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_3",
+    "lat": -41.2401,
+    "lng": 56.50304,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_3-7",
+    "name": "Land Mil Tent Big2 3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_3",
+    "lat": 78.32695,
+    "lng": 127.72672,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_4-1",
+    "name": "Land Mil Tent Big2 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_4",
+    "lat": 30.13994,
+    "lng": -172.02098,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_4-2",
+    "name": "Land Mil Tent Big2 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_4",
+    "lat": -79.6062,
+    "lng": -162.45516,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_4-3",
+    "name": "Land Mil Tent Big2 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_4",
+    "lat": 78.10894,
+    "lng": -147.00488,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_4-4",
+    "name": "Land Mil Tent Big2 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_4",
+    "lat": 56.65863,
+    "lng": -84.84621,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_4-5",
+    "name": "Land Mil Tent Big2 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_4",
+    "lat": 72.57558,
+    "lng": -19.3796,
+    "tier": 3,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_mil_tent_big2_4-6",
+    "name": "Land Mil Tent Big2 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_4",
+    "lat": 81.79201,
+    "lng": 0.0763,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_4-7",
+    "name": "Land Mil Tent Big2 4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_4",
+    "lat": -66.30515,
+    "lng": 51.05128,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "military-land_mil_tent_big2_5-1",
+    "name": "Land Mil Tent Big2 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_5",
+    "lat": 29.32076,
+    "lng": -172.57213,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_5-2",
+    "name": "Land Mil Tent Big2 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_5",
+    "lat": -79.61247,
+    "lng": -162.98121,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_5-3",
+    "name": "Land Mil Tent Big2 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_5",
+    "lat": 78.15891,
+    "lng": -147.24977,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_5-4",
+    "name": "Land Mil Tent Big2 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_5",
+    "lat": 77.56113,
+    "lng": -145.35549,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_5-5",
+    "name": "Land Mil Tent Big2 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_5",
+    "lat": 41.8944,
+    "lng": -60.99721,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_5-6",
+    "name": "Land Mil Tent Big2 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_5",
+    "lat": 65.36393,
+    "lng": 36.07589,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_5-7",
+    "name": "Land Mil Tent Big2 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_5",
+    "lat": -77.51013,
+    "lng": 56.80912,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big2_5-8",
+    "name": "Land Mil Tent Big2 5",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big2_5",
+    "lat": 25.7155,
+    "lng": 56.28111,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big3-1",
+    "name": "Land Mil Tent Big3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big3",
+    "lat": 77.62318,
+    "lng": -144.99881,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big3-2",
+    "name": "Land Mil Tent Big3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big3",
+    "lat": 57.10995,
+    "lng": -86.02163,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big3-3",
+    "name": "Land Mil Tent Big3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big3",
+    "lat": 47.75033,
+    "lng": -74.54847,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big3-4",
+    "name": "Land Mil Tent Big3",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big3",
+    "lat": -76.97827,
+    "lng": -68.97862,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big4-1",
+    "name": "Land Mil Tent Big4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big4",
+    "lat": 78.06871,
+    "lng": -147.39307,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big4-2",
+    "name": "Land Mil Tent Big4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big4",
+    "lat": 63.84368,
+    "lng": -88.75172,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big4-3",
+    "name": "Land Mil Tent Big4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big4",
+    "lat": 57.08575,
+    "lng": -85.27673,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big4-4",
+    "name": "Land Mil Tent Big4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big4",
+    "lat": 56.38326,
+    "lng": -84.92733,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big4-5",
+    "name": "Land Mil Tent Big4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big4",
+    "lat": -76.90472,
+    "lng": -69.45515,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_tent_big4-6",
+    "name": "Land Mil Tent Big4",
+    "type": "Military",
+    "group": "Tent",
+    "objectName": "land_mil_tent_big4",
+    "lat": -77.91668,
+    "lng": -65.24815,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_hq-1",
+    "name": "Land Tisy Hq",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_hq",
+    "lat": 80.2693,
+    "lng": -141.81778,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_garages-1",
+    "name": "Land Tisy Garages",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_garages",
+    "lat": 80.12754,
+    "lng": -145.17507,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_garages-2",
+    "name": "Land Tisy Garages",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_garages",
+    "lat": 78.91912,
+    "lng": -142.01223,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_garages-3",
+    "name": "Land Tisy Garages",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_garages",
+    "lat": 78.68611,
+    "lng": -141.98616,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_garages2-1",
+    "name": "Land Tisy Garages2",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_garages2",
+    "lat": 47.45274,
+    "lng": -88.94925,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_radarb_base-1",
+    "name": "Land Tisy Radarb Base",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_radarb_base",
+    "lat": 77.96284,
+    "lng": -166.44306,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_radarplatform_top-1",
+    "name": "Land Tisy Radarplatform Top",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_radarplatform_top",
+    "lat": 78.24454,
+    "lng": -140.71579,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_radarplatform_top-2",
+    "name": "Land Tisy Radarplatform Top",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_radarplatform_top",
+    "lat": 78.19511,
+    "lng": -137.42896,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_radarplatform_top-3",
+    "name": "Land Tisy Radarplatform Top",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_radarplatform_top",
+    "lat": 78.66575,
+    "lng": -135.3781,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_kitchenroom-1",
+    "name": "Land Tisy Kitchenroom",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_kitchenroom",
+    "lat": 79.79971,
+    "lng": -141.10579,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_tisy_kitchenroom-2",
+    "name": "Land Tisy Kitchenroom",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_tisy_kitchenroom",
+    "lat": 34.2509,
+    "lng": -79.24935,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_small-1",
+    "name": "Land Mil Fortified Nest Small",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_small",
+    "lat": 56.29711,
+    "lng": -86.48337,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_small-2",
+    "name": "Land Mil Fortified Nest Small",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_small",
+    "lat": -77.45908,
+    "lng": -68.17754,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_small-3",
+    "name": "Land Mil Fortified Nest Small",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_small",
+    "lat": 39.96703,
+    "lng": -58.71082,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_small-4",
+    "name": "Land Mil Fortified Nest Small",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_small",
+    "lat": -73.53333,
+    "lng": -16.01314,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_small-5",
+    "name": "Land Mil Fortified Nest Small",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_small",
+    "lat": -73.48799,
+    "lng": -16.82217,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-1",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": -79.72457,
+    "lng": -163.2884,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-2",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": -79.5344,
+    "lng": -162.47746,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-3",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": -16.10757,
+    "lng": -154.39383,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-4",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": 77.66796,
+    "lng": -146.42721,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-5",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": 78.21663,
+    "lng": -147.34058,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-6",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": 77.47379,
+    "lng": -144.82813,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-7",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": 57.09847,
+    "lng": -86.49528,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-8",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": -76.26098,
+    "lng": -70.2249,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-9",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": -77.02944,
+    "lng": -69.3579,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-10",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": -78.50784,
+    "lng": -61.82993,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-11",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": 40.28585,
+    "lng": -58.67301,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-12",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": -73.81414,
+    "lng": -16.75339,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-13",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": 81.7051,
+    "lng": -0.29049,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_fortified_nest_watchtower-14",
+    "name": "Land Mil Fortified Nest Watchtower",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_fortified_nest_watchtower",
+    "lat": -40.76488,
+    "lng": 56.26959,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardshed-1",
+    "name": "Land Mil Guardshed",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_guardshed",
+    "lat": -16.57656,
+    "lng": -153.54254,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardshed-2",
+    "name": "Land Mil Guardshed",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_guardshed",
+    "lat": 78.0217,
+    "lng": -147.49638,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_guardshed-3",
+    "name": "Land Mil Guardshed",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_guardshed",
+    "lat": 77.55267,
+    "lng": -144.56306,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_airfield_hq-1",
+    "name": "Land Mil Airfield Hq",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_airfield_hq",
+    "lat": 48.25174,
+    "lng": -68.66824,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "military-land_mil_firestation-1",
+    "name": "Land Mil Firestation",
+    "type": "Military",
+    "group": "Generic",
+    "objectName": "land_mil_firestation",
+    "lat": 50.79173,
+    "lng": -76.85816,
+    "tier": 4,
+    "tags": []
+  }
+]

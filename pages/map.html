@@ -79,44 +79,58 @@
                 <h1>Map</h1>
             </header>
             <section class="content map-page">
-                <section class="map-toolbar">
-                    <input type="text" placeholder="Search location...">
+                <section class="content map-page-layout">
 
-                    <div class="map-filters">
-                        <button>Military</button>
-                        <button>Medical</button>
-                        <button>Water</button>
-                        <button>Vehicles</button>
-                        <button>Towns</button>
-                    </div>
-                </section>
+                    <section class="map-main-panel">
+                        <section class="map-toolbar">
+                            <input type="text" placeholder="Search location...">
 
-                <section class="map-layout">
-                    <div class="map-container">
+                            <div class="map-filters">
+                                <button>Military</button>
+                                <button>Medical</button>
+                                <button>Water</button>
+                                <button>Vehicles</button>
+                                <button>Towns</button>
+                            </div>
+                        </section>
 
-                        <div class="grid-axis grid-axis-top" id="grid-axis-top"></div>
-                        <div class="grid-axis grid-axis-left" id="grid-axis-left"></div>
-                        
-                        <div id="dayz-map"></div>
+                        <section class="map-container">
+                            <div id="dayz-map"></div>
 
-                        <div class="coordinate-tooltip" id="coordinate-tooltip">
-                            X: 0 | Y: 0
-                        </div>
+                            <div class="grid-axis grid-axis-top" id="grid-axis-top"></div>
+                            <div class="grid-axis grid-axis-left" id="grid-axis-left"></div>
 
-                        <div id="map-crosshair">
-                            <i class="fa-solid fa-crosshairs"></i>
-                        </div>
-                    </div>
-                </section>
+                            <div class="coordinate-tooltip" id="coordinate-tooltip">
+                                X: 0 | Y: 0
+                            </div>
 
-                <aside class="info-panel">
-                  Location information
-                </aside>
+                            <div id="map-crosshair">
+                                <i class="fa-solid fa-crosshairs"></i>
+                            </div>
+                        </section>
 
-                <div class="map-placeholder">
-                    <h3>Location Info</h3>
-                    <p>Select a marker to view location details.</p>
-                </div>
+                        <section class="map-bottom-panel">
+                            <h3>Location Information</h3>
+                            <p>Hover over a location or click the map to see details.</p>
+                        </section>
+                    </section>
+
+                    <aside class="map-sidebar-right">
+                        <section class="map-widget">
+                            <h3>Map Layers</h3>
+
+                            <label><input type="checkbox" checked> Military</label>
+                            <label><input type="checkbox"> Loot</label>
+                            <label><input type="checkbox"> Vehicles</label>
+                            <label><input type="checkbox"> Medical</label>
+                            <label><input type="checkbox"> Water</label>
+                        </section>
+
+                        <section class="map-widget">
+                            <h3>Recent Markers</h3>
+                            <p>No custom markers yet.</p>
+                        </section>
+                    </aside>
 
             </section>
         </main>
