@@ -1,34 +1,1811 @@
 [
   {
     "id": 1,
-    "name": "Chernogorsk",
-    "type": "Town",
+    "name": "chernogorsk",
+    "localName": "черногорск",
+    "type": "Capital",
     "size": "major",
-    "x": 13712,
-    "y": 26123
+    "dayzX": 6463,
+    "dayzY": 12841
   },
   {
     "id": 2,
-    "name": "Elektrozavodsk",
-    "type": "Town",
+    "name": "novodmitrovsk",
+    "localName": "новодмитровск",
+    "type": "Capital",
     "size": "major",
-    "x": 20992,
-    "y": 28269
+    "dayzX": 10920,
+    "dayzY": 1297
   },
   {
     "id": 3,
-    "name": "Northwest Airfield",
-    "type": "Military",
+    "name": "novoselki",
+    "localName": "новоселки",
+    "type": "City",
     "size": "major",
-    "x": 8456,
-    "y": 11019
+    "dayzX": 5830,
+    "dayzY": 11990
   },
-    {
-    "id": 3,
-    "name": "Solnichy",
-    "type": "Town",
+  {
+    "id": 4,
+    "name": "dubovo",
+    "localName": "дубово",
+    "type": "City",
+    "size": "major",
+    "dayzX": 6447,
+    "dayzY": 11645
+  },
+  {
+    "id": 5,
+    "name": "vysotovo",
+    "localName": "высотово",
+    "type": "City",
+    "size": "major",
+    "dayzX": 5427,
+    "dayzY": 12666
+  },
+  {
+    "id": 6,
+    "name": "zelenogorsk",
+    "localName": "зеленогорск",
+    "type": "City",
+    "size": "major",
+    "dayzX": 2645,
+    "dayzY": 10333
+  },
+  {
+    "id": 7,
+    "name": "berezino",
+    "localName": "берёзино",
+    "type": "City",
+    "size": "major",
+    "dayzX": 11888,
+    "dayzY": 5609
+  },
+  {
+    "id": 8,
+    "name": "elektrozavodsk",
+    "localName": "электрозаводск",
+    "type": "City",
+    "size": "major",
+    "dayzX": 9838,
+    "dayzY": 13004
+  },
+  {
+    "id": 9,
+    "name": "novaya petrovka",
+    "localName": "новая петровка",
+    "type": "City",
+    "size": "major",
+    "dayzX": 3344,
+    "dayzY": 3001
+  },
+  {
+    "id": 10,
+    "name": "gorka",
+    "localName": "горка",
+    "type": "City",
+    "size": "major",
+    "dayzX": 9142,
+    "dayzY": 6496
+  },
+  {
+    "id": 11,
+    "name": "solnechny",
+    "localName": "солнечный",
+    "type": "City",
+    "size": "major",
+    "dayzX": 12942,
+    "dayzY": 8887
+  },
+  {
+    "id": 12,
+    "name": "stary sobor",
+    "localName": "старый собор",
+    "type": "City",
+    "size": "major",
+    "dayzX": 5854,
+    "dayzY": 7670
+  },
+  {
+    "id": 13,
+    "name": "vybor",
+    "localName": "выбор",
+    "type": "City",
+    "size": "major",
+    "dayzX": 3739,
+    "dayzY": 6662
+  },
+  {
+    "id": 14,
+    "name": "severograd",
+    "localName": "североград",
+    "type": "City",
+    "size": "major",
+    "dayzX": 7857,
+    "dayzY": 3140
+  },
+  {
+    "id": 15,
+    "name": "bor",
+    "localName": "бор",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 3140,
+    "dayzY": 11341
+  },
+  {
+    "id": 16,
+    "name": "svetloyarsk",
+    "localName": "светлоярск",
+    "type": "City",
+    "size": "major",
+    "dayzX": 13464,
+    "dayzY": 2246
+  },
+  {
+    "id": 17,
+    "name": "krasnostav",
+    "localName": "красностав",
+    "type": "City",
+    "size": "major",
+    "dayzX": 10777,
+    "dayzY": 3232
+  },
+  {
+    "id": 18,
+    "name": "chernaya polyana",
+    "localName": "черная поляна",
+    "type": "City",
+    "size": "major",
+    "dayzX": 11704,
+    "dayzY": 1847
+  },
+  {
+    "id": 19,
+    "name": "polyana",
+    "localName": "поляна",
+    "type": "City",
+    "size": "major",
+    "dayzX": 10360,
+    "dayzY": 7181
+  },
+  {
+    "id": 20,
+    "name": "tulga",
+    "localName": "тулга",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 12239,
+    "dayzY": 10650
+  },
+  {
+    "id": 21,
+    "name": "msta",
+    "localName": "мста",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 10864,
+    "dayzY": 9735
+  },
+  {
+    "id": 22,
+    "name": "staroye",
+    "localName": "старое",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 9785,
+    "dayzY": 9816
+  },
+  {
+    "id": 23,
+    "name": "shakovka",
+    "localName": "шаковка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 9326,
+    "dayzY": 8724
+  },
+  {
+    "id": 24,
+    "name": "dolina",
+    "localName": "долина",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 10824,
+    "dayzY": 8596
+  },
+  {
+    "id": 25,
+    "name": "orlovets",
+    "localName": "орловец",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 11756,
+    "dayzY": 7973
+  },
+  {
+    "id": 26,
+    "name": "novy sobor",
+    "localName": "новый собор",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 6825,
+    "dayzY": 7698
+  },
+  {
+    "id": 27,
+    "name": "kabanino",
+    "localName": "кабанино",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 5075,
+    "dayzY": 6955
+  },
+  {
+    "id": 28,
+    "name": "mogilevka",
+    "localName": "могилевка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 7317,
+    "dayzY": 10195
+  },
+  {
+    "id": 29,
+    "name": "nadezhdino",
+    "localName": "надеждино",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 5625,
+    "dayzY": 10566
+  },
+  {
+    "id": 30,
+    "name": "guglovo",
+    "localName": "гуглово",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 8090,
+    "dayzY": 8767
+  },
+  {
+    "id": 31,
+    "name": "kamyshovo",
+    "localName": "камышово",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 11658,
+    "dayzY": 11546
+  },
+  {
+    "id": 32,
+    "name": "pusta",
+    "localName": "пуста",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 8799,
+    "dayzY": 11281
+  },
+  {
+    "id": 33,
+    "name": "dubrovka",
+    "localName": "дубровка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 9917,
+    "dayzY": 5575
+  },
+  {
+    "id": 34,
+    "name": "vyshnaya dubrovka (verkhnaya dubrovka)",
+    "localName": "вышная дубровка (верхняя дубровка)",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 9538,
+    "dayzY": 5046
+  },
+  {
+    "id": 35,
+    "name": "khelm",
+    "localName": "хелм",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 11852,
+    "dayzY": 4661
+  },
+  {
+    "id": 36,
+    "name": "olsha",
+    "localName": "ольша",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 12896,
+    "dayzY": 2615
+  },
+  {
+    "id": 37,
+    "name": "gvozdno",
+    "localName": "гвоздно",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 8312,
+    "dayzY": 3722
+  },
+  {
+    "id": 38,
+    "name": "grishino",
+    "localName": "гришино",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 5738,
+    "dayzY": 5411
+  },
+  {
+    "id": 39,
+    "name": "rogovo",
+    "localName": "рогово",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 4585,
+    "dayzY": 8761
+  },
+  {
+    "id": 40,
+    "name": "pogorevka",
+    "localName": "погоревка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 4239,
+    "dayzY": 9177
+  },
+  {
+    "id": 41,
+    "name": "pustoshka",
+    "localName": "пустошка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 2989,
+    "dayzY": 7756
+  },
+  {
+    "id": 42,
+    "name": "kozlovka",
+    "localName": "козловка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 4189,
+    "dayzY": 10670
+  },
+  {
+    "id": 43,
+    "name": "karmanovka",
+    "localName": "кармановка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 12231,
+    "dayzY": 958
+  },
+  {
+    "id": 44,
+    "name": "balota",
+    "localName": "балота",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 4297,
+    "dayzY": 12801
+  },
+  {
+    "id": 45,
+    "name": "komarovo",
+    "localName": "комарово",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 3502,
+    "dayzY": 12859
+  },
+  {
+    "id": 46,
+    "name": "kamenka",
+    "localName": "каменка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 1844,
+    "dayzY": 13151
+  },
+  {
+    "id": 47,
+    "name": "myshkino",
+    "localName": "мышкино",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 1937,
+    "dayzY": 8397
+  },
+  {
+    "id": 48,
+    "name": "pavlovo",
+    "localName": "павлово",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 1577,
+    "dayzY": 11609
+  },
+  {
+    "id": 49,
+    "name": "lopatino",
+    "localName": "лопатино",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 2677,
+    "dayzY": 5759
+  },
+  {
+    "id": 50,
+    "name": "vyshnoye",
+    "localName": "вышное",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 6339,
+    "dayzY": 9340
+  },
+  {
+    "id": 51,
+    "name": "prigorodki",
+    "localName": "пригородки",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 7413,
+    "dayzY": 11846
+  },
+  {
+    "id": 52,
+    "name": "drozhino",
+    "localName": "дрожжино",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 3200,
+    "dayzY": 10596
+  },
+  {
+    "id": 53,
+    "name": "sosnovka",
+    "localName": "сосновка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 2421,
+    "dayzY": 9270
+  },
+  {
+    "id": 54,
+    "name": "nizhnoe (nizhnee)",
+    "localName": "Нижное (нижнее)",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 12314,
+    "dayzY": 7155
+  },
+  {
+    "id": 55,
+    "name": "pulkovo",
+    "localName": "пулково",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 4784,
+    "dayzY": 9825
+  },
+  {
+    "id": 56,
+    "name": "berezhki",
+    "localName": "бережки",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 14459,
+    "dayzY": 1600
+  },
+  {
+    "id": 57,
+    "name": "turovo",
+    "localName": "турово",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 13123,
+    "dayzY": 1432
+  },
+  {
+    "id": 58,
+    "name": "belaya polyana",
+    "localName": "белая поляна",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 13643,
+    "dayzY": 636
+  },
+  {
+    "id": 59,
+    "name": "dobroye",
+    "localName": "доброе",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 12518,
+    "dayzY": 593
+  },
+  {
+    "id": 60,
+    "name": "nagornoye",
+    "localName": "нагорное",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 8944,
+    "dayzY": 1115
+  },
+  {
+    "id": 61,
+    "name": "svergino",
+    "localName": "свергино",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 9140,
+    "dayzY": 1860
+  },
+  {
+    "id": 62,
+    "name": "ratnoye",
+    "localName": "ратное",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 5960,
+    "dayzY": 3046
+  },
+  {
+    "id": 63,
+    "name": "kamensk",
+    "localName": "каменск",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 6501,
+    "dayzY": 1453
+  },
+  {
+    "id": 64,
+    "name": "krasnoye",
+    "localName": "красное",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 6180,
+    "dayzY": 903
+  },
+  {
+    "id": 65,
+    "name": "stary yar",
+    "localName": "старый яр",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 4809,
+    "dayzY": 998
+  },
+  {
+    "id": 66,
+    "name": "polesovo",
+    "localName": "полесово",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 5733,
+    "dayzY": 2307
+  },
+  {
+    "id": 67,
+    "name": "tisy",
+    "localName": "тисы",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 3320,
+    "dayzY": 1245
+  },
+  {
+    "id": 68,
+    "name": "topolniki",
+    "localName": "топольники",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 2798,
+    "dayzY": 3556
+  },
+  {
+    "id": 69,
+    "name": "zaprudnoye",
+    "localName": "запрудное",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 5015,
+    "dayzY": 3059
+  },
+  {
+    "id": 70,
+    "name": "sinystok",
+    "localName": "синысток",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 1472,
+    "dayzY": 4048
+  },
+  {
+    "id": 71,
+    "name": "vavilovo",
+    "localName": "вавилово",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 2165,
+    "dayzY": 4771
+  },
+  {
+    "id": 72,
+    "name": "kumyrna",
+    "localName": "кумырна",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 7948,
+    "dayzY": 9267
+  },
+  {
+    "id": 73,
+    "name": "kalinovka",
+    "localName": "калиновка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 7168,
+    "dayzY": 2387
+  },
+  {
+    "id": 74,
+    "name": "bogatyrka",
+    "localName": "богатырка",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 1374,
+    "dayzY": 6905
+  },
+  {
+    "id": 75,
+    "name": "svyatoy roman ski resort",
+    "localName": "свято-романовский горнолыжный курорт",
+    "type": "Local",
     "size": "small",
-    "x": 27553,
-    "y": 19552
+    "dayzX": 604,
+    "dayzY": 4309
+  },
+  {
+    "id": 76,
+    "name": "skvsch biathlon arena",
+    "localName": "сквсч биатлон арена",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 331,
+    "dayzY": 4815
+  },
+  {
+    "id": 77,
+    "name": "zvir",
+    "localName": "звир",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 511,
+    "dayzY": 10284
+  },
+  {
+    "id": 78,
+    "name": "zabolotye",
+    "localName": "заболотье",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 1190,
+    "dayzY": 5857
+  },
+  {
+    "id": 79,
+    "name": "galkino",
+    "localName": "галкино",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 1035,
+    "dayzY": 6988
+  },
+  {
+    "id": 80,
+    "name": "arsenovo",
+    "localName": "арсеньево",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 8193,
+    "dayzY": 1861
+  },
+  {
+    "id": 81,
+    "name": "stroytel",
+    "localName": "строитель",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 6704,
+    "dayzY": 10909
+  },
+  {
+    "id": 82,
+    "name": "romashka",
+    "localName": "ромашка",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 7857,
+    "dayzY": 4638
+  },
+  {
+    "id": 83,
+    "name": "kometa",
+    "localName": "комета",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 9832,
+    "dayzY": 11532
+  },
+  {
+    "id": 84,
+    "name": "druzbha",
+    "localName": "дружба",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 10993,
+    "dayzY": 4770
+  },
+  {
+    "id": 85,
+    "name": "nadezhda",
+    "localName": "надежда",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 6971,
+    "dayzY": 8406
+  },
+  {
+    "id": 86,
+    "name": "youth pioneer",
+    "localName": "юный пионер",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 10702,
+    "dayzY": 8188
+  },
+  {
+    "id": 87,
+    "name": "proud chernarus",
+    "localName": "гордый чернорус",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 3039,
+    "dayzY": 9367
+  },
+  {
+    "id": 88,
+    "name": "shkolnik",
+    "localName": "школьник",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 14306,
+    "dayzY": 980
+  },
+  {
+    "id": 89,
+    "name": "pobeda",
+    "localName": "победа",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 3572,
+    "dayzY": 1161
+  },
+  {
+    "id": 90,
+    "name": "metalurg",
+    "localName": "металлург",
+    "type": "camp",
+    "size": "small",
+    "dayzX": 959,
+    "dayzY": 8986
+  },
+  {
+    "id": 91,
+    "name": "zelenaya gora",
+    "localName": "зеленая гора",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 3585,
+    "dayzY": 9498
+  },
+  {
+    "id": 92,
+    "name": "dichina",
+    "localName": "дишина",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 4414,
+    "dayzY": 7759
+  },
+  {
+    "id": 93,
+    "name": "novy lug",
+    "localName": "новый луг",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 8892,
+    "dayzY": 4236
+  },
+  {
+    "id": 94,
+    "name": "starye luga",
+    "localName": "старые луга",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 6635,
+    "dayzY": 6559
+  },
+  {
+    "id": 95,
+    "name": "vysota",
+    "localName": "высота",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 6289,
+    "dayzY": 11835
+  },
+  {
+    "id": 96,
+    "name": "kopyto",
+    "localName": "копыто",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 7523,
+    "dayzY": 11340
+  },
+  {
+    "id": 97,
+    "name": "grubye skaly",
+    "localName": "грубые скалы",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 12615,
+    "dayzY": 3566
+  },
+  {
+    "id": 98,
+    "name": "cherny les",
+    "localName": "черный лес",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 8661,
+    "dayzY": 7591
+  },
+  {
+    "id": 99,
+    "name": "altar",
+    "localName": "алтар",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 7814,
+    "dayzY": 6352
+  },
+  {
+    "id": 100,
+    "name": "radio zenit",
+    "localName": "радио зенит",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 7754,
+    "dayzY": 6184
+  },
+  {
+    "id": 101,
+    "name": "pik kozlova",
+    "localName": "пик козлова",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 8460,
+    "dayzY": 12229
+  },
+  {
+    "id": 102,
+    "name": "pustoy khrebet",
+    "localName": "пустой хребет",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 10439,
+    "dayzY": 9524
+  },
+  {
+    "id": 103,
+    "name": "bashnya",
+    "localName": "башня",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 4012,
+    "dayzY": 4062
+  },
+  {
+    "id": 104,
+    "name": "veresnik",
+    "localName": "вересник",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 4244,
+    "dayzY": 7532
+  },
+  {
+    "id": 105,
+    "name": "kurgan",
+    "localName": "курган",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 3197,
+    "dayzY": 10186
+  },
+  {
+    "id": 106,
+    "name": "kustryk",
+    "localName": "кустрык",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 4682,
+    "dayzY": 10341
+  },
+  {
+    "id": 107,
+    "name": "vetryanaya gora",
+    "localName": "ветреная гора",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 3696,
+    "dayzY": 11195
+  },
+  {
+    "id": 108,
+    "name": "kalmyk",
+    "localName": "калмык",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 6598,
+    "dayzY": 10393
+  },
+  {
+    "id": 109,
+    "name": "pop ivan",
+    "localName": "поп иван",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 6141,
+    "dayzY": 8860
+  },
+  {
+    "id": 110,
+    "name": "erbenka",
+    "localName": "ербенка",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 2684,
+    "dayzY": 11414
+  },
+  {
+    "id": 111,
+    "name": "lesnoykhrebet",
+    "localName": "лесной хребет",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 7787,
+    "dayzY": 7617
+  },
+  {
+    "id": 112,
+    "name": "vysokiy kamen",
+    "localName": "высокий камень",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 8555,
+    "dayzY": 10814
+  },
+  {
+    "id": 113,
+    "name": "dobry",
+    "localName": "добрый",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 10100,
+    "dayzY": 11988
+  },
+  {
+    "id": 114,
+    "name": "baranchik",
+    "localName": "баранчик",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 9732,
+    "dayzY": 9044
+  },
+  {
+    "id": 115,
+    "name": "malinovka",
+    "localName": "малиновка",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 10457,
+    "dayzY": 7727
+  },
+  {
+    "id": 116,
+    "name": "dubina",
+    "localName": "дубина",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 10664,
+    "dayzY": 6872
+  },
+  {
+    "id": 117,
+    "name": "klen",
+    "localName": "клен",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 11031,
+    "dayzY": 4185
+  },
+  {
+    "id": 118,
+    "name": "chernaya gora",
+    "localName": "черная гора",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 9887,
+    "dayzY": 3540
+  },
+  {
+    "id": 119,
+    "name": "zolotar",
+    "localName": "золотарь",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 9789,
+    "dayzY": 3597
+  },
+  {
+    "id": 120,
+    "name": "ostry",
+    "localName": "острый",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 10385,
+    "dayzY": 2789
+  },
+  {
+    "id": 121,
+    "name": "olsha",
+    "localName": "ольша",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 12485,
+    "dayzY": 2749
+  },
+  {
+    "id": 122,
+    "name": "tikhiy zaliv",
+    "localName": "тихий залив",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 1113,
+    "dayzY": 13272
+  },
+  {
+    "id": 123,
+    "name": "mutnyi zaliv",
+    "localName": "мутный залив",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 5457,
+    "dayzY": 13264
+  },
+  {
+    "id": 124,
+    "name": "cherny zaliv",
+    "localName": "черный залив",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 7254,
+    "dayzY": 12652
+  },
+  {
+    "id": 125,
+    "name": "zeleny zaliv",
+    "localName": "зеленый залив",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 10748,
+    "dayzY": 12026
+  },
+  {
+    "id": 126,
+    "name": "skalisty proliv",
+    "localName": "скалистый пролив",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 12830,
+    "dayzY": 11349
+  },
+  {
+    "id": 127,
+    "name": "nizhniy zaliv",
+    "localName": "нижний залив",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 12475,
+    "dayzY": 6755
+  },
+  {
+    "id": 128,
+    "name": "zaliv guba",
+    "localName": "залив губа",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 13789,
+    "dayzY": 2352
+  },
+  {
+    "id": 129,
+    "name": "rify",
+    "localName": "рифы",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 13397,
+    "dayzY": 4107
+  },
+  {
+    "id": 130,
+    "name": "ivovoye ozero",
+    "localName": "ивовое озеро",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 12741,
+    "dayzY": 3869
+  },
+  {
+    "id": 131,
+    "name": "chernoye ozero",
+    "localName": "черное озеро",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 12871,
+    "dayzY": 3459
+  },
+  {
+    "id": 132,
+    "name": "plotina topolka",
+    "localName": "плотина тополька",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 9794,
+    "dayzY": 11408
+  },
+  {
+    "id": 133,
+    "name": "plotina pobeda",
+    "localName": "плотина победа",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 9558,
+    "dayzY": 1842
+  },
+  {
+    "id": 134,
+    "name": "plotina tishina",
+    "localName": "плотина тишина",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 1069,
+    "dayzY": 9211
+  },
+  {
+    "id": 135,
+    "name": "ozerko",
+    "localName": "озерко",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 6474,
+    "dayzY": 10800
+  },
+  {
+    "id": 136,
+    "name": "prud",
+    "localName": "пруд",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 6340,
+    "dayzY": 6277
+  },
+  {
+    "id": 137,
+    "name": "chortovzamok",
+    "localName": "чертов замок",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 6614,
+    "dayzY": 4203
+  },
+  {
+    "id": 138,
+    "name": "zub",
+    "localName": "зуб",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 6284,
+    "dayzY": 9791
+  },
+  {
+    "id": 139,
+    "name": "rog",
+    "localName": "рог",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 10794,
+    "dayzY": 10799
+  },
+  {
+    "id": 140,
+    "name": "grozovy pereval",
+    "localName": "грозовой перевал",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 3203,
+    "dayzY": 826
+  },
+  {
+    "id": 141,
+    "name": "sosnovy pereval",
+    "localName": "сосновый перевал",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 2549,
+    "dayzY": 8998
+  },
+  {
+    "id": 142,
+    "name": "pereval oreshka",
+    "localName": "перевал орешка",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 9413,
+    "dayzY": 9170
+  },
+  {
+    "id": 143,
+    "name": "turovskiypereval",
+    "localName": "туровский перевал",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 14127,
+    "dayzY": 1441
+  },
+  {
+    "id": 144,
+    "name": "tri doliny",
+    "localName": "три долины",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 12241,
+    "dayzY": 9683
+  },
+  {
+    "id": 145,
+    "name": "grozovye doly",
+    "localName": "грозовые доли",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 10021,
+    "dayzY": 958
+  },
+  {
+    "id": 146,
+    "name": "klyuch",
+    "localName": "ключ",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 8935,
+    "dayzY": 2244
+  },
+  {
+    "id": 147,
+    "name": "lysaya gora",
+    "localName": "лысая гора",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 6474,
+    "dayzY": 1812
+  },
+  {
+    "id": 148,
+    "name": "glubokoye ozero",
+    "localName": "глубокое озеро",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 1636,
+    "dayzY": 1297
+  },
+  {
+    "id": 149,
+    "name": "skalka",
+    "localName": "скалка",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 5548,
+    "dayzY": 1442
+  },
+  {
+    "id": 150,
+    "name": "vidy",
+    "localName": "виды",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 761,
+    "dayzY": 1733
+  },
+  {
+    "id": 151,
+    "name": "tumanny verkh",
+    "localName": "туманный верх",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 316,
+    "dayzY": 3084
+  },
+  {
+    "id": 152,
+    "name": "adamovka",
+    "localName": "адамовка",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 5129,
+    "dayzY": 4381
+  },
+  {
+    "id": 153,
+    "name": "shishok",
+    "localName": "шишок",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 3403,
+    "dayzY": 6298
+  },
+  {
+    "id": 154,
+    "name": "skalisty",
+    "localName": "скалистый",
+    "type": "Village",
+    "size": "medium",
+    "dayzX": 13144,
+    "dayzY": 11801
+  },
+  {
+    "id": 155,
+    "name": "storozh",
+    "localName": "сторож",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 2644,
+    "dayzY": 13990
+  },
+  {
+    "id": 156,
+    "name": "mys golova",
+    "localName": "мыс голова",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 7914,
+    "dayzY": 12699
+  },
+  {
+    "id": 157,
+    "name": "drakon",
+    "localName": "дракон",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 10711,
+    "dayzY": 12542
+  },
+  {
+    "id": 158,
+    "name": "otmel",
+    "localName": "отмель",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 11090,
+    "dayzY": 11801
+  },
+  {
+    "id": 159,
+    "name": "mys krutoy",
+    "localName": "мыс крутой",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 13017,
+    "dayzY": 10999
+  },
+  {
+    "id": 160,
+    "name": "tokarnya",
+    "localName": "токарня",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 8514,
+    "dayzY": 9601
+  },
+  {
+    "id": 161,
+    "name": "ostrog",
+    "localName": "острог",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 2494,
+    "dayzY": 13068
+  },
+  {
+    "id": 162,
+    "name": "maryanka",
+    "localName": "марьянка",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 2629,
+    "dayzY": 12008
+  },
+  {
+    "id": 163,
+    "name": "polonina",
+    "localName": "полонина",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 916,
+    "dayzY": 11277
+  },
+  {
+    "id": 164,
+    "name": "kalinka",
+    "localName": "калинка",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 3209,
+    "dayzY": 4548
+  },
+  {
+    "id": 165,
+    "name": "kikimora",
+    "localName": "кикимора",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 1704,
+    "dayzY": 9402
+  },
+  {
+    "id": 166,
+    "name": "bolshoy kotel",
+    "localName": "большой котел",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 649,
+    "dayzY": 9147
+  },
+  {
+    "id": 167,
+    "name": "simurg",
+    "localName": "симург",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 96,
+    "dayzY": 8184
+  },
+  {
+    "id": 168,
+    "name": "volchiypik",
+    "localName": "волчий пик",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 249,
+    "dayzY": 12739
+  },
+  {
+    "id": 169,
+    "name": "krona",
+    "localName": "крона",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 1414,
+    "dayzY": 6527
+  },
+  {
+    "id": 170,
+    "name": "tri kresta",
+    "localName": "три креста",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 268,
+    "dayzY": 6382
+  },
+  {
+    "id": 171,
+    "name": "rostoki",
+    "localName": "ростоки",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 690,
+    "dayzY": 7144
+  },
+  {
+    "id": 172,
+    "name": "orlye ozero",
+    "localName": "орлиное озеро",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 533,
+    "dayzY": 9651
+  },
+  {
+    "id": 173,
+    "name": "makosh",
+    "localName": "макошь",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 7517,
+    "dayzY": 8885
+  },
+  {
+    "id": 174,
+    "name": "klenovyipereval",
+    "localName": "кленовый перевал",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 10445,
+    "dayzY": 3956
+  },
+  {
+    "id": 175,
+    "name": "zmeinykhrebet",
+    "localName": "змеиный хребет",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 11018,
+    "dayzY": 2030
+  },
+  {
+    "id": 176,
+    "name": "sokol",
+    "localName": "сокол",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 11558,
+    "dayzY": 873
+  },
+  {
+    "id": 177,
+    "name": "krutye skaly",
+    "localName": "крутые скалы",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 14324,
+    "dayzY": 1825
+  },
+  {
+    "id": 178,
+    "name": "bogat",
+    "localName": "богат",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 6785,
+    "dayzY": 3704
+  },
+  {
+    "id": 179,
+    "name": "dubnik",
+    "localName": "дубник",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 3157,
+    "dayzY": 5454
+  },
+  {
+    "id": 180,
+    "name": "viselitsa",
+    "localName": "виселица",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 12212,
+    "dayzY": 7717
+  },
+  {
+    "id": 181,
+    "name": "dazhbog",
+    "localName": "дажбог",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 6307,
+    "dayzY": 6954
+  },
+  {
+    "id": 182,
+    "name": "verbnik",
+    "localName": "вербник",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 4225,
+    "dayzY": 6562
+  },
+  {
+    "id": 183,
+    "name": "medvezhi lugi",
+    "localName": "медвежьи луга",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 9278,
+    "dayzY": 2455
+  },
+  {
+    "id": 184,
+    "name": "voron",
+    "localName": "ворон",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 12955,
+    "dayzY": 11628
+  },
+  {
+    "id": 185,
+    "name": "gnomov zamok",
+    "localName": "гномский замок",
+    "type": "ruin",
+    "size": "small",
+    "dayzX": 7144,
+    "dayzY": 6440
+  },
+  {
+    "id": 186,
+    "name": "glaza",
+    "localName": "глаза",
+    "type": "marine",
+    "size": "small",
+    "dayzX": 7083,
+    "dayzY": 6233
+  },
+  {
+    "id": 187,
+    "name": "karer krasnaya zarya",
+    "localName": "kарьер красная заря",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 8244,
+    "dayzY": 2328
+  },
+  {
+    "id": 188,
+    "name": "matveyevo",
+    "localName": "матвеево",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 4087,
+    "dayzY": 8188
+  },
+  {
+    "id": 189,
+    "name": "kotka",
+    "localName": "котька",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 5617,
+    "dayzY": 8589
+  },
+  {
+    "id": 190,
+    "name": "chernye skaly",
+    "localName": "черные скалы",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 3791,
+    "dayzY": 1412
+  },
+  {
+    "id": 191,
+    "name": "svyatoy roman",
+    "localName": "святой роман",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 73,
+    "dayzY": 4112
+  },
+  {
+    "id": 192,
+    "name": "koman",
+    "localName": "коман",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 1565,
+    "dayzY": 8265
+  },
+  {
+    "id": 193,
+    "name": "mayak",
+    "localName": "маяк",
+    "type": "hill",
+    "size": "small",
+    "dayzX": 11813,
+    "dayzY": 10510
+  },
+  {
+    "id": 194,
+    "name": "military base",
+    "localName": "военная база",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 4300,
+    "dayzY": 7322
+  },
+  {
+    "id": 195,
+    "name": "military base",
+    "localName": "военная база",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 1514,
+    "dayzY": 2010
+  },
+  {
+    "id": 196,
+    "name": "military base",
+    "localName": "военная база",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 7552,
+    "dayzY": 1149
+  },
+  {
+    "id": 197,
+    "name": "military base",
+    "localName": "военная база",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 2274,
+    "dayzY": 10380
+  },
+  {
+    "id": 198,
+    "name": "military base",
+    "localName": "военная база",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 1885,
+    "dayzY": 12020
+  },
+  {
+    "id": 199,
+    "name": "airfield",
+    "localName": "аэродром",
+    "type": "Local",
+    "size": "small",
+    "dayzX": 4830,
+    "dayzY": 12861
+  },
+  {
+    "id": 200,
+    "name": "airfield",
+    "localName": "аэродром",
+    "type": "Local",
+    "size": "medium",
+    "dayzX": 11642,
+    "dayzY": 2975
+  },
+  {
+    "id": 201,
+    "name": "north-west airfield",
+    "localName": "авиационная база выбор",
+    "type": "Local",
+    "size": "medium",
+    "dayzX": 4244,
+    "dayzY": 5549
   }
 ]
