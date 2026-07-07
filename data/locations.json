@@ -1,1811 +1,3512 @@
 [
   {
-    "id": 1,
-    "name": "chernogorsk",
-    "localName": "черногорск",
+    "id": "location-1",
+    "name": "Adamovka",
+    "localName": "АДАМОВКА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 60.883756906542885,
+    "lng": -59.23993928822831,
+    "spellings": [
+      "Adamovka",
+      "АДАМОВКА",
+      "AAAMOBKA"
+    ]
+  },
+  {
+    "id": "location-2",
+    "name": "Airfield (Balota)",
+    "localName": "АЭРОДРОМ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -77.39432680071798,
+    "lng": -65.08488550821086,
+    "spellings": [
+      "A F Balota",
+      "АЭРОДРОМ",
+      "A3POAPOM",
+      "AePOAPOM",
+      "Airfield (Balota)"
+    ]
+  },
+  {
+    "id": "location-3",
+    "name": "Airfield (Krasno)",
+    "localName": "АЭРОДРОМ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 71.57768019229063,
+    "lng": 93.53472709084289,
+    "spellings": [
+      "A F Krasno",
+      "АЭРОДРОМ",
+      "A3POAPOM",
+      "AePOAPOM",
+      "Airfield (Krasno)"
+    ]
+  },
+  {
+    "id": "location-4",
+    "name": "Airfield (Vybor)",
+    "localName": "АВИАЦИОННАЯ БАЗА ВЫБОР",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 44.72091163583642,
+    "lng": -79.86581116311199,
+    "spellings": [
+      "A F Vybor",
+      "АВИАЦИОННАЯ БАЗА ВЫБОР",
+      "ABNAuNOHHAR BA3A BbIBOP",
+      "ABNAuNOHHAR BA3A BblBOP",
+      "ABNAyNOHHAR BA3A BbIBOP",
+      "ABNAyNOHHAR BA3A BblBOP",
+      "ABNAuNOHHAR GA3A BbIGOP",
+      "ABNAuNOHHAR GA3A BblGOP",
+      "ABNAyNOHHAR GA3A BbIGOP",
+      "ABNAyNOHHAR GA3A BblGOP",
+      "ABNAuNOHHAR 6A3A BbI6OP",
+      "ABNAuNOHHAR 6A3A Bbl6OP",
+      "ABNAyNOHHAR 6A3A BbI6OP",
+      "ABNAyNOHHAR 6A3A Bbl6OP",
+      "Airfield (Vybor)"
+    ]
+  },
+  {
+    "id": "location-5",
+    "name": "Altar",
+    "localName": "АЛТАР",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 26.114713527809528,
+    "lng": 4.1012350139340725,
+    "spellings": [
+      "Altar",
+      "АЛТАР",
+      "ANTAP"
+    ]
+  },
+  {
+    "id": "location-6",
+    "name": "Arsenovo",
+    "localName": "АРСЕНЬЕВО",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 79.09967933329166,
+    "lng": 12.378635643705051,
+    "spellings": [
+      "Arsenovo",
+      "АРСЕНЬЕВО",
+      "APCEHbEBO"
+    ]
+  },
+  {
+    "id": "location-7",
+    "name": "Balota",
+    "localName": "БАЛОТА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -76.94780387154161,
+    "lng": -77.61532979951446,
+    "spellings": [
+      "Balota",
+      "БАЛОТА",
+      "BANOTA",
+      "GANOTA",
+      "6ANOTA"
+    ]
+  },
+  {
+    "id": "location-8",
+    "name": "Balota",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -77.72022335867607,
+    "lng": -80.51535007525456,
+    "spellings": [
+      "Balota"
+    ]
+  },
+  {
+    "id": "location-9",
+    "name": "Baranchik",
+    "localName": "БАРАНЧИК",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -36.79954106672739,
+    "lng": 49.52097963178943,
+    "spellings": [
+      "Baranchik",
+      "БАРАНЧИК",
+      "BAPAHuNK",
+      "BAPAHyNK",
+      "GAPAHuNK",
+      "GAPAHyNK",
+      "6APAHuNK",
+      "6APAHyNK"
+    ]
+  },
+  {
+    "id": "location-10",
+    "name": "Bashnya",
+    "localName": "БАШНЯ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 64.90496456858921,
+    "lng": -85.50964236346556,
+    "spellings": [
+      "Bashnya",
+      "БАШНЯ",
+      "BAWHR",
+      "GAWHR",
+      "6AWHR"
+    ]
+  },
+  {
+    "id": "location-11",
+    "name": "Belaya Polyana",
+    "localName": "БЕЛАЯ ПОЛЯНА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 82.78200659929969,
+    "lng": 140.21038404388443,
+    "spellings": [
+      "Belaya Polyana",
+      "БЕЛАЯ ПОЛЯНА",
+      "BENAR NONRHA",
+      "GENAR NONRHA",
+      "6ENAR NONRHA"
+    ]
+  },
+  {
+    "id": "location-12",
+    "name": "Berezhki",
+    "localName": "БЕРЕЖКИ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 79.04128432852261,
+    "lng": 159.51055560958324,
+    "spellings": [
+      "Berezhki",
+      "БЕРЕЖКИ",
+      "BEPEXKN",
+      "GEPEXKN",
+      "6EPEXKN"
+    ]
+  },
+  {
+    "id": "location-13",
+    "name": "Berezino",
+    "localName": "БЕРЕЗИНО",
+    "type": "City",
+    "size": "major",
+    "minZoom": 2,
+    "lat": 37.62114008001243,
+    "lng": 99.67511961396171,
+    "spellings": [
+      "Berezino",
+      "БЕРЕЗИНО",
+      "BEPE3NHO",
+      "GEPE3NHO",
+      "6EPE3NHO"
+    ]
+  },
+  {
+    "id": "location-14",
+    "name": "Berezino",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 45.06789149139502,
+    "lng": 113.62957305087966,
+    "spellings": [
+      "Berezino"
+    ]
+  },
+  {
+    "id": "location-15",
+    "name": "Black Forest",
+    "localName": "ЧЕРНЫЙ ЛЕС",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -3.5893569339493143,
+    "lng": 24.160757592053805,
+    "spellings": [
+      "Chernyles",
+      "ЧЕРНЫЙ ЛЕС",
+      "uEPHbIN NEC",
+      "uEPHblN NEC",
+      "yEPHbIN NEC",
+      "yEPHblN NEC",
+      "Black Forest"
+    ]
+  },
+  {
+    "id": "location-16",
+    "name": "Black Lake",
+    "localName": "ЧЕРНОЕ ОЗЕРО",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 67.02777830536955,
+    "lng": 122.46959402155004,
+    "spellings": [
+      "Chernoyeozero",
+      "ЧЕРНОЕ ОЗЕРО",
+      "uEPHOE O3EPO",
+      "yEPHOE O3EPO",
+      "Black Lake"
+    ]
+  },
+  {
+    "id": "location-17",
+    "name": "Black Mountain",
+    "localName": "ЧЕРНАЯ ГОРА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 67.48150401529658,
+    "lng": 52.40626488193135,
+    "spellings": [
+      "Chernayagora",
+      "ЧЕРНАЯ ГОРА",
+      "uEPHAR rOPA",
+      "yEPHAR rOPA",
+      "uEPHAR TOPA",
+      "yEPHAR TOPA",
+      "Black Mountain"
+    ]
+  },
+  {
+    "id": "location-18",
+    "name": "Bogat",
+    "localName": "БОГАТ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 67.21729803643862,
+    "lng": -20.42826605810605,
+    "spellings": [
+      "Bogat",
+      "БОГАТ",
+      "BOrAT",
+      "BOTAT",
+      "GOrAT",
+      "GOTAT",
+      "6OrAT",
+      "6OTAT"
+    ]
+  },
+  {
+    "id": "location-19",
+    "name": "Bogatyrka",
+    "localName": "БОГАТЫРКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 20.116490909041875,
+    "lng": -147.08600355372462,
+    "spellings": [
+      "Bogatyrka",
+      "БОГАТЫРКА",
+      "BOrATbIPKA",
+      "BOrATblPKA",
+      "BOTATbIPKA",
+      "BOTATblPKA",
+      "GOrATbIPKA",
+      "GOrATblPKA",
+      "GOTATbIPKA",
+      "GOTATblPKA",
+      "6OrATbIPKA",
+      "6OrATblPKA",
+      "6OTATbIPKA",
+      "6OTATblPKA"
+    ]
+  },
+  {
+    "id": "location-20",
+    "name": "Bolshoy Kotel",
+    "localName": "БОЛЬШОЙ КОТЕЛ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -30.951883651371464,
+    "lng": -163.78655048823987,
+    "spellings": [
+      "Bolshoy Kotel",
+      "БОЛЬШОЙ КОТЕЛ",
+      "BONbWON KOTEN",
+      "GONbWON KOTEN",
+      "6ONbWON KOTEN"
+    ]
+  },
+  {
+    "id": "location-21",
+    "name": "Bor",
+    "localName": "БОР",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -65.67642244918893,
+    "lng": -104.9875382256429,
+    "spellings": [
+      "Bor",
+      "БОР",
+      "BOP",
+      "GOP",
+      "6OP"
+    ]
+  },
+  {
+    "id": "location-22",
+    "name": "Cap Golova",
+    "localName": "МЫС ГОЛОВА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -77.24914622883246,
+    "lng": 7.325154656043693,
+    "spellings": [
+      "Mys Golova",
+      "МЫС ГОЛОВА",
+      "MbIC rONOBA",
+      "MblC rONOBA",
+      "MbIC TONOBA",
+      "MblC TONOBA",
+      "Cap Golova"
+    ]
+  },
+  {
+    "id": "location-23",
+    "name": "Chernaya Polyana",
+    "localName": "ЧЕРНАЯ ПОЛЯНА",
+    "type": "City",
+    "size": "major",
+    "minZoom": 2,
+    "lat": 78.44686931735451,
+    "lng": 94.84232501428527,
+    "spellings": [
+      "Chernaya Polyana",
+      "ЧЕРНАЯ ПОЛЯНА",
+      "uEPHAR NONRHA",
+      "yEPHAR NONRHA"
+    ]
+  },
+  {
+    "id": "location-24",
+    "name": "Cherno",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -76.03237768252703,
+    "lng": -32.12102866410028,
+    "spellings": [
+      "Cherno"
+    ]
+  },
+  {
+    "id": "location-25",
+    "name": "Chernogorsk",
+    "localName": "ЧЕРНОГОРСК",
     "type": "Capital",
     "size": "major",
-    "dayzX": 6463,
-    "dayzY": 12841
+    "minZoom": 0,
+    "lat": -77.66058952299595,
+    "lng": -26.74245052424623,
+    "spellings": [
+      "Chernogorsk",
+      "ЧЕРНОГОРСК",
+      "uEPHOrOPCK",
+      "yEPHOrOPCK",
+      "uEPHOTOPCK",
+      "yEPHOTOPCK"
+    ]
   },
   {
-    "id": 2,
-    "name": "novodmitrovsk",
-    "localName": "новодмитровск",
+    "id": "location-26",
+    "name": "Chernyeskaly",
+    "localName": "ЧЕРНЫЕ СКАЛЫ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 81.65648966896528,
+    "lng": -91.06235144232863,
+    "spellings": [
+      "Chernyeskaly",
+      "ЧЕРНЫЕ СКАЛЫ",
+      "uEPHbIE CKANbI",
+      "uEPHblE CKANbl",
+      "yEPHbIE CKANbI",
+      "yEPHblE CKANbl"
+    ]
+  },
+  {
+    "id": "location-27",
+    "name": "Chernyzaliv",
+    "localName": "ЧЕРНЫЙ ЗАЛИВ",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -76.83881990519632,
+    "lng": -8.200499984342734,
+    "spellings": [
+      "Chernyzaliv",
+      "ЧЕРНЫЙ ЗАЛИВ",
+      "uEPHbIN 3ANNB",
+      "uEPHblN 3ANNB",
+      "yEPHbIN 3ANNB",
+      "yEPHblN 3ANNB"
+    ]
+  },
+  {
+    "id": "location-28",
+    "name": "Dazhbog",
+    "localName": "ДАЖБОГ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 14.051277389981717,
+    "lng": -31.208587063639477,
+    "spellings": [
+      "Dazhbog",
+      "ДАЖБОГ",
+      "AAXBOr",
+      "AAXBOT",
+      "AAXGOr",
+      "AAXGOT",
+      "AAX6Or",
+      "AAX6OT"
+    ]
+  },
+  {
+    "id": "location-29",
+    "name": "Devil's Castle",
+    "localName": "ЧЕРТОВ ЗАМОК",
+    "type": "Ruin",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 62.18981013968435,
+    "lng": -24.378066508785576,
+    "spellings": [
+      "Chortovzamok",
+      "ЧЕРТОВ ЗАМОК",
+      "uEPTOB 3AMOK",
+      "yEPTOB 3AMOK",
+      "Devil's Castle"
+    ]
+  },
+  {
+    "id": "location-30",
+    "name": "Dichina",
+    "localName": "ДИШИНА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -3.1832729187556654,
+    "lng": -75.57186198573169,
+    "spellings": [
+      "Dichina",
+      "ДИШИНА",
+      "ANWNHA"
+    ]
+  },
+  {
+    "id": "location-31",
+    "name": "Dobroye",
+    "localName": "ДОБРОЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 83.0550121417672,
+    "lng": 113.76869700422681,
+    "spellings": [
+      "Dobroye",
+      "ДОБРОЕ",
+      "AOBPOE",
+      "AOGPOE",
+      "AO6POE"
+    ]
+  },
+  {
+    "id": "location-32",
+    "name": "Dobroye",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 83.01175978078923,
+    "lng": 110.71000400651627,
+    "spellings": [
+      "Dobroye"
+    ]
+  },
+  {
+    "id": "location-33",
+    "name": "Dobry",
+    "localName": "ДОБРЫЙ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -73.53315201237001,
+    "lng": 58.555290502869966,
+    "spellings": [
+      "Dobry",
+      "ДОБРЫЙ",
+      "AOBPbIN",
+      "AOBPblN",
+      "AOGPbIN",
+      "AOGPblN",
+      "AO6PbIN",
+      "AO6PblN"
+    ]
+  },
+  {
+    "id": "location-34",
+    "name": "Dolina",
+    "localName": "ДОЛИНА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -28.734072105148794,
+    "lng": 75.10439662981878,
+    "spellings": [
+      "Dolina",
+      "ДОЛИНА",
+      "AONNHA"
+    ]
+  },
+  {
+    "id": "location-35",
+    "name": "Drakon",
+    "localName": "ДРАКОН",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -77.06123554319257,
+    "lng": 72.976179819114,
+    "spellings": [
+      "Drakon",
+      "ДРАКОН",
+      "APAKOH"
+    ]
+  },
+  {
+    "id": "location-36",
+    "name": "Drozhino",
+    "localName": "ДРОЖЖИНО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -57.20085330957197,
+    "lng": -103.68592923131636,
+    "spellings": [
+      "Drozhino",
+      "ДРОЖЖИНО",
+      "APOXXNHO"
+    ]
+  },
+  {
+    "id": "location-37",
+    "name": "Druzhba",
+    "localName": "ДРУ́ЖБА",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 52.41678446268038,
+    "lng": 78.53571401719587,
+    "spellings": [
+      "Druzhba",
+      "ДРУЖБА",
+      "APyXBA",
+      "APyXGA",
+      "APyX6A"
+    ]
+  },
+  {
+    "id": "location-38",
+    "name": "Dubina",
+    "localName": "ДУБИНА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 11.51319822675418,
+    "lng": 71.09814204732292,
+    "spellings": [
+      "Dubina",
+      "ДУБИНА",
+      "AyBNHA",
+      "AyGNHA",
+      "Ay6NHA"
+    ]
+  },
+  {
+    "id": "location-39",
+    "name": "Dubnik",
+    "localName": "ДУБНИК",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 47.108576987127904,
+    "lng": -105.39695497983985,
+    "spellings": [
+      "Dubnik",
+      "ДУБНИК",
+      "AyBHNK",
+      "AyGHNK",
+      "Ay6HNK"
+    ]
+  },
+  {
+    "id": "location-40",
+    "name": "Dubovo",
+    "localName": "ДУБОВО",
+    "type": "City",
+    "size": "major",
+    "minZoom": 2,
+    "lat": -69.74314825956198,
+    "lng": -27.28730747539075,
+    "spellings": [
+      "Dubovo",
+      "ДУБОВО",
+      "AyBOBO",
+      "AyGOBO",
+      "Ay6OBO"
+    ]
+  },
+  {
+    "id": "location-41",
+    "name": "Dubrovka",
+    "localName": "ДУБРОВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 39.86395632257474,
+    "lng": 53.3889690507736,
+    "spellings": [
+      "Dubrovka",
+      "ДУБРОВКА",
+      "AyBPOBKA",
+      "AyGPOBKA",
+      "Ay6POBKA"
+    ]
+  },
+  {
+    "id": "location-42",
+    "name": "Elektro",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -78.7216423830911,
+    "lng": 53.06382669911584,
+    "spellings": [
+      "Elektro"
+    ]
+  },
+  {
+    "id": "location-43",
+    "name": "Elektrozavodsk",
+    "localName": "ЭЛЕКТРОЗАВОДСК",
+    "type": "City",
+    "size": "major",
+    "minZoom": 2,
+    "lat": -79.1527833188169,
+    "lng": 52.53878971338481,
+    "spellings": [
+      "Elektrozavodsk",
+      "ЭЛЕКТРОЗАВОДСК",
+      "3NEKTPO3ABOACK",
+      "eNEKTPO3ABOACK"
+    ]
+  },
+  {
+    "id": "location-44",
+    "name": "Erbenka",
+    "localName": "ЕРБЕНКА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -66.19389926816334,
+    "lng": -115.6882855729997,
+    "spellings": [
+      "Erbenka",
+      "ЕРБЕНКА",
+      "EPBEHKA",
+      "EPGEHKA",
+      "EP6EHKA"
+    ]
+  },
+  {
+    "id": "location-45",
+    "name": "Galkino",
+    "localName": "ГАЛКИНО",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 18.567348303980406,
+    "lng": -155.01715368167115,
+    "spellings": [
+      "Galkino",
+      "ГАЛКИНО",
+      "rANKNHO",
+      "TANKNHO"
+    ]
+  },
+  {
+    "id": "location-46",
+    "name": "Glaza",
+    "localName": "ГЛАЗА",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 29.321479808666847,
+    "lng": -13.083601588592128,
+    "spellings": [
+      "Glaza",
+      "ГЛАЗА",
+      "rNA3A",
+      "TNA3A"
+    ]
+  },
+  {
+    "id": "location-47",
+    "name": "Glubokoyeozero",
+    "localName": "ГЛУБОКОЕ ОЗЕРО",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 82.35405852916173,
+    "lng": -141.68613646584376,
+    "spellings": [
+      "Glubokoyeozero",
+      "ГЛУБОКОЕ ОЗЕРО",
+      "rNyBOKOE O3EPO",
+      "TNyBOKOE O3EPO",
+      "rNyGOKOE O3EPO",
+      "TNyGOKOE O3EPO",
+      "rNy6OKOE O3EPO",
+      "TNy6OKOE O3EPO"
+    ]
+  },
+  {
+    "id": "location-48",
+    "name": "Gnomovzamok",
+    "localName": "ГНОМСКИЙ ЗАМОК",
+    "type": "Ruin",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 24.839417971774914,
+    "lng": -11.639139685053916,
+    "spellings": [
+      "Gnomovzamok",
+      "ГНОМСКИЙ ЗАМОК",
+      "rHOMCKNN 3AMOK",
+      "THOMCKNN 3AMOK"
+    ]
+  },
+  {
+    "id": "location-49",
+    "name": "Gorka",
+    "localName": "ГОРКА",
+    "type": "City",
+    "size": "major",
+    "minZoom": 2,
+    "lat": 21.680477944310745,
+    "lng": 35.302425720730035,
+    "spellings": [
+      "Gorka",
+      "ГОРКА",
+      "rOPKA",
+      "TOPKA"
+    ]
+  },
+  {
+    "id": "location-50",
+    "name": "Green Mountain",
+    "localName": "ЗЕЛЕНАЯ ГОРА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -40.297582282984735,
+    "lng": -94.80039239936578,
+    "spellings": [
+      "Zelenayagora",
+      "ЗЕЛЕНАЯ ГОРА",
+      "3ENEHAR rOPA",
+      "3ENEHAR TOPA",
+      "Green Mountain"
+    ]
+  },
+  {
+    "id": "location-51",
+    "name": "Grishino",
+    "localName": "ГРИШИНО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 45.959883695115934,
+    "lng": -44.79102630366873,
+    "spellings": [
+      "Grishino",
+      "ГРИШИНО",
+      "rPNWNHO",
+      "TPNWNHO"
+    ]
+  },
+  {
+    "id": "location-52",
+    "name": "Grozovoy Pass",
+    "localName": "ГРОЗОВОЙ ПЕРЕВАЛ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 83.54153172812295,
+    "lng": -104.94880228411641,
+    "spellings": [
+      "Grozovypereval",
+      "ГРОЗОВОЙ ПЕРЕВАЛ",
+      "rPO3OBON NEPEBAN",
+      "TPO3OBON NEPEBAN",
+      "Grozovoy Pass"
+    ]
+  },
+  {
+    "id": "location-53",
+    "name": "Grozovyedoly",
+    "localName": "ГРОЗОВЫЕ ДОЛИ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 82.26819534467239,
+    "lng": 55.189783536569365,
+    "spellings": [
+      "Grozovyedoly",
+      "ГРОЗОВЫЕ ДОЛИ",
+      "rPO3OBbIE AONN",
+      "rPO3OBblE AONN",
+      "TPO3OBbIE AONN",
+      "TPO3OBblE AONN"
+    ]
+  },
+  {
+    "id": "location-54",
+    "name": "Grubyeskaly",
+    "localName": "ГРУБЫЕ СКАЛЫ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 66.1112726468835,
+    "lng": 116.45942115716838,
+    "spellings": [
+      "Grubyeskaly",
+      "ГРУБЫЕ СКАЛЫ",
+      "rPyBbIE CKANbI",
+      "rPyBblE CKANbl",
+      "TPyBbIE CKANbI",
+      "TPyBblE CKANbl",
+      "rPyGbIE CKANbI",
+      "rPyGblE CKANbl",
+      "TPyGbIE CKANbI",
+      "TPyGblE CKANbl",
+      "rPy6bIE CKANbI",
+      "rPy6blE CKANbl",
+      "TPy6bIE CKANbI",
+      "TPy6blE CKANbl"
+    ]
+  },
+  {
+    "id": "location-55",
+    "name": "Guglovo",
+    "localName": "ГУГЛОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -29.810032278855235,
+    "lng": 10.917314339712489,
+    "spellings": [
+      "Guglovo",
+      "ГУГЛОВО",
+      "ryrNOBO",
+      "TyTNOBO"
+    ]
+  },
+  {
+    "id": "location-56",
+    "name": "Gvozdno",
+    "localName": "ГВОЗДНО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 66.42157960798328,
+    "lng": 15.431633508822442,
+    "spellings": [
+      "Gvozdno",
+      "ГВОЗДНО",
+      "rBO3AHO",
+      "TBO3AHO"
+    ]
+  },
+  {
+    "id": "location-57",
+    "name": "Kabanino",
+    "localName": "КАБАНИНО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 15.273434879455017,
+    "lng": -60.14279860210379,
+    "spellings": [
+      "Kabanino",
+      "КАБАНИНО",
+      "KABAHNHO",
+      "KAGAHNHO",
+      "KA6AHNHO"
+    ]
+  },
+  {
+    "id": "location-58",
+    "name": "Kalinka",
+    "localName": "КАЛИНКА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 59.90226382091699,
+    "lng": -104.30742187541087,
+    "spellings": [
+      "Kalinka",
+      "КАЛИНКА",
+      "KANNHKA"
+    ]
+  },
+  {
+    "id": "location-59",
+    "name": "Kalinovka",
+    "localName": "КАЛИНОВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 76.67695266889748,
+    "lng": -11.614618975277807,
+    "spellings": [
+      "Kalinovka",
+      "КАЛИНОВКА",
+      "KANNHOBKA"
+    ]
+  },
+  {
+    "id": "location-60",
+    "name": "Kalmyk",
+    "localName": "КАЛМЫК",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -56.47571755174828,
+    "lng": -23.913845403245737,
+    "spellings": [
+      "Kalmyk",
+      "КАЛМЫК",
+      "KANMbIK",
+      "KANMblK"
+    ]
+  },
+  {
+    "id": "location-61",
+    "name": "Kamenka",
+    "localName": "КАМЕНКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -78.20281700786443,
+    "lng": -135.1673566212677,
+    "spellings": [
+      "Kamenka",
+      "КАМЕНКА",
+      "KAMEHKA"
+    ]
+  },
+  {
+    "id": "location-62",
+    "name": "Kamenka",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -78.37912051843499,
+    "lng": -137.49659805267137,
+    "spellings": [
+      "Kamenka"
+    ]
+  },
+  {
+    "id": "location-63",
+    "name": "Kamensk",
+    "localName": "КАМЕНСК",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 81.08202012071146,
+    "lng": -27.417685332255537,
+    "spellings": [
+      "Kamensk",
+      "КАМЕНСК",
+      "KAMEHCK"
+    ]
+  },
+  {
+    "id": "location-64",
+    "name": "Kamyshovo",
+    "localName": "КАМЫШОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -70.79026371713546,
+    "lng": 95.1013179488788,
+    "spellings": [
+      "Kamyshovo",
+      "КАМЫШОВО",
+      "KAMbIWOBO",
+      "KAMblWOBO"
+    ]
+  },
+  {
+    "id": "location-65",
+    "name": "Kamyshovo",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -70.10414284604279,
+    "lng": 90.60327058717783,
+    "spellings": [
+      "Kamyshovo"
+    ]
+  },
+  {
+    "id": "location-66",
+    "name": "Karer Krasnaya Zarya",
+    "localName": "KАРЬЕР КРАСНАЯ ЗАРЯ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 76.74284923082243,
+    "lng": 13.637169547862678,
+    "spellings": [
+      "Karer Krasnaya Zarya",
+      "KАРЬЕР КРАСНАЯ ЗАРЯ",
+      "KAPbEP KPACHAR 3APR"
+    ]
+  },
+  {
+    "id": "location-67",
+    "name": "Karmanovka",
+    "localName": "КАРМАНОВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 81.95225832349414,
+    "lng": 107.09336881253643,
+    "spellings": [
+      "Karmanovka",
+      "КАРМАНОВКА",
+      "KAPMAHOBKA"
+    ]
+  },
+  {
+    "id": "location-68",
+    "name": "Khelm",
+    "localName": "ХЕЛМ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 53.452091319794604,
+    "lng": 98.70077734614912,
+    "spellings": [
+      "Khelm",
+      "ХЕЛМ",
+      "XENM"
+    ]
+  },
+  {
+    "id": "location-69",
+    "name": "Kikimora",
+    "localName": "КИКИМОРА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -36.95358536835479,
+    "lng": -138.9867114158849,
+    "spellings": [
+      "Kikimora",
+      "КИКИМОРА",
+      "KNKNMOPA"
+    ]
+  },
+  {
+    "id": "location-70",
+    "name": "Klen",
+    "localName": "КЛЕН",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 60.16523524531942,
+    "lng": 79.36085285096078,
+    "spellings": [
+      "Klen",
+      "КЛЕН",
+      "KNEH"
+    ]
+  },
+  {
+    "id": "location-71",
+    "name": "Klenovyipereval",
+    "localName": "КЛЕНОВЫЙ ПЕРЕВАЛ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 63.06489387737288,
+    "lng": 65.55673283471612,
+    "spellings": [
+      "Klenovyipereval",
+      "КЛЕНОВЫЙ ПЕРЕВАЛ",
+      "KNEHOBbIN NEPEBAN",
+      "KNEHOBblN NEPEBAN"
+    ]
+  },
+  {
+    "id": "location-72",
+    "name": "Klyuch",
+    "localName": "КЛЮЧ",
+    "type": "Ruin",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 77.04004639972312,
+    "lng": 29.84617230023044,
+    "spellings": [
+      "Klyuch",
+      "КЛЮЧ",
+      "KNЮu",
+      "KNЮy"
+    ]
+  },
+  {
+    "id": "location-73",
+    "name": "Koman",
+    "localName": "КОМАН",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -12.251031132318587,
+    "lng": -142.40713573219097,
+    "spellings": [
+      "Koman",
+      "КОМАН",
+      "KOMAH"
+    ]
+  },
+  {
+    "id": "location-74",
+    "name": "Komarovo",
+    "localName": "КОМАРОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -77.07640767944345,
+    "lng": -96.27321696720722,
+    "spellings": [
+      "Komarovo",
+      "КОМАРОВО",
+      "KOMAPOBO"
+    ]
+  },
+  {
+    "id": "location-75",
+    "name": "Komarovo",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -77.28935213221304,
+    "lng": -96.98133438602225,
+    "spellings": [
+      "Komarovo"
+    ]
+  },
+  {
+    "id": "location-76",
+    "name": "Kometa",
+    "localName": "КОМЕТА",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -70.03091138200689,
+    "lng": 52.20017792114959,
+    "spellings": [
+      "Kometa",
+      "КОМЕТА",
+      "KOMETA"
+    ]
+  },
+  {
+    "id": "location-77",
+    "name": "Kopyto",
+    "localName": "КОПЫТО",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -67.48863460834757,
+    "lng": -2.0441068506050057,
+    "spellings": [
+      "Kopyto",
+      "КОПЫТО",
+      "KONbITO",
+      "KONblTO"
+    ]
+  },
+  {
+    "id": "location-78",
+    "name": "Kotka",
+    "localName": "КОТЬКА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -23.67413865218652,
+    "lng": -47.193377869750435,
+    "spellings": [
+      "Kotka",
+      "КОТЬКА",
+      "KOTbKA"
+    ]
+  },
+  {
+    "id": "location-79",
+    "name": "Kozlovka",
+    "localName": "КОЗЛОВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -58.69967553345132,
+    "lng": -80.4534042084377,
+    "spellings": [
+      "Kozlovka",
+      "КОЗЛОВКА",
+      "KO3NOBKA"
+    ]
+  },
+  {
+    "id": "location-80",
+    "name": "Krasnostav",
+    "localName": "КРАСНОСТАВ",
+    "type": "City",
+    "size": "major",
+    "minZoom": 2,
+    "lat": 69.83848019218618,
+    "lng": 73.25115076459393,
+    "spellings": [
+      "Krasnostav",
+      "КРАСНОСТАВ",
+      "KPACHOCTAB"
+    ]
+  },
+  {
+    "id": "location-81",
+    "name": "Krasnoye",
+    "localName": "КРАСНОЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 82.95583116549493,
+    "lng": -35.042089290809535,
+    "spellings": [
+      "Krasnoye",
+      "КРАСНОЕ",
+      "KPACHOE"
+    ]
+  },
+  {
+    "id": "location-82",
+    "name": "Krona",
+    "localName": "КРОНА",
+    "type": "Ruin",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 28.338300090847547,
+    "lng": -146.19602608738128,
+    "spellings": [
+      "Krona",
+      "КРОНА",
+      "KPOHA"
+    ]
+  },
+  {
+    "id": "location-83",
+    "name": "Krutoy Cap",
+    "localName": "МЫС КРУТОЙ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -66.53809442997485,
+    "lng": 126.92603527569543,
+    "spellings": [
+      "Mys Krutoy",
+      "МЫС КРУТОЙ",
+      "MbIC KPyTON",
+      "MblC KPyTON",
+      "Krutoy Cap"
+    ]
+  },
+  {
+    "id": "location-84",
+    "name": "Krutyeskaly",
+    "localName": "КРУТЫЕ СКАЛЫ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 77.99263782244056,
+    "lng": 156.3608308893122,
+    "spellings": [
+      "Krutyeskaly",
+      "КРУТЫЕ СКАЛЫ",
+      "KPyTbIE CKANbI",
+      "KPyTblE CKANbl"
+    ]
+  },
+  {
+    "id": "location-85",
+    "name": "Kumyrna",
+    "localName": "КУМЫРНА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -39.544328218007394,
+    "lng": 7.640353125395949,
+    "spellings": [
+      "Kumyrna",
+      "КУМЫРНА",
+      "KyMbIPHA",
+      "KyMblPHA"
+    ]
+  },
+  {
+    "id": "location-86",
+    "name": "Kurgan",
+    "localName": "КУРГАН",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -51.469266106001825,
+    "lng": -103.80977576548501,
+    "spellings": [
+      "Kurgan",
+      "КУРГАН",
+      "KyPrAH",
+      "KyPTAH"
+    ]
+  },
+  {
+    "id": "location-87",
+    "name": "Kustryk",
+    "localName": "КУСТРЫК",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -54.638192045822336,
+    "lng": -68.90765286243746,
+    "spellings": [
+      "Kustryk",
+      "КУСТРЫК",
+      "KyCTPbIK",
+      "KyCTPblK"
+    ]
+  },
+  {
+    "id": "location-88",
+    "name": "Lesnoy Khrebet",
+    "localName": "ЛЕСНОЙ ХРЕБЕТ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -3.306469590284008,
+    "lng": 3.6350025322006276,
+    "spellings": [
+      "Lesnoykhrebet",
+      "ЛЕСНОЙ ХРЕБЕТ",
+      "NECHON XPEBET",
+      "NECHON XPEGET",
+      "NECHON XPE6ET",
+      "Lesnoy Khrebet"
+    ]
+  },
+  {
+    "id": "location-89",
+    "name": "Lopatino",
+    "localName": "ЛОПАТИНО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 42.262104520433645,
+    "lng": -116.63557596099483,
+    "spellings": [
+      "Lopatino",
+      "ЛОПАТИНО",
+      "NONATNHO"
+    ]
+  },
+  {
+    "id": "location-90",
+    "name": "Lysayagora",
+    "localName": "ЛЫСАЯ ГОРА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 79.64876726130561,
+    "lng": -28.011651502149792,
+    "spellings": [
+      "Lysayagora",
+      "ЛЫСАЯ ГОРА",
+      "NbICAR rOPA",
+      "NblCAR rOPA",
+      "NbICAR TOPA",
+      "NblCAR TOPA"
+    ]
+  },
+  {
+    "id": "location-91",
+    "name": "M B Kamensk",
+    "localName": "ВОЕННАЯ БАЗА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 81.99489347473703,
+    "lng": -2.7823723125917716,
+    "spellings": [
+      "M B Kamensk",
+      "ВОЕННАЯ БАЗА",
+      "BOEHHAR BA3A",
+      "BOEHHAR GA3A",
+      "BOEHHAR 6A3A"
+    ]
+  },
+  {
+    "id": "location-92",
+    "name": "M B Pavlovo",
+    "localName": "ВОЕННАЯ БАЗА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -71.15861663067051,
+    "lng": -134.3763659833292,
+    "spellings": [
+      "M B Pavlovo",
+      "ВОЕННАЯ БАЗА",
+      "BOEHHAR BA3A",
+      "BOEHHAR GA3A",
+      "BOEHHAR 6A3A"
+    ]
+  },
+  {
+    "id": "location-93",
+    "name": "M B Tisy",
+    "localName": "ВОЕННАЯ БАЗА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 79.72394489416142,
+    "lng": -144.45584668391663,
+    "spellings": [
+      "M B Tisy",
+      "ВОЕННАЯ БАЗА",
+      "BOEHHAR BA3A",
+      "BOEHHAR GA3A",
+      "BOEHHAR 6A3A"
+    ]
+  },
+  {
+    "id": "location-94",
+    "name": "M B V M C",
+    "localName": "ВОЕННАЯ БАЗА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 7.416166170835622,
+    "lng": -78.30642961974756,
+    "spellings": [
+      "M B V M C",
+      "ВОЕННАЯ БАЗА",
+      "BOEHHAR BA3A",
+      "BOEHHAR GA3A",
+      "BOEHHAR 6A3A"
+    ]
+  },
+  {
+    "id": "location-95",
+    "name": "M B Zeleno",
+    "localName": "ВОЕННАЯ БАЗА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -53.70920462686956,
+    "lng": -125.46359647370102,
+    "spellings": [
+      "M B Zeleno",
+      "ВОЕННАЯ БАЗА",
+      "BOEHHAR BA3A",
+      "BOEHHAR GA3A",
+      "BOEHHAR 6A3A"
+    ]
+  },
+  {
+    "id": "location-96",
+    "name": "Makosh",
+    "localName": "МАКОШЬ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -31.72861660453884,
+    "lng": -2.535854430345123,
+    "spellings": [
+      "Makosh",
+      "МАКОШЬ",
+      "MAKOWb"
+    ]
+  },
+  {
+    "id": "location-97",
+    "name": "Malinovka",
+    "localName": "МАЛИНОВКА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -8.697514721763488,
+    "lng": 66.3476782731896,
+    "spellings": [
+      "Malinovka",
+      "МАЛИНОВКА",
+      "MANNHOBKA"
+    ]
+  },
+  {
+    "id": "location-98",
+    "name": "Maryanka",
+    "localName": "МАРЬЯНКА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -71.31852737812143,
+    "lng": -116.90677275114516,
+    "spellings": [
+      "Maryanka",
+      "МАРЬЯНКА",
+      "MAPbRHKA"
+    ]
+  },
+  {
+    "id": "location-99",
+    "name": "Matveyevo",
+    "localName": "МАТВЕЕВО",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -13.037408031138135,
+    "lng": -83.18797184245358,
+    "spellings": [
+      "Matveyevo",
+      "МАТВЕЕВО",
+      "MATBEEBO"
+    ]
+  },
+  {
+    "id": "location-100",
+    "name": "Mayak",
+    "localName": "МАЯК",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -60.78173191294111,
+    "lng": 98.57745060582825,
+    "spellings": [
+      "Mayak",
+      "МАЯК",
+      "MARK"
+    ]
+  },
+  {
+    "id": "location-101",
+    "name": "Medvezhilugi",
+    "localName": "МЕДВЕЖЬИ ЛУГА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 75.76212344161156,
+    "lng": 37.9465944246958,
+    "spellings": [
+      "Medvezhilugi",
+      "МЕДВЕЖЬИ ЛУГА",
+      "MEABEXbN NyrA",
+      "MEABEXbN NyTA"
+    ]
+  },
+  {
+    "id": "location-102",
+    "name": "Metalurg",
+    "localName": "МЕТАЛЛУРГ",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -27.862454932816302,
+    "lng": -156.537528086719,
+    "spellings": [
+      "Metalurg",
+      "МЕТАЛЛУРГ",
+      "METANNyPr",
+      "METANNyPT"
+    ]
+  },
+  {
+    "id": "location-103",
+    "name": "Mogilevka",
+    "localName": "МОГИЛЕВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -54.204147600206575,
+    "lng": -7.040207117417055,
+    "spellings": [
+      "Mogilevka",
+      "МОГИЛЕВКА",
+      "MOrNNEBKA",
+      "MOTNNEBKA"
+    ]
+  },
+  {
+    "id": "location-104",
+    "name": "Msta",
+    "localName": "МСТА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -49.682283305349685,
+    "lng": 76.20319562457789,
+    "spellings": [
+      "Msta",
+      "МСТА",
+      "MCTA"
+    ]
+  },
+  {
+    "id": "location-105",
+    "name": "Mutnyizaliv",
+    "localName": "МУТНЫЙ ЗАЛИВ",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -79.462419960951,
+    "lng": -50.317135497364546,
+    "spellings": [
+      "Mutnyizaliv",
+      "МУТНЫЙ ЗАЛИВ",
+      "MyTHbIN 3ANNB",
+      "MyTHblN 3ANNB"
+    ]
+  },
+  {
+    "id": "location-106",
+    "name": "Myshkino",
+    "localName": "МЫШКИНО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -15.708006455810184,
+    "lng": -133.65317454292833,
+    "spellings": [
+      "Myshkino",
+      "МЫШКИНО",
+      "MbIWKNHO",
+      "MblWKNHO"
+    ]
+  },
+  {
+    "id": "location-107",
+    "name": "Nadezhda",
+    "localName": "НАДЕЖДА",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -20.933115989745065,
+    "lng": -15.412097228822894,
+    "spellings": [
+      "Nadezhda",
+      "НАДЕЖДА",
+      "HAAEXAA"
+    ]
+  },
+  {
+    "id": "location-108",
+    "name": "Nadezhdino",
+    "localName": "НАДЕЖДИНО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -58.17922471108637,
+    "lng": -46.73460329974611,
+    "spellings": [
+      "Nadezhdino",
+      "НАДЕЖДИНО",
+      "HAAEXANHO"
+    ]
+  },
+  {
+    "id": "location-109",
+    "name": "Nagornoye",
+    "localName": "НАГОРНОЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 81.90684949369638,
+    "lng": 29.9236893827484,
+    "spellings": [
+      "Nagornoye",
+      "НАГОРНОЕ",
+      "HArOPHOE",
+      "HATOPHOE"
+    ]
+  },
+  {
+    "id": "location-110",
+    "name": "Nizhneye",
+    "localName": "НИЖНОЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 3.0669679012721307,
+    "lng": 109.90143077668303,
+    "spellings": [
+      "Nizhneye",
+      "НИЖНОЕ",
+      "HNXHOE"
+    ]
+  },
+  {
+    "id": "location-111",
+    "name": "Nizhniyzaliv",
+    "localName": "НИЖНИЙ ЗАЛИВ",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 12.418096472476607,
+    "lng": 113.61727879639287,
+    "spellings": [
+      "Nizhniyzaliv",
+      "НИЖНИЙ ЗАЛИВ",
+      "HNXHNN 3ANNB"
+    ]
+  },
+  {
+    "id": "location-112",
+    "name": "Novaya",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 71.31303255764398,
+    "lng": -100.06036714299408,
+    "spellings": [
+      "Novaya"
+    ]
+  },
+  {
+    "id": "location-113",
+    "name": "Novaya Petrovka",
+    "localName": "НОВАЯ ПЕТРОВКА",
+    "type": "City",
+    "size": "major",
+    "minZoom": 2,
+    "lat": 73.96582611258664,
+    "lng": -101.35433742773137,
+    "spellings": [
+      "Novaya Petrovka",
+      "НОВАЯ ПЕТРОВКА",
+      "HOBAR NETPOBKA"
+    ]
+  },
+  {
+    "id": "location-114",
+    "name": "Novo",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 79.98154791763753,
+    "lng": 82.46598829898456,
+    "spellings": [
+      "Novo"
+    ]
+  },
+  {
+    "id": "location-115",
+    "name": "Novodmitrovsk",
+    "localName": "НОВОДМИТРОВСК",
     "type": "Capital",
     "size": "major",
-    "dayzX": 10920,
-    "dayzY": 1297
+    "minZoom": 0,
+    "lat": 80.9443576213091,
+    "lng": 76.33834202500277,
+    "spellings": [
+      "Novodmitrovsk",
+      "НОВОДМИТРОВСК",
+      "HOBOAMNTPOBCK"
+    ]
   },
   {
-    "id": 3,
-    "name": "novoselki",
-    "localName": "новоселки",
+    "id": "location-116",
+    "name": "Novoselki",
+    "localName": "НОВОСЕЛКИ",
     "type": "City",
     "size": "major",
-    "dayzX": 5830,
-    "dayzY": 11990
+    "minZoom": 2,
+    "lat": -72.23456470890169,
+    "lng": -41.71949665789106,
+    "spellings": [
+      "Novoselki",
+      "НОВОСЕЛКИ",
+      "HOBOCENKN"
+    ]
   },
   {
-    "id": 4,
-    "name": "dubovo",
-    "localName": "дубово",
+    "id": "location-117",
+    "name": "Novy Lug",
+    "localName": "НОВЫЙ ЛУГ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 60.66295417471768,
+    "lng": 29.132698744809947,
+    "spellings": [
+      "Novylug",
+      "НОВЫЙ ЛУГ",
+      "HOBbIN Nyr",
+      "HOBblN Nyr",
+      "HOBbIN NyT",
+      "HOBblN NyT",
+      "Novy Lug"
+    ]
+  },
+  {
+    "id": "location-118",
+    "name": "Novy Sobor",
+    "localName": "НОВЫЙ СОБОР",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -4.229016201557711,
+    "lng": -18.945294210366487,
+    "spellings": [
+      "Novy Sobor",
+      "НОВЫЙ СОБОР",
+      "HOBbIN COBOP",
+      "HOBblN COBOP",
+      "HOBbIN COGOP",
+      "HOBblN COGOP",
+      "HOBbIN CO6OP",
+      "HOBblN CO6OP"
+    ]
+  },
+  {
+    "id": "location-119",
+    "name": "Olsha",
+    "localName": "ОЛЬША",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 73.75700118129075,
+    "lng": 122.94418840431312,
+    "spellings": [
+      "Olsha",
+      "ОЛЬША",
+      "ONbWA"
+    ]
+  },
+  {
+    "id": "location-120",
+    "name": "Olsha",
+    "localName": "ОЛЬША",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 72.96242452712102,
+    "lng": 113.30992243422251,
+    "spellings": [
+      "Olsha",
+      "ОЛЬША",
+      "ONbWA"
+    ]
+  },
+  {
+    "id": "location-121",
+    "name": "Orlovets",
+    "localName": "ОРЛОВЕЦ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -15.816755951276045,
+    "lng": 96.90929654988102,
+    "spellings": [
+      "Orlovets",
+      "ОРЛОВЕЦ",
+      "OPNOBEu",
+      "OPNOBEy"
+    ]
+  },
+  {
+    "id": "location-122",
+    "name": "Orlye Ozero",
+    "localName": "ОРЛИНОЕ ОЗЕРО",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -40.650696227926474,
+    "lng": -166.44538641860626,
+    "spellings": [
+      "Orlye Ozero",
+      "ОРЛИНОЕ ОЗЕРО",
+      "OPNNHOE O3EPO"
+    ]
+  },
+  {
+    "id": "location-123",
+    "name": "Ostrog",
+    "localName": "ОСТРОГ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -77.93354635144962,
+    "lng": -119.9185487041597,
+    "spellings": [
+      "Ostrog",
+      "ОСТРОГ",
+      "OCTPOr",
+      "OCTPOT"
+    ]
+  },
+  {
+    "id": "location-124",
+    "name": "Ostry",
+    "localName": "ОСТРЫЙ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 73.31834962876299,
+    "lng": 63.97576854680222,
+    "spellings": [
+      "Ostry",
+      "ОСТРЫЙ",
+      "OCTPbIN",
+      "OCTPblN"
+    ]
+  },
+  {
+    "id": "location-125",
+    "name": "Otmel",
+    "localName": "ОТМЕЛЬ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -72.52950870634702,
+    "lng": 81.79572543212801,
+    "spellings": [
+      "Otmel",
+      "ОТМЕЛЬ",
+      "OTMENb"
+    ]
+  },
+  {
+    "id": "location-126",
+    "name": "Ozerko",
+    "localName": "ОЗЕРКО",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -61.44425817152659,
+    "lng": -26.76480165970111,
+    "spellings": [
+      "Ozerko",
+      "ОЗЕРКО",
+      "O3EPKO"
+    ]
+  },
+  {
+    "id": "location-127",
+    "name": "Pass Oreshka",
+    "localName": "ПЕРЕВАЛ ОРЕШКА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -38.935332055582776,
+    "lng": 42.04146255837327,
+    "spellings": [
+      "Pereval Oreshka",
+      "ПЕРЕВАЛ ОРЕШКА",
+      "NEPEBAN OPEWKA",
+      "Pass Oreshka"
+    ]
+  },
+  {
+    "id": "location-128",
+    "name": "Pass Sosnovy",
+    "localName": "СОСНОВЫЙ ПЕРЕВАЛ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -29.58859513894843,
+    "lng": -119.20290557441798,
+    "spellings": [
+      "Sosnovypereval",
+      "СОСНОВЫЙ ПЕРЕВАЛ",
+      "COCHOBbIN NEPEBAN",
+      "COCHOBblN NEPEBAN",
+      "Pass Sosnovy"
+    ]
+  },
+  {
+    "id": "location-129",
+    "name": "Pavlovo",
+    "localName": "ПАВЛОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -67.57890042402532,
+    "lng": -141.65393184701344,
+    "spellings": [
+      "Pavlovo",
+      "ПАВЛОВО",
+      "NABNOBO"
+    ]
+  },
+  {
+    "id": "location-130",
+    "name": "Pik Kozlova",
+    "localName": "ПИК КОЗЛОВА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -74.65079574872544,
+    "lng": 20.074047961813402,
+    "spellings": [
+      "Pik Kozlova",
+      "ПИК КОЗЛОВА",
+      "NNK KO3NOBA"
+    ]
+  },
+  {
+    "id": "location-131",
+    "name": "Plotina Pobeda",
+    "localName": "ПЛОТИНА ПОБЕДА",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 78.91009370438476,
+    "lng": 44.43936197714997,
+    "spellings": [
+      "Plotina Pobeda",
+      "ПЛОТИНА ПОБЕДА",
+      "NNOTNHA NOBEAA",
+      "NNOTNHA NOGEAA",
+      "NNOTNHA NO6EAA"
+    ]
+  },
+  {
+    "id": "location-132",
+    "name": "Plotina Tishina",
+    "localName": "ПЛОТИНА ТИШИНА",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -32.64163921452374,
+    "lng": -153.92920255851806,
+    "spellings": [
+      "Plotina Tishina",
+      "ПЛОТИНА ТИШИНА",
+      "NNOTNHA TNWNHA"
+    ]
+  },
+  {
+    "id": "location-133",
+    "name": "Pobeda",
+    "localName": "ПОБЕДА",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 82.51714092666343,
+    "lng": -96.2419841368749,
+    "spellings": [
+      "Pobeda",
+      "ПОБЕДА",
+      "NOBEAA",
+      "NOGEAA",
+      "NO6EAA"
+    ]
+  },
+  {
+    "id": "location-134",
+    "name": "Pogorevka",
+    "localName": "ПОГОРЕВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -34.718653599815894,
+    "lng": -79.481615710399,
+    "spellings": [
+      "Pogorevka",
+      "ПОГОРЕВКА",
+      "NOrOPEBKA",
+      "NOTOPEBKA"
+    ]
+  },
+  {
+    "id": "location-135",
+    "name": "Polesovo",
+    "localName": "ПОЛЕСОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 77.4461083902681,
+    "lng": -45.33936361362019,
+    "spellings": [
+      "Polesovo",
+      "ПОЛЕСОВО",
+      "NONECOBO"
+    ]
+  },
+  {
+    "id": "location-136",
+    "name": "Polonina",
+    "localName": "ПОЛОНИНА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -64.02600420692062,
+    "lng": -157.23631181600632,
+    "spellings": [
+      "Polonina",
+      "ПОЛОНИНА",
+      "NONOHNHA"
+    ]
+  },
+  {
+    "id": "location-137",
+    "name": "Polyana",
+    "localName": "ПОЛЯНА",
     "type": "City",
     "size": "major",
-    "dayzX": 6447,
-    "dayzY": 11645
+    "minZoom": 2,
+    "lat": 4.47184978202748,
+    "lng": 64.00408601164045,
+    "spellings": [
+      "Polyana",
+      "ПОЛЯНА",
+      "NONRHA"
+    ]
   },
   {
-    "id": 5,
-    "name": "vysotovo",
-    "localName": "высотово",
+    "id": "location-138",
+    "name": "Pop Ivan",
+    "localName": "ПОП ИВАН",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -29.973439955281027,
+    "lng": -34.8412680677032,
+    "spellings": [
+      "Pop Ivan",
+      "ПОП ИВАН",
+      "NON NBAH"
+    ]
+  },
+  {
+    "id": "location-139",
+    "name": "Prigorodki",
+    "localName": "ПРИГОРОДКИ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -71.67710715053788,
+    "lng": -4.563502431369106,
+    "spellings": [
+      "Prigorodki",
+      "ПРИГОРОДКИ",
+      "NPNrOPOAKN",
+      "NPNTOPOAKN"
+    ]
+  },
+  {
+    "id": "location-140",
+    "name": "Prigorodki",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -72.17552597711042,
+    "lng": 2.12678678324456,
+    "spellings": [
+      "Prigorodki"
+    ]
+  },
+  {
+    "id": "location-141",
+    "name": "Proud Chernarus",
+    "localName": "ГОРДЫЙ ЧЕРНОРУС",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -37.40496485580631,
+    "lng": -107.6269383860485,
+    "spellings": [
+      "Proud Chernarus",
+      "ГОРДЫЙ ЧЕРНОРУС",
+      "rOPAbIN uEPHOPyC",
+      "rOPAblN uEPHOPyC",
+      "rOPAbIN yEPHOPyC",
+      "rOPAblN yEPHOPyC",
+      "TOPAbIN uEPHOPyC",
+      "TOPAblN uEPHOPyC",
+      "TOPAbIN yEPHOPyC",
+      "TOPAblN yEPHOPyC"
+    ]
+  },
+  {
+    "id": "location-142",
+    "name": "Prud",
+    "localName": "ПРУД",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 29.09601048593173,
+    "lng": -30.531047082913894,
+    "spellings": [
+      "Prud",
+      "ПРУД",
+      "NPyA"
+    ]
+  },
+  {
+    "id": "location-143",
+    "name": "Pulkovo",
+    "localName": "ПУЛКОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -46.89224197893252,
+    "lng": -66.59976817825812,
+    "spellings": [
+      "Pulkovo",
+      "ПУЛКОВО",
+      "NyNKOBO"
+    ]
+  },
+  {
+    "id": "location-144",
+    "name": "Pusta",
+    "localName": "ПУСТА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -67.45488248344908,
+    "lng": 27.912313189133435,
+    "spellings": [
+      "Pusta",
+      "ПУСТА",
+      "NyCTA"
+    ]
+  },
+  {
+    "id": "location-145",
+    "name": "Pustoshka",
+    "localName": "ПУСТОШКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -1.6044159707730135,
+    "lng": -109.02073168929364,
+    "spellings": [
+      "Pustoshka",
+      "ПУСТОШКА",
+      "NyCTOWKA"
+    ]
+  },
+  {
+    "id": "location-146",
+    "name": "Pustoy Khrebet",
+    "localName": "ПУСТОЙ ХРЕБЕТ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -45.989002727370035,
+    "lng": 66.1736603328431,
+    "spellings": [
+      "Pustoykhrebet",
+      "ПУСТОЙ ХРЕБЕТ",
+      "NyCTON XPEBET",
+      "NyCTON XPEGET",
+      "NyCTON XPE6ET",
+      "Pustoy Khrebet"
+    ]
+  },
+  {
+    "id": "location-147",
+    "name": "Radio Zenit",
+    "localName": "РАДИО ЗЕНИТ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 29.74777366041781,
+    "lng": 2.668637969964941,
+    "spellings": [
+      "Radio Zenit",
+      "РАДИО ЗЕНИТ",
+      "PAANO 3EHNT"
+    ]
+  },
+  {
+    "id": "location-148",
+    "name": "Ratnoye",
+    "localName": "РАТНОЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 72.87348259454515,
+    "lng": -39.91224124832924,
+    "spellings": [
+      "Ratnoye",
+      "РАТНОЕ",
+      "PATHOE"
+    ]
+  },
+  {
+    "id": "location-149",
+    "name": "Rify",
+    "localName": "РИФЫ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 59.86272131119681,
+    "lng": 134.91594470817452,
+    "spellings": [
+      "Rify",
+      "РИФЫ",
+      "PNObI",
+      "PNObl"
+    ]
+  },
+  {
+    "id": "location-150",
+    "name": "Rog",
+    "localName": "РОГ",
+    "type": "Ruin",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -63.52502226870484,
+    "lng": 74.69841503496372,
+    "spellings": [
+      "Rog",
+      "РОГ",
+      "POr",
+      "POT"
+    ]
+  },
+  {
+    "id": "location-151",
+    "name": "Rogovo",
+    "localName": "РОГОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -26.44246361542811,
+    "lng": -71.41351120342655,
+    "spellings": [
+      "Rogovo",
+      "РОГОВО",
+      "POrOBO",
+      "POTOBO"
+    ]
+  },
+  {
+    "id": "location-152",
+    "name": "Romashka",
+    "localName": "РОМАШКА",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 56.17617060656001,
+    "lng": 4.874191065327549,
+    "spellings": [
+      "Romashka",
+      "РОМАШКА",
+      "POMAWKA"
+    ]
+  },
+  {
+    "id": "location-153",
+    "name": "Rostoki",
+    "localName": "РОСТОКИ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 15.316161465307236,
+    "lng": -163.11305585963402,
+    "spellings": [
+      "Rostoki",
+      "РОСТОКИ",
+      "POCTOKN"
+    ]
+  },
+  {
+    "id": "location-154",
+    "name": "SKVSCh Biathlon Arena",
+    "localName": "СКВСЧ БИАТЛОН АРЕНА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 58.15712593837788,
+    "lng": -171.86932222161292,
+    "spellings": [
+      "S K V S Ch Biathlon Arena",
+      "СКВСЧ БИАТЛОН АРЕНА",
+      "CKBCu BNATNOH APEHA",
+      "CKBCy BNATNOH APEHA",
+      "CKBCu GNATNOH APEHA",
+      "CKBCy GNATNOH APEHA",
+      "CKBCu 6NATNOH APEHA",
+      "CKBCy 6NATNOH APEHA",
+      "SKVSCh Biathlon Arena"
+    ]
+  },
+  {
+    "id": "location-155",
+    "name": "Severograd",
+    "localName": "СЕВЕРОГРАД",
     "type": "City",
     "size": "major",
-    "dayzX": 5427,
-    "dayzY": 12666
+    "minZoom": 2,
+    "lat": 71.57558034748497,
+    "lng": 4.668126704278311,
+    "spellings": [
+      "Severograd",
+      "СЕВЕРОГРАД",
+      "CEBEPOrPAA",
+      "CEBEPOTPAA"
+    ]
   },
   {
-    "id": 6,
-    "name": "zelenogorsk",
-    "localName": "зеленогорск",
+    "id": "location-156",
+    "name": "Severograd",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 70.30586544095354,
+    "lng": -2.6067949907019234,
+    "spellings": [
+      "Severograd"
+    ]
+  },
+  {
+    "id": "location-157",
+    "name": "Shakhovka",
+    "localName": "ШАХОВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -30.039197482692753,
+    "lng": 39.92723498209374,
+    "spellings": [
+      "Shakhovka",
+      "ШАХОВКА",
+      "WAXOBKA"
+    ]
+  },
+  {
+    "id": "location-158",
+    "name": "Shishok",
+    "localName": "ШИШОК",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 31.316467873890563,
+    "lng": -99.49790500022227,
+    "spellings": [
+      "Shishok",
+      "ШИШОК",
+      "WNWOK"
+    ]
+  },
+  {
+    "id": "location-159",
+    "name": "Shkolnik",
+    "localName": "ШКОЛЬНИК",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 81.56261142710197,
+    "lng": 155.81556714298245,
+    "spellings": [
+      "Shkolnik",
+      "ШКОЛЬНИК",
+      "WKONbHNK"
+    ]
+  },
+  {
+    "id": "location-160",
+    "name": "Simurg",
+    "localName": "СИМУРГ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -8.822596856240736,
+    "lng": -176.90906257190667,
+    "spellings": [
+      "Simurg",
+      "СИМУРГ",
+      "CNMyPr",
+      "CNMyPT"
+    ]
+  },
+  {
+    "id": "location-161",
+    "name": "Sinystok",
+    "localName": "СИНЫСТОК",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 66.15313604655061,
+    "lng": -145.17275539867904,
+    "spellings": [
+      "Sinystok",
+      "СИНЫСТОК",
+      "CNHbICTOK",
+      "CNHblCTOK"
+    ]
+  },
+  {
+    "id": "location-162",
+    "name": "Skalisty",
+    "localName": "СКАЛИСТЫЙ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -73.15913024486048,
+    "lng": 130.02816495929503,
+    "spellings": [
+      "Skalisty",
+      "СКАЛИСТЫЙ",
+      "CKANNCTbIN",
+      "CKANNCTblN"
+    ]
+  },
+  {
+    "id": "location-163",
+    "name": "Skalisty Proliv",
+    "localName": "СКАЛИСТЫЙ ПРОЛИВ",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -69.5964532728565,
+    "lng": 122.58078470551172,
+    "spellings": [
+      "Skalistyproliv",
+      "СКАЛИСТЫЙ ПРОЛИВ",
+      "CKANNCTbIN NPONNB",
+      "CKANNCTblN NPONNB",
+      "Skalisty Proliv"
+    ]
+  },
+  {
+    "id": "location-164",
+    "name": "Skalka",
+    "localName": "СКАЛКА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 81.27592843798904,
+    "lng": -49.80816692144991,
+    "spellings": [
+      "Skalka",
+      "СКАЛКА",
+      "CKANKA"
+    ]
+  },
+  {
+    "id": "location-165",
+    "name": "Sokol",
+    "localName": "СОКОЛ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 82.32826109697515,
+    "lng": 91.28196315426158,
+    "spellings": [
+      "Sokol",
+      "СОКОЛ",
+      "COKON"
+    ]
+  },
+  {
+    "id": "location-166",
+    "name": "Solnechny",
+    "localName": "СОЛНЕЧНЫЙ",
     "type": "City",
     "size": "major",
-    "dayzX": 2645,
-    "dayzY": 10333
+    "minZoom": 2,
+    "lat": -36.48468908454749,
+    "lng": 124.88152787421708,
+    "spellings": [
+      "Solnechny",
+      "СОЛНЕЧНЫЙ",
+      "CONHEuHbIN",
+      "CONHEuHblN",
+      "CONHEyHbIN",
+      "CONHEyHblN"
+    ]
   },
   {
-    "id": 7,
-    "name": "berezino",
-    "localName": "берёзино",
+    "id": "location-167",
+    "name": "Solnich",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -19.232557367697765,
+    "lng": 117.16112025194988,
+    "spellings": [
+      "Solnich"
+    ]
+  },
+  {
+    "id": "location-168",
+    "name": "Solnich 2",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -37.77136894405014,
+    "lng": 121.90706407958075,
+    "spellings": [
+      "Solnich 2"
+    ]
+  },
+  {
+    "id": "location-169",
+    "name": "Sosnovka",
+    "localName": "СОСНОВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -34.9968242172562,
+    "lng": -122.17251042656416,
+    "spellings": [
+      "Sosnovka",
+      "СОСНОВКА",
+      "COCHOBKA"
+    ]
+  },
+  {
+    "id": "location-170",
+    "name": "Staroye",
+    "localName": "СТАРОЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -50.210912587243335,
+    "lng": 50.86279355025576,
+    "spellings": [
+      "Staroye",
+      "СТАРОЕ",
+      "CTAPOE"
+    ]
+  },
+  {
+    "id": "location-171",
+    "name": "Stary Sobor",
+    "localName": "СТАРЫЙ СОБОР",
     "type": "City",
     "size": "major",
-    "dayzX": 11888,
-    "dayzY": 5609
+    "minZoom": 2,
+    "lat": -2.551275881944185,
+    "lng": -41.762662146989996,
+    "spellings": [
+      "Stary Sobor",
+      "СТАРЫЙ СОБОР",
+      "CTAPbIN COBOP",
+      "CTAPblN COBOP",
+      "CTAPbIN COGOP",
+      "CTAPblN COGOP",
+      "CTAPbIN CO6OP",
+      "CTAPblN CO6OP"
+    ]
   },
   {
-    "id": 8,
-    "name": "elektrozavodsk",
-    "localName": "электрозаводск",
+    "id": "location-172",
+    "name": "Stary Yar",
+    "localName": "СТАРЫЙ ЯР",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 82.8525814533676,
+    "lng": -67.21312491864815,
+    "spellings": [
+      "Stary Yar",
+      "СТАРЫЙ ЯР",
+      "CTAPbIN RP",
+      "CTAPblN RP"
+    ]
+  },
+  {
+    "id": "location-173",
+    "name": "Staryeluga",
+    "localName": "СТАРЫЕ ЛУГА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 22.72665328278731,
+    "lng": -23.56987747440505,
+    "spellings": [
+      "Staryeluga",
+      "СТАРЫЕ ЛУГА",
+      "CTAPbIE NyrA",
+      "CTAPblE NyrA",
+      "CTAPbIE NyTA",
+      "CTAPblE NyTA"
+    ]
+  },
+  {
+    "id": "location-174",
+    "name": "Storozh",
+    "localName": "СТОРОЖ",
+    "type": "Ruin",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -81.8072773338506,
+    "lng": -116.28299753406687,
+    "spellings": [
+      "Storozh",
+      "СТОРОЖ",
+      "CTOPOX"
+    ]
+  },
+  {
+    "id": "location-175",
+    "name": "Stroytel",
+    "localName": "СТРОИТЕЛЬ",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -62.78853669995826,
+    "lng": -21.340865856694414,
+    "spellings": [
+      "Stroytel",
+      "СТРОИТЕЛЬ",
+      "CTPONTENb"
+    ]
+  },
+  {
+    "id": "location-176",
+    "name": "Svergino",
+    "localName": "СВЕРГИНО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 78.91281896625513,
+    "lng": 34.6135858737482,
+    "spellings": [
+      "Svergino",
+      "СВЕРГИНО",
+      "CBEPrNHO",
+      "CBEPTNHO"
+    ]
+  },
+  {
+    "id": "location-177",
+    "name": "Svetlo",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 77.08898743860435,
+    "lng": 135.7915261449074,
+    "spellings": [
+      "Svetlo"
+    ]
+  },
+  {
+    "id": "location-178",
+    "name": "Svetloyarsk",
+    "localName": "СВЕТЛОЯРСК",
     "type": "City",
     "size": "major",
-    "dayzX": 9838,
-    "dayzY": 13004
+    "minZoom": 2,
+    "lat": 75.91571748288679,
+    "lng": 136.22695519122624,
+    "spellings": [
+      "Svetloyarsk",
+      "СВЕТЛОЯРСК",
+      "CBETNORPCK"
+    ]
   },
   {
-    "id": 9,
-    "name": "novaya petrovka",
-    "localName": "новая петровка",
+    "id": "location-179",
+    "name": "Svyatoy Roman",
+    "localName": "СВЯТОЙ РОМАН",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 66.12267350866068,
+    "lng": -178.02024622008267,
+    "spellings": [
+      "Svyatoy Roman",
+      "СВЯТОЙ РОМАН",
+      "CBRTON POMAH"
+    ]
+  },
+  {
+    "id": "location-180",
+    "name": "Svyatoy Roman Ski Resort",
+    "localName": "СВЯТО-РОМАНОВСКИЙ ГОРНОЛЫЖНЫЙ КУРОРТ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 63.88723945751106,
+    "lng": -165.51879738559265,
+    "spellings": [
+      "Svyatoy Roman Ski Resort",
+      "СВЯТО-РОМАНОВСКИЙ ГОРНОЛЫЖНЫЙ КУРОРТ",
+      "CBRTO-POMAHOBCKNN rOPHONbIXHbIN KyPOPT",
+      "CBRTO-POMAHOBCKNN rOPHONblXHblN KyPOPT",
+      "CBRTO-POMAHOBCKNN TOPHONbIXHbIN KyPOPT",
+      "CBRTO-POMAHOBCKNN TOPHONblXHblN KyPOPT"
+    ]
+  },
+  {
+    "id": "location-181",
+    "name": "Three Valleys",
+    "localName": "ТРИ ДОЛИНЫ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": -49.816479374504155,
+    "lng": 108.53618093560122,
+    "spellings": [
+      "Tridoliny",
+      "ТРИ ДОЛИНЫ",
+      "TPN AONNHbI",
+      "TPN AONNHbl",
+      "Three Valleys"
+    ]
+  },
+  {
+    "id": "location-182",
+    "name": "Tikhiyzaliv",
+    "localName": "ТИХИЙ ЗАЛИВ",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -78.63429452024876,
+    "lng": -152.33207946185775,
+    "spellings": [
+      "Tikhiyzaliv",
+      "ТИХИЙ ЗАЛИВ",
+      "TNXNN 3ANNB"
+    ]
+  },
+  {
+    "id": "location-183",
+    "name": "Tisy",
+    "localName": "ТИСЫ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 82.28757552630397,
+    "lng": -102.15705732684384,
+    "spellings": [
+      "Tisy",
+      "ТИСЫ",
+      "TNCbI",
+      "TNCbl"
+    ]
+  },
+  {
+    "id": "location-184",
+    "name": "Tokarnya",
+    "localName": "ТОКАРНЯ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -45.87027685547238,
+    "lng": 20.98499797992836,
+    "spellings": [
+      "Tokarnya",
+      "ТОКАРНЯ",
+      "TOKAPHR"
+    ]
+  },
+  {
+    "id": "location-185",
+    "name": "Topolka Dam",
+    "localName": "ПЛОТИНА ТОПОЛЬКА",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -68.9793664049402,
+    "lng": 51.287894518816394,
+    "spellings": [
+      "Plotina Topolka",
+      "ПЛОТИНА ТОПОЛЬКА",
+      "NNOTNHA TONONbKA",
+      "Topolka Dam"
+    ]
+  },
+  {
+    "id": "location-186",
+    "name": "Topolniki",
+    "localName": "ТОПОЛЬНИКИ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 70.0365528097013,
+    "lng": -114.08756911886987,
+    "spellings": [
+      "Topolniki",
+      "ТОПОЛЬНИКИ",
+      "TONONbHNKN"
+    ]
+  },
+  {
+    "id": "location-187",
+    "name": "Tri Kresta",
+    "localName": "ТРИ КРЕСТА",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 32.386270251378654,
+    "lng": -173.13490724231448,
+    "spellings": [
+      "Tri Kresta",
+      "ТРИ КРЕСТА",
+      "TPN KPECTA"
+    ]
+  },
+  {
+    "id": "location-188",
+    "name": "Tulga",
+    "localName": "ТУЛГА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -62.59371400605054,
+    "lng": 108.61595799137045,
+    "spellings": [
+      "Tulga",
+      "ТУЛГА",
+      "TyNrA",
+      "TyNTA"
+    ]
+  },
+  {
+    "id": "location-189",
+    "name": "Tumannyverkh",
+    "localName": "ТУМАННЫЙ ВЕРХ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 74.28569630345915,
+    "lng": -172.45185292685585,
+    "spellings": [
+      "Tumannyverkh",
+      "ТУМАННЫЙ ВЕРХ",
+      "TyMAHHbIN BEPX",
+      "TyMAHHblN BEPX"
+    ]
+  },
+  {
+    "id": "location-190",
+    "name": "Turovo",
+    "localName": "ТУРОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 80.029783055604,
+    "lng": 128.09692741716947,
+    "spellings": [
+      "Turovo",
+      "ТУРОВО",
+      "TyPOBO"
+    ]
+  },
+  {
+    "id": "location-191",
+    "name": "Turovskiypereval",
+    "localName": "ТУРОВСКИЙ ПЕРЕВАЛ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 79.80548856535925,
+    "lng": 151.6964946957841,
+    "spellings": [
+      "Turovskiypereval",
+      "ТУРОВСКИЙ ПЕРЕВАЛ",
+      "TyPOBCKNN NEPEBAN"
+    ]
+  },
+  {
+    "id": "location-192",
+    "name": "Vavilovo",
+    "localName": "ВАВИЛОВО",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 57.68906575269917,
+    "lng": -128.79423205273483,
+    "spellings": [
+      "Vavilovo",
+      "ВАВИЛОВО",
+      "BABNNOBO"
+    ]
+  },
+  {
+    "id": "location-193",
+    "name": "Vavilovo",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 59.87268224524871,
+    "lng": -134.92999163068862,
+    "spellings": [
+      "Vavilovo"
+    ]
+  },
+  {
+    "id": "location-194",
+    "name": "Verbnik",
+    "localName": "ВЕРБНИК",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 24.95896860029124,
+    "lng": -80.16234225340887,
+    "spellings": [
+      "Verbnik",
+      "ВЕРБНИК",
+      "BEPBHNK",
+      "BEPGHNK",
+      "BEP6HNK"
+    ]
+  },
+  {
+    "id": "location-195",
+    "name": "Veresnik",
+    "localName": "ВЕРЕСНИК",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": 2.453874395214084,
+    "lng": -79.59077241843451,
+    "spellings": [
+      "Veresnik",
+      "ВЕРЕСНИК",
+      "BEPECHNK"
+    ]
+  },
+  {
+    "id": "location-196",
+    "name": "Vetryanayagora",
+    "localName": "ВЕТРЕНАЯ ГОРА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -64.44135048834177,
+    "lng": -91.96254398776766,
+    "spellings": [
+      "Vetryanayagora",
+      "ВЕТРЕНАЯ ГОРА",
+      "BETPEHAR rOPA",
+      "BETPEHAR TOPA"
+    ]
+  },
+  {
+    "id": "location-197",
+    "name": "Vidy",
+    "localName": "ВИДЫ",
+    "type": "Local",
+    "size": "small",
+    "minZoom": 4,
+    "lat": 80.97193640333992,
+    "lng": -162.19541632069533,
+    "spellings": [
+      "Vidy",
+      "ВИДЫ",
+      "BNAbI",
+      "BNAbl"
+    ]
+  },
+  {
+    "id": "location-198",
+    "name": "Viselitsa",
+    "localName": "ВИСЕЛИЦА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -10.292096057882572,
+    "lng": 107.57991845379863,
+    "spellings": [
+      "Viselitsa",
+      "ВИСЕЛИЦА",
+      "BNCENNuA",
+      "BNCENNyA"
+    ]
+  },
+  {
+    "id": "location-199",
+    "name": "Volchiypik",
+    "localName": "ВОЛЧИЙ ПИК",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -75.58645470925504,
+    "lng": -172.6997719925183,
+    "spellings": [
+      "Volchiypik",
+      "ВОЛЧИЙ ПИК",
+      "BONuNN NNK",
+      "BONyNN NNK"
+    ]
+  },
+  {
+    "id": "location-200",
+    "name": "Voron",
+    "localName": "ВОРОН",
+    "type": "Ruin",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -71.8521715421513,
+    "lng": 125.5641753944905,
+    "spellings": [
+      "Voron",
+      "ВОРОН",
+      "BOPOH"
+    ]
+  },
+  {
+    "id": "location-201",
+    "name": "Vybor",
+    "localName": "ВЫБОР",
     "type": "City",
     "size": "major",
-    "dayzX": 3344,
-    "dayzY": 3001
+    "minZoom": 2,
+    "lat": 23.238765554339924,
+    "lng": -91.57629195939603,
+    "spellings": [
+      "Vybor",
+      "ВЫБОР",
+      "BbIBOP",
+      "BblBOP",
+      "BbIGOP",
+      "BblGOP",
+      "BbI6OP",
+      "Bbl6OP"
+    ]
   },
   {
-    "id": 10,
-    "name": "gorka",
-    "localName": "горка",
+    "id": "location-202",
+    "name": "Vyshnaya Dubrovka",
+    "localName": "ВЫШНАЯ ДУБРОВКА",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 49.189439684825295,
+    "lng": 44.40611777062406,
+    "spellings": [
+      "Vyshnaya Dubrovka",
+      "ВЫШНАЯ ДУБРОВКА",
+      "BbIWHAR AyBPOBKA",
+      "BblWHAR AyBPOBKA",
+      "BbIWHAR AyGPOBKA",
+      "BblWHAR AyGPOBKA",
+      "BbIWHAR Ay6POBKA",
+      "BblWHAR Ay6POBKA"
+    ]
+  },
+  {
+    "id": "location-203",
+    "name": "Vyshnoye",
+    "localName": "ВЫШНОЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": -39.59659066350966,
+    "lng": -30.123799903038137,
+    "spellings": [
+      "Vyshnoye",
+      "ВЫШНОЕ",
+      "BbIWHOE",
+      "BblWHOE"
+    ]
+  },
+  {
+    "id": "location-204",
+    "name": "Vysoky Kamen",
+    "localName": "ВЫСОКИЙ КАМЕНЬ",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -62.62989297689937,
+    "lng": 22.108475882591165,
+    "spellings": [
+      "Vysokiykamen",
+      "ВЫСОКИЙ КАМЕНЬ",
+      "BbICOKNN KAMEHb",
+      "BblCOKNN KAMEHb",
+      "Vysoky Kamen"
+    ]
+  },
+  {
+    "id": "location-205",
+    "name": "Vysota",
+    "localName": "ВЫСОТА",
+    "type": "Hill",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -71.21691806747182,
+    "lng": -30.96835190703131,
+    "spellings": [
+      "Vysota",
+      "ВЫСОТА",
+      "BbICOTA",
+      "BblCOTA"
+    ]
+  },
+  {
+    "id": "location-206",
+    "name": "Vysotovo",
+    "localName": "ВЫСОТОВО",
     "type": "City",
     "size": "major",
-    "dayzX": 9142,
-    "dayzY": 6496
+    "minZoom": 2,
+    "lat": -76.4762492329915,
+    "lng": -51.090927738861,
+    "spellings": [
+      "Vysotovo",
+      "ВЫСОТОВО",
+      "BbICOTOBO",
+      "BblCOTOBO"
+    ]
   },
   {
-    "id": 11,
-    "name": "solnechny",
-    "localName": "солнечный",
+    "id": "location-207",
+    "name": "Willow Lake",
+    "localName": "ИВОВОЕ ОЗЕРО",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 62.92623914779785,
+    "lng": 119.46382959738384,
+    "spellings": [
+      "Ivovoyeozero",
+      "ИВОВОЕ ОЗЕРО",
+      "NBOBOE O3EPO",
+      "Willow Lake"
+    ]
+  },
+  {
+    "id": "location-208",
+    "name": "Youth Pioneer",
+    "localName": "ЮНЫЙ ПИОНЕР",
+    "type": "Camp",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -19.665769686394142,
+    "lng": 72.18123422798587,
+    "spellings": [
+      "Youth Pioneer",
+      "ЮНЫЙ ПИОНЕР",
+      "ЮHbIN NNOHEP",
+      "ЮHblN NNOHEP"
+    ]
+  },
+  {
+    "id": "location-209",
+    "name": "Zabolotye",
+    "localName": "ЗАБОЛОТЬЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 41.66150279337358,
+    "lng": -151.5327495226221,
+    "spellings": [
+      "Zabolotye",
+      "ЗАБОЛОТЬЕ",
+      "3ABONOTbE",
+      "3AGONOTbE",
+      "3A6ONOTbE"
+    ]
+  },
+  {
+    "id": "location-210",
+    "name": "Zaliv Guba",
+    "localName": "ЗАЛИВ ГУБА",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": 75.19976058475581,
+    "lng": 143.8799930108736,
+    "spellings": [
+      "Zaliv Guba",
+      "ЗАЛИВ ГУБА",
+      "3ANNB ryBA",
+      "3ANNB TyBA",
+      "3ANNB ryGA",
+      "3ANNB TyGA",
+      "3ANNB ry6A",
+      "3ANNB Ty6A"
+    ]
+  },
+  {
+    "id": "location-211",
+    "name": "Zaprudnoye",
+    "localName": "ЗАПРУДНОЕ",
+    "type": "Village",
+    "size": "medium",
+    "minZoom": 3,
+    "lat": 73.07331725007904,
+    "lng": -62.10242140826508,
+    "spellings": [
+      "Zaprudnoye",
+      "ЗАПРУДНОЕ",
+      "3ANPyAHOE"
+    ]
+  },
+  {
+    "id": "location-212",
+    "name": "Zeleno",
+    "localName": "",
+    "type": "RailroadStation",
+    "size": "small",
+    "minZoom": 6,
+    "lat": -52.611943609008456,
+    "lng": -123.7710799061053,
+    "spellings": [
+      "Zeleno"
+    ]
+  },
+  {
+    "id": "location-213",
+    "name": "Zelenogorsk",
+    "localName": "ЗЕЛЕНОГОРСК",
     "type": "City",
     "size": "major",
-    "dayzX": 12942,
-    "dayzY": 8887
-  },
-  {
-    "id": 12,
-    "name": "stary sobor",
-    "localName": "старый собор",
-    "type": "City",
-    "size": "major",
-    "dayzX": 5854,
-    "dayzY": 7670
-  },
-  {
-    "id": 13,
-    "name": "vybor",
-    "localName": "выбор",
-    "type": "City",
-    "size": "major",
-    "dayzX": 3739,
-    "dayzY": 6662
-  },
-  {
-    "id": 14,
-    "name": "severograd",
-    "localName": "североград",
-    "type": "City",
-    "size": "major",
-    "dayzX": 7857,
-    "dayzY": 3140
-  },
-  {
-    "id": 15,
-    "name": "bor",
-    "localName": "бор",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 3140,
-    "dayzY": 11341
-  },
-  {
-    "id": 16,
-    "name": "svetloyarsk",
-    "localName": "светлоярск",
-    "type": "City",
-    "size": "major",
-    "dayzX": 13464,
-    "dayzY": 2246
-  },
-  {
-    "id": 17,
-    "name": "krasnostav",
-    "localName": "красностав",
-    "type": "City",
-    "size": "major",
-    "dayzX": 10777,
-    "dayzY": 3232
-  },
-  {
-    "id": 18,
-    "name": "chernaya polyana",
-    "localName": "черная поляна",
-    "type": "City",
-    "size": "major",
-    "dayzX": 11704,
-    "dayzY": 1847
-  },
-  {
-    "id": 19,
-    "name": "polyana",
-    "localName": "поляна",
-    "type": "City",
-    "size": "major",
-    "dayzX": 10360,
-    "dayzY": 7181
-  },
-  {
-    "id": 20,
-    "name": "tulga",
-    "localName": "тулга",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 12239,
-    "dayzY": 10650
-  },
-  {
-    "id": 21,
-    "name": "msta",
-    "localName": "мста",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 10864,
-    "dayzY": 9735
-  },
-  {
-    "id": 22,
-    "name": "staroye",
-    "localName": "старое",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 9785,
-    "dayzY": 9816
-  },
-  {
-    "id": 23,
-    "name": "shakovka",
-    "localName": "шаковка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 9326,
-    "dayzY": 8724
-  },
-  {
-    "id": 24,
-    "name": "dolina",
-    "localName": "долина",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 10824,
-    "dayzY": 8596
-  },
-  {
-    "id": 25,
-    "name": "orlovets",
-    "localName": "орловец",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 11756,
-    "dayzY": 7973
-  },
-  {
-    "id": 26,
-    "name": "novy sobor",
-    "localName": "новый собор",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 6825,
-    "dayzY": 7698
-  },
-  {
-    "id": 27,
-    "name": "kabanino",
-    "localName": "кабанино",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 5075,
-    "dayzY": 6955
-  },
-  {
-    "id": 28,
-    "name": "mogilevka",
-    "localName": "могилевка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 7317,
-    "dayzY": 10195
-  },
-  {
-    "id": 29,
-    "name": "nadezhdino",
-    "localName": "надеждино",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 5625,
-    "dayzY": 10566
-  },
-  {
-    "id": 30,
-    "name": "guglovo",
-    "localName": "гуглово",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 8090,
-    "dayzY": 8767
-  },
-  {
-    "id": 31,
-    "name": "kamyshovo",
-    "localName": "камышово",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 11658,
-    "dayzY": 11546
-  },
-  {
-    "id": 32,
-    "name": "pusta",
-    "localName": "пуста",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 8799,
-    "dayzY": 11281
-  },
-  {
-    "id": 33,
-    "name": "dubrovka",
-    "localName": "дубровка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 9917,
-    "dayzY": 5575
-  },
-  {
-    "id": 34,
-    "name": "vyshnaya dubrovka (verkhnaya dubrovka)",
-    "localName": "вышная дубровка (верхняя дубровка)",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 9538,
-    "dayzY": 5046
-  },
-  {
-    "id": 35,
-    "name": "khelm",
-    "localName": "хелм",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 11852,
-    "dayzY": 4661
-  },
-  {
-    "id": 36,
-    "name": "olsha",
-    "localName": "ольша",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 12896,
-    "dayzY": 2615
-  },
-  {
-    "id": 37,
-    "name": "gvozdno",
-    "localName": "гвоздно",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 8312,
-    "dayzY": 3722
-  },
-  {
-    "id": 38,
-    "name": "grishino",
-    "localName": "гришино",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 5738,
-    "dayzY": 5411
-  },
-  {
-    "id": 39,
-    "name": "rogovo",
-    "localName": "рогово",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 4585,
-    "dayzY": 8761
-  },
-  {
-    "id": 40,
-    "name": "pogorevka",
-    "localName": "погоревка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 4239,
-    "dayzY": 9177
-  },
-  {
-    "id": 41,
-    "name": "pustoshka",
-    "localName": "пустошка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 2989,
-    "dayzY": 7756
-  },
-  {
-    "id": 42,
-    "name": "kozlovka",
-    "localName": "козловка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 4189,
-    "dayzY": 10670
-  },
-  {
-    "id": 43,
-    "name": "karmanovka",
-    "localName": "кармановка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 12231,
-    "dayzY": 958
-  },
-  {
-    "id": 44,
-    "name": "balota",
-    "localName": "балота",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 4297,
-    "dayzY": 12801
-  },
-  {
-    "id": 45,
-    "name": "komarovo",
-    "localName": "комарово",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 3502,
-    "dayzY": 12859
-  },
-  {
-    "id": 46,
-    "name": "kamenka",
-    "localName": "каменка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 1844,
-    "dayzY": 13151
-  },
-  {
-    "id": 47,
-    "name": "myshkino",
-    "localName": "мышкино",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 1937,
-    "dayzY": 8397
-  },
-  {
-    "id": 48,
-    "name": "pavlovo",
-    "localName": "павлово",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 1577,
-    "dayzY": 11609
-  },
-  {
-    "id": 49,
-    "name": "lopatino",
-    "localName": "лопатино",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 2677,
-    "dayzY": 5759
-  },
-  {
-    "id": 50,
-    "name": "vyshnoye",
-    "localName": "вышное",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 6339,
-    "dayzY": 9340
-  },
-  {
-    "id": 51,
-    "name": "prigorodki",
-    "localName": "пригородки",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 7413,
-    "dayzY": 11846
-  },
-  {
-    "id": 52,
-    "name": "drozhino",
-    "localName": "дрожжино",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 3200,
-    "dayzY": 10596
-  },
-  {
-    "id": 53,
-    "name": "sosnovka",
-    "localName": "сосновка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 2421,
-    "dayzY": 9270
-  },
-  {
-    "id": 54,
-    "name": "nizhnoe (nizhnee)",
-    "localName": "Нижное (нижнее)",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 12314,
-    "dayzY": 7155
-  },
-  {
-    "id": 55,
-    "name": "pulkovo",
-    "localName": "пулково",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 4784,
-    "dayzY": 9825
-  },
-  {
-    "id": 56,
-    "name": "berezhki",
-    "localName": "бережки",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 14459,
-    "dayzY": 1600
-  },
-  {
-    "id": 57,
-    "name": "turovo",
-    "localName": "турово",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 13123,
-    "dayzY": 1432
-  },
-  {
-    "id": 58,
-    "name": "belaya polyana",
-    "localName": "белая поляна",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 13643,
-    "dayzY": 636
-  },
-  {
-    "id": 59,
-    "name": "dobroye",
-    "localName": "доброе",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 12518,
-    "dayzY": 593
-  },
-  {
-    "id": 60,
-    "name": "nagornoye",
-    "localName": "нагорное",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 8944,
-    "dayzY": 1115
-  },
-  {
-    "id": 61,
-    "name": "svergino",
-    "localName": "свергино",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 9140,
-    "dayzY": 1860
-  },
-  {
-    "id": 62,
-    "name": "ratnoye",
-    "localName": "ратное",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 5960,
-    "dayzY": 3046
-  },
-  {
-    "id": 63,
-    "name": "kamensk",
-    "localName": "каменск",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 6501,
-    "dayzY": 1453
-  },
-  {
-    "id": 64,
-    "name": "krasnoye",
-    "localName": "красное",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 6180,
-    "dayzY": 903
-  },
-  {
-    "id": 65,
-    "name": "stary yar",
-    "localName": "старый яр",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 4809,
-    "dayzY": 998
-  },
-  {
-    "id": 66,
-    "name": "polesovo",
-    "localName": "полесово",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 5733,
-    "dayzY": 2307
-  },
-  {
-    "id": 67,
-    "name": "tisy",
-    "localName": "тисы",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 3320,
-    "dayzY": 1245
-  },
-  {
-    "id": 68,
-    "name": "topolniki",
-    "localName": "топольники",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 2798,
-    "dayzY": 3556
-  },
-  {
-    "id": 69,
-    "name": "zaprudnoye",
-    "localName": "запрудное",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 5015,
-    "dayzY": 3059
-  },
-  {
-    "id": 70,
-    "name": "sinystok",
-    "localName": "синысток",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 1472,
-    "dayzY": 4048
-  },
-  {
-    "id": 71,
-    "name": "vavilovo",
-    "localName": "вавилово",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 2165,
-    "dayzY": 4771
-  },
-  {
-    "id": 72,
-    "name": "kumyrna",
-    "localName": "кумырна",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 7948,
-    "dayzY": 9267
-  },
-  {
-    "id": 73,
-    "name": "kalinovka",
-    "localName": "калиновка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 7168,
-    "dayzY": 2387
-  },
-  {
-    "id": 74,
-    "name": "bogatyrka",
-    "localName": "богатырка",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 1374,
-    "dayzY": 6905
-  },
-  {
-    "id": 75,
-    "name": "svyatoy roman ski resort",
-    "localName": "свято-романовский горнолыжный курорт",
+    "minZoom": 2,
+    "lat": -53.27466786651308,
+    "lng": -116.74857462355747,
+    "spellings": [
+      "Zelenogorsk",
+      "ЗЕЛЕНОГОРСК",
+      "3ENEHOrOPCK",
+      "3ENEHOTOPCK"
+    ]
+  },
+  {
+    "id": "location-214",
+    "name": "Zelenyzaliv",
+    "localName": "ЗЕЛЕНЫЙ ЗАЛИВ",
+    "type": "Marine",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -73.98312666865552,
+    "lng": 73.79019958448276,
+    "spellings": [
+      "Zelenyzaliv",
+      "ЗЕЛЕНЫЙ ЗАЛИВ",
+      "3ENEHbIN 3ANNB",
+      "3ENEHblN 3ANNB"
+    ]
+  },
+  {
+    "id": "location-215",
+    "name": "Zmeinykhrebet",
+    "localName": "ЗМЕИНЫЙ ХРЕБЕТ",
     "type": "Local",
     "size": "small",
-    "dayzX": 604,
-    "dayzY": 4309
+    "minZoom": 4,
+    "lat": 77.68394324298028,
+    "lng": 78.74295356433574,
+    "spellings": [
+      "Zmeinykhrebet",
+      "ЗМЕИНЫЙ ХРЕБЕТ",
+      "3MENHbIN XPEBET",
+      "3MENHblN XPEBET",
+      "3MENHbIN XPEGET",
+      "3MENHblN XPEGET",
+      "3MENHbIN XPE6ET",
+      "3MENHblN XPE6ET"
+    ]
   },
   {
-    "id": 76,
-    "name": "skvsch biathlon arena",
-    "localName": "сквсч биатлон арена",
-    "type": "Local",
+    "id": "location-216",
+    "name": "Zolotar",
+    "localName": "ЗОЛОТАРЬ",
+    "type": "Ruin",
     "size": "small",
-    "dayzX": 331,
-    "dayzY": 4815
+    "minZoom": 5,
+    "lat": 66.99247134444711,
+    "lng": 50.1052505164358,
+    "spellings": [
+      "Zolotar",
+      "ЗОЛОТАРЬ",
+      "3ONOTAPb"
+    ]
   },
   {
-    "id": 77,
-    "name": "zvir",
-    "localName": "звир",
+    "id": "location-217",
+    "name": "Zub",
+    "localName": "ЗУБ",
+    "type": "Ruin",
+    "size": "small",
+    "minZoom": 5,
+    "lat": -47.40176917140412,
+    "lng": -31.360457266123664,
+    "spellings": [
+      "Zub",
+      "ЗУБ",
+      "3yB",
+      "3yG",
+      "3y6"
+    ]
+  },
+  {
+    "id": "location-218",
+    "name": "Zvir",
+    "localName": "ЗВИР",
     "type": "Village",
     "size": "medium",
-    "dayzX": 511,
-    "dayzY": 10284
-  },
-  {
-    "id": 78,
-    "name": "zabolotye",
-    "localName": "заболотье",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 1190,
-    "dayzY": 5857
-  },
-  {
-    "id": 79,
-    "name": "galkino",
-    "localName": "галкино",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 1035,
-    "dayzY": 6988
-  },
-  {
-    "id": 80,
-    "name": "arsenovo",
-    "localName": "арсеньево",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 8193,
-    "dayzY": 1861
-  },
-  {
-    "id": 81,
-    "name": "stroytel",
-    "localName": "строитель",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 6704,
-    "dayzY": 10909
-  },
-  {
-    "id": 82,
-    "name": "romashka",
-    "localName": "ромашка",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 7857,
-    "dayzY": 4638
-  },
-  {
-    "id": 83,
-    "name": "kometa",
-    "localName": "комета",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 9832,
-    "dayzY": 11532
-  },
-  {
-    "id": 84,
-    "name": "druzbha",
-    "localName": "дружба",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 10993,
-    "dayzY": 4770
-  },
-  {
-    "id": 85,
-    "name": "nadezhda",
-    "localName": "надежда",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 6971,
-    "dayzY": 8406
-  },
-  {
-    "id": 86,
-    "name": "youth pioneer",
-    "localName": "юный пионер",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 10702,
-    "dayzY": 8188
-  },
-  {
-    "id": 87,
-    "name": "proud chernarus",
-    "localName": "гордый чернорус",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 3039,
-    "dayzY": 9367
-  },
-  {
-    "id": 88,
-    "name": "shkolnik",
-    "localName": "школьник",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 14306,
-    "dayzY": 980
-  },
-  {
-    "id": 89,
-    "name": "pobeda",
-    "localName": "победа",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 3572,
-    "dayzY": 1161
-  },
-  {
-    "id": 90,
-    "name": "metalurg",
-    "localName": "металлург",
-    "type": "camp",
-    "size": "small",
-    "dayzX": 959,
-    "dayzY": 8986
-  },
-  {
-    "id": 91,
-    "name": "zelenaya gora",
-    "localName": "зеленая гора",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 3585,
-    "dayzY": 9498
-  },
-  {
-    "id": 92,
-    "name": "dichina",
-    "localName": "дишина",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 4414,
-    "dayzY": 7759
-  },
-  {
-    "id": 93,
-    "name": "novy lug",
-    "localName": "новый луг",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 8892,
-    "dayzY": 4236
-  },
-  {
-    "id": 94,
-    "name": "starye luga",
-    "localName": "старые луга",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 6635,
-    "dayzY": 6559
-  },
-  {
-    "id": 95,
-    "name": "vysota",
-    "localName": "высота",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 6289,
-    "dayzY": 11835
-  },
-  {
-    "id": 96,
-    "name": "kopyto",
-    "localName": "копыто",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 7523,
-    "dayzY": 11340
-  },
-  {
-    "id": 97,
-    "name": "grubye skaly",
-    "localName": "грубые скалы",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 12615,
-    "dayzY": 3566
-  },
-  {
-    "id": 98,
-    "name": "cherny les",
-    "localName": "черный лес",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 8661,
-    "dayzY": 7591
-  },
-  {
-    "id": 99,
-    "name": "altar",
-    "localName": "алтар",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 7814,
-    "dayzY": 6352
-  },
-  {
-    "id": 100,
-    "name": "radio zenit",
-    "localName": "радио зенит",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 7754,
-    "dayzY": 6184
-  },
-  {
-    "id": 101,
-    "name": "pik kozlova",
-    "localName": "пик козлова",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 8460,
-    "dayzY": 12229
-  },
-  {
-    "id": 102,
-    "name": "pustoy khrebet",
-    "localName": "пустой хребет",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 10439,
-    "dayzY": 9524
-  },
-  {
-    "id": 103,
-    "name": "bashnya",
-    "localName": "башня",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 4012,
-    "dayzY": 4062
-  },
-  {
-    "id": 104,
-    "name": "veresnik",
-    "localName": "вересник",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 4244,
-    "dayzY": 7532
-  },
-  {
-    "id": 105,
-    "name": "kurgan",
-    "localName": "курган",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 3197,
-    "dayzY": 10186
-  },
-  {
-    "id": 106,
-    "name": "kustryk",
-    "localName": "кустрык",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 4682,
-    "dayzY": 10341
-  },
-  {
-    "id": 107,
-    "name": "vetryanaya gora",
-    "localName": "ветреная гора",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 3696,
-    "dayzY": 11195
-  },
-  {
-    "id": 108,
-    "name": "kalmyk",
-    "localName": "калмык",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 6598,
-    "dayzY": 10393
-  },
-  {
-    "id": 109,
-    "name": "pop ivan",
-    "localName": "поп иван",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 6141,
-    "dayzY": 8860
-  },
-  {
-    "id": 110,
-    "name": "erbenka",
-    "localName": "ербенка",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 2684,
-    "dayzY": 11414
-  },
-  {
-    "id": 111,
-    "name": "lesnoykhrebet",
-    "localName": "лесной хребет",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 7787,
-    "dayzY": 7617
-  },
-  {
-    "id": 112,
-    "name": "vysokiy kamen",
-    "localName": "высокий камень",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 8555,
-    "dayzY": 10814
-  },
-  {
-    "id": 113,
-    "name": "dobry",
-    "localName": "добрый",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 10100,
-    "dayzY": 11988
-  },
-  {
-    "id": 114,
-    "name": "baranchik",
-    "localName": "баранчик",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 9732,
-    "dayzY": 9044
-  },
-  {
-    "id": 115,
-    "name": "malinovka",
-    "localName": "малиновка",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 10457,
-    "dayzY": 7727
-  },
-  {
-    "id": 116,
-    "name": "dubina",
-    "localName": "дубина",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 10664,
-    "dayzY": 6872
-  },
-  {
-    "id": 117,
-    "name": "klen",
-    "localName": "клен",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 11031,
-    "dayzY": 4185
-  },
-  {
-    "id": 118,
-    "name": "chernaya gora",
-    "localName": "черная гора",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 9887,
-    "dayzY": 3540
-  },
-  {
-    "id": 119,
-    "name": "zolotar",
-    "localName": "золотарь",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 9789,
-    "dayzY": 3597
-  },
-  {
-    "id": 120,
-    "name": "ostry",
-    "localName": "острый",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 10385,
-    "dayzY": 2789
-  },
-  {
-    "id": 121,
-    "name": "olsha",
-    "localName": "ольша",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 12485,
-    "dayzY": 2749
-  },
-  {
-    "id": 122,
-    "name": "tikhiy zaliv",
-    "localName": "тихий залив",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 1113,
-    "dayzY": 13272
-  },
-  {
-    "id": 123,
-    "name": "mutnyi zaliv",
-    "localName": "мутный залив",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 5457,
-    "dayzY": 13264
-  },
-  {
-    "id": 124,
-    "name": "cherny zaliv",
-    "localName": "черный залив",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 7254,
-    "dayzY": 12652
-  },
-  {
-    "id": 125,
-    "name": "zeleny zaliv",
-    "localName": "зеленый залив",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 10748,
-    "dayzY": 12026
-  },
-  {
-    "id": 126,
-    "name": "skalisty proliv",
-    "localName": "скалистый пролив",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 12830,
-    "dayzY": 11349
-  },
-  {
-    "id": 127,
-    "name": "nizhniy zaliv",
-    "localName": "нижний залив",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 12475,
-    "dayzY": 6755
-  },
-  {
-    "id": 128,
-    "name": "zaliv guba",
-    "localName": "залив губа",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 13789,
-    "dayzY": 2352
-  },
-  {
-    "id": 129,
-    "name": "rify",
-    "localName": "рифы",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 13397,
-    "dayzY": 4107
-  },
-  {
-    "id": 130,
-    "name": "ivovoye ozero",
-    "localName": "ивовое озеро",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 12741,
-    "dayzY": 3869
-  },
-  {
-    "id": 131,
-    "name": "chernoye ozero",
-    "localName": "черное озеро",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 12871,
-    "dayzY": 3459
-  },
-  {
-    "id": 132,
-    "name": "plotina topolka",
-    "localName": "плотина тополька",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 9794,
-    "dayzY": 11408
-  },
-  {
-    "id": 133,
-    "name": "plotina pobeda",
-    "localName": "плотина победа",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 9558,
-    "dayzY": 1842
-  },
-  {
-    "id": 134,
-    "name": "plotina tishina",
-    "localName": "плотина тишина",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 1069,
-    "dayzY": 9211
-  },
-  {
-    "id": 135,
-    "name": "ozerko",
-    "localName": "озерко",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 6474,
-    "dayzY": 10800
-  },
-  {
-    "id": 136,
-    "name": "prud",
-    "localName": "пруд",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 6340,
-    "dayzY": 6277
-  },
-  {
-    "id": 137,
-    "name": "chortovzamok",
-    "localName": "чертов замок",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 6614,
-    "dayzY": 4203
-  },
-  {
-    "id": 138,
-    "name": "zub",
-    "localName": "зуб",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 6284,
-    "dayzY": 9791
-  },
-  {
-    "id": 139,
-    "name": "rog",
-    "localName": "рог",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 10794,
-    "dayzY": 10799
-  },
-  {
-    "id": 140,
-    "name": "grozovy pereval",
-    "localName": "грозовой перевал",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 3203,
-    "dayzY": 826
-  },
-  {
-    "id": 141,
-    "name": "sosnovy pereval",
-    "localName": "сосновый перевал",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 2549,
-    "dayzY": 8998
-  },
-  {
-    "id": 142,
-    "name": "pereval oreshka",
-    "localName": "перевал орешка",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 9413,
-    "dayzY": 9170
-  },
-  {
-    "id": 143,
-    "name": "turovskiypereval",
-    "localName": "туровский перевал",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 14127,
-    "dayzY": 1441
-  },
-  {
-    "id": 144,
-    "name": "tri doliny",
-    "localName": "три долины",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 12241,
-    "dayzY": 9683
-  },
-  {
-    "id": 145,
-    "name": "grozovye doly",
-    "localName": "грозовые доли",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 10021,
-    "dayzY": 958
-  },
-  {
-    "id": 146,
-    "name": "klyuch",
-    "localName": "ключ",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 8935,
-    "dayzY": 2244
-  },
-  {
-    "id": 147,
-    "name": "lysaya gora",
-    "localName": "лысая гора",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 6474,
-    "dayzY": 1812
-  },
-  {
-    "id": 148,
-    "name": "glubokoye ozero",
-    "localName": "глубокое озеро",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 1636,
-    "dayzY": 1297
-  },
-  {
-    "id": 149,
-    "name": "skalka",
-    "localName": "скалка",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 5548,
-    "dayzY": 1442
-  },
-  {
-    "id": 150,
-    "name": "vidy",
-    "localName": "виды",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 761,
-    "dayzY": 1733
-  },
-  {
-    "id": 151,
-    "name": "tumanny verkh",
-    "localName": "туманный верх",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 316,
-    "dayzY": 3084
-  },
-  {
-    "id": 152,
-    "name": "adamovka",
-    "localName": "адамовка",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 5129,
-    "dayzY": 4381
-  },
-  {
-    "id": 153,
-    "name": "shishok",
-    "localName": "шишок",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 3403,
-    "dayzY": 6298
-  },
-  {
-    "id": 154,
-    "name": "skalisty",
-    "localName": "скалистый",
-    "type": "Village",
-    "size": "medium",
-    "dayzX": 13144,
-    "dayzY": 11801
-  },
-  {
-    "id": 155,
-    "name": "storozh",
-    "localName": "сторож",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 2644,
-    "dayzY": 13990
-  },
-  {
-    "id": 156,
-    "name": "mys golova",
-    "localName": "мыс голова",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 7914,
-    "dayzY": 12699
-  },
-  {
-    "id": 157,
-    "name": "drakon",
-    "localName": "дракон",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 10711,
-    "dayzY": 12542
-  },
-  {
-    "id": 158,
-    "name": "otmel",
-    "localName": "отмель",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 11090,
-    "dayzY": 11801
-  },
-  {
-    "id": 159,
-    "name": "mys krutoy",
-    "localName": "мыс крутой",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 13017,
-    "dayzY": 10999
-  },
-  {
-    "id": 160,
-    "name": "tokarnya",
-    "localName": "токарня",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 8514,
-    "dayzY": 9601
-  },
-  {
-    "id": 161,
-    "name": "ostrog",
-    "localName": "острог",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 2494,
-    "dayzY": 13068
-  },
-  {
-    "id": 162,
-    "name": "maryanka",
-    "localName": "марьянка",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 2629,
-    "dayzY": 12008
-  },
-  {
-    "id": 163,
-    "name": "polonina",
-    "localName": "полонина",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 916,
-    "dayzY": 11277
-  },
-  {
-    "id": 164,
-    "name": "kalinka",
-    "localName": "калинка",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 3209,
-    "dayzY": 4548
-  },
-  {
-    "id": 165,
-    "name": "kikimora",
-    "localName": "кикимора",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 1704,
-    "dayzY": 9402
-  },
-  {
-    "id": 166,
-    "name": "bolshoy kotel",
-    "localName": "большой котел",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 649,
-    "dayzY": 9147
-  },
-  {
-    "id": 167,
-    "name": "simurg",
-    "localName": "симург",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 96,
-    "dayzY": 8184
-  },
-  {
-    "id": 168,
-    "name": "volchiypik",
-    "localName": "волчий пик",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 249,
-    "dayzY": 12739
-  },
-  {
-    "id": 169,
-    "name": "krona",
-    "localName": "крона",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 1414,
-    "dayzY": 6527
-  },
-  {
-    "id": 170,
-    "name": "tri kresta",
-    "localName": "три креста",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 268,
-    "dayzY": 6382
-  },
-  {
-    "id": 171,
-    "name": "rostoki",
-    "localName": "ростоки",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 690,
-    "dayzY": 7144
-  },
-  {
-    "id": 172,
-    "name": "orlye ozero",
-    "localName": "орлиное озеро",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 533,
-    "dayzY": 9651
-  },
-  {
-    "id": 173,
-    "name": "makosh",
-    "localName": "макошь",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 7517,
-    "dayzY": 8885
-  },
-  {
-    "id": 174,
-    "name": "klenovyipereval",
-    "localName": "кленовый перевал",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 10445,
-    "dayzY": 3956
-  },
-  {
-    "id": 175,
-    "name": "zmeinykhrebet",
-    "localName": "змеиный хребет",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 11018,
-    "dayzY": 2030
-  },
-  {
-    "id": 176,
-    "name": "sokol",
-    "localName": "сокол",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 11558,
-    "dayzY": 873
-  },
-  {
-    "id": 177,
-    "name": "krutye skaly",
-    "localName": "крутые скалы",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 14324,
-    "dayzY": 1825
-  },
-  {
-    "id": 178,
-    "name": "bogat",
-    "localName": "богат",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 6785,
-    "dayzY": 3704
-  },
-  {
-    "id": 179,
-    "name": "dubnik",
-    "localName": "дубник",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 3157,
-    "dayzY": 5454
-  },
-  {
-    "id": 180,
-    "name": "viselitsa",
-    "localName": "виселица",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 12212,
-    "dayzY": 7717
-  },
-  {
-    "id": 181,
-    "name": "dazhbog",
-    "localName": "дажбог",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 6307,
-    "dayzY": 6954
-  },
-  {
-    "id": 182,
-    "name": "verbnik",
-    "localName": "вербник",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 4225,
-    "dayzY": 6562
-  },
-  {
-    "id": 183,
-    "name": "medvezhi lugi",
-    "localName": "медвежьи луга",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 9278,
-    "dayzY": 2455
-  },
-  {
-    "id": 184,
-    "name": "voron",
-    "localName": "ворон",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 12955,
-    "dayzY": 11628
-  },
-  {
-    "id": 185,
-    "name": "gnomov zamok",
-    "localName": "гномский замок",
-    "type": "ruin",
-    "size": "small",
-    "dayzX": 7144,
-    "dayzY": 6440
-  },
-  {
-    "id": 186,
-    "name": "glaza",
-    "localName": "глаза",
-    "type": "marine",
-    "size": "small",
-    "dayzX": 7083,
-    "dayzY": 6233
-  },
-  {
-    "id": 187,
-    "name": "karer krasnaya zarya",
-    "localName": "kарьер красная заря",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 8244,
-    "dayzY": 2328
-  },
-  {
-    "id": 188,
-    "name": "matveyevo",
-    "localName": "матвеево",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 4087,
-    "dayzY": 8188
-  },
-  {
-    "id": 189,
-    "name": "kotka",
-    "localName": "котька",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 5617,
-    "dayzY": 8589
-  },
-  {
-    "id": 190,
-    "name": "chernye skaly",
-    "localName": "черные скалы",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 3791,
-    "dayzY": 1412
-  },
-  {
-    "id": 191,
-    "name": "svyatoy roman",
-    "localName": "святой роман",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 73,
-    "dayzY": 4112
-  },
-  {
-    "id": 192,
-    "name": "koman",
-    "localName": "коман",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 1565,
-    "dayzY": 8265
-  },
-  {
-    "id": 193,
-    "name": "mayak",
-    "localName": "маяк",
-    "type": "hill",
-    "size": "small",
-    "dayzX": 11813,
-    "dayzY": 10510
-  },
-  {
-    "id": 194,
-    "name": "military base",
-    "localName": "военная база",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 4300,
-    "dayzY": 7322
-  },
-  {
-    "id": 195,
-    "name": "military base",
-    "localName": "военная база",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 1514,
-    "dayzY": 2010
-  },
-  {
-    "id": 196,
-    "name": "military base",
-    "localName": "военная база",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 7552,
-    "dayzY": 1149
-  },
-  {
-    "id": 197,
-    "name": "military base",
-    "localName": "военная база",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 2274,
-    "dayzY": 10380
-  },
-  {
-    "id": 198,
-    "name": "military base",
-    "localName": "военная база",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 1885,
-    "dayzY": 12020
-  },
-  {
-    "id": 199,
-    "name": "airfield",
-    "localName": "аэродром",
-    "type": "Local",
-    "size": "small",
-    "dayzX": 4830,
-    "dayzY": 12861
-  },
-  {
-    "id": 200,
-    "name": "airfield",
-    "localName": "аэродром",
-    "type": "Local",
-    "size": "medium",
-    "dayzX": 11642,
-    "dayzY": 2975
-  },
-  {
-    "id": 201,
-    "name": "north-west airfield",
-    "localName": "авиационная база выбор",
-    "type": "Local",
-    "size": "medium",
-    "dayzX": 4244,
-    "dayzY": 5549
+    "minZoom": 3,
+    "lat": -51.17904222423057,
+    "lng": -166.88992315712767,
+    "spellings": [
+      "Zvir",
+      "ЗВИР",
+      "3BNP"
+    ]
   }
 ]

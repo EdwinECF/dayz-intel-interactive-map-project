@@ -1,0 +1,428 @@
+[
+  {
+    "id": "medical-land_city_hospital-1",
+    "name": "Land City Hospital",
+    "type": "Medical",
+    "group": "Hospital",
+    "objectName": "land_city_hospital",
+    "lat": -71.53252,
+    "lng": -131.05236,
+    "tier": 2,
+    "tags": [
+      "contaminatedarea",
+      "military"
+    ]
+  },
+  {
+    "id": "medical-land_city_hospital-2",
+    "name": "Land City Hospital",
+    "type": "Medical",
+    "group": "Hospital",
+    "objectName": "land_city_hospital",
+    "lat": -75.60125,
+    "lng": -33.63269,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_city_hospital-3",
+    "name": "Land City Hospital",
+    "type": "Medical",
+    "group": "Hospital",
+    "objectName": "land_city_hospital",
+    "lat": 72.78666,
+    "lng": 1.25391,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "medical-land_city_hospital-4",
+    "name": "Land City Hospital",
+    "type": "Medical",
+    "group": "Hospital",
+    "objectName": "land_city_hospital",
+    "lat": -77.84052,
+    "lng": 52.48525,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_city_hospital-5",
+    "name": "Land City Hospital",
+    "type": "Medical",
+    "group": "Hospital",
+    "objectName": "land_city_hospital",
+    "lat": 81.63278,
+    "lng": 78.03448,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "medical-land_city_hospital-6",
+    "name": "Land City Hospital",
+    "type": "Medical",
+    "group": "Hospital",
+    "objectName": "land_city_hospital",
+    "lat": 24.21949,
+    "lng": 89.66663,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-1",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 61.15126,
+    "lng": -151.22819,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-2",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": -53.09972,
+    "lng": -118.06001,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-3",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 75.32729,
+    "lng": -101.88976,
+    "tier": 4,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-4",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 82.4587,
+    "lng": -97.53654,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-5",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 22.98655,
+    "lng": -95.04286,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-6",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": -6.42756,
+    "lng": -44.56434,
+    "tier": 3,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-7",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": -63.41994,
+    "lng": -20.59302,
+    "tier": 2,
+    "tags": [
+      "hunting"
+    ]
+  },
+  {
+    "id": "medical-land_village_healthcare-8",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": -19.86775,
+    "lng": -15.45124,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-9",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 56.65681,
+    "lng": 3.59797,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-10",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 79.29289,
+    "lng": 13.79421,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-11",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 19.36019,
+    "lng": 34.14786,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-12",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": -48.38757,
+    "lng": 48.68864,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-13",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": -70.86185,
+    "lng": 53.92636,
+    "tier": 1,
+    "tags": [
+      "coast"
+    ]
+  },
+  {
+    "id": "medical-land_village_healthcare-14",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 68.21353,
+    "lng": 74.69731,
+    "tier": 2,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-15",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 42.79221,
+    "lng": 108.82989,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-16",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": -34.90422,
+    "lng": 122.60783,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_village_healthcare-17",
+    "name": "Land Village Healthcare",
+    "type": "Medical",
+    "group": "MedicalCenter",
+    "objectName": "land_village_healthcare",
+    "lat": 75.06338,
+    "lng": 133.67509,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_shower-1",
+    "name": "Land Medical Tent Shower",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_shower",
+    "lat": 46.94249,
+    "lng": -72.27566,
+    "tier": 3,
+    "tags": [
+      "industrial",
+      "military"
+    ]
+  },
+  {
+    "id": "medical-land_medical_tent_shower-2",
+    "name": "Land Medical Tent Shower",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_shower",
+    "lat": 71.61484,
+    "lng": 87.56793,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_shower-3",
+    "name": "Land Medical Tent Shower",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_shower",
+    "lat": 71.5658,
+    "lng": 88.0492,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_shower-4",
+    "name": "Land Medical Tent Shower",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_shower",
+    "lat": 71.50609,
+    "lng": 88.47258,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_shower-5",
+    "name": "Land Medical Tent Shower",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_shower",
+    "lat": 71.44399,
+    "lng": 88.89352,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_big-1",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 46.83502,
+    "lng": -72.40386,
+    "tier": 3,
+    "tags": [
+      "industrial",
+      "military"
+    ]
+  },
+  {
+    "id": "medical-land_medical_tent_big-2",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 47.03126,
+    "lng": -72.03808,
+    "tier": 3,
+    "tags": [
+      "industrial",
+      "military"
+    ]
+  },
+  {
+    "id": "medical-land_medical_tent_big-3",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 46.90741,
+    "lng": -71.93996,
+    "tier": 3,
+    "tags": [
+      "industrial",
+      "military"
+    ]
+  },
+  {
+    "id": "medical-land_medical_tent_big-4",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 71.54868,
+    "lng": 87.76534,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_big-5",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 71.47219,
+    "lng": 87.66424,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_big-6",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 71.40508,
+    "lng": 88.11772,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_big-7",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 71.48209,
+    "lng": 88.21341,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_big-8",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 71.29077,
+    "lng": 88.91732,
+    "tier": 1,
+    "tags": []
+  },
+  {
+    "id": "medical-land_medical_tent_big-9",
+    "name": "Land Medical Tent Big",
+    "type": "Medical",
+    "group": "Tent",
+    "objectName": "land_medical_tent_big",
+    "lat": 71.36397,
+    "lng": 89.01806,
+    "tier": 1,
+    "tags": []
+  }
+]

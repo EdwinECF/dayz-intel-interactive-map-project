@@ -1,7 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // =========================
-    // Base map setup
-    // =========================
     const tileSize = 256;
     const maxTileLevel = 7;
     const maxTiles = Math.pow(2, maxTileLevel);
@@ -21,9 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
         maxBoundsViscosity: 1.0
     });
 
-    // =========================
-    // Tile layer
-    // =========================
     const DayZTileLayer = L.TileLayer.extend({
         getTileUrl: function (coords) {
             const tileLevel = maxTileLevel + coords.z;
@@ -47,19 +41,24 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    const tileLayer = new DayZTileLayer("", {
-        tileSize: tileSize,
+    new DayZTileLayer("", {
+        tileSize,
         minZoom: -6,
         maxZoom: 0,
         noWrap: true,
-        bounds: bounds
-    });
+        bounds
+    }).addTo(map);
 
-    tileLayer.addTo(map);
+    function izurviveToMapCoords(lat, lng) {
+        const point = L.CRS.EPSG3857.latLngToPoint(L.latLng(lat, lng), maxTileLevel);
+        return [-point.y, point.x];
+    }
 
-    // =========================
-    // Grid lines
-    // =========================
+    function mapToIzurviveCoords(mapLat, mapLng) {
+        const point = L.point(mapLng, Math.abs(mapLat));
+        return L.CRS.EPSG3857.pointToLatLng(point, maxTileLevel);
+    }
+
     const gridLayer = L.layerGroup().addTo(map);
 
     function drawGrid() {
@@ -85,92 +84,59 @@ document.addEventListener("DOMContentLoaded", () => {
 
     drawGrid();
 
-    // =========================
-    // Fixed grid numbers
-    // =========================
     const topAxis = document.getElementById("grid-axis-top");
     const leftAxis = document.getElementById("grid-axis-left");
 
-function updateGridAxis() {
-    if (!topAxis || !leftAxis) return;
+    function updateGridAxis() {
+        if (!topAxis || !leftAxis) return;
 
-    topAxis.innerHTML = "";
-    leftAxis.innerHTML = "";
+        topAxis.innerHTML = "";
+        leftAxis.innerHTML = "";
 
-    const zoom = map.getZoom();
+        if (map.getZoom() > -4) return;
 
-    if (zoom > -4) {
-        return;
-    }
+        const gridCount = 16;
+        const cellSize = mapSize / gridCount;
 
-    const gridCount = 16;
-    const cellSize = mapSize / gridCount;
+        for (let i = 0; i < gridCount; i++) {
+            const center = i * cellSize + cellSize / 2;
 
-    for (let i = 0; i < gridCount; i++) {
-        const center = i * cellSize + cellSize / 2;
+            const topPoint = map.latLngToContainerPoint([0, center]);
+            const leftPoint = map.latLngToContainerPoint([-center, 0]);
 
-        const topPoint = map.latLngToContainerPoint([0, center]);
-        const leftPoint = map.latLngToContainerPoint([-center, 0]);
+            if (topPoint.x >= 0 && topPoint.x <= map.getSize().x) {
+                const label = document.createElement("span");
+                label.textContent = String(i + 1).padStart(2, "0");
+                label.style.position = "absolute";
+                label.style.left = `${topPoint.x}px`;
+                label.style.transform = "translateX(-50%)";
+                topAxis.appendChild(label);
+            }
 
-        if (topPoint.x >= 0 && topPoint.x <= map.getSize().x) {
-            const label = document.createElement("span");
-            label.textContent = String(i + 1).padStart(2, "0");
-            label.style.position = "absolute";
-            label.style.left = `${topPoint.x}px`;
-            label.style.transform = "translateX(-50%)";
-            topAxis.appendChild(label);
-        }
-
-        if (leftPoint.y >= 0 && leftPoint.y <= map.getSize().y) {
-            const label = document.createElement("span");
-            label.textContent = String(i + 1).padStart(2, "0");
-            label.style.position = "absolute";
-            label.style.top = `${leftPoint.y}px`;
-            label.style.transform = "translateY(-50%)";
-            leftAxis.appendChild(label);
+            if (leftPoint.y >= 0 && leftPoint.y <= map.getSize().y) {
+                const label = document.createElement("span");
+                label.textContent = String(i + 1).padStart(2, "0");
+                label.style.position = "absolute";
+                label.style.top = `${leftPoint.y}px`;
+                label.style.transform = "translateY(-50%)";
+                leftAxis.appendChild(label);
+            }
         }
     }
-}
 
     map.on("move zoom", updateGridAxis);
 
-    // =========================
-    // Coordinate helpers
-    // =========================
-    function dayzToMapCoords(dayzX, dayzY) {
-        const dayzWorldSize = 15360;
-
-        const x = (dayzX / dayzWorldSize) * mapSize;
-        const y = (dayzY / dayzWorldSize) * mapSize;
-
-        return [-y, x];
-    }
-
-    function mapToDayzCoords(mapX, mapY) {
-        const dayzWorldSize = 15360;
-
-        return {
-            x: Math.round((mapX / mapSize) * dayzWorldSize),
-            y: Math.round((mapY / mapSize) * dayzWorldSize)
-        };
-    }
-
-    // =========================
-    // Crosshair and coordinate tooltip
-    // =========================
     const crosshair = document.getElementById("map-crosshair");
     const coordinateTooltip = document.getElementById("coordinate-tooltip");
 
     map.on("mousemove", function (event) {
-        const mapX = event.latlng.lng;
-        const mapY = Math.abs(event.latlng.lat);
-        const dayzCoords = mapToDayzCoords(mapX, mapY);
+        const izCoords = mapToIzurviveCoords(event.latlng.lat, event.latlng.lng);
         const point = map.mouseEventToContainerPoint(event.originalEvent);
 
         coordinateTooltip.style.display = "block";
         coordinateTooltip.style.left = `${point.x}px`;
         coordinateTooltip.style.top = `${point.y}px`;
-        coordinateTooltip.textContent = `X: ${dayzCoords.x} | Y: ${dayzCoords.y}`;
+        coordinateTooltip.textContent = `Lat: ${izCoords.lat.toFixed(5)} | Lng: ${izCoords.lng.toFixed(5)}`;
 
         crosshair.style.display = "block";
         crosshair.style.left = `${point.x}px`;
@@ -182,24 +148,22 @@ function updateGridAxis() {
         crosshair.style.display = "none";
     });
 
-    // =========================
-    // Location labels
-    // =========================
     const locationLabels = [];
 
     fetch("../data/locations.json")
         .then(response => response.json())
         .then(locations => {
             locations.forEach(location => {
-                const label = L.marker(dayzToMapCoords(location.dayzX, location.dayzY), {
+                const label = L.marker(izurviveToMapCoords(location.lat, location.lng), {
                     icon: L.divIcon({
                         className: `map-label ${location.size}`,
                         html: `
                             <span class="label-main">${location.name}</span>
-                            <span class="label-local">${location.localName}</span>
+                            <span class="label-local">${location.localName || ""}</span>
                         `,
                         iconSize: null
-                    })
+                    }),
+                    interactive: true
                 }).addTo(map);
 
                 locationLabels.push({
@@ -219,9 +183,33 @@ function updateGridAxis() {
             updateLabelVisibility();
         });
 
-    // =========================
-    // Label zoom visibility
-    // =========================
+    const markerLayers = {
+        water: L.layerGroup().addTo(map)
+    };
+
+    fetch("../data/markers-urban.json")
+        .then(response => response.json())
+        .then(markers => {
+            markers
+                .filter(marker =>
+                    marker.objectName === "land_misc_well_pump_blue" ||
+                    marker.objectName === "land_misc_well_pump_yellow" ||
+                    marker.objectName === "land_water_station" ||
+                    marker.objectName === "farm_watertower_small" ||
+                    marker.objectName === "farm_watertower"
+                )
+                .forEach(marker => {
+                    L.marker(izurviveToMapCoords(marker.lat, marker.lng), {
+                        icon: L.divIcon({
+                            className: "water-marker",
+                            html: `<i class="fa-solid fa-droplet"></i>`,
+                            iconSize: null
+                        }),
+                        interactive: true
+                    }).addTo(markerLayers.water);
+                });
+        });
+
     function updateLabelVisibility() {
         const zoom = map.getZoom();
 
@@ -243,9 +231,6 @@ function updateGridAxis() {
 
     map.on("zoomend", updateLabelVisibility);
 
-    // =========================
-    // Initial map position
-    // =========================
     map.setView([-mapSize / 2, mapSize / 2], -5);
 
     setTimeout(() => {
