@@ -129,6 +129,16 @@
                             </label>
                             </div>
 
+                            <div class="search-box">
+                                <input
+                                    id="map-search-input"
+                                    type="text"
+                                    placeholder="Search DZ-Atlas..."
+                                    autocomplete="off"
+                                />
+
+                                <div id="map-search-results" class="search-results"></div>
+                            </div>
                         </section>
 
                         <section class="map-widget panel-view panel-info" id="panel-info">
@@ -155,9 +165,12 @@
 <script src="../js/core/mapCore.js"></script>
 <script src="../js/managers/mapOverlayManager.js"></script>
 <script src="../js/managers/infoPanel.js"></script>
+<script src="../js/managers/markerManager.js"></script>
 <script src="../js/managers/layerManager.js"></script>
 <script src="../js/managers/uiManager.js"></script>
 <script src="../js/managers/locationManager.js"></script>
+<script src="../js/services/searchService.js"></script>
+<script src="../js/managers/searchManager.js"></script>
 <script src="../js/app.js"></script>
 </body>
 </html>

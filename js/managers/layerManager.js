@@ -1,6 +1,6 @@
 // js/layerManager.js
 
-window.LayerManager = function ({ map, atlasToMapCoords, showInfoPanel }) {
+window.LayerManager = function ({ map, markerManager }) {
     const markerLayers = {};
     const markerCache = {};
 
@@ -25,32 +25,6 @@ window.LayerManager = function ({ map, atlasToMapCoords, showInfoPanel }) {
             marker.objectName.toLowerCase().includes("farm")
     };
 
-    function createMarkerIcon(className, icon) {
-        return L.divIcon({
-            className,
-            html: `<i class="fa-solid fa-${icon}"></i>`,
-            iconSize: null
-        });
-    }
-
-    function createMarker(marker, config) {
-        const leafletMarker = L.marker(
-            atlasToMapCoords(marker.lat, marker.lng),
-            {
-                icon: createMarkerIcon(config.className, config.icon),
-                interactive: true
-            }
-        );
-
-        leafletMarker.on("click", () => {
-            showInfoPanel({
-                ...marker,
-                type: config.title
-            });
-        });
-
-        return leafletMarker;
-    }
 
     function loadLayer(config) {
         if (!markerLayers[config.id]) {
@@ -72,7 +46,7 @@ window.LayerManager = function ({ map, atlasToMapCoords, showInfoPanel }) {
                 markers
                     .filter(filter)
                     .forEach(marker => {
-                        createMarker(marker, config).addTo(markerLayers[config.id]);
+                        markerManager.createMarker(marker, config).addTo(markerLayers[config.id]);
                     });
 
                 markerCache[config.id] = true;

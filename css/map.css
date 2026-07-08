@@ -365,3 +365,55 @@
     cursor: pointer;
     float: right;
 }
+
+/* ===========================
+   Search-Box
+=========================== */
+
+.search-box {
+    position: relative;
+    padding: 12px;
+}
+
+#map-search-input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #111;
+    color: #fff;
+}
+
+.search-results {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.search-result-item {
+    width: 100%;
+    text-align: left;
+    padding: 8px 10px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background: #181818;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-result-item:hover {
+    background: #242424;
+}
+
+.search-result-name {
+    display: block;
+    font-weight: 600;
+}
+
+.search-result-type {
+    display: block;
+    font-size: 0.75rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
