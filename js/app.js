@@ -124,7 +124,9 @@ document.addEventListener("DOMContentLoaded", () => {
         map,
         atlasToMapCoords,
         searchService,
-        infoPanel
+        infoPanel,
+        layerManager,
+        markerManager,
     });
 
     searchManager.init();
