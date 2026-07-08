@@ -82,11 +82,6 @@
                 <section class="content map-page-layout">
 
                     <section class="map-main-panel">
-                        <section class="map-toolbar">
-
-                            <input type="text" placeholder="Search location...">
-
-                        </section>
 
                         <section class="map-container">
                             <div id="dayz-map"></div>
@@ -111,7 +106,19 @@
 
                     <aside class="map-sidebar-right" id="map-side-panel">
 
-                        <section class="map-widget panel-view" id="panel-layers">
+                        <section class="map-widget panel-view active" id="panel-layers">
+                            
+                            <div class="search-box">
+                                <input
+                                    id="map-search-input"
+                                    type="text"
+                                    placeholder="Search DZ-Atlas..."
+                                    autocomplete="off"
+                                />
+
+                                <div id="map-search-results" class="search-results"></div>
+                            </div>
+
                             <h3>Map Layers</h3>
                             <p>Choose what you want to see</p>
 
@@ -129,16 +136,6 @@
                             </label>
                             </div>
 
-                            <div class="search-box">
-                                <input
-                                    id="map-search-input"
-                                    type="text"
-                                    placeholder="Search DZ-Atlas..."
-                                    autocomplete="off"
-                                />
-
-                                <div id="map-search-results" class="search-results"></div>
-                            </div>
                         </section>
 
                         <section class="map-widget panel-view panel-info" id="panel-info">

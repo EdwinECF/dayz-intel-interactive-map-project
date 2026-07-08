@@ -344,15 +344,16 @@
 =========================== */
 
 #panel-info {
-    display: none;
+
     position: relative;
+    
 }
 
-.map-sidebar-right.show-info #panel-layers {
+.panel-view {
     display: none;
 }
 
-.map-sidebar-right.show-info #panel-info {
+.panel-view.active {
     display: block;
 }
 
@@ -436,3 +437,5 @@
     75% { transform: scale(2); filter: brightness(3); }
     100% { transform: scale(1); filter: brightness(1); }
 }
+
+
