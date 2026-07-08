@@ -6,7 +6,7 @@
       "icon": "droplet",
       "file": "../data/markers-urban.json",
       "className": "water-marker",
-      "default": true,
+      "default": false,
       "filterType": "water"
     },
     {

@@ -94,9 +94,11 @@ window.LayerManager = function ({ map, markerManager }) {
         const button = document.createElement("button");
 
         button.dataset.layer = config.id;
+        button.className = "layer-button";
+
         button.innerHTML = `
-            <i class="fa-solid fa-${config.icon}"></i>
-            ${config.title}
+        <i class="fa-solid fa-${config.icon}"></i>
+        <span>${config.title}</span>
         `;
 
         if (config.default) {

@@ -31,7 +31,7 @@
                         <i class="fa-solid fa-house"></i>
                         DASHBOARD
                     </a></li>
-                    <li><a href="map.html">
+                    <li><a href="map.html" class="active">
                         <i class="fa-solid fa-map"></i>
                         MAP
                     </a></li>
@@ -73,13 +73,59 @@
                     </a></li>
                 </ul>
             </nav>
+            <section class="sidebar-status-card">
+                <div class="status-avatar">
+                    <i class="fa-solid fa-user-ninja"></i>
+                </div>
+
+                <div class="status-info">
+                    <h3>Survivor</h3>
+                    <p>Chernarus Profile</p>
+                </div>
+
+                <div class="status-indicator">
+                    <span></span>
+                    Online
+                </div>
+            </section>
         </aside>
         <main class="main-content">
-            <header class="header">
+        <header class="header">
+
+            <div class="header-left">
                 <h1>Map</h1>
-            </header>
+            </div>
+
+            <div class="header-right">
+
+                <div class="search-box header-search">
+                    <input
+                        id="map-search-input"
+                        type="text"
+                        placeholder="Search locations, items, cities..."
+                        autocomplete="off"
+                    />
+
+                    <div id="map-search-results" class="search-results"></div>
+                </div>
+
+                <!-- Future buttons -->
+                <button class="header-icon-btn" title="Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <!-- Reserved for future profile/settings -->
+                <!--
+                <button class="header-icon-btn">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+                -->
+
+            </div>
+
+        </header>
             <section class="content map-page">
-                <section class="content map-page-layout">
+                <section class="map-page-layout">
 
                     <section class="map-main-panel">
 
@@ -98,32 +144,55 @@
                             </div>
                         </section>
 
-                        <section class="map-bottom-panel">
-                            <h3>Location Information</h3>
-                            <p>Hover over a location or click the map to see details.</p>
+                        <section class="map-feature-grid">
+
+                            <a href="map.html" class="map-feature-card">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <div>
+                                    <h3>Interactive Map</h3>
+                                    <p>Explore Chernarus with layers, search, and coordinates.</p>
+                                </div>
+                            </a>
+
+                            <a href="guides.html" class="map-feature-card">
+                                <i class="fa-solid fa-book-atlas"></i>
+                                <div>
+                                    <h3>Survival Guides</h3>
+                                    <p>Learn routes, survival basics, and player strategies.</p>
+                                </div>
+                            </a>
+
+                            <a href="loot.html" class="map-feature-card">
+                                <i class="fa-solid fa-box-open"></i>
+                                <div>
+                                    <h3>Loot Database</h3>
+                                    <p>Browse loot tiers, locations, and useful spawn info.</p>
+                                </div>
+                            </a>
+
+                            <a href="weapons.html" class="map-feature-card">
+                                <i class="fa-solid fa-gun"></i>
+                                <div>
+                                    <h3>Weapon Stats</h3>
+                                    <p>Compare weapons, ammo types, and combat usefulness.</p>
+                                </div>
+                            </a>
+
                         </section>
                     </section>
 
                     <aside class="map-sidebar-right" id="map-side-panel">
 
                         <section class="map-widget panel-view active" id="panel-layers">
-                            
-                            <div class="search-box">
-                                <input
-                                    id="map-search-input"
-                                    type="text"
-                                    placeholder="Search DZ-Atlas..."
-                                    autocomplete="off"
-                                />
-
-                                <div id="map-search-results" class="search-results"></div>
-                            </div>
-
-                            <h3>Map Layers</h3>
-                            <p>Choose what you want to see</p>
+            
+                            <h3 class="section-title">Map Layers</h3>
 
                             <div class="layer-list" id="layer-list"></div>
 
+                            <hr class="sidebar-divider">
+
+                            <h3 class="section-title">Display</h3>
+                            
                             <div class="map-settings">
                             <label>
                                 City label size
@@ -135,12 +204,38 @@
                                 <input id="marker-size-slider" type="range" min="0.7" max="1.8" step="0.1" value="1">
                             </label>
                             </div>
+                        </section>
+                        
+                        <section class="map-widget sidebar-widget" id="recent-markers-widget">
+                            <h3 class="section-title">Recent Markers</h3>
 
+                            <div class="sidebar-mini-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <strong>No markers yet</strong>
+                                    <span>Recently viewed locations will appear here.</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="map-widget sidebar-widget" id="weather-widget">
+                            <h3 class="section-title">Weather</h3>
+
+                            <div class="weather-placeholder">
+                                <div class="weather-icon">
+                                    <i class="fa-solid fa-cloud-sun"></i>
+                                </div>
+
+                                <div>
+                                    <strong>Chernarus Forecast</strong>
+                                    <span>Weather system coming soon.</span>
+                                </div>
+                            </div>
                         </section>
 
                         <section class="map-widget panel-view panel-info" id="panel-info">
                             <button id="close-info-panel" class="close-info-btn">
-                                <i class="fa-solid fa-xmark"></i>
+                                <i class="fa-solid fa-arrow-left"></i>
                             </button>
 
                             <h3 id="info-title">Location</h3>
@@ -148,13 +243,7 @@
                             <p id="info-coords">Coordinates</p>
                         </section>
 
-                        <section class="map-widget">
-                            <h3>Recent Markers</h3>
-                            <p>No custom markers yet.</p>
-                        </section>
-
-                    </aside>
-
+                    </aside>     
             </section>
         </main>
   </div>
