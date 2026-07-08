@@ -69,22 +69,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     locationManager.init();
-
-
     // ======================================================
-    // 5. Layer Manager
-    // Handles dynamic marker layers:
-    //
-    // • Reads layers.json
-    // • Creates sidebar buttons
-    // • Lazy-loads marker datasets
-    // • Caches loaded layers
-    // • Shows / hides layers
+    // 5. Marker Manager
+    // Creates Leaflet markers and marker icons.
+    // LayerManager will use this instead of creating markers itself.
     // ======================================================
+    const markerManager = window.MarkerManager({
+        atlasToMapCoords,
+        infoPanel
+    });
+
     const layerManager = window.LayerManager({
         map,
-        atlasToMapCoords,
-        showInfoPanel: infoPanel.show
+        markerManager
     });
 
     layerManager.loadLayerCatalog();
@@ -107,7 +104,30 @@ document.addEventListener("DOMContentLoaded", () => {
     const uiManager = window.UIManager();
 
     uiManager.init();
+    // ======================================================
+    // 7. Search Service
+    // Loads searchable data and exposes search methods.
+    // For now it only indexes locations. Later it will use
+    // generated search-index.json for all DZ-Atlas data.
+    // ======================================================
+    const searchService = window.SearchService();
 
+    searchService.load(); 
+    window.searchService = searchService;
+    
+    // ======================================================
+    // 8. Search Manager
+    // Connects the search input, search results, map movement,
+    // and info panel together.
+    // ======================================================
+    const searchManager = window.SearchManager({
+        map,
+        atlasToMapCoords,
+        searchService,
+        infoPanel
+    });
+
+    searchManager.init();
 
     // ======================================================
     // Final initialization
