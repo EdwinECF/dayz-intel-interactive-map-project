@@ -15,10 +15,45 @@ function slugify(value) {
         .replaceAll(" ", "-")
         .replace(/[^a-z0-9-_]/g, "");
 }
+
+function text(value) {
+    return String(value || "").toLowerCase();
+}
+
+const filterHandlers = {
+    all: () => true,
+
+    water: marker =>
+        text(marker.objectName).includes("well_pump") ||
+        text(marker.objectName).includes("water") ||
+        text(marker.name).includes("water"),
+
+    police: marker =>
+        text(marker.group) === "policestation" ||
+        text(marker.objectName).includes("police") ||
+        text(marker.name).includes("police"),
+
+    hunting: marker =>
+        text(marker.group).includes("deer") ||
+        text(marker.group).includes("hunting") ||
+        text(marker.objectName).includes("hunting") ||
+        text(marker.objectName).includes("deerstand") ||
+        text(marker.objectName).includes("feedshack") ||
+        text(marker.name).includes("hunting"),
+
+    farm: marker =>
+        text(marker.group).includes("farm") ||
+        text(marker.objectName).includes("farm") ||
+        text(marker.name).includes("farm")
+};
+
+function createMarkerId(layerId, marker) {
+    return `${layerId}-${marker.lat}-${marker.lng}-${marker.objectName || marker.name || ""}`;
+}
+
 function distanceSquared(aLat, aLng, bLat, bLng) {
     const dx = aLat - bLat;
     const dy = aLng - bLng;
-
     return dx * dx + dy * dy;
 }
 
@@ -29,12 +64,7 @@ function findNearestLocation(lat, lng) {
     let nearestDistance = Number.MAX_VALUE;
 
     for (const location of locations) {
-        const distance = distanceSquared(
-            lat,
-            lng,
-            location.lat,
-            location.lng
-        );
+        const distance = distanceSquared(lat, lng, location.lat, location.lng);
 
         if (distance < nearestDistance) {
             nearestDistance = distance;
@@ -59,39 +89,38 @@ function createLocationItems() {
     }));
 }
 
-function createMarkerItems(fileName, type, layerId) {
+function createLayerItems(layerConfig) {
+    const fileName = path.basename(layerConfig.file);
     const markers = readJson(fileName);
 
-    return markers.map((marker, index) => ({
-        id: `${layerId}-${index}`,
-        name: marker.name || marker.objectName || `${type} Marker`,
-        objectName: marker.objectName || "",
-        type,
-        category: marker.group || "unknown",
-        group: marker.group || "",
-        tier: marker.tier || null,
-        tags: marker.tags || [],
-        lat: marker.lat,
-        lng: marker.lng,
-        nearestLocation: findNearestLocation(
-            marker.lat,
-            marker.lng
-        ),
-        source: fileName,
-        layerId
-    }));
+    const filter =
+        filterHandlers[layerConfig.filterType] ||
+        filterHandlers.all;
+
+    return markers
+        .filter(filter)
+        .map(marker => ({
+            id: createMarkerId(layerConfig.id, marker),
+            name: marker.name || marker.objectName || `${layerConfig.title} Marker`,
+            objectName: marker.objectName || "",
+            type: layerConfig.title,
+            category: marker.group || "unknown",
+            group: marker.group || "",
+            tier: marker.tier || null,
+            tags: marker.tags || [],
+            lat: marker.lat,
+            lng: marker.lng,
+            nearestLocation: findNearestLocation(marker.lat, marker.lng),
+            source: fileName,
+            layerId: layerConfig.id
+        }));
 }
+
+const layers = readJson("layers.json");
 
 const searchIndex = [
     ...createLocationItems(),
-
-    ...createMarkerItems("markers-medical.json", "medical", "medical"),
-    ...createMarkerItems("markers-military.json", "military", "military"),
-    ...createMarkerItems("markers-urban.json", "urban", "urban"),
-    ...createMarkerItems("markers-industrial.json", "industrial", "industrial"),
-    ...createMarkerItems("markers-rural.json", "rural", "rural"),
-    ...createMarkerItems("markers-landmark.json", "landmark", "landmark"),
-    ...createMarkerItems("markers-areas.json", "area", "areas")
+    ...layers.categories.flatMap(createLayerItems)
 ];
 
 const outputPath = path.join(dataDir, "search-index.json");

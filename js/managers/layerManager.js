@@ -4,27 +4,39 @@ window.LayerManager = function ({ map, markerManager }) {
     const markerLayers = {};
     const markerCache = {};
 
-    const filterHandlers = {
-        all: () => true,
+    function createMarkerId(layerId, marker) {
+        return `${layerId}-${marker.lat}-${marker.lng}-${marker.objectName || marker.name || ""}`;
+    }
+    function text(value) {
+            return String(value || "").toLowerCase();
+        }
 
-        water: marker =>
-            marker.objectName.includes("well_pump") ||
-            marker.objectName.includes("water"),
+        const filterHandlers = {
+            all: () => true,
 
-        police: marker =>
-            marker.group === "PoliceStation" ||
-            marker.objectName.toLowerCase().includes("police"),
+            water: marker =>
+                text(marker.objectName).includes("well_pump") ||
+                text(marker.objectName).includes("water") ||
+                text(marker.name).includes("water"),
 
-        hunting: marker =>
-            marker.group.toLowerCase().includes("deer") ||
-            marker.group.toLowerCase().includes("hunting") ||
-            marker.objectName.toLowerCase().includes("hunting"),
+            police: marker =>
+                text(marker.group) === "policestation" ||
+                text(marker.objectName).includes("police") ||
+                text(marker.name).includes("police"),
 
-        farm: marker =>
-            marker.group.toLowerCase().includes("farm") ||
-            marker.objectName.toLowerCase().includes("farm")
-    };
+            hunting: marker =>
+                text(marker.group).includes("deer") ||
+                text(marker.group).includes("hunting") ||
+                text(marker.objectName).includes("hunting") ||
+                text(marker.objectName).includes("deerstand") ||
+                text(marker.objectName).includes("feedshack") ||
+                text(marker.name).includes("hunting"),
 
+            farm: marker =>
+                text(marker.group).includes("farm") ||
+                text(marker.objectName).includes("farm") ||
+                text(marker.name).includes("farm")
+        };
 
     function loadLayer(config) {
         if (!markerLayers[config.id]) {
@@ -46,7 +58,17 @@ window.LayerManager = function ({ map, markerManager }) {
                 markers
                     .filter(filter)
                     .forEach(marker => {
-                        markerManager.createMarker(marker, config).addTo(markerLayers[config.id]);
+                        const markerId = createMarkerId(config.id, marker);
+
+                        markerManager
+                            .createMarker(
+                                {
+                                    ...marker,
+                                    id: markerId
+                                },
+                                config
+                            )
+                            .addTo(markerLayers[config.id]);
                     });
 
                 markerCache[config.id] = true;
@@ -106,9 +128,31 @@ window.LayerManager = function ({ map, markerManager }) {
             });
     }
 
+    function enableLayer(layerId) {
+        fetch("../data/layers.json")
+            .then(response => response.json())
+            .then(layerData => {
+                const config = layerData.categories.find(layer => layer.id === layerId);
+
+                if (!config) {
+                    console.warn(`Layer not found: ${layerId}`);
+                    return;
+                }
+
+                loadLayer(config);
+
+                const button = document.querySelector(`[data-layer="${layerId}"]`);
+                button?.classList.add("active");
+            })
+            .catch(error => {
+                console.error("Failed to enable layer", error);
+            });
+    }
+
     return {
         loadLayerCatalog,
         loadLayer,
-        unloadLayer
+        unloadLayer,
+        enableLayer
     };
 };

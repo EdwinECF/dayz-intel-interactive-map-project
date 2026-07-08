@@ -7,6 +7,7 @@ window.MapOverlayManager = function ({ map, mapSize, mapToAtlasCoords }) {
     const leftAxis = document.getElementById("grid-axis-left");
     const crosshair = document.getElementById("map-crosshair");
     const coordinateTooltip = document.getElementById("coordinate-tooltip");
+    const DAYZ_WORLD_SIZE = 15360;
 
     function drawGrid() {
         gridLayer.clearLayers();
@@ -68,23 +69,25 @@ window.MapOverlayManager = function ({ map, mapSize, mapToAtlasCoords }) {
 
     function initCoordinateTooltip() {
         map.on("mousemove", event => {
-            const atlasCoords = mapToAtlasCoords(event.latlng.lat, event.latlng.lng);
-            const point = map.mouseEventToContainerPoint(event.originalEvent);
+        const point = map.mouseEventToContainerPoint(event.originalEvent);
 
-            if (coordinateTooltip) {
-                coordinateTooltip.style.display = "block";
-                coordinateTooltip.style.left = `${point.x}px`;
-                coordinateTooltip.style.top = `${point.y}px`;
-                coordinateTooltip.textContent =
-                    `Lat: ${atlasCoords.lat.toFixed(5)} | Lng: ${atlasCoords.lng.toFixed(5)}`;
-            }
+        const dayzX = Math.round((event.latlng.lng / mapSize) * DAYZ_WORLD_SIZE);
+        const dayzY = Math.round((Math.abs(event.latlng.lat) / mapSize) * DAYZ_WORLD_SIZE);
 
-            if (crosshair) {
-                crosshair.style.display = "block";
-                crosshair.style.left = `${point.x}px`;
-                crosshair.style.top = `${point.y}px`;
-            }
-        });
+        if (coordinateTooltip) {
+            coordinateTooltip.style.display = "block";
+            coordinateTooltip.style.left = `${point.x}px`;
+            coordinateTooltip.style.top = `${point.y}px`;
+            coordinateTooltip.textContent =
+                `X: ${dayzX} | Y: ${dayzY}`;
+        }
+
+        if (crosshair) {
+            crosshair.style.display = "block";
+            crosshair.style.left = `${point.x}px`;
+            crosshair.style.top = `${point.y}px`;
+        }
+    });
 
         map.on("mouseout", () => {
             if (coordinateTooltip) coordinateTooltip.style.display = "none";
