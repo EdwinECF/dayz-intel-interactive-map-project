@@ -702,6 +702,16 @@
     color: var(--atlas-text-muted);
 }
 
+.recent-marker-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.recent-marker-visibility {
+    margin-left: auto;
+    color: var(--atlas-text-muted);
+    font-size: 0.8rem;
+}
 /* ===========================
    GROUP LAYER MARKER STYLE
 =========================== */
@@ -946,4 +956,63 @@
 
 .leaflet-overlay-pane {
     z-index: 450;
+}
+
+/* ===========================
+   ROUTE MARKERS
+=========================== */
+
+.route-point-marker {
+    background: transparent !important;
+    border: none !important;
+}
+
+.route-point-marker i {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: white;
+    font-size: 13px;
+
+    border: 2px solid white;
+    box-shadow: 0 0 12px rgba(0,0,0,.5);
+}
+
+.route-point-start i {
+    background: var(--atlas-primary);
+}
+
+.route-point-finish i {
+    background: var(--atlas-red);
+}
+
+.sidebar-action-btn {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+
+    padding: var(--space-sm);
+
+    background: var(--atlas-surface);
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-sm);
+
+    color: var(--atlas-text);
+    cursor: pointer;
+
+    transition: all var(--atlas-transition);
+}
+
+.sidebar-action-btn:hover {
+    background: var(--atlas-primary-soft);
+    border-color: var(--atlas-primary-border);
 }

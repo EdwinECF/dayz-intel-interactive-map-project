@@ -6,13 +6,16 @@
 window.RouteManager = function ({
     map,
     infoPanel,
-    mapSize
+    mapSize,
+    recentMarkersManager
 }) {
     const DAYZ_WORLD_SIZE = 15360;
-
+    const STORAGE_KEY = "dzAtlasRoutes";
+    const savedRoutes = [];
     let startPoint = null;
     let endPoint = null;
     let previewLine = null;
+    const routeMarkers = [];
     let planning = false;
 
     const routeLines = [];
@@ -60,12 +63,19 @@ window.RouteManager = function ({
         });
 
         routeLines.length = 0;
+        routeMarkers.forEach(marker => {
+            map.removeLayer(marker);
+        });
+
+        routeMarkers.length = 0;
 
         if (previewLine) {
             map.removeLayer(previewLine);
             previewLine = null;
         }
-
+        savedRoutes.length = 0;
+        localStorage.removeItem(STORAGE_KEY);
+        
         planning = false;
         startPoint = null;
         endPoint = null;
@@ -115,7 +125,7 @@ window.RouteManager = function ({
         startPoint = pendingStartPoint;
         pendingStartPoint = null;
         planning = true;
-
+        createRouteMarker(startPoint, "start");
         routeEditorModal?.classList.add("hidden");
 
         infoPanel.show({
@@ -167,19 +177,42 @@ window.RouteManager = function ({
         }
 
         endPoint = point;
+        createRouteMarker(endPoint, "finish");
 
         drawRoute();
         showRouteInfo();
     }
 
-    function drawRoute() {
+    function createRouteMarker(point, type) {
+        const icon = L.divIcon({
+            className: `route-point-marker route-point-${type}`,
+            html: type === "start"
+                ? `<i class="fa-solid fa-play"></i>`
+                : `<i class="fa-solid fa-flag-checkered"></i>`,
+            iconSize: [30, 30],
+            iconAnchor: [15, 15]
+        });
+
+        const marker = L.marker([point.lat, point.lng], {
+            icon,
+            interactive: false
+        }).addTo(map);
+
+        routeMarkers.push(marker);
+    }
+
+    function drawRoute(routeData = null, shouldSave = true) {
+        const routeStart = routeData?.startPoint || startPoint;
+        const routeEnd = routeData?.endPoint || endPoint;
+        const routeColor = routeData?.color || currentRoute?.color || "#22c55e";
+
         const newRouteLine = L.polyline(
             [
-                [startPoint.lat, startPoint.lng],
-                [endPoint.lat, endPoint.lng]
+                [routeStart.lat, routeStart.lng],
+                [routeEnd.lat, routeEnd.lng]
             ],
             {
-                color: currentRoute?.color || "#22c55e",
+                color: routeColor,
                 weight: 4,
                 dashArray: "10 8"
             }
@@ -188,9 +221,65 @@ window.RouteManager = function ({
         newRouteLine.bringToFront();
         routeLines.push(newRouteLine);
 
+        if (shouldSave) {
+            const newRoute = {
+                id: `route-${Date.now()}`,
+                name: currentRoute?.name || "Planned Route",
+                color: routeColor,
+                startPoint: {
+                    lat: routeStart.lat,
+                    lng: routeStart.lng
+                },
+                endPoint: {
+                    lat: routeEnd.lat,
+                    lng: routeEnd.lng
+                }
+            };
+
+            savedRoutes.push(newRoute);
+            saveRoutes();
+        }
+
         setTimeout(() => {
             map.invalidateSize();
         }, 100);
+    }
+
+    function saveRoutes() {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(savedRoutes));
+        console.log("Saving routes:", savedRoutes);
+    }
+
+    function loadSavedRoutes() {
+        const routes = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+
+        routes.forEach(routeData => {
+            savedRoutes.push(routeData);
+
+            createRouteMarker(routeData.startPoint, "start");
+            createRouteMarker(routeData.endPoint, "finish");
+
+            drawRoute(routeData, false);
+
+            recentMarkersManager?.add({
+                id: routeData.id,
+                name: routeData.name,
+                displayName: routeData.name,
+                type: "Route Planner",
+                category: "Route",
+                lat: routeData.endPoint.lat,
+                lng: routeData.endPoint.lng,
+                startLat: routeData.startPoint.lat,
+                startLng: routeData.startPoint.lng,
+                routeInfo: {
+                    distance: "Saved route",
+                    walking: "Open route",
+                    jogging: "Open route",
+                    sprinting: "Open route"
+                },
+                tags: ["route"]
+            });
+        });
     }
 
     function showRouteInfo() {
@@ -229,12 +318,33 @@ window.RouteManager = function ({
         }
     });
 
+    function setRoutesVisibility(isVisible) {
+        routeLines.forEach(line => {
+            if (isVisible) {
+                if (!map.hasLayer(line)) line.addTo(map);
+            } else {
+                if (map.hasLayer(line)) map.removeLayer(line);
+            }
+        });
+
+        routeMarkers.forEach(marker => {
+            if (isVisible) {
+                if (!map.hasLayer(marker)) marker.addTo(map);
+            } else {
+                if (map.hasLayer(marker)) map.removeLayer(marker);
+            }
+        });
+    }
+
+    loadSavedRoutes();
+
     return {
         begin,
         preview,
         finish,
         clearRoute,
         clearActiveRoutePlanning,
-        isPlanning
+        isPlanning,
+        setRoutesVisibility
     };
 };

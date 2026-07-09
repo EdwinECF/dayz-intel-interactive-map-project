@@ -7,7 +7,7 @@
 // Recent marker history belongs in its own manager.
 // ======================================================
 
-window.RecentMarkersManager = function ({ onSelect } = {}) {
+window.RecentMarkersManager = function ({ onSelect, onToggleVisibility } = {}) {
     const recentList = document.getElementById("recent-markers-list");
     const maxItems = 5;
 
@@ -64,12 +64,28 @@ window.RecentMarkersManager = function ({ onSelect } = {}) {
 
             button.innerHTML = `
                 <i class="fa-solid fa-location-dot"></i>
-                <div>
+
+                <div class="recent-marker-text">
                     <strong>${item.displayName || item.name || item.objectName || "Unknown"}</strong>
                     <span>${item.type || item.category || "Location"}</span>
                 </div>
+
+                <span class="recent-marker-visibility">
+                    <i class="fa-solid ${item.hidden ? "fa-eye-slash" : "fa-eye"}"></i>
+                </span>
             `;
 
+            const visibilityButton = button.querySelector(".recent-marker-visibility");
+
+            visibilityButton?.addEventListener("click", event => {
+                event.stopPropagation();
+
+                item.hidden = !item.hidden;
+
+                onToggleVisibility?.(item);
+
+                render();
+            });
             button.addEventListener("click", () => {
                 onSelect?.(item);
             });
