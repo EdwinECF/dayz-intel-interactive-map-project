@@ -142,6 +142,121 @@
                             <div id="map-crosshair">
                                 <i class="fa-solid fa-crosshairs"></i>
                             </div>
+                            <div id="map-context-menu" class="map-context-menu hidden">
+                                <button data-marker-type="regular">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Add Marker
+                                </button>
+
+                                <button data-marker-type="objective">
+                                    <i class="fa-solid fa-bullseye"></i>
+                                    Add Objective
+                                </button>
+
+                                <button data-marker-type="danger">
+                                    <i class="fa-solid fa-triangle-exclamation"></i>
+                                    Add Danger
+                                </button>
+
+                                <button data-marker-type="poi">
+                                    <i class="fa-solid fa-star"></i>
+                                    Add Point of Interest
+                                </button>
+
+                                <button data-marker-type="base">
+                                    <i class="fa-solid fa-house"></i>
+                                    Add Base
+                                </button>
+
+                                <button data-marker-type="stash">
+                                    <i class="fa-solid fa-box"></i>
+                                    Add Stash
+                                </button>
+                                <hr class="context-menu-divider">
+
+                                <button data-route="start">
+                                    <i class="fa-solid fa-play"></i>
+                                    Start Route
+                                </button>
+
+                                <button data-route="finish">
+                                    <i class="fa-solid fa-flag-checkered"></i>
+                                    Finish Route
+                                </button>
+
+                                <button data-route="clear">
+                                    <i class="fa-solid fa-trash"></i>
+                                    Clear Route
+                                </button>
+                            </div>
+
+                            <div id="custom-marker-menu" class="map-context-menu hidden">
+                                
+                                <button data-action="edit">
+                                    <i class="fa-solid fa-pen"></i>
+                                    Edit Marker
+                                </button>
+
+                                <button data-action="delete">
+                                    <i class="fa-solid fa-trash"></i>
+                                    Delete Marker
+                                </button>
+                            </div>
+                            <div id="marker-editor-modal" class="marker-editor-modal hidden">
+                                <div class="marker-editor-card">
+                                    <h3>Edit Marker</h3>
+
+                                    <label>
+                                        Marker Name
+                                        <input id="marker-name-input" type="text">
+                                    </label>
+
+                                    <label>
+                                        Marker Type
+                                        <select id="marker-type-select">
+                                            <option value="regular">Marker</option>
+                                            <option value="objective">Objective</option>
+                                            <option value="danger">Danger</option>
+                                            <option value="poi">Point of Interest</option>
+                                            <option value="base">Base</option>
+                                            <option value="stash">Stash</option>
+                                        </select>
+                                    </label>
+
+                                    <div class="marker-editor-actions">
+                                        <button id="cancel-marker-edit">Cancel</button>
+                                        <button id="save-marker-edit">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="route-editor-modal" class="marker-editor-modal hidden">
+                                <div class="marker-editor-card">
+                                    <h3>New Route</h3>
+
+                                    <label>
+                                        Route Name
+                                        <input id="route-name-input" type="text" placeholder="Route 1">
+                                    </label>
+
+                                    <label>
+                                        Route Color
+                                        <select id="route-color-select">
+                                            <option value="#22c55e">Green</option>
+                                            <option value="#38bdf8">Blue</option>
+                                            <option value="#f97316">Orange</option>
+                                            <option value="#ef4444">Red</option>
+                                            <option value="#a855f7">Purple</option>
+                                        </select>
+                                    </label>
+
+                                    <div class="marker-editor-actions">
+                                        <button id="cancel-route-start">Cancel</button>
+                                        <button id="confirm-route-start">Start</button>
+                                    </div>
+                                </div>
+                            </div>
+
                         </section>
 
                         <section class="map-feature-grid">
@@ -205,17 +320,22 @@
                             </label>
                             </div>
                         </section>
+
+                        <section class="map-widget panel-view panel-info" id="panel-info">
+                            <button id="close-info-panel" class="close-info-btn">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </button>
+
+                            <h3 id="info-title">Location</h3>
+                            <p id="info-type">Type</p>
+                            <p id="info-coords">Coordinates</p>
+                        </section>
                         
                         <section class="map-widget sidebar-widget" id="recent-markers-widget">
                             <h3 class="section-title">Recent Markers</h3>
 
-                            <div class="sidebar-mini-item">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <div>
-                                    <strong>No markers yet</strong>
-                                    <span>Recently viewed locations will appear here.</span>
-                                </div>
-                            </div>
+                            <div class="sidebar-mini-list" id="recent-markers-list"></div>
+
                         </section>
 
                         <section class="map-widget sidebar-widget" id="weather-widget">
@@ -233,22 +353,14 @@
                             </div>
                         </section>
 
-                        <section class="map-widget panel-view panel-info" id="panel-info">
-                            <button id="close-info-panel" class="close-info-btn">
-                                <i class="fa-solid fa-arrow-left"></i>
-                            </button>
-
-                            <h3 id="info-title">Location</h3>
-                            <p id="info-type">Type</p>
-                            <p id="info-coords">Coordinates</p>
-                        </section>
-
                     </aside>     
             </section>
         </main>
   </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="../js/core/mapCore.js"></script>
+<script src="../js/utils/displayNameFormatter.js"></script>
+<script src="../js/utils/coordinateUtils.js"></script>
 <script src="../js/managers/mapOverlayManager.js"></script>
 <script src="../js/managers/infoPanel.js"></script>
 <script src="../js/managers/markerManager.js"></script>
@@ -257,6 +369,9 @@
 <script src="../js/managers/locationManager.js"></script>
 <script src="../js/services/searchService.js"></script>
 <script src="../js/managers/searchManager.js"></script>
+<script src="../js/managers/recentMarkersManager.js"></script>
+<script src="../js/managers/customMarkerManager.js"></script>
+<script src="../js/managers/routeManager.js"></script>
 <script src="../js/app.js"></script>
 </body>
 </html>

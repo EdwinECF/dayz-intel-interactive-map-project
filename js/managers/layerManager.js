@@ -3,6 +3,7 @@
 window.LayerManager = function ({ map, markerManager }) {
     const markerLayers = {};
     const markerCache = {};
+    const layerConfigs = new Map();
 
     function createMarkerId(layerId, marker) {
         return `${layerId}-${marker.lat}-${marker.lng}-${marker.objectName || marker.name || ""}`;
@@ -35,7 +36,50 @@ window.LayerManager = function ({ map, markerManager }) {
             farm: marker =>
                 text(marker.group).includes("farm") ||
                 text(marker.objectName).includes("farm") ||
-                text(marker.name).includes("farm")
+                text(marker.name).includes("farm"),
+
+            cow: marker =>
+                text(marker.group).includes("cow") ||
+                text(marker.objectName).includes("cow") ||
+                text(marker.name).includes("cow"),
+
+            chicken: marker =>
+                text(marker.group).includes("hen") ||
+                text(marker.objectName).includes("hen") ||
+                text(marker.name).includes("hen"),
+
+            rabbit: marker =>
+                text(marker.group).includes("hare") ||
+                text(marker.objectName).includes("hare") ||
+                text(marker.name).includes("hare"),
+
+            deer: marker =>
+                text(marker.group).includes("deer") ||
+                text(marker.objectName).includes("deer") ||
+                text(marker.name).includes("deer"),
+
+            boar: marker =>
+                text(marker.group).includes("boar") ||
+                text(marker.objectName).includes("boar") ||
+                text(marker.name).includes("boar"),
+
+            wolf: marker =>
+                text(marker.group).includes("wolf") ||
+                text(marker.objectName).includes("wolf") ||
+                text(marker.name).includes("wolf"),
+
+            bear: marker =>
+                text(marker.group).includes("bear") ||
+                text(marker.objectName).includes("bear") ||
+                text(marker.name).includes("bear"),
+
+            goat: marker =>
+                text(marker.group).includes("goat") ||
+                text(marker.group).includes("sheep") ||
+                text(marker.objectName).includes("goat") ||
+                text(marker.objectName).includes("sheep") ||
+                text(marker.name).includes("goat") ||
+                text(marker.name).includes("sheep")
         };
 
     function loadLayer(config) {
@@ -80,16 +124,66 @@ window.LayerManager = function ({ map, markerManager }) {
     }
 
     function unloadLayer(layerId) {
-        const layer = markerLayers[layerId];
+            const layer = markerLayers[layerId];
 
-        if (layer && map.hasLayer(layer)) {
-            map.removeLayer(layer);
+            if (layer && map.hasLayer(layer)) {
+                map.removeLayer(layer);
+            }
         }
-    }
+        function buildLayerGroup(groupConfig) {
+            const layerList = document.getElementById("layer-list");
+            if (!layerList) return;
 
-    function buildLayerButton(config) {
+            const group = document.createElement("div");
+            group.className = "layer-group";
+
+            const header = document.createElement("button");
+            header.className = "layer-group-header";
+
+            header.innerHTML = `
+                <span>
+                    <i class="fa-solid fa-${groupConfig.icon}"></i>
+                    ${groupConfig.title}
+                </span>
+                <i class="fa-solid fa-chevron-down"></i>
+            `;
+
+            const children = document.createElement("div");
+            children.className = "layer-group-children";
+
+            groupConfig.children.forEach(childConfig => {
+                layerConfigs.set(childConfig.id, childConfig);
+
+                const childButton = buildLayerButton(childConfig, true);
+                children.appendChild(childButton);
+            });
+
+            // Start all groups closed by default
+            group.classList.add("collapsed");
+
+            header.addEventListener("click", () => {
+                const isOpening = group.classList.contains("collapsed");
+
+                document.querySelectorAll(".layer-group").forEach(otherGroup => {
+                    otherGroup.classList.add("collapsed");
+                });
+
+                if (isOpening) {
+                    group.classList.remove("collapsed");
+                }
+
+                setTimeout(() => {
+                    map.invalidateSize();
+                }, 150);
+            });
+
+            group.appendChild(header);
+            group.appendChild(children);
+
+            layerList.appendChild(group);
+        }
+        function buildLayerButton(config, returnButton = false) {
         const layerList = document.getElementById("layer-list");
-        if (!layerList) return;
 
         const button = document.createElement("button");
 
@@ -97,8 +191,8 @@ window.LayerManager = function ({ map, markerManager }) {
         button.className = "layer-button";
 
         button.innerHTML = `
-        <i class="fa-solid fa-${config.icon}"></i>
-        <span>${config.title}</span>
+            <i class="fa-solid fa-${config.icon}"></i>
+            <span>${config.title}</span>
         `;
 
         if (config.default) {
@@ -116,45 +210,58 @@ window.LayerManager = function ({ map, markerManager }) {
             }
         });
 
-        layerList.appendChild(button);
+        if (returnButton) {
+            return button;
+        }
+
+        if (layerList) {
+            layerList.appendChild(button);
+        }
+
+        return button;
     }
 
     function loadLayerCatalog() {
         fetch("../data/layers.json")
             .then(response => response.json())
             .then(layerData => {
-                layerData.categories.forEach(buildLayerButton);
+                layerData.categories.forEach(category => {
+                    if (category.type === "group") {
+                        buildLayerGroup(category);
+                        return;
+                    }
+
+                    layerConfigs.set(category.id, category);
+                    buildLayerButton(category);
+                });
             })
             .catch(error => {
                 console.error("Failed to load layers.json", error);
             });
     }
-
     function enableLayer(layerId) {
-        fetch("../data/layers.json")
-            .then(response => response.json())
-            .then(layerData => {
-                const config = layerData.categories.find(layer => layer.id === layerId);
+        const config = getLayerConfig(layerId);
 
-                if (!config) {
-                    console.warn(`Layer not found: ${layerId}`);
-                    return;
-                }
+        if (!config) {
+            console.warn(`Layer not found: ${layerId}`);
+            return;
+        }
 
-                loadLayer(config);
+        loadLayer(config);
 
-                const button = document.querySelector(`[data-layer="${layerId}"]`);
-                button?.classList.add("active");
-            })
-            .catch(error => {
-                console.error("Failed to enable layer", error);
-            });
+        const button = document.querySelector(`[data-layer="${layerId}"]`);
+        button?.classList.add("active");
+        }
+
+    function getLayerConfig(layerId) {
+        return layerConfigs.get(layerId);
     }
 
     return {
         loadLayerCatalog,
         loadLayer,
         unloadLayer,
-        enableLayer
+        enableLayer,
+        getLayerConfig
     };
 };

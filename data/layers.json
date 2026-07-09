@@ -1,85 +1,181 @@
 {
   "categories": [
     {
-      "id": "water",
-      "title": "Water",
-      "icon": "droplet",
-      "file": "../data/markers-urban.json",
-      "className": "water-marker",
-      "default": false,
-      "filterType": "water"
+      "id": "essentials",
+      "title": "Essentials",
+      "icon": "map-pin",
+      "type": "group",
+      "children": [
+        {
+          "id": "water",
+          "title": "Water",
+          "icon": "droplet",
+          "file": "../data/markers-urban.json",
+          "className": "water-marker",
+          "default": false,
+          "filterType": "water"
+        },
+        {
+          "id": "medical",
+          "title": "Medical",
+          "icon": "kit-medical",
+          "file": "../data/markers-medical.json",
+          "className": "medical-marker",
+          "default": false,
+          "filterType": "all"
+        }
+      ]
     },
     {
-      "id": "military",
-      "title": "Military",
-      "icon": "shield-halved",
-      "file": "../data/markers-military.json",
-      "className": "military-marker",
-      "default": false,
-      "filterType": "all"
+      "id": "loot",
+      "title": "Loot & POI",
+      "icon": "box-open",
+      "type": "group",
+      "children": [
+        {
+          "id": "military",
+          "title": "Military",
+          "icon": "shield-halved",
+          "file": "../data/markers-military.json",
+          "className": "military-marker",
+          "default": false,
+          "filterType": "all"
+        },
+        {
+          "id": "police",
+          "title": "Police",
+          "icon": "building-shield",
+          "file": "../data/markers-military.json",
+          "className": "police-marker",
+          "default": false,
+          "filterType": "police"
+        },
+        {
+          "id": "industrial",
+          "title": "Industrial",
+          "icon": "industry",
+          "file": "../data/markers-industrial.json",
+          "className": "industrial-marker",
+          "default": false,
+          "filterType": "all"
+        },
+        {
+          "id": "farm",
+          "title": "Farm",
+          "icon": "wheat-awn",
+          "file": "../data/markers-rural.json",
+          "className": "farm-marker",
+          "default": false,
+          "filterType": "farm"
+        },
+        {
+          "id": "hunting",
+          "title": "Hunting",
+          "icon": "campground",
+          "file": "../data/markers-rural.json",
+          "className": "hunting-marker",
+          "default": false,
+          "filterType": "hunting"
+        },
+        {
+          "id": "landmark",
+          "title": "Landmarks",
+          "icon": "location-dot",
+          "file": "../data/markers-landmark.json",
+          "className": "landmark-marker",
+          "default": false,
+          "filterType": "all"
+        },
+        {
+          "id": "areas",
+          "title": "Areas",
+          "icon": "radiation",
+          "file": "../data/markers-areas.json",
+          "className": "area-marker",
+          "default": false,
+          "filterType": "all"
+        }
+      ]
     },
     {
-      "id": "medical",
-      "title": "Medical",
-      "icon": "kit-medical",
-      "file": "../data/markers-medical.json",
-      "className": "medical-marker",
-      "default": false,
-      "filterType": "all"
-    },
-    {
-      "id": "police",
-      "title": "Police",
-      "icon": "building-shield",
-      "file": "../data/markers-military.json",
-      "className": "police-marker",
-      "default": false,
-      "filterType": "police"
-    },
-    {
-      "id": "industrial",
-      "title": "Industrial",
-      "icon": "industry",
-      "file": "../data/markers-industrial.json",
-      "className": "industrial-marker",
-      "default": false,
-      "filterType": "all"
-    },
-    {
-      "id": "hunting",
-      "title": "Hunting",
-      "icon": "campground",
-      "file": "../data/markers-rural.json",
-      "className": "hunting-marker",
-      "default": false,
-      "filterType": "hunting"
-    },
-    {
-      "id": "farm",
-      "title": "Farm",
-      "icon": "wheat-awn",
-      "file": "../data/markers-rural.json",
-      "className": "farm-marker",
-      "default": false,
-      "filterType": "farm"
-    },
-    {
-      "id": "landmark",
-      "title": "Landmarks",
-      "icon": "location-dot",
-      "file": "../data/markers-landmark.json",
-      "className": "landmark-marker",
-      "default": false,
-      "filterType": "all"
-    },
-    {
-      "id": "areas",
-      "title": "Areas",
-      "icon": "radiation",
-      "file": "../data/markers-areas.json",
-      "className": "area-marker",
-      "default": false,
-      "filterType": "all"
+      "id": "animals",
+      "title": "Animals",
+      "icon": "paw",
+      "type": "group",
+      "children": [
+        {
+          "id": "animal-cow",
+          "title": "Cow",
+          "icon": "cow",
+          "file": "../data/markers-animals.json",
+          "className": "animal-marker",
+          "default": false,
+          "filterType": "cow"
+        },
+        {
+          "id": "animal-chicken",
+          "title": "Chicken",
+          "icon": "feather",
+          "file": "../data/markers-animals.json",
+          "className": "animal-marker",
+          "default": false,
+          "filterType": "chicken"
+        },
+        {
+          "id": "animal-rabbit",
+          "title": "Rabbit",
+          "icon": "carrot",
+          "file": "../data/markers-animals.json",
+          "className": "animal-marker",
+          "default": false,
+          "filterType": "rabbit"
+        },
+        {
+          "id": "animal-deer",
+          "title": "Deer",
+          "icon": "paw",
+          "file": "../data/markers-animals.json",
+          "className": "animal-marker",
+          "default": false,
+          "filterType": "deer"
+        },
+        {
+          "id": "animal-boar",
+          "title": "Boar",
+          "icon": "bacon",
+          "file": "../data/markers-animals.json",
+          "className": "animal-marker",
+          "default": false,
+          "filterType": "boar"
+        },
+        {
+          "id": "animal-wolf",
+          "title": "Wolf",
+          "icon": "dog",
+          "file": "../data/markers-animals.json",
+          "className": "animal-marker",
+          "default": false,
+          "filterType": "wolf"
+        },
+        {
+          "id": "animal-bear",
+          "title": "Bear",
+          "icon": "paw",
+          "file": "../data/markers-animals.json",
+          "className": "animal-marker",
+          "default": false,
+          "filterType": "bear"
+        },
+        {
+          "id": "animal-goat",
+          "title": "Goat / Sheep",
+          "icon": "horse",
+          "file": "../data/markers-animals.json",
+          "className": "animal-marker",
+          "default": false,
+          "filterType": "goat"
+        }
+      ]
     }
   ]
 }

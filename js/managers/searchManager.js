@@ -14,6 +14,7 @@ window.SearchManager = function ({
     infoPanel,
     layerManager,
     markerManager,
+    displayNameFormatter   
 }) {
     const input = document.getElementById("map-search-input");
     const resultsContainer = document.getElementById("map-search-results");
@@ -48,7 +49,9 @@ window.SearchManager = function ({
             }
 
             item.innerHTML = `
-                <span class="search-result-name">${result.name}</span>
+                <span class="search-result-name">
+                    ${result.displayName || displayNameFormatter?.format(result) || result.name}
+                </span>
 
                 <span class="search-result-type">
                     ${result.type}
@@ -65,23 +68,33 @@ window.SearchManager = function ({
     }
 
     function selectResult(result) {
-        if (!result.lat || !result.lng) return;
+        const displayName =
+            result.displayName ||
+            displayNameFormatter?.format(result) ||
+            result.name;
 
-        if (result.layerId) {
-            layerManager.enableLayer(result.layerId);
+        const selectedResult = {
+            ...result,
+            displayName
+        };
+
+        if (!selectedResult.lat || !selectedResult.lng) return;
+
+        if (selectedResult.layerId) {
+            const layerConfig = layerManager.getLayerConfig(selectedResult.layerId);
+
+            if (layerConfig) {
+                markerManager.showOnly(selectedResult, layerConfig);
+            }
         }
 
-        setTimeout(() => {
-            markerManager.flashMarker(result.id);
-        }, 1000);
-
-        const coords = atlasToMapCoords(result.lat, result.lng);
+        const coords = atlasToMapCoords(selectedResult.lat, selectedResult.lng);
 
         map.flyTo(coords, -2, {
             duration: 0.75
         });
 
-        infoPanel.show(result);
+        infoPanel.show(selectedResult);
 
         clearResults();
 
