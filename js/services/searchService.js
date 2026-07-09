@@ -74,7 +74,105 @@ window.SearchService = function () {
 
         return 0;
     }
+    function tokenize(value) {
+        return normalize(value)
+            .split(/\s+/)
+            .filter(Boolean);
+    }
 
+    function getSearchableText(item) {
+        return [
+            item.name,
+            item.displayName,
+            item.localName,
+            item.objectName,
+            item.type,
+            item.category,
+            item.group,
+            item.nearestLocation,
+            ...(item.tags || [])
+        ]
+            .map(normalize)
+            .join(" ");
+    }
+
+    function getLocationScore(item, term) {
+        const nearest = normalize(item.nearestLocation);
+
+        if (!nearest || !term) return 0;
+
+        if (nearest === term) return 100;
+        if (nearest.includes(term)) return 80;
+
+        const locationTokens = tokenize(nearest);
+        const queryTokens = tokenize(term);
+
+        const matches = queryTokens.filter(token =>
+            locationTokens.some(locationToken => locationToken.includes(token))
+        );
+
+        return matches.length * 20;
+    }
+
+    function getContentScore(item, term) {
+        const searchableText = getSearchableText(item);
+
+        if (!term) return 0;
+
+        if (normalize(item.name) === term) return 100;
+        if (normalize(item.objectName) === term) return 90;
+        if (normalize(item.name).includes(term)) return 80;
+        if (normalize(item.objectName).includes(term)) return 70;
+        if (searchableText.includes(term)) return 50;
+
+        const queryTokens = tokenize(term);
+
+        return queryTokens.reduce((score, token) => {
+            return searchableText.includes(token) ? score + 10 : score;
+        }, 0);
+    }
+
+    function getSmartRank(item, query) {
+        const term = normalize(query);
+        const tokens = tokenize(query);
+
+        const searchableText = getSearchableText(item);
+
+        if (!term) return 0;
+
+        // Base exact / direct match
+        let score = getContentScore(item, term);
+
+        // Token matching
+        tokens.forEach(token => {
+            if (searchableText.includes(token)) {
+                score += 8;
+            }
+        });
+
+        // Location-aware boost:
+        // This helps searches like:
+        // "hospital cherno"
+        // "water near gorka"
+        // "stary sobor hunting stands"
+        const nearest = normalize(item.nearestLocation);
+
+        tokens.forEach(token => {
+            if (nearest.includes(token)) {
+                score += 35;
+            }
+        });
+
+        // Extra boost when query contains "near"
+        if (tokens.includes("near")) {
+            const nearIndex = tokens.indexOf("near");
+            const possibleLocation = tokens.slice(nearIndex + 1).join(" ");
+
+            score += getLocationScore(item, possibleLocation);
+        }
+
+        return score;
+    }
     function search(query) {
         const term = normalize(query);
 
@@ -83,7 +181,7 @@ window.SearchService = function () {
         return searchIndex
             .map(item => ({
                 item,
-                rank: getRank(item, term)
+                rank: getSmartRank(item, query)
             }))
             .filter(result => result.rank > 0)
             .sort((a, b) => b.rank - a.rank)

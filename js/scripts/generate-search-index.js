@@ -44,7 +44,50 @@ const filterHandlers = {
     farm: marker =>
         text(marker.group).includes("farm") ||
         text(marker.objectName).includes("farm") ||
-        text(marker.name).includes("farm")
+        text(marker.name).includes("farm"),
+        
+    cow: marker =>
+        text(marker.group).includes("cow") ||
+        text(marker.objectName).includes("cow") ||
+        text(marker.name).includes("cow"),
+
+    chicken: marker =>
+        text(marker.group).includes("hen") ||
+        text(marker.objectName).includes("hen") ||
+        text(marker.name).includes("hen"),
+
+    rabbit: marker =>
+        text(marker.group).includes("hare") ||
+        text(marker.objectName).includes("hare") ||
+        text(marker.name).includes("hare"),
+
+    deer: marker =>
+        text(marker.group).includes("deer") ||
+        text(marker.objectName).includes("deer") ||
+        text(marker.name).includes("deer"),
+
+    boar: marker =>
+        text(marker.group).includes("boar") ||
+        text(marker.objectName).includes("boar") ||
+        text(marker.name).includes("boar"),
+
+    wolf: marker =>
+        text(marker.group).includes("wolf") ||
+        text(marker.objectName).includes("wolf") ||
+        text(marker.name).includes("wolf"),
+
+    bear: marker =>
+        text(marker.group).includes("bear") ||
+        text(marker.objectName).includes("bear") ||
+        text(marker.name).includes("bear"),
+
+    goat: marker =>
+        text(marker.group).includes("goat") ||
+        text(marker.group).includes("sheep") ||
+        text(marker.objectName).includes("goat") ||
+        text(marker.objectName).includes("sheep") ||
+        text(marker.name).includes("goat") ||
+        text(marker.name).includes("sheep")
 };
 
 function createMarkerId(layerId, marker) {
@@ -118,9 +161,21 @@ function createLayerItems(layerConfig) {
 
 const layers = readJson("layers.json");
 
+function flattenLayerConfigs(categories) {
+    return categories.flatMap(category => {
+        if (category.type === "group") {
+            return category.children || [];
+        }
+
+        return [category];
+    });
+}
+
+const layerConfigs = flattenLayerConfigs(layers.categories);
+
 const searchIndex = [
     ...createLocationItems(),
-    ...layers.categories.flatMap(createLayerItems)
+    ...layerConfigs.flatMap(createLayerItems)
 ];
 
 const outputPath = path.join(dataDir, "search-index.json");

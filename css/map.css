@@ -433,6 +433,10 @@
     border-color: var(--atlas-primary-border);
 }
 
+.hidden {
+    display: none !important;
+}
+
 /* ===========================
    Search-Box
 =========================== */
@@ -637,4 +641,309 @@
     font-size:.70rem;
     color: var(--atlas-text-muted);
     line-height: 1.35;
+}
+
+/* ===========================
+   RECENT MARKER STYLE
+=========================== */
+
+.recent-marker-item {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+
+    padding: var(--space-sm);
+
+    background: var(--atlas-surface);
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-sm);
+
+    color: var(--atlas-text);
+    text-align: left;
+
+    cursor: pointer;
+    transition: all var(--atlas-transition);
+}
+
+.recent-marker-item:hover {
+    background: var(--atlas-surface-3);
+    border-color: var(--atlas-primary-border);
+    transform: translateX(3px);
+}
+
+.recent-marker-item i {
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    background: var(--atlas-primary-soft);
+    color: var(--atlas-primary);
+
+    border-radius: var(--atlas-radius-sm);
+}
+
+.recent-marker-item strong {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.recent-marker-item span {
+    display: block;
+    margin-top: 0.15rem;
+
+    font-size: 0.7rem;
+    color: var(--atlas-text-muted);
+}
+
+/* ===========================
+   GROUP LAYER MARKER STYLE
+=========================== */
+
+.layer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.layer-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.layer-group-header {
+    width: 100%;
+    padding: 10px 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--atlas-surface-3);
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-sm);
+
+    color: var(--atlas-text);
+    font-weight: 700;
+    font-size: 0.8rem;
+
+    cursor: pointer;
+}
+
+.layer-group-header span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.layer-group-children {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.layer-button {
+    width: 100%;
+    padding: 9px 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+
+    background: var(--atlas-surface);
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-sm);
+
+    color: var(--atlas-text);
+    cursor: pointer;
+
+    transition: all var(--atlas-transition);
+}
+
+.layer-button:hover {
+    background: var(--atlas-surface-3);
+    border-color: var(--atlas-primary-border);
+    transform: translateX(3px);
+}
+
+.layer-button.active {
+    background: var(--atlas-primary-soft);
+    border-color: var(--atlas-primary);
+}
+
+.layer-button i {
+    width: 18px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.layer-button span {
+    flex: 1;
+    text-align: left;
+    font-size: 0.78rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.layer-group.collapsed .layer-group-children {
+    display: none;
+}
+
+/* ===========================
+   Map Marker Menu
+=========================== */
+
+.map-context-menu {
+    position: absolute;
+    z-index: 6000;
+    width: 190px;
+
+    padding: var(--space-xs);
+
+    background: var(--atlas-surface-2);
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-sm);
+
+    box-shadow: var(--atlas-shadow-soft);
+}
+
+.map-context-menu button {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+
+    padding: var(--space-sm);
+
+    background: transparent;
+    border: none;
+    border-radius: var(--atlas-radius-sm);
+
+    color: var(--atlas-text);
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.map-context-menu button:hover {
+    background: var(--atlas-primary-soft);
+}
+
+.map-context-menu i {
+    width: 18px;
+    text-align: center;
+}
+
+/* ======================================================
+   Custom Markers
+====================================================== */
+
+.custom-marker {
+    background: transparent !important;
+    border: none !important;
+}
+
+.custom-marker i {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: white;
+    font-size: 14px;
+
+    border: 2px solid white;
+    box-shadow: 0 0 12px rgba(0,0,0,.45);
+}
+
+.context-menu-divider {
+    border: none;
+    border-top: 1px solid var(--atlas-border);
+    margin: var(--space-xs) 0;
+}
+
+.custom-marker-regular i { background: #3b82f6; }
+.custom-marker-objective i { background: #22c55e; }
+.custom-marker-danger i { background: #ef4444; }
+.custom-marker-poi i { background: #f59e0b; }
+.custom-marker-base i { background: #8b5cf6; }
+.custom-marker-stash i { background: #14b8a6; }
+
+.marker-editor-modal {
+    position: absolute;
+    inset: 0;
+    z-index: 7000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.45);
+}
+
+.marker-editor-card {
+    width: 320px;
+    padding: var(--space-md);
+    background: var(--atlas-surface-2);
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-md);
+    box-shadow: var(--atlas-shadow-soft);
+}
+
+.marker-editor-card h3 {
+    margin-bottom: var(--space-md);
+}
+
+.marker-editor-card label {
+    display: block;
+    margin-bottom: var(--space-md);
+    font-size: 0.8rem;
+    color: var(--atlas-text-muted);
+}
+
+.marker-editor-card input,
+.marker-editor-card select {
+    width: 100%;
+    margin-top: var(--space-xs);
+    padding: var(--space-sm);
+    background: var(--atlas-bg);
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-sm);
+    color: var(--atlas-text);
+}
+
+.marker-editor-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--space-sm);
+}
+
+.marker-editor-actions button {
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--atlas-radius-sm);
+    border: 1px solid var(--atlas-border);
+    background: var(--atlas-surface-3);
+    color: var(--atlas-text);
+    cursor: pointer;
+}
+
+#save-marker-edit {
+    background: var(--atlas-primary-soft);
+    border-color: var(--atlas-primary-border);
+}
+
+.leaflet-overlay-pane {
+    z-index: 450;
 }

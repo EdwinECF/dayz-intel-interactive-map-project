@@ -7,10 +7,11 @@
 // MarkerManager should decide how individual markers are
 // visually created and how they behave when clicked.
 // ======================================================
-window.MarkerManager = function ({ atlasToMapCoords, infoPanel }) {
+window.MarkerManager = function ({ map, atlasToMapCoords, infoPanel }) {
 
     const markerRegistry = new Map();
-
+    const focusedMarkerLayer = L.layerGroup().addTo(map); 
+       
     function createIcon(className, icon) {
         return L.divIcon({
             className,
@@ -73,11 +74,26 @@ window.MarkerManager = function ({ atlasToMapCoords, infoPanel }) {
             icon.classList.remove("marker-flash");
         }, 1400);
     }
+    function showOnly(markerData, config) {
+        focusedMarkerLayer.clearLayers();
+
+        const focusedMarker = createMarker(markerData, config);
+
+        focusedMarker.addTo(focusedMarkerLayer);
+
+        flashMarker(markerData.id);
+    }
+
+    function clearFocusedMarker() {
+        focusedMarkerLayer.clearLayers();
+    }
 
     return {
         createMarker,
         getMarker,
         hasMarker,
-        flashMarker
+        flashMarker,
+        showOnly,
+        clearFocusedMarker
     };
 };
