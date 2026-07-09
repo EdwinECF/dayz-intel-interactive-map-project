@@ -257,11 +257,30 @@ window.LayerManager = function ({ map, markerManager }) {
         return layerConfigs.get(layerId);
     }
 
+    function resetLayers() {
+        Object.keys(markerLayers).forEach(layerId => {
+            unloadLayer(layerId);
+        });
+
+        document.querySelectorAll(".layer-button.active").forEach(button => {
+            button.classList.remove("active");
+        });
+
+        document.querySelectorAll(".layer-group").forEach(group => {
+            group.classList.add("collapsed");
+        });
+
+        setTimeout(() => {
+            map.invalidateSize();
+        }, 150);
+    }
+
     return {
         loadLayerCatalog,
         loadLayer,
         unloadLayer,
         enableLayer,
-        getLayerConfig
+        getLayerConfig,
+        resetLayers
     };
 };

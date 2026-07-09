@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const recentMarkersManager = window.RecentMarkersManager({
         onSelect: item => {
             const coords = item.type === "Route Planner" && item.startLat && item.startLng
-            ? [item.startLat, item.startLng]
-            : atlasToMapCoords(item.lat, item.lng);
+                ? [item.startLat, item.startLng]
+                : atlasToMapCoords(item.lat, item.lng);
 
             if (item.layerId) {
                 const layerConfig = layerManager.getLayerConfig(item.layerId);
@@ -76,6 +76,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 setTimeout(() => {
                     markerManager.flashMarker(item.id);
                 }, 300);
+            }
+        },
+
+        onToggleVisibility: item => {
+            const isVisible = !item.hidden;
+
+            if (item.type === "Route Planner") {
+                routeManager.setRoutesVisibility(isVisible);
+                return;
+            }
+
+            if (item.layerId || item.id) {
+                markerManager.setFocusedMarkerVisibility(isVisible);
             }
         }
     });
@@ -105,13 +118,15 @@ document.addEventListener("DOMContentLoaded", () => {
         map,
         mapToAtlasCoords,
         atlasToMapCoords,
-        infoPanel
+        infoPanel,
+        recentMarkersManager
     });
 
     const routeManager = window.RouteManager({
         map,
         infoPanel,
-        mapSize
+        mapSize,
+        recentMarkersManager
     });
 
     // ======================================================
@@ -127,17 +142,30 @@ document.addEventListener("DOMContentLoaded", () => {
         const point = map.latLngToContainerPoint(event.latlng);
 
         if (!contextMenu) return;
-
-        const menuWidth = contextMenu.offsetWidth || 190;
-        const menuHeight = contextMenu.offsetHeight || 300;
-
-        const container = map.getContainer();
-        const maxX = container.clientWidth - menuWidth - 8;
-        const maxY = container.clientHeight - menuHeight - 8;
-
-        contextMenu.style.left = `${Math.min(point.x, maxX)}px`;
-        contextMenu.style.top = `${Math.min(point.y, maxY)}px`;
         contextMenu.classList.remove("hidden");
+        contextMenu.style.visibility = "hidden";
+
+        const menuWidth = contextMenu.offsetWidth;
+        const menuHeight = contextMenu.offsetHeight;
+        const container = map.getContainer();
+        let left = point.x;
+        let top = point.y;
+
+        if (left + menuWidth > container.clientWidth) {
+            left = container.clientWidth - menuWidth - 8;
+        }
+
+        if (top + menuHeight > container.clientHeight) {
+            top = container.clientHeight - menuHeight - 8;
+        }
+
+        left = Math.max(8, left);
+        top = Math.max(8, top);
+
+        contextMenu.style.left = `${left}px`;
+        contextMenu.style.top = `${top}px`;
+
+        contextMenu.style.visibility = "visible";
     });
 
     contextMenu?.addEventListener("click", event => {
@@ -165,6 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (markerType) {
+            console.log("Adding custom marker:", markerType, contextMenuLatLng);
             customMarkerManager.addMarker(contextMenuLatLng, markerType);
         }
 
@@ -227,6 +256,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     layerManager.loadLayerCatalog();
+    const resetLayersBtn = document.getElementById("reset-layers-btn");
+
+    resetLayersBtn?.addEventListener("click", () => {
+        layerManager.resetLayers();
+    });
 
 
     // ======================================================

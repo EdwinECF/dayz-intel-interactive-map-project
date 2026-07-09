@@ -88,12 +88,25 @@ window.MarkerManager = function ({ map, atlasToMapCoords, infoPanel }) {
         focusedMarkerLayer.clearLayers();
     }
 
+    function setFocusedMarkerVisibility(isVisible) {
+        if (isVisible) {
+            if (!map.hasLayer(focusedMarkerLayer)) {
+                focusedMarkerLayer.addTo(map);
+            }
+        } else {
+            if (map.hasLayer(focusedMarkerLayer)) {
+                map.removeLayer(focusedMarkerLayer);
+            }
+        }
+    }
+
     return {
         createMarker,
         getMarker,
         hasMarker,
         flashMarker,
         showOnly,
-        clearFocusedMarker
+        clearFocusedMarker,
+        setFocusedMarkerVisibility
     };
 };

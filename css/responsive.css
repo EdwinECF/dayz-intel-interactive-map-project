@@ -49,3 +49,24 @@
   }
 }
 
+@media (max-height: 780px) {
+    .sidebar-status-card {
+        min-height: 120px;
+        padding: var(--space-sm);
+    }
+
+    .status-avatar {
+        width: 38px;
+        height: 38px;
+        font-size: 1rem;
+    }
+
+    .status-info h3 {
+        font-size: 0.85rem;
+    }
+
+    .status-info p,
+    .status-indicator {
+        font-size: 0.68rem;
+    }
+}
