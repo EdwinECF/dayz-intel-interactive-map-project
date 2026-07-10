@@ -204,7 +204,23 @@
                             <i class="fa-solid fa-crosshairs"></i>
                         </div>
 
+                        <div id="route-mobile-guide" class="route-mobile-guide hidden" role="status" aria-live="polite">
+                            <i class="fa-solid fa-route"></i>
+                            <div>
+                                <strong>Route started</strong>
+                                <span>Tap another point on the map to select your destination.</span>
+                            </div>
+                        </div>
+
                         <div class="map-quick-toggle">
+                            <div class="mobile-map-coordinates" id="mobile-map-coordinates" aria-live="polite">
+                                <i class="fa-solid fa-crosshairs"></i>
+                                <div>
+                                    <span>Coordinates</span>
+                                    <strong id="mobile-coordinate-value">Tap the map</strong>
+                                </div>
+                            </div>
+
                             <div class="quick-toggle-label">
                                 <strong>Quick Toggle</strong>
                                 <span>Show or hide layers</span>
