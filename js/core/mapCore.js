@@ -1,9 +1,6 @@
 // ======================================================
 // MapCore
-// Only responsible for:
-// - creating the Leaflet map
-// - loading map tiles
-// - converting DZ-Atlas source coordinates to map pixels
+// Creates and configures the Leaflet map.
 // ======================================================
 
 window.MapCore = function () {
@@ -17,17 +14,35 @@ window.MapCore = function () {
         [0, mapSize]
     ];
 
+    const isMobile = window.matchMedia("(max-width: 980px)").matches;
+
     const map = L.map("dayz-map", {
         crs: L.CRS.Simple,
-        minZoom: -5,
+
+        // Match the lowest available tile level.
+        minZoom: -6,
         maxZoom: 0,
+
         zoomControl: true,
+        touchZoom: true,
+        doubleClickZoom: true,
+        scrollWheelZoom: true,
+
+        // Smoother pinch zoom on mobile.
+        zoomSnap: isMobile ? 0.25 : 1,
+        zoomDelta: isMobile ? 0.5 : 1,
+
+        // Prevent the elastic zoom effect at the limits.
+        bounceAtZoomLimits: false,
+
         maxBounds: bounds,
-        maxBoundsViscosity: 1.0
+
+        // 1.0 feels too rigid on touchscreens.
+        maxBoundsViscosity: isMobile ? 0.65 : 1.0
     });
 
     const DayZTileLayer = L.TileLayer.extend({
-        getTileUrl: function (coords) {
+        getTileUrl(coords) {
             const tileLevel = maxTileLevel + coords.z;
             const tilesCount = Math.pow(2, tileLevel);
 
@@ -53,11 +68,15 @@ window.MapCore = function () {
         tileSize,
         minZoom: -6,
         maxZoom: 0,
+        minNativeZoom: -6,
+        maxNativeZoom: 0,
         noWrap: true,
-        bounds
+        bounds,
+        keepBuffer: isMobile ? 1 : 2,
+        updateWhenZooming: false,
+        updateWhenIdle: true
     }).addTo(map);
 
-    // Converts DZ-Atlas source coordinates into this map's CRS.Simple coordinates
     function atlasToMapCoords(lat, lng) {
         const point = L.CRS.EPSG3857.latLngToPoint(
             L.latLng(lat, lng),
@@ -67,18 +86,41 @@ window.MapCore = function () {
         return [-point.y, point.x];
     }
 
-    // Converts this map's CRS.Simple coordinates back into DZ-Atlas source coordinates
     function mapToAtlasCoords(mapLat, mapLng) {
         const point = L.point(mapLng, Math.abs(mapLat));
-        return L.CRS.EPSG3857.pointToLatLng(point, maxTileLevel);
+
+        return L.CRS.EPSG3857.pointToLatLng(
+            point,
+            maxTileLevel
+        );
     }
 
     function resetView() {
-        map.setView([-mapSize / 2, mapSize / 2], -5);
+        map.setView(
+            [-mapSize / 2, mapSize / 2],
+            isMobile ? -6 : -5,
+            {
+                animate: false
+            }
+        );
 
-        setTimeout(() => {
-            map.invalidateSize();
-        }, 100);
+        requestAnimationFrame(() => {
+            map.invalidateSize({
+                pan: false,
+                debounceMoveend: true
+            });
+        });
+    }
+
+    function refreshSize() {
+        map.invalidateSize({
+            pan: false,
+            debounceMoveend: true
+        });
+
+        map.panInsideBounds(bounds, {
+            animate: false
+        });
     }
 
     return {
@@ -88,6 +130,7 @@ window.MapCore = function () {
         maxTileLevel,
         atlasToMapCoords,
         mapToAtlasCoords,
-        resetView
+        resetView,
+        refreshSize
     };
 };
