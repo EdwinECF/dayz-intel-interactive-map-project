@@ -497,41 +497,122 @@ document.addEventListener("DOMContentLoaded", () => {
 
     refreshMapLayout(250);
 
-});
-
 
     // ======================================================
-    // MAP BRIGTHNESS
+    // Chernarus status and field intelligence presentation
+    // This reflects the local atlas session only.
     // ======================================================
+    const sidebarWorldTime = document.getElementById("sidebar-world-time");
+    const sidebarDayPhase = document.getElementById("sidebar-day-phase");
+    const sidebarDayIcon = document.getElementById("sidebar-day-icon");
+    const sidebarMarkerCount = document.getElementById("sidebar-marker-count");
+    const sidebarLayerCount = document.getElementById("sidebar-layer-count");
 
-const mapBrightnessSlider = document.getElementById(
-    "map-brightness-slider"
-);
+    const fieldGridValue = document.getElementById("field-grid-value");
+    const fieldLayerCount = document.getElementById("field-layer-count");
+    const fieldMarkerCount = document.getElementById("field-marker-count");
+    const fieldRouteState = document.getElementById("field-route-state");
+    const fieldBrightnessValue = document.getElementById("field-brightness-value");
 
-const mapContainer = document.querySelector(".map-container");
+    function getDayPhase(hour) {
+        if (hour >= 5 && hour < 8) {
+            return { label: "Dawn", icon: "fa-cloud-sun" };
+        }
 
-const savedBrightness =
-    localStorage.getItem("dzAtlasMapBrightness") || "0.72";
+        if (hour >= 8 && hour < 18) {
+            return { label: "Daylight", icon: "fa-sun" };
+        }
 
-if (mapBrightnessSlider && mapContainer) {
-    mapBrightnessSlider.value = savedBrightness;
+        if (hour >= 18 && hour < 21) {
+            return { label: "Dusk", icon: "fa-cloud-moon" };
+        }
 
-    mapContainer.style.setProperty(
-        "--map-brightness",
-        savedBrightness
+        return { label: "Night", icon: "fa-moon" };
+    }
+
+    function updateWorldStatusTime() {
+        const now = new Date();
+        const phase = getDayPhase(now.getHours());
+        const formatted = now.toLocaleTimeString([], {
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: false
+        });
+
+        if (sidebarWorldTime) sidebarWorldTime.textContent = formatted;
+        if (sidebarDayPhase) sidebarDayPhase.textContent = phase.label;
+
+        if (sidebarDayIcon) {
+            sidebarDayIcon.className = `fa-solid ${phase.icon}`;
+        }
+    }
+
+    function countActiveLayers() {
+        return document.querySelectorAll(".layer-button.active").length;
+    }
+
+    function countLocalMarkers() {
+        try {
+            const storedMarkers = JSON.parse(
+                localStorage.getItem("dzAtlasCustomMarkers") || "[]"
+            );
+
+            return Array.isArray(storedMarkers) ? storedMarkers.length : 0;
+        } catch {
+            return 0;
+        }
+    }
+
+    function updateFieldIntelligence() {
+        const activeLayers = countActiveLayers();
+        const localMarkers = countLocalMarkers();
+        const brightness =
+            document.getElementById("map-brightness-slider")?.value || "0.72";
+
+        if (sidebarLayerCount) sidebarLayerCount.textContent = activeLayers;
+        if (sidebarMarkerCount) sidebarMarkerCount.textContent = localMarkers;
+        if (fieldLayerCount) fieldLayerCount.textContent = activeLayers;
+        if (fieldMarkerCount) fieldMarkerCount.textContent = localMarkers;
+        if (fieldBrightnessValue) {
+            fieldBrightnessValue.textContent =
+                `${Math.round(Number(brightness) * 100)}%`;
+        }
+    }
+
+    map.on("mousemove", event => {
+        if (!fieldGridValue) return;
+        fieldGridValue.textContent = formatClickedCoordinates(event.latlng);
+    });
+
+    document.addEventListener("dzatlas:route-planning-change", event => {
+        if (!fieldRouteState) return;
+        fieldRouteState.textContent = event.detail?.planning
+            ? "Plotting"
+            : "Standby";
+    });
+
+    document.getElementById("layer-list")?.addEventListener(
+        "click",
+        () => window.setTimeout(updateFieldIntelligence, 0)
     );
 
-    mapBrightnessSlider.addEventListener("input", event => {
-        const brightness = event.target.value;
+    document.getElementById("map-brightness-slider")?.addEventListener(
+        "input",
+        updateFieldIntelligence
+    );
 
-        mapContainer.style.setProperty(
-            "--map-brightness",
-            brightness
-        );
-
-        localStorage.setItem(
-            "dzAtlasMapBrightness",
-            brightness
-        );
+    document.addEventListener("click", event => {
+        if (
+            event.target.closest(".custom-marker") ||
+            event.target.closest("[data-marker-type]") ||
+            event.target.closest("[data-action='delete']")
+        ) {
+            window.setTimeout(updateFieldIntelligence, 80);
+        }
     });
-}
+
+    updateWorldStatusTime();
+    updateFieldIntelligence();
+    window.setInterval(updateWorldStatusTime, 30000);
+
+});

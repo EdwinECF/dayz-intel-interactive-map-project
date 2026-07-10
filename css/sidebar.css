@@ -119,8 +119,8 @@
     margin: 0;
     font-family: 'dayZ', sans-serif;
     color: #f1f2e9;
-    text-align: center;
-    font-size: 3.30rem;
+    text-align: left;
+    font-size: 2.25rem;
     letter-spacing: 0.045em;
     text-shadow:
         0 2px 8px rgba(0, 0, 0, 0.7);
@@ -234,231 +234,6 @@
     color: var(--atlas-primary-bright);
 }
 
-/* ======================================================
-   SURVIVOR STATUS CARD
-====================================================== */
-
-.sidebar-status-card {
-    position: relative;
-    flex-shrink: 0;
-
-    margin-top: auto;
-    padding: 0 12px 14px;
-
-    overflow: hidden;
-
-    border: 1px solid rgba(156, 171, 102, 0.28);
-    border-radius: 10px;
-
-     background:url("../assets/backgrounds/survivor-card-bg.png")
-        center top / cover no-repeat !important;
-
-    background-size: cover;
-    background-position: center top;
-
-    box-shadow:
-        inset 0 1px 0 rgba(255, 255, 255, 0.035),
-        inset 0 -20px 50px rgba(0, 0, 0, 0.35),
-        0 12px 30px rgba(0, 0, 0, 0.3);
-}
-
-/* Dark gradient over the lower portion of the character */
-
-.sidebar-status-card::before {
-    content: "";
-
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-
-    pointer-events: none;
-
-    background:
-        linear-gradient(
-            180deg,
-            transparent 0%,
-            rgba(0, 0, 0, 0.04) 35%,
-            rgba(0, 0, 0, 0.46) 58%,
-            rgba(0, 0, 0, 0.9) 78%,
-            rgba(0, 0, 0, 0.98) 100%
-        );
-}
-
-/* Keep the content above the overlay */
-
-.sidebar-status-card > * {
-    position: relative;
-    z-index: 1;
-}
-
-/* ======================================================
-   SURVIVOR PORTRAIT
-====================================================== */
-
-.survivor-portrait {
-    width: calc(100% + 24px);
-    height: 190px;
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
-    flex-shrink: 0;
-
-    margin: 0 -12px -20px;
-
-    overflow: hidden;
-}
-
-.survivor-portrait img {
-    display: block;
-
-    width: 118%;
-    height: 100%;
-
-    object-fit: contain;
-    object-position: center bottom;
-
-    filter:
-        drop-shadow(0 12px 14px rgba(0, 0, 0, 0.7))
-        saturate(0.9)
-        contrast(1.04);
-}
-
-/* ======================================================
-   PROFILE NAME AND ONLINE STATUS
-====================================================== */
-
-.survivor-profile {
-    position: relative;
-    z-index: 2;
-
-    padding-top: 12px;
-    text-align: center;
-}
-
-.survivor-profile h3 {
-    color: #f0f1e8;
-
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 700;
-    line-height: 1;
-
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
-}
-
-.survivor-online {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-
-    margin-top: 5px;
-
-    color: var(--atlas-text-muted);
-    font-size: 0.65rem;
-}
-
-.survivor-online span {
-    width: 7px;
-    height: 7px;
-    flex-shrink: 0;
-
-    border-radius: 50%;
-
-    background: var(--atlas-primary-bright);
-
-    box-shadow:
-        0 0 8px rgba(183, 200, 123, 0.65);
-}
-
-.survivor-divider {
-    height: 1px;
-    margin: 10px 0;
-
-    background:
-        linear-gradient(
-            90deg,
-            transparent,
-            rgba(183, 200, 123, 0.3),
-            transparent
-        );
-}
-
-/* ======================================================
-   SURVIVOR STATS
-====================================================== */
-
-.survivor-stat-list {
-    display: grid;
-    gap: 10px;
-}
-
-.survivor-stat-row {
-    display: grid;
-    gap: 5px;
-}
-
-.survivor-stat-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.survivor-stat-header span,
-.survivor-stat-header strong {
-    font-size: 0.58rem;
-    line-height: 1;
-    text-transform: uppercase;
-}
-
-.survivor-stat-header span {
-    color: var(--atlas-text-muted);
-}
-
-.survivor-stat-header strong {
-    color: var(--atlas-text-soft);
-    font-weight: 500;
-}
-
-.survivor-stat-bar {
-    position: relative;
-
-    width: 100%;
-    height: 5px;
-
-    overflow: hidden;
-
-    background: rgba(255, 255, 255, 0.12);
-}
-
-.survivor-stat-bar i {
-    display: block;
-
-    height: 100%;
-
-    background: var(--atlas-primary-bright);
-
-    box-shadow:
-        0 0 8px rgba(183, 200, 123, 0.25);
-}
-
-.survivor-stat-row.hydration .survivor-stat-bar i {
-    background: #6f98a8;
-}
-
-.survivor-stat-row.energy .survivor-stat-bar i {
-    background: #c7af64;
-}
-
-.survivor-stat-row.blood .survivor-stat-bar i {
-    background: #c65a4b;
-}
-
 /* WEATHER */
 .sidebar-mini-item,
 .weather-placeholder {
@@ -469,4 +244,181 @@
     background: rgba(7,10,8,.45);
     border: 1px solid var(--atlas-border);
     border-radius: var(--atlas-radius-sm);
+}
+
+
+/* ======================================================
+   CHERNARUS STATUS MODULE
+====================================================== */
+
+.sidebar-status-card {
+    position: relative;
+    flex-shrink: 0;
+    margin-top: auto;
+    padding: 13px;
+    overflow: hidden;
+    border: var(--atlas-panel-border);
+    border-radius: var(--atlas-radius-md);
+    background:
+        linear-gradient(145deg, rgba(29,35,29,.90), rgba(8,11,9,.96)),
+        radial-gradient(circle at 75% 0%, rgba(156,171,102,.14), transparent 42%);
+    box-shadow: var(--atlas-panel-shadow);
+    isolation: isolate;
+}
+
+.sidebar-status-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: .22;
+    background:
+        linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px);
+    background-size: 18px 18px;
+    mask-image: linear-gradient(to bottom, #000, transparent 78%);
+}
+
+.world-status-heading {
+    display: grid;
+    grid-template-columns: 35px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 9px;
+}
+
+.world-status-icon {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--atlas-primary-border);
+    border-radius: var(--atlas-radius-xs);
+    background: var(--atlas-primary-soft);
+    color: var(--atlas-primary-bright);
+}
+
+.world-status-heading h3 {
+    margin-top: 2px;
+    font-size: .9rem;
+    line-height: 1;
+    letter-spacing: .065em;
+    text-transform: uppercase;
+}
+
+.atlas-kicker {
+    display: block;
+    color: var(--atlas-text-muted);
+    font-size: .52rem;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+}
+
+.world-status-live {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--atlas-text-muted);
+    font-size: .52rem;
+    text-transform: uppercase;
+}
+
+.world-status-live i {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--atlas-primary-bright);
+    box-shadow: 0 0 9px rgba(183,200,123,.65);
+}
+
+.world-status-hero {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+    padding: 11px 12px;
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-sm);
+    background:
+        linear-gradient(115deg, rgba(5,8,6,.62), rgba(33,40,32,.42));
+}
+
+.world-status-hero strong,
+.world-status-hero span {
+    display: block;
+}
+
+.world-status-hero strong {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.65rem;
+    font-weight: 500;
+    letter-spacing: .04em;
+}
+
+.world-status-hero span {
+    margin-top: 2px;
+    color: var(--atlas-text-muted);
+    font-size: .59rem;
+    text-transform: uppercase;
+}
+
+.world-status-hero > i {
+    color: var(--atlas-yellow);
+    font-size: 1.35rem;
+    filter: drop-shadow(0 0 12px rgba(199,175,100,.25));
+}
+
+.world-status-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+}
+
+.world-status-metric {
+    min-width: 0;
+    padding: 8px;
+    border: 1px solid var(--atlas-border-soft);
+    border-radius: var(--atlas-radius-xs);
+    background: rgba(255,255,255,.025);
+}
+
+.world-status-metric span,
+.world-status-metric strong {
+    display: block;
+}
+
+.world-status-metric span {
+    color: var(--atlas-text-muted);
+    font-size: .5rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.world-status-metric strong {
+    margin-top: 3px;
+    overflow: hidden;
+    color: var(--atlas-text-soft);
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: .76rem;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.world-status-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    margin-top: 10px;
+    padding-top: 9px;
+    border-top: 1px solid var(--atlas-border-soft);
+    color: var(--atlas-text-muted);
+    font-size: .52rem;
+    line-height: 1.35;
+}
+
+.world-status-note i {
+    margin-top: 1px;
+    color: var(--atlas-primary);
 }

@@ -1,0 +1,74 @@
+/* ======================================================
+   DZ-ATLAS MOTION SYSTEM
+====================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+    @keyframes atlasPulse {
+        0%, 100% { opacity: .65; transform: scale(.92); }
+        50% { opacity: 1; transform: scale(1.08); }
+    }
+
+    @keyframes atlasWeatherDrift {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(-2px) rotate(2deg); }
+    }
+
+    @keyframes atlasPanelEnter {
+        from {
+            opacity: 0;
+            transform: translateY(6px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .world-status-live i {
+        animation: atlasPulse 2.2s ease-in-out infinite;
+    }
+
+    .header-stat:first-of-type > i,
+    .world-status-hero > i {
+        animation: atlasWeatherDrift 4s ease-in-out infinite;
+    }
+
+    .map-widget,
+    .map-feature-card,
+    .sidebar-status-card {
+        animation: atlasPanelEnter 420ms both;
+    }
+
+    .map-feature-card:nth-child(2) { animation-delay: 45ms; }
+    .map-feature-card:nth-child(3) { animation-delay: 90ms; }
+    .map-feature-card:nth-child(4) { animation-delay: 135ms; }
+
+    .nav-links a i {
+        transition:
+            transform var(--atlas-transition),
+            color var(--atlas-transition);
+    }
+
+    .nav-links a:hover i {
+        transform: translateX(2px);
+    }
+
+    .header-icon-btn:hover i {
+        transform: rotate(-8deg) scale(1.05);
+    }
+
+    .header-icon-btn i {
+        transition: transform var(--atlas-transition);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .001ms !important;
+    }
+}

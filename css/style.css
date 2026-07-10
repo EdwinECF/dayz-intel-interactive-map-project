@@ -32,17 +32,23 @@
     --atlas-yellow: #c7af64;
     --atlas-purple: #8c739d;
 
-    --atlas-radius-xs: 4px;
-    --atlas-radius-sm: 7px;
+    --atlas-radius-xs: 6px;
+    --atlas-radius-sm: 10px;
     --atlas-radius-md: 10px;
-    --atlas-radius-lg: 14px;
+    --atlas-radius-lg: 10px;
 
     --atlas-shadow-soft: 0 12px 30px rgba(0, 0, 0, 0.28);
     --atlas-shadow-deep: 0 24px 70px rgba(0, 0, 0, 0.45);
     --atlas-shadow-inner: inset 0 0 0 1px rgba(255,255,255,.02);
     --atlas-shadow-glow: 0 0 24px rgba(156, 171, 102, 0.14);
+    --atlas-panel-border: 1px solid rgba(185, 198, 137, 0.18);
+    --atlas-panel-highlight: inset 0 1px 0 rgba(255,255,255,.045);
+    --atlas-panel-shadow:
+        inset 0 1px 0 rgba(255,255,255,.035),
+        inset 0 -1px 0 rgba(0,0,0,.42),
+        0 14px 34px rgba(0,0,0,.24);
 
-    --atlas-transition: 180ms ease;
+    --atlas-transition: 220ms cubic-bezier(.2,.8,.2,1);
 
     --space-xs: .35rem;
     --space-sm: .65rem;

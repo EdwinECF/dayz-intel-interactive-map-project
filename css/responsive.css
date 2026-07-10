@@ -515,12 +515,13 @@
         padding-block: 5px;
     }
 
-    .survivor-portrait {
-        height: 120px;
+    .world-status-hero {
+        min-height: 58px;
+        margin-block: 8px;
     }
 
-    .survivor-stat-list {
-        gap: 6px;
+    .world-status-note {
+        display: none;
     }
 
     .header {

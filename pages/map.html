@@ -10,45 +10,59 @@
     <link rel="stylesheet" href="../css/pages.css">
     <link rel="stylesheet" href="../css/map.css">
     <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/animations.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 
 <body>
-<button class="mobile-shell-btn mobile-menu-btn" id="mobile-menu-btn" type="button" aria-label="Open navigation" aria-controls="primary-sidebar" aria-expanded="false">
+<button
+    id="mobile-menu-btn"
+    class="mobile-shell-btn mobile-menu-btn"
+    type="button"
+    aria-label="Open navigation"
+    aria-expanded="false"
+>
     <i class="fa-solid fa-bars"></i>
 </button>
 
-<button class="mobile-shell-btn mobile-tools-btn" id="mobile-tools-btn" type="button" aria-label="Open map tools" aria-controls="map-side-panel" aria-expanded="false">
+<button
+    id="mobile-tools-btn"
+    class="mobile-shell-btn mobile-tools-btn"
+    type="button"
+    aria-label="Open map tools"
+    aria-expanded="false"
+>
     <i class="fa-solid fa-sliders"></i>
 </button>
 
-<div class="mobile-drawer-backdrop" id="mobile-drawer-backdrop"></div>
+<div id="mobile-drawer-backdrop" class="mobile-drawer-backdrop"></div>
 
 <div class="app-container">
 
-    <aside class="sidebar" id="primary-sidebar">
-        <button class="mobile-drawer-close" id="mobile-menu-close" type="button" aria-label="Close navigation">
+    <aside class="sidebar">
+        <button
+            id="mobile-menu-close"
+            class="mobile-drawer-close"
+            type="button"
+            aria-label="Close navigation"
+        >
             <i class="fa-solid fa-xmark"></i>
         </button>
-        <div class="sidebar-brand">
-
-            <!-- <div class="sidebar-brand-logo">
+        <div class="logo">
+            <div class="logo-mark">
                 <img
                     src="../assets/logos/mainlogo.png"
                     alt="DZ-Atlas Logo"
+                    class="logo-image"
                 >
-            </div> -->
-
-            <div class="sidebar-brand-copy">
-                <img
-                    src="../assets/logos/dayzwhitelogo.png"
-                    alt="DayZ Logo"
-                >
-                <span>DZ-Atlas Survival Intelligence</span>
             </div>
 
+            <div class="logo-copy">
+                <h2>DZ-Atlas</h2>
+                <span>Survival Intelligence</span>
+            </div>
         </div>
 
         <nav class="nav-links">
@@ -67,74 +81,58 @@
             </ul>
         </nav>
 
-        <section class="sidebar-status-card">
+        <section class="sidebar-status-card world-status-card">
+            <div class="world-status-heading">
+                <div class="world-status-icon">
+                    <i class="fa-solid fa-satellite-dish"></i>
+                </div>
 
-            <div class="survivor-portrait">
-                <img
-                    src="../assets/images/survivor.png"
-                    alt="DZ-Atlas Survivor"
-                >
+                <div>
+                    <span class="atlas-kicker">Atlas Session</span>
+                    <h3>Chernarus Status</h3>
+                </div>
+
+                <span class="world-status-live" title="Local atlas session active">
+                    <i></i>
+                    Live
+                </span>
             </div>
 
-            <div class="survivor-profile">
-                <h3>Survivor</h3>
+            <div class="world-status-hero">
+                <div>
+                    <strong id="sidebar-world-time">14:32</strong>
+                    <span id="sidebar-day-phase">Daylight</span>
+                </div>
 
-                <div class="survivor-online">
-                    <span></span>
-                    Online
+                <i class="fa-solid fa-sun" id="sidebar-day-icon"></i>
+            </div>
+
+            <div class="world-status-grid">
+                <div class="world-status-metric">
+                    <span>Map</span>
+                    <strong>Chernarus+</strong>
+                </div>
+
+                <div class="world-status-metric">
+                    <span>Session</span>
+                    <strong>Local</strong>
+                </div>
+
+                <div class="world-status-metric">
+                    <span>Markers</span>
+                    <strong id="sidebar-marker-count">0</strong>
+                </div>
+
+                <div class="world-status-metric">
+                    <span>Layers</span>
+                    <strong id="sidebar-layer-count">0</strong>
                 </div>
             </div>
 
-            <div class="survivor-divider"></div>
-
-            <div class="survivor-stat-list">
-
-                <div class="survivor-stat-row health">
-                    <div class="survivor-stat-header">
-                        <span>Health</span>
-                        <strong>100%</strong>
-                    </div>
-
-                    <div class="survivor-stat-bar">
-                        <i style="width: 100%"></i>
-                    </div>
-                </div>
-
-                <div class="survivor-stat-row hydration">
-                    <div class="survivor-stat-header">
-                        <span>Hydration</span>
-                        <strong>78%</strong>
-                    </div>
-
-                    <div class="survivor-stat-bar">
-                        <i style="width: 78%"></i>
-                    </div>
-                </div>
-
-                <div class="survivor-stat-row energy">
-                    <div class="survivor-stat-header">
-                        <span>Energy</span>
-                        <strong>62%</strong>
-                    </div>
-
-                    <div class="survivor-stat-bar">
-                        <i style="width: 62%"></i>
-                    </div>
-                </div>
-
-                <div class="survivor-stat-row blood">
-                    <div class="survivor-stat-header">
-                        <span>Blood</span>
-                        <strong>100%</strong>
-                    </div>
-
-                    <div class="survivor-stat-bar">
-                        <i style="width: 100%"></i>
-                    </div>
-                </div>
-
+            <div class="world-status-note">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>Live server integration can be connected later.</span>
             </div>
-
         </section>
         
     </aside>
@@ -145,6 +143,7 @@
             <div class="header-left">
                 <div class="world-heading">
                     <div class="world-emblem">
+                        <i class="fa-solid fa-shield-halved"></i>
                     </div>
 
                     <div class="world-title">
@@ -204,29 +203,23 @@
                             <i class="fa-solid fa-crosshairs"></i>
                         </div>
 
-                        <div id="route-mobile-guide" class="route-mobile-guide hidden" role="status" aria-live="polite">
+                        <div id="mobile-map-coordinates" class="mobile-map-coordinates">
+                            <span>Selected coordinates</span>
+                            <strong id="mobile-coordinate-value">Tap the map</strong>
+                        </div>
+
+                        <div id="route-mobile-guide" class="route-mobile-guide hidden">
                             <i class="fa-solid fa-route"></i>
-                            <div>
-                                <strong>Route started</strong>
-                                <span>Tap another point on the map to select your destination.</span>
-                            </div>
+                            Tap a destination to finish the route
                         </div>
 
                         <div class="map-quick-toggle">
-                            <div class="mobile-map-coordinates" id="mobile-map-coordinates" aria-live="polite">
-                                <i class="fa-solid fa-crosshairs"></i>
-                                <div>
-                                    <span>Coordinates</span>
-                                    <strong id="mobile-coordinate-value">Tap the map</strong>
-                                </div>
-                            </div>
-
                             <div class="quick-toggle-label">
                                 <strong>Quick Toggle</strong>
                                 <span>Show or hide layers</span>
                             </div>
 
-                            <button class="quick-layer-btn active" data-quick-layer="military">
+                            <button class="quick-layer-btn" data-quick-layer="military">
                                 <i class="fa-solid fa-tents"></i>Military
                             </button>
 
@@ -366,9 +359,15 @@
                     <div class="mobile-tools-heading">
                         <div>
                             <strong>Map Tools</strong>
-                            <span>Layers, markers and forecast</span>
+                            <span>Layers, markers and field data</span>
                         </div>
-                        <button class="mobile-drawer-close" id="mobile-tools-close" type="button" aria-label="Close map tools">
+
+                        <button
+                            id="mobile-tools-close"
+                            class="mobile-drawer-close"
+                            type="button"
+                            aria-label="Close map tools"
+                        >
                             <i class="fa-solid fa-xmark"></i>
                         </button>
                     </div>
@@ -377,7 +376,6 @@
                         <h3 class="section-title">Map Layers</h3>
 
                         <div class="layer-list" id="layer-list"></div>
-<div class="map-label-visibility-control"><button id="toggle-city-labels-btn" class="sidebar-action-btn active" type="button" aria-pressed="true"><i class="fa-solid fa-font"></i><span>City Labels</span><small>Visible</small></button></div>
 
                         <hr class="sidebar-divider">
 
@@ -446,17 +444,40 @@
                         <div class="sidebar-mini-list" id="recent-markers-list"></div>
                     </section>
 
-                    <section class="map-widget" id="weather-widget">
-                        <h3 class="section-title">Weather Forecast</h3>
+                    <section class="map-widget field-intel-widget" id="field-intel-widget">
+                        <div class="widget-title-row">
+                            <div>
+                                <span class="atlas-kicker">Operational Readout</span>
+                                <h3 class="section-title">Field Intelligence</h3>
+                            </div>
 
-                        <div class="weather-placeholder">
-                            <div class="weather-icon">
-                                <i class="fa-solid fa-cloud-rain"></i>
+                            <i class="fa-solid fa-binoculars"></i>
+                        </div>
+
+                        <div class="field-intel-primary">
+                            <span>Current grid</span>
+                            <strong id="field-grid-value">Move across the map</strong>
+                        </div>
+
+                        <div class="field-intel-grid">
+                            <div>
+                                <span>Visible layers</span>
+                                <strong id="field-layer-count">0</strong>
                             </div>
 
                             <div>
-                                <strong>Chernarus Forecast</strong>
-                                <span>Light rain · 12°C</span>
+                                <span>Saved markers</span>
+                                <strong id="field-marker-count">0</strong>
+                            </div>
+
+                            <div>
+                                <span>Route mode</span>
+                                <strong id="field-route-state">Standby</strong>
+                            </div>
+
+                            <div>
+                                <span>Display</span>
+                                <strong id="field-brightness-value">72%</strong>
                             </div>
                         </div>
                     </section>
