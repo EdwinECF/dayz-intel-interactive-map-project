@@ -318,4 +318,78 @@ document.addEventListener("DOMContentLoaded", () => {
         map.invalidateSize();
     }, 150);
 
+
+    // ======================================================
+    // Presentation layer helpers
+    // These do not alter map logic.
+    // ======================================================
+    const serverTime = document.getElementById("server-time");
+
+    function updateServerTime() {
+        if (!serverTime) return;
+
+        const now = new Date();
+        serverTime.textContent = now.toLocaleTimeString([], {
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: false
+        });
+    }
+
+    updateServerTime();
+    setInterval(updateServerTime, 30000);
+
+    document.querySelectorAll(".quick-layer-btn").forEach(button => {
+        button.addEventListener("click", () => {
+            button.classList.toggle("active");
+
+            const layerName = button.dataset.quickLayer?.toLowerCase();
+            if (!layerName) return;
+
+            const matchingButtons = [...document.querySelectorAll(".layer-button")].filter(layerButton => {
+                const text = layerButton.textContent.trim().toLowerCase();
+                return text.includes(layerName);
+            });
+
+            matchingButtons.forEach(layerButton => layerButton.click());
+        });
+    });
+
 });
+
+
+    // ======================================================
+    // MAP BRIGTHNESS
+    // ======================================================
+
+const mapBrightnessSlider = document.getElementById(
+    "map-brightness-slider"
+);
+
+const mapContainer = document.querySelector(".map-container");
+
+const savedBrightness =
+    localStorage.getItem("dzAtlasMapBrightness") || "0.72";
+
+if (mapBrightnessSlider && mapContainer) {
+    mapBrightnessSlider.value = savedBrightness;
+
+    mapContainer.style.setProperty(
+        "--map-brightness",
+        savedBrightness
+    );
+
+    mapBrightnessSlider.addEventListener("input", event => {
+        const brightness = event.target.value;
+
+        mapContainer.style.setProperty(
+            "--map-brightness",
+            brightness
+        );
+
+        localStorage.setItem(
+            "dzAtlasMapBrightness",
+            brightness
+        );
+    });
+}
