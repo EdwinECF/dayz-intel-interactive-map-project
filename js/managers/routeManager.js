@@ -30,6 +30,17 @@ window.RouteManager = function ({
     let routeCount = 1;
     let currentRoute = null;
 
+    function emitPlanningChange(isPlanning) {
+        document.dispatchEvent(
+            new CustomEvent("dzatlas:route-planning-change", {
+                detail: {
+                    planning: isPlanning,
+                    routeName: currentRoute?.name || ""
+                }
+            })
+        );
+    }
+
     function mapDistanceToMeters(pointA, pointB) {
         const dx = pointB.lng - pointA.lng;
         const dy = pointB.lat - pointA.lat;
@@ -80,6 +91,7 @@ window.RouteManager = function ({
         startPoint = null;
         endPoint = null;
         currentRoute = null;
+        emitPlanningChange(false);
     }
 
     function clearActiveRoutePlanning() {
@@ -91,6 +103,7 @@ window.RouteManager = function ({
         planning = false;
         startPoint = null;
         endPoint = null;
+        emitPlanningChange(false);
     }
 
     function begin(point) {
@@ -125,6 +138,7 @@ window.RouteManager = function ({
         startPoint = pendingStartPoint;
         pendingStartPoint = null;
         planning = true;
+        emitPlanningChange(true);
         createRouteMarker(startPoint, "start");
         routeEditorModal?.classList.add("hidden");
 
@@ -142,6 +156,7 @@ window.RouteManager = function ({
 
     function cancelRouteStartHandler() {
         pendingStartPoint = null;
+        emitPlanningChange(false);
         routeEditorModal?.classList.add("hidden");
     }
 
@@ -170,6 +185,7 @@ window.RouteManager = function ({
         if (!startPoint) return;
 
         planning = false;
+        emitPlanningChange(false);
 
         if (previewLine) {
             map.removeLayer(previewLine);

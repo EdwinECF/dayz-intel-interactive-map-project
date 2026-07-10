@@ -565,3 +565,168 @@
         left: 45px;
     }
 }
+
+
+/* ======================================================
+   MOBILE MAP FEEDBACK
+   Persistent coordinates and route-planning guidance.
+====================================================== */
+.mobile-map-coordinates,
+.route-mobile-guide {
+    display: none;
+}
+
+@media (max-width: 980px) {
+    .mobile-map-coordinates {
+        flex: 0 0 auto;
+        min-width: 148px;
+        min-height: 42px;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        border: 1px solid var(--atlas-primary-border);
+        border-radius: var(--atlas-radius-xs);
+        background: var(--atlas-primary-soft);
+        color: var(--atlas-text);
+    }
+
+    .mobile-map-coordinates > i {
+        color: var(--atlas-primary-bright);
+        font-size: .86rem;
+    }
+
+    .mobile-map-coordinates span,
+    .mobile-map-coordinates strong {
+        display: block;
+        white-space: nowrap;
+    }
+
+    .mobile-map-coordinates span {
+        color: var(--atlas-text-muted);
+        font-size: .52rem;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+    }
+
+    .mobile-map-coordinates strong {
+        margin-top: 2px;
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: .74rem;
+        font-weight: 600;
+        letter-spacing: .04em;
+    }
+
+    .mobile-map-coordinates.has-value {
+        border-color: rgba(183, 200, 123, .62);
+        box-shadow: 0 0 16px rgba(156, 171, 102, .12);
+    }
+
+    .route-mobile-guide {
+        position: absolute;
+        z-index: 1800;
+        top: 12px;
+        left: 50%;
+        width: min(430px, calc(100% - 116px));
+        min-height: 52px;
+        transform: translateX(-50%);
+        padding: 9px 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid var(--atlas-primary-border);
+        border-radius: var(--atlas-radius-sm);
+        background: rgba(12, 16, 13, .94);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        box-shadow: 0 14px 34px rgba(0, 0, 0, .42);
+        pointer-events: none;
+    }
+
+    .route-mobile-guide.hidden {
+        display: none;
+    }
+
+    .route-mobile-guide > i {
+        width: 34px;
+        height: 34px;
+        flex: 0 0 34px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--atlas-primary-soft);
+        color: var(--atlas-primary-bright);
+    }
+
+    .route-mobile-guide strong,
+    .route-mobile-guide span {
+        display: block;
+    }
+
+    .route-mobile-guide strong {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: .82rem;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+    }
+
+    .route-mobile-guide span {
+        margin-top: 2px;
+        color: var(--atlas-text-soft);
+        font-size: .64rem;
+        line-height: 1.35;
+    }
+
+    body.route-planning-active .map-container {
+        box-shadow:
+            inset 0 0 0 1px rgba(183, 200, 123, .3),
+            0 0 28px rgba(156, 171, 102, .12);
+    }
+}
+
+@media (max-width: 680px) {
+    .mobile-map-coordinates {
+        min-width: 126px;
+        height: 44px;
+        padding-inline: 8px;
+    }
+
+    .mobile-map-coordinates strong {
+        font-size: .69rem;
+    }
+
+    .route-mobile-guide {
+        top: 10px;
+        width: calc(100% - 108px);
+        min-height: 48px;
+        padding: 8px 10px;
+    }
+
+    .route-mobile-guide > i {
+        width: 30px;
+        height: 30px;
+        flex-basis: 30px;
+        font-size: .78rem;
+    }
+
+    .route-mobile-guide span {
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .mobile-map-coordinates {
+        min-width: 116px;
+    }
+
+    .mobile-map-coordinates > i {
+        display: none;
+    }
+
+    .route-mobile-guide {
+        left: 54px;
+        right: 54px;
+        width: auto;
+        transform: none;
+    }
+}

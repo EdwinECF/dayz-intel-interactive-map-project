@@ -130,6 +130,37 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // ======================================================
+    // Mobile coordinate readout and route guidance
+    // ======================================================
+    const mobileCoordinateBox = document.getElementById("mobile-map-coordinates");
+    const mobileCoordinateValue = document.getElementById("mobile-coordinate-value");
+    const routeMobileGuide = document.getElementById("route-mobile-guide");
+    const DAYZ_WORLD_SIZE = 15360;
+
+    function formatClickedCoordinates(latlng) {
+        const dayzX = Math.round((latlng.lng / mapSize) * DAYZ_WORLD_SIZE);
+        const dayzY = Math.round((Math.abs(latlng.lat) / mapSize) * DAYZ_WORLD_SIZE);
+
+        return `X: ${dayzX} | Y: ${dayzY}`;
+    }
+
+    function updateMobileCoordinates(latlng) {
+        if (!latlng || !mobileCoordinateValue) return;
+
+        mobileCoordinateValue.textContent = formatClickedCoordinates(latlng);
+        mobileCoordinateBox?.classList.add("has-value");
+    }
+
+    function setRoutePlanningFeedback(isPlanning) {
+        routeMobileGuide?.classList.toggle("hidden", !isPlanning);
+        document.body.classList.toggle("route-planning-active", isPlanning);
+    }
+
+    document.addEventListener("dzatlas:route-planning-change", event => {
+        setRoutePlanningFeedback(Boolean(event.detail?.planning));
+    });
+
+    // ======================================================
     // Map Context Menu
     // Right-click menu for custom marker tools.
     // ======================================================
@@ -205,6 +236,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
     map.on("click", event => {
+        updateMobileCoordinates(event.latlng);
+
         if (routeManager.isPlanning?.()) {
             routeManager.finish(event.latlng);
             return;
