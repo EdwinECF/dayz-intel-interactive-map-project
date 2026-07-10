@@ -881,3 +881,4 @@
     background-size: cover;
     background-position: center;
 }
+.map-label-visibility-control{margin-top:10px}.map-label-visibility-control .sidebar-action-btn{justify-content:flex-start}.map-label-visibility-control .sidebar-action-btn span{flex:1;text-align:left}.map-label-visibility-control .sidebar-action-btn small{color:var(--atlas-text-muted);font-size:.55rem;text-transform:uppercase;letter-spacing:.08em}.map-label-visibility-control .sidebar-action-btn:not(.active){opacity:.72}.map-label-visibility-control .sidebar-action-btn:not(.active) i{color:var(--atlas-text-muted)}

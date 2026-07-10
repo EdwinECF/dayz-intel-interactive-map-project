@@ -1,93 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loot - DZ-Atlas</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/sidebar.css">
-    <link rel="stylesheet" href="../css/pages.css">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="../css/responsive.css">
-</head>
-<body>
-  <div class="app-container">
-        <aside class="sidebar">
-            <div class="logo">
-                <img src="../assets/logos/mainlogo.png" alt="DZ-Atlas Logo" class="logo-image">
-                <h2>DZ-Atlas</h2>
-            </div>
-            <nav class="nav-links">
-                <ul>
-                    <li><a href="../index.html">
-                        <i class="fa-solid fa-house"></i>
-                        DASHBOARD
-                    </a></li>
-                    <li><a href="map.html">
-                        <i class="fa-solid fa-map"></i>
-                        MAP
-                    </a></li>
-                    <li><a href="guides.html">
-                        <i class="fa-solid fa-book-atlas"></i>
-                        GUIDES
-                    </a></li>
-                    <li><a href="gear.html">
-                        <i class="fa-solid fa-shield-alt"></i>
-                        GEAR
-                    </a></li>
-                    <li><a href="weapons.html">
-                        <i class="fa-solid fa-gun"></i>
-                        WEAPONS
-                    </a></li>
-                    <li><a href="vehicles.html">
-                        <i class="fa-solid fa-car"></i>
-                        VEHICLES
-                    </a></li>
-                    <li><a href="loot.html" class="active">
-                        <i class="fa-solid fa-tent"></i>
-                        LOOT
-                    </a></li>
-                    <li><a href="crafting.html">
-                        <i class="fa-solid fa-hammer"></i>
-                        CRAFTING
-                    </a></li>
-                    <li><a href="survival.html">
-                        <i class="fa-solid fa-briefcase-medical"></i>
-                        SURVIVAL
-                    </a></li>
-                    <li><a href="factions.html">
-                        <i class="fa-solid fa-users"></i>
-                        FACTIONS
-                    </a></li>
-                    <li><a href="news.html">
-                        <i class="fa-solid fa-newspaper"></i>
-                        NEWS
-                    </a></li>
-                </ul>
-            </nav>
-        </aside>
-        <main class="main-content">
-            <header class="header">
-                <h1>Loot</h1>
-            </header>
-            <section class="content">
-                <section class="page-header">
-                    <h2>Loot Overview</h2>
-                    <p>Find useful loot categories, spawn information, and important survival items across DayZ.</p>
-                </section>
-
-                <section class="search-section">
-                    <input type="text" placeholder="Search loot..." id="loot-search">
-                </section>
-                
-                <section class="card-grid" id="loot-container">
-
-            </section>
-        </main>
-     </div>
-     <script src="../js/pages/loot.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0a0c0b"><title>Loot - DZ-Atlas</title>
+<link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/sidebar.css"><link rel="stylesheet" href="../css/pages.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"><link rel="stylesheet" href="../css/responsive.css"></head>
+<body class="atlas-library-page" data-page="loot"><div class="app-container">
+<button class="mobile-shell-btn mobile-menu-btn" id="mobile-menu-btn" type="button" aria-label="Open navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+<div class="mobile-drawer-backdrop" id="mobile-drawer-backdrop"></div><aside class="sidebar" id="primary-sidebar">
+<button class="mobile-drawer-close" id="mobile-menu-close" type="button" aria-label="Close navigation"><i class="fa-solid fa-xmark"></i></button>
+<div class="sidebar-brand"><div class="sidebar-brand-copy"><img src="../assets/logos/dayzwhitelogo.png" alt="DayZ"><span>DZ-Atlas Survival Intelligence</span></div></div>
+<nav class="nav-links" aria-label="Primary navigation"><ul><li><a href="../index.html"><i class="fa-solid fa-house"></i><span>DASHBOARD</span></a></li>
+<li><a href="map.html"><i class="fa-solid fa-map"></i><span>MAP</span></a></li>
+<li><a href="guides.html"><i class="fa-solid fa-book-atlas"></i><span>GUIDES</span></a></li>
+<li><a href="gear.html"><i class="fa-solid fa-shield-halved"></i><span>GEAR</span></a></li>
+<li><a href="weapons.html"><i class="fa-solid fa-gun"></i><span>WEAPONS</span></a></li>
+<li><a href="vehicles.html"><i class="fa-solid fa-car"></i><span>VEHICLES</span></a></li>
+<li><a href="loot.html" class="active"><i class="fa-solid fa-box-open"></i><span>LOOT</span></a></li>
+<li><a href="crafting.html"><i class="fa-solid fa-hammer"></i><span>CRAFTING</span></a></li>
+<li><a href="survival.html"><i class="fa-solid fa-briefcase-medical"></i><span>SURVIVAL</span></a></li>
+<li><a href="factions.html"><i class="fa-solid fa-users"></i><span>FACTIONS</span></a></li>
+<li><a href="news.html"><i class="fa-solid fa-newspaper"></i><span>NEWS</span></a></li></ul></nav>
+<div class="sidebar-utility"><span class="sidebar-utility-dot"></span><div><strong>Atlas Network</strong><small>Systems operational</small></div></div>
+</aside>
+<main class="main-content"><header class="header library-header"><div class="library-header-copy"><span class="atlas-kicker">DZ-ATLAS DATABASE</span><h1>Loot</h1></div><a class="library-map-link" href="map.html"><i class="fa-solid fa-map-location-dot"></i><span>Open Map</span></a></header>
+<section class="content library-content"><section class="library-hero page-theme-loot"><div class="library-hero-icon"><i class="fa-solid fa-box-open"></i></div><div><span class="atlas-kicker">Resource Database</span><h2>Loot</h2><p>Find useful loot categories, rarity information, and essential survival supplies.</p></div><div class="library-hero-status"><span>DATABASE</span><strong id="page-total-count">0</strong><small>records available</small></div></section>
+<section class="library-toolbar"><label class="library-search"><i class="fa-solid fa-magnifying-glass"></i><input type="search" placeholder="Search loot..." id="loot-search" autocomplete="off"><button class="search-clear-btn" type="button" aria-label="Clear search"><i class="fa-solid fa-xmark"></i></button></label><div class="library-results-meta"><strong id="visible-result-count">0</strong><span>results</span></div></section>
+<div class="category-filter-row" id="category-filter-row" aria-label="Category filters"></div>
+<section class="card-grid library-card-grid" id="loot-container" aria-live="polite"></section>
+<div class="library-empty-state hidden" id="library-empty-state"><i class="fa-solid fa-radar"></i><h3>No matching records</h3><p>Try a different keyword or clear the active filter.</p><button type="button" id="reset-library-search">Reset search</button></div>
+</section><footer class="atlas-footer"><p>DZ-Atlas is a fan-made survival companion and is not affiliated with Bohemia Interactive.</p><a href="map.html">Return to map</a></footer></main></div>
+<script src="../js/pages/pageShell.js"></script><script src="../js/pages/loot.js"></script></body></html>
