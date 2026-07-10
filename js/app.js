@@ -355,6 +355,100 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    // ======================================================
+    // Responsive application shell
+    // Mobile navigation and map-tools drawers.
+    // ======================================================
+    const mobileMenuButton = document.getElementById("mobile-menu-btn");
+    const mobileToolsButton = document.getElementById("mobile-tools-btn");
+    const mobileMenuClose = document.getElementById("mobile-menu-close");
+    const mobileToolsClose = document.getElementById("mobile-tools-close");
+    const mobileBackdrop = document.getElementById("mobile-drawer-backdrop");
+    const primarySidebar = document.getElementById("primary-sidebar");
+    const mapSidePanel = document.getElementById("map-side-panel");
+    const mobileBreakpoint = window.matchMedia("(max-width: 980px)");
+
+    function refreshMapLayout(delay = 230) {
+        window.setTimeout(() => {
+            map.invalidateSize();
+            mapOverlayManager.updateGridAxis();
+        }, delay);
+    }
+
+    function syncDrawerState() {
+        const menuOpen = primarySidebar?.classList.contains("mobile-open");
+        const toolsOpen = mapSidePanel?.classList.contains("mobile-open");
+        const anyOpen = Boolean(menuOpen || toolsOpen);
+
+        document.body.classList.toggle("mobile-drawer-active", anyOpen);
+        mobileMenuButton?.setAttribute("aria-expanded", String(Boolean(menuOpen)));
+        mobileToolsButton?.setAttribute("aria-expanded", String(Boolean(toolsOpen)));
+    }
+
+    function closeMobileDrawers() {
+        primarySidebar?.classList.remove("mobile-open");
+        mapSidePanel?.classList.remove("mobile-open");
+        syncDrawerState();
+        refreshMapLayout();
+    }
+
+    function openMobileDrawer(drawer) {
+        if (!mobileBreakpoint.matches || !drawer) return;
+
+        primarySidebar?.classList.remove("mobile-open");
+        mapSidePanel?.classList.remove("mobile-open");
+        drawer.classList.add("mobile-open");
+        syncDrawerState();
+        refreshMapLayout();
+    }
+
+    mobileMenuButton?.addEventListener("click", () => {
+        if (primarySidebar?.classList.contains("mobile-open")) {
+            closeMobileDrawers();
+            return;
+        }
+
+        openMobileDrawer(primarySidebar);
+    });
+
+    mobileToolsButton?.addEventListener("click", () => {
+        if (mapSidePanel?.classList.contains("mobile-open")) {
+            closeMobileDrawers();
+            return;
+        }
+
+        openMobileDrawer(mapSidePanel);
+    });
+
+    mobileMenuClose?.addEventListener("click", closeMobileDrawers);
+    mobileToolsClose?.addEventListener("click", closeMobileDrawers);
+    mobileBackdrop?.addEventListener("click", closeMobileDrawers);
+
+    primarySidebar?.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            if (mobileBreakpoint.matches) closeMobileDrawers();
+        });
+    });
+
+    document.addEventListener("keydown", event => {
+        if (event.key === "Escape") closeMobileDrawers();
+    });
+
+    mobileBreakpoint.addEventListener?.("change", event => {
+        if (!event.matches) closeMobileDrawers();
+        refreshMapLayout(80);
+    });
+
+    window.addEventListener("resize", () => refreshMapLayout(100));
+    window.addEventListener("orientationchange", () => refreshMapLayout(300));
+
+    // InfoPanel dispatches this event when map details are selected.
+    document.addEventListener("dzatlas:open-map-tools", () => {
+        openMobileDrawer(mapSidePanel);
+    });
+
+    refreshMapLayout(250);
+
 });
 
 

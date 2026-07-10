@@ -26,6 +26,10 @@ window.InfoPanel = function ({
         weatherWidget?.classList.toggle("hidden", panelToShow === infoPanel);
 
         panelToShow?.classList.add("active");
+
+        if (panelToShow === infoPanel && window.matchMedia("(max-width: 980px)").matches) {
+            document.dispatchEvent(new CustomEvent("dzatlas:open-map-tools"));
+        }
     }
 
     function show(data) {
