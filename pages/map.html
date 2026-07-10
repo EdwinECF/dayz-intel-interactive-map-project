@@ -4,99 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map - DZ-Atlas</title>
+
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="../css/pages.css">
     <link rel="stylesheet" href="../css/map.css">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
     <link rel="stylesheet" href="../css/responsive.css">
-    <link
-        rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
+
 <body>
-  <div class="app-container">
-        <aside class="sidebar">
-            <div class="logo">
-                <img src="../assets/logos/mainlogo.png" alt="DZ-Atlas Logo" class="logo-image">
-                <h2>DZ-Atlas</h2>
+<div class="app-container">
+
+    <aside class="sidebar">
+        <div class="sidebar-brand">
+
+            <!-- <div class="sidebar-brand-logo">
+                <img
+                    src="../assets/logos/mainlogo.png"
+                    alt="DZ-Atlas Logo"
+                >
+            </div> -->
+
+            <div class="sidebar-brand-copy">
+                <img
+                    src="../assets/logos/dayzwhitelogo.png"
+                    alt="DayZ Logo"
+                >
+                <span>DZ-Atlas Survival Intelligence</span>
             </div>
-            <nav class="nav-links">
-                <ul>
-                    <li><a href="../index.html">
-                        <i class="fa-solid fa-house"></i>
-                        DASHBOARD
-                    </a></li>
-                    <li><a href="map.html" class="active">
-                        <i class="fa-solid fa-map"></i>
-                        MAP
-                    </a></li>
-                    <li><a href="guides.html">
-                        <i class="fa-solid fa-book-atlas"></i>
-                        GUIDES
-                    </a></li>
-                    <li><a href="gear.html">
-                        <i class="fa-solid fa-shield-alt"></i>
-                        GEAR
-                    </a></li>
-                    <li><a href="weapons.html">
-                        <i class="fa-solid fa-gun"></i>
-                        WEAPONS
-                    </a></li>
-                    <li><a href="vehicles.html">
-                        <i class="fa-solid fa-car"></i>
-                        VEHICLES
-                    </a></li>
-                    <li><a href="loot.html">
-                        <i class="fa-solid fa-tent"></i>
-                        LOOT
-                    </a></li>
-                    <li><a href="crafting.html">
-                        <i class="fa-solid fa-hammer"></i>
-                        CRAFTING
-                    </a></li>
-                    <li><a href="survival.html">
-                        <i class="fa-solid fa-briefcase-medical"></i>
-                        SURVIVAL
-                    </a></li>
-                    <li><a href="factions.html">
-                        <i class="fa-solid fa-users"></i>
-                        FACTIONS
-                    </a></li>
-                    <li><a href="news.html">
-                        <i class="fa-solid fa-newspaper"></i>
-                        NEWS
-                    </a></li>
-                </ul>
-            </nav>
-            <section class="sidebar-status-card">
-                <div class="status-avatar">
-                    <i class="fa-solid fa-user-ninja"></i>
-                </div>
 
-                <div class="status-info">
-                    <h3>Survivor</h3>
-                    <p>Chernarus Profile</p>
-                </div>
+        </div>
 
-                <div class="status-indicator">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="../index.html"><i class="fa-solid fa-house"></i>DASHBOARD</a></li>
+                <li><a href="map.html" class="active"><i class="fa-solid fa-map"></i>MAP</a></li>
+                <li><a href="guides.html"><i class="fa-solid fa-book-atlas"></i>GUIDES</a></li>
+                <li><a href="gear.html"><i class="fa-solid fa-shield-alt"></i>GEAR</a></li>
+                <li><a href="weapons.html"><i class="fa-solid fa-gun"></i>WEAPONS</a></li>
+                <li><a href="vehicles.html"><i class="fa-solid fa-car"></i>VEHICLES</a></li>
+                <li><a href="loot.html"><i class="fa-solid fa-tent"></i>LOOT</a></li>
+                <li><a href="crafting.html"><i class="fa-solid fa-hammer"></i>CRAFTING</a></li>
+                <li><a href="survival.html"><i class="fa-solid fa-briefcase-medical"></i>SURVIVAL</a></li>
+                <li><a href="factions.html"><i class="fa-solid fa-users"></i>FACTIONS</a></li>
+                <li><a href="news.html"><i class="fa-solid fa-newspaper"></i>NEWS</a></li>
+            </ul>
+        </nav>
+
+        <section class="sidebar-status-card">
+
+            <div class="survivor-portrait">
+                <img
+                    src="../assets/images/survivor.png"
+                    alt="DZ-Atlas Survivor"
+                >
+            </div>
+
+            <div class="survivor-profile">
+                <h3>Survivor</h3>
+
+                <div class="survivor-online">
                     <span></span>
                     Online
                 </div>
-            </section>
-        </aside>
-        <main class="main-content">
-        <header class="header">
+            </div>
 
+            <div class="survivor-divider"></div>
+
+            <div class="survivor-stat-list">
+
+                <div class="survivor-stat-row health">
+                    <div class="survivor-stat-header">
+                        <span>Health</span>
+                        <strong>100%</strong>
+                    </div>
+
+                    <div class="survivor-stat-bar">
+                        <i style="width: 100%"></i>
+                    </div>
+                </div>
+
+                <div class="survivor-stat-row hydration">
+                    <div class="survivor-stat-header">
+                        <span>Hydration</span>
+                        <strong>78%</strong>
+                    </div>
+
+                    <div class="survivor-stat-bar">
+                        <i style="width: 78%"></i>
+                    </div>
+                </div>
+
+                <div class="survivor-stat-row energy">
+                    <div class="survivor-stat-header">
+                        <span>Energy</span>
+                        <strong>62%</strong>
+                    </div>
+
+                    <div class="survivor-stat-bar">
+                        <i style="width: 62%"></i>
+                    </div>
+                </div>
+
+                <div class="survivor-stat-row blood">
+                    <div class="survivor-stat-header">
+                        <span>Blood</span>
+                        <strong>100%</strong>
+                    </div>
+
+                    <div class="survivor-stat-bar">
+                        <i style="width: 100%"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+    </aside>
+
+    <main class="main-content">
+
+        <header class="header">
             <div class="header-left">
-                <h1>Map</h1>
+                <div class="world-heading">
+                    <div class="world-emblem">
+                    </div>
+
+                    <div class="world-title">
+                        <h1>Chernarus</h1>
+                        <p>Plan your route. Survive longer.</p>
+                    </div>
+                </div>
             </div>
 
             <div class="header-right">
+                <div class="header-stat">
+                    <i class="fa-solid fa-cloud-sun"></i>
+                    <div>
+                        <strong>12°C</strong>
+                        <span>Forecast</span>
+                    </div>
+                </div>
+
+                <div class="header-stat">
+                    <i class="fa-regular fa-clock"></i>
+                    <div>
+                        <strong id="server-time">14:32</strong>
+                        <span>Server time</span>
+                    </div>
+                </div>
 
                 <div class="search-box header-search">
                     <input
@@ -104,268 +164,298 @@
                         type="text"
                         placeholder="Search locations, items, cities..."
                         autocomplete="off"
-                    />
-
+                    >
                     <div id="map-search-results" class="search-results"></div>
                 </div>
 
-                <!-- Future buttons -->
                 <button class="header-icon-btn" title="Theme">
                     <i class="fa-solid fa-moon"></i>
                 </button>
-
-                <!-- Reserved for future profile/settings -->
-                <!--
-                <button class="header-icon-btn">
-                    <i class="fa-solid fa-user"></i>
-                </button>
-                -->
-
             </div>
-
         </header>
-            <section class="content map-page">
-                <section class="map-page-layout">
 
-                    <section class="map-main-panel">
+        <section class="content map-page">
+            <section class="map-page-layout">
 
-                        <section class="map-container">
-                            <div id="dayz-map"></div>
+                <section class="map-main-panel">
 
-                            <div class="grid-axis grid-axis-top" id="grid-axis-top"></div>
-                            <div class="grid-axis grid-axis-left" id="grid-axis-left"></div>
+                    <section class="map-container">
+                        <div id="dayz-map"></div>
 
-                            <div class="coordinate-tooltip" id="coordinate-tooltip">
-                                X: 0 | Y: 0
+                        <div class="grid-axis grid-axis-top" id="grid-axis-top"></div>
+                        <div class="grid-axis grid-axis-left" id="grid-axis-left"></div>
+
+                        <div class="coordinate-tooltip" id="coordinate-tooltip">X: 0 | Y: 0</div>
+
+                        <div id="map-crosshair">
+                            <i class="fa-solid fa-crosshairs"></i>
+                        </div>
+
+                        <div class="map-quick-toggle">
+                            <div class="quick-toggle-label">
+                                <strong>Quick Toggle</strong>
+                                <span>Show or hide layers</span>
                             </div>
 
-                            <div id="map-crosshair">
-                                <i class="fa-solid fa-crosshairs"></i>
-                            </div>
-                            <div id="map-context-menu" class="map-context-menu hidden">
-                                <button data-marker-type="regular">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    Add Marker
-                                </button>
+                            <button class="quick-layer-btn active" data-quick-layer="military">
+                                <i class="fa-solid fa-tents"></i>Military
+                            </button>
 
-                                <button data-marker-type="objective">
-                                    <i class="fa-solid fa-bullseye"></i>
-                                    Add Objective
-                                </button>
+                            <button class="quick-layer-btn" data-quick-layer="loot">
+                                <i class="fa-solid fa-box-open"></i>Loot
+                            </button>
 
-                                <button data-marker-type="danger">
-                                    <i class="fa-solid fa-triangle-exclamation"></i>
-                                    Add Danger
-                                </button>
+                            <button class="quick-layer-btn" data-quick-layer="vehicles">
+                                <i class="fa-solid fa-car"></i>Vehicles
+                            </button>
 
-                                <button data-marker-type="poi">
-                                    <i class="fa-solid fa-star"></i>
-                                    Add Point of Interest
-                                </button>
+                            <button class="quick-layer-btn" data-quick-layer="medical">
+                                <i class="fa-solid fa-briefcase-medical"></i>Medical
+                            </button>
 
-                                <button data-marker-type="base">
-                                    <i class="fa-solid fa-house"></i>
-                                    Add Base
-                                </button>
+                            <button class="quick-layer-btn" data-quick-layer="food">
+                                <i class="fa-solid fa-utensils"></i>Food
+                            </button>
 
-                                <button data-marker-type="stash">
-                                    <i class="fa-solid fa-box"></i>
-                                    Add Stash
-                                </button>
-                                <hr class="context-menu-divider">
+                            <button class="quick-layer-btn" data-quick-layer="water">
+                                <i class="fa-solid fa-droplet"></i>Water
+                            </button>
+                        </div>
 
-                                <button data-route="start">
-                                    <i class="fa-solid fa-play"></i>
-                                    Start Route
-                                </button>
+                        <div id="map-context-menu" class="map-context-menu hidden">
+                            <button data-marker-type="regular"><i class="fa-solid fa-location-dot"></i>Add Marker</button>
+                            <button data-marker-type="objective"><i class="fa-solid fa-bullseye"></i>Add Objective</button>
+                            <button data-marker-type="danger"><i class="fa-solid fa-triangle-exclamation"></i>Add Danger</button>
+                            <button data-marker-type="poi"><i class="fa-solid fa-star"></i>Add Point of Interest</button>
+                            <button data-marker-type="base"><i class="fa-solid fa-house"></i>Add Base</button>
+                            <button data-marker-type="stash"><i class="fa-solid fa-box"></i>Add Stash</button>
 
-                                <button data-route="finish">
-                                    <i class="fa-solid fa-flag-checkered"></i>
-                                    Finish Route
-                                </button>
+                            <hr class="context-menu-divider">
 
-                                <button data-route="clear">
-                                    <i class="fa-solid fa-trash"></i>
-                                    Clear Route
-                                </button>
-                            </div>
+                            <button data-route="start"><i class="fa-solid fa-play"></i>Start Route</button>
+                            <button data-route="finish"><i class="fa-solid fa-flag-checkered"></i>Finish Route</button>
+                            <button data-route="clear"><i class="fa-solid fa-trash"></i>Clear Route</button>
+                        </div>
 
-                            <div id="custom-marker-menu" class="map-context-menu hidden">
-                                
-                                <button data-action="edit">
-                                    <i class="fa-solid fa-pen"></i>
-                                    Edit Marker
-                                </button>
+                        <div id="custom-marker-menu" class="map-context-menu hidden">
+                            <button data-action="edit"><i class="fa-solid fa-pen"></i>Edit Marker</button>
+                            <button data-action="delete"><i class="fa-solid fa-trash"></i>Delete Marker</button>
+                        </div>
 
-                                <button data-action="delete">
-                                    <i class="fa-solid fa-trash"></i>
-                                    Delete Marker
-                                </button>
-                            </div>
-                            <div id="marker-editor-modal" class="marker-editor-modal hidden">
-                                <div class="marker-editor-card">
-                                    <h3>Edit Marker</h3>
+                        <div id="marker-editor-modal" class="marker-editor-modal hidden">
+                            <div class="marker-editor-card">
+                                <h3>Edit Marker</h3>
 
-                                    <label>
-                                        Marker Name
-                                        <input id="marker-name-input" type="text">
-                                    </label>
+                                <label>
+                                    Marker Name
+                                    <input id="marker-name-input" type="text">
+                                </label>
 
-                                    <label>
-                                        Marker Type
-                                        <select id="marker-type-select">
-                                            <option value="regular">Marker</option>
-                                            <option value="objective">Objective</option>
-                                            <option value="danger">Danger</option>
-                                            <option value="poi">Point of Interest</option>
-                                            <option value="base">Base</option>
-                                            <option value="stash">Stash</option>
-                                        </select>
-                                    </label>
+                                <label>
+                                    Marker Type
+                                    <select id="marker-type-select">
+                                        <option value="regular">Marker</option>
+                                        <option value="objective">Objective</option>
+                                        <option value="danger">Danger</option>
+                                        <option value="poi">Point of Interest</option>
+                                        <option value="base">Base</option>
+                                        <option value="stash">Stash</option>
+                                    </select>
+                                </label>
 
-                                    <div class="marker-editor-actions">
-                                        <button id="cancel-marker-edit">Cancel</button>
-                                        <button id="save-marker-edit">Save</button>
-                                    </div>
+                                <div class="marker-editor-actions">
+                                    <button id="cancel-marker-edit">Cancel</button>
+                                    <button id="save-marker-edit">Save</button>
                                 </div>
                             </div>
-                            
-                            <div id="route-editor-modal" class="marker-editor-modal hidden">
-                                <div class="marker-editor-card">
-                                    <h3>New Route</h3>
+                        </div>
 
-                                    <label>
-                                        Route Name
-                                        <input id="route-name-input" type="text" placeholder="Route 1">
-                                    </label>
+                        <div id="route-editor-modal" class="marker-editor-modal hidden">
+                            <div class="marker-editor-card">
+                                <h3>New Route</h3>
 
-                                    <label>
-                                        Route Color
-                                        <select id="route-color-select">
-                                            <option value="#22c55e">Green</option>
-                                            <option value="#38bdf8">Blue</option>
-                                            <option value="#f97316">Orange</option>
-                                            <option value="#ef4444">Red</option>
-                                            <option value="#a855f7">Purple</option>
-                                        </select>
-                                    </label>
+                                <label>
+                                    Route Name
+                                    <input id="route-name-input" type="text" placeholder="Route 1">
+                                </label>
 
-                                    <div class="marker-editor-actions">
-                                        <button id="cancel-route-start">Cancel</button>
-                                        <button id="confirm-route-start">Start</button>
-                                    </div>
+                                <label>
+                                    Route Color
+                                    <select id="route-color-select">
+                                        <option value="#9cab66">Olive</option>
+                                        <option value="#6f98a8">Blue</option>
+                                        <option value="#c68a4b">Orange</option>
+                                        <option value="#c65a4b">Red</option>
+                                        <option value="#8c739d">Purple</option>
+                                    </select>
+                                </label>
+
+                                <div class="marker-editor-actions">
+                                    <button id="cancel-route-start">Cancel</button>
+                                    <button id="confirm-route-start">Start</button>
                                 </div>
                             </div>
-
-                        </section>
-
-                        <section class="map-feature-grid">
-
-                            <a href="map.html" class="map-feature-card">
-                                <i class="fa-solid fa-map-location-dot"></i>
-                                <div>
-                                    <h3>Interactive Map</h3>
-                                    <p>Explore Chernarus with layers, search, and coordinates.</p>
-                                </div>
-                            </a>
-
-                            <a href="guides.html" class="map-feature-card">
-                                <i class="fa-solid fa-book-atlas"></i>
-                                <div>
-                                    <h3>Survival Guides</h3>
-                                    <p>Learn routes, survival basics, and player strategies.</p>
-                                </div>
-                            </a>
-
-                            <a href="loot.html" class="map-feature-card">
-                                <i class="fa-solid fa-box-open"></i>
-                                <div>
-                                    <h3>Loot Database</h3>
-                                    <p>Browse loot tiers, locations, and useful spawn info.</p>
-                                </div>
-                            </a>
-
-                            <a href="weapons.html" class="map-feature-card">
-                                <i class="fa-solid fa-gun"></i>
-                                <div>
-                                    <h3>Weapon Stats</h3>
-                                    <p>Compare weapons, ammo types, and combat usefulness.</p>
-                                </div>
-                            </a>
-
-                        </section>
+                        </div>
                     </section>
 
-                    <aside class="map-sidebar-right" id="map-side-panel">
+                    <section class="map-feature-grid">
+                        <a href="map.html" class="map-feature-card card-map">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <div>
+                                <h3>Interactive Map</h3>
+                                <p>Explore Chernarus with layers, search, routes, and precise coordinates.</p>
+                            </div>
+                        </a>
 
-                        <section class="map-widget panel-view active" id="panel-layers">
-            
-                            <h3 class="section-title">Map Layers</h3>
+                        <a href="guides.html" class="map-feature-card card-guides">
+                            <i class="fa-solid fa-book-atlas"></i>
+                            <div>
+                                <h3>Survival Guides</h3>
+                                <p>Learn routes, survival fundamentals, and advanced player strategies.</p>
+                            </div>
+                        </a>
 
-                            <div class="layer-list" id="layer-list"></div>
+                        <a href="loot.html" class="map-feature-card card-loot">
+                            <i class="fa-solid fa-box-open"></i>
+                            <div>
+                                <h3>Loot Database</h3>
+                                <p>Browse loot tiers, locations, categories, and useful spawn information.</p>
+                            </div>
+                        </a>
 
-                            <hr class="sidebar-divider">
+                        <a href="weapons.html" class="map-feature-card card-weapons">
+                            <i class="fa-solid fa-gun"></i>
+                            <div>
+                                <h3>Weapon Stats</h3>
+                                <p>Compare weapons, ammunition types, damage, and combat usefulness.</p>
+                            </div>
+                        </a>
+                    </section>
+                </section>
 
-                            <h3 class="section-title">Display</h3>
-                            
-                            <div class="map-settings">
+                <aside class="map-sidebar-right" id="map-side-panel">
+
+                    <section class="map-widget panel-view active" id="panel-layers">
+                        <h3 class="section-title">Map Layers</h3>
+
+                        <div class="layer-list" id="layer-list"></div>
+
+                        <hr class="sidebar-divider">
+
+                        <h3 class="section-title">Display</h3>
+
+                        <div class="map-settings">
 
                             <label>
                                 City label size
-                                <input id="label-size-slider" type="range" min="0.7" max="1.6" step="0.1" value="1">
+                                <input
+                                    id="label-size-slider"
+                                    type="range"
+                                    min="0.7"
+                                    max="1.6"
+                                    step="0.1"
+                                    value="1"
+                                >
                             </label>
 
                             <label>
                                 Marker size
-                                <input id="marker-size-slider" type="range" min="0.7" max="1.8" step="0.1" value="1">
+                                <input
+                                    id="marker-size-slider"
+                                    type="range"
+                                    min="0.7"
+                                    max="1.8"
+                                    step="0.1"
+                                    value="1"
+                                >
                             </label>
+
+                            <label>
+                                Map brightness
+                                <input
+                                    id="map-brightness-slider"
+                                    type="range"
+                                    min="0.5"
+                                    max="1.25"
+                                    step="0.05"
+                                    value="0.72"
+                                >
+                            </label>
+
+                        </div>
+
+                        <hr class="sidebar-divider">
+
+                        <button id="reset-layers-btn" class="sidebar-action-btn">
+                            <i class="fa-solid fa-rotate-left"></i>
+                            Reset Layers
+                        </button>
+                    </section>
+
+                    <section class="map-widget panel-view panel-info" id="panel-info">
+                        <button id="close-info-panel" class="close-info-btn">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+
+                        <h3 id="info-title">Location</h3>
+                        <p id="info-type">Type</p>
+                        <p id="info-coords">Coordinates</p>
+                    </section>
+
+                    <section class="map-widget" id="recent-markers-widget">
+                        <h3 class="section-title">Recent Markers</h3>
+                        <div class="sidebar-mini-list" id="recent-markers-list"></div>
+                    </section>
+
+                    <section class="map-widget" id="weather-widget">
+                        <h3 class="section-title">Weather Forecast</h3>
+
+                        <div class="weather-placeholder">
+                            <div class="weather-icon">
+                                <i class="fa-solid fa-cloud-rain"></i>
                             </div>
 
-                              <hr class="sidebar-divider">
-
-                            <button id="reset-layers-btn" class="sidebar-action-btn">
-                                <i class="fa-solid fa-rotate-left"></i>
-                                Reset Layers
-                            </button>
-                            
-                        </section>
-
-                        <section class="map-widget panel-view panel-info" id="panel-info">
-                            <button id="close-info-panel" class="close-info-btn">
-                                <i class="fa-solid fa-arrow-left"></i>
-                            </button>
-
-                            <h3 id="info-title">Location</h3>
-                            <p id="info-type">Type</p>
-                            <p id="info-coords">Coordinates</p>
-                        </section>
-                        
-                        <section class="map-widget sidebar-widget" id="recent-markers-widget">
-                            <h3 class="section-title">Recent Markers</h3>
-
-                            <div class="sidebar-mini-list" id="recent-markers-list"></div>
-
-                        </section>
-
-                        <section class="map-widget sidebar-widget" id="weather-widget">
-                            <h3 class="section-title">Weather</h3>
-
-                            <div class="weather-placeholder">
-                                <div class="weather-icon">
-                                    <i class="fa-solid fa-cloud-sun"></i>
-                                </div>
-
-                                <div>
-                                    <strong>Chernarus Forecast</strong>
-                                    <span>Weather system coming soon.</span>
-                                </div>
+                            <div>
+                                <strong>Chernarus Forecast</strong>
+                                <span>Light rain · 12°C</span>
                             </div>
-                        </section>
+                        </div>
+                    </section>
 
-                    </aside>     
+                </aside>
             </section>
-        </main>
-  </div>
+        </section>
+            <footer class="atlas-footer">
+                <p>
+                    DZ-Atlas is a fan-made survival companion and is not affiliated
+                    with or endorsed by Bohemia Interactive.
+                </p>
+
+                <nav class="footer-links" aria-label="Footer">
+                    <a href="#">
+                        <i class="fa-brands fa-discord"></i>
+                        Contact
+                    </a>
+
+                    <a
+                        href="https://github.com/EdwinECF"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                        Support the Project
+                    </a>
+                </nav>
+            </footer>
+    </main>
+
+</div>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="../js/core/mapCore.js"></script>
 <script src="../js/utils/displayNameFormatter.js"></script>
