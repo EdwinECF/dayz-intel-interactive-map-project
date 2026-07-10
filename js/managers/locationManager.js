@@ -2,6 +2,7 @@
 
 window.LocationManager = function ({ map, atlasToMapCoords, infoPanel, crosshair }) {
     const locationLabels = [];
+    let labelsVisible = localStorage.getItem("dzAtlasCityLabelsVisible") !== "false";
 
     function loadLocations() {
         fetch("../data/locations.json")
@@ -49,10 +50,10 @@ window.LocationManager = function ({ map, atlasToMapCoords, infoPanel, crosshair
         const zoom = map.getZoom();
 
         locationLabels.forEach(item => {
-            const shouldShow =
+            const shouldShow = labelsVisible && (
                 item.size === "major" ||
                 (item.size === "medium" && zoom >= -4) ||
-                (item.size === "small" && zoom >= -2);
+                (item.size === "small" && zoom >= -2));
 
             if (shouldShow && !map.hasLayer(item.marker)) {
                 item.marker.addTo(map);
@@ -64,6 +65,14 @@ window.LocationManager = function ({ map, atlasToMapCoords, infoPanel, crosshair
         });
     }
 
+    function setLabelsVisible(isVisible) {
+        labelsVisible = Boolean(isVisible);
+        localStorage.setItem("dzAtlasCityLabelsVisible", String(labelsVisible));
+        updateVisibility();
+    }
+
+    function areLabelsVisible() { return labelsVisible; }
+
     function init() {
         loadLocations();
         map.on("zoomend", updateVisibility);
@@ -71,6 +80,8 @@ window.LocationManager = function ({ map, atlasToMapCoords, infoPanel, crosshair
 
     return {
         init,
-        updateVisibility
+        updateVisibility,
+        setLabelsVisible,
+        areLabelsVisible
     };
 };

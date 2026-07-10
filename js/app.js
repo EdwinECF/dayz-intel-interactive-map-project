@@ -272,6 +272,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     locationManager.init();
+
+    const toggleCityLabelsBtn = document.getElementById("toggle-city-labels-btn");
+    function syncCityLabelsButton() {
+        const visible = locationManager.areLabelsVisible?.() !== false;
+        toggleCityLabelsBtn?.classList.toggle("active", visible);
+        toggleCityLabelsBtn?.setAttribute("aria-pressed", String(visible));
+        const status = toggleCityLabelsBtn?.querySelector("small");
+        if (status) status.textContent = visible ? "Visible" : "Hidden";
+    }
+    toggleCityLabelsBtn?.addEventListener("click", () => {
+        const nextVisible = !(locationManager.areLabelsVisible?.() !== false);
+        locationManager.setLabelsVisible?.(nextVisible);
+        syncCityLabelsButton();
+    });
+    syncCityLabelsButton();
     // ======================================================
     // 5. Marker Manager
     // Creates Leaflet markers and marker icons.
