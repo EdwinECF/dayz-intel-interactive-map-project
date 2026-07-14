@@ -536,3 +536,34 @@ body::after {
     font-size: .74rem;
     font-weight: 500;
 }
+
+/* ======================================================
+   MAP HEADER OVERLAY FIX
+   Keeps global search results above the map and widgets.
+====================================================== */
+.header {
+    position: relative;
+    z-index: 8000;
+    overflow: visible;
+}
+
+.header-search {
+    z-index: 2;
+}
+
+.header-search .search-results {
+    z-index: 8100;
+    max-height: min(430px, calc(100vh - 120px));
+    overflow-y: auto;
+    padding: 6px;
+    border: 1px solid var(--atlas-border-strong);
+    border-radius: var(--atlas-radius-sm);
+    background: rgba(10, 14, 11, .98);
+    box-shadow: var(--atlas-shadow-deep);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+.header-search .search-results:empty {
+    display: none;
+}

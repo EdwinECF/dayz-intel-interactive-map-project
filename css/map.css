@@ -984,3 +984,49 @@
 .layer-button:active {
     transform: scale(.98);
 }
+
+/* ======================================================
+   FIXED MAP WORKSPACE + SCROLLING TOOLS PANEL
+   Expanding layer groups no longer resizes the map.
+====================================================== */
+@media (min-width: 981px) {
+    .content.map-page,
+    .map-page-layout,
+    .map-main-panel,
+    .map-sidebar-right {
+        min-height: 0;
+    }
+
+    .map-page-layout {
+        overflow: hidden;
+    }
+
+    .map-sidebar-right {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        align-content: start;
+        grid-template-rows: none;
+        grid-auto-rows: max-content;
+        padding-right: 3px;
+        overscroll-behavior: contain;
+    }
+
+    .map-sidebar-right > .map-widget {
+        min-height: auto;
+        overflow: visible;
+    }
+
+    #panel-layers {
+        overflow: visible;
+    }
+
+    #recent-markers-widget {
+        max-height: 280px;
+        overflow-y: auto;
+    }
+
+    .field-intel-widget {
+        overflow: hidden;
+    }
+}
