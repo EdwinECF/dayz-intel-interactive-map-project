@@ -874,12 +874,6 @@
         overflow-y: auto;
     }
 
-    .field-intel-widget {
-        flex: 0 0 auto;
-        min-height: 130px;
-        max-height: 175px;
-        overflow: hidden;
-    }
 }
 
 @media (min-width: 981px) and (max-height: 760px) {
@@ -894,8 +888,40 @@
         max-height: 150px;
     }
 
-    .field-intel-widget {
-        min-height: 112px;
-        max-height: 145px;
+}
+
+
+/* Field Intelligence now lives in the bottom feature row. */
+@media (min-width: 681px) and (max-width: 1180px) {
+    .field-intel-card .field-intel-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .field-intel-card .field-intel-primary {
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    .field-intel-card {
+        display: none;
+    }
+}
+
+
+/* Keep the expanded intelligence panel centered across two columns. */
+@media (min-width: 681px) {
+    .field-intel-card {
+        grid-column: 2 / span 2;
+    }
+}
+
+@media (min-width: 981px) and (max-width: 1180px) {
+    .field-intel-card .field-intel-primary {
+        display: flex;
+    }
+
+    .field-intel-card .field-intel-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }

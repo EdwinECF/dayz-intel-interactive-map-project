@@ -321,22 +321,6 @@
                     </section>
 
                     <section class="map-feature-grid">
-                        <a href="map.html" class="map-feature-card card-map">
-                            <i class="fa-solid fa-map-location-dot"></i>
-                            <div>
-                                <h3>Interactive Map</h3>
-                                <p>Explore Chernarus with layers, search, routes, and precise coordinates.</p>
-                            </div>
-                        </a>
-
-                        <a href="guides.html" class="map-feature-card card-guides">
-                            <i class="fa-solid fa-book-atlas"></i>
-                            <div>
-                                <h3>Survival Guides</h3>
-                                <p>Learn routes, survival fundamentals, and advanced player strategies.</p>
-                            </div>
-                        </a>
-
                         <a href="loot.html" class="map-feature-card card-loot">
                             <i class="fa-solid fa-box-open"></i>
                             <div>
@@ -344,6 +328,40 @@
                                 <p>Browse loot tiers, locations, categories, and useful spawn information.</p>
                             </div>
                         </a>
+
+                        <section class="map-feature-card field-intel-widget field-intel-card" id="field-intel-widget">
+                            <div class="field-intel-card-heading">
+                                <div>
+                                    <span class="atlas-kicker">Operational Readout</span>
+                                    <h3>Field Intelligence</h3>
+                                </div>
+                                <i class="fa-solid fa-binoculars"></i>
+                            </div>
+
+                            <div class="field-intel-primary">
+                                <span>Current grid</span>
+                                <strong id="field-grid-value">Move across the map</strong>
+                            </div>
+
+                            <div class="field-intel-grid">
+                                <div>
+                                    <span>Visible layers</span>
+                                    <strong id="field-layer-count">0</strong>
+                                </div>
+                                <div>
+                                    <span>Saved markers</span>
+                                    <strong id="field-marker-count">0</strong>
+                                </div>
+                                <div>
+                                    <span>Route mode</span>
+                                    <strong id="field-route-state">Standby</strong>
+                                </div>
+                                <div>
+                                    <span>Map display</span>
+                                    <strong id="field-brightness-value">72%</strong>
+                                </div>
+                            </div>
+                        </section>
 
                         <a href="weapons.html" class="map-feature-card card-weapons">
                             <i class="fa-solid fa-gun"></i>
@@ -430,7 +448,7 @@
                     </section>
 
                     <section class="map-widget panel-view panel-info" id="panel-info">
-                        <button id="close-info-panel" class="close-info-btn">
+                        <button id="close-info-panel" class="close-info-btn" type="button" aria-label="Back to map layers">
                             <i class="fa-solid fa-arrow-left"></i>
                         </button>
 
@@ -444,43 +462,6 @@
                         <div class="sidebar-mini-list" id="recent-markers-list"></div>
                     </section>
 
-                    <section class="map-widget field-intel-widget" id="field-intel-widget">
-                        <div class="widget-title-row">
-                            <div>
-                                <span class="atlas-kicker">Operational Readout</span>
-                                <h3 class="section-title">Field Intelligence</h3>
-                            </div>
-
-                            <i class="fa-solid fa-binoculars"></i>
-                        </div>
-
-                        <div class="field-intel-primary">
-                            <span>Current grid</span>
-                            <strong id="field-grid-value">Move across the map</strong>
-                        </div>
-
-                        <div class="field-intel-grid">
-                            <div>
-                                <span>Visible layers</span>
-                                <strong id="field-layer-count">0</strong>
-                            </div>
-
-                            <div>
-                                <span>Saved markers</span>
-                                <strong id="field-marker-count">0</strong>
-                            </div>
-
-                            <div>
-                                <span>Route mode</span>
-                                <strong id="field-route-state">Standby</strong>
-                            </div>
-
-                            <div>
-                                <span>Display</span>
-                                <strong id="field-brightness-value">72%</strong>
-                            </div>
-                        </div>
-                    </section>
 
                 </aside>
             </section>
