@@ -1030,3 +1030,142 @@
         overflow: hidden;
     }
 }
+
+
+/* ======================================================
+   FIELD INTELLIGENCE CARD + INFO BACK BUTTON
+====================================================== */
+.close-info-btn {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 14px;
+    display: inline-grid;
+    place-items: center;
+    border: 1px solid var(--atlas-border);
+    border-radius: var(--atlas-radius-sm);
+    background: rgba(7, 10, 8, .58);
+    color: var(--atlas-text-soft);
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.035);
+    transition: var(--atlas-transition);
+}
+
+.close-info-btn:hover {
+    color: var(--atlas-primary-bright);
+    border-color: var(--atlas-primary-border);
+    background: var(--atlas-primary-soft);
+    transform: translateX(-2px);
+}
+
+.close-info-btn:focus-visible {
+    outline: 2px solid var(--atlas-primary-border);
+    outline-offset: 2px;
+}
+
+.field-intel-card {
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 12px 13px;
+    cursor: default;
+}
+
+.field-intel-card:hover {
+    transform: none;
+}
+
+.field-intel-card-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.field-intel-card-heading h3 {
+    margin-top: 2px;
+    font-size: .92rem;
+    text-transform: uppercase;
+}
+
+.field-intel-card-heading > i {
+    position: static;
+    width: 32px;
+    height: 32px;
+    flex: 0 0 32px;
+}
+
+.field-intel-card .field-intel-primary {
+    margin-top: 8px;
+    padding: 7px 8px;
+}
+
+.field-intel-card .field-intel-primary span {
+    font-size: .49rem;
+}
+
+.field-intel-card .field-intel-primary strong {
+    margin-top: 2px;
+    font-size: .68rem;
+}
+
+.field-intel-card .field-intel-grid {
+    margin-top: 7px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 5px;
+}
+
+.field-intel-card .field-intel-grid > div {
+    min-width: 0;
+    padding: 5px 4px;
+}
+
+.field-intel-card .field-intel-grid span {
+    font-size: .43rem;
+}
+
+.field-intel-card .field-intel-grid strong {
+    margin-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .6rem;
+}
+
+
+/* ======================================================
+   CENTERED FIELD INTELLIGENCE
+   Occupies the two middle slots in the feature row.
+====================================================== */
+.field-intel-card {
+    grid-column: 2 / span 2;
+}
+
+.field-intel-card .field-intel-primary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 9px 11px;
+}
+
+.field-intel-card .field-intel-primary strong {
+    margin-top: 0;
+    font-size: .76rem;
+    text-align: right;
+}
+
+.field-intel-card .field-intel-grid {
+    gap: 8px;
+}
+
+.field-intel-card .field-intel-grid > div {
+    padding: 7px 8px;
+}
+
+.field-intel-card .field-intel-grid span {
+    font-size: .48rem;
+}
+
+.field-intel-card .field-intel-grid strong {
+    font-size: .68rem;
+}
