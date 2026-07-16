@@ -1,0 +1,250 @@
+{
+  "id": "contaminated_zones",
+  "slug": "contaminated-zones",
+  "title": "Contaminated Zones and PO-X Gas",
+  "category": "Hazards",
+  "difficulty": "Advanced",
+  "estimatedReadMinutes": 10,
+  "priority": "featured",
+  "summary": "How to recognize toxic zones, prepare protective equipment, and avoid fatal exposure.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Identify the zone type",
+      "body": "Some contaminated areas are persistent while others can appear dynamically.",
+      "id": "contaminated-zones-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Do not enter unprepared",
+      "body": "Ordinary clothing is not sufficient for sustained gas exposure.",
+      "id": "contaminated-zones-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Assemble complete protection",
+      "body": "Use the required protective suit components and functioning respiratory protection.",
+      "id": "contaminated-zones-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Track filter condition",
+      "body": "Respirator filters have limited useful life; carry enough capacity for entry and exit.",
+      "id": "contaminated-zones-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Plan a short route",
+      "body": "Know the target buildings, entry direction, and emergency exit before crossing into the zone.",
+      "id": "contaminated-zones-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Monitor symptoms and cuts",
+      "body": "Gas exposure can rapidly create severe medical problems.",
+      "id": "contaminated-zones-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Decontaminate and treat",
+      "body": "Leave the zone immediately when protection fails and use the correct medical response.",
+      "id": "contaminated-zones-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Store a complete protective set together.",
+    "Mark persistent zones and safe approach points in DZ-Atlas."
+  ],
+  "warnings": [
+    "Incomplete protection can be fatal.",
+    "Dynamic gas strikes can affect areas that were safe moments earlier."
+  ],
+  "relatedGuideIds": [
+    "disease_response",
+    "basic_medical_loadout",
+    "loot_economy_basics"
+  ],
+  "tags": [
+    "gas",
+    "PO-X",
+    "NBC",
+    "contaminated",
+    "hazmat"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_wiki_contaminated",
+    "dayz_update_129"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": true,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#9c8d45",
+    "icon": "fa-biohazard",
+    "coverImage": "../assets/guides/covers/contaminated-zones.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/contaminated-zones.webp",
+    "coverAlt": "DayZ scene illustrating Contaminated Zones and PO-X Gas",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 102,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Advanced",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "10 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Contaminated Zones and PO-X Gas | DZ-Atlas",
+    "description": "How to recognize toxic zones, prepare protective equipment, and avoid fatal exposure.",
+    "keywords": [
+      "gas",
+      "PO-X",
+      "NBC",
+      "contaminated",
+      "hazmat"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=contaminated-zones"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "contaminated-zones-step-1",
+      "title": "Identify the zone type",
+      "order": 1
+    },
+    {
+      "stepId": "contaminated-zones-step-2",
+      "title": "Do not enter unprepared",
+      "order": 2
+    },
+    {
+      "stepId": "contaminated-zones-step-3",
+      "title": "Assemble complete protection",
+      "order": 3
+    },
+    {
+      "stepId": "contaminated-zones-step-4",
+      "title": "Track filter condition",
+      "order": 4
+    },
+    {
+      "stepId": "contaminated-zones-step-5",
+      "title": "Plan a short route",
+      "order": 5
+    },
+    {
+      "stepId": "contaminated-zones-step-6",
+      "title": "Monitor symptoms and cuts",
+      "order": 6
+    },
+    {
+      "stepId": "contaminated-zones-step-7",
+      "title": "Decontaminate and treat",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "disease_response",
+      "basic_medical_loadout",
+      "loot_economy_basics"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

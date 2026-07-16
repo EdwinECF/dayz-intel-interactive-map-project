@@ -1,0 +1,232 @@
+{
+  "id": "inventory_management",
+  "slug": "inventory-management",
+  "title": "Inventory and Carry Weight",
+  "category": "Gear",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How to carry what matters without destroying stamina and organization.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Define your mission",
+      "body": "A coastal recovery kit, hunting trip, base-building run, and PvP patrol require different inventories.",
+      "id": "inventory-management-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Protect essentials",
+      "body": "Keep bandages, ammunition, navigation tools, and emergency food in predictable locations.",
+      "id": "inventory-management-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Remove dead weight",
+      "body": "Discard incompatible ammunition, duplicate low-value tools, and damaged items you cannot repair.",
+      "id": "inventory-management-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Use containers intentionally",
+      "body": "Organize medical, ammunition, fire-making, and repair supplies into separate containers when practical.",
+      "id": "inventory-management-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Watch stamina",
+      "body": "Heavy equipment reduces mobility and makes climbing, melee, and combat repositioning harder.",
+      "id": "inventory-management-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Reorganize in safety",
+      "body": "Do not spend several minutes sorting gear in a high-traffic building.",
+      "id": "inventory-management-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Reserve empty space for mission-critical loot.",
+    "Place frequently used items on the quick bar."
+  ],
+  "warnings": [
+    "Ruined containers may stop protecting or holding items properly depending on the item."
+  ],
+  "relatedGuideIds": [
+    "clothing_selection",
+    "ammo_and_magazines",
+    "looting_safely"
+  ],
+  "tags": [
+    "inventory",
+    "weight",
+    "stamina",
+    "storage",
+    "organization"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#678da8",
+    "icon": "fa-vest",
+    "coverImage": "../assets/guides/covers/inventory-management.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/inventory-management.webp",
+    "coverAlt": "DayZ scene illustrating Inventory and Carry Weight",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 88,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Inventory and Carry Weight | DZ-Atlas",
+    "description": "How to carry what matters without destroying stamina and organization.",
+    "keywords": [
+      "inventory",
+      "weight",
+      "stamina",
+      "storage",
+      "organization"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=inventory-management"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "inventory-management-step-1",
+      "title": "Define your mission",
+      "order": 1
+    },
+    {
+      "stepId": "inventory-management-step-2",
+      "title": "Protect essentials",
+      "order": 2
+    },
+    {
+      "stepId": "inventory-management-step-3",
+      "title": "Remove dead weight",
+      "order": 3
+    },
+    {
+      "stepId": "inventory-management-step-4",
+      "title": "Use containers intentionally",
+      "order": 4
+    },
+    {
+      "stepId": "inventory-management-step-5",
+      "title": "Watch stamina",
+      "order": 5
+    },
+    {
+      "stepId": "inventory-management-step-6",
+      "title": "Reorganize in safety",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "clothing_selection",
+      "ammo_and_magazines",
+      "looting_safely"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "bleeding_and_blood",
+  "slug": "bleeding-and-blood",
+  "title": "Bleeding, Blood Loss, and Recovery",
+  "category": "Medical",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How to stop cuts quickly, avoid infection, and recover from blood loss.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Move to immediate cover",
+      "body": "Break line of sight or close a door before treating cuts whenever possible.",
+      "id": "bleeding-and-blood-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Stop every active bleed",
+      "body": "Use a bandage or clean rag until no cut indicators remain.",
+      "id": "bleeding-and-blood-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Avoid unsafe bandaging",
+      "body": "Dirty materials can introduce wound infection. Disinfect questionable rags when possible.",
+      "id": "bleeding-and-blood-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Stabilize your condition",
+      "body": "After bleeding stops, avoid combat and heavy travel while blood and health recover.",
+      "id": "bleeding-and-blood-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Maintain food, water, and warmth",
+      "body": "Recovery is easier when the character is hydrated, fed, and protected from cold.",
+      "id": "bleeding-and-blood-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Use advanced treatment carefully",
+      "body": "Blood bags and related equipment require correct collection, storage, and compatibility.",
+      "id": "bleeding-and-blood-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Check for multiple cuts before leaving cover.",
+    "Repair damaged footwear and gloves to reduce preventable injuries."
+  ],
+  "warnings": [
+    "A single untreated cut can eventually become fatal.",
+    "Do not guess blood compatibility."
+  ],
+  "relatedGuideIds": [
+    "basic_medical_loadout",
+    "unconsciousness",
+    "disease_response"
+  ],
+  "tags": [
+    "bleeding",
+    "blood",
+    "cuts",
+    "bandage",
+    "recovery"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d95d5d",
+    "icon": "fa-kit-medical",
+    "coverImage": "../assets/guides/covers/bleeding-and-blood.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/bleeding-and-blood.webp",
+    "coverAlt": "DayZ scene illustrating Bleeding, Blood Loss, and Recovery",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 95,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Bleeding, Blood Loss, and Recovery | DZ-Atlas",
+    "description": "How to stop cuts quickly, avoid infection, and recover from blood loss.",
+    "keywords": [
+      "bleeding",
+      "blood",
+      "cuts",
+      "bandage",
+      "recovery"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=bleeding-and-blood"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "bleeding-and-blood-step-1",
+      "title": "Move to immediate cover",
+      "order": 1
+    },
+    {
+      "stepId": "bleeding-and-blood-step-2",
+      "title": "Stop every active bleed",
+      "order": 2
+    },
+    {
+      "stepId": "bleeding-and-blood-step-3",
+      "title": "Avoid unsafe bandaging",
+      "order": 3
+    },
+    {
+      "stepId": "bleeding-and-blood-step-4",
+      "title": "Stabilize your condition",
+      "order": 4
+    },
+    {
+      "stepId": "bleeding-and-blood-step-5",
+      "title": "Maintain food, water, and warmth",
+      "order": 5
+    },
+    {
+      "stepId": "bleeding-and-blood-step-6",
+      "title": "Use advanced treatment carefully",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "basic_medical_loadout",
+      "unconsciousness",
+      "disease_response"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "optics_and_zeroing",
+  "slug": "optics-and-zeroing",
+  "title": "Optics, Range, and Zeroing",
+  "category": "Weapons",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 8,
+  "priority": "standard",
+  "summary": "How to choose sights, estimate range, and avoid common aiming errors.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Confirm attachment compatibility",
+      "body": "Use the correct mount or optic for the weapon platform.",
+      "id": "optics-and-zeroing-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Choose the right sight",
+      "body": "Low magnification favors close engagements; higher magnification improves identification and precision at distance.",
+      "id": "optics-and-zeroing-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Estimate distance",
+      "body": "Use landmarks, map scale, terrain, and known object sizes to approximate range.",
+      "id": "optics-and-zeroing-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Set zeroing",
+      "body": "Adjust the sight for the estimated engagement distance when the optic supports it.",
+      "id": "optics-and-zeroing-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Control stability",
+      "body": "Manage stamina, stance, breathing, and weapon sway before taking a shot.",
+      "id": "optics-and-zeroing-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Observe impact",
+      "body": "When safe, use the result to refine range estimation instead of immediately firing repeatedly.",
+      "id": "optics-and-zeroing-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Do not use excessive magnification in dense urban areas.",
+    "Carry a backup close-range sight when your setup allows it."
+  ],
+  "warnings": [
+    "Scope glint is not the only way enemies detect a shooter; sound and silhouette matter more consistently."
+  ],
+  "relatedGuideIds": [
+    "weapon_readiness",
+    "sniping_and_overwatch",
+    "pvp_awareness"
+  ],
+  "tags": [
+    "optic",
+    "scope",
+    "zeroing",
+    "range",
+    "aiming"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#8a8f98",
+    "icon": "fa-gun",
+    "coverImage": "../assets/guides/covers/optics-and-zeroing.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/optics-and-zeroing.webp",
+    "coverAlt": "DayZ scene illustrating Optics, Range, and Zeroing",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 88,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Optics, Range, and Zeroing | DZ-Atlas",
+    "description": "How to choose sights, estimate range, and avoid common aiming errors.",
+    "keywords": [
+      "optic",
+      "scope",
+      "zeroing",
+      "range",
+      "aiming"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=optics-and-zeroing"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "optics-and-zeroing-step-1",
+      "title": "Confirm attachment compatibility",
+      "order": 1
+    },
+    {
+      "stepId": "optics-and-zeroing-step-2",
+      "title": "Choose the right sight",
+      "order": 2
+    },
+    {
+      "stepId": "optics-and-zeroing-step-3",
+      "title": "Estimate distance",
+      "order": 3
+    },
+    {
+      "stepId": "optics-and-zeroing-step-4",
+      "title": "Set zeroing",
+      "order": 4
+    },
+    {
+      "stepId": "optics-and-zeroing-step-5",
+      "title": "Control stability",
+      "order": 5
+    },
+    {
+      "stepId": "optics-and-zeroing-step-6",
+      "title": "Observe impact",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "weapon_readiness",
+      "sniping_and_overwatch",
+      "pvp_awareness"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

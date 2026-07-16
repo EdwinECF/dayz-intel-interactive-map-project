@@ -25,4 +25,52 @@
 <section class="card-grid library-card-grid" id="guides-container" aria-live="polite"></section>
 <div class="library-empty-state hidden" id="library-empty-state"><i class="fa-solid fa-radar"></i><h3>No matching records</h3><p>Try a different keyword or clear the active filter.</p><button type="button" id="reset-library-search">Reset search</button></div>
 </section><footer class="atlas-footer"><p>DZ-Atlas is a fan-made survival companion and is not affiliated with Bohemia Interactive.</p><a href="map.html">Return to map</a></footer></main></div>
+
+<!-- DZ-Atlas Guide Reader -->
+<section class="guide-reader" id="guide-reader" aria-hidden="true" aria-label="Guide reader">
+  <div class="guide-reader-backdrop" data-guide-close></div>
+
+  <article class="guide-reader-panel" role="dialog" aria-modal="true" aria-labelledby="guide-reader-title">
+    <div class="guide-reading-progress" aria-hidden="true">
+      <span id="guide-reading-progress-bar"></span>
+    </div>
+
+    <header class="guide-reader-toolbar">
+      <button class="guide-reader-back" id="guide-reader-close" type="button" data-guide-close>
+        <i class="fa-solid fa-arrow-left"></i>
+        <span>All Guides</span>
+      </button>
+
+      <div class="guide-reader-toolbar-actions">
+        <button id="guide-reader-share" type="button" aria-label="Copy guide link">
+          <i class="fa-solid fa-link"></i>
+        </button>
+        <button id="guide-reader-bookmark" type="button" aria-label="Bookmark guide" aria-pressed="false">
+          <i class="fa-regular fa-bookmark"></i>
+        </button>
+        <button class="guide-reader-close-icon" type="button" data-guide-close aria-label="Close guide">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="guide-reader-scroll" id="guide-reader-scroll">
+      <div class="guide-reader-loading" id="guide-reader-loading">
+        <span class="guide-loading-mark"><i class="fa-solid fa-book-open"></i></span>
+        <strong>Loading field guide</strong>
+        <small>Retrieving survival intelligence…</small>
+      </div>
+
+      <div class="guide-reader-error hidden" id="guide-reader-error">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <h2>Guide unavailable</h2>
+        <p>The guide file could not be loaded.</p>
+        <button type="button" data-guide-close>Return to Guides</button>
+      </div>
+
+      <div class="guide-reader-content hidden" id="guide-reader-content"></div>
+    </div>
+  </article>
+</section>
+
 <script src="../js/pages/pageShell.js"></script><script src="../js/pages/guides.js"></script></body></html>

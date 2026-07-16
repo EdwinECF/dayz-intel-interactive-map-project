@@ -1,0 +1,269 @@
+{
+  "id": "base_building_basics",
+  "slug": "base-building-basics",
+  "title": "Base Building Fundamentals",
+  "category": "Base Building",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 10,
+  "priority": "standard",
+  "summary": "A planning-first overview of building fences, gates, storage, and defensible compounds.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Select a realistic site",
+      "body": "Evaluate traffic, access, water, nearby resources, terrain, vehicle approach, and expansion space.",
+      "id": "base-building-basics-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Collect core tools",
+      "body": "Base construction typically requires several tool categories for cutting, digging, fastening, and assembly.",
+      "id": "base-building-basics-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Gather materials",
+      "body": "Transport logs, planks, nails, wire, and other required components in stages.",
+      "id": "base-building-basics-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Build the framework",
+      "body": "Create the valid kit and frame before adding full wall sections or upgrades.",
+      "id": "base-building-basics-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Create controlled access",
+      "body": "Convert an appropriate section into a gate and install locking equipment.",
+      "id": "base-building-basics-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Design against common attacks",
+      "body": "Avoid placing critical storage against vulnerable walls or obvious sight lines.",
+      "id": "base-building-basics-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Maintain and distribute",
+      "body": "Repair damage and avoid concentrating every resource in one room.",
+      "id": "base-building-basics-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 8,
+      "title": "Expect discovery",
+      "body": "Treat the base as a project and staging area, not permanent protection.",
+      "id": "base-building-basics-step-8",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Build a small functional base before expanding.",
+    "Keep construction tools hidden separately from the base."
+  ],
+  "warnings": [
+    "Community-server building rules may differ.",
+    "Exact recipes and destruction balance are version-sensitive."
+  ],
+  "relatedGuideIds": [
+    "improvised_shelter",
+    "buried_stashes",
+    "vehicle_basics"
+  ],
+  "tags": [
+    "base",
+    "fence",
+    "gate",
+    "nails",
+    "logs",
+    "storage"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#8e765d",
+    "icon": "fa-house",
+    "coverImage": "../assets/guides/covers/base-building-basics.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/base-building-basics.webp",
+    "coverAlt": "DayZ scene illustrating Base Building Fundamentals",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 117,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "10 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "8",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Base Building Fundamentals | DZ-Atlas",
+    "description": "A planning-first overview of building fences, gates, storage, and defensible compounds.",
+    "keywords": [
+      "base",
+      "fence",
+      "gate",
+      "nails",
+      "logs",
+      "storage"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=base-building-basics"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "base-building-basics-step-1",
+      "title": "Select a realistic site",
+      "order": 1
+    },
+    {
+      "stepId": "base-building-basics-step-2",
+      "title": "Collect core tools",
+      "order": 2
+    },
+    {
+      "stepId": "base-building-basics-step-3",
+      "title": "Gather materials",
+      "order": 3
+    },
+    {
+      "stepId": "base-building-basics-step-4",
+      "title": "Build the framework",
+      "order": 4
+    },
+    {
+      "stepId": "base-building-basics-step-5",
+      "title": "Create controlled access",
+      "order": 5
+    },
+    {
+      "stepId": "base-building-basics-step-6",
+      "title": "Design against common attacks",
+      "order": 6
+    },
+    {
+      "stepId": "base-building-basics-step-7",
+      "title": "Maintain and distribute",
+      "order": 7
+    },
+    {
+      "stepId": "base-building-basics-step-8",
+      "title": "Expect discovery",
+      "order": 8
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "improvised_shelter",
+      "buried_stashes",
+      "vehicle_basics"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

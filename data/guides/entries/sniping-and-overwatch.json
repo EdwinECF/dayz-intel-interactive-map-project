@@ -1,0 +1,250 @@
+{
+  "id": "sniping_and_overwatch",
+  "slug": "sniping-and-overwatch",
+  "title": "Overwatch and Long-Range Positioning",
+  "category": "Combat",
+  "difficulty": "Advanced",
+  "estimatedReadMinutes": 9,
+  "priority": "standard",
+  "summary": "How to observe an area from distance without becoming an obvious stationary target.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Choose a concealed approach",
+      "body": "Avoid walking directly onto the skyline or through the same open slope you intend to watch.",
+      "id": "sniping-and-overwatch-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Use offset positions",
+      "body": "The most obvious hill overlooking a town is often watched by other players.",
+      "id": "sniping-and-overwatch-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Maintain an escape route",
+      "body": "Know how you will move if spotted or flanked.",
+      "id": "sniping-and-overwatch-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Limit silhouette",
+      "body": "Stay below ridge lines and use terrain behind you to break your outline.",
+      "id": "sniping-and-overwatch-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Observe patterns",
+      "body": "Watch doors, infected behavior, smoke, and travel routes before focusing only on loot buildings.",
+      "id": "sniping-and-overwatch-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Fire selectively",
+      "body": "A missed or unnecessary shot reveals the position and may create a long search by other players.",
+      "id": "sniping-and-overwatch-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Relocate",
+      "body": "Move after firing or after being observed.",
+      "id": "sniping-and-overwatch-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Use a teammate in a separate position for security.",
+    "Keep enough stamina to reposition quickly."
+  ],
+  "warnings": [
+    "Trees and bushes are concealment, not dependable cover.",
+    "Popular overwatch hills are frequently counter-watched."
+  ],
+  "relatedGuideIds": [
+    "optics_and_zeroing",
+    "pvp_awareness",
+    "dynamic_events"
+  ],
+  "tags": [
+    "sniper",
+    "overwatch",
+    "long range",
+    "positioning",
+    "scope"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#bb5a4a",
+    "icon": "fa-crosshairs",
+    "coverImage": "../assets/guides/covers/sniping-and-overwatch.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/sniping-and-overwatch.webp",
+    "coverAlt": "DayZ scene illustrating Overwatch and Long-Range Positioning",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 107,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Advanced",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "9 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Overwatch and Long-Range Positioning | DZ-Atlas",
+    "description": "How to observe an area from distance without becoming an obvious stationary target.",
+    "keywords": [
+      "sniper",
+      "overwatch",
+      "long range",
+      "positioning",
+      "scope"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=sniping-and-overwatch"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "sniping-and-overwatch-step-1",
+      "title": "Choose a concealed approach",
+      "order": 1
+    },
+    {
+      "stepId": "sniping-and-overwatch-step-2",
+      "title": "Use offset positions",
+      "order": 2
+    },
+    {
+      "stepId": "sniping-and-overwatch-step-3",
+      "title": "Maintain an escape route",
+      "order": 3
+    },
+    {
+      "stepId": "sniping-and-overwatch-step-4",
+      "title": "Limit silhouette",
+      "order": 4
+    },
+    {
+      "stepId": "sniping-and-overwatch-step-5",
+      "title": "Observe patterns",
+      "order": 5
+    },
+    {
+      "stepId": "sniping-and-overwatch-step-6",
+      "title": "Fire selectively",
+      "order": 6
+    },
+    {
+      "stepId": "sniping-and-overwatch-step-7",
+      "title": "Relocate",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "optics_and_zeroing",
+      "pvp_awareness",
+      "dynamic_events"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

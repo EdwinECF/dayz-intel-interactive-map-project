@@ -1,0 +1,235 @@
+{
+  "id": "basic_medical_loadout",
+  "slug": "basic-medical-loadout",
+  "title": "Basic Medical Loadout",
+  "category": "Medical",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 6,
+  "priority": "featured",
+  "summary": "The small set of medical supplies that solves the most common early emergencies.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Carry clean bandaging",
+      "body": "Keep bandages or disinfected rags in a quick-access location.",
+      "id": "basic-medical-loadout-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Carry disinfection",
+      "body": "Use a suitable disinfectant for questionable rags or wound care when available.",
+      "id": "basic-medical-loadout-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Add blood support",
+      "body": "A blood collection kit, saline-related supplies, or compatible blood equipment can become useful for advanced group play.",
+      "id": "basic-medical-loadout-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Carry illness treatment selectively",
+      "body": "Choose medicine based on likely risks instead of filling the inventory with every medical item.",
+      "id": "basic-medical-loadout-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Protect supplies",
+      "body": "Keep critical medicine dry and avoid letting essential items reach ruined condition.",
+      "id": "basic-medical-loadout-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Know when not to fight",
+      "body": "Medication cannot compensate for repeated exposure, dehydration, starvation, or continued blood loss.",
+      "id": "basic-medical-loadout-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Split medical supplies between group members.",
+    "Keep one bandage outside nested containers for faster access."
+  ],
+  "warnings": [
+    "Incorrect blood transfusions can be dangerous.",
+    "Symptoms overlap; verify the likely cause before using scarce medication."
+  ],
+  "relatedGuideIds": [
+    "bleeding_and_blood",
+    "disease_prevention",
+    "disease_response",
+    "unconsciousness"
+  ],
+  "tags": [
+    "medical",
+    "bandage",
+    "medicine",
+    "blood",
+    "first aid"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": true,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d95d5d",
+    "icon": "fa-kit-medical",
+    "coverImage": "../assets/guides/covers/basic-medical-loadout.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/basic-medical-loadout.webp",
+    "coverAlt": "DayZ scene illustrating Basic Medical Loadout",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 96,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "6 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Basic Medical Loadout | DZ-Atlas",
+    "description": "The small set of medical supplies that solves the most common early emergencies.",
+    "keywords": [
+      "medical",
+      "bandage",
+      "medicine",
+      "blood",
+      "first aid"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=basic-medical-loadout"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "basic-medical-loadout-step-1",
+      "title": "Carry clean bandaging",
+      "order": 1
+    },
+    {
+      "stepId": "basic-medical-loadout-step-2",
+      "title": "Carry disinfection",
+      "order": 2
+    },
+    {
+      "stepId": "basic-medical-loadout-step-3",
+      "title": "Add blood support",
+      "order": 3
+    },
+    {
+      "stepId": "basic-medical-loadout-step-4",
+      "title": "Carry illness treatment selectively",
+      "order": 4
+    },
+    {
+      "stepId": "basic-medical-loadout-step-5",
+      "title": "Protect supplies",
+      "order": 5
+    },
+    {
+      "stepId": "basic-medical-loadout-step-6",
+      "title": "Know when not to fight",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "bleeding_and_blood",
+      "disease_prevention",
+      "disease_response",
+      "unconsciousness"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

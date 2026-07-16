@@ -1,0 +1,232 @@
+{
+  "id": "clothing_selection",
+  "slug": "clothing-selection",
+  "title": "Choosing Clothing and Backpacks",
+  "category": "Gear",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How to balance insulation, capacity, visibility, condition, and weight.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Match the environment",
+      "body": "Prioritize warmth and weather protection in cold regions and during long wilderness travel.",
+      "id": "clothing-selection-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Inspect condition",
+      "body": "Damaged clothing protects less reliably and may need repair soon.",
+      "id": "clothing-selection-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Balance storage and weight",
+      "body": "The largest backpack is not always the best choice if it destroys stamina or creates a large silhouette.",
+      "id": "clothing-selection-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Consider camouflage",
+      "body": "Color and profile matter, but movement and route selection remain more important.",
+      "id": "clothing-selection-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Protect hands and feet",
+      "body": "Gloves and durable footwear reduce common survival problems.",
+      "id": "clothing-selection-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Carry repair capability",
+      "body": "Choose the appropriate repair item for the clothing materials you rely on.",
+      "id": "clothing-selection-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Replace bright coastal clothing before entering high-risk areas.",
+    "Keep critical items out of clothing likely to be ruined first."
+  ],
+  "warnings": [
+    "Large backpacks are easier to see and may encourage overpacking."
+  ],
+  "relatedGuideIds": [
+    "temperature_and_weather",
+    "inventory_management",
+    "stealth_and_noise"
+  ],
+  "tags": [
+    "clothing",
+    "backpack",
+    "insulation",
+    "camouflage",
+    "shoes"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#678da8",
+    "icon": "fa-vest",
+    "coverImage": "../assets/guides/covers/clothing-selection.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/clothing-selection.webp",
+    "coverAlt": "DayZ scene illustrating Choosing Clothing and Backpacks",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 91,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Choosing Clothing and Backpacks | DZ-Atlas",
+    "description": "How to balance insulation, capacity, visibility, condition, and weight.",
+    "keywords": [
+      "clothing",
+      "backpack",
+      "insulation",
+      "camouflage",
+      "shoes"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=clothing-selection"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "clothing-selection-step-1",
+      "title": "Match the environment",
+      "order": 1
+    },
+    {
+      "stepId": "clothing-selection-step-2",
+      "title": "Inspect condition",
+      "order": 2
+    },
+    {
+      "stepId": "clothing-selection-step-3",
+      "title": "Balance storage and weight",
+      "order": 3
+    },
+    {
+      "stepId": "clothing-selection-step-4",
+      "title": "Consider camouflage",
+      "order": 4
+    },
+    {
+      "stepId": "clothing-selection-step-5",
+      "title": "Protect hands and feet",
+      "order": 5
+    },
+    {
+      "stepId": "clothing-selection-step-6",
+      "title": "Carry repair capability",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "temperature_and_weather",
+      "inventory_management",
+      "stealth_and_noise"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

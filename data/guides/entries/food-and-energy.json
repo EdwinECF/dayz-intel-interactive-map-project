@@ -1,0 +1,235 @@
+{
+  "id": "food_and_energy",
+  "slug": "food-and-energy",
+  "title": "Food, Energy, and Efficient Eating",
+  "category": "Survival",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How to manage hunger, choose food sources, and avoid wasting energy.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Understand the goal",
+      "body": "The visible food icon is only a warning interface, not a complete picture of stored energy. Build a reserve whenever safe food is available.",
+      "id": "food-and-energy-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Eat safe food first",
+      "body": "Prioritize food that is ready to eat and in good condition. Be cautious with unknown, rotten, burnt, or contaminated items.",
+      "id": "food-and-energy-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Use natural food sources",
+      "body": "Fishing, hunting, gardening, fruit, and mushrooms can support longer trips when town loot is unreliable.",
+      "id": "food-and-energy-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Cook meat thoroughly",
+      "body": "Prepare harvested meat with clean hands and cook it before eating. Store raw and cooked food separately.",
+      "id": "food-and-energy-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Match movement to supplies",
+      "body": "Sprinting, cold exposure, heavy loads, and recovery increase resource pressure. Slow down when reserves are low.",
+      "id": "food-and-energy-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Carry dense emergency food",
+      "body": "Keep one compact food item untouched for unexpected detours, injuries, or bad weather.",
+      "id": "food-and-energy-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Eat and drink in a concealed location.",
+    "Cooking several portions at once is more efficient than repeatedly building fires."
+  ],
+  "warnings": [
+    "Eating with bloody hands can cause illness.",
+    "Burned or unsafe food may harm your character."
+  ],
+  "relatedGuideIds": [
+    "hunting_and_butchering",
+    "fishing",
+    "cooking_fire",
+    "disease_prevention"
+  ],
+  "tags": [
+    "food",
+    "energy",
+    "hunger",
+    "cooking",
+    "nutrition"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d08a3c",
+    "icon": "fa-fire",
+    "coverImage": "../assets/guides/covers/food-and-energy.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/food-and-energy.webp",
+    "coverAlt": "DayZ scene illustrating Food, Energy, and Efficient Eating",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 127,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Food, Energy, and Efficient Eating | DZ-Atlas",
+    "description": "How to manage hunger, choose food sources, and avoid wasting energy.",
+    "keywords": [
+      "food",
+      "energy",
+      "hunger",
+      "cooking",
+      "nutrition"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=food-and-energy"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "food-and-energy-step-1",
+      "title": "Understand the goal",
+      "order": 1
+    },
+    {
+      "stepId": "food-and-energy-step-2",
+      "title": "Eat safe food first",
+      "order": 2
+    },
+    {
+      "stepId": "food-and-energy-step-3",
+      "title": "Use natural food sources",
+      "order": 3
+    },
+    {
+      "stepId": "food-and-energy-step-4",
+      "title": "Cook meat thoroughly",
+      "order": 4
+    },
+    {
+      "stepId": "food-and-energy-step-5",
+      "title": "Match movement to supplies",
+      "order": 5
+    },
+    {
+      "stepId": "food-and-energy-step-6",
+      "title": "Carry dense emergency food",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "hunting_and_butchering",
+      "fishing",
+      "cooking_fire",
+      "disease_prevention"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

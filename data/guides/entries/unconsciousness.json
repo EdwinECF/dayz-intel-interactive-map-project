@@ -1,0 +1,233 @@
+{
+  "id": "unconsciousness",
+  "slug": "unconsciousness",
+  "title": "Unconsciousness and Reviving Teammates",
+  "category": "Medical",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 6,
+  "priority": "standard",
+  "summary": "What to do when a survivor is knocked unconscious and how to avoid making the situation worse.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Secure the area",
+      "body": "Do not rush directly to the body while the attacker or infected remains active.",
+      "id": "unconsciousness-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Check breathing and bleeding",
+      "body": "Prioritize active cuts and obvious threats to survival.",
+      "id": "unconsciousness-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Remove immediate danger",
+      "body": "Move infected away, close doors, and create cover before extended treatment.",
+      "id": "unconsciousness-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Use appropriate aid",
+      "body": "Apply bandaging and suitable revival or stabilization items based on the situation.",
+      "id": "unconsciousness-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Protect the recovering player",
+      "body": "A revived survivor may be disoriented, weak, or unable to fight effectively.",
+      "id": "unconsciousness-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Redistribute essentials",
+      "body": "Give water, food, bandages, and a usable weapon only after the area is reasonably safe.",
+      "id": "unconsciousness-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Communicate before the player wakes so they do not panic.",
+    "Watch the body from cover instead of standing directly over it."
+  ],
+  "warnings": [
+    "Unconscious does not mean dead.",
+    "Attackers may use an unconscious player as bait."
+  ],
+  "relatedGuideIds": [
+    "bleeding_and_blood",
+    "basic_medical_loadout",
+    "group_combat"
+  ],
+  "tags": [
+    "unconscious",
+    "revive",
+    "teammate",
+    "shock",
+    "medical"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d95d5d",
+    "icon": "fa-kit-medical",
+    "coverImage": "../assets/guides/covers/unconsciousness.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/unconsciousness.webp",
+    "coverAlt": "DayZ scene illustrating Unconsciousness and Reviving Teammates",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 91,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "6 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Unconsciousness and Reviving Teammates | DZ-Atlas",
+    "description": "What to do when a survivor is knocked unconscious and how to avoid making the situation worse.",
+    "keywords": [
+      "unconscious",
+      "revive",
+      "teammate",
+      "shock",
+      "medical"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=unconsciousness"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "unconsciousness-step-1",
+      "title": "Secure the area",
+      "order": 1
+    },
+    {
+      "stepId": "unconsciousness-step-2",
+      "title": "Check breathing and bleeding",
+      "order": 2
+    },
+    {
+      "stepId": "unconsciousness-step-3",
+      "title": "Remove immediate danger",
+      "order": 3
+    },
+    {
+      "stepId": "unconsciousness-step-4",
+      "title": "Use appropriate aid",
+      "order": 4
+    },
+    {
+      "stepId": "unconsciousness-step-5",
+      "title": "Protect the recovering player",
+      "order": 5
+    },
+    {
+      "stepId": "unconsciousness-step-6",
+      "title": "Redistribute essentials",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "bleeding_and_blood",
+      "basic_medical_loadout",
+      "group_combat"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

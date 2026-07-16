@@ -1,0 +1,236 @@
+{
+  "id": "disease_prevention",
+  "slug": "disease-prevention",
+  "title": "Preventing Common Illnesses",
+  "category": "Medical",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 8,
+  "priority": "standard",
+  "summary": "Habits that prevent most disease problems before medication is needed.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Use safe water",
+      "body": "Drink from trusted pumps or properly purified natural sources.",
+      "id": "disease-prevention-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Wash bloody hands",
+      "body": "After preparing animals or handling contaminated material, clean your hands before eating or drinking.",
+      "id": "disease-prevention-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Stay warm and dry",
+      "body": "Cold, wet, and depleted characters are more vulnerable to illness.",
+      "id": "disease-prevention-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Avoid unsafe food",
+      "body": "Do not casually eat raw, rotten, burned, or otherwise questionable food.",
+      "id": "disease-prevention-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Separate shared supplies",
+      "body": "Do not share partially consumed food or containers with sick teammates unless you understand the contamination risk.",
+      "id": "disease-prevention-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Treat wounds correctly",
+      "body": "Use clean bandaging material and watch for symptoms after emergency treatment with questionable supplies.",
+      "id": "disease-prevention-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Prevention costs less inventory space than carrying medicine for every disease.",
+    "Observe the exact symptom pattern before deciding on treatment."
+  ],
+  "warnings": [
+    "Illness mechanics may overlap and can change between updates."
+  ],
+  "relatedGuideIds": [
+    "safe_water",
+    "food_and_energy",
+    "disease_response",
+    "basic_medical_loadout"
+  ],
+  "tags": [
+    "disease",
+    "cholera",
+    "salmonella",
+    "cold",
+    "infection",
+    "prevention"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d95d5d",
+    "icon": "fa-kit-medical",
+    "coverImage": "../assets/guides/covers/disease-prevention.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/disease-prevention.webp",
+    "coverAlt": "DayZ scene illustrating Preventing Common Illnesses",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 94,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Preventing Common Illnesses | DZ-Atlas",
+    "description": "Habits that prevent most disease problems before medication is needed.",
+    "keywords": [
+      "disease",
+      "cholera",
+      "salmonella",
+      "cold",
+      "infection",
+      "prevention"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=disease-prevention"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "disease-prevention-step-1",
+      "title": "Use safe water",
+      "order": 1
+    },
+    {
+      "stepId": "disease-prevention-step-2",
+      "title": "Wash bloody hands",
+      "order": 2
+    },
+    {
+      "stepId": "disease-prevention-step-3",
+      "title": "Stay warm and dry",
+      "order": 3
+    },
+    {
+      "stepId": "disease-prevention-step-4",
+      "title": "Avoid unsafe food",
+      "order": 4
+    },
+    {
+      "stepId": "disease-prevention-step-5",
+      "title": "Separate shared supplies",
+      "order": 5
+    },
+    {
+      "stepId": "disease-prevention-step-6",
+      "title": "Treat wounds correctly",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "safe_water",
+      "food_and_energy",
+      "disease_response",
+      "basic_medical_loadout"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

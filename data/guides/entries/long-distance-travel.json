@@ -1,0 +1,251 @@
+{
+  "id": "long_distance_travel",
+  "slug": "long-distance-travel",
+  "title": "Planning Long-Distance Travel",
+  "category": "Navigation",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 8,
+  "priority": "standard",
+  "summary": "How to prepare supplies, choose checkpoints, and move across the map without becoming lost or depleted.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Choose a realistic destination",
+      "body": "Base the route on your food, water, clothing, weapon, and medical condition.",
+      "id": "long-distance-travel-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Create checkpoints",
+      "body": "Use towns, road junctions, lakes, power lines, castles, and terrain features to confirm progress.",
+      "id": "long-distance-travel-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Plan water access",
+      "body": "Mark pumps or natural sources and carry purification capability if using surface water.",
+      "id": "long-distance-travel-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Carry a reserve",
+      "body": "Keep emergency food, bandaging, a cutting tool, and fire-making capability.",
+      "id": "long-distance-travel-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Avoid the straight-line trap",
+      "body": "The shortest path may cross exposed fields, steep terrain, military areas, or dense player routes.",
+      "id": "long-distance-travel-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Reconfirm after detours",
+      "body": "Storms, fights, and obstacles can shift your direction more than expected.",
+      "id": "long-distance-travel-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Arrive from cover",
+      "body": "Do not walk directly from open terrain into the center of the destination.",
+      "id": "long-distance-travel-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Use temporary route markers rather than one distant destination marker.",
+    "Travel lighter when speed and stamina matter."
+  ],
+  "warnings": [
+    "Long trips amplify small hydration, temperature, and navigation mistakes."
+  ],
+  "relatedGuideIds": [
+    "navigation_basics",
+    "safe_water",
+    "temperature_and_weather",
+    "meeting_friends"
+  ],
+  "tags": [
+    "travel",
+    "route",
+    "navigation",
+    "checkpoint",
+    "wilderness"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#5e92b8",
+    "icon": "fa-compass",
+    "coverImage": "../assets/guides/covers/long-distance-travel.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/long-distance-travel.webp",
+    "coverAlt": "DayZ scene illustrating Planning Long-Distance Travel",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 110,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Planning Long-Distance Travel | DZ-Atlas",
+    "description": "How to prepare supplies, choose checkpoints, and move across the map without becoming lost or depleted.",
+    "keywords": [
+      "travel",
+      "route",
+      "navigation",
+      "checkpoint",
+      "wilderness"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=long-distance-travel"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "long-distance-travel-step-1",
+      "title": "Choose a realistic destination",
+      "order": 1
+    },
+    {
+      "stepId": "long-distance-travel-step-2",
+      "title": "Create checkpoints",
+      "order": 2
+    },
+    {
+      "stepId": "long-distance-travel-step-3",
+      "title": "Plan water access",
+      "order": 3
+    },
+    {
+      "stepId": "long-distance-travel-step-4",
+      "title": "Carry a reserve",
+      "order": 4
+    },
+    {
+      "stepId": "long-distance-travel-step-5",
+      "title": "Avoid the straight-line trap",
+      "order": 5
+    },
+    {
+      "stepId": "long-distance-travel-step-6",
+      "title": "Reconfirm after detours",
+      "order": 6
+    },
+    {
+      "stepId": "long-distance-travel-step-7",
+      "title": "Arrive from cover",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "navigation_basics",
+      "safe_water",
+      "temperature_and_weather",
+      "meeting_friends"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

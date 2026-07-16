@@ -1,0 +1,249 @@
+{
+  "id": "fishing",
+  "slug": "fishing",
+  "title": "Fishing for Reliable Food",
+  "category": "Survival",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 8,
+  "priority": "standard",
+  "summary": "How to assemble fishing equipment and turn water access into a renewable food source.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Obtain a fishing setup",
+      "body": "Use a found fishing rod or craft a suitable improvised setup from current valid components.",
+      "id": "fishing-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Prepare a hook",
+      "body": "Use a fishing hook or craft an improvised hook when the current version allows it.",
+      "id": "fishing-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Find bait",
+      "body": "Dig for worms with an appropriate tool and attach bait to the hook.",
+      "id": "fishing-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Choose water",
+      "body": "Fish at a suitable pond, river, lake, or coastline location.",
+      "id": "fishing-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Cast and monitor",
+      "body": "Use the fishing action and respond when a catch is indicated.",
+      "id": "fishing-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Prepare the catch",
+      "body": "Use a cutting tool, clean your hands, and cook the fish before eating.",
+      "id": "fishing-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Repeat efficiently",
+      "body": "Carry spare hooks or materials because fishing components can wear or be lost.",
+      "id": "fishing-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Fishing can support wilderness routes with fewer town visits.",
+    "Choose a concealed shoreline rather than an exposed dock."
+  ],
+  "warnings": [
+    "Exact improvised recipes can change; verify against the current game version."
+  ],
+  "relatedGuideIds": [
+    "cooking_fire",
+    "food_and_energy",
+    "safe_water"
+  ],
+  "tags": [
+    "fishing",
+    "fish",
+    "hook",
+    "worm",
+    "food"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d08a3c",
+    "icon": "fa-fire",
+    "coverImage": "../assets/guides/covers/fishing.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/fishing.webp",
+    "coverAlt": "DayZ scene illustrating Fishing for Reliable Food",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 109,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Fishing for Reliable Food | DZ-Atlas",
+    "description": "How to assemble fishing equipment and turn water access into a renewable food source.",
+    "keywords": [
+      "fishing",
+      "fish",
+      "hook",
+      "worm",
+      "food"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=fishing"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "fishing-step-1",
+      "title": "Obtain a fishing setup",
+      "order": 1
+    },
+    {
+      "stepId": "fishing-step-2",
+      "title": "Prepare a hook",
+      "order": 2
+    },
+    {
+      "stepId": "fishing-step-3",
+      "title": "Find bait",
+      "order": 3
+    },
+    {
+      "stepId": "fishing-step-4",
+      "title": "Choose water",
+      "order": 4
+    },
+    {
+      "stepId": "fishing-step-5",
+      "title": "Cast and monitor",
+      "order": 5
+    },
+    {
+      "stepId": "fishing-step-6",
+      "title": "Prepare the catch",
+      "order": 6
+    },
+    {
+      "stepId": "fishing-step-7",
+      "title": "Repeat efficiently",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "cooking_fire",
+      "food_and_energy",
+      "safe_water"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

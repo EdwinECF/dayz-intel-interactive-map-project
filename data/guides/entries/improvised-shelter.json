@@ -1,0 +1,250 @@
+{
+  "id": "improvised_shelter",
+  "slug": "improvised-shelter",
+  "title": "Improvised Shelters and Camps",
+  "category": "Base Building",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 8,
+  "priority": "standard",
+  "summary": "How to choose a temporary camp and reduce the chance that it is discovered.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Choose purpose over comfort",
+      "body": "Decide whether the site is for emergency shelter, storage, cooking, regrouping, or long-term staging.",
+      "id": "improvised-shelter-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Avoid obvious locations",
+      "body": "Do not place camps directly beside roads, wells, military routes, map edges, or highly recognizable landmarks.",
+      "id": "improvised-shelter-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Use terrain",
+      "body": "Depressions, dense vegetation, uneven ground, and indirect approaches reduce visibility.",
+      "id": "improvised-shelter-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Build only what you need",
+      "body": "Large camps create more evidence and require more maintenance.",
+      "id": "improvised-shelter-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Separate storage",
+      "body": "Do not place every valuable item in one container or one exact location.",
+      "id": "improvised-shelter-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Control activity",
+      "body": "Repeated fires, tree cutting, vehicle movement, and straight trails reveal camps.",
+      "id": "improvised-shelter-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Plan abandonment",
+      "body": "Assume every camp will eventually be found and avoid storing anything you cannot afford to lose.",
+      "id": "improvised-shelter-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Approach from different directions.",
+    "Keep a fallback cache away from the main shelter."
+  ],
+  "warnings": [
+    "No base or hidden stash is permanently secure.",
+    "Persistence varies by item and server."
+  ],
+  "relatedGuideIds": [
+    "base_building_basics",
+    "buried_stashes",
+    "cooking_fire"
+  ],
+  "tags": [
+    "shelter",
+    "camp",
+    "storage",
+    "hidden base",
+    "wilderness"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#8e765d",
+    "icon": "fa-house",
+    "coverImage": "../assets/guides/covers/improvised-shelter.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/improvised-shelter.webp",
+    "coverAlt": "DayZ scene illustrating Improvised Shelters and Camps",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 109,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Improvised Shelters and Camps | DZ-Atlas",
+    "description": "How to choose a temporary camp and reduce the chance that it is discovered.",
+    "keywords": [
+      "shelter",
+      "camp",
+      "storage",
+      "hidden base",
+      "wilderness"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=improvised-shelter"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "improvised-shelter-step-1",
+      "title": "Choose purpose over comfort",
+      "order": 1
+    },
+    {
+      "stepId": "improvised-shelter-step-2",
+      "title": "Avoid obvious locations",
+      "order": 2
+    },
+    {
+      "stepId": "improvised-shelter-step-3",
+      "title": "Use terrain",
+      "order": 3
+    },
+    {
+      "stepId": "improvised-shelter-step-4",
+      "title": "Build only what you need",
+      "order": 4
+    },
+    {
+      "stepId": "improvised-shelter-step-5",
+      "title": "Separate storage",
+      "order": 5
+    },
+    {
+      "stepId": "improvised-shelter-step-6",
+      "title": "Control activity",
+      "order": 6
+    },
+    {
+      "stepId": "improvised-shelter-step-7",
+      "title": "Plan abandonment",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "base_building_basics",
+      "buried_stashes",
+      "cooking_fire"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "id": "sakhal_survival",
+  "slug": "sakhal-survival",
+  "title": "Sakhal Cold-Weather Survival",
+  "category": "Map Guides",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 10,
+  "priority": "standard",
+  "summary": "A cold-focused survival workflow for the Sakhal environment.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Treat warmth as a primary resource",
+      "body": "On Sakhal, fire-making and insulated clothing should be prioritized alongside food and water.",
+      "id": "sakhal-survival-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Gather fire materials early",
+      "body": "Carry ignition, kindling, and fuel before leaving reliable shelter.",
+      "id": "sakhal-survival-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Use heat stops",
+      "body": "Plan movement between buildings, caves, or other viable warming locations.",
+      "id": "sakhal-survival-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Keep clothing dry",
+      "body": "Avoid unnecessary water exposure and manage wet clothing as soon as practical.",
+      "id": "sakhal-survival-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Secure sustainable food",
+      "body": "Fishing, hunting, and cooking become important when long urban loot routes are inefficient.",
+      "id": "sakhal-survival-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Watch fuel and visibility",
+      "body": "Frequent fires are necessary but can reveal your route.",
+      "id": "sakhal-survival-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Travel with redundancy",
+      "body": "Carry backup ignition and enough supplies to survive an unexpected detour.",
+      "id": "sakhal-survival-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Create DZ-Atlas route presets between reliable heat and resource locations.",
+    "Do not leave shelter merely because the visible food icon looks acceptable."
+  ],
+  "warnings": [
+    "Cold compounds the danger of low energy, wetness, and injury.",
+    "Map-specific mechanics should be rechecked after major updates."
+  ],
+  "relatedGuideIds": [
+    "temperature_and_weather",
+    "cooking_fire",
+    "fishing",
+    "long_distance_travel"
+  ],
+  "tags": [
+    "Sakhal",
+    "Frostline",
+    "cold",
+    "heat",
+    "snow"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#567a9c",
+    "icon": "fa-map",
+    "coverImage": "../assets/guides/covers/sakhal-survival.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/sakhal-survival.webp",
+    "coverAlt": "DayZ scene illustrating Sakhal Cold-Weather Survival",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 103,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "10 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Sakhal Cold-Weather Survival | DZ-Atlas",
+    "description": "A cold-focused survival workflow for the Sakhal environment.",
+    "keywords": [
+      "Sakhal",
+      "Frostline",
+      "cold",
+      "heat",
+      "snow"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=sakhal-survival"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "sakhal-survival-step-1",
+      "title": "Treat warmth as a primary resource",
+      "order": 1
+    },
+    {
+      "stepId": "sakhal-survival-step-2",
+      "title": "Gather fire materials early",
+      "order": 2
+    },
+    {
+      "stepId": "sakhal-survival-step-3",
+      "title": "Use heat stops",
+      "order": 3
+    },
+    {
+      "stepId": "sakhal-survival-step-4",
+      "title": "Keep clothing dry",
+      "order": 4
+    },
+    {
+      "stepId": "sakhal-survival-step-5",
+      "title": "Secure sustainable food",
+      "order": 5
+    },
+    {
+      "stepId": "sakhal-survival-step-6",
+      "title": "Watch fuel and visibility",
+      "order": 6
+    },
+    {
+      "stepId": "sakhal-survival-step-7",
+      "title": "Travel with redundancy",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "temperature_and_weather",
+      "cooking_fire",
+      "fishing",
+      "long_distance_travel"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

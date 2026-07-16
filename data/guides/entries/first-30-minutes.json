@@ -1,0 +1,256 @@
+{
+  "id": "first_30_minutes",
+  "slug": "first-30-minutes",
+  "title": "Your First 30 Minutes",
+  "category": "Getting Started",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 6,
+  "priority": "featured",
+  "summary": "A reliable opening route for stabilizing a fresh character before traveling inland.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Check your starting condition",
+      "body": "Identify your food, water, temperature, blood, and health status before sprinting away. Avoid wasting energy when your food and hydration are already low.",
+      "id": "first-30-minutes-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Orient yourself",
+      "body": "Use the coastline, road signs, railway lines, major terrain features, and the direction of the sun to estimate your position. DZ-Atlas can confirm the town once you find a sign.",
+      "id": "first-30-minutes-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Find a cutting tool",
+      "body": "Prioritize a knife or any tool that can cut. A cutting tool unlocks rags, bark, kindling, animal preparation, and many early survival actions.",
+      "id": "first-30-minutes-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Secure clean water",
+      "body": "Drink from a water pump when possible. Empty suspicious containers before refilling them with known clean water.",
+      "id": "first-30-minutes-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Collect basic food",
+      "body": "Search houses, greenhouses, small shops, infected, fruit trees, boats, and nearby utility buildings. Eat enough to stabilize, but keep moving.",
+      "id": "first-30-minutes-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Build a basic medical reserve",
+      "body": "Carry disinfected bandages or clean rags and keep them accessible. One additional bandage can save a run after multiple cuts.",
+      "id": "first-30-minutes-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Leave the coast deliberately",
+      "body": "Once stable, choose a destination with a reason: a clinic, police station, hunting area, military route, or meeting point.",
+      "id": "first-30-minutes-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Jogging usually preserves more energy than sprinting everywhere.",
+    "Listen before entering buildings; infected and players often reveal themselves through sound.",
+    "A quiet town is not necessarily an empty town."
+  ],
+  "warnings": [
+    "Drinking untreated surface water can cause illness.",
+    "Do not eat with bloody hands after preparing an animal.",
+    "Fresh-spawn areas are often more dangerous because players repeatedly pass through them."
+  ],
+  "relatedGuideIds": [
+    "navigation_basics",
+    "safe_water",
+    "early_game_loot_route",
+    "basic_medical_loadout"
+  ],
+  "tags": [
+    "fresh spawn",
+    "beginner",
+    "coast",
+    "food",
+    "water",
+    "knife"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": true,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#72a85a",
+    "icon": "fa-person-running",
+    "coverImage": "../assets/guides/covers/first-30-minutes.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/first-30-minutes.webp",
+    "coverAlt": "DayZ scene illustrating Your First 30 Minutes",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 177,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "6 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Your First 30 Minutes | DZ-Atlas",
+    "description": "A reliable opening route for stabilizing a fresh character before traveling inland.",
+    "keywords": [
+      "fresh spawn",
+      "beginner",
+      "coast",
+      "food",
+      "water",
+      "knife"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=first-30-minutes"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "first-30-minutes-step-1",
+      "title": "Check your starting condition",
+      "order": 1
+    },
+    {
+      "stepId": "first-30-minutes-step-2",
+      "title": "Orient yourself",
+      "order": 2
+    },
+    {
+      "stepId": "first-30-minutes-step-3",
+      "title": "Find a cutting tool",
+      "order": 3
+    },
+    {
+      "stepId": "first-30-minutes-step-4",
+      "title": "Secure clean water",
+      "order": 4
+    },
+    {
+      "stepId": "first-30-minutes-step-5",
+      "title": "Collect basic food",
+      "order": 5
+    },
+    {
+      "stepId": "first-30-minutes-step-6",
+      "title": "Build a basic medical reserve",
+      "order": 6
+    },
+    {
+      "stepId": "first-30-minutes-step-7",
+      "title": "Leave the coast deliberately",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "navigation_basics",
+      "safe_water",
+      "early_game_loot_route",
+      "basic_medical_loadout"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

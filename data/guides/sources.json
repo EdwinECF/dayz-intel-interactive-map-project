@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "sources",
+  "sources": [
+    {
+      "id": "dayz_official_tips",
+      "title": "9 Survival Tips for New DayZ Players",
+      "publisher": "Bohemia Interactive",
+      "url": "https://dayz.com/article/general/9-tips-for-new-dayz-players",
+      "type": "official"
+    },
+    {
+      "id": "dayz_update_129",
+      "title": "DayZ Update 1.29",
+      "publisher": "Bohemia Interactive",
+      "url": "https://dayz.com/article/game-update/DayZ-Update-129",
+      "type": "official"
+    },
+    {
+      "id": "dayz_wiki_survival",
+      "title": "Survival",
+      "publisher": "DayZ Wiki",
+      "url": "https://dayz.fandom.com/wiki/Survival",
+      "type": "community-wiki"
+    },
+    {
+      "id": "dayz_wiki_primary",
+      "title": "DayZ Wiki Primary Links",
+      "publisher": "DayZ Wiki",
+      "url": "https://dayz.fandom.com/wiki/DayZ_Wiki/Primary_links",
+      "type": "community-wiki"
+    },
+    {
+      "id": "dayz_wiki_loot",
+      "title": "Loot",
+      "publisher": "DayZ Wiki",
+      "url": "https://dayz.fandom.com/wiki/Loot",
+      "type": "community-wiki"
+    },
+    {
+      "id": "dayz_wiki_resources",
+      "title": "Resources",
+      "publisher": "DayZ Wiki",
+      "url": "https://dayz.fandom.com/wiki/Resources",
+      "type": "community-wiki"
+    },
+    {
+      "id": "dayz_wiki_contaminated",
+      "title": "Contaminated Zone",
+      "publisher": "DayZ Wiki",
+      "url": "https://dayz.fandom.com/wiki/Contaminated_Zone",
+      "type": "community-wiki"
+    }
+  ]
+}

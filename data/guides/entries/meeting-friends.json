@@ -1,0 +1,249 @@
+{
+  "id": "meeting_friends",
+  "slug": "meeting-friends",
+  "title": "Meeting Friends After Spawning",
+  "category": "Navigation",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "A simple method for identifying both players' locations and selecting a safe meeting point.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Identify each spawn",
+      "body": "Each player should find a town sign or unmistakable landmark.",
+      "id": "meeting-friends-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Confirm map positions",
+      "body": "Search both locations in DZ-Atlas and estimate travel time and risk.",
+      "id": "meeting-friends-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Choose the stronger player to move farther",
+      "body": "The person with better food, water, clothing, and navigation should usually handle the harder route.",
+      "id": "meeting-friends-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Select an indirect meeting point",
+      "body": "Avoid water pumps, police stations, and central squares when possible.",
+      "id": "meeting-friends-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Describe appearance",
+      "body": "Share clothing, backpack, armband, and held-item details to prevent mistaken identity.",
+      "id": "meeting-friends-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Use a final approach call",
+      "body": "Announce direction and nearby landmarks before entering visual range.",
+      "id": "meeting-friends-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Have a fallback point",
+      "body": "Choose a second location if one player is chased or the area becomes unsafe.",
+      "id": "meeting-friends-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Meet outside town, then loot together.",
+    "Use a temporary shared marker without revealing private base locations."
+  ],
+  "warnings": [
+    "Calling out exact positions in public voice chat can expose both players."
+  ],
+  "relatedGuideIds": [
+    "navigation_basics",
+    "long_distance_travel",
+    "group_combat"
+  ],
+  "tags": [
+    "friends",
+    "meet",
+    "spawn",
+    "group",
+    "navigation"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#5e92b8",
+    "icon": "fa-compass",
+    "coverImage": "../assets/guides/covers/meeting-friends.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/meeting-friends.webp",
+    "coverAlt": "DayZ scene illustrating Meeting Friends After Spawning",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 109,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Meeting Friends After Spawning | DZ-Atlas",
+    "description": "A simple method for identifying both players' locations and selecting a safe meeting point.",
+    "keywords": [
+      "friends",
+      "meet",
+      "spawn",
+      "group",
+      "navigation"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=meeting-friends"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "meeting-friends-step-1",
+      "title": "Identify each spawn",
+      "order": 1
+    },
+    {
+      "stepId": "meeting-friends-step-2",
+      "title": "Confirm map positions",
+      "order": 2
+    },
+    {
+      "stepId": "meeting-friends-step-3",
+      "title": "Choose the stronger player to move farther",
+      "order": 3
+    },
+    {
+      "stepId": "meeting-friends-step-4",
+      "title": "Select an indirect meeting point",
+      "order": 4
+    },
+    {
+      "stepId": "meeting-friends-step-5",
+      "title": "Describe appearance",
+      "order": 5
+    },
+    {
+      "stepId": "meeting-friends-step-6",
+      "title": "Use a final approach call",
+      "order": 6
+    },
+    {
+      "stepId": "meeting-friends-step-7",
+      "title": "Have a fallback point",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "navigation_basics",
+      "long_distance_travel",
+      "group_combat"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

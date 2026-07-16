@@ -1,0 +1,230 @@
+{
+  "id": "early_game_loot_route",
+  "slug": "early-game-loot-route",
+  "title": "Building an Early-Game Loot Route",
+  "category": "Looting",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How to create a purposeful route instead of searching every building randomly.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Define immediate needs",
+      "body": "Usually prioritize water, cutting tools, food, bandaging, warmer clothing, and a basic weapon.",
+      "id": "early-game-loot-route-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Target matching buildings",
+      "body": "Use residential buildings for general supplies, clinics for medical items, police locations for early weapons, and industrial areas for tools.",
+      "id": "early-game-loot-route-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Avoid over-looted centers",
+      "body": "Search the edges of settlements, sheds, greenhouses, hunting structures, and small utility buildings.",
+      "id": "early-game-loot-route-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Finish at an exit point",
+      "body": "End the route near the road, trail, or forest line leading to your next destination.",
+      "id": "early-game-loot-route-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Do not backtrack unnecessarily",
+      "body": "Repeatedly crossing the same street increases exposure without adding much loot.",
+      "id": "early-game-loot-route-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Adapt to evidence",
+      "body": "If every door is open and infected are absent or agitated, consider leaving instead of forcing the route.",
+      "id": "early-game-loot-route-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "A short route with a clear goal is better than clearing an entire large city.",
+    "Use map markers for your next two destinations, not ten."
+  ],
+  "warnings": [
+    "Police and military buildings attract players even when the loot is poor."
+  ],
+  "relatedGuideIds": [
+    "first_30_minutes",
+    "looting_safely",
+    "loot_economy_basics"
+  ],
+  "tags": [
+    "loot route",
+    "fresh spawn",
+    "buildings",
+    "town"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#c89b45",
+    "icon": "fa-box-open",
+    "coverImage": "../assets/guides/covers/early-game-loot-route.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/early-game-loot-route.webp",
+    "coverAlt": "DayZ scene illustrating Building an Early-Game Loot Route",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 111,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Building an Early-Game Loot Route | DZ-Atlas",
+    "description": "How to create a purposeful route instead of searching every building randomly.",
+    "keywords": [
+      "loot route",
+      "fresh spawn",
+      "buildings",
+      "town"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=early-game-loot-route"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "early-game-loot-route-step-1",
+      "title": "Define immediate needs",
+      "order": 1
+    },
+    {
+      "stepId": "early-game-loot-route-step-2",
+      "title": "Target matching buildings",
+      "order": 2
+    },
+    {
+      "stepId": "early-game-loot-route-step-3",
+      "title": "Avoid over-looted centers",
+      "order": 3
+    },
+    {
+      "stepId": "early-game-loot-route-step-4",
+      "title": "Finish at an exit point",
+      "order": 4
+    },
+    {
+      "stepId": "early-game-loot-route-step-5",
+      "title": "Do not backtrack unnecessarily",
+      "order": 5
+    },
+    {
+      "stepId": "early-game-loot-route-step-6",
+      "title": "Adapt to evidence",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "first_30_minutes",
+      "looting_safely",
+      "loot_economy_basics"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

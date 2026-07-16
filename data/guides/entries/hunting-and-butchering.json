@@ -1,0 +1,250 @@
+{
+  "id": "hunting_and_butchering",
+  "slug": "hunting-and-butchering",
+  "title": "Hunting and Butchering Animals",
+  "category": "Survival",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 9,
+  "priority": "standard",
+  "summary": "How to locate animals, make a clean kill, prepare meat, and avoid contamination.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Listen for animal calls",
+      "body": "Use sound to determine species and approximate direction before moving closer.",
+      "id": "hunting-and-butchering-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Approach with the wind and terrain in mind",
+      "body": "Avoid unnecessary noise and use cover to reach a practical shooting distance.",
+      "id": "hunting-and-butchering-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Choose a suitable weapon",
+      "body": "Use enough power for a clean kill without wasting excessive ammunition.",
+      "id": "hunting-and-butchering-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Secure the area",
+      "body": "The shot may attract infected or players. Observe before approaching the carcass.",
+      "id": "hunting-and-butchering-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Use a cutting tool",
+      "body": "Skin and quarter the animal with a suitable blade.",
+      "id": "hunting-and-butchering-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Clean your hands",
+      "body": "Wash bloody hands or use gloves before eating or drinking.",
+      "id": "hunting-and-butchering-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Cook and store safely",
+      "body": "Cook meat thoroughly and separate raw items from ready-to-eat food.",
+      "id": "hunting-and-butchering-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Animal fat and additional harvested materials may be valuable depending on current mechanics.",
+    "Hunting areas are quieter than cities but not automatically safe."
+  ],
+  "warnings": [
+    "Gunshots reveal your location.",
+    "Eating with bloody hands can cause illness."
+  ],
+  "relatedGuideIds": [
+    "cooking_fire",
+    "food_and_energy",
+    "disease_prevention"
+  ],
+  "tags": [
+    "hunting",
+    "animals",
+    "butchering",
+    "meat",
+    "knife"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d08a3c",
+    "icon": "fa-fire",
+    "coverImage": "../assets/guides/covers/hunting-and-butchering.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/hunting-and-butchering.webp",
+    "coverAlt": "DayZ scene illustrating Hunting and Butchering Animals",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 105,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "9 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Hunting and Butchering Animals | DZ-Atlas",
+    "description": "How to locate animals, make a clean kill, prepare meat, and avoid contamination.",
+    "keywords": [
+      "hunting",
+      "animals",
+      "butchering",
+      "meat",
+      "knife"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=hunting-and-butchering"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "hunting-and-butchering-step-1",
+      "title": "Listen for animal calls",
+      "order": 1
+    },
+    {
+      "stepId": "hunting-and-butchering-step-2",
+      "title": "Approach with the wind and terrain in mind",
+      "order": 2
+    },
+    {
+      "stepId": "hunting-and-butchering-step-3",
+      "title": "Choose a suitable weapon",
+      "order": 3
+    },
+    {
+      "stepId": "hunting-and-butchering-step-4",
+      "title": "Secure the area",
+      "order": 4
+    },
+    {
+      "stepId": "hunting-and-butchering-step-5",
+      "title": "Use a cutting tool",
+      "order": 5
+    },
+    {
+      "stepId": "hunting-and-butchering-step-6",
+      "title": "Clean your hands",
+      "order": 6
+    },
+    {
+      "stepId": "hunting-and-butchering-step-7",
+      "title": "Cook and store safely",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "cooking_fire",
+      "food_and_energy",
+      "disease_prevention"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

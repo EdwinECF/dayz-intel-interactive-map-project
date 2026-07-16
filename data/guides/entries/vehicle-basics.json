@@ -1,0 +1,252 @@
+{
+  "id": "vehicle_basics",
+  "slug": "vehicle-basics",
+  "title": "Finding and Repairing a Vehicle",
+  "category": "Vehicles",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 10,
+  "priority": "featured",
+  "summary": "A general workflow for identifying a repairable vehicle and assembling the parts needed to operate it.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Inspect the vehicle",
+      "body": "Check its engine components, wheels, body condition, fluids, battery-related parts, and storage.",
+      "id": "vehicle-basics-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Identify missing parts",
+      "body": "Create a checklist before carrying heavy components across the map.",
+      "id": "vehicle-basics-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Install compatible components",
+      "body": "Vehicle parts are model-specific in many cases; verify compatibility.",
+      "id": "vehicle-basics-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Add required fluids",
+      "body": "Fuel, water, or other fluids may be necessary depending on vehicle type and condition.",
+      "id": "vehicle-basics-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Secure loose items",
+      "body": "Store spare parts and tools without blocking critical inventory interactions.",
+      "id": "vehicle-basics-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Start cautiously",
+      "body": "Listen for abnormal behavior and avoid full-speed driving until steering and engine response are confirmed.",
+      "id": "vehicle-basics-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Hide and maintain it",
+      "body": "Park away from obvious roads, remove or secure critical components when appropriate, and carry repair supplies.",
+      "id": "vehicle-basics-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Use DZ-Atlas to mark likely industrial routes and fuel access.",
+    "A working vehicle attracts attention; plan where you will take it before starting."
+  ],
+  "warnings": [
+    "Driving performance depends heavily on server conditions.",
+    "Operating an incomplete or overheated vehicle can ruin components."
+  ],
+  "relatedGuideIds": [
+    "vehicle_driving",
+    "base_building_basics",
+    "inventory_management"
+  ],
+  "tags": [
+    "vehicle",
+    "car",
+    "repair",
+    "radiator",
+    "battery",
+    "fuel"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": true,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#638f87",
+    "icon": "fa-car",
+    "coverImage": "../assets/guides/covers/vehicle-basics.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/vehicle-basics.webp",
+    "coverAlt": "DayZ scene illustrating Finding and Repairing a Vehicle",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 107,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "10 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Finding and Repairing a Vehicle | DZ-Atlas",
+    "description": "A general workflow for identifying a repairable vehicle and assembling the parts needed to operate it.",
+    "keywords": [
+      "vehicle",
+      "car",
+      "repair",
+      "radiator",
+      "battery",
+      "fuel"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=vehicle-basics"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "vehicle-basics-step-1",
+      "title": "Inspect the vehicle",
+      "order": 1
+    },
+    {
+      "stepId": "vehicle-basics-step-2",
+      "title": "Identify missing parts",
+      "order": 2
+    },
+    {
+      "stepId": "vehicle-basics-step-3",
+      "title": "Install compatible components",
+      "order": 3
+    },
+    {
+      "stepId": "vehicle-basics-step-4",
+      "title": "Add required fluids",
+      "order": 4
+    },
+    {
+      "stepId": "vehicle-basics-step-5",
+      "title": "Secure loose items",
+      "order": 5
+    },
+    {
+      "stepId": "vehicle-basics-step-6",
+      "title": "Start cautiously",
+      "order": 6
+    },
+    {
+      "stepId": "vehicle-basics-step-7",
+      "title": "Hide and maintain it",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "vehicle_driving",
+      "base_building_basics",
+      "inventory_management"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

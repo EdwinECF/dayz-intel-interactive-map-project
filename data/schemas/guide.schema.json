@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dz-atlas.local/schemas/guide.schema.json",
+  "title": "DZ-Atlas Guide",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "category",
+    "summary",
+    "steps",
+    "dataMeta"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "difficulty": {
+      "enum": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ]
+    },
+    "estimatedReadMinutes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "order",
+          "title",
+          "body"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "image": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "imageAlt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "layout": {
+            "enum": [
+              "text",
+              "image-left",
+              "image-right",
+              "full-image"
+            ]
+          },
+          "relatedItemIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "mapLink": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "callout": {
+            "type": [
+              "object",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "object"
+    },
+    "presentation": {
+      "type": "object"
+    },
+    "reader": {
+      "type": "object"
+    },
+    "seo": {
+      "type": "object"
+    },
+    "dataMeta": {
+      "type": "object"
+    }
+  }
+}

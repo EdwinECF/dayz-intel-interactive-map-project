@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "guide-categories",
+  "categories": [
+    {
+      "id": "getting-started",
+      "name": "Getting Started",
+      "icon": "fa-person-running",
+      "accentColor": "#72a85a",
+      "coverImage": "../assets/guides/categories/getting-started.webp",
+      "description": "Browse getting started guides for vanilla DayZ."
+    },
+    {
+      "id": "survival",
+      "name": "Survival",
+      "icon": "fa-fire",
+      "accentColor": "#d08a3c",
+      "coverImage": "../assets/guides/categories/survival.webp",
+      "description": "Browse survival guides for vanilla DayZ."
+    },
+    {
+      "id": "medical",
+      "name": "Medical",
+      "icon": "fa-kit-medical",
+      "accentColor": "#d95d5d",
+      "coverImage": "../assets/guides/categories/medical.webp",
+      "description": "Browse medical guides for vanilla DayZ."
+    },
+    {
+      "id": "combat",
+      "name": "Combat",
+      "icon": "fa-crosshairs",
+      "accentColor": "#bb5a4a",
+      "coverImage": "../assets/guides/categories/combat.webp",
+      "description": "Browse combat guides for vanilla DayZ."
+    },
+    {
+      "id": "weapons",
+      "name": "Weapons",
+      "icon": "fa-gun",
+      "accentColor": "#8a8f98",
+      "coverImage": "../assets/guides/categories/weapons.webp",
+      "description": "Browse weapons guides for vanilla DayZ."
+    },
+    {
+      "id": "looting",
+      "name": "Looting",
+      "icon": "fa-box-open",
+      "accentColor": "#c89b45",
+      "coverImage": "../assets/guides/categories/looting.webp",
+      "description": "Browse looting guides for vanilla DayZ."
+    },
+    {
+      "id": "gear",
+      "name": "Gear",
+      "icon": "fa-vest",
+      "accentColor": "#678da8",
+      "coverImage": "../assets/guides/categories/gear.webp",
+      "description": "Browse gear guides for vanilla DayZ."
+    },
+    {
+      "id": "crafting",
+      "name": "Crafting",
+      "icon": "fa-hammer",
+      "accentColor": "#a8784f",
+      "coverImage": "../assets/guides/categories/crafting.webp",
+      "description": "Browse crafting guides for vanilla DayZ."
+    },
+    {
+      "id": "base-building",
+      "name": "Base Building",
+      "icon": "fa-house",
+      "accentColor": "#8e765d",
+      "coverImage": "../assets/guides/categories/base-building.webp",
+      "description": "Browse base building guides for vanilla DayZ."
+    },
+    {
+      "id": "vehicles",
+      "name": "Vehicles",
+      "icon": "fa-car",
+      "accentColor": "#638f87",
+      "coverImage": "../assets/guides/categories/vehicles.webp",
+      "description": "Browse vehicles guides for vanilla DayZ."
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation",
+      "icon": "fa-compass",
+      "accentColor": "#5e92b8",
+      "coverImage": "../assets/guides/categories/navigation.webp",
+      "description": "Browse navigation guides for vanilla DayZ."
+    },
+    {
+      "id": "hazards",
+      "name": "Hazards",
+      "icon": "fa-biohazard",
+      "accentColor": "#9c8d45",
+      "coverImage": "../assets/guides/categories/hazards.webp",
+      "description": "Browse hazards guides for vanilla DayZ."
+    },
+    {
+      "id": "map-guides",
+      "name": "Map Guides",
+      "icon": "fa-map",
+      "accentColor": "#567a9c",
+      "coverImage": "../assets/guides/categories/map-guides.webp",
+      "description": "Browse map guides guides for vanilla DayZ."
+    }
+  ]
+}

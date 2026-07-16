@@ -1,0 +1,230 @@
+{
+  "id": "weapon_maintenance",
+  "slug": "weapon-maintenance",
+  "title": "Weapon Maintenance and Jams",
+  "category": "Weapons",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How condition, magazines, and ammunition affect reliability and how to respond to a malfunction.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Inspect the full system",
+      "body": "Check the firearm, magazine, ammunition, and attachments rather than only the weapon body.",
+      "id": "weapon-maintenance-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Repair before critical condition",
+      "body": "Use the correct repair item while the component is still repairable.",
+      "id": "weapon-maintenance-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Recognize a malfunction",
+      "body": "If the weapon does not fire, seek cover and inspect the chamber and action.",
+      "id": "weapon-maintenance-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Clear the action",
+      "body": "Use the appropriate unjamming or cycling action, then verify the chamber.",
+      "id": "weapon-maintenance-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Replace suspect components",
+      "body": "A damaged magazine or ammunition stack may continue causing failures.",
+      "id": "weapon-maintenance-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Avoid field maintenance in the open",
+      "body": "Repair and inventory work should happen behind cover.",
+      "id": "weapon-maintenance-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Carry one dependable magazine rather than several badly damaged ones.",
+    "After clearing a jam, confirm that the weapon is loaded again."
+  ],
+  "warnings": [
+    "A repaired weapon may still be limited by the condition of its other components."
+  ],
+  "relatedGuideIds": [
+    "weapon_readiness",
+    "ammo_and_magazines",
+    "pvp_awareness"
+  ],
+  "tags": [
+    "weapon repair",
+    "jam",
+    "gun cleaning kit",
+    "condition"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#8a8f98",
+    "icon": "fa-gun",
+    "coverImage": "../assets/guides/covers/weapon-maintenance.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/weapon-maintenance.webp",
+    "coverAlt": "DayZ scene illustrating Weapon Maintenance and Jams",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 90,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Weapon Maintenance and Jams | DZ-Atlas",
+    "description": "How condition, magazines, and ammunition affect reliability and how to respond to a malfunction.",
+    "keywords": [
+      "weapon repair",
+      "jam",
+      "gun cleaning kit",
+      "condition"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=weapon-maintenance"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "weapon-maintenance-step-1",
+      "title": "Inspect the full system",
+      "order": 1
+    },
+    {
+      "stepId": "weapon-maintenance-step-2",
+      "title": "Repair before critical condition",
+      "order": 2
+    },
+    {
+      "stepId": "weapon-maintenance-step-3",
+      "title": "Recognize a malfunction",
+      "order": 3
+    },
+    {
+      "stepId": "weapon-maintenance-step-4",
+      "title": "Clear the action",
+      "order": 4
+    },
+    {
+      "stepId": "weapon-maintenance-step-5",
+      "title": "Replace suspect components",
+      "order": 5
+    },
+    {
+      "stepId": "weapon-maintenance-step-6",
+      "title": "Avoid field maintenance in the open",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "weapon_readiness",
+      "ammo_and_magazines",
+      "pvp_awareness"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

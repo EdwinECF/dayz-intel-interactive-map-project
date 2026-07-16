@@ -1,0 +1,231 @@
+{
+  "id": "loot_economy_basics",
+  "slug": "loot-economy-basics",
+  "title": "Loot Economy Basics",
+  "category": "Looting",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 8,
+  "priority": "standard",
+  "summary": "A high-level explanation of why loot appears where it does and why a building may be empty.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Understand categories",
+      "body": "Buildings and areas are associated with loot usages and categories such as residential, industrial, medical, police, hunting, and military.",
+      "id": "loot-economy-basics-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Understand tiers",
+      "body": "Some maps divide loot progression into geographic tiers, with higher-value items concentrated farther from typical spawn areas.",
+      "id": "loot-economy-basics-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Recognize dynamic events",
+      "body": "Helicopter crashes, convoys, trains, contaminated areas, and other events can provide specialized loot.",
+      "id": "loot-economy-basics-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Expect persistence",
+      "body": "Dropped and stored items may remain for a period depending on item and server settings.",
+      "id": "loot-economy-basics-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Do not assume instant respawns",
+      "body": "Loot replacement depends on the central economy and server conditions, not simply leaving and returning immediately.",
+      "id": "loot-economy-basics-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Account for community servers",
+      "body": "Server owners can significantly alter quantities, locations, persistence, and progression.",
+      "id": "loot-economy-basics-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Show loot tier and usage tags on DZ-Atlas item cards after extracting current game economy files."
+  ],
+  "warnings": [
+    "Exact economy behavior varies by version and server configuration."
+  ],
+  "relatedGuideIds": [
+    "looting_safely",
+    "contaminated_zones",
+    "dynamic_events"
+  ],
+  "tags": [
+    "loot economy",
+    "tiers",
+    "spawns",
+    "central economy",
+    "CLE"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_wiki_loot",
+    "dayz_update_129"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#c89b45",
+    "icon": "fa-box-open",
+    "coverImage": "../assets/guides/covers/loot-economy-basics.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/loot-economy-basics.webp",
+    "coverAlt": "DayZ scene illustrating Loot Economy Basics",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 108,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Loot Economy Basics | DZ-Atlas",
+    "description": "A high-level explanation of why loot appears where it does and why a building may be empty.",
+    "keywords": [
+      "loot economy",
+      "tiers",
+      "spawns",
+      "central economy",
+      "CLE"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=loot-economy-basics"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "loot-economy-basics-step-1",
+      "title": "Understand categories",
+      "order": 1
+    },
+    {
+      "stepId": "loot-economy-basics-step-2",
+      "title": "Understand tiers",
+      "order": 2
+    },
+    {
+      "stepId": "loot-economy-basics-step-3",
+      "title": "Recognize dynamic events",
+      "order": 3
+    },
+    {
+      "stepId": "loot-economy-basics-step-4",
+      "title": "Expect persistence",
+      "order": 4
+    },
+    {
+      "stepId": "loot-economy-basics-step-5",
+      "title": "Do not assume instant respawns",
+      "order": 5
+    },
+    {
+      "stepId": "loot-economy-basics-step-6",
+      "title": "Account for community servers",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "looting_safely",
+      "contaminated_zones",
+      "dynamic_events"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

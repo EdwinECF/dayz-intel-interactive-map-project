@@ -1,0 +1,252 @@
+{
+  "id": "weapon_readiness",
+  "slug": "weapon-readiness",
+  "title": "Making a Firearm Ready",
+  "category": "Weapons",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "featured",
+  "summary": "A safe checklist for confirming that a gun, magazine, and ammunition actually work together.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Inspect weapon condition",
+      "body": "A badly damaged or ruined firearm may be unreliable or unusable.",
+      "id": "weapon-readiness-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Identify ammunition",
+      "body": "Confirm the cartridge type accepted by the firearm or its compatible magazine.",
+      "id": "weapon-readiness-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Match the magazine",
+      "body": "Not every magazine using the same cartridge fits every weapon.",
+      "id": "weapon-readiness-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Load the magazine",
+      "body": "Place compatible loose rounds into the magazine while monitoring capacity and condition.",
+      "id": "weapon-readiness-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Chamber a round",
+      "body": "Insert the magazine and cycle the weapon if required. Verify the chamber rather than assuming the gun is ready.",
+      "id": "weapon-readiness-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Set fire mode and zeroing",
+      "body": "Choose an appropriate fire mode and sight setting before contact.",
+      "id": "weapon-readiness-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Test only when safe",
+      "body": "A test shot reveals your location. Use inspection and familiarity whenever possible.",
+      "id": "weapon-readiness-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Keep magazines organized by weapon.",
+    "Carry loose ammunition only when it supports your current loadout."
+  ],
+  "warnings": [
+    "A magazine can be loaded while the chamber is empty.",
+    "Wrong or damaged ammunition components waste critical time."
+  ],
+  "relatedGuideIds": [
+    "ammo_and_magazines",
+    "weapon_maintenance",
+    "optics_and_zeroing",
+    "pvp_awareness"
+  ],
+  "tags": [
+    "weapons",
+    "gun",
+    "ammo",
+    "magazine",
+    "chamber"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": true,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#8a8f98",
+    "icon": "fa-gun",
+    "coverImage": "../assets/guides/covers/weapon-readiness.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/weapon-readiness.webp",
+    "coverAlt": "DayZ scene illustrating Making a Firearm Ready",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 109,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Making a Firearm Ready | DZ-Atlas",
+    "description": "A safe checklist for confirming that a gun, magazine, and ammunition actually work together.",
+    "keywords": [
+      "weapons",
+      "gun",
+      "ammo",
+      "magazine",
+      "chamber"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=weapon-readiness"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "weapon-readiness-step-1",
+      "title": "Inspect weapon condition",
+      "order": 1
+    },
+    {
+      "stepId": "weapon-readiness-step-2",
+      "title": "Identify ammunition",
+      "order": 2
+    },
+    {
+      "stepId": "weapon-readiness-step-3",
+      "title": "Match the magazine",
+      "order": 3
+    },
+    {
+      "stepId": "weapon-readiness-step-4",
+      "title": "Load the magazine",
+      "order": 4
+    },
+    {
+      "stepId": "weapon-readiness-step-5",
+      "title": "Chamber a round",
+      "order": 5
+    },
+    {
+      "stepId": "weapon-readiness-step-6",
+      "title": "Set fire mode and zeroing",
+      "order": 6
+    },
+    {
+      "stepId": "weapon-readiness-step-7",
+      "title": "Test only when safe",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "ammo_and_magazines",
+      "weapon_maintenance",
+      "optics_and_zeroing",
+      "pvp_awareness"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

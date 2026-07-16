@@ -1,0 +1,233 @@
+{
+  "id": "stealth_and_noise",
+  "slug": "stealth-and-noise",
+  "title": "Stealth, Visibility, and Noise",
+  "category": "Combat",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How movement, equipment, and route choice affect detection by infected and players.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Control movement speed",
+      "body": "Crouching and slower movement generally reduce your presence compared with sprinting through hard surfaces.",
+      "id": "stealth-and-noise-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Use visual cover",
+      "body": "Travel behind terrain, hedges, walls, and tree lines instead of crossing skylines and open fields.",
+      "id": "stealth-and-noise-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Limit inventory noise",
+      "body": "Some equipment and actions are easier to hear than others. Pause and listen after entering a new area.",
+      "id": "stealth-and-noise-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Plan quiet entries",
+      "body": "Approach towns from less predictable directions and avoid the main road when players may be nearby.",
+      "id": "stealth-and-noise-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Close or leave doors intentionally",
+      "body": "Doors communicate information. Decide whether you want to conceal your route or create misleading signs.",
+      "id": "stealth-and-noise-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Stop regularly",
+      "body": "Standing still and listening often detects threats before visual contact.",
+      "id": "stealth-and-noise-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Use headphones and lower unnecessary background audio.",
+    "Avoid silhouetting yourself on ridge lines."
+  ],
+  "warnings": [
+    "Suppressors reduce sound but do not make shots silent.",
+    "Vegetation does not always provide reliable ballistic protection."
+  ],
+  "relatedGuideIds": [
+    "infected_combat",
+    "pvp_awareness",
+    "looting_safely"
+  ],
+  "tags": [
+    "stealth",
+    "sound",
+    "visibility",
+    "noise",
+    "movement"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#bb5a4a",
+    "icon": "fa-crosshairs",
+    "coverImage": "../assets/guides/covers/stealth-and-noise.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/stealth-and-noise.webp",
+    "coverAlt": "DayZ scene illustrating Stealth, Visibility, and Noise",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 107,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Stealth, Visibility, and Noise | DZ-Atlas",
+    "description": "How movement, equipment, and route choice affect detection by infected and players.",
+    "keywords": [
+      "stealth",
+      "sound",
+      "visibility",
+      "noise",
+      "movement"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=stealth-and-noise"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "stealth-and-noise-step-1",
+      "title": "Control movement speed",
+      "order": 1
+    },
+    {
+      "stepId": "stealth-and-noise-step-2",
+      "title": "Use visual cover",
+      "order": 2
+    },
+    {
+      "stepId": "stealth-and-noise-step-3",
+      "title": "Limit inventory noise",
+      "order": 3
+    },
+    {
+      "stepId": "stealth-and-noise-step-4",
+      "title": "Plan quiet entries",
+      "order": 4
+    },
+    {
+      "stepId": "stealth-and-noise-step-5",
+      "title": "Close or leave doors intentionally",
+      "order": 5
+    },
+    {
+      "stepId": "stealth-and-noise-step-6",
+      "title": "Stop regularly",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "infected_combat",
+      "pvp_awareness",
+      "looting_safely"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

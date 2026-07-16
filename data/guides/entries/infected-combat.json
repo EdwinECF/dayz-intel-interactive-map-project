@@ -1,0 +1,233 @@
+{
+  "id": "infected_combat",
+  "slug": "infected-combat",
+  "title": "Fighting and Avoiding Infected",
+  "category": "Combat",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How to handle infected without wasting ammunition or attracting an entire town.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Avoid unnecessary aggro",
+      "body": "Crouch, use cover, and control noise when crossing populated areas.",
+      "id": "infected-combat-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Fight one at a time",
+      "body": "Use doors, walls, fences, and narrow entrances to isolate infected.",
+      "id": "infected-combat-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Block and counter",
+      "body": "Time defensive movement and melee attacks instead of continuously swinging until stamina is empty.",
+      "id": "infected-combat-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Use firearms only when justified",
+      "body": "Gunshots can attract infected and players from far beyond the immediate fight.",
+      "id": "infected-combat-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Break contact",
+      "body": "If several infected overwhelm you, enter a building, close doors, climb onto a safe obstacle where permitted, or leave the area.",
+      "id": "infected-combat-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Loot quickly",
+      "body": "Infected may carry useful supplies, but standing in the street to inspect every item creates exposure.",
+      "id": "infected-combat-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Keep enough stamina to retreat.",
+    "Repair melee weapons before they become ruined."
+  ],
+  "warnings": [
+    "Infected can cause multiple cuts quickly.",
+    "Some buildings can trap you if there is only one exit."
+  ],
+  "relatedGuideIds": [
+    "stealth_and_noise",
+    "bleeding_and_blood",
+    "first_30_minutes"
+  ],
+  "tags": [
+    "infected",
+    "zombies",
+    "melee",
+    "stealth",
+    "combat"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#bb5a4a",
+    "icon": "fa-crosshairs",
+    "coverImage": "../assets/guides/covers/infected-combat.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/infected-combat.webp",
+    "coverAlt": "DayZ scene illustrating Fighting and Avoiding Infected",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 103,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Fighting and Avoiding Infected | DZ-Atlas",
+    "description": "How to handle infected without wasting ammunition or attracting an entire town.",
+    "keywords": [
+      "infected",
+      "zombies",
+      "melee",
+      "stealth",
+      "combat"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=infected-combat"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "infected-combat-step-1",
+      "title": "Avoid unnecessary aggro",
+      "order": 1
+    },
+    {
+      "stepId": "infected-combat-step-2",
+      "title": "Fight one at a time",
+      "order": 2
+    },
+    {
+      "stepId": "infected-combat-step-3",
+      "title": "Block and counter",
+      "order": 3
+    },
+    {
+      "stepId": "infected-combat-step-4",
+      "title": "Use firearms only when justified",
+      "order": 4
+    },
+    {
+      "stepId": "infected-combat-step-5",
+      "title": "Break contact",
+      "order": 5
+    },
+    {
+      "stepId": "infected-combat-step-6",
+      "title": "Loot quickly",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "stealth_and_noise",
+      "bleeding_and_blood",
+      "first_30_minutes"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

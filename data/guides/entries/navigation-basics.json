@@ -1,0 +1,233 @@
+{
+  "id": "navigation_basics",
+  "slug": "navigation-basics",
+  "title": "Navigation Without GPS",
+  "category": "Navigation",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How to identify your location and travel confidently using terrain, signs, roads, and landmarks.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Read settlement signs",
+      "body": "Town entrance and exit signs are the fastest way to identify a settlement. Match the Cyrillic or Latin name with DZ-Atlas search.",
+      "id": "navigation-basics-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Use the coastline correctly",
+      "body": "On coastal spawns, note whether the sea is beside or ahead of you and identify nearby railways, docks, cranes, or hills.",
+      "id": "navigation-basics-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Follow major infrastructure",
+      "body": "Power lines, railways, rivers, and paved roads connect recognizable locations and reduce the chance of becoming fully lost.",
+      "id": "navigation-basics-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Use terrain association",
+      "body": "Compare hills, valleys, forests, clearings, lakes, and road bends with the map instead of relying only on compass headings.",
+      "id": "navigation-basics-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Create checkpoints",
+      "body": "Travel from one confirmed landmark to another. Reconfirm your location at junctions rather than walking for long periods on an assumed bearing.",
+      "id": "navigation-basics-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Use a compass carefully",
+      "body": "Hold a stable direction, but adjust for terrain. Walking around obstacles without checking your heading can create large navigation errors.",
+      "id": "navigation-basics-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Road intersections and distinctive bends are more useful than long straight roads.",
+    "High ground improves orientation but can expose you to distant players.",
+    "Place temporary custom markers in DZ-Atlas for planned checkpoints."
+  ],
+  "warnings": [
+    "Do not stare at the map while standing in an exposed road or field."
+  ],
+  "relatedGuideIds": [
+    "first_30_minutes",
+    "long_distance_travel",
+    "meeting_friends"
+  ],
+  "tags": [
+    "map",
+    "compass",
+    "navigation",
+    "road signs",
+    "terrain"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#5e92b8",
+    "icon": "fa-compass",
+    "coverImage": "../assets/guides/covers/navigation-basics.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/navigation-basics.webp",
+    "coverAlt": "DayZ scene illustrating Navigation Without GPS",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 141,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Navigation Without GPS | DZ-Atlas",
+    "description": "How to identify your location and travel confidently using terrain, signs, roads, and landmarks.",
+    "keywords": [
+      "map",
+      "compass",
+      "navigation",
+      "road signs",
+      "terrain"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=navigation-basics"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "navigation-basics-step-1",
+      "title": "Read settlement signs",
+      "order": 1
+    },
+    {
+      "stepId": "navigation-basics-step-2",
+      "title": "Use the coastline correctly",
+      "order": 2
+    },
+    {
+      "stepId": "navigation-basics-step-3",
+      "title": "Follow major infrastructure",
+      "order": 3
+    },
+    {
+      "stepId": "navigation-basics-step-4",
+      "title": "Use terrain association",
+      "order": 4
+    },
+    {
+      "stepId": "navigation-basics-step-5",
+      "title": "Create checkpoints",
+      "order": 5
+    },
+    {
+      "stepId": "navigation-basics-step-6",
+      "title": "Use a compass carefully",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "first_30_minutes",
+      "long_distance_travel",
+      "meeting_friends"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

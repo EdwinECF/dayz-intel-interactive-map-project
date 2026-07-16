@@ -1,0 +1,234 @@
+{
+  "id": "basic_crafting",
+  "slug": "basic-crafting",
+  "title": "Essential Early Crafting",
+  "category": "Crafting",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 8,
+  "priority": "standard",
+  "summary": "The crafting concepts and item combinations most useful to a fresh or lightly equipped survivor.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Prioritize a cutting edge",
+      "body": "A knife or improvised cutting tool enables many other recipes.",
+      "id": "basic-crafting-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Create clean bandaging",
+      "body": "Cut suitable clothing into rags and disinfect them when necessary.",
+      "id": "basic-crafting-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Make fire materials",
+      "body": "Collect bark, sticks, kindling, and ignition components for emergency warmth and cooking.",
+      "id": "basic-crafting-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Create carrying solutions",
+      "body": "Use valid rope, sack, stick, or hide combinations when current recipes allow.",
+      "id": "basic-crafting-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Build survival tools",
+      "body": "Improvised fishing, shelter, or hunting tools can reduce dependence on town loot.",
+      "id": "basic-crafting-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Verify recipe context",
+      "body": "Some combinations require items to be empty, unfolded, sharpened, or placed on the ground.",
+      "id": "basic-crafting-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "DZ-Atlas should display recipes as visual ingredient trees.",
+    "Show required tools separately from consumed ingredients."
+  ],
+  "warnings": [
+    "Recipes are patch-sensitive and should be generated from current game files where possible."
+  ],
+  "relatedGuideIds": [
+    "cooking_fire",
+    "improvised_shelter",
+    "fishing",
+    "base_building_basics"
+  ],
+  "tags": [
+    "crafting",
+    "recipes",
+    "improvised",
+    "rags",
+    "rope"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#a8784f",
+    "icon": "fa-hammer",
+    "coverImage": "../assets/guides/covers/basic-crafting.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/basic-crafting.webp",
+    "coverAlt": "DayZ scene illustrating Essential Early Crafting",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 89,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Essential Early Crafting | DZ-Atlas",
+    "description": "The crafting concepts and item combinations most useful to a fresh or lightly equipped survivor.",
+    "keywords": [
+      "crafting",
+      "recipes",
+      "improvised",
+      "rags",
+      "rope"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=basic-crafting"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "basic-crafting-step-1",
+      "title": "Prioritize a cutting edge",
+      "order": 1
+    },
+    {
+      "stepId": "basic-crafting-step-2",
+      "title": "Create clean bandaging",
+      "order": 2
+    },
+    {
+      "stepId": "basic-crafting-step-3",
+      "title": "Make fire materials",
+      "order": 3
+    },
+    {
+      "stepId": "basic-crafting-step-4",
+      "title": "Create carrying solutions",
+      "order": 4
+    },
+    {
+      "stepId": "basic-crafting-step-5",
+      "title": "Build survival tools",
+      "order": 5
+    },
+    {
+      "stepId": "basic-crafting-step-6",
+      "title": "Verify recipe context",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "cooking_fire",
+      "improvised_shelter",
+      "fishing",
+      "base_building_basics"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

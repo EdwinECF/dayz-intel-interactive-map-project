@@ -1,0 +1,250 @@
+{
+  "id": "group_combat",
+  "slug": "group-combat",
+  "title": "Group Communication and Combat",
+  "category": "Combat",
+  "difficulty": "Advanced",
+  "estimatedReadMinutes": 9,
+  "priority": "standard",
+  "summary": "A simple communication system for keeping a squad coordinated during fast encounters.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Assign identifiers",
+      "body": "Use short names and recognizable clothing descriptions before contact.",
+      "id": "group-combat-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Set a direction system",
+      "body": "Agree on compass bearings, landmarks, or clock directions.",
+      "id": "group-combat-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Report complete contacts",
+      "body": "State number of players, direction, distance, movement, clothing, and weapons when visible.",
+      "id": "group-combat-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Avoid bunching",
+      "body": "Maintain enough spacing that one grenade, burst, or doorway cannot disable the entire group.",
+      "id": "group-combat-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Control fire sectors",
+      "body": "Each player watches a defined direction while moving or treating casualties.",
+      "id": "group-combat-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Confirm movement",
+      "body": "Announce flanks, building entries, and position changes to prevent friendly fire.",
+      "id": "group-combat-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Regroup deliberately",
+      "body": "Use a preselected fallback point if communication or visual contact is lost.",
+      "id": "group-combat-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Keep callouts short during active fighting.",
+    "Use distinctive armbands carefully; they help identification but also reveal group affiliation."
+  ],
+  "warnings": [
+    "Friendly fire often results from unannounced movement.",
+    "Do not all rush to treat one unconscious teammate."
+  ],
+  "relatedGuideIds": [
+    "pvp_awareness",
+    "unconsciousness",
+    "meeting_friends"
+  ],
+  "tags": [
+    "squad",
+    "group",
+    "communication",
+    "friendly fire",
+    "combat"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#bb5a4a",
+    "icon": "fa-crosshairs",
+    "coverImage": "../assets/guides/covers/group-combat.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/group-combat.webp",
+    "coverAlt": "DayZ scene illustrating Group Communication and Combat",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 95,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Advanced",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "9 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Group Communication and Combat | DZ-Atlas",
+    "description": "A simple communication system for keeping a squad coordinated during fast encounters.",
+    "keywords": [
+      "squad",
+      "group",
+      "communication",
+      "friendly fire",
+      "combat"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=group-combat"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "group-combat-step-1",
+      "title": "Assign identifiers",
+      "order": 1
+    },
+    {
+      "stepId": "group-combat-step-2",
+      "title": "Set a direction system",
+      "order": 2
+    },
+    {
+      "stepId": "group-combat-step-3",
+      "title": "Report complete contacts",
+      "order": 3
+    },
+    {
+      "stepId": "group-combat-step-4",
+      "title": "Avoid bunching",
+      "order": 4
+    },
+    {
+      "stepId": "group-combat-step-5",
+      "title": "Control fire sectors",
+      "order": 5
+    },
+    {
+      "stepId": "group-combat-step-6",
+      "title": "Confirm movement",
+      "order": 6
+    },
+    {
+      "stepId": "group-combat-step-7",
+      "title": "Regroup deliberately",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "pvp_awareness",
+      "unconsciousness",
+      "meeting_friends"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

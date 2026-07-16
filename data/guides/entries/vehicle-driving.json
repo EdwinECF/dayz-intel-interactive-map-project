@@ -1,0 +1,250 @@
+{
+  "id": "vehicle_driving",
+  "slug": "vehicle-driving",
+  "title": "Driving and Vehicle Survival",
+  "category": "Vehicles",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 8,
+  "priority": "standard",
+  "summary": "How to reduce crashes, ambush risk, and mechanical failures while traveling by vehicle.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Plan the route",
+      "body": "Prefer roads that match the vehicle and avoid unnecessary high-risk towns.",
+      "id": "vehicle-driving-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Drive for server conditions",
+      "body": "Reduce speed when synchronization, visibility, or road conditions are poor.",
+      "id": "vehicle-driving-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Watch temperature and fluids",
+      "body": "Monitor vehicle indicators and stop before a small problem becomes a ruined engine.",
+      "id": "vehicle-driving-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Slow before obstacles",
+      "body": "Rail crossings, bridges, sharp bends, debris, and town entrances create common crashes.",
+      "id": "vehicle-driving-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Expect road ambushes",
+      "body": "Abandoned vehicles, blocked roads, fires, or placed objects may indicate players nearby.",
+      "id": "vehicle-driving-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Park for escape",
+      "body": "Point the vehicle toward an exit and avoid trapping it between buildings or trees.",
+      "id": "vehicle-driving-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Carry recovery supplies",
+      "body": "Keep essential repair tools, spare parts, food, water, and medical supplies in the vehicle.",
+      "id": "vehicle-driving-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Passengers should navigate and scan so the driver can focus on control.",
+    "Do not drive directly to your primary base."
+  ],
+  "warnings": [
+    "High speed magnifies latency and collision problems.",
+    "Vehicles are loud and easy to track."
+  ],
+  "relatedGuideIds": [
+    "vehicle_basics",
+    "pvp_awareness",
+    "long_distance_travel"
+  ],
+  "tags": [
+    "driving",
+    "vehicle",
+    "car",
+    "ambush",
+    "road"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#638f87",
+    "icon": "fa-car",
+    "coverImage": "../assets/guides/covers/vehicle-driving.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/vehicle-driving.webp",
+    "coverAlt": "DayZ scene illustrating Driving and Vehicle Survival",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 109,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Driving and Vehicle Survival | DZ-Atlas",
+    "description": "How to reduce crashes, ambush risk, and mechanical failures while traveling by vehicle.",
+    "keywords": [
+      "driving",
+      "vehicle",
+      "car",
+      "ambush",
+      "road"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=vehicle-driving"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "vehicle-driving-step-1",
+      "title": "Plan the route",
+      "order": 1
+    },
+    {
+      "stepId": "vehicle-driving-step-2",
+      "title": "Drive for server conditions",
+      "order": 2
+    },
+    {
+      "stepId": "vehicle-driving-step-3",
+      "title": "Watch temperature and fluids",
+      "order": 3
+    },
+    {
+      "stepId": "vehicle-driving-step-4",
+      "title": "Slow before obstacles",
+      "order": 4
+    },
+    {
+      "stepId": "vehicle-driving-step-5",
+      "title": "Expect road ambushes",
+      "order": 5
+    },
+    {
+      "stepId": "vehicle-driving-step-6",
+      "title": "Park for escape",
+      "order": 6
+    },
+    {
+      "stepId": "vehicle-driving-step-7",
+      "title": "Carry recovery supplies",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "vehicle_basics",
+      "pvp_awareness",
+      "long_distance_travel"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

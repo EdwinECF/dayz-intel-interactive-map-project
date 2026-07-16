@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": "DZ-Atlas",
+  "naming": {
+    "id": "Stable snake_case machine identifier. Never change after publication.",
+    "slug": "Lowercase kebab-case URL and filename identifier.",
+    "entityType": "guide, item, weapon, ammo, magazine, attachment, vehicle, recipe, disease, map-location, or loot-category."
+  },
+  "commonFields": [
+    "id",
+    "slug",
+    "entityType",
+    "title/displayName",
+    "summary/description",
+    "presentation",
+    "relationships",
+    "verification",
+    "dataMeta"
+  ],
+  "relationshipCollections": [
+    "guides",
+    "items",
+    "recipes",
+    "weapons",
+    "ammo",
+    "magazines",
+    "attachments",
+    "vehicles",
+    "medical",
+    "diseases",
+    "lootCategories",
+    "mapLinks"
+  ],
+  "rules": [
+    "Relationships store stable IDs, not duplicated display data.",
+    "Index files contain card/search metadata only.",
+    "Entry files contain complete content.",
+    "Image paths are relative to the page loading the data.",
+    "Patch-sensitive records include game version and verification status.",
+    "A missing image must fall back to a shared placeholder."
+  ]
+}

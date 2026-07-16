@@ -1,0 +1,252 @@
+{
+  "id": "disease_response",
+  "slug": "disease-response",
+  "title": "Responding to Sickness",
+  "category": "Medical",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 9,
+  "priority": "standard",
+  "summary": "A symptom-based workflow for stabilizing a sick survivor without wasting medicine.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Leave immediate danger",
+      "body": "Find shelter and avoid combat before diagnosing symptoms.",
+      "id": "disease-response-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Record recent exposure",
+      "body": "Consider unsafe water, raw food, bloody hands, cold exposure, dirty bandages, gas, or unknown chemicals.",
+      "id": "disease-response-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Observe symptoms",
+      "body": "Note coughing, sneezing, vomiting, pain sounds, blurred vision, fever-like behavior, blood changes, and unusual stamina loss.",
+      "id": "disease-response-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Correct the source",
+      "body": "Stop consuming the suspected food or water and address cold, wetness, wounds, or contamination.",
+      "id": "disease-response-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Use targeted medicine",
+      "body": "Take medication that matches the likely illness rather than combining everything blindly.",
+      "id": "disease-response-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Consume slowly when nauseated",
+      "body": "Use small amounts of food and water to reduce vomiting risk while maintaining recovery.",
+      "id": "disease-response-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Reassess",
+      "body": "If symptoms worsen, reconsider the diagnosis and seek safer conditions or additional supplies.",
+      "id": "disease-response-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Keep medication packaging and names visible in DZ-Atlas item pages.",
+    "Group members should communicate symptoms and recent exposures clearly."
+  ],
+  "warnings": [
+    "This guide is not a substitute for current in-game verification.",
+    "PO-X exposure requires specialized protection and response."
+  ],
+  "relatedGuideIds": [
+    "disease_prevention",
+    "contaminated_zones",
+    "safe_water",
+    "basic_medical_loadout"
+  ],
+  "tags": [
+    "sickness",
+    "symptoms",
+    "medicine",
+    "vomiting",
+    "infection"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d95d5d",
+    "icon": "fa-kit-medical",
+    "coverImage": "../assets/guides/covers/disease-response.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/disease-response.webp",
+    "coverAlt": "DayZ scene illustrating Responding to Sickness",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 111,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "9 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Responding to Sickness | DZ-Atlas",
+    "description": "A symptom-based workflow for stabilizing a sick survivor without wasting medicine.",
+    "keywords": [
+      "sickness",
+      "symptoms",
+      "medicine",
+      "vomiting",
+      "infection"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=disease-response"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "disease-response-step-1",
+      "title": "Leave immediate danger",
+      "order": 1
+    },
+    {
+      "stepId": "disease-response-step-2",
+      "title": "Record recent exposure",
+      "order": 2
+    },
+    {
+      "stepId": "disease-response-step-3",
+      "title": "Observe symptoms",
+      "order": 3
+    },
+    {
+      "stepId": "disease-response-step-4",
+      "title": "Correct the source",
+      "order": 4
+    },
+    {
+      "stepId": "disease-response-step-5",
+      "title": "Use targeted medicine",
+      "order": 5
+    },
+    {
+      "stepId": "disease-response-step-6",
+      "title": "Consume slowly when nauseated",
+      "order": 6
+    },
+    {
+      "stepId": "disease-response-step-7",
+      "title": "Reassess",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "disease_prevention",
+      "contaminated_zones",
+      "safe_water",
+      "basic_medical_loadout"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

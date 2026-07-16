@@ -1,0 +1,231 @@
+{
+  "id": "ammo_and_magazines",
+  "slug": "ammo-and-magazines",
+  "title": "Ammunition and Magazine Compatibility",
+  "category": "Weapons",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 6,
+  "priority": "standard",
+  "summary": "How to avoid carrying ammunition or magazines that do not work with your weapon.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Identify the weapon's cartridge",
+      "body": "Start with the ammunition type required by the firearm.",
+      "id": "ammo-and-magazines-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Check magazine compatibility",
+      "body": "A shared cartridge does not guarantee a shared magazine.",
+      "id": "ammo-and-magazines-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Separate loose rounds",
+      "body": "Store different calibers in clearly separated inventory positions.",
+      "id": "ammo-and-magazines-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Consolidate partial stacks",
+      "body": "Combine compatible ammunition when practical to reduce inventory clutter.",
+      "id": "ammo-and-magazines-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Inspect condition",
+      "body": "Damaged ammunition and magazines may reduce reliability.",
+      "id": "ammo-and-magazines-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Prioritize usable supply",
+      "body": "Thirty compatible rounds are more useful than several boxes for weapons you do not carry.",
+      "id": "ammo-and-magazines-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "DZ-Atlas item relationships should link weapons, cartridges, and magazines in both directions."
+  ],
+  "warnings": [
+    "Do not rely only on visual similarity between cartridges or magazines."
+  ],
+  "relatedGuideIds": [
+    "weapon_readiness",
+    "weapon_maintenance",
+    "inventory_management"
+  ],
+  "tags": [
+    "ammo",
+    "bullets",
+    "magazines",
+    "caliber",
+    "compatibility"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#8a8f98",
+    "icon": "fa-gun",
+    "coverImage": "../assets/guides/covers/ammo-and-magazines.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/ammo-and-magazines.webp",
+    "coverAlt": "DayZ scene illustrating Ammunition and Magazine Compatibility",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 75,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "6 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Ammunition and Magazine Compatibility | DZ-Atlas",
+    "description": "How to avoid carrying ammunition or magazines that do not work with your weapon.",
+    "keywords": [
+      "ammo",
+      "bullets",
+      "magazines",
+      "caliber",
+      "compatibility"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=ammo-and-magazines"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "ammo-and-magazines-step-1",
+      "title": "Identify the weapon's cartridge",
+      "order": 1
+    },
+    {
+      "stepId": "ammo-and-magazines-step-2",
+      "title": "Check magazine compatibility",
+      "order": 2
+    },
+    {
+      "stepId": "ammo-and-magazines-step-3",
+      "title": "Separate loose rounds",
+      "order": 3
+    },
+    {
+      "stepId": "ammo-and-magazines-step-4",
+      "title": "Consolidate partial stacks",
+      "order": 4
+    },
+    {
+      "stepId": "ammo-and-magazines-step-5",
+      "title": "Inspect condition",
+      "order": 5
+    },
+    {
+      "stepId": "ammo-and-magazines-step-6",
+      "title": "Prioritize usable supply",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "weapon_readiness",
+      "weapon_maintenance",
+      "inventory_management"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

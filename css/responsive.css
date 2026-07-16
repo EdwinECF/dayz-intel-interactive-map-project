@@ -1143,3 +1143,208 @@
         .map-sidebar-right.mobile-open { transform: translateX(0); }
     }
 }
+
+
+/* ======================================================
+   GUIDE READER RESPONSIVE OVERRIDES
+   Must remain after mobile map rules.
+====================================================== */
+
+@media (max-width: 980px) {
+  body.atlas-library-page {
+    position: static;
+    inset: auto;
+    height: auto;
+    max-height: none;
+    overflow-y: auto;
+    overscroll-behavior-y: auto;
+    touch-action: auto;
+  }
+
+  body.atlas-library-page.guide-reader-open {
+    overflow: hidden;
+  }
+
+  .guide-reader-panel {
+    width: calc(100vw - 24px);
+    height: calc(100dvh - 24px);
+    border-radius: 17px;
+  }
+
+  .guide-document-hero,
+  .guide-document-hero-content { min-height: 390px; }
+
+  .guide-document-hero-content {
+    width: 88%;
+    padding: 38px;
+  }
+
+  .guide-document-layout {
+    width: min(760px, calc(100% - 32px));
+    grid-template-columns: 1fr;
+    padding-top: 25px;
+  }
+
+  .guide-document-sidebar {
+    position: static;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .guide-toc ol {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  body.atlas-library-page,
+  body.atlas-library-page .app-container,
+  body.atlas-library-page .main-content {
+    position: static;
+    height: auto;
+    max-height: none;
+    min-height: 100dvh;
+  }
+
+  .guide-library-card { min-height: 0; }
+  .guide-card-media { height: 180px; }
+  .guide-card-body { min-height: 225px; }
+
+  .guide-reader {
+    display: block;
+  }
+
+  .guide-reader-backdrop { display: none; }
+
+  .guide-reader-panel {
+    inset: 0;
+    width: 100%;
+    height: 100dvh;
+    border: 0;
+    border-radius: 0;
+    transform: translateX(100%);
+  }
+
+  .guide-reader.is-open .guide-reader-panel { transform: translateX(0); }
+
+  .guide-reader-toolbar {
+    min-height: calc(58px + env(safe-area-inset-top));
+    padding: max(8px, env(safe-area-inset-top)) 8px 7px;
+  }
+
+  .guide-reader-back { padding-inline: 11px; }
+  .guide-reader-close-icon { display: none !important; }
+
+  .guide-document-hero,
+  .guide-document-hero-content { min-height: 410px; }
+
+  .guide-document-hero-content {
+    width: 100%;
+    padding: 30px 18px;
+  }
+
+  .guide-document-hero h1 {
+    font-size: clamp(2.45rem, 13vw, 4.2rem);
+  }
+
+  .guide-document-hero-content > p {
+    font-size: .8rem;
+  }
+
+  .guide-document-meta {
+    gap: 6px;
+  }
+
+  .guide-document-meta span {
+    min-height: 31px;
+    padding-inline: 8px;
+    font-size: .56rem;
+  }
+
+  .guide-document-layout {
+    width: 100%;
+    gap: 18px;
+    padding: 18px 10px calc(40px + env(safe-area-inset-bottom));
+  }
+
+  .guide-document-sidebar {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .guide-toc ol {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-summary-block,
+  .guide-step,
+  .guide-callout {
+    border-radius: 12px;
+  }
+
+  .guide-summary-block { padding: 19px; }
+
+  .guide-step,
+  .guide-step.has-image {
+    grid-template-columns: 42px minmax(0,1fr);
+    gap: 12px;
+    padding: 17px 14px;
+  }
+
+  .guide-step-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .guide-step h2 { font-size: 1.22rem; }
+
+  .guide-step-image,
+  .guide-step.layout-image-left .guide-step-image {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    min-height: 180px;
+    margin-top: 3px;
+  }
+
+  .guide-step.layout-image-left .guide-step-copy {
+    grid-column: 2;
+  }
+
+  .guide-callout {
+    grid-template-columns: 42px 1fr;
+    gap: 12px;
+    padding: 17px 14px;
+  }
+
+  .guide-callout-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .guide-connection-grid,
+  .guide-related-grid,
+  .guide-document-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-document-footer { gap: 13px; }
+
+  .guide-reader-loading,
+  .guide-reader-error { min-height: calc(100dvh - 62px); }
+}
+
+@media (max-width: 420px) {
+  .guide-reader-toolbar-actions { gap: 5px; }
+  .guide-reader-toolbar button { min-width: 40px; height: 40px; }
+  .guide-reader-back span { font-size: .68rem; }
+
+  .guide-card-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .guide-card-meta span:last-child { display: none; }
+
+  .guide-document-category { font-size: .55rem; }
+  .guide-document-hero h1 { font-size: 2.65rem; }
+}

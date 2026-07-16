@@ -1,0 +1,233 @@
+{
+  "id": "buried_stashes",
+  "slug": "buried-stashes",
+  "title": "Caches and Buried Stashes",
+  "category": "Base Building",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 6,
+  "priority": "standard",
+  "summary": "How to use small distributed caches instead of trusting one large base.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Choose low-traffic terrain",
+      "body": "Use locations away from direct travel lines and common navigation landmarks.",
+      "id": "buried-stashes-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Use suitable containers",
+      "body": "Only compatible containers can be buried or persisted in specific ways.",
+      "id": "buried-stashes-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Carry the right tool",
+      "body": "A digging tool may be required to bury and recover the cache.",
+      "id": "buried-stashes-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Record the location",
+      "body": "Use a precise private DZ-Atlas marker with a neutral name.",
+      "id": "buried-stashes-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Distribute supplies",
+      "body": "Separate ammunition, food, medicine, and backup equipment across more than one cache.",
+      "id": "buried-stashes-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Refresh responsibly",
+      "body": "Persistence can depend on interaction and server configuration; verify current behavior.",
+      "id": "buried-stashes-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Store recovery equipment rather than only rare collectibles.",
+    "Use landmarks that are recognizable to you but not obvious to others."
+  ],
+  "warnings": [
+    "Buried stashes can still be discovered.",
+    "Never publish private stash markers in shared exports."
+  ],
+  "relatedGuideIds": [
+    "improvised_shelter",
+    "base_building_basics",
+    "inventory_management"
+  ],
+  "tags": [
+    "stash",
+    "cache",
+    "buried",
+    "storage",
+    "persistence"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#8e765d",
+    "icon": "fa-house",
+    "coverImage": "../assets/guides/covers/buried-stashes.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/buried-stashes.webp",
+    "coverAlt": "DayZ scene illustrating Caches and Buried Stashes",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 84,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "6 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Caches and Buried Stashes | DZ-Atlas",
+    "description": "How to use small distributed caches instead of trusting one large base.",
+    "keywords": [
+      "stash",
+      "cache",
+      "buried",
+      "storage",
+      "persistence"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=buried-stashes"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "buried-stashes-step-1",
+      "title": "Choose low-traffic terrain",
+      "order": 1
+    },
+    {
+      "stepId": "buried-stashes-step-2",
+      "title": "Use suitable containers",
+      "order": 2
+    },
+    {
+      "stepId": "buried-stashes-step-3",
+      "title": "Carry the right tool",
+      "order": 3
+    },
+    {
+      "stepId": "buried-stashes-step-4",
+      "title": "Record the location",
+      "order": 4
+    },
+    {
+      "stepId": "buried-stashes-step-5",
+      "title": "Distribute supplies",
+      "order": 5
+    },
+    {
+      "stepId": "buried-stashes-step-6",
+      "title": "Refresh responsibly",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "improvised_shelter",
+      "base_building_basics",
+      "inventory_management"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

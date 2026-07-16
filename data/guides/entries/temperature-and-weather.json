@@ -1,0 +1,235 @@
+{
+  "id": "temperature_and_weather",
+  "slug": "temperature-and-weather",
+  "title": "Temperature, Rain, and Cold Survival",
+  "category": "Survival",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "How to stay warm, dry equipment, and prevent weather from turning into a medical emergency.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Read the temperature indicator",
+      "body": "Treat falling temperature as an early warning. Do not wait until health begins deteriorating.",
+      "id": "temperature-and-weather-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Choose protective clothing",
+      "body": "Favor clothing with useful insulation and enough storage for your route. Replace ruined or soaked pieces when possible.",
+      "id": "temperature-and-weather-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Reduce wetness",
+      "body": "Move under cover, wring out suitable clothing, and avoid unnecessary river crossings during cold weather.",
+      "id": "temperature-and-weather-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Make a safe fire",
+      "body": "Use a sheltered fireplace when practical, but consider smoke, light, and player visibility.",
+      "id": "temperature-and-weather-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Use warmed items carefully",
+      "body": "Heated items can help preserve warmth, but extremely hot items or unsafe placement may cause problems.",
+      "id": "temperature-and-weather-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Adapt to the map",
+      "body": "Sakhal demands more deliberate heat management than milder areas; plan fires, fuel, and shelter before long movement.",
+      "id": "temperature-and-weather-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Carry dry kindling or fire-starting supplies in protected storage.",
+    "Use buildings or dense trees to reduce exposure while preparing a fire."
+  ],
+  "warnings": [
+    "Fire and smoke reveal your position.",
+    "Wet clothing and low energy make cold conditions more dangerous."
+  ],
+  "relatedGuideIds": [
+    "cooking_fire",
+    "sakhal_survival",
+    "clothing_selection"
+  ],
+  "tags": [
+    "cold",
+    "rain",
+    "temperature",
+    "fire",
+    "wetness",
+    "Sakhal"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d08a3c",
+    "icon": "fa-fire",
+    "coverImage": "../assets/guides/covers/temperature-and-weather.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/temperature-and-weather.webp",
+    "coverAlt": "DayZ scene illustrating Temperature, Rain, and Cold Survival",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 114,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Temperature, Rain, and Cold Survival | DZ-Atlas",
+    "description": "How to stay warm, dry equipment, and prevent weather from turning into a medical emergency.",
+    "keywords": [
+      "cold",
+      "rain",
+      "temperature",
+      "fire",
+      "wetness",
+      "Sakhal"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=temperature-and-weather"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "temperature-and-weather-step-1",
+      "title": "Read the temperature indicator",
+      "order": 1
+    },
+    {
+      "stepId": "temperature-and-weather-step-2",
+      "title": "Choose protective clothing",
+      "order": 2
+    },
+    {
+      "stepId": "temperature-and-weather-step-3",
+      "title": "Reduce wetness",
+      "order": 3
+    },
+    {
+      "stepId": "temperature-and-weather-step-4",
+      "title": "Make a safe fire",
+      "order": 4
+    },
+    {
+      "stepId": "temperature-and-weather-step-5",
+      "title": "Use warmed items carefully",
+      "order": 5
+    },
+    {
+      "stepId": "temperature-and-weather-step-6",
+      "title": "Adapt to the map",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "cooking_fire",
+      "sakhal_survival",
+      "clothing_selection"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

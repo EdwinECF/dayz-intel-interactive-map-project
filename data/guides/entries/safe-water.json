@@ -1,0 +1,233 @@
+{
+  "id": "safe_water",
+  "slug": "safe-water",
+  "title": "Finding and Keeping Water Safe",
+  "category": "Survival",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 6,
+  "priority": "standard",
+  "summary": "A practical guide to hydration, water pumps, containers, purification, and avoiding waterborne illness.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Prefer water pumps",
+      "body": "Public water pumps are the most dependable early source of drinking water on vanilla maps.",
+      "id": "safe-water-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Treat unknown containers as contaminated",
+      "body": "A found bottle or canteen may contain unsafe water. Empty it before filling it at a trusted source.",
+      "id": "safe-water-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Purify surface water",
+      "body": "Water collected from ponds, streams, or other natural sources should be purified with an appropriate method before drinking.",
+      "id": "safe-water-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Keep clean and dirty containers separate",
+      "body": "If your group transports untreated water, designate containers so nobody drinks from the wrong one.",
+      "id": "safe-water-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Drink before long travel",
+      "body": "Hydrate at a safe pump before leaving town rather than carrying an emergency-level thirst problem into the wilderness.",
+      "id": "safe-water-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Avoid overexposure",
+      "body": "Water pumps are predictable player contact points. Listen, observe, drink efficiently, and move away.",
+      "id": "safe-water-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Carry at least one refillable container once you leave the coast.",
+    "Do not wait for severe thirst before planning your next water stop."
+  ],
+  "warnings": [
+    "Unsafe water can cause disease.",
+    "Purification mechanics can change; verify exact item behavior after major updates."
+  ],
+  "relatedGuideIds": [
+    "disease_prevention",
+    "first_30_minutes",
+    "long_distance_travel"
+  ],
+  "tags": [
+    "water",
+    "hydration",
+    "pump",
+    "canteen",
+    "purification"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#d08a3c",
+    "icon": "fa-fire",
+    "coverImage": "../assets/guides/covers/safe-water.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/safe-water.webp",
+    "coverAlt": "DayZ scene illustrating Finding and Keeping Water Safe",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 121,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "6 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "6",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Finding and Keeping Water Safe | DZ-Atlas",
+    "description": "A practical guide to hydration, water pumps, containers, purification, and avoiding waterborne illness.",
+    "keywords": [
+      "water",
+      "hydration",
+      "pump",
+      "canteen",
+      "purification"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=safe-water"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "safe-water-step-1",
+      "title": "Prefer water pumps",
+      "order": 1
+    },
+    {
+      "stepId": "safe-water-step-2",
+      "title": "Treat unknown containers as contaminated",
+      "order": 2
+    },
+    {
+      "stepId": "safe-water-step-3",
+      "title": "Purify surface water",
+      "order": 3
+    },
+    {
+      "stepId": "safe-water-step-4",
+      "title": "Keep clean and dirty containers separate",
+      "order": 4
+    },
+    {
+      "stepId": "safe-water-step-5",
+      "title": "Drink before long travel",
+      "order": 5
+    },
+    {
+      "stepId": "safe-water-step-6",
+      "title": "Avoid overexposure",
+      "order": 6
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "disease_prevention",
+      "first_30_minutes",
+      "long_distance_travel"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

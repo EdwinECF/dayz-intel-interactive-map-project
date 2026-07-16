@@ -1,0 +1,252 @@
+{
+  "id": "looting_safely",
+  "slug": "looting-safely",
+  "title": "Looting Buildings Safely",
+  "category": "Looting",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 7,
+  "priority": "standard",
+  "summary": "A repeatable method for searching towns without becoming trapped or surprised.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Observe before entering",
+      "body": "Look for infected behavior, open doors, smoke, dead bodies, dropped items, and player movement.",
+      "id": "looting-safely-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Choose an entry and exit",
+      "body": "Know how you will leave before opening inventory screens.",
+      "id": "looting-safely-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Clear quickly",
+      "body": "Check corners and connected rooms before focusing on loot.",
+      "id": "looting-safely-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Prioritize categories",
+      "body": "Search for the items your current plan requires rather than collecting everything.",
+      "id": "looting-safely-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Limit inventory time",
+      "body": "Move items efficiently and reorganize later in a safer location.",
+      "id": "looting-safely-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Avoid predictable repetition",
+      "body": "Do not follow the same building sequence used by every player entering town.",
+      "id": "looting-safely-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Leave when the risk changes",
+      "body": "Gunshots, agitated infected, or newly opened doors are reasons to reposition.",
+      "id": "looting-safely-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Loot from the side of the room that gives you a view of the entrance.",
+    "Use DZ-Atlas building categories to target useful structures."
+  ],
+  "warnings": [
+    "Inventory screens reduce awareness.",
+    "Upper floors and dead-end rooms can become traps."
+  ],
+  "relatedGuideIds": [
+    "early_game_loot_route",
+    "inventory_management",
+    "stealth_and_noise",
+    "pvp_awareness"
+  ],
+  "tags": [
+    "loot",
+    "buildings",
+    "town",
+    "safety",
+    "inventory"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": false,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#c89b45",
+    "icon": "fa-box-open",
+    "coverImage": "../assets/guides/covers/looting-safely.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/looting-safely.webp",
+    "coverAlt": "DayZ scene illustrating Looting Buildings Safely",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 101,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "7 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Looting Buildings Safely | DZ-Atlas",
+    "description": "A repeatable method for searching towns without becoming trapped or surprised.",
+    "keywords": [
+      "loot",
+      "buildings",
+      "town",
+      "safety",
+      "inventory"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=looting-safely"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "looting-safely-step-1",
+      "title": "Observe before entering",
+      "order": 1
+    },
+    {
+      "stepId": "looting-safely-step-2",
+      "title": "Choose an entry and exit",
+      "order": 2
+    },
+    {
+      "stepId": "looting-safely-step-3",
+      "title": "Clear quickly",
+      "order": 3
+    },
+    {
+      "stepId": "looting-safely-step-4",
+      "title": "Prioritize categories",
+      "order": 4
+    },
+    {
+      "stepId": "looting-safely-step-5",
+      "title": "Limit inventory time",
+      "order": 5
+    },
+    {
+      "stepId": "looting-safely-step-6",
+      "title": "Avoid predictable repetition",
+      "order": 6
+    },
+    {
+      "stepId": "looting-safely-step-7",
+      "title": "Leave when the risk changes",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "early_game_loot_route",
+      "inventory_management",
+      "stealth_and_noise",
+      "pvp_awareness"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

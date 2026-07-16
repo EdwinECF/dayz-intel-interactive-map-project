@@ -1,0 +1,252 @@
+{
+  "id": "pvp_awareness",
+  "slug": "pvp-awareness",
+  "title": "PvP Awareness and Contact Decisions",
+  "category": "Combat",
+  "difficulty": "Intermediate",
+  "estimatedReadMinutes": 9,
+  "priority": "featured",
+  "summary": "How to detect players, decide whether to engage, and survive first contact.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Detect before being detected",
+      "body": "Pause outside towns and scan rooftops, windows, tree lines, smoke, dead infected, dropped loot, and open doors.",
+      "id": "pvp-awareness-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Identify your objective",
+      "body": "Decide whether you need supplies, information, passage, or a fight. Avoid engagements that do not support your goal.",
+      "id": "pvp-awareness-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Use cover, not concealment",
+      "body": "Walls, terrain, and solid structures are generally more valuable than bushes that only hide you visually.",
+      "id": "pvp-awareness-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Create distance or advantage",
+      "body": "Change angle, elevation, or route before firing when the opponent has not seen you.",
+      "id": "pvp-awareness-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Communicate clearly",
+      "body": "In a group, state direction, distance, clothing, weapon, and movement rather than saying only 'player.'",
+      "id": "pvp-awareness-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Disengage when needed",
+      "body": "Breaking contact is a successful outcome when the fight is unfavorable.",
+      "id": "pvp-awareness-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Relocate after shooting",
+      "body": "Expect opponents or third parties to investigate gunfire.",
+      "id": "pvp-awareness-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Use compass bearings or clock directions consistently with your team.",
+    "Do not repeatedly peek the same opening."
+  ],
+  "warnings": [
+    "Dead bodies and dropped gear can be bait.",
+    "A seemingly lone player may have teammates nearby."
+  ],
+  "relatedGuideIds": [
+    "stealth_and_noise",
+    "group_combat",
+    "looting_safely",
+    "sniping_and_overwatch"
+  ],
+  "tags": [
+    "PvP",
+    "players",
+    "combat",
+    "cover",
+    "engagement"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": true,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#bb5a4a",
+    "icon": "fa-crosshairs",
+    "coverImage": "../assets/guides/covers/pvp-awareness.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/pvp-awareness.webp",
+    "coverAlt": "DayZ scene illustrating PvP Awareness and Contact Decisions",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 122,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Intermediate",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "9 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "PvP Awareness and Contact Decisions | DZ-Atlas",
+    "description": "How to detect players, decide whether to engage, and survive first contact.",
+    "keywords": [
+      "PvP",
+      "players",
+      "combat",
+      "cover",
+      "engagement"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=pvp-awareness"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "pvp-awareness-step-1",
+      "title": "Detect before being detected",
+      "order": 1
+    },
+    {
+      "stepId": "pvp-awareness-step-2",
+      "title": "Identify your objective",
+      "order": 2
+    },
+    {
+      "stepId": "pvp-awareness-step-3",
+      "title": "Use cover, not concealment",
+      "order": 3
+    },
+    {
+      "stepId": "pvp-awareness-step-4",
+      "title": "Create distance or advantage",
+      "order": 4
+    },
+    {
+      "stepId": "pvp-awareness-step-5",
+      "title": "Communicate clearly",
+      "order": 5
+    },
+    {
+      "stepId": "pvp-awareness-step-6",
+      "title": "Disengage when needed",
+      "order": 6
+    },
+    {
+      "stepId": "pvp-awareness-step-7",
+      "title": "Relocate after shooting",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "stealth_and_noise",
+      "group_combat",
+      "looting_safely",
+      "sniping_and_overwatch"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}

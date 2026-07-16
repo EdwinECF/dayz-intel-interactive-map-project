@@ -1,0 +1,252 @@
+{
+  "id": "cooking_fire",
+  "slug": "cooking-fire",
+  "title": "Building a Fire and Cooking Food",
+  "category": "Crafting",
+  "difficulty": "Beginner",
+  "estimatedReadMinutes": 8,
+  "priority": "featured",
+  "summary": "A safe workflow for making a fireplace, lighting it, cooking food, and leaving minimal evidence.",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Choose a safe location",
+      "body": "Use shelter from weather while considering smoke, light, nearby players, and ventilation restrictions.",
+      "id": "cooking-fire-step-1",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 2,
+      "title": "Collect fuel and kindling",
+      "body": "Prepare bark, paper, rags, small sticks, firewood, or other suitable materials.",
+      "id": "cooking-fire-step-2",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 3,
+      "title": "Create or place the fireplace",
+      "body": "Use a fireplace, stove, oven, or compatible cooking setup.",
+      "id": "cooking-fire-step-3",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 4,
+      "title": "Ignite it",
+      "body": "Use matches, a lighter, a hand-drill method, or another valid ignition source.",
+      "id": "cooking-fire-step-4",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 5,
+      "title": "Prepare food",
+      "body": "Place meat or other cookable food on suitable cookware or cooking slots.",
+      "id": "cooking-fire-step-5",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 6,
+      "title": "Monitor doneness",
+      "body": "Remove food when properly cooked and avoid burning it.",
+      "id": "cooking-fire-step-6",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    },
+    {
+      "order": 7,
+      "title": "Extinguish and move",
+      "body": "When finished, reduce evidence and leave before smoke or light attracts attention.",
+      "id": "cooking-fire-step-7",
+      "image": null,
+      "imageAlt": null,
+      "layout": "text",
+      "relatedItemIds": [],
+      "mapLink": null,
+      "callout": null
+    }
+  ],
+  "tips": [
+    "Prepare all ingredients before lighting the fire.",
+    "Cooking indoors can be safer visually but only where the game permits proper fireplace use."
+  ],
+  "warnings": [
+    "Fire can reveal your position at great distance.",
+    "Raw meat and bloody hands can cause illness."
+  ],
+  "relatedGuideIds": [
+    "food_and_energy",
+    "hunting_and_butchering",
+    "fishing",
+    "temperature_and_weather"
+  ],
+  "tags": [
+    "fire",
+    "cooking",
+    "fireplace",
+    "kindling",
+    "meat"
+  ],
+  "maps": [
+    "Chernarus",
+    "Livonia",
+    "Sakhal"
+  ],
+  "sourceIds": [
+    "dayz_official_tips",
+    "dayz_wiki_survival"
+  ],
+  "verification": {
+    "status": "editorial-draft",
+    "note": "Designed for vanilla DayZ. Exact values and recipes should be verified against the current game files before publication."
+  },
+  "featured": true,
+  "status": "published-draft",
+  "updatedAt": "2026-07-16",
+  "presentation": {
+    "accentColor": "#a8784f",
+    "icon": "fa-hammer",
+    "coverImage": "../assets/guides/covers/cooking-fire.webp",
+    "thumbnailImage": "../assets/guides/thumbnails/cooking-fire.webp",
+    "coverAlt": "DayZ scene illustrating Building a Fire and Cooking Food",
+    "heroFocalPoint": "center",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "cardStyle": "image"
+  },
+  "reader": {
+    "showTableOfContents": true,
+    "showStepNumbers": true,
+    "showReadingProgress": true,
+    "estimatedWordCount": 100,
+    "completionMessage": "You are ready to put this guide into practice."
+  },
+  "quickFacts": [
+    {
+      "label": "Difficulty",
+      "value": "Beginner",
+      "icon": "fa-signal"
+    },
+    {
+      "label": "Read time",
+      "value": "8 min",
+      "icon": "fa-clock"
+    },
+    {
+      "label": "Steps",
+      "value": "7",
+      "icon": "fa-list-check"
+    },
+    {
+      "label": "Maps",
+      "value": "Chernarus, Livonia, Sakhal",
+      "icon": "fa-map"
+    }
+  ],
+  "prerequisites": [],
+  "relatedItemIds": [],
+  "relatedMapLinks": [],
+  "externalLinks": [],
+  "seo": {
+    "title": "Building a Fire and Cooking Food | DZ-Atlas",
+    "description": "A safe workflow for making a fireplace, lighting it, cooking food, and leaving minimal evidence.",
+    "keywords": [
+      "fire",
+      "cooking",
+      "fireplace",
+      "kindling",
+      "meat"
+    ],
+    "canonicalPath": "/pages/guides.html?guide=cooking-fire"
+  },
+  "tableOfContents": [
+    {
+      "stepId": "cooking-fire-step-1",
+      "title": "Choose a safe location",
+      "order": 1
+    },
+    {
+      "stepId": "cooking-fire-step-2",
+      "title": "Collect fuel and kindling",
+      "order": 2
+    },
+    {
+      "stepId": "cooking-fire-step-3",
+      "title": "Create or place the fireplace",
+      "order": 3
+    },
+    {
+      "stepId": "cooking-fire-step-4",
+      "title": "Ignite it",
+      "order": 4
+    },
+    {
+      "stepId": "cooking-fire-step-5",
+      "title": "Prepare food",
+      "order": 5
+    },
+    {
+      "stepId": "cooking-fire-step-6",
+      "title": "Monitor doneness",
+      "order": 6
+    },
+    {
+      "stepId": "cooking-fire-step-7",
+      "title": "Extinguish and move",
+      "order": 7
+    }
+  ],
+  "relationships": {
+    "guides": [
+      "food_and_energy",
+      "hunting_and_butchering",
+      "fishing",
+      "temperature_and_weather"
+    ],
+    "items": [],
+    "mapLinks": [],
+    "recipes": [],
+    "weapons": [],
+    "ammo": [],
+    "magazines": [],
+    "attachments": [],
+    "vehicles": [],
+    "medical": [],
+    "diseases": [],
+    "lootCategories": []
+  },
+  "dataMeta": {
+    "entityType": "guide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026.07-step1",
+    "gameVersion": "1.29",
+    "language": "en",
+    "lastUpdated": "2026-07-16"
+  }
+}
