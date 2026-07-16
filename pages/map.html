@@ -39,9 +39,27 @@
 
 <div id="mobile-drawer-backdrop" class="mobile-drawer-backdrop"></div>
 
+<nav class="mobile-map-dock" id="mobile-map-dock" aria-label="Mobile map controls">
+    <button type="button" data-mobile-action="menu" aria-label="Open navigation">
+        <i class="fa-solid fa-bars"></i><span>Menu</span>
+    </button>
+    <button type="button" data-mobile-action="search" aria-label="Search the atlas">
+        <i class="fa-solid fa-magnifying-glass"></i><span>Search</span>
+    </button>
+    <button type="button" class="mobile-dock-primary" data-mobile-action="center" aria-label="Reset map view">
+        <i class="fa-solid fa-location-crosshairs"></i><span>Center</span>
+    </button>
+    <button type="button" data-mobile-action="coordinates" aria-label="Show selected coordinates">
+        <i class="fa-solid fa-crosshairs"></i><span>Grid</span>
+    </button>
+    <button type="button" data-mobile-action="tools" aria-label="Open map tools">
+        <i class="fa-solid fa-layer-group"></i><span>Tools</span>
+    </button>
+</nav>
+
 <div class="app-container">
 
-    <aside class="sidebar">
+    <aside class="sidebar" id="primary-sidebar">
         <button
             id="mobile-menu-close"
             class="mobile-drawer-close"

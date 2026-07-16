@@ -429,6 +429,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const anyOpen = Boolean(menuOpen || toolsOpen);
 
         document.body.classList.toggle("mobile-drawer-active", anyOpen);
+        document.body.classList.toggle("mobile-menu-active", Boolean(menuOpen));
+        document.body.classList.toggle("mobile-tools-active", Boolean(toolsOpen));
         mobileMenuButton?.setAttribute("aria-expanded", String(Boolean(menuOpen)));
         mobileToolsButton?.setAttribute("aria-expanded", String(Boolean(toolsOpen)));
     }
@@ -472,6 +474,76 @@ document.addEventListener("DOMContentLoaded", () => {
     mobileToolsClose?.addEventListener("click", closeMobileDrawers);
     mobileBackdrop?.addEventListener("click", closeMobileDrawers);
 
+    // Mobile bottom dock: keeps the map usable with one hand while playing.
+    const mobileMapDock = document.getElementById("mobile-map-dock");
+    const mobileSearchInput = document.getElementById("map-search-input");
+
+    mobileMapDock?.addEventListener("click", event => {
+        const actionButton = event.target.closest("[data-mobile-action]");
+        if (!actionButton) return;
+
+        const action = actionButton.dataset.mobileAction;
+
+        if (action === "menu") {
+            openMobileDrawer(primarySidebar);
+            return;
+        }
+
+        if (action === "tools") {
+            openMobileDrawer(mapSidePanel);
+            return;
+        }
+
+        if (action === "search") {
+            closeMobileDrawers();
+            mobileSearchInput?.focus({ preventScroll: true });
+            mobileSearchInput?.select();
+            return;
+        }
+
+        if (action === "center") {
+            closeMobileDrawers();
+            atlas.resetView();
+            refreshMapLayout(60);
+            return;
+        }
+
+        if (action === "coordinates") {
+            mobileCoordinateBox?.classList.toggle("mobile-coordinate-hidden");
+            mobileCoordinateBox?.classList.add("mobile-visible");
+        }
+    });
+
+    // Swipe gestures: down closes the tools sheet; left closes navigation.
+    function addSwipeToClose(element, axis) {
+        if (!element) return;
+        let startX = 0;
+        let startY = 0;
+
+        element.addEventListener("touchstart", event => {
+            const touch = event.touches[0];
+            startX = touch.clientX;
+            startY = touch.clientY;
+        }, { passive: true });
+
+        element.addEventListener("touchend", event => {
+            const touch = event.changedTouches[0];
+            const deltaX = touch.clientX - startX;
+            const deltaY = touch.clientY - startY;
+
+            if (axis === "down" && deltaY > 72 && Math.abs(deltaY) > Math.abs(deltaX)) {
+                closeMobileDrawers();
+            }
+
+            if (axis === "left" && deltaX < -72 && Math.abs(deltaX) > Math.abs(deltaY)) {
+                closeMobileDrawers();
+            }
+        }, { passive: true });
+    }
+
+    addSwipeToClose(mapSidePanel, "down");
+    addSwipeToClose(primarySidebar, "left");
+
     primarySidebar?.querySelectorAll("a").forEach(link => {
         link.addEventListener("click", () => {
             if (mobileBreakpoint.matches) closeMobileDrawers();
@@ -489,6 +561,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.addEventListener("resize", () => refreshMapLayout(100));
     window.addEventListener("orientationchange", () => refreshMapLayout(300));
+    window.visualViewport?.addEventListener("resize", () => refreshMapLayout(80));
 
     // InfoPanel dispatches this event when map details are selected.
     document.addEventListener("dzatlas:open-map-tools", () => {
