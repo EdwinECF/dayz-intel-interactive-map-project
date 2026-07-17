@@ -118,11 +118,11 @@
   "presentation": {
     "accentColor": "#c89b45",
     "icon": "fa-box-open",
-    "coverImage": "../assets/guides/covers/early-game-loot-route.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/early-game-loot-route.webp",
+    "coverImage": "../assets/guides/covers/early-game-loot-route.png",
+    "thumbnailImage": "../assets/guides/thumbnails/early-game-loot-route.png",
     "coverAlt": "DayZ scene illustrating Building an Early-Game Loot Route",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

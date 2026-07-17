@@ -119,11 +119,11 @@
   "presentation": {
     "accentColor": "#678da8",
     "icon": "fa-vest",
-    "coverImage": "../assets/guides/covers/clothing-selection.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/clothing-selection.webp",
+    "coverImage": "../assets/guides/covers/clothing-selection.png",
+    "thumbnailImage": "../assets/guides/thumbnails/clothing-selection.png",
     "coverAlt": "DayZ scene illustrating Choosing Clothing and Backpacks",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

@@ -120,11 +120,11 @@
   "presentation": {
     "accentColor": "#d95d5d",
     "icon": "fa-kit-medical",
-    "coverImage": "../assets/guides/covers/bleeding-and-blood.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/bleeding-and-blood.webp",
+    "coverImage": "../assets/guides/covers/bleeding-and-blood.png",
+    "thumbnailImage": "../assets/guides/thumbnails/bleeding-and-blood.png",
     "coverAlt": "DayZ scene illustrating Bleeding, Blood Loss, and Recovery",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

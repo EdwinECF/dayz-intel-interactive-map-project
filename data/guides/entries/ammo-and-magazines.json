@@ -118,11 +118,11 @@
   "presentation": {
     "accentColor": "#8a8f98",
     "icon": "fa-gun",
-    "coverImage": "../assets/guides/covers/ammo-and-magazines.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/ammo-and-magazines.webp",
+    "coverImage": "../assets/guides/covers/ammo-and-magazines.png",
+    "thumbnailImage": "../assets/guides/thumbnails/ammo-and-magazines.png",
     "coverAlt": "DayZ scene illustrating Ammunition and Magazine Compatibility",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

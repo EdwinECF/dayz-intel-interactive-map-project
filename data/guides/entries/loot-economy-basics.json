@@ -118,11 +118,11 @@
   "presentation": {
     "accentColor": "#c89b45",
     "icon": "fa-box-open",
-    "coverImage": "../assets/guides/covers/loot-economy-basics.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/loot-economy-basics.webp",
+    "coverImage": "../assets/guides/covers/loot-economy-basics.png",
+    "thumbnailImage": "../assets/guides/thumbnails/loot-economy-basics.png",
     "coverAlt": "DayZ scene illustrating Loot Economy Basics",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

@@ -121,11 +121,11 @@
   "presentation": {
     "accentColor": "#d95d5d",
     "icon": "fa-kit-medical",
-    "coverImage": "../assets/guides/covers/basic-medical-loadout.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/basic-medical-loadout.webp",
+    "coverImage": "../assets/guides/covers/basic-medical-loadout.png",
+    "thumbnailImage": "../assets/guides/thumbnails/basic-medical-loadout.png",
     "coverAlt": "DayZ scene illustrating Basic Medical Loadout",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

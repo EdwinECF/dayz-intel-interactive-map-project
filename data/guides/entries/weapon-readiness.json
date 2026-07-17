@@ -133,11 +133,11 @@
   "presentation": {
     "accentColor": "#8a8f98",
     "icon": "fa-gun",
-    "coverImage": "../assets/guides/covers/weapon-readiness.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/weapon-readiness.webp",
+    "coverImage": "../assets/guides/covers/weapon-readiness.png",
+    "thumbnailImage": "../assets/guides/thumbnails/weapon-readiness.png",
     "coverAlt": "DayZ scene illustrating Making a Firearm Ready",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

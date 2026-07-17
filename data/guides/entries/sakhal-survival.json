@@ -133,11 +133,11 @@
   "presentation": {
     "accentColor": "#567a9c",
     "icon": "fa-map",
-    "coverImage": "../assets/guides/covers/sakhal-survival.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/sakhal-survival.webp",
+    "coverImage": "../assets/guides/covers/sakhal-survival.png",
+    "thumbnailImage": "../assets/guides/thumbnails/sakhal-survival.png",
     "coverAlt": "DayZ scene illustrating Sakhal Cold-Weather Survival",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

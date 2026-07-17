@@ -334,8 +334,41 @@
       const guideFile = file || cardData?.file;
       if (!guideFile) throw new Error("No guide file path was found.");
 
-      const response = await fetch(`${CONFIG.guideBaseUrl}${guideFile}`, { cache: "no-cache" });
-      if (!response.ok) throw new Error(`Guide request failed with HTTP ${response.status}`);
+      // Resolve the entry from the actual Guides page URL. This remains reliable
+      // when DZ-Atlas is hosted inside a repository subfolder or local server.
+      const guideBase = new URL(CONFIG.guideBaseUrl, window.location.href);
+      const guideUrl = new URL(guideFile, guideBase);
+
+      const controller = new AbortController();
+      const timeoutId = window.setTimeout(() => controller.abort(), 10000);
+
+      let response;
+      try {
+        response = await fetch(guideUrl.href, {
+          cache: "no-store",
+          signal: controller.signal,
+          headers: { "Accept": "application/json" }
+        });
+      } finally {
+        window.clearTimeout(timeoutId);
+      }
+
+      if (!response.ok) {
+        throw new Error(
+          `Guide request failed with HTTP ${response.status}: ${guideUrl.href}`
+        );
+      }
+
+      const contentType = response.headers.get("content-type") || "";
+      if (!contentType.includes("application/json") &&
+          !contentType.includes("text/json")) {
+        const preview = (await response.text()).slice(0, 120);
+        throw new TypeError(
+          `Expected JSON from ${guideUrl.href}, but received ` +
+          `${contentType || "an unknown content type"}. Response begins: ${preview}`
+        );
+      }
+
       const guide = await response.json();
       if (requestId !== state.readerRequest) return;
 
@@ -349,6 +382,20 @@
       if (requestId !== state.readerRequest) return;
       console.error("[DZ-Atlas Guide Reader]", error);
       readerPanel?.setAttribute("aria-busy", "false");
+
+      const errorPanel = document.getElementById("guide-reader-error");
+      const errorMessage = errorPanel?.querySelector("p");
+
+      if (errorMessage) {
+        if (error?.name === "AbortError") {
+          errorMessage.textContent =
+            "The guide request timed out. Check the local server and the entry file path.";
+        } else {
+          errorMessage.textContent =
+            error?.message || "The guide file could not be loaded.";
+        }
+      }
+
       showReaderState("error");
     }
   }

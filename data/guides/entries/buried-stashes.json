@@ -120,11 +120,11 @@
   "presentation": {
     "accentColor": "#8e765d",
     "icon": "fa-house",
-    "coverImage": "../assets/guides/covers/buried-stashes.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/buried-stashes.webp",
+    "coverImage": "../assets/guides/covers/buried-stashes.png",
+    "thumbnailImage": "../assets/guides/thumbnails/buried-stashes.png",
     "coverAlt": "DayZ scene illustrating Caches and Buried Stashes",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

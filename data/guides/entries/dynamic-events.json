@@ -132,11 +132,11 @@
   "presentation": {
     "accentColor": "#c89b45",
     "icon": "fa-box-open",
-    "coverImage": "../assets/guides/covers/dynamic-events.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/dynamic-events.webp",
+    "coverImage": "../assets/guides/covers/dynamic-events.png",
+    "thumbnailImage": "../assets/guides/thumbnails/dynamic-events.png",
     "coverAlt": "DayZ scene illustrating Dynamic Events and High-Value Loot",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

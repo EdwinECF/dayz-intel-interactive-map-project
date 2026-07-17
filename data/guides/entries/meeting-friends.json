@@ -131,11 +131,11 @@
   "presentation": {
     "accentColor": "#5e92b8",
     "icon": "fa-compass",
-    "coverImage": "../assets/guides/covers/meeting-friends.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/meeting-friends.webp",
+    "coverImage": "../assets/guides/covers/meeting-friends.png",
+    "thumbnailImage": "../assets/guides/thumbnails/meeting-friends.png",
     "coverAlt": "DayZ scene illustrating Meeting Friends After Spawning",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

@@ -145,11 +145,11 @@
   "presentation": {
     "accentColor": "#8e765d",
     "icon": "fa-house",
-    "coverImage": "../assets/guides/covers/base-building-basics.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/base-building-basics.webp",
+    "coverImage": "../assets/guides/covers/base-building-basics.png",
+    "thumbnailImage": "../assets/guides/thumbnails/base-building-basics.png",
     "coverAlt": "DayZ scene illustrating Base Building Fundamentals",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

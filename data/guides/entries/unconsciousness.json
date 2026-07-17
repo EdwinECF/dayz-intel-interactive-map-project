@@ -120,11 +120,11 @@
   "presentation": {
     "accentColor": "#d95d5d",
     "icon": "fa-kit-medical",
-    "coverImage": "../assets/guides/covers/unconsciousness.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/unconsciousness.webp",
+    "coverImage": "../assets/guides/covers/unconsciousness.png",
+    "thumbnailImage": "../assets/guides/thumbnails/unconsciousness.png",
     "coverAlt": "DayZ scene illustrating Unconsciousness and Reviving Teammates",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

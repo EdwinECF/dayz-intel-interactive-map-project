@@ -132,11 +132,11 @@
   "presentation": {
     "accentColor": "#bb5a4a",
     "icon": "fa-crosshairs",
-    "coverImage": "../assets/guides/covers/group-combat.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/group-combat.webp",
+    "coverImage": "../assets/guides/covers/group-combat.png",
+    "thumbnailImage": "../assets/guides/thumbnails/group-combat.png",
     "coverAlt": "DayZ scene illustrating Group Communication and Combat",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {
