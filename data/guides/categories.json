@@ -7,7 +7,7 @@
       "name": "Getting Started",
       "icon": "fa-person-running",
       "accentColor": "#72a85a",
-      "coverImage": "../assets/guides/categories/getting-started.webp",
+      "coverImage": "../assets/guides/categories/getting-started.png",
       "description": "Browse getting started guides for vanilla DayZ."
     },
     {
@@ -15,7 +15,7 @@
       "name": "Survival",
       "icon": "fa-fire",
       "accentColor": "#d08a3c",
-      "coverImage": "../assets/guides/categories/survival.webp",
+      "coverImage": "../assets/guides/categories/survival.png",
       "description": "Browse survival guides for vanilla DayZ."
     },
     {
@@ -23,7 +23,7 @@
       "name": "Medical",
       "icon": "fa-kit-medical",
       "accentColor": "#d95d5d",
-      "coverImage": "../assets/guides/categories/medical.webp",
+      "coverImage": "../assets/guides/categories/medical.png",
       "description": "Browse medical guides for vanilla DayZ."
     },
     {
@@ -31,7 +31,7 @@
       "name": "Combat",
       "icon": "fa-crosshairs",
       "accentColor": "#bb5a4a",
-      "coverImage": "../assets/guides/categories/combat.webp",
+      "coverImage": "../assets/guides/categories/combat.png",
       "description": "Browse combat guides for vanilla DayZ."
     },
     {
@@ -39,7 +39,7 @@
       "name": "Weapons",
       "icon": "fa-gun",
       "accentColor": "#8a8f98",
-      "coverImage": "../assets/guides/categories/weapons.webp",
+      "coverImage": "../assets/guides/categories/weapons.png",
       "description": "Browse weapons guides for vanilla DayZ."
     },
     {
@@ -47,7 +47,7 @@
       "name": "Looting",
       "icon": "fa-box-open",
       "accentColor": "#c89b45",
-      "coverImage": "../assets/guides/categories/looting.webp",
+      "coverImage": "../assets/guides/categories/looting.png",
       "description": "Browse looting guides for vanilla DayZ."
     },
     {
@@ -55,7 +55,7 @@
       "name": "Gear",
       "icon": "fa-vest",
       "accentColor": "#678da8",
-      "coverImage": "../assets/guides/categories/gear.webp",
+      "coverImage": "../assets/guides/categories/gear.png",
       "description": "Browse gear guides for vanilla DayZ."
     },
     {
@@ -63,7 +63,7 @@
       "name": "Crafting",
       "icon": "fa-hammer",
       "accentColor": "#a8784f",
-      "coverImage": "../assets/guides/categories/crafting.webp",
+      "coverImage": "../assets/guides/categories/crafting.png",
       "description": "Browse crafting guides for vanilla DayZ."
     },
     {
@@ -71,7 +71,7 @@
       "name": "Base Building",
       "icon": "fa-house",
       "accentColor": "#8e765d",
-      "coverImage": "../assets/guides/categories/base-building.webp",
+      "coverImage": "../assets/guides/categories/base-building.png",
       "description": "Browse base building guides for vanilla DayZ."
     },
     {
@@ -79,7 +79,7 @@
       "name": "Vehicles",
       "icon": "fa-car",
       "accentColor": "#638f87",
-      "coverImage": "../assets/guides/categories/vehicles.webp",
+      "coverImage": "../assets/guides/categories/vehicles.png",
       "description": "Browse vehicles guides for vanilla DayZ."
     },
     {
@@ -87,7 +87,7 @@
       "name": "Navigation",
       "icon": "fa-compass",
       "accentColor": "#5e92b8",
-      "coverImage": "../assets/guides/categories/navigation.webp",
+      "coverImage": "../assets/guides/categories/navigation.png",
       "description": "Browse navigation guides for vanilla DayZ."
     },
     {
@@ -95,7 +95,7 @@
       "name": "Hazards",
       "icon": "fa-biohazard",
       "accentColor": "#9c8d45",
-      "coverImage": "../assets/guides/categories/hazards.webp",
+      "coverImage": "../assets/guides/categories/hazards.png",
       "description": "Browse hazards guides for vanilla DayZ."
     },
     {
@@ -103,7 +103,7 @@
       "name": "Map Guides",
       "icon": "fa-map",
       "accentColor": "#567a9c",
-      "coverImage": "../assets/guides/categories/map-guides.webp",
+      "coverImage": "../assets/guides/categories/map-guides.png",
       "description": "Browse map guides guides for vanilla DayZ."
     }
   ]

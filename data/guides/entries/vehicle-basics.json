@@ -133,11 +133,11 @@
   "presentation": {
     "accentColor": "#638f87",
     "icon": "fa-car",
-    "coverImage": "../assets/guides/covers/vehicle-basics.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/vehicle-basics.webp",
+    "coverImage": "../assets/guides/covers/vehicle-basics.png",
+    "thumbnailImage": "../assets/guides/thumbnails/vehicle-basics.png",
     "coverAlt": "DayZ scene illustrating Finding and Repairing a Vehicle",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

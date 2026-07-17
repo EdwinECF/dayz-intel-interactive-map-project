@@ -131,11 +131,11 @@
   "presentation": {
     "accentColor": "#d08a3c",
     "icon": "fa-fire",
-    "coverImage": "../assets/guides/covers/fishing.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/fishing.webp",
+    "coverImage": "../assets/guides/covers/fishing.png",
+    "thumbnailImage": "../assets/guides/thumbnails/fishing.png",
     "coverAlt": "DayZ scene illustrating Fishing for Reliable Food",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

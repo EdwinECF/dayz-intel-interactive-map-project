@@ -7,9 +7,9 @@
   "entityType": "guide-index",
   "generatedOn": "2026-07-16",
   "defaultAssets": {
-    "coverImage": "../assets/guides/placeholders/guide-default.webp",
-    "thumbnailImage": "../assets/guides/placeholders/guide-card-default.webp",
-    "stepImage": "../assets/guides/placeholders/guide-step-default.webp"
+    "coverImage": "../assets/guides/placeholders/guide-default.png",
+    "thumbnailImage": "../assets/guides/placeholders/guide-card-default.png",
+    "stepImage": "../assets/guides/placeholders/guide-step-default.png"
   },
   "readerConfig": {
     "enableBookmarks": true,
@@ -54,11 +54,11 @@
       "presentation": {
         "accentColor": "#72a85a",
         "icon": "fa-person-running",
-        "coverImage": "../assets/guides/covers/first-30-minutes.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/first-30-minutes.webp",
+        "coverImage": "../assets/guides/covers/first-30-minutes.png",
+        "thumbnailImage": "../assets/guides/thumbnails/first-30-minutes.png",
         "coverAlt": "DayZ scene illustrating Your First 30 Minutes",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -94,11 +94,11 @@
       "presentation": {
         "accentColor": "#5e92b8",
         "icon": "fa-compass",
-        "coverImage": "../assets/guides/covers/navigation-basics.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/navigation-basics.webp",
+        "coverImage": "../assets/guides/covers/navigation-basics.png",
+        "thumbnailImage": "../assets/guides/thumbnails/navigation-basics.png",
         "coverAlt": "DayZ scene illustrating Navigation Without GPS",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -134,11 +134,11 @@
       "presentation": {
         "accentColor": "#d08a3c",
         "icon": "fa-fire",
-        "coverImage": "../assets/guides/covers/safe-water.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/safe-water.webp",
+        "coverImage": "../assets/guides/covers/safe-water.png",
+        "thumbnailImage": "../assets/guides/thumbnails/safe-water.png",
         "coverAlt": "DayZ scene illustrating Finding and Keeping Water Safe",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -174,11 +174,11 @@
       "presentation": {
         "accentColor": "#d08a3c",
         "icon": "fa-fire",
-        "coverImage": "../assets/guides/covers/food-and-energy.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/food-and-energy.webp",
+        "coverImage": "../assets/guides/covers/food-and-energy.png",
+        "thumbnailImage": "../assets/guides/thumbnails/food-and-energy.png",
         "coverAlt": "DayZ scene illustrating Food, Energy, and Efficient Eating",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -215,11 +215,11 @@
       "presentation": {
         "accentColor": "#d08a3c",
         "icon": "fa-fire",
-        "coverImage": "../assets/guides/covers/temperature-and-weather.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/temperature-and-weather.webp",
+        "coverImage": "../assets/guides/covers/temperature-and-weather.png",
+        "thumbnailImage": "../assets/guides/thumbnails/temperature-and-weather.png",
         "coverAlt": "DayZ scene illustrating Temperature, Rain, and Cold Survival",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -255,11 +255,11 @@
       "presentation": {
         "accentColor": "#d95d5d",
         "icon": "fa-kit-medical",
-        "coverImage": "../assets/guides/covers/basic-medical-loadout.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/basic-medical-loadout.webp",
+        "coverImage": "../assets/guides/covers/basic-medical-loadout.png",
+        "thumbnailImage": "../assets/guides/thumbnails/basic-medical-loadout.png",
         "coverAlt": "DayZ scene illustrating Basic Medical Loadout",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -295,11 +295,11 @@
       "presentation": {
         "accentColor": "#d95d5d",
         "icon": "fa-kit-medical",
-        "coverImage": "../assets/guides/covers/bleeding-and-blood.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/bleeding-and-blood.webp",
+        "coverImage": "../assets/guides/covers/bleeding-and-blood.png",
+        "thumbnailImage": "../assets/guides/thumbnails/bleeding-and-blood.png",
         "coverAlt": "DayZ scene illustrating Bleeding, Blood Loss, and Recovery",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -336,11 +336,11 @@
       "presentation": {
         "accentColor": "#d95d5d",
         "icon": "fa-kit-medical",
-        "coverImage": "../assets/guides/covers/disease-prevention.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/disease-prevention.webp",
+        "coverImage": "../assets/guides/covers/disease-prevention.png",
+        "thumbnailImage": "../assets/guides/thumbnails/disease-prevention.png",
         "coverAlt": "DayZ scene illustrating Preventing Common Illnesses",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -376,11 +376,11 @@
       "presentation": {
         "accentColor": "#d95d5d",
         "icon": "fa-kit-medical",
-        "coverImage": "../assets/guides/covers/disease-response.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/disease-response.webp",
+        "coverImage": "../assets/guides/covers/disease-response.png",
+        "thumbnailImage": "../assets/guides/thumbnails/disease-response.png",
         "coverAlt": "DayZ scene illustrating Responding to Sickness",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -416,11 +416,11 @@
       "presentation": {
         "accentColor": "#d95d5d",
         "icon": "fa-kit-medical",
-        "coverImage": "../assets/guides/covers/unconsciousness.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/unconsciousness.webp",
+        "coverImage": "../assets/guides/covers/unconsciousness.png",
+        "thumbnailImage": "../assets/guides/thumbnails/unconsciousness.png",
         "coverAlt": "DayZ scene illustrating Unconsciousness and Reviving Teammates",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -456,11 +456,11 @@
       "presentation": {
         "accentColor": "#bb5a4a",
         "icon": "fa-crosshairs",
-        "coverImage": "../assets/guides/covers/infected-combat.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/infected-combat.webp",
+        "coverImage": "../assets/guides/covers/infected-combat.png",
+        "thumbnailImage": "../assets/guides/thumbnails/infected-combat.png",
         "coverAlt": "DayZ scene illustrating Fighting and Avoiding Infected",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -496,11 +496,11 @@
       "presentation": {
         "accentColor": "#bb5a4a",
         "icon": "fa-crosshairs",
-        "coverImage": "../assets/guides/covers/stealth-and-noise.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/stealth-and-noise.webp",
+        "coverImage": "../assets/guides/covers/stealth-and-noise.png",
+        "thumbnailImage": "../assets/guides/thumbnails/stealth-and-noise.png",
         "coverAlt": "DayZ scene illustrating Stealth, Visibility, and Noise",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -536,11 +536,11 @@
       "presentation": {
         "accentColor": "#8a8f98",
         "icon": "fa-gun",
-        "coverImage": "../assets/guides/covers/weapon-readiness.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/weapon-readiness.webp",
+        "coverImage": "../assets/guides/covers/weapon-readiness.png",
+        "thumbnailImage": "../assets/guides/thumbnails/weapon-readiness.png",
         "coverAlt": "DayZ scene illustrating Making a Firearm Ready",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -576,11 +576,11 @@
       "presentation": {
         "accentColor": "#8a8f98",
         "icon": "fa-gun",
-        "coverImage": "../assets/guides/covers/ammo-and-magazines.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/ammo-and-magazines.webp",
+        "coverImage": "../assets/guides/covers/ammo-and-magazines.png",
+        "thumbnailImage": "../assets/guides/thumbnails/ammo-and-magazines.png",
         "coverAlt": "DayZ scene illustrating Ammunition and Magazine Compatibility",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -615,11 +615,11 @@
       "presentation": {
         "accentColor": "#8a8f98",
         "icon": "fa-gun",
-        "coverImage": "../assets/guides/covers/weapon-maintenance.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/weapon-maintenance.webp",
+        "coverImage": "../assets/guides/covers/weapon-maintenance.png",
+        "thumbnailImage": "../assets/guides/thumbnails/weapon-maintenance.png",
         "coverAlt": "DayZ scene illustrating Weapon Maintenance and Jams",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -655,11 +655,11 @@
       "presentation": {
         "accentColor": "#8a8f98",
         "icon": "fa-gun",
-        "coverImage": "../assets/guides/covers/optics-and-zeroing.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/optics-and-zeroing.webp",
+        "coverImage": "../assets/guides/covers/optics-and-zeroing.png",
+        "thumbnailImage": "../assets/guides/thumbnails/optics-and-zeroing.png",
         "coverAlt": "DayZ scene illustrating Optics, Range, and Zeroing",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -695,11 +695,11 @@
       "presentation": {
         "accentColor": "#bb5a4a",
         "icon": "fa-crosshairs",
-        "coverImage": "../assets/guides/covers/pvp-awareness.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/pvp-awareness.webp",
+        "coverImage": "../assets/guides/covers/pvp-awareness.png",
+        "thumbnailImage": "../assets/guides/thumbnails/pvp-awareness.png",
         "coverAlt": "DayZ scene illustrating PvP Awareness and Contact Decisions",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -735,11 +735,11 @@
       "presentation": {
         "accentColor": "#bb5a4a",
         "icon": "fa-crosshairs",
-        "coverImage": "../assets/guides/covers/group-combat.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/group-combat.webp",
+        "coverImage": "../assets/guides/covers/group-combat.png",
+        "thumbnailImage": "../assets/guides/thumbnails/group-combat.png",
         "coverAlt": "DayZ scene illustrating Group Communication and Combat",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -775,11 +775,11 @@
       "presentation": {
         "accentColor": "#c89b45",
         "icon": "fa-box-open",
-        "coverImage": "../assets/guides/covers/looting-safely.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/looting-safely.webp",
+        "coverImage": "../assets/guides/covers/looting-safely.png",
+        "thumbnailImage": "../assets/guides/thumbnails/looting-safely.png",
         "coverAlt": "DayZ scene illustrating Looting Buildings Safely",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -814,11 +814,11 @@
       "presentation": {
         "accentColor": "#c89b45",
         "icon": "fa-box-open",
-        "coverImage": "../assets/guides/covers/early-game-loot-route.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/early-game-loot-route.webp",
+        "coverImage": "../assets/guides/covers/early-game-loot-route.png",
+        "thumbnailImage": "../assets/guides/thumbnails/early-game-loot-route.png",
         "coverAlt": "DayZ scene illustrating Building an Early-Game Loot Route",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -854,11 +854,11 @@
       "presentation": {
         "accentColor": "#c89b45",
         "icon": "fa-box-open",
-        "coverImage": "../assets/guides/covers/loot-economy-basics.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/loot-economy-basics.webp",
+        "coverImage": "../assets/guides/covers/loot-economy-basics.png",
+        "thumbnailImage": "../assets/guides/thumbnails/loot-economy-basics.png",
         "coverAlt": "DayZ scene illustrating Loot Economy Basics",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -894,11 +894,11 @@
       "presentation": {
         "accentColor": "#678da8",
         "icon": "fa-vest",
-        "coverImage": "../assets/guides/covers/inventory-management.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/inventory-management.webp",
+        "coverImage": "../assets/guides/covers/inventory-management.png",
+        "thumbnailImage": "../assets/guides/thumbnails/inventory-management.png",
         "coverAlt": "DayZ scene illustrating Inventory and Carry Weight",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -934,11 +934,11 @@
       "presentation": {
         "accentColor": "#678da8",
         "icon": "fa-vest",
-        "coverImage": "../assets/guides/covers/clothing-selection.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/clothing-selection.webp",
+        "coverImage": "../assets/guides/covers/clothing-selection.png",
+        "thumbnailImage": "../assets/guides/thumbnails/clothing-selection.png",
         "coverAlt": "DayZ scene illustrating Choosing Clothing and Backpacks",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -974,11 +974,11 @@
       "presentation": {
         "accentColor": "#a8784f",
         "icon": "fa-hammer",
-        "coverImage": "../assets/guides/covers/cooking-fire.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/cooking-fire.webp",
+        "coverImage": "../assets/guides/covers/cooking-fire.png",
+        "thumbnailImage": "../assets/guides/thumbnails/cooking-fire.png",
         "coverAlt": "DayZ scene illustrating Building a Fire and Cooking Food",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1014,11 +1014,11 @@
       "presentation": {
         "accentColor": "#d08a3c",
         "icon": "fa-fire",
-        "coverImage": "../assets/guides/covers/hunting-and-butchering.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/hunting-and-butchering.webp",
+        "coverImage": "../assets/guides/covers/hunting-and-butchering.png",
+        "thumbnailImage": "../assets/guides/thumbnails/hunting-and-butchering.png",
         "coverAlt": "DayZ scene illustrating Hunting and Butchering Animals",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1054,11 +1054,11 @@
       "presentation": {
         "accentColor": "#d08a3c",
         "icon": "fa-fire",
-        "coverImage": "../assets/guides/covers/fishing.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/fishing.webp",
+        "coverImage": "../assets/guides/covers/fishing.png",
+        "thumbnailImage": "../assets/guides/thumbnails/fishing.png",
         "coverAlt": "DayZ scene illustrating Fishing for Reliable Food",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1094,11 +1094,11 @@
       "presentation": {
         "accentColor": "#a8784f",
         "icon": "fa-hammer",
-        "coverImage": "../assets/guides/covers/basic-crafting.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/basic-crafting.webp",
+        "coverImage": "../assets/guides/covers/basic-crafting.png",
+        "thumbnailImage": "../assets/guides/thumbnails/basic-crafting.png",
         "coverAlt": "DayZ scene illustrating Essential Early Crafting",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1134,11 +1134,11 @@
       "presentation": {
         "accentColor": "#8e765d",
         "icon": "fa-house",
-        "coverImage": "../assets/guides/covers/improvised-shelter.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/improvised-shelter.webp",
+        "coverImage": "../assets/guides/covers/improvised-shelter.png",
+        "thumbnailImage": "../assets/guides/thumbnails/improvised-shelter.png",
         "coverAlt": "DayZ scene illustrating Improvised Shelters and Camps",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1175,11 +1175,11 @@
       "presentation": {
         "accentColor": "#8e765d",
         "icon": "fa-house",
-        "coverImage": "../assets/guides/covers/base-building-basics.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/base-building-basics.webp",
+        "coverImage": "../assets/guides/covers/base-building-basics.png",
+        "thumbnailImage": "../assets/guides/thumbnails/base-building-basics.png",
         "coverAlt": "DayZ scene illustrating Base Building Fundamentals",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1215,11 +1215,11 @@
       "presentation": {
         "accentColor": "#8e765d",
         "icon": "fa-house",
-        "coverImage": "../assets/guides/covers/buried-stashes.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/buried-stashes.webp",
+        "coverImage": "../assets/guides/covers/buried-stashes.png",
+        "thumbnailImage": "../assets/guides/thumbnails/buried-stashes.png",
         "coverAlt": "DayZ scene illustrating Caches and Buried Stashes",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1256,11 +1256,11 @@
       "presentation": {
         "accentColor": "#638f87",
         "icon": "fa-car",
-        "coverImage": "../assets/guides/covers/vehicle-basics.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/vehicle-basics.webp",
+        "coverImage": "../assets/guides/covers/vehicle-basics.png",
+        "thumbnailImage": "../assets/guides/thumbnails/vehicle-basics.png",
         "coverAlt": "DayZ scene illustrating Finding and Repairing a Vehicle",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1296,11 +1296,11 @@
       "presentation": {
         "accentColor": "#638f87",
         "icon": "fa-car",
-        "coverImage": "../assets/guides/covers/vehicle-driving.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/vehicle-driving.webp",
+        "coverImage": "../assets/guides/covers/vehicle-driving.png",
+        "thumbnailImage": "../assets/guides/thumbnails/vehicle-driving.png",
         "coverAlt": "DayZ scene illustrating Driving and Vehicle Survival",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1336,11 +1336,11 @@
       "presentation": {
         "accentColor": "#9c8d45",
         "icon": "fa-biohazard",
-        "coverImage": "../assets/guides/covers/contaminated-zones.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/contaminated-zones.webp",
+        "coverImage": "../assets/guides/covers/contaminated-zones.png",
+        "thumbnailImage": "../assets/guides/thumbnails/contaminated-zones.png",
         "coverAlt": "DayZ scene illustrating Contaminated Zones and PO-X Gas",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1376,11 +1376,11 @@
       "presentation": {
         "accentColor": "#c89b45",
         "icon": "fa-box-open",
-        "coverImage": "../assets/guides/covers/dynamic-events.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/dynamic-events.webp",
+        "coverImage": "../assets/guides/covers/dynamic-events.png",
+        "thumbnailImage": "../assets/guides/thumbnails/dynamic-events.png",
         "coverAlt": "DayZ scene illustrating Dynamic Events and High-Value Loot",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1416,11 +1416,11 @@
       "presentation": {
         "accentColor": "#5e92b8",
         "icon": "fa-compass",
-        "coverImage": "../assets/guides/covers/long-distance-travel.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/long-distance-travel.webp",
+        "coverImage": "../assets/guides/covers/long-distance-travel.png",
+        "thumbnailImage": "../assets/guides/thumbnails/long-distance-travel.png",
         "coverAlt": "DayZ scene illustrating Planning Long-Distance Travel",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1456,11 +1456,11 @@
       "presentation": {
         "accentColor": "#5e92b8",
         "icon": "fa-compass",
-        "coverImage": "../assets/guides/covers/meeting-friends.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/meeting-friends.webp",
+        "coverImage": "../assets/guides/covers/meeting-friends.png",
+        "thumbnailImage": "../assets/guides/thumbnails/meeting-friends.png",
         "coverAlt": "DayZ scene illustrating Meeting Friends After Spawning",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1496,11 +1496,11 @@
       "presentation": {
         "accentColor": "#bb5a4a",
         "icon": "fa-crosshairs",
-        "coverImage": "../assets/guides/covers/sniping-and-overwatch.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/sniping-and-overwatch.webp",
+        "coverImage": "../assets/guides/covers/sniping-and-overwatch.png",
+        "thumbnailImage": "../assets/guides/thumbnails/sniping-and-overwatch.png",
         "coverAlt": "DayZ scene illustrating Overwatch and Long-Range Positioning",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {
@@ -1536,11 +1536,11 @@
       "presentation": {
         "accentColor": "#567a9c",
         "icon": "fa-map",
-        "coverImage": "../assets/guides/covers/sakhal-survival.webp",
-        "thumbnailImage": "../assets/guides/thumbnails/sakhal-survival.webp",
+        "coverImage": "../assets/guides/covers/sakhal-survival.png",
+        "thumbnailImage": "../assets/guides/thumbnails/sakhal-survival.png",
         "coverAlt": "DayZ scene illustrating Sakhal Cold-Weather Survival",
         "heroFocalPoint": "center",
-        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+        "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
         "cardStyle": "image"
       },
       "verification": {

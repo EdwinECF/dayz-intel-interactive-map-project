@@ -132,11 +132,11 @@
   "presentation": {
     "accentColor": "#638f87",
     "icon": "fa-car",
-    "coverImage": "../assets/guides/covers/vehicle-driving.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/vehicle-driving.webp",
+    "coverImage": "../assets/guides/covers/vehicle-driving.png",
+    "thumbnailImage": "../assets/guides/thumbnails/vehicle-driving.png",
     "coverAlt": "DayZ scene illustrating Driving and Vehicle Survival",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

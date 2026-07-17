@@ -133,11 +133,11 @@
   "presentation": {
     "accentColor": "#a8784f",
     "icon": "fa-hammer",
-    "coverImage": "../assets/guides/covers/cooking-fire.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/cooking-fire.webp",
+    "coverImage": "../assets/guides/covers/cooking-fire.png",
+    "thumbnailImage": "../assets/guides/thumbnails/cooking-fire.png",
     "coverAlt": "DayZ scene illustrating Building a Fire and Cooking Food",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

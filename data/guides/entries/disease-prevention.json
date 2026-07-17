@@ -121,11 +121,11 @@
   "presentation": {
     "accentColor": "#d95d5d",
     "icon": "fa-kit-medical",
-    "coverImage": "../assets/guides/covers/disease-prevention.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/disease-prevention.webp",
+    "coverImage": "../assets/guides/covers/disease-prevention.png",
+    "thumbnailImage": "../assets/guides/thumbnails/disease-prevention.png",
     "coverAlt": "DayZ scene illustrating Preventing Common Illnesses",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

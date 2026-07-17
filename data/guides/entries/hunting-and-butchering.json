@@ -132,11 +132,11 @@
   "presentation": {
     "accentColor": "#d08a3c",
     "icon": "fa-fire",
-    "coverImage": "../assets/guides/covers/hunting-and-butchering.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/hunting-and-butchering.webp",
+    "coverImage": "../assets/guides/covers/hunting-and-butchering.png",
+    "thumbnailImage": "../assets/guides/thumbnails/hunting-and-butchering.png",
     "coverAlt": "DayZ scene illustrating Hunting and Butchering Animals",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

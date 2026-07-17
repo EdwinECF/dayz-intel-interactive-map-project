@@ -120,11 +120,11 @@
   "presentation": {
     "accentColor": "#d08a3c",
     "icon": "fa-fire",
-    "coverImage": "../assets/guides/covers/safe-water.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/safe-water.webp",
+    "coverImage": "../assets/guides/covers/safe-water.png",
+    "thumbnailImage": "../assets/guides/thumbnails/safe-water.png",
     "coverAlt": "DayZ scene illustrating Finding and Keeping Water Safe",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

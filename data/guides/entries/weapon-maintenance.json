@@ -118,11 +118,11 @@
   "presentation": {
     "accentColor": "#8a8f98",
     "icon": "fa-gun",
-    "coverImage": "../assets/guides/covers/weapon-maintenance.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/weapon-maintenance.webp",
+    "coverImage": "../assets/guides/covers/weapon-maintenance.png",
+    "thumbnailImage": "../assets/guides/thumbnails/weapon-maintenance.png",
     "coverAlt": "DayZ scene illustrating Weapon Maintenance and Jams",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

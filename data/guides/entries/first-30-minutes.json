@@ -136,11 +136,11 @@
   "presentation": {
     "accentColor": "#72a85a",
     "icon": "fa-person-running",
-    "coverImage": "../assets/guides/covers/first-30-minutes.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/first-30-minutes.webp",
+    "coverImage": "../assets/guides/covers/first-30-minutes.png",
+    "thumbnailImage": "../assets/guides/thumbnails/first-30-minutes.png",
     "coverAlt": "DayZ scene illustrating Your First 30 Minutes",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

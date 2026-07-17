@@ -121,11 +121,11 @@
   "presentation": {
     "accentColor": "#d08a3c",
     "icon": "fa-fire",
-    "coverImage": "../assets/guides/covers/food-and-energy.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/food-and-energy.webp",
+    "coverImage": "../assets/guides/covers/food-and-energy.png",
+    "thumbnailImage": "../assets/guides/thumbnails/food-and-energy.png",
     "coverAlt": "DayZ scene illustrating Food, Energy, and Efficient Eating",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

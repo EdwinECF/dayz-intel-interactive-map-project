@@ -133,11 +133,11 @@
   "presentation": {
     "accentColor": "#c89b45",
     "icon": "fa-box-open",
-    "coverImage": "../assets/guides/covers/looting-safely.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/looting-safely.webp",
+    "coverImage": "../assets/guides/covers/looting-safely.png",
+    "thumbnailImage": "../assets/guides/thumbnails/looting-safely.png",
     "coverAlt": "DayZ scene illustrating Looting Buildings Safely",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

@@ -120,11 +120,11 @@
   "presentation": {
     "accentColor": "#5e92b8",
     "icon": "fa-compass",
-    "coverImage": "../assets/guides/covers/navigation-basics.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/navigation-basics.webp",
+    "coverImage": "../assets/guides/covers/navigation-basics.png",
+    "thumbnailImage": "../assets/guides/thumbnails/navigation-basics.png",
     "coverAlt": "DayZ scene illustrating Navigation Without GPS",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

@@ -132,11 +132,11 @@
   "presentation": {
     "accentColor": "#5e92b8",
     "icon": "fa-compass",
-    "coverImage": "../assets/guides/covers/long-distance-travel.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/long-distance-travel.webp",
+    "coverImage": "../assets/guides/covers/long-distance-travel.png",
+    "thumbnailImage": "../assets/guides/thumbnails/long-distance-travel.png",
     "coverAlt": "DayZ scene illustrating Planning Long-Distance Travel",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

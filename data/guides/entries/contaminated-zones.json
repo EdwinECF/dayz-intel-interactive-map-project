@@ -132,11 +132,11 @@
   "presentation": {
     "accentColor": "#9c8d45",
     "icon": "fa-biohazard",
-    "coverImage": "../assets/guides/covers/contaminated-zones.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/contaminated-zones.webp",
+    "coverImage": "../assets/guides/covers/contaminated-zones.png",
+    "thumbnailImage": "../assets/guides/thumbnails/contaminated-zones.png",
     "coverAlt": "DayZ scene illustrating Contaminated Zones and PO-X Gas",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

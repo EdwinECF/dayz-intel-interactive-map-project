@@ -132,11 +132,11 @@
   "presentation": {
     "accentColor": "#8e765d",
     "icon": "fa-house",
-    "coverImage": "../assets/guides/covers/improvised-shelter.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/improvised-shelter.webp",
+    "coverImage": "../assets/guides/covers/improvised-shelter.png",
+    "thumbnailImage": "../assets/guides/thumbnails/improvised-shelter.png",
     "coverAlt": "DayZ scene illustrating Improvised Shelters and Camps",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

@@ -120,11 +120,11 @@
   "presentation": {
     "accentColor": "#a8784f",
     "icon": "fa-hammer",
-    "coverImage": "../assets/guides/covers/basic-crafting.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/basic-crafting.webp",
+    "coverImage": "../assets/guides/covers/basic-crafting.png",
+    "thumbnailImage": "../assets/guides/thumbnails/basic-crafting.png",
     "coverAlt": "DayZ scene illustrating Essential Early Crafting",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

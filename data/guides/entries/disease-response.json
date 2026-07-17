@@ -133,11 +133,11 @@
   "presentation": {
     "accentColor": "#d95d5d",
     "icon": "fa-kit-medical",
-    "coverImage": "../assets/guides/covers/disease-response.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/disease-response.webp",
+    "coverImage": "../assets/guides/covers/disease-response.png",
+    "thumbnailImage": "../assets/guides/thumbnails/disease-response.png",
     "coverAlt": "DayZ scene illustrating Responding to Sickness",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

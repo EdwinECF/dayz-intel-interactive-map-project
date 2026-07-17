@@ -133,11 +133,11 @@
   "presentation": {
     "accentColor": "#bb5a4a",
     "icon": "fa-crosshairs",
-    "coverImage": "../assets/guides/covers/pvp-awareness.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/pvp-awareness.webp",
+    "coverImage": "../assets/guides/covers/pvp-awareness.png",
+    "thumbnailImage": "../assets/guides/thumbnails/pvp-awareness.png",
     "coverAlt": "DayZ scene illustrating PvP Awareness and Contact Decisions",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {

@@ -121,11 +121,11 @@
   "presentation": {
     "accentColor": "#d08a3c",
     "icon": "fa-fire",
-    "coverImage": "../assets/guides/covers/temperature-and-weather.webp",
-    "thumbnailImage": "../assets/guides/thumbnails/temperature-and-weather.webp",
+    "coverImage": "../assets/guides/covers/temperature-and-weather.png",
+    "thumbnailImage": "../assets/guides/thumbnails/temperature-and-weather.png",
     "coverAlt": "DayZ scene illustrating Temperature, Rain, and Cold Survival",
     "heroFocalPoint": "center",
-    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.webp",
+    "fallbackCoverImage": "../assets/guides/placeholders/guide-default.png",
     "cardStyle": "image"
   },
   "reader": {
