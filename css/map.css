@@ -458,12 +458,12 @@
 }
 
 .label-local {
-    font-size: .66em;
+    font-size: .56em;
     font-weight: 500;
     opacity: .8;
 }
 
-.map-label.major { font-size: calc(25px * var(--label-scale)); }
+.map-label.major { font-size: calc(21px * var(--label-scale)); }
 .map-label.medium { font-size: calc(20px * var(--label-scale)); }
 .map-label.small { font-size: calc(19px * var(--label-scale)); }
 
@@ -711,7 +711,7 @@
 .farm-marker { color: #c3a84f; }
 .landmark-marker { color: #c68a4b; }
 .event-marker { color: #8c739d; }
-.animal-marker { color: #b07842; }
+.animal-marker { color: #65b042; }
 .nature-marker { color: #819e67; }
 .infected-marker { color: #91a756; }
 .area-marker { color: #c65a4b; }
