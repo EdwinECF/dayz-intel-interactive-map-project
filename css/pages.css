@@ -1311,3 +1311,11 @@ body::after {
 .guide-document-footer a { color: var(--atlas-primary-bright); }
 
 body.guide-reader-open { overflow: hidden !important; }
+
+/* ======================================================
+   GLOBAL VISIBILITY UTILITY
+   Used by library pages and the guide reader.
+====================================================== */
+.hidden {
+  display: none !important;
+}
