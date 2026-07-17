@@ -1503,3 +1503,260 @@
 body.atlas-library-page.guide-reader-open {
   overflow: hidden !important;
 }
+
+
+/* ======================================================
+   DZ-ATLAS CONTENT PAGES — MOBILE APPLICATION MODE
+   Final override. Keeps map.html fixed while restoring a
+   normal, tappable and scrollable layout on library pages.
+====================================================== */
+
+@media (max-width: 980px) {
+  html:has(body.atlas-library-page) {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100% !important;
+    max-height: none !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior-y: auto !important;
+    touch-action: pan-y !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body.atlas-library-page {
+    position: static !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100dvh !important;
+    max-height: none !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    overscroll-behavior-y: auto !important;
+    touch-action: pan-y !important;
+    background: #070a08;
+  }
+
+  body.atlas-library-page .app-container,
+  body.atlas-library-page .main-content {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100dvh !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  body.atlas-library-page .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body.atlas-library-page .header {
+    position: sticky !important;
+    inset: auto !important;
+    top: 0 !important;
+    z-index: 3000 !important;
+    width: 100% !important;
+    min-height: 68px !important;
+    height: auto !important;
+    padding: 10px 14px 10px 66px !important;
+    border-bottom: 1px solid var(--atlas-border) !important;
+    background: rgba(9, 13, 10, .96) !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,.22);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    pointer-events: auto !important;
+  }
+
+  body.atlas-library-page .header-right,
+  body.atlas-library-page .header-search {
+    height: auto !important;
+    pointer-events: auto !important;
+  }
+
+  body.atlas-library-page .mobile-shell-btn.mobile-menu-btn {
+    position: fixed !important;
+    display: grid !important;
+    top: max(12px, env(safe-area-inset-top)) !important;
+    left: max(12px, env(safe-area-inset-left)) !important;
+    right: auto !important;
+    z-index: 9300 !important;
+    width: 44px !important;
+    height: 44px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    touch-action: manipulation !important;
+  }
+
+  body.atlas-library-page .mobile-drawer-backdrop {
+    z-index: 9190 !important;
+    pointer-events: none;
+  }
+
+  body.atlas-library-page.mobile-menu-active .mobile-drawer-backdrop,
+  body.atlas-library-page.mobile-drawer-active .mobile-drawer-backdrop {
+    pointer-events: auto;
+  }
+
+  body.atlas-library-page .sidebar {
+    z-index: 9200 !important;
+    pointer-events: auto !important;
+  }
+
+  body.atlas-library-page .content,
+  body.atlas-library-page .library-content,
+  body.atlas-library-page .dashboard-content {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    touch-action: pan-y !important;
+  }
+
+  body.atlas-library-page .library-toolbar {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-width: 0;
+  }
+
+  body.atlas-library-page .library-search-wrap {
+    min-width: 0;
+    flex: 1 1 260px;
+  }
+
+  body.atlas-library-page input,
+  body.atlas-library-page button,
+  body.atlas-library-page a,
+  body.atlas-library-page select {
+    pointer-events: auto !important;
+    touch-action: manipulation;
+  }
+
+  body.atlas-library-page .library-card-grid,
+  body.atlas-library-page #guides-container {
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  body.atlas-library-page .category-filter-row {
+    position: relative;
+    z-index: 2;
+    width: calc(100% + 32px);
+    max-width: none;
+    margin-inline: -16px;
+    padding: 3px 16px 11px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;
+  }
+
+  body.atlas-library-page .category-filter-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  body.atlas-library-page .category-filter-btn {
+    flex: 0 0 auto;
+    min-height: 42px;
+    max-width: min(78vw, 290px);
+    padding-inline: 14px;
+    white-space: nowrap;
+    scroll-snap-align: start;
+  }
+
+  body.atlas-library-page .atlas-footer {
+    display: flex !important;
+    flex: 0 0 auto;
+  }
+}
+
+@media (max-width: 680px) {
+  body.atlas-library-page .header {
+    min-height: 64px !important;
+    padding: 8px 10px 8px 62px !important;
+  }
+
+  body.atlas-library-page .mobile-shell-btn.mobile-menu-btn {
+    top: max(10px, env(safe-area-inset-top)) !important;
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  body.atlas-library-page .content,
+  body.atlas-library-page .library-content,
+  body.atlas-library-page .dashboard-content {
+    padding: 12px !important;
+  }
+
+  body.atlas-library-page .library-toolbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  body.atlas-library-page .library-search-wrap {
+    width: 100%;
+  }
+
+  body.atlas-library-page .library-results-meta {
+    min-width: 54px;
+  }
+
+  body.atlas-library-page .category-filter-row {
+    width: calc(100% + 24px);
+    margin-inline: -12px;
+    padding-inline: 12px;
+  }
+
+  body.atlas-library-page .library-card-grid,
+  body.atlas-library-page #guides-container {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+
+  body.atlas-library-page .library-card,
+  body.atlas-library-page .guide-library-card {
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  body.atlas-library-page .library-card[data-mobile-detail] {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body.atlas-library-page .library-card[data-mobile-detail]:active {
+    transform: scale(.988);
+    border-color: var(--atlas-primary-border);
+  }
+
+  body.atlas-library-page .dashboard-stat-grid,
+  body.atlas-library-page .dashboard-grid {
+    width: 100%;
+  }
+}
+
+body.atlas-library-page.mobile-menu-active,
+body.atlas-library-page.mobile-drawer-active,
+body.atlas-library-page.library-detail-open,
+body.atlas-library-page.guide-reader-open {
+  overflow: hidden !important;
+}

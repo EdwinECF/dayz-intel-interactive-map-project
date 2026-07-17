@@ -1319,3 +1319,115 @@ body.guide-reader-open { overflow: hidden !important; }
 .hidden {
   display: none !important;
 }
+
+/* ======================================================
+   MOBILE LIBRARY DETAIL SHEET
+   Generic tap target for Gear, Weapons, Vehicles, Loot,
+   Crafting, Survival, Factions and News cards.
+====================================================== */
+.library-detail-sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 11800;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease, visibility 180ms ease;
+}
+
+.library-detail-sheet.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.library-detail-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(2,4,3,.72);
+  backdrop-filter: blur(5px);
+}
+
+.library-detail-panel {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  width: min(560px, calc(100% - 28px));
+  max-height: min(82dvh, 720px);
+  overflow-y: auto;
+  transform: translate(-50%, 26px);
+  padding: 18px;
+  border: 1px solid var(--atlas-border-strong);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #111612, #090d0a);
+  box-shadow: 0 30px 80px rgba(0,0,0,.62);
+  transition: transform 220ms cubic-bezier(.2,.8,.2,1);
+}
+
+.library-detail-sheet.is-open .library-detail-panel {
+  transform: translate(-50%, 0);
+}
+
+.library-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.library-detail-header span {
+  color: var(--atlas-primary-bright);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: .66rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.library-detail-close {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--atlas-border);
+  border-radius: 11px;
+  background: rgba(255,255,255,.04);
+  color: var(--atlas-text-soft);
+  cursor: pointer;
+}
+
+.library-detail-content .library-card {
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  transform: none !important;
+}
+
+.library-detail-content .library-card:before { display: none; }
+.library-detail-content .library-card-content > p { font-size: .82rem; line-height: 1.7; }
+.library-detail-content .library-card h3 { font-size: 1.55rem; }
+
+@media (min-width: 981px) {
+  .library-card[data-mobile-detail] { cursor: pointer; }
+}
+
+@media (max-width: 680px) {
+  .library-detail-panel {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-height: 86dvh;
+    transform: translateY(104%);
+    border-inline: 0;
+    border-bottom: 0;
+    border-radius: 22px 22px 0 0;
+    padding: 14px 14px calc(18px + env(safe-area-inset-bottom));
+  }
+
+  .library-detail-sheet.is-open .library-detail-panel {
+    transform: translateY(0);
+  }
+}
