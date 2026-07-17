@@ -1151,6 +1151,18 @@
 ====================================================== */
 
 @media (max-width: 980px) {
+  /* Undo the global mobile map viewport lock for library pages. */
+  html:has(body.atlas-library-page) {
+    height: auto !important;
+    min-height: 100%;
+    max-height: none !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior-y: auto;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+  }
+
   body.atlas-library-page {
     position: static;
     inset: auto;
