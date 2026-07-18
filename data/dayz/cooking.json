@@ -1,0 +1,1334 @@
+{
+  "metadata": {
+    "category": "cooking",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 17
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::barrelholes_blue",
+      "className": "BarrelHoles_Blue",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "BarrelHoles_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_BarrelHoles_ColorBase0",
+      "fallbackName": "Barrel Holes Blue",
+      "descriptionShortKey": "$STR_CfgVehicles_BarrelHoles_ColorBase1",
+      "model": "\\dz\\gear\\cooking\\barrel_holes.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "attachments": [
+        "Firewood",
+        "WoodenStick",
+        "Rags",
+        "MedicalBandage",
+        "Paper",
+        "Bark",
+        "DirectCookingA",
+        "DirectCookingB",
+        "DirectCookingC",
+        "SmokingA",
+        "SmokingB",
+        "SmokingC",
+        "SmokingD"
+      ],
+      "inventorySlot": [
+        "Truck_01_Barrel1",
+        "Truck_01_Barrel2",
+        "Truck_01_Barrel3",
+        "Truck_01_Barrel4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+        "\\dz\\gear\\cooking\\data\\barrel_blue_holes_co.paa",
+        "\\dz\\gear\\cooking\\data\\barrel_blue_holes_co.paa"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireplacebase",
+        "cfgvehicles::barrelholes_colorbase",
+        "cfgvehicles::barrelholes_blue"
+      ],
+      "properties": {
+        "stackedUnit": "",
+        "canBeSplit": 0,
+        "quantityBar": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varTemperatureMax": 1000,
+        "varWetMin": 0.048999999,
+        "varWetMax": 1,
+        "forceFarBubble": "true",
+        "itemBehaviour": 0,
+        "soundImpactType": "metal",
+        "displayName": "$STR_CfgVehicles_BarrelHoles_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_BarrelHoles_ColorBase1",
+        "model": "\\dz\\gear\\cooking\\barrel_holes.p3d",
+        "overrideDrawArea": "3.0",
+        "slopeTolerance": 0.30000001,
+        "lootCategory": "Crafted",
+        "itemSize": [
+          10,
+          15
+        ],
+        "weight": 10000,
+        "inventorySlot": [
+          "Truck_01_Barrel1",
+          "Truck_01_Barrel2",
+          "Truck_01_Barrel3",
+          "Truck_01_Barrel4"
+        ],
+        "attachments": [
+          "Firewood",
+          "WoodenStick",
+          "Rags",
+          "MedicalBandage",
+          "Paper",
+          "Bark",
+          "DirectCookingA",
+          "DirectCookingB",
+          "DirectCookingC",
+          "SmokingA",
+          "SmokingB",
+          "SmokingC",
+          "SmokingD"
+        ],
+        "destroyOnEmpty": 0,
+        "canBeDigged": 0,
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          20
+        ],
+        "hiddenSelections": [
+          "ashes",
+          "camoGround",
+          "inventory"
+        ],
+        "scope": 2,
+        "color": "Blue",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+          "\\dz\\gear\\cooking\\data\\barrel_blue_holes_co.paa",
+          "\\dz\\gear\\cooking\\data\\barrel_blue_holes_co.paa"
+        ],
+        "hologramMaterial": "Barrel",
+        "hologramMaterialPath": "dz\\gear\\containers\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::barrelholes_green",
+      "className": "BarrelHoles_Green",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "BarrelHoles_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_BarrelHoles_ColorBase0",
+      "fallbackName": "Barrel Holes Green",
+      "descriptionShortKey": "$STR_CfgVehicles_BarrelHoles_ColorBase1",
+      "model": "\\dz\\gear\\cooking\\barrel_holes.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "attachments": [
+        "Firewood",
+        "WoodenStick",
+        "Rags",
+        "MedicalBandage",
+        "Paper",
+        "Bark",
+        "DirectCookingA",
+        "DirectCookingB",
+        "DirectCookingC",
+        "SmokingA",
+        "SmokingB",
+        "SmokingC",
+        "SmokingD"
+      ],
+      "inventorySlot": [
+        "Truck_01_Barrel1",
+        "Truck_01_Barrel2",
+        "Truck_01_Barrel3",
+        "Truck_01_Barrel4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+        "\\dz\\gear\\cooking\\data\\barrel_green_holes_co.paa",
+        "\\dz\\gear\\cooking\\data\\barrel_green_holes_co.paa"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireplacebase",
+        "cfgvehicles::barrelholes_colorbase",
+        "cfgvehicles::barrelholes_green"
+      ],
+      "properties": {
+        "stackedUnit": "",
+        "canBeSplit": 0,
+        "quantityBar": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varTemperatureMax": 1000,
+        "varWetMin": 0.048999999,
+        "varWetMax": 1,
+        "forceFarBubble": "true",
+        "itemBehaviour": 0,
+        "soundImpactType": "metal",
+        "displayName": "$STR_CfgVehicles_BarrelHoles_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_BarrelHoles_ColorBase1",
+        "model": "\\dz\\gear\\cooking\\barrel_holes.p3d",
+        "overrideDrawArea": "3.0",
+        "slopeTolerance": 0.30000001,
+        "lootCategory": "Crafted",
+        "itemSize": [
+          10,
+          15
+        ],
+        "weight": 10000,
+        "inventorySlot": [
+          "Truck_01_Barrel1",
+          "Truck_01_Barrel2",
+          "Truck_01_Barrel3",
+          "Truck_01_Barrel4"
+        ],
+        "attachments": [
+          "Firewood",
+          "WoodenStick",
+          "Rags",
+          "MedicalBandage",
+          "Paper",
+          "Bark",
+          "DirectCookingA",
+          "DirectCookingB",
+          "DirectCookingC",
+          "SmokingA",
+          "SmokingB",
+          "SmokingC",
+          "SmokingD"
+        ],
+        "destroyOnEmpty": 0,
+        "canBeDigged": 0,
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          20
+        ],
+        "hiddenSelections": [
+          "ashes",
+          "camoGround",
+          "inventory"
+        ],
+        "scope": 2,
+        "color": "Green",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+          "\\dz\\gear\\cooking\\data\\barrel_green_holes_co.paa",
+          "\\dz\\gear\\cooking\\data\\barrel_green_holes_co.paa"
+        ],
+        "hologramMaterial": "Barrel",
+        "hologramMaterialPath": "dz\\gear\\containers\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::barrelholes_red",
+      "className": "BarrelHoles_Red",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "BarrelHoles_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_BarrelHoles_ColorBase0",
+      "fallbackName": "Barrel Holes Red",
+      "descriptionShortKey": "$STR_CfgVehicles_BarrelHoles_ColorBase1",
+      "model": "\\dz\\gear\\cooking\\barrel_holes.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "attachments": [
+        "Firewood",
+        "WoodenStick",
+        "Rags",
+        "MedicalBandage",
+        "Paper",
+        "Bark",
+        "DirectCookingA",
+        "DirectCookingB",
+        "DirectCookingC",
+        "SmokingA",
+        "SmokingB",
+        "SmokingC",
+        "SmokingD"
+      ],
+      "inventorySlot": [
+        "Truck_01_Barrel1",
+        "Truck_01_Barrel2",
+        "Truck_01_Barrel3",
+        "Truck_01_Barrel4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+        "\\dz\\gear\\cooking\\data\\barrel_red_holes_co.paa",
+        "\\dz\\gear\\cooking\\data\\barrel_red_holes_co.paa"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireplacebase",
+        "cfgvehicles::barrelholes_colorbase",
+        "cfgvehicles::barrelholes_red"
+      ],
+      "properties": {
+        "stackedUnit": "",
+        "canBeSplit": 0,
+        "quantityBar": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varTemperatureMax": 1000,
+        "varWetMin": 0.048999999,
+        "varWetMax": 1,
+        "forceFarBubble": "true",
+        "itemBehaviour": 0,
+        "soundImpactType": "metal",
+        "displayName": "$STR_CfgVehicles_BarrelHoles_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_BarrelHoles_ColorBase1",
+        "model": "\\dz\\gear\\cooking\\barrel_holes.p3d",
+        "overrideDrawArea": "3.0",
+        "slopeTolerance": 0.30000001,
+        "lootCategory": "Crafted",
+        "itemSize": [
+          10,
+          15
+        ],
+        "weight": 10000,
+        "inventorySlot": [
+          "Truck_01_Barrel1",
+          "Truck_01_Barrel2",
+          "Truck_01_Barrel3",
+          "Truck_01_Barrel4"
+        ],
+        "attachments": [
+          "Firewood",
+          "WoodenStick",
+          "Rags",
+          "MedicalBandage",
+          "Paper",
+          "Bark",
+          "DirectCookingA",
+          "DirectCookingB",
+          "DirectCookingC",
+          "SmokingA",
+          "SmokingB",
+          "SmokingC",
+          "SmokingD"
+        ],
+        "destroyOnEmpty": 0,
+        "canBeDigged": 0,
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          20
+        ],
+        "hiddenSelections": [
+          "ashes",
+          "camoGround",
+          "inventory"
+        ],
+        "scope": 2,
+        "color": "Red",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+          "\\dz\\gear\\cooking\\data\\barrel_red_holes_co.paa",
+          "\\dz\\gear\\cooking\\data\\barrel_red_holes_co.paa"
+        ],
+        "hologramMaterial": "Barrel",
+        "hologramMaterialPath": "dz\\gear\\containers\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::barrelholes_yellow",
+      "className": "BarrelHoles_Yellow",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "BarrelHoles_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_BarrelHoles_ColorBase0",
+      "fallbackName": "Barrel Holes Yellow",
+      "descriptionShortKey": "$STR_CfgVehicles_BarrelHoles_ColorBase1",
+      "model": "\\dz\\gear\\cooking\\barrel_holes.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "attachments": [
+        "Firewood",
+        "WoodenStick",
+        "Rags",
+        "MedicalBandage",
+        "Paper",
+        "Bark",
+        "DirectCookingA",
+        "DirectCookingB",
+        "DirectCookingC",
+        "SmokingA",
+        "SmokingB",
+        "SmokingC",
+        "SmokingD"
+      ],
+      "inventorySlot": [
+        "Truck_01_Barrel1",
+        "Truck_01_Barrel2",
+        "Truck_01_Barrel3",
+        "Truck_01_Barrel4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+        "\\dz\\gear\\cooking\\data\\barrel_yellow_holes_co.paa",
+        "\\dz\\gear\\cooking\\data\\barrel_yellow_holes_co.paa"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireplacebase",
+        "cfgvehicles::barrelholes_colorbase",
+        "cfgvehicles::barrelholes_yellow"
+      ],
+      "properties": {
+        "stackedUnit": "",
+        "canBeSplit": 0,
+        "quantityBar": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varTemperatureMax": 1000,
+        "varWetMin": 0.048999999,
+        "varWetMax": 1,
+        "forceFarBubble": "true",
+        "itemBehaviour": 0,
+        "soundImpactType": "metal",
+        "displayName": "$STR_CfgVehicles_BarrelHoles_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_BarrelHoles_ColorBase1",
+        "model": "\\dz\\gear\\cooking\\barrel_holes.p3d",
+        "overrideDrawArea": "3.0",
+        "slopeTolerance": 0.30000001,
+        "lootCategory": "Crafted",
+        "itemSize": [
+          10,
+          15
+        ],
+        "weight": 10000,
+        "inventorySlot": [
+          "Truck_01_Barrel1",
+          "Truck_01_Barrel2",
+          "Truck_01_Barrel3",
+          "Truck_01_Barrel4"
+        ],
+        "attachments": [
+          "Firewood",
+          "WoodenStick",
+          "Rags",
+          "MedicalBandage",
+          "Paper",
+          "Bark",
+          "DirectCookingA",
+          "DirectCookingB",
+          "DirectCookingC",
+          "SmokingA",
+          "SmokingB",
+          "SmokingC",
+          "SmokingD"
+        ],
+        "destroyOnEmpty": 0,
+        "canBeDigged": 0,
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          20
+        ],
+        "hiddenSelections": [
+          "ashes",
+          "camoGround",
+          "inventory"
+        ],
+        "scope": 2,
+        "color": "Yellow",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+          "\\dz\\gear\\cooking\\data\\barrel_yellow_holes_co.paa",
+          "\\dz\\gear\\cooking\\data\\barrel_yellow_holes_co.paa"
+        ],
+        "hologramMaterial": "Barrel",
+        "hologramMaterialPath": "dz\\gear\\containers\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::candle",
+      "className": "Candle",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Candle0",
+      "fallbackName": "Candle",
+      "descriptionShortKey": "$STR_CfgVehicles_Candle1",
+      "model": "\\dz\\gear\\tools\\candle.p3d",
+      "weight": 60,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "attachments": [
+        "GasCanister"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::candle"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Candle0",
+        "descriptionShort": "$STR_CfgVehicles_Candle1",
+        "model": "\\dz\\gear\\tools\\candle.p3d",
+        "rotationFlags": 12,
+        "weight": 60,
+        "itemSize": [
+          1,
+          2
+        ],
+        "attachments": [
+          "GasCanister"
+        ],
+        "hiddenSelections": [
+          "flame"
+        ],
+        "containerSlot": "GasCanister"
+      }
+    },
+    {
+      "id": "cfgvehicles::cauldron",
+      "className": "Cauldron",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Bottle_Base",
+      "displayNameKey": "$STR_Cauldron0",
+      "fallbackName": "Cauldron",
+      "descriptionShortKey": "$STR_Cauldron1",
+      "model": "\\dz\\gear\\cooking\\cauldron.p3d",
+      "weight": 2000,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "CookingEquipment",
+        "DirectCookingA",
+        "DirectCookingB",
+        "DirectCookingC"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::bottle_base",
+        "cfgvehicles::cauldron"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_Cauldron0",
+        "descriptionShort": "$STR_Cauldron1",
+        "model": "\\dz\\gear\\cooking\\cauldron.p3d",
+        "weight": 2000,
+        "itemSize": [
+          4,
+          3
+        ],
+        "itemsCargoSize": [
+          4,
+          3
+        ],
+        "inventorySlot": [
+          "CookingEquipment",
+          "DirectCookingA",
+          "DirectCookingB",
+          "DirectCookingC"
+        ],
+        "stackedRandom": 0,
+        "canBeDigged": 0,
+        "allowOwnedCargoManipulation": 1,
+        "varLiquidTypeInit": 512,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 + 8192 + 16384 + 32768 + 65536  + 131072 + 262144 + 524288 + 2097152 + 4194304 - (1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256) - 32768",
+        "temperaturePerQuantityWeight": 6,
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 2000,
+        "varTemperatureMax": 200,
+        "varTemperatureFreezePoint": -200,
+        "varTemperatureThawPoint": -200,
+        "varTemperatureFreezeTime": 3300,
+        "varTemperatureThawTime": 3300,
+        "varTemperatureOverheatTime": -1,
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::cookingstand",
+      "className": "CookingStand",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CookingStand0",
+      "fallbackName": "Cooking Stand",
+      "descriptionShortKey": "$STR_CookingStand1",
+      "model": "\\dz\\gear\\cooking\\CookingStand.p3d",
+      "weight": 660,
+      "itemSize": [
+        1,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "CookingTripod"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::cookingstand"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CookingStand0",
+        "descriptionShort": "$STR_CookingStand1",
+        "model": "\\dz\\gear\\cooking\\CookingStand.p3d",
+        "rotationFlags": 17,
+        "weight": 660,
+        "itemSize": [
+          1,
+          8
+        ],
+        "inventorySlot": [
+          "CookingTripod"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::fireplace",
+      "className": "Fireplace",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "FireplaceBase",
+      "displayNameKey": "$STR_CfgVehicles_Fireplace0",
+      "fallbackName": "Fireplace",
+      "descriptionShortKey": "$STR_CfgVehicles_Fireplace1",
+      "model": "\\dz\\gear\\cooking\\Fireplace.p3d",
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "Firewood",
+        "WoodenStick",
+        "CookingEquipment",
+        "Rags",
+        "MedicalBandage",
+        "Paper",
+        "Bark",
+        "CookingTripod",
+        "Stones",
+        "DirectCookingA",
+        "DirectCookingB",
+        "DirectCookingC",
+        "SmokingA",
+        "SmokingB",
+        "SmokingC",
+        "SmokingD"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+        "\\dz\\gear\\cooking\\data\\fireplacekit_co.paa"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireplacebase",
+        "cfgvehicles::fireplace"
+      ],
+      "properties": {
+        "stackedUnit": "NA",
+        "canBeSplit": 0,
+        "quantityBar": 1,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "varTemperatureMax": 1000,
+        "varWetMin": 0.048999999,
+        "varWetMax": 1,
+        "forceFarBubble": "true",
+        "itemBehaviour": 2,
+        "soundImpactType": "wood",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Fireplace0",
+        "descriptionShort": "$STR_CfgVehicles_Fireplace1",
+        "model": "\\dz\\gear\\cooking\\Fireplace.p3d",
+        "overrideDrawArea": "8.0",
+        "slopeTolerance": 0.30000001,
+        "physLayer": "item_large",
+        "openable": 0,
+        "lootCategory": "Crafted",
+        "itemSize": [
+          4,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          4
+        ],
+        "useEntityHierarchy": "true",
+        "attachments": [
+          "Firewood",
+          "WoodenStick",
+          "CookingEquipment",
+          "Rags",
+          "MedicalBandage",
+          "Paper",
+          "Bark",
+          "CookingTripod",
+          "Stones",
+          "DirectCookingA",
+          "DirectCookingB",
+          "DirectCookingC",
+          "SmokingA",
+          "SmokingB",
+          "SmokingC",
+          "SmokingD"
+        ],
+        "hiddenSelections": [
+          "ashes",
+          "inventory"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\cooking\\data\\stoneground_co.paa",
+          "\\dz\\gear\\cooking\\data\\fireplacekit_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "\\dz\\gear\\cooking\\data\\stonegroundnoemit.rvmat",
+          "\\dz\\gear\\cooking\\data\\fireplacekit.rvmat"
+        ],
+        "hologramMaterial": "FireplaceKit",
+        "hologramMaterialPath": "dz\\gear\\cooking\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::fireplacefirebarrel",
+      "className": "FireplaceFireBarrel",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "FireplaceIndoor",
+      "displayNameKey": "$STR_cfgvehicles_fireplace0",
+      "fallbackName": "Fireplace Fire Barrel",
+      "descriptionShortKey": "$STR_cfgvehicles_fireplace1",
+      "model": "\\dz\\gear\\cooking\\FireplaceIndoor.p3d",
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "Firewood",
+        "WoodenStick",
+        "Rags",
+        "MedicalBandage",
+        "Paper",
+        "Bark",
+        "DirectCookingA",
+        "DirectCookingB"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireplacebase",
+        "cfgvehicles::fireplaceindoor",
+        "cfgvehicles::fireplacefirebarrel"
+      ],
+      "properties": {
+        "stackedUnit": "NA",
+        "canBeSplit": 0,
+        "quantityBar": 1,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "varTemperatureMax": 1000,
+        "varWetMin": 0.048999999,
+        "varWetMax": 1,
+        "forceFarBubble": "true",
+        "itemBehaviour": 2,
+        "soundImpactType": "wood",
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_fireplace0",
+        "descriptionShort": "$STR_cfgvehicles_fireplace1",
+        "model": "\\dz\\gear\\cooking\\FireplaceIndoor.p3d",
+        "overrideDrawArea": "8.0",
+        "rotationFlags": 64,
+        "openable": 0,
+        "lootCategory": "Crafted",
+        "itemSize": [
+          4,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          4
+        ],
+        "attachments": [
+          "Firewood",
+          "WoodenStick",
+          "Rags",
+          "MedicalBandage",
+          "Paper",
+          "Bark",
+          "DirectCookingA",
+          "DirectCookingB"
+        ],
+        "hiddenSelections": [
+          "ashes"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::fireplaceindoor",
+      "className": "FireplaceIndoor",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "FireplaceBase",
+      "displayNameKey": "$STR_cfgvehicles_fireplace0",
+      "fallbackName": "Fireplace Indoor",
+      "descriptionShortKey": "$STR_cfgvehicles_fireplace1",
+      "model": "\\dz\\gear\\cooking\\FireplaceIndoor.p3d",
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "Firewood",
+        "WoodenStick",
+        "Rags",
+        "MedicalBandage",
+        "Paper",
+        "Bark",
+        "DirectCookingA",
+        "DirectCookingB",
+        "SmokingA",
+        "SmokingB",
+        "SmokingC",
+        "SmokingD"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireplacebase",
+        "cfgvehicles::fireplaceindoor"
+      ],
+      "properties": {
+        "stackedUnit": "NA",
+        "canBeSplit": 0,
+        "quantityBar": 1,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "varTemperatureMax": 1000,
+        "varWetMin": 0.048999999,
+        "varWetMax": 1,
+        "forceFarBubble": "true",
+        "itemBehaviour": 2,
+        "soundImpactType": "wood",
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_fireplace0",
+        "descriptionShort": "$STR_cfgvehicles_fireplace1",
+        "model": "\\dz\\gear\\cooking\\FireplaceIndoor.p3d",
+        "overrideDrawArea": "8.0",
+        "rotationFlags": 64,
+        "openable": 0,
+        "lootCategory": "Crafted",
+        "itemSize": [
+          4,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          4
+        ],
+        "attachments": [
+          "Firewood",
+          "WoodenStick",
+          "Rags",
+          "MedicalBandage",
+          "Paper",
+          "Bark",
+          "DirectCookingA",
+          "DirectCookingB",
+          "SmokingA",
+          "SmokingB",
+          "SmokingC",
+          "SmokingD"
+        ],
+        "hiddenSelections": [
+          "ashes"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::fryingpan",
+      "className": "FryingPan",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_FryingPan0",
+      "fallbackName": "Frying Pan",
+      "descriptionShortKey": "$STR_CfgVehicles_FryingPan1",
+      "model": "\\dz\\gear\\cooking\\FryingPan.p3d",
+      "weight": 750,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "CookingEquipment",
+        "DirectCookingA",
+        "DirectCookingB",
+        "DirectCookingC"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fryingpan"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FryingPan0",
+        "descriptionShort": "$STR_CfgVehicles_FryingPan1",
+        "model": "\\dz\\gear\\cooking\\FryingPan.p3d",
+        "rotationFlags": 2,
+        "openable": 0,
+        "weight": 750,
+        "itemSize": [
+          4,
+          3
+        ],
+        "itemsCargoSize": [
+          4,
+          3
+        ],
+        "fragility": 0.0099999998,
+        "allowOwnedCargoManipulation": 1,
+        "varTemperatureMax": 200,
+        "varTemperatureFreezePoint": -200,
+        "varTemperatureThawPoint": -200,
+        "temperaturePerQuantityWeight": 4,
+        "inventorySlot": [
+          "CookingEquipment",
+          "DirectCookingA",
+          "DirectCookingB",
+          "DirectCookingC"
+        ],
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::ovenindoor",
+      "className": "OvenIndoor",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "FireplaceBase",
+      "displayNameKey": "$STR_cfgvehicles_fireplace0",
+      "fallbackName": "Oven Indoor",
+      "descriptionShortKey": "$STR_cfgvehicles_fireplace1",
+      "model": "\\dz\\gear\\cooking\\OvenIndoor.p3d",
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "Firewood",
+        "WoodenStick",
+        "Rags",
+        "MedicalBandage",
+        "Paper",
+        "Bark",
+        "DirectCookingA",
+        "SmokingA",
+        "SmokingB"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireplacebase",
+        "cfgvehicles::ovenindoor"
+      ],
+      "properties": {
+        "stackedUnit": "NA",
+        "canBeSplit": 0,
+        "quantityBar": 1,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "varTemperatureMax": 1000,
+        "varWetMin": 0.048999999,
+        "varWetMax": 1,
+        "forceFarBubble": "true",
+        "itemBehaviour": 2,
+        "soundImpactType": "wood",
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_fireplace0",
+        "descriptionShort": "$STR_cfgvehicles_fireplace1",
+        "model": "\\dz\\gear\\cooking\\OvenIndoor.p3d",
+        "overrideDrawArea": "8.0",
+        "rotationFlags": 64,
+        "openable": 0,
+        "lootCategory": "Crafted",
+        "itemSize": [
+          4,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          4
+        ],
+        "attachments": [
+          "Firewood",
+          "WoodenStick",
+          "Rags",
+          "MedicalBandage",
+          "Paper",
+          "Bark",
+          "DirectCookingA",
+          "SmokingA",
+          "SmokingB"
+        ],
+        "hiddenSelections": [
+          "ashes"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::petrollighter",
+      "className": "PetrolLighter",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PetrolLighter0",
+      "fallbackName": "Petrol Lighter",
+      "descriptionShortKey": "$STR_CfgVehicles_PetrolLighter1",
+      "model": "\\dz\\gear\\cooking\\petrol_lighter.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::petrollighter"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PetrolLighter0",
+        "descriptionShort": "$STR_CfgVehicles_PetrolLighter1",
+        "model": "\\dz\\gear\\cooking\\petrol_lighter.p3d",
+        "rotationFlags": 12,
+        "absorbency": 0,
+        "weight": 50,
+        "itemSize": [
+          1,
+          1
+        ],
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "varQuantityDestroyOnMin": 0,
+        "destroyOnEmpty": 0,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::portablegaslamp",
+      "className": "PortableGasLamp",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PortableGasLamp0",
+      "fallbackName": "Portable Gas Lamp",
+      "descriptionShortKey": "$STR_CfgVehicles_PortableGasLamp1",
+      "model": "\\dz\\gear\\cooking\\GasLight.p3d",
+      "weight": 330,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "attachments": [
+        "GasCanister"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::portablegaslamp"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PortableGasLamp0",
+        "descriptionShort": "$STR_CfgVehicles_PortableGasLamp1",
+        "model": "\\dz\\gear\\cooking\\GasLight.p3d",
+        "overrideDrawArea": "8.0",
+        "weight": 330,
+        "itemSize": [
+          4,
+          3
+        ],
+        "attachments": [
+          "GasCanister"
+        ],
+        "containerSlot": "GasCanister",
+        "hiddenSelections": [
+          "glow",
+          "zbytek",
+          "glow_on",
+          "glow_off"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cooking\\data\\gaslight.rvmat",
+          "dz\\gear\\cooking\\data\\gaslight.rvmat",
+          "",
+          "dz\\gear\\cooking\\data\\gaslight.rvmat"
+        ],
+        "soundImpactType": "glass"
+      }
+    },
+    {
+      "id": "cfgvehicles::portablegasstove",
+      "className": "PortableGasStove",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PortableGasStove0",
+      "fallbackName": "Portable Gas Stove",
+      "descriptionShortKey": "$STR_CfgVehicles_PortableGasStove1",
+      "model": "\\dz\\gear\\cooking\\GasCooker.p3d",
+      "weight": 170,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "attachments": [
+        "GasCanister",
+        "CookingEquipment"
+      ],
+      "hiddenSelectionsTextures": [
+        ""
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::portablegasstove"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PortableGasStove0",
+        "descriptionShort": "$STR_CfgVehicles_PortableGasStove1",
+        "model": "\\dz\\gear\\cooking\\GasCooker.p3d",
+        "overrideDrawArea": "3.0",
+        "openable": 0,
+        "lootTag": [
+          "Camping"
+        ],
+        "lootCategory": "Tools",
+        "weight": 170,
+        "itemSize": [
+          4,
+          3
+        ],
+        "attachments": [
+          "GasCanister",
+          "CookingEquipment"
+        ],
+        "containerSlot": "GasCanister",
+        "hiddenSelections": [
+          "flame",
+          "flameShrinked"
+        ],
+        "hiddenSelectionsTextures": [
+          ""
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::pot",
+      "className": "Pot",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Bottle_Base",
+      "displayNameKey": "$STR_CfgVehicles_Pot0",
+      "fallbackName": "Pot",
+      "descriptionShortKey": "$STR_CfgVehicles_Pot1",
+      "model": "\\dz\\gear\\cooking\\CookingPot.p3d",
+      "weight": 1000,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "CookingEquipment",
+        "DirectCookingA",
+        "DirectCookingB",
+        "DirectCookingC"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::bottle_base",
+        "cfgvehicles::pot"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Pot0",
+        "descriptionShort": "$STR_CfgVehicles_Pot1",
+        "model": "\\dz\\gear\\cooking\\CookingPot.p3d",
+        "weight": 1000,
+        "itemSize": [
+          4,
+          3
+        ],
+        "itemsCargoSize": [
+          4,
+          3
+        ],
+        "inventorySlot": [
+          "CookingEquipment",
+          "DirectCookingA",
+          "DirectCookingB",
+          "DirectCookingC"
+        ],
+        "stackedRandom": 0,
+        "canBeDigged": 1,
+        "allowOwnedCargoManipulation": 1,
+        "varLiquidTypeInit": 512,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 + 8192 + 16384 + 32768 + 65536  + 131072 + 262144 + 524288 + 2097152 + 4194304 - (1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256) - 32768",
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 2000,
+        "varTemperatureMax": 200,
+        "varTemperatureFreezePoint": -200,
+        "varTemperatureThawPoint": -200,
+        "varTemperatureFreezeTime": 3300,
+        "varTemperatureThawTime": 3300,
+        "varTemperatureOverheatTime": -1,
+        "temperaturePerQuantityWeight": 6,
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::tripod",
+      "className": "Tripod",
+      "section": "CfgVehicles",
+      "category": "cooking",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Tripod0",
+      "fallbackName": "Tripod",
+      "descriptionShortKey": "$STR_CfgVehicles_Tripod1",
+      "model": "\\dz\\gear\\cooking\\tripod.p3d",
+      "weight": 660,
+      "itemSize": [
+        1,
+        6
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "CookingTripod",
+        "Backpack_1"
+      ],
+      "sourcePbo": "gear_cooking.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::tripod"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Tripod0",
+        "descriptionShort": "$STR_CfgVehicles_Tripod1",
+        "model": "\\dz\\gear\\cooking\\tripod.p3d",
+        "rotationFlags": 17,
+        "weight": 660,
+        "itemSize": [
+          1,
+          6
+        ],
+        "suicideAnim": "pitchfork",
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          20
+        ],
+        "inventorySlot": [
+          "CookingTripod",
+          "Backpack_1"
+        ],
+        "soundImpactType": "metal"
+      }
+    }
+  ]
+}

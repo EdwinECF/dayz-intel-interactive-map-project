@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "category": "weapon-component",
+    "generatedAt": "2026-07-18T03:28:22.417104+00:00",
+    "itemCount": 3
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::magnum_cylinder",
+      "className": "Magnum_Cylinder",
+      "section": "cfgVehicles",
+      "category": "weapon-component",
+      "parentClass": "Inventory_Base",
+      "model": "\\dz\\weapons\\pistols\\magnum\\proxy\\magnum_cylinder.p3d",
+      "weight": 1,
+      "scope": 2,
+      "inventorySlot": [
+        "RevolverCylinder"
+      ],
+      "sourcePbo": "weapons_pistols.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::magnum_cylinder"
+      ],
+      "properties": {
+        "scope": 2,
+        "model": "\\dz\\weapons\\pistols\\magnum\\proxy\\magnum_cylinder.p3d",
+        "weight": 1,
+        "inventorySlot": [
+          "RevolverCylinder"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::magnum_ejector",
+      "className": "Magnum_Ejector",
+      "section": "cfgVehicles",
+      "category": "weapon-component",
+      "parentClass": "Inventory_Base",
+      "model": "\\dz\\weapons\\pistols\\magnum\\proxy\\magnum_ejector.p3d",
+      "weight": 1,
+      "scope": 2,
+      "inventorySlot": [
+        "RevolverEjector"
+      ],
+      "sourcePbo": "weapons_pistols.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::magnum_ejector"
+      ],
+      "properties": {
+        "scope": 2,
+        "model": "\\dz\\weapons\\pistols\\magnum\\proxy\\magnum_ejector.p3d",
+        "weight": 1,
+        "inventorySlot": [
+          "RevolverEjector"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::trumpetparts",
+      "className": "TrumpetParts",
+      "section": "CfgVehicles",
+      "category": "weapon-component",
+      "parentClass": "Inventory_Base",
+      "displayName": "$STR_CfgVehicles_TrumpetParts0",
+      "descriptionShort": "$STR_CfgVehicles_TrumpetParts1",
+      "model": "\\dz\\weapons\\firearms\\Trumpet\\trumpet_parts.p3d",
+      "weight": 2000,
+      "itemSize": [
+        3,
+        6
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_firearms.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::trumpetparts"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TrumpetParts0",
+        "descriptionShort": "$STR_CfgVehicles_TrumpetParts1",
+        "model": "\\dz\\weapons\\firearms\\Trumpet\\trumpet_parts.p3d",
+        "handheld": "true",
+        "armAction": "Disarm",
+        "itemSize": [
+          3,
+          6
+        ],
+        "weight": 2000,
+        "absorbency": 0.1,
+        "barrelArmor": 600
+      }
+    }
+  ]
+}

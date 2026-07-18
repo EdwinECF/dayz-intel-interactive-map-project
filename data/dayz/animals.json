@@ -1,0 +1,1208 @@
+{
+  "metadata": {
+    "category": "animal",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 31
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::animal_bostaurus_brown",
+      "className": "Animal_BosTaurus_Brown",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_BosTaurus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_BosTaurus0",
+      "fallbackName": "Animal Bos Taurus Brown",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_BosTaurus1",
+      "model": "\\dz\\animals\\bos_taurus\\bos_taurus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\bos_taurus\\data\\bull_brown_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_bostaurus",
+        "cfgvehicles::animal_bostaurus_brown"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\bos_taurus\\bos_taurus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_BosTaurus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_BosTaurus1",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "Herbivores_BosTaurus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "collidesWithCharacterOnDeath": 1,
+        "varTemperatureFreezePoint": -1,
+        "varTemperatureThawPoint": -1,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\bos_taurus\\data\\bull_brown_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\bos_taurus\\data\\bull_brown.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_bostaurus_spotted",
+      "className": "Animal_BosTaurus_Spotted",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_BosTaurus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_BosTaurus0",
+      "fallbackName": "Animal Bos Taurus Spotted",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_BosTaurus1",
+      "model": "\\dz\\animals\\bos_taurus\\bos_taurus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\bos_taurus\\data\\bull_spotted_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_bostaurus",
+        "cfgvehicles::animal_bostaurus_spotted"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\bos_taurus\\bos_taurus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_BosTaurus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_BosTaurus1",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "Herbivores_BosTaurus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "collidesWithCharacterOnDeath": 1,
+        "varTemperatureFreezePoint": -1,
+        "varTemperatureThawPoint": -1,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\bos_taurus\\data\\bull_spotted_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\bos_taurus\\data\\bull_spotted.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_bostaurus_white",
+      "className": "Animal_BosTaurus_White",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_BosTaurus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_BosTaurus0",
+      "fallbackName": "Animal Bos Taurus White",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_BosTaurus1",
+      "model": "\\dz\\animals\\bos_taurus\\bos_taurus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\bos_taurus\\data\\bull_white_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_bostaurus",
+        "cfgvehicles::animal_bostaurus_white"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\bos_taurus\\bos_taurus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_BosTaurus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_BosTaurus1",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "Herbivores_BosTaurus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "collidesWithCharacterOnDeath": 1,
+        "varTemperatureFreezePoint": -1,
+        "varTemperatureThawPoint": -1,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\bos_taurus\\data\\bull_white_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\bos_taurus\\data\\bull_white.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_bostaurusf_brown",
+      "className": "Animal_BosTaurusF_Brown",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_BosTaurusF",
+      "displayNameKey": "$STR_CfgVehicles_Animal_BosTaurusF0",
+      "fallbackName": "Animal Bos Taurus F Brown",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_BosTaurusF1",
+      "model": "\\dz\\animals\\bos_taurus_fem\\bos_taurus_fem.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\bos_taurus_fem\\data\\cow_brown_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_bostaurusf",
+        "cfgvehicles::animal_bostaurusf_brown"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\bos_taurus_fem\\bos_taurus_fem.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_BosTaurusF0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_BosTaurusF1",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "Herbivores_BosTaurus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "collidesWithCharacterOnDeath": 1,
+        "varTemperatureFreezePoint": -1,
+        "varTemperatureThawPoint": -1,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\bos_taurus_fem\\data\\cow_brown_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\bos_taurus_fem\\data\\cow_brown.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_bostaurusf_spotted",
+      "className": "Animal_BosTaurusF_Spotted",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_BosTaurusF",
+      "displayNameKey": "$STR_CfgVehicles_Animal_BosTaurusF0",
+      "fallbackName": "Animal Bos Taurus F Spotted",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_BosTaurusF1",
+      "model": "\\dz\\animals\\bos_taurus_fem\\bos_taurus_fem.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\bos_taurus_fem\\data\\cow_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_bostaurusf",
+        "cfgvehicles::animal_bostaurusf_spotted"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\bos_taurus_fem\\bos_taurus_fem.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_BosTaurusF0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_BosTaurusF1",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "Herbivores_BosTaurus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "collidesWithCharacterOnDeath": 1,
+        "varTemperatureFreezePoint": -1,
+        "varTemperatureThawPoint": -1,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\bos_taurus_fem\\data\\cow_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\bos_taurus_fem\\data\\cow.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_bostaurusf_white",
+      "className": "Animal_BosTaurusF_White",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_BosTaurusF",
+      "displayNameKey": "$STR_CfgVehicles_Animal_BosTaurusF0",
+      "fallbackName": "Animal Bos Taurus F White",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_BosTaurusF1",
+      "model": "\\dz\\animals\\bos_taurus_fem\\bos_taurus_fem.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\bos_taurus_fem\\data\\cow_white_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_bostaurusf",
+        "cfgvehicles::animal_bostaurusf_white"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\bos_taurus_fem\\bos_taurus_fem.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_BosTaurusF0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_BosTaurusF1",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "Herbivores_BosTaurus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "collidesWithCharacterOnDeath": 1,
+        "varTemperatureFreezePoint": -1,
+        "varTemperatureThawPoint": -1,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\bos_taurus_fem\\data\\cow_white_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\bos_taurus_fem\\data\\cow_white.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_canislupus_grey",
+      "className": "Animal_CanisLupus_Grey",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_CanisLupus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CanisLupus0",
+      "fallbackName": "Animal Canis Lupus Grey",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CanisLupus1",
+      "model": "\\DZ\\animals\\canis_lupus\\canis_lupus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\canis_lupus\\data\\wolf_grey_CO.paa",
+        "dz\\animals\\canis_lupus\\data\\fur_alpha.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_canislupus",
+        "cfgvehicles::animal_canislupus_grey"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\canis_lupus\\canis_lupus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CanisLupus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CanisLupus1",
+        "hiddenSelections": [
+          "Camo",
+          "CamoHair"
+        ],
+        "DamageSphereAmmos": [
+          "MeleeWolf"
+        ],
+        "aiAgentTemplate": "Predators_Wolf",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\canis_lupus\\data\\wolf_grey_CO.paa",
+          "dz\\animals\\canis_lupus\\data\\fur_alpha.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_canislupus_white",
+      "className": "Animal_CanisLupus_White",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_CanisLupus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CanisLupus0",
+      "fallbackName": "Animal Canis Lupus White",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CanisLupus1",
+      "model": "\\DZ\\animals\\canis_lupus\\canis_lupus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\canis_lupus\\data\\wolf_white_CO.paa",
+        "dz\\animals\\canis_lupus\\data\\fur_alpha.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_canislupus",
+        "cfgvehicles::animal_canislupus_white"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\canis_lupus\\canis_lupus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CanisLupus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CanisLupus1",
+        "hiddenSelections": [
+          "Camo",
+          "CamoHair"
+        ],
+        "DamageSphereAmmos": [
+          "MeleeWolf"
+        ],
+        "aiAgentTemplate": "Predators_Wolf",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\canis_lupus\\data\\wolf_white_CO.paa",
+          "dz\\animals\\canis_lupus\\data\\fur_alpha.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_caprahircus_black",
+      "className": "Animal_CapraHircus_Black",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_CapraHircus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CapraHircus0",
+      "fallbackName": "Animal Capra Hircus Black",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CapraHircus1",
+      "model": "\\dz\\animals\\capra_hircus\\capra_hircus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\capra_hircus\\data\\Black_Goat_CO.paa",
+        "dz\\animals\\capra_hircus\\data\\black_goat_fur_co.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_caprahircus",
+        "cfgvehicles::animal_caprahircus_black"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\capra_hircus\\capra_hircus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CapraHircus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CapraHircus1",
+        "hiddenSelections": [
+          "Camo",
+          "CamoHair"
+        ],
+        "aiAgentTemplate": "Herbivores_CapraHircus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\capra_hircus\\data\\Black_Goat_CO.paa",
+          "dz\\animals\\capra_hircus\\data\\black_goat_fur_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\capra_hircus\\data\\Black_Goat.rvmat",
+          "dz\\animals\\capra_hircus\\data\\black_goat_fur.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_caprahircus_brown",
+      "className": "Animal_CapraHircus_Brown",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_CapraHircus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CapraHircus0",
+      "fallbackName": "Animal Capra Hircus Brown",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CapraHircus1",
+      "model": "\\dz\\animals\\capra_hircus\\capra_hircus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\capra_hircus\\data\\Brown_Goat_CO.paa",
+        "dz\\animals\\capra_hircus\\data\\Brown_Goat_fur_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_caprahircus",
+        "cfgvehicles::animal_caprahircus_brown"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\capra_hircus\\capra_hircus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CapraHircus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CapraHircus1",
+        "hiddenSelections": [
+          "Camo",
+          "CamoHair"
+        ],
+        "aiAgentTemplate": "Herbivores_CapraHircus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\capra_hircus\\data\\Brown_Goat_CO.paa",
+          "dz\\animals\\capra_hircus\\data\\Brown_Goat_fur_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\capra_hircus\\data\\Brown_Goat.rvmat",
+          "dz\\animals\\capra_hircus\\data\\Brown_Goat_Fur.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_caprahircus_spooky",
+      "className": "Animal_CapraHircus_Spooky",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_CapraHircus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CapraHircus0",
+      "fallbackName": "Animal Capra Hircus Spooky",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CapraHircus1",
+      "model": "\\dz\\animals\\capra_hircus\\capra_hircus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\capra_hircus\\data\\Spooky_Goat_CO.paa",
+        "dz\\animals\\capra_hircus\\data\\Black_Goat_fur_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_caprahircus",
+        "cfgvehicles::animal_caprahircus_spooky"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\capra_hircus\\capra_hircus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CapraHircus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CapraHircus1",
+        "hiddenSelections": [
+          "Camo",
+          "CamoHair"
+        ],
+        "aiAgentTemplate": "Herbivores_CapraHircus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\capra_hircus\\data\\Spooky_Goat_CO.paa",
+          "dz\\animals\\capra_hircus\\data\\Black_Goat_fur_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\capra_hircus\\data\\Spooky_Goat_e.rvmat",
+          "dz\\animals\\capra_hircus\\data\\Black_Goat_Fur.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_caprahircus_white",
+      "className": "Animal_CapraHircus_White",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_CapraHircus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CapraHircus0",
+      "fallbackName": "Animal Capra Hircus White",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CapraHircus1",
+      "model": "\\dz\\animals\\capra_hircus\\capra_hircus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\capra_hircus\\data\\White_Goat_CO.paa",
+        "dz\\animals\\capra_hircus\\data\\White_Goat_fur_CO.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_caprahircus",
+        "cfgvehicles::animal_caprahircus_white"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\capra_hircus\\capra_hircus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CapraHircus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CapraHircus1",
+        "hiddenSelections": [
+          "Camo",
+          "CamoHair"
+        ],
+        "aiAgentTemplate": "Herbivores_CapraHircus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600,
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\capra_hircus\\data\\White_Goat_CO.paa",
+          "dz\\animals\\capra_hircus\\data\\White_Goat_fur_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\capra_hircus\\data\\White_Goat.rvmat",
+          "dz\\animals\\capra_hircus\\data\\White_Goat_Fur.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_caprahircusf",
+      "className": "Animal_CapraHircusF",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CapraHircusF0",
+      "fallbackName": "Animal Capra Hircus F",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CapraHircusF1",
+      "model": "\\dz\\animals\\capra_hircus_fem\\capra_hircus_fem.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_caprahircusf"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\dz\\animals\\capra_hircus_fem\\capra_hircus_fem.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CapraHircusF0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CapraHircusF1",
+        "aiAgentTemplate": "Herbivores_CapraHircus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_capreoluscapreolus",
+      "className": "Animal_CapreolusCapreolus",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CapreolusCapreolus0",
+      "fallbackName": "Animal Capreolus Capreolus",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CapreolusCapreolus1",
+      "model": "\\DZ\\animals\\capreolus_capreolus\\capreolus_capreolus.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_capreoluscapreolus"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\capreolus_capreolus\\capreolus_capreolus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CapreolusCapreolus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CapreolusCapreolus1",
+        "aiAgentTemplate": "Herbivores_CapreolusCapreolus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_capreoluscapreolusf",
+      "className": "Animal_CapreolusCapreolusF",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CapreolusCapreolusF0",
+      "fallbackName": "Animal Capreolus Capreolus F",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CapreolusCapreolusF1",
+      "model": "\\DZ\\animals\\capreolus_capreolus_fem\\capreolus_capreolus_fem.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_capreoluscapreolusf"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\capreolus_capreolus_fem\\capreolus_capreolus_fem.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CapreolusCapreolusF0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CapreolusCapreolusF1",
+        "aiAgentTemplate": "Herbivores_CapreolusCapreolus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_cervuselaphus",
+      "className": "Animal_CervusElaphus",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CervusElaphus0",
+      "fallbackName": "Animal Cervus Elaphus",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CervusElaphus1",
+      "model": "\\DZ\\animals\\cervus_elaphus\\cervus_elaphus.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\animals\\cervus_elaphus\\data\\cervus_elaphus_co.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_cervuselaphus"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\cervus_elaphus\\cervus_elaphus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CervusElaphus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CervusElaphus1",
+        "aiAgentTemplate": "Herbivores_CervusElaphus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\animals\\cervus_elaphus\\data\\cervus_elaphus_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\cervus_elaphus\\data\\cervus_elaphus.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_cervuselaphusf",
+      "className": "Animal_CervusElaphusF",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_CervusElaphusF0",
+      "fallbackName": "Animal Cervus Elaphus F",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_CervusElaphusF1",
+      "model": "\\DZ\\animals\\cervus_elaphus_fem\\cervus_elaphus_fem.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\animals\\cervus_elaphus_fem\\data\\red_deer_fem_co.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_cervuselaphusf"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\cervus_elaphus_fem\\cervus_elaphus_fem.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_CervusElaphusF0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_CervusElaphusF1",
+        "aiAgentTemplate": "Herbivores_CervusElaphusFem",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\animals\\cervus_elaphus_fem\\data\\red_deer_fem_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\cervus_elaphus_fem\\data\\red_deer_fem.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_gallusgallusdomesticus",
+      "className": "Animal_GallusGallusDomesticus",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_GallusGallusDomesticus0",
+      "fallbackName": "Animal Gallus Gallus Domesticus",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_GallusGallusDomesticus1",
+      "model": "\\DZ\\animals\\gallus_gallus_domesticus\\gallus_gallus_domesticus.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_gallusgallusdomesticus"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\gallus_gallus_domesticus\\gallus_gallus_domesticus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_GallusGallusDomesticus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_GallusGallusDomesticus1",
+        "aiAgentTemplate": "AmbientLife_Gallus_Gallus_Domesticus"
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_gallusgallusdomesticusf_brown",
+      "className": "Animal_GallusGallusDomesticusF_Brown",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_GallusGallusDomesticusF",
+      "displayNameKey": "$STR_cfgvehicles_animal_gallusgallusdomesticusf0",
+      "fallbackName": "Animal Gallus Gallus Domesticus F Brown",
+      "descriptionShortKey": "$STR_cfgvehicles_animal_gallusgallusdomesticusf1",
+      "model": "\\DZ\\animals\\gallus_gallus_domesticus_feminam\\gallus_gallus_domesticus_feminam.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\gallus_gallus_domesticus_feminam\\data\\hen_brown_co.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_gallusgallusdomesticusf",
+        "cfgvehicles::animal_gallusgallusdomesticusf_brown"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_animal_gallusgallusdomesticusf0",
+        "descriptionShort": "$STR_cfgvehicles_animal_gallusgallusdomesticusf1",
+        "model": "\\DZ\\animals\\gallus_gallus_domesticus_feminam\\gallus_gallus_domesticus_feminam.p3d",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "AmbientLife_Gallus_Gallus_Domesticus",
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\gallus_gallus_domesticus_feminam\\data\\hen_brown_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_gallusgallusdomesticusf_spotted",
+      "className": "Animal_GallusGallusDomesticusF_Spotted",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_GallusGallusDomesticusF",
+      "displayNameKey": "$STR_cfgvehicles_animal_gallusgallusdomesticusf0",
+      "fallbackName": "Animal Gallus Gallus Domesticus F Spotted",
+      "descriptionShortKey": "$STR_cfgvehicles_animal_gallusgallusdomesticusf1",
+      "model": "\\DZ\\animals\\gallus_gallus_domesticus_feminam\\gallus_gallus_domesticus_feminam.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\gallus_gallus_domesticus_feminam\\data\\hen_spotted_co.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_gallusgallusdomesticusf",
+        "cfgvehicles::animal_gallusgallusdomesticusf_spotted"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_animal_gallusgallusdomesticusf0",
+        "descriptionShort": "$STR_cfgvehicles_animal_gallusgallusdomesticusf1",
+        "model": "\\DZ\\animals\\gallus_gallus_domesticus_feminam\\gallus_gallus_domesticus_feminam.p3d",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "AmbientLife_Gallus_Gallus_Domesticus",
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\gallus_gallus_domesticus_feminam\\data\\hen_spotted_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_gallusgallusdomesticusf_white",
+      "className": "Animal_GallusGallusDomesticusF_White",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_GallusGallusDomesticusF",
+      "displayNameKey": "$STR_cfgvehicles_animal_gallusgallusdomesticusf0",
+      "fallbackName": "Animal Gallus Gallus Domesticus F White",
+      "descriptionShortKey": "$STR_cfgvehicles_animal_gallusgallusdomesticusf1",
+      "model": "\\DZ\\animals\\gallus_gallus_domesticus_feminam\\gallus_gallus_domesticus_feminam.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\animals\\gallus_gallus_domesticus_feminam\\data\\hen_white_co.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_gallusgallusdomesticusf",
+        "cfgvehicles::animal_gallusgallusdomesticusf_white"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_animal_gallusgallusdomesticusf0",
+        "descriptionShort": "$STR_cfgvehicles_animal_gallusgallusdomesticusf1",
+        "model": "\\DZ\\animals\\gallus_gallus_domesticus_feminam\\gallus_gallus_domesticus_feminam.p3d",
+        "hiddenSelections": [
+          "Camo"
+        ],
+        "aiAgentTemplate": "AmbientLife_Gallus_Gallus_Domesticus",
+        "hiddenSelectionsTextures": [
+          "dz\\animals\\gallus_gallus_domesticus_feminam\\data\\hen_white_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_lepuseuropaeus",
+      "className": "Animal_LepusEuropaeus",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_LepusEuropaeus0",
+      "fallbackName": "Animal Lepus Europaeus",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_LepusEuropaeus1",
+      "model": "\\DZ\\animals\\lepus_europaeus\\lepus_europaeus.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_lepuseuropaeus"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\lepus_europaeus\\lepus_europaeus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_LepusEuropaeus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_LepusEuropaeus1",
+        "aiAgentTemplate": "AmbientLife_Lepus_Europaeus"
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_ovisaries",
+      "className": "Animal_OvisAries",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_OvisAries0",
+      "fallbackName": "Animal Ovis Aries",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_OvisAries1",
+      "model": "\\DZ\\animals\\ovis_aries\\ovis_aries.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_ovisaries"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\ovis_aries\\ovis_aries.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_OvisAries0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_OvisAries1",
+        "aiAgentTemplate": "Herbivores_OvisAries",
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_ovisariesf",
+      "className": "Animal_OvisAriesF",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_OvisAriesF0",
+      "fallbackName": "Animal Ovis Aries F",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_OvisAriesF1",
+      "model": "\\DZ\\animals\\ovis_aries_fem\\ovis_aries_fem.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_ovisariesf"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\ovis_aries_fem\\ovis_aries_fem.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_OvisAriesF0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_OvisAriesF1",
+        "aiAgentTemplate": "Herbivores_OvisAries",
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_rangifertarandus",
+      "className": "Animal_RangiferTarandus",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_RangiferTarandus0",
+      "fallbackName": "Animal Rangifer Tarandus",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_RangiferTarandus1",
+      "model": "\\DZ\\animals\\rangifer_tarandus\\rangifer_tarandus.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_rangifertarandus"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\rangifer_tarandus\\rangifer_tarandus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_RangiferTarandus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_RangiferTarandus1",
+        "aiAgentTemplate": "Herbivores_CervusElaphus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "varTemperatureFreezeTime": 7920,
+        "varTemperatureThawTime": 7920
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_rangifertarandus_xmas",
+      "className": "Animal_RangiferTarandus_Xmas",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "Animal_RangiferTarandus",
+      "displayNameKey": "$STR_CfgVehicles_Animal_RangiferTarandus0",
+      "fallbackName": "Animal Rangifer Tarandus Xmas",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_RangiferTarandus1",
+      "model": "\\DZ\\animals\\rangifer_tarandus\\rangifer_tarandus_xmas.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_rangifertarandus",
+        "cfgvehicles::animal_rangifertarandus_xmas"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\rangifer_tarandus\\rangifer_tarandus_xmas.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_RangiferTarandus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_RangiferTarandus1",
+        "aiAgentTemplate": "Herbivores_CervusElaphus",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "varTemperatureFreezeTime": 7920,
+        "varTemperatureThawTime": 7920
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_rangifertarandusf",
+      "className": "Animal_RangiferTarandusF",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_RangiferTarandus0",
+      "fallbackName": "Animal Rangifer Tarandus F",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_RangiferTarandus1",
+      "model": "\\DZ\\animals\\rangifer_tarandus_fem\\rangifer_tarandus_fem.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_rangifertarandusf"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\rangifer_tarandus_fem\\rangifer_tarandus_fem.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_RangiferTarandus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_RangiferTarandus1",
+        "aiAgentTemplate": "Herbivores_CervusElaphusFem",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "varTemperatureFreezeTime": 7920,
+        "varTemperatureThawTime": 7920
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_susdomesticus",
+      "className": "Animal_SusDomesticus",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_SusDomesticus0",
+      "fallbackName": "Animal Sus Domesticus",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_SusDomesticus1",
+      "model": "\\DZ\\animals\\sus_domesticus\\sus_domesticus.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_susdomesticus"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\sus_domesticus\\sus_domesticus.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_SusDomesticus0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_SusDomesticus1",
+        "aiAgentTemplate": "Herbivores_SusDomesticus",
+        "varTemperatureFreezePoint": -1,
+        "varTemperatureThawPoint": -1
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_susscrofa",
+      "className": "Animal_SusScrofa",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_SusScrofa0",
+      "fallbackName": "Animal Sus Scrofa",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_SusScrofa1",
+      "model": "\\DZ\\animals\\sus_scrofa\\sus_scrofa.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\animals\\sus_scrofa\\data\\wild_boar_brown_co.paa",
+        "\\dz\\animals\\sus_scrofa\\data\\wild_boar_fur_ca.paa"
+      ],
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_susscrofa"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\sus_scrofa\\sus_scrofa.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_SusScrofa0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_SusScrofa1",
+        "aiAgentTemplate": "Herbivores_SusScrofa",
+        "hiddenSelections": [
+          "camo",
+          "fur"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\animals\\sus_scrofa\\data\\wild_boar_brown_co.paa",
+          "\\dz\\animals\\sus_scrofa\\data\\wild_boar_fur_ca.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\animals\\sus_scrofa\\data\\wild_boar.rvmat",
+          "dz\\animals\\sus_scrofa\\data\\wild_boar_fur_sh.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_ursusarctos",
+      "className": "Animal_UrsusArctos",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_UrsusArctos0",
+      "fallbackName": "Animal Ursus Arctos",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_UrsusArctos1",
+      "model": "\\DZ\\animals_bliss\\ursus_arctos\\ursus_arctos.p3d",
+      "scope": 2,
+      "sourcePbo": "animals_bliss.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_ursusarctos"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals_bliss\\ursus_arctos\\ursus_arctos.p3d",
+        "armor": 1.2,
+        "displayName": "$STR_CfgVehicles_Animal_UrsusArctos0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_UrsusArctos1",
+        "aiAgentTemplate": "Predator_UrsusArctos",
+        "injuryLevels": [
+          1,
+          0.5,
+          0.2,
+          0
+        ],
+        "collidesWithCharacterOnDeath": 1,
+        "DamageSphereAmmos": [
+          "MeleeBear",
+          "MeleeBearShock",
+          "MeleeWolf"
+        ],
+        "varTemperatureFreezeTime": 7920,
+        "varTemperatureThawTime": 7920
+      }
+    },
+    {
+      "id": "cfgvehicles::animal_vulpesvulpes",
+      "className": "Animal_VulpesVulpes",
+      "section": "CfgVehicles",
+      "category": "animal",
+      "parentClass": "AnimalBase",
+      "displayNameKey": "$STR_CfgVehicles_Animal_VulpesVulpes0",
+      "fallbackName": "Animal Vulpes Vulpes",
+      "descriptionShortKey": "$STR_CfgVehicles_Animal_VulpesVulpes1",
+      "model": "\\DZ\\animals\\vulpes_vulpes\\vulpes_vulpes.p3d",
+      "scope": 2,
+      "sourcePbo": "animals.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::animalbase",
+        "cfgvehicles::animal_vulpesvulpes"
+      ],
+      "properties": {
+        "simulation": "dayzanimal",
+        "scope": 2,
+        "model": "\\DZ\\animals\\vulpes_vulpes\\vulpes_vulpes.p3d",
+        "displayName": "$STR_CfgVehicles_Animal_VulpesVulpes0",
+        "descriptionShort": "$STR_CfgVehicles_Animal_VulpesVulpes1",
+        "aiAgentTemplate": "AmbientLife_Vulpes_Vulpes"
+      }
+    }
+  ]
+}

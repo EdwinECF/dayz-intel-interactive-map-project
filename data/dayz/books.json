@@ -1,0 +1,4764 @@
+{
+  "metadata": {
+    "category": "book",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 144
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::book20000lieuessouslesmers",
+      "className": "Book20000LieuesSousLesMers",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "20000 Lieues sous les mers",
+      "fallbackName": "Book 20000 Lieues Sous Les Mers",
+      "descriptionShortKey": "20000 Lieues sous les mers",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_20000LieuesSousLesMers_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::book20000lieuessouslesmers"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "20000 Lieues sous les mers",
+        "author": "Jules Verne",
+        "file": "dz\\gear\\books\\Automatic\\20000LieuesSousLesMers.html",
+        "displayName": "20000 Lieues sous les mers",
+        "descriptionShort": "20000 Lieues sous les mers",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_20000LieuesSousLesMers_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookadollshouse",
+      "className": "BookADollsHouse",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "A Doll's House",
+      "fallbackName": "Book ADolls House",
+      "descriptionShortKey": "A Doll's House",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ADollsHouse_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookadollshouse"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "A Doll's House",
+        "author": "Henrik Ibsen",
+        "file": "dz\\gear\\books\\Automatic\\ADollsHouse.html",
+        "displayName": "A Doll's House",
+        "descriptionShort": "A Doll's House",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ADollsHouse_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookafterlondon",
+      "className": "BookAfterLondon",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "After London",
+      "fallbackName": "Book After London",
+      "descriptionShortKey": "After London",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_AfterLondon_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookafterlondon"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "After London",
+        "author": "Richard Jefferies",
+        "file": "dz\\gear\\books\\Automatic\\AfterLondon.html",
+        "displayName": "After London",
+        "descriptionShort": "After London",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_AfterLondon_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookaliceinwonderland",
+      "className": "BookAliceInWonderland",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Alice's Adventures in Wonderland",
+      "fallbackName": "Book Alice In Wonderland",
+      "descriptionShortKey": "Alice's Adventures in Wonderland",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_AliceInWonderland_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookaliceinwonderland"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Alice's Adventures in Wonderland",
+        "author": "",
+        "file": "dz\\gear\\books\\Automatic\\AliceInWonderland.html",
+        "displayName": "Alice's Adventures in Wonderland",
+        "descriptionShort": "Alice's Adventures in Wonderland",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_AliceInWonderland_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookandersen",
+      "className": "BookAndersen",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Fairy Tales",
+      "fallbackName": "Book Andersen",
+      "descriptionShortKey": "Fairy Tales",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Andersen_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookandersen"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Fairy Tales",
+        "author": "Andersen",
+        "file": "dz\\gear\\books\\fiction\\Andersen.html",
+        "displayName": "Fairy Tales",
+        "descriptionShort": "Fairy Tales",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Andersen_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookandersensfairytales",
+      "className": "BookAndersensFairyTales",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Andersen's Fairy Tales",
+      "fallbackName": "Book Andersens Fairy Tales",
+      "descriptionShortKey": "Andersen's Fairy Tales",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_AndersensFairyTales_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookandersensfairytales"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Andersen's Fairy Tales",
+        "author": "Hans Christian Andersen",
+        "file": "dz\\gear\\books\\Automatic\\AndersensFairyTales.html",
+        "displayName": "Andersen's Fairy Tales",
+        "descriptionShort": "Andersen's Fairy Tales",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_AndersensFairyTales_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookannakarenina",
+      "className": "BookAnnaKarenina",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Anna Karenina",
+      "fallbackName": "Book Anna Karenina",
+      "descriptionShortKey": "Anna Karenina",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_AnnaKarenina_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookannakarenina"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "file": "dz\\gear\\books\\Automatic\\AnnaKarenina.html",
+        "displayName": "Anna Karenina",
+        "descriptionShort": "Anna Karenina",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_AnnaKarenina_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookaprincessofmars",
+      "className": "BookAPrincessOfMars",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "A Princess of Mars",
+      "fallbackName": "Book APrincess Of Mars",
+      "descriptionShortKey": "A Princess of Mars",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_APrincessOfMars_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookaprincessofmars"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "A Princess of Mars",
+        "author": "Edgar Rice Burroughs",
+        "file": "dz\\gear\\books\\Automatic\\APrincessOfMars.html",
+        "displayName": "A Princess of Mars",
+        "descriptionShort": "A Princess of Mars",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_APrincessOfMars_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookaroundtheworldin80days",
+      "className": "BookAroundTheWorldIn80Days",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Around the World in 80 Days",
+      "fallbackName": "Book Around The World In 80 Days",
+      "descriptionShortKey": "Around the World in 80 Days",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_AroundTheWorldIn80Days_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookaroundtheworldin80days"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Around the World in 80 Days",
+        "author": "Jules Verne",
+        "file": "dz\\gear\\books\\fiction\\AroundTheWorldIn80Days.html",
+        "displayName": "Around the World in 80 Days",
+        "descriptionShort": "Around the World in 80 Days",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_AroundTheWorldIn80Days_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookatexasmatchmaker",
+      "className": "BookATexasMatchmaker",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "A Texas Matchmaker",
+      "fallbackName": "Book ATexas Matchmaker",
+      "descriptionShortKey": "A Texas Matchmaker",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ATexasMatchmaker_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookatexasmatchmaker"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "A Texas Matchmaker",
+        "author": "Andy Adams",
+        "file": "dz\\gear\\books\\Automatic\\ATexasMatchmaker.html",
+        "displayName": "A Texas Matchmaker",
+        "descriptionShort": "A Texas Matchmaker",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ATexasMatchmaker_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookatravelerintime",
+      "className": "BookATravelerInTime",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "A Traveler In Time",
+      "fallbackName": "Book ATraveler In Time",
+      "descriptionShortKey": "A Traveler In Time",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ATravelerInTime_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookatravelerintime"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "A Traveler In Time",
+        "author": "August Derleth",
+        "file": "dz\\gear\\books\\short_stories\\ATravelerInTime.html",
+        "displayName": "A Traveler In Time",
+        "descriptionShort": "A Traveler In Time",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ATravelerInTime_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookavoyagetoarcturus",
+      "className": "BookAVoyageToArcturus",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "A Voyage to Arcturus",
+      "fallbackName": "Book AVoyage To Arcturus",
+      "descriptionShortKey": "A Voyage to Arcturus",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_AVoyageToArcturus_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookavoyagetoarcturus"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "A Voyage to Arcturus",
+        "author": "David Lindsay",
+        "file": "dz\\gear\\books\\Automatic\\AVoyageToArcturus.html",
+        "displayName": "A Voyage to Arcturus",
+        "descriptionShort": "A Voyage to Arcturus",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_AVoyageToArcturus_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookbettyzane",
+      "className": "BookBettyZane",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Betty Zane",
+      "fallbackName": "Book Betty Zane",
+      "descriptionShortKey": "Betty Zane",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_BettyZane_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookbettyzane"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Betty Zane",
+        "author": "Zane Grey",
+        "file": "dz\\gear\\books\\Automatic\\BettyZane.html",
+        "displayName": "Betty Zane",
+        "descriptionShort": "Betty Zane",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_BettyZane_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookbible",
+      "className": "BookBible",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "$STR_CfgVehicles_BookBible0",
+      "fallbackName": "Book Bible",
+      "descriptionShortKey": "$STR_CfgVehicles_BookBible1",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_bible_CO.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookbible"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Bible",
+        "author": "King James Version",
+        "file": "dz\\gear\\books\\non-fiction\\Bible.html",
+        "lootTag": [
+          "Religious"
+        ],
+        "displayName": "$STR_CfgVehicles_BookBible0",
+        "descriptionShort": "$STR_CfgVehicles_BookBible1",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_bible_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookbilanemoc",
+      "className": "BookBilaNemoc",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Bila nemoc",
+      "fallbackName": "Book Bila Nemoc",
+      "descriptionShortKey": "Bila nemoc",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_BilaNemoc_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookbilanemoc"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Bila nemoc",
+        "author": "Karel Capek",
+        "file": "dz\\gear\\books\\drama\\BilaNemoc.html",
+        "displayName": "Bila nemoc",
+        "descriptionShort": "Bila nemoc",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_BilaNemoc_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookblackbeauty",
+      "className": "BookBlackBeauty",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Black Beauty",
+      "fallbackName": "Book Black Beauty",
+      "descriptionShortKey": "Black Beauty",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_BlackBeauty_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookblackbeauty"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Black Beauty",
+        "author": "Anna Sewell",
+        "file": "dz\\gear\\books\\Automatic\\BlackBeauty.html",
+        "displayName": "Black Beauty",
+        "descriptionShort": "Black Beauty",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_BlackBeauty_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookblackjack",
+      "className": "BookBlackJack",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Black Jack",
+      "fallbackName": "Book Black Jack",
+      "descriptionShortKey": "Black Jack",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_BlackJack_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookblackjack"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Black Jack",
+        "author": "Max Brand",
+        "file": "dz\\gear\\books\\Automatic\\BlackJack.html",
+        "displayName": "Black Jack",
+        "descriptionShort": "Black Jack",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_BlackJack_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookbuddenbrooks",
+      "className": "BookBuddenbrooks",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Buddenbrooks",
+      "fallbackName": "Book Buddenbrooks",
+      "descriptionShortKey": "Buddenbrooks",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Buddenbrooks_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookbuddenbrooks"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Buddenbrooks",
+        "author": "Thomas Mann",
+        "file": "dz\\gear\\books\\Automatic\\Buddenbrooks.html",
+        "displayName": "Buddenbrooks",
+        "descriptionShort": "Buddenbrooks",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Buddenbrooks_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookcandide",
+      "className": "BookCandide",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Candide",
+      "fallbackName": "Book Candide",
+      "descriptionShortKey": "Candide",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Candide_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookcandide"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Candide",
+        "author": "Voltaire",
+        "file": "dz\\gear\\books\\Automatic\\Candide.html",
+        "displayName": "Candide",
+        "descriptionShort": "Candide",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Candide_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookcassidysrustlerroundup",
+      "className": "BookCassidysRustlerRoundUp",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Hopalong Cassidy's Rustler Round-Up",
+      "fallbackName": "Book Cassidys Rustler Round Up",
+      "descriptionShortKey": "Hopalong Cassidy's Rustler Round-Up",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_CassidysRustlerRoundUp_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookcassidysrustlerroundup"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Hopalong Cassidy's Rustler Round-Up",
+        "author": "Clarence Edward Mulford",
+        "file": "dz\\gear\\books\\Automatic\\CassidysRustlerRoundUp.html",
+        "displayName": "Hopalong Cassidy's Rustler Round-Up",
+        "descriptionShort": "Hopalong Cassidy's Rustler Round-Up",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_CassidysRustlerRoundUp_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookcinqsemainesenballon",
+      "className": "BookCinqSemainesEnBallon",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Cinq Semaines En Ballon",
+      "fallbackName": "Book Cinq Semaines En Ballon",
+      "descriptionShortKey": "Cinq Semaines En Ballon",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_CinqSemainesEnBallon_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookcinqsemainesenballon"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Cinq Semaines En Ballon",
+        "author": "Jules Verne",
+        "file": "dz\\gear\\books\\Automatic\\CinqSemainesEnBallon.html",
+        "displayName": "Cinq Semaines En Ballon",
+        "descriptionShort": "Cinq Semaines En Ballon",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_CinqSemainesEnBallon_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookcrimeandpunishment",
+      "className": "BookCrimeAndPunishment",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Crime and Punishment",
+      "fallbackName": "Book Crime And Punishment",
+      "descriptionShortKey": "Crime and Punishment",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_CrimeAndPunishment_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookcrimeandpunishment"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Crime and Punishment",
+        "author": "Dostoyevsky",
+        "file": "dz\\gear\\books\\fiction\\CrimeAndPunishment.html",
+        "displayName": "Crime and Punishment",
+        "descriptionShort": "Crime and Punishment",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_CrimeAndPunishment_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookdasnibelungenlied",
+      "className": "BookDasNibelungenlied",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Das Nibelungenlied",
+      "fallbackName": "Book Das Nibelungenlied",
+      "descriptionShortKey": "Das Nibelungenlied",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_DasNibelungenlied_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookdasnibelungenlied"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Das Nibelungenlied",
+        "author": "Unknown",
+        "file": "dz\\gear\\books\\Automatic\\DasNibelungenlied.html",
+        "displayName": "Das Nibelungenlied",
+        "descriptionShort": "Das Nibelungenlied",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_DasNibelungenlied_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookdeadsouls",
+      "className": "BookDeadSouls",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Dead Souls",
+      "fallbackName": "Book Dead Souls",
+      "descriptionShortKey": "Dead Souls",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_DeadSouls_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookdeadsouls"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Dead Souls",
+        "author": "Nikolai Vasilievich Gogol",
+        "file": "dz\\gear\\books\\Automatic\\DeadSouls.html",
+        "displayName": "Dead Souls",
+        "descriptionShort": "Dead Souls",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_DeadSouls_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookdelaterrelalune",
+      "className": "BookDeLaTerreLaLune",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "De la terre a la lune",
+      "fallbackName": "Book De La Terre La Lune",
+      "descriptionShortKey": "De la terre a la lune",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_DeLaTerreLaLune_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookdelaterrelalune"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "De la terre a la lune",
+        "author": "Jules Verne",
+        "file": "dz\\gear\\books\\Automatic\\DeLaTerreLaLune.html",
+        "displayName": "De la terre a la lune",
+        "descriptionShort": "De la terre a la lune",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_DeLaTerreLaLune_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookdeloriginedesespces",
+      "className": "BookDeLorigineDesEspces",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "De l'origine des especes",
+      "fallbackName": "Book De Lorigine Des Espces",
+      "descriptionShortKey": "De l'origine des especes",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_DeLorigineDesEspces_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookdeloriginedesespces"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "De l'origine des especes",
+        "author": "Charles Darwin",
+        "file": "dz\\gear\\books\\Automatic\\DeLorigineDesEspces.html",
+        "displayName": "De l'origine des especes",
+        "descriptionShort": "De l'origine des especes",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_DeLorigineDesEspces_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookdesertgold",
+      "className": "BookDesertGold",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Desert Gold",
+      "fallbackName": "Book Desert Gold",
+      "descriptionShortKey": "Desert Gold",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_DesertGold_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookdesertgold"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Desert Gold",
+        "author": "Zane Grey",
+        "file": "dz\\gear\\books\\Automatic\\DesertGold.html",
+        "displayName": "Desert Gold",
+        "descriptionShort": "Desert Gold",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_DesertGold_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookdonquichotte",
+      "className": "BookDonQuichotte",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "L’Ingénieux Hidalgo Don Quichotte de la Manche",
+      "fallbackName": "Book Don Quichotte",
+      "descriptionShortKey": "L’Ingénieux Hidalgo Don Quichotte de la Manche",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_DonQuichotte_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookdonquichotte"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "L’Ingénieux Hidalgo Don Quichotte de la Manche",
+        "author": "Michel Cervantes",
+        "file": "dz\\gear\\books\\Automatic\\DonQuichotte.html",
+        "displayName": "L’Ingénieux Hidalgo Don Quichotte de la Manche",
+        "descriptionShort": "L’Ingénieux Hidalgo Don Quichotte de la Manche",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_DonQuichotte_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookdonquixote",
+      "className": "BookDonQuixote",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Don Quixote",
+      "fallbackName": "Book Don Quixote",
+      "descriptionShortKey": "Don Quixote",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_DonQuixote_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookdonquixote"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes Saavedra",
+        "file": "dz\\gear\\books\\Automatic\\DonQuixote.html",
+        "displayName": "Don Quixote",
+        "descriptionShort": "Don Quixote",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_DonQuixote_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookdracula",
+      "className": "BookDracula",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Dracula",
+      "fallbackName": "Book Dracula",
+      "descriptionShortKey": "Dracula",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Dracula_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookdracula"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "file": "dz\\gear\\books\\Automatic\\Dracula.html",
+        "displayName": "Dracula",
+        "descriptionShort": "Dracula",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Dracula_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookerewhon",
+      "className": "BookErewhon",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Erewhon",
+      "fallbackName": "Book Erewhon",
+      "descriptionShortKey": "Erewhon",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Erewhon_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookerewhon"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Erewhon",
+        "author": "Samuel Butler",
+        "file": "dz\\gear\\books\\Automatic\\Erewhon.html",
+        "displayName": "Erewhon",
+        "descriptionShort": "Erewhon",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Erewhon_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookfathergoriot",
+      "className": "BookFatherGoriot",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Father Goriot",
+      "fallbackName": "Book Father Goriot",
+      "descriptionShortKey": "Father Goriot",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_FatherGoriot_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookfathergoriot"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Father Goriot",
+        "author": "Honore de Balzac",
+        "file": "dz\\gear\\books\\Automatic\\FatherGoriot.html",
+        "displayName": "Father Goriot",
+        "descriptionShort": "Father Goriot",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_FatherGoriot_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookfaust",
+      "className": "BookFaust",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Faust",
+      "fallbackName": "Book Faust",
+      "descriptionShortKey": "Faust",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Faust_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookfaust"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Faust",
+        "author": "Johann Wolfgang von Goethe",
+        "file": "dz\\gear\\books\\Automatic\\Faust.html",
+        "displayName": "Faust",
+        "descriptionShort": "Faust",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Faust_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookfaustersterteil",
+      "className": "BookFaustErsterTeil",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Faust: Der Tragödie erster Teil",
+      "fallbackName": "Book Faust Erster Teil",
+      "descriptionShortKey": "Faust: Der Tragödie erster Teil",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_FaustErsterTeil_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookfaustersterteil"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Faust: Der Tragödie erster Teil",
+        "author": "Johann Wolfgang von Goethe",
+        "file": "dz\\gear\\books\\Automatic\\FaustErsterTeil.html",
+        "displayName": "Faust: Der Tragödie erster Teil",
+        "descriptionShort": "Faust: Der Tragödie erster Teil",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_FaustErsterTeil_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookflyinguranch",
+      "className": "BookFlyingURanch",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Flying U Ranch",
+      "fallbackName": "Book Flying URanch",
+      "descriptionShortKey": "Flying U Ranch",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_FlyingURanch_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookflyinguranch"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Flying U Ranch",
+        "author": "B. M. Bower",
+        "file": "dz\\gear\\books\\Automatic\\FlyingURanch.html",
+        "displayName": "Flying U Ranch",
+        "descriptionShort": "Flying U Ranch",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_FlyingURanch_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookfrankenstein",
+      "className": "BookFrankenstein",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Frankenstein",
+      "fallbackName": "Book Frankenstein",
+      "descriptionShortKey": "Frankenstein",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Frankenstein_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookfrankenstein"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Frankenstein",
+        "author": "Mary Wollstonecraft (Godwin) Shelley",
+        "file": "dz\\gear\\books\\Automatic\\Frankenstein.html",
+        "displayName": "Frankenstein",
+        "descriptionShort": "Frankenstein",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Frankenstein_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookgilgameshepic",
+      "className": "BookGilgameshEpic",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "An Old Babylonian Version of the Gilgamesh Epic",
+      "fallbackName": "Book Gilgamesh Epic",
+      "descriptionShortKey": "An Old Babylonian Version of the Gilgamesh Epic",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_GilgameshEpic_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookgilgameshepic"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "An Old Babylonian Version of the Gilgamesh Epic",
+        "author": "Anonymous",
+        "file": "dz\\gear\\books\\Automatic\\GilgameshEpic.html",
+        "displayName": "An Old Babylonian Version of the Gilgamesh Epic",
+        "descriptionShort": "An Old Babylonian Version of the Gilgamesh Epic",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_GilgameshEpic_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookgreatexpectations",
+      "className": "BookGreatExpectations",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Great Expectations",
+      "fallbackName": "Book Great Expectations",
+      "descriptionShortKey": "Great Expectations",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_GreatExpectations_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookgreatexpectations"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Great Expectations",
+        "author": "Charles Dickens",
+        "file": "dz\\gear\\books\\Automatic\\GreatExpectations.html",
+        "displayName": "Great Expectations",
+        "descriptionShort": "Great Expectations",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_GreatExpectations_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookgulliverstravels",
+      "className": "BookGulliversTravels",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Gulliver's Travels",
+      "fallbackName": "Book Gullivers Travels",
+      "descriptionShortKey": "Gulliver's Travels",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_GulliversTravels_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookgulliverstravels"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Gulliver's Travels",
+        "author": "Jonathan Swift",
+        "file": "dz\\gear\\books\\Automatic\\GulliversTravels.html",
+        "displayName": "Gulliver's Travels",
+        "descriptionShort": "Gulliver's Travels",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_GulliversTravels_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookgunmansreckoning",
+      "className": "BookGunmansReckoning",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Gunman's Reckoning",
+      "fallbackName": "Book Gunmans Reckoning",
+      "descriptionShortKey": "Gunman's Reckoning",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_GunmansReckoning_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookgunmansreckoning"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Gunman's Reckoning",
+        "author": "Max Brand",
+        "file": "dz\\gear\\books\\Automatic\\GunmansReckoning.html",
+        "displayName": "Gunman's Reckoning",
+        "descriptionShort": "Gunman's Reckoning",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_GunmansReckoning_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookheartofdarkness",
+      "className": "BookHeartOfDarkness",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Heart of Darkness",
+      "fallbackName": "Book Heart Of Darkness",
+      "descriptionShortKey": "Heart of Darkness",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_HeartOfDarkness_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookheartofdarkness"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Heart of Darkness",
+        "author": "Joseph Conrad",
+        "file": "dz\\gear\\books\\Automatic\\HeartOfDarkness.html",
+        "displayName": "Heart of Darkness",
+        "descriptionShort": "Heart of Darkness",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_HeartOfDarkness_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookherland",
+      "className": "BookHerland",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Herland",
+      "fallbackName": "Book Herland",
+      "descriptionShortKey": "Herland",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Herland_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookherland"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Herland",
+        "author": "Charlotte Perkins Stetson Gilman",
+        "file": "dz\\gear\\books\\Automatic\\Herland.html",
+        "displayName": "Herland",
+        "descriptionShort": "Herland",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Herland_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookhinduliterature",
+      "className": "BookHinduLiterature",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Hindu Literature",
+      "fallbackName": "Book Hindu Literature",
+      "descriptionShortKey": "Hindu Literature",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_HinduLiterature_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookhinduliterature"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Hindu Literature",
+        "author": "Epiphanius Wilson",
+        "file": "dz\\gear\\books\\Automatic\\HinduLiterature.html",
+        "displayName": "Hindu Literature",
+        "descriptionShort": "Hindu Literature",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_HinduLiterature_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookhunger",
+      "className": "BookHunger",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Hunger",
+      "fallbackName": "Book Hunger",
+      "descriptionShortKey": "Hunger",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Hunger_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookhunger"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Hunger",
+        "author": "Knut Hamsun",
+        "file": "dz\\gear\\books\\Automatic\\Hunger.html",
+        "displayName": "Hunger",
+        "descriptionShort": "Hunger",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Hunger_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookivanhoe",
+      "className": "BookIvanhoe",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Ivanhoe",
+      "fallbackName": "Book Ivanhoe",
+      "descriptionShortKey": "Ivanhoe",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Ivanhoe_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookivanhoe"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Ivanhoe",
+        "author": "Walter Scott",
+        "file": "dz\\gear\\books\\Automatic\\Ivanhoe.html",
+        "displayName": "Ivanhoe",
+        "descriptionShort": "Ivanhoe",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Ivanhoe_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookjapaneseliterature",
+      "className": "BookJapaneseLiterature",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Japanese Literature",
+      "fallbackName": "Book Japanese Literature",
+      "descriptionShortKey": "Japanese Literature",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_JapaneseLiterature_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookjapaneseliterature"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Japanese Literature",
+        "author": "Various",
+        "file": "dz\\gear\\books\\Automatic\\JapaneseLiterature.html",
+        "displayName": "Japanese Literature",
+        "descriptionShort": "Japanese Literature",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_JapaneseLiterature_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookkidnapped",
+      "className": "BookKidnapped",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Kidnapped",
+      "fallbackName": "Book Kidnapped",
+      "descriptionShortKey": "Kidnapped",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Kidnapped_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookkidnapped"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Kidnapped",
+        "author": "Robert Louis Stevenson",
+        "file": "dz\\gear\\books\\Automatic\\Kidnapped.html",
+        "displayName": "Kidnapped",
+        "descriptionShort": "Kidnapped",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Kidnapped_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookkinglear",
+      "className": "BookKingLear",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "King Lear",
+      "fallbackName": "Book King Lear",
+      "descriptionShortKey": "King Lear",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_KingLear_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookkinglear"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "King Lear",
+        "author": "",
+        "file": "dz\\gear\\books\\Automatic\\KingLear.html",
+        "displayName": "King Lear",
+        "descriptionShort": "King Lear",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_KingLear_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booklachartreusedeparme",
+      "className": "BookLaChartreuseDeParme",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "La Chartreuse de Parme",
+      "fallbackName": "Book La Chartreuse De Parme",
+      "descriptionShortKey": "La Chartreuse de Parme",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LaChartreuseDeParme_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booklachartreusedeparme"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "La Chartreuse de Parme",
+        "author": "Stendhal",
+        "file": "dz\\gear\\books\\Automatic\\LaChartreuseDeParme.html",
+        "displayName": "La Chartreuse de Parme",
+        "descriptionShort": "La Chartreuse de Parme",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LaChartreuseDeParme_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booklacomdiehumaine",
+      "className": "BookLaComdieHumaine",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "La Comédie humaine volume I",
+      "fallbackName": "Book La Comdie Humaine",
+      "descriptionShortKey": "La Comédie humaine volume I",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LaComdieHumaine_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booklacomdiehumaine"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "La Comédie humaine volume I",
+        "author": "Honoré de Balzac",
+        "file": "dz\\gear\\books\\Automatic\\LaComdieHumaine.html",
+        "displayName": "La Comédie humaine volume I",
+        "descriptionShort": "La Comédie humaine volume I",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LaComdieHumaine_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookladbcle",
+      "className": "BookLaDbcle",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "La Débâcle",
+      "fallbackName": "Book La Dbcle",
+      "descriptionShortKey": "La Débâcle",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LaDbcle_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookladbcle"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "La Débâcle",
+        "author": "Emile Zola",
+        "file": "dz\\gear\\books\\Automatic\\LaDbcle.html",
+        "displayName": "La Débâcle",
+        "descriptionShort": "La Débâcle",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LaDbcle_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booklenfer1of2",
+      "className": "BookLenfer1Of2",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "L'enfer (1 of 2)",
+      "fallbackName": "Book Lenfer 1 Of 2",
+      "descriptionShortKey": "L'enfer (1 of 2)",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Lenfer1Of2_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booklenfer1of2"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "L'enfer (1 of 2)",
+        "author": "Dante Alighieri",
+        "file": "dz\\gear\\books\\Automatic\\Lenfer1Of2.html",
+        "displayName": "L'enfer (1 of 2)",
+        "descriptionShort": "L'enfer (1 of 2)",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Lenfer1Of2_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booklerougeetlenoir",
+      "className": "BookLeRougeEtLeNoir",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Le Rouge et le noir",
+      "fallbackName": "Book Le Rouge Et Le Noir",
+      "descriptionShortKey": "Le Rouge et le noir",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LeRougeEtLeNoir_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booklerougeetlenoir"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Le Rouge et le noir",
+        "author": "Stendhal",
+        "file": "dz\\gear\\books\\Automatic\\LeRougeEtLeNoir.html",
+        "displayName": "Le Rouge et le noir",
+        "descriptionShort": "Le Rouge et le noir",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LeRougeEtLeNoir_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booklescorneilles",
+      "className": "BookLesCorneilles",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Les Corneilles",
+      "fallbackName": "Book Les Corneilles",
+      "descriptionShortKey": "Les Corneilles",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LesCorneilles_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booklescorneilles"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Les Corneilles",
+        "author": "J.-H. Rosny",
+        "file": "dz\\gear\\books\\Automatic\\LesCorneilles.html",
+        "displayName": "Les Corneilles",
+        "descriptionShort": "Les Corneilles",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LesCorneilles_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booklestroismousquetaires",
+      "className": "BookLesTroisMousquetaires",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Les trois mousquetaires",
+      "fallbackName": "Book Les Trois Mousquetaires",
+      "descriptionShortKey": "Les trois mousquetaires",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LesTroisMousquetaires_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booklestroismousquetaires"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Les trois mousquetaires",
+        "author": "Alexandre Dumas",
+        "file": "dz\\gear\\books\\Automatic\\LesTroisMousquetaires.html",
+        "displayName": "Les trois mousquetaires",
+        "descriptionShort": "Les trois mousquetaires",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LesTroisMousquetaires_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookllemystrieuse",
+      "className": "BookLleMystrieuse",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "L'Île mystérieuse",
+      "fallbackName": "Book Lle Mystrieuse",
+      "descriptionShortKey": "L'Île mystérieuse",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LleMystrieuse_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookllemystrieuse"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "L'Île mystérieuse",
+        "author": "Jules Verne",
+        "file": "dz\\gear\\books\\Automatic\\LleMystrieuse.html",
+        "displayName": "L'Île mystérieuse",
+        "descriptionShort": "L'Île mystérieuse",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LleMystrieuse_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booklonesomeland",
+      "className": "BookLonesomeLand",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Lonesome Land",
+      "fallbackName": "Book Lonesome Land",
+      "descriptionShortKey": "Lonesome Land",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LonesomeLand_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booklonesomeland"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Lonesome Land",
+        "author": "B. M. Bower",
+        "file": "dz\\gear\\books\\Automatic\\LonesomeLand.html",
+        "displayName": "Lonesome Land",
+        "descriptionShort": "Lonesome Land",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LonesomeLand_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booklordjim",
+      "className": "BookLordJim",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Lord Jim",
+      "fallbackName": "Book Lord Jim",
+      "descriptionShortKey": "Lord Jim",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_LordJim_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booklordjim"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Lord Jim",
+        "author": "Joseph Conrad",
+        "file": "dz\\gear\\books\\Automatic\\LordJim.html",
+        "displayName": "Lord Jim",
+        "descriptionShort": "Lord Jim",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_LordJim_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookmadamebovary",
+      "className": "BookMadameBovary",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Madame Bovary",
+      "fallbackName": "Book Madame Bovary",
+      "descriptionShortKey": "Madame Bovary",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_MadameBovary_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookmadamebovary"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Madame Bovary",
+        "author": "Gustave Flaubert",
+        "file": "dz\\gear\\books\\Automatic\\MadameBovary.html",
+        "displayName": "Madame Bovary",
+        "descriptionShort": "Madame Bovary",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_MadameBovary_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookmiddlemarch",
+      "className": "BookMiddlemarch",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Middlemarch",
+      "fallbackName": "Book Middlemarch",
+      "descriptionShortKey": "Middlemarch",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Middlemarch_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookmiddlemarch"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Middlemarch",
+        "author": "George Eliot",
+        "file": "dz\\gear\\books\\Automatic\\Middlemarch.html",
+        "displayName": "Middlemarch",
+        "descriptionShort": "Middlemarch",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Middlemarch_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookmobydick",
+      "className": "BookMobyDick",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Moby Dick",
+      "fallbackName": "Book Moby Dick",
+      "descriptionShortKey": "Moby Dick",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_MobyDick_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookmobydick"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "file": "dz\\gear\\books\\Automatic\\MobyDick.html",
+        "displayName": "Moby Dick",
+        "descriptionShort": "Moby Dick",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_MobyDick_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookmrchenfrkinder",
+      "className": "BookMrchenFrKinder",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Märchen für Kinder",
+      "fallbackName": "Book Mrchen Fr Kinder",
+      "descriptionShortKey": "Märchen für Kinder",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_MrchenFrKinder_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookmrchenfrkinder"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Märchen für Kinder",
+        "author": "Hans Christian Andersen",
+        "file": "dz\\gear\\books\\Automatic\\MrchenFrKinder.html",
+        "displayName": "Märchen für Kinder",
+        "descriptionShort": "Märchen für Kinder",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_MrchenFrKinder_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booknaturalselection",
+      "className": "BookNaturalSelection",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "On the Origin of Species by Means of Natural Selection",
+      "fallbackName": "Book Natural Selection",
+      "descriptionShortKey": "On the Origin of Species by Means of Natural Selection",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_NaturalSelection_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booknaturalselection"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "On the Origin of Species by Means of Natural Selection",
+        "author": "Charles Darwin",
+        "file": "dz\\gear\\books\\Automatic\\NaturalSelection.html",
+        "displayName": "On the Origin of Species by Means of Natural Selection",
+        "descriptionShort": "On the Origin of Species by Means of Natural Selection",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_NaturalSelection_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booknjalssaga",
+      "className": "BookNjalsSaga",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Njal's Saga",
+      "fallbackName": "Book Njals Saga",
+      "descriptionShortKey": "Njal's Saga",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_NjalsSaga_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booknjalssaga"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Njal's Saga",
+        "author": "Unknown Icelanders",
+        "file": "dz\\gear\\books\\Automatic\\NjalsSaga.html",
+        "displayName": "Njal's Saga",
+        "descriptionShort": "Njal's Saga",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_NjalsSaga_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booknostromo",
+      "className": "BookNostromo",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Nostromo: A Tale of the Seaboard",
+      "fallbackName": "Book Nostromo",
+      "descriptionShortKey": "Nostromo: A Tale of the Seaboard",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Nostromo_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booknostromo"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Nostromo: A Tale of the Seaboard",
+        "author": "Joseph Conrad",
+        "file": "dz\\gear\\books\\Automatic\\Nostromo.html",
+        "displayName": "Nostromo: A Tale of the Seaboard",
+        "descriptionShort": "Nostromo: A Tale of the Seaboard",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Nostromo_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookphilosophiaenaturalis",
+      "className": "BookPhilosophiaeNaturalis",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Philosophiae Naturalis Principia Mathematica",
+      "fallbackName": "Book Philosophiae Naturalis",
+      "descriptionShortKey": "Philosophiae Naturalis Principia Mathematica",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_PhilosophiaeNaturalis_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookphilosophiaenaturalis"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Philosophiae Naturalis Principia Mathematica",
+        "author": "Isaac Newton",
+        "file": "dz\\gear\\books\\Automatic\\PhilosophiaeNaturalis.html",
+        "displayName": "Philosophiae Naturalis Principia Mathematica",
+        "descriptionShort": "Philosophiae Naturalis Principia Mathematica",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_PhilosophiaeNaturalis_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookprideandprejudice",
+      "className": "BookPrideAndPrejudice",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Pride and Prejudice",
+      "fallbackName": "Book Pride And Prejudice",
+      "descriptionShortKey": "Pride and Prejudice",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_PrideAndPrejudice_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookprideandprejudice"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "file": "dz\\gear\\books\\Automatic\\PrideAndPrejudice.html",
+        "displayName": "Pride and Prejudice",
+        "descriptionShort": "Pride and Prejudice",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_PrideAndPrejudice_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookrasselas",
+      "className": "BookRasselas",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Rasselas",
+      "fallbackName": "Book Rasselas",
+      "descriptionShortKey": "Rasselas",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Rasselas_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookrasselas"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Rasselas",
+        "author": "Samuel Johnson",
+        "file": "dz\\gear\\books\\Automatic\\Rasselas.html",
+        "displayName": "Rasselas",
+        "descriptionShort": "Rasselas",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Rasselas_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookrobinsoncrusoe",
+      "className": "BookRobinsonCrusoe",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Robinson Crusoe",
+      "fallbackName": "Book Robinson Crusoe",
+      "descriptionShortKey": "Robinson Crusoe",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_RobinsonCrusoe_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookrobinsoncrusoe"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Robinson Crusoe",
+        "author": "D. Defoe",
+        "file": "dz\\gear\\books\\fiction\\RobinsonCrusoe.html",
+        "displayName": "Robinson Crusoe",
+        "descriptionShort": "Robinson Crusoe",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_RobinsonCrusoe_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookrobinsoncrusoeadventures",
+      "className": "BookRobinsonCrusoeAdventures",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Further Adventures of Robinson Crusoe",
+      "fallbackName": "Book Robinson Crusoe Adventures",
+      "descriptionShortKey": "The Further Adventures of Robinson Crusoe",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_RobinsonCrusoeAdventures_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookrobinsoncrusoeadventures"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Further Adventures of Robinson Crusoe",
+        "author": "Daniel Defoe",
+        "file": "dz\\gear\\books\\Automatic\\RobinsonCrusoeAdventures.html",
+        "displayName": "The Further Adventures of Robinson Crusoe",
+        "descriptionShort": "The Further Adventures of Robinson Crusoe",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_RobinsonCrusoeAdventures_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookromeoundjulia",
+      "className": "BookRomeoUndJulia",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Romeo und Julia",
+      "fallbackName": "Book Romeo Und Julia",
+      "descriptionShortKey": "Romeo und Julia",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_RomeoUndJulia_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookromeoundjulia"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Romeo und Julia",
+        "author": "William Shakespeare",
+        "file": "dz\\gear\\books\\Automatic\\RomeoUndJulia.html",
+        "displayName": "Romeo und Julia",
+        "descriptionShort": "Romeo und Julia",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_RomeoUndJulia_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookronickydoone",
+      "className": "BookRonickyDoone",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Ronicky Doone",
+      "fallbackName": "Book Ronicky Doone",
+      "descriptionShortKey": "Ronicky Doone",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_RonickyDoone_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookronickydoone"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Ronicky Doone",
+        "author": "Max Brand",
+        "file": "dz\\gear\\books\\Automatic\\RonickyDoone.html",
+        "displayName": "Ronicky Doone",
+        "descriptionShort": "Ronicky Doone",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_RonickyDoone_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookrussian",
+      "className": "BookRussian",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Russian learning book",
+      "fallbackName": "Book Russian",
+      "descriptionShortKey": "Russian learning book",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Russian_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookrussian"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Russian learning book",
+        "author": "",
+        "file": "dz\\gear\\books\\non-fiction\\Russian.html",
+        "displayName": "Russian learning book",
+        "descriptionShort": "Russian learning book",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Russian_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookrussiancheatsheet",
+      "className": "BookRussianCheatSheet",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Russian cheat sheet",
+      "fallbackName": "Book Russian Cheat Sheet",
+      "descriptionShortKey": "Russian cheat sheet",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_RussianCheatSheet_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookrussiancheatsheet"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Russian cheat sheet",
+        "author": "",
+        "file": "dz\\gear\\books\\non-fiction\\RussianCheatSheet.html",
+        "displayName": "Russian cheat sheet",
+        "descriptionShort": "Russian cheat sheet",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_RussianCheatSheet_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookscaramouche",
+      "className": "BookScaramouche",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Scaramouche",
+      "fallbackName": "Book Scaramouche",
+      "descriptionShortKey": "Scaramouche",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Scaramouche_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookscaramouche"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Scaramouche",
+        "author": "Rafael Sabatini",
+        "file": "dz\\gear\\books\\Automatic\\Scaramouche.html",
+        "displayName": "Scaramouche",
+        "descriptionShort": "Scaramouche",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Scaramouche_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookselectedstories",
+      "className": "BookSelectedStories",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Selected Stories",
+      "fallbackName": "Book Selected Stories",
+      "descriptionShortKey": "Selected Stories",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_SelectedStories_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookselectedstories"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Selected Stories",
+        "author": "Bret Harte",
+        "file": "dz\\gear\\books\\Automatic\\SelectedStories.html",
+        "displayName": "Selected Stories",
+        "descriptionShort": "Selected Stories",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_SelectedStories_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookshe",
+      "className": "BookShe",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "She",
+      "fallbackName": "Book She",
+      "descriptionShortKey": "She",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_She_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookshe"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "She",
+        "author": "H. Rider Haggard",
+        "file": "dz\\gear\\books\\Automatic\\She.html",
+        "displayName": "She",
+        "descriptionShort": "She",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_She_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookskyrider",
+      "className": "BookSkyrider",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Skyrider",
+      "fallbackName": "Book Skyrider",
+      "descriptionShortKey": "Skyrider",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Skyrider_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookskyrider"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Skyrider",
+        "author": "B. M. Bower",
+        "file": "dz\\gear\\books\\Automatic\\Skyrider.html",
+        "displayName": "Skyrider",
+        "descriptionShort": "Skyrider",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Skyrider_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booksonsandlovers",
+      "className": "BookSonsAndLovers",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Sons and Lovers",
+      "fallbackName": "Book Sons And Lovers",
+      "descriptionShortKey": "Sons and Lovers",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_SonsAndLovers_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booksonsandlovers"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Sons and Lovers",
+        "author": "David Herbert Lawrence",
+        "file": "dz\\gear\\books\\Automatic\\SonsAndLovers.html",
+        "displayName": "Sons and Lovers",
+        "descriptionShort": "Sons and Lovers",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_SonsAndLovers_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookspinifexandsand",
+      "className": "BookSpinifexAndSand",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Spinifex and Sand",
+      "fallbackName": "Book Spinifex And Sand",
+      "descriptionShortKey": "Spinifex and Sand",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_SpinifexAndSand_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookspinifexandsand"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Spinifex and Sand",
+        "author": "David W Carnegie",
+        "file": "dz\\gear\\books\\Automatic\\SpinifexAndSand.html",
+        "displayName": "Spinifex and Sand",
+        "descriptionShort": "Spinifex and Sand",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_SpinifexAndSand_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booksunsetpass",
+      "className": "BookSunsetPass",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Sunset Pass",
+      "fallbackName": "Book Sunset Pass",
+      "descriptionShortKey": "Sunset Pass",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_SunsetPass_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booksunsetpass"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Sunset Pass",
+        "author": "Charles King",
+        "file": "dz\\gear\\books\\Automatic\\SunsetPass.html",
+        "displayName": "Sunset Pass",
+        "descriptionShort": "Sunset Pass",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_SunsetPass_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheaeneid",
+      "className": "BookTheAeneid",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Aeneid",
+      "fallbackName": "Book The Aeneid",
+      "descriptionShortKey": "The Aeneid",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheAeneid_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheaeneid"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Aeneid",
+        "author": "Virgil",
+        "file": "dz\\gear\\books\\Automatic\\TheAeneid.html",
+        "displayName": "The Aeneid",
+        "descriptionShort": "The Aeneid",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheAeneid_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheartofwar",
+      "className": "BookTheArtOfWar",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Art Of War",
+      "fallbackName": "Book The Art Of War",
+      "descriptionShortKey": "The Art Of War",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheArtOfWar_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheartofwar"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Art Of War",
+        "author": "Sunzi",
+        "file": "dz\\gear\\books\\non-fiction\\TheArtOfWar.html",
+        "displayName": "The Art Of War",
+        "descriptionShort": "The Art Of War",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheArtOfWar_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthebarrier",
+      "className": "BookTheBarrier",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Barrier",
+      "fallbackName": "Book The Barrier",
+      "descriptionShortKey": "The Barrier",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheBarrier_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthebarrier"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Barrier",
+        "author": "Rex Beach",
+        "file": "dz\\gear\\books\\Automatic\\TheBarrier.html",
+        "displayName": "The Barrier",
+        "descriptionShort": "The Barrier",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheBarrier_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthebrotherskaramazov",
+      "className": "BookTheBrothersKaramazov",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Brothers Karamazov",
+      "fallbackName": "Book The Brothers Karamazov",
+      "descriptionShortKey": "The Brothers Karamazov",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheBrothersKaramazov_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthebrotherskaramazov"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Brothers Karamazov",
+        "author": "F. Dostoyevsky",
+        "file": "dz\\gear\\books\\drama\\TheBrothersKaramazov.html",
+        "displayName": "The Brothers Karamazov",
+        "descriptionShort": "The Brothers Karamazov",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheBrothersKaramazov_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthecallofcthulhu",
+      "className": "BookTheCallOfCthulhu",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Call of Cthulhu",
+      "fallbackName": "Book The Call Of Cthulhu",
+      "descriptionShortKey": "The Call of Cthulhu",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheCallOfCthulhu_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthecallofcthulhu"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Call of Cthulhu",
+        "author": "H. P. Lovecraft",
+        "file": "dz\\gear\\books\\short_stories\\TheCallOfCthulhu.html",
+        "displayName": "The Call of Cthulhu",
+        "descriptionShort": "The Call of Cthulhu",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheCallOfCthulhu_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthecallofthewild",
+      "className": "BookTheCallOfTheWild",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Call of the Wild",
+      "fallbackName": "Book The Call Of The Wild",
+      "descriptionShortKey": "The Call of the Wild",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheCallOfTheWild_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthecallofthewild"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Call of the Wild",
+        "author": "Jack London",
+        "file": "dz\\gear\\books\\Automatic\\TheCallOfTheWild.html",
+        "displayName": "The Call of the Wild",
+        "descriptionShort": "The Call of the Wild",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheCallOfTheWild_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthecanterburytales",
+      "className": "BookTheCanterburyTales",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Canterbury Tales and Other Poems",
+      "fallbackName": "Book The Canterbury Tales",
+      "descriptionShortKey": "The Canterbury Tales and Other Poems",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheCanterburyTales_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthecanterburytales"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Canterbury Tales and Other Poems",
+        "author": "",
+        "file": "dz\\gear\\books\\Automatic\\TheCanterburyTales.html",
+        "displayName": "The Canterbury Tales and Other Poems",
+        "descriptionShort": "The Canterbury Tales and Other Poems",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheCanterburyTales_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthecaveofgold",
+      "className": "BookTheCaveOfGold",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Cave of Gold",
+      "fallbackName": "Book The Cave Of Gold",
+      "descriptionShortKey": "The Cave of Gold",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheCaveOfGold_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthecaveofgold"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Cave of Gold",
+        "author": "Everett McNeil",
+        "file": "dz\\gear\\books\\Automatic\\TheCaveOfGold.html",
+        "displayName": "The Cave of Gold",
+        "descriptionShort": "The Cave of Gold",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheCaveOfGold_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthecomingrace",
+      "className": "BookTheComingRace",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Coming Race",
+      "fallbackName": "Book The Coming Race",
+      "descriptionShortKey": "The Coming Race",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheComingRace_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthecomingrace"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Coming Race",
+        "author": "Edward Bulwer Lytton",
+        "file": "dz\\gear\\books\\Automatic\\TheComingRace.html",
+        "displayName": "The Coming Race",
+        "descriptionShort": "The Coming Race",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheComingRace_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthecosmiccomputer",
+      "className": "BookTheCosmicComputer",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Cosmic Computer",
+      "fallbackName": "Book The Cosmic Computer",
+      "descriptionShortKey": "The Cosmic Computer",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheCosmicComputer_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthecosmiccomputer"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Cosmic Computer",
+        "author": "H. Beam Piper",
+        "file": "dz\\gear\\books\\fiction\\TheCosmicComputer.html",
+        "displayName": "The Cosmic Computer",
+        "descriptionShort": "The Cosmic Computer",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheCosmicComputer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthecountryoftheblind",
+      "className": "BookTheCountryOfTheBlind",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Country of the Blind",
+      "fallbackName": "Book The Country Of The Blind",
+      "descriptionShortKey": "The Country of the Blind",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheCountryOfTheBlind_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthecountryoftheblind"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Country of the Blind",
+        "author": "H. G. Wells",
+        "file": "dz\\gear\\books\\short_stories\\TheCountryOfTheBlind.html",
+        "displayName": "The Country of the Blind",
+        "descriptionShort": "The Country of the Blind",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheCountryOfTheBlind_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthedayofthebeast",
+      "className": "BookTheDayOfTheBeast",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Day of the Beast",
+      "fallbackName": "Book The Day Of The Beast",
+      "descriptionShortKey": "The Day of the Beast",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheDayOfTheBeast_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthedayofthebeast"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Day of the Beast",
+        "author": "Zane Grey",
+        "file": "dz\\gear\\books\\Automatic\\TheDayOfTheBeast.html",
+        "displayName": "The Day of the Beast",
+        "descriptionShort": "The Day of the Beast",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheDayOfTheBeast_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthedecameron",
+      "className": "BookTheDecameron",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Decameron of Giovanni Boccaccio",
+      "fallbackName": "Book The Decameron",
+      "descriptionShortKey": "The Decameron of Giovanni Boccaccio",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheDecameron_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthedecameron"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Decameron of Giovanni Boccaccio",
+        "author": "Giovanni Boccaccio",
+        "file": "dz\\gear\\books\\Automatic\\TheDecameron.html",
+        "displayName": "The Decameron of Giovanni Boccaccio",
+        "descriptionShort": "The Decameron of Giovanni Boccaccio",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheDecameron_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthedesertofwheat",
+      "className": "BookTheDesertOfWheat",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Desert of Wheat",
+      "fallbackName": "Book The Desert Of Wheat",
+      "descriptionShortKey": "The Desert of Wheat",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheDesertOfWheat_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthedesertofwheat"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Desert of Wheat",
+        "author": "Zane Grey",
+        "file": "dz\\gear\\books\\Automatic\\TheDesertOfWheat.html",
+        "displayName": "The Desert of Wheat",
+        "descriptionShort": "The Desert of Wheat",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheDesertOfWheat_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthegiacomoleopardi",
+      "className": "BookTheGiacomoLeopardi",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Poems of Giacomo Leopardi",
+      "fallbackName": "Book The Giacomo Leopardi",
+      "descriptionShortKey": "The Poems of Giacomo Leopardi",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheGiacomoLeopardi_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthegiacomoleopardi"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Poems of Giacomo Leopardi",
+        "author": "Giacomo Leopardi",
+        "file": "dz\\gear\\books\\Automatic\\TheGiacomoLeopardi.html",
+        "displayName": "The Poems of Giacomo Leopardi",
+        "descriptionShort": "The Poems of Giacomo Leopardi",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheGiacomoLeopardi_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheheritageofthesioux",
+      "className": "BookTheHeritageOfTheSioux",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Heritage of the Sioux",
+      "fallbackName": "Book The Heritage Of The Sioux",
+      "descriptionShortKey": "The Heritage of the Sioux",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheHeritageOfTheSioux_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheheritageofthesioux"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Heritage of the Sioux",
+        "author": "B.M. Bower",
+        "file": "dz\\gear\\books\\Automatic\\TheHeritageOfTheSioux.html",
+        "displayName": "The Heritage of the Sioux",
+        "descriptionShort": "The Heritage of the Sioux",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheHeritageOfTheSioux_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthehiddenchildren",
+      "className": "BookTheHiddenChildren",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Hidden Children",
+      "fallbackName": "Book The Hidden Children",
+      "descriptionShortKey": "The Hidden Children",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheHiddenChildren_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthehiddenchildren"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Hidden Children",
+        "author": "Robert W. Chambers",
+        "file": "dz\\gear\\books\\Automatic\\TheHiddenChildren.html",
+        "displayName": "The Hidden Children",
+        "descriptionShort": "The Hidden Children",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheHiddenChildren_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthehoundofthebaskervilles",
+      "className": "BookTheHoundOfTheBaskervilles",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Hound of the Baskervilles",
+      "fallbackName": "Book The Hound Of The Baskervilles",
+      "descriptionShortKey": "The Hound of the Baskervilles",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheHoundOfTheBaskervilles_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthehoundofthebaskervilles"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Hound of the Baskervilles",
+        "author": "A. C. Doyle",
+        "file": "dz\\gear\\books\\short_stories\\TheHoundOfTheBaskervilles.html",
+        "displayName": "The Hound of the Baskervilles",
+        "descriptionShort": "The Hound of the Baskervilles",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheHoundOfTheBaskervilles_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthehouseofthesevengables",
+      "className": "BookTheHouseOfTheSevenGables",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The House of the Seven Gables",
+      "fallbackName": "Book The House Of The Seven Gables",
+      "descriptionShortKey": "The House of the Seven Gables",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheHouseOfTheSevenGables_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthehouseofthesevengables"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The House of the Seven Gables",
+        "author": "Nathaniel Hawthorne",
+        "file": "dz\\gear\\books\\Automatic\\TheHouseOfTheSevenGables.html",
+        "displayName": "The House of the Seven Gables",
+        "descriptionShort": "The House of the Seven Gables",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheHouseOfTheSevenGables_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheislandofdoctormoreau",
+      "className": "BookTheIslandOfDoctorMoreau",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Island of Doctor Moreau",
+      "fallbackName": "Book The Island Of Doctor Moreau",
+      "descriptionShortKey": "The Island of Doctor Moreau",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheIslandOfDoctorMoreau_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheislandofdoctormoreau"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Island of Doctor Moreau",
+        "author": "H. G. Wells",
+        "file": "dz\\gear\\books\\Automatic\\TheIslandOfDoctorMoreau.html",
+        "displayName": "The Island of Doctor Moreau",
+        "descriptionShort": "The Island of Doctor Moreau",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheIslandOfDoctorMoreau_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthejunglebook",
+      "className": "BookTheJungleBook",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Jungle Book",
+      "fallbackName": "Book The Jungle Book",
+      "descriptionShortKey": "The Jungle Book",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheJungleBook_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthejunglebook"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Jungle Book",
+        "author": "Rudyard Kipling",
+        "file": "dz\\gear\\books\\fiction\\TheJungleBook.html",
+        "displayName": "The Jungle Book",
+        "descriptionShort": "The Jungle Book",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheJungleBook_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthejustifiedsinner",
+      "className": "BookTheJustifiedSinner",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Private Memoirs and Confessions of a Justified Sinner",
+      "fallbackName": "Book The Justified Sinner",
+      "descriptionShortKey": "The Private Memoirs and Confessions of a Justified Sinner",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheJustifiedSinner_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthejustifiedsinner"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Private Memoirs and Confessions of a Justified Sinner",
+        "author": "James Hogg",
+        "file": "dz\\gear\\books\\Automatic\\TheJustifiedSinner.html",
+        "displayName": "The Private Memoirs and Confessions of a Justified Sinner",
+        "descriptionShort": "The Private Memoirs and Confessions of a Justified Sinner",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheJustifiedSinner_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthelastman",
+      "className": "BookTheLastMan",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Last Man",
+      "fallbackName": "Book The Last Man",
+      "descriptionShortKey": "The Last Man",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheLastMan_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthelastman"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Last Man",
+        "author": "Mary Shelley",
+        "file": "dz\\gear\\books\\Automatic\\TheLastMan.html",
+        "displayName": "The Last Man",
+        "descriptionShort": "The Last Man",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheLastMan_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthelastoftheplainsmen",
+      "className": "BookTheLastOfThePlainsmen",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Last of the Plainsmen",
+      "fallbackName": "Book The Last Of The Plainsmen",
+      "descriptionShortKey": "The Last of the Plainsmen",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheLastOfThePlainsmen_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthelastoftheplainsmen"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Last of the Plainsmen",
+        "author": "Zane Grey",
+        "file": "dz\\gear\\books\\Automatic\\TheLastOfThePlainsmen.html",
+        "displayName": "The Last of the Plainsmen",
+        "descriptionShort": "The Last of the Plainsmen",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheLastOfThePlainsmen_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthelasttrail",
+      "className": "BookTheLastTrail",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Last Trail",
+      "fallbackName": "Book The Last Trail",
+      "descriptionShortKey": "The Last Trail",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheLastTrail_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthelasttrail"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Last Trail",
+        "author": "Zane Grey",
+        "file": "dz\\gear\\books\\Automatic\\TheLastTrail.html",
+        "displayName": "The Last Trail",
+        "descriptionShort": "The Last Trail",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheLastTrail_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthemahabharataofkrishna",
+      "className": "BookTheMahabharataOfKrishna",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Mahabharata of Krishna-Dwaipayana Vyasa Bk. 4",
+      "fallbackName": "Book The Mahabharata Of Krishna",
+      "descriptionShortKey": "The Mahabharata of Krishna-Dwaipayana Vyasa Bk. 4",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheMahabharataOfKrishna_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthemahabharataofkrishna"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Mahabharata of Krishna-Dwaipayana Vyasa Bk. 4",
+        "author": "Kisari Mohan Ganguli",
+        "file": "dz\\gear\\books\\Automatic\\TheMahabharataOfKrishna.html",
+        "displayName": "The Mahabharata of Krishna-Dwaipayana Vyasa Bk. 4",
+        "descriptionShort": "The Mahabharata of Krishna-Dwaipayana Vyasa Bk. 4",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheMahabharataOfKrishna_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthemanwhowasthursday",
+      "className": "BookTheManWhoWasThursday",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Man Who Was Thursday",
+      "fallbackName": "Book The Man Who Was Thursday",
+      "descriptionShortKey": "The Man Who Was Thursday",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheManWhoWasThursday_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthemanwhowasthursday"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Man Who Was Thursday",
+        "author": "G. K. Chesterton",
+        "file": "dz\\gear\\books\\Automatic\\TheManWhoWasThursday.html",
+        "displayName": "The Man Who Was Thursday",
+        "descriptionShort": "The Man Who Was Thursday",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheManWhoWasThursday_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthemetamorphosesofovid",
+      "className": "BookTheMetamorphosesOfOvid",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Metamorphoses of Ovid",
+      "fallbackName": "Book The Metamorphoses Of Ovid",
+      "descriptionShortKey": "The Metamorphoses of Ovid",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheMetamorphosesOfOvid_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthemetamorphosesofovid"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Metamorphoses of Ovid",
+        "author": "Publius Ovidius Naso",
+        "file": "dz\\gear\\books\\Automatic\\TheMetamorphosesOfOvid.html",
+        "displayName": "The Metamorphoses of Ovid",
+        "descriptionShort": "The Metamorphoses of Ovid",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheMetamorphosesOfOvid_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthemetamorphosis",
+      "className": "BookTheMetamorphosis",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Metamorphosis",
+      "fallbackName": "Book The Metamorphosis",
+      "descriptionShortKey": "The Metamorphosis",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheMetamorphosis_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthemetamorphosis"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Metamorphosis",
+        "author": "F. Kafka",
+        "file": "dz\\gear\\books\\short_stories\\TheMetamorphosis.html",
+        "displayName": "The Metamorphosis",
+        "descriptionShort": "The Metamorphosis",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheMetamorphosis_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthemonkaromance",
+      "className": "BookTheMonkARomance",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Monk - A romance",
+      "fallbackName": "Book The Monk ARomance",
+      "descriptionShortKey": "The Monk - A romance",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheMonkARomance_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthemonkaromance"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Monk - A romance",
+        "author": "M. G. Lewis",
+        "file": "dz\\gear\\books\\Automatic\\TheMonkARomance.html",
+        "displayName": "The Monk - A romance",
+        "descriptionShort": "The Monk - A romance",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheMonkARomance_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheoutlet",
+      "className": "BookTheOutlet",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Outlet",
+      "fallbackName": "Book The Outlet",
+      "descriptionShortKey": "The Outlet",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheOutlet_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheoutlet"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Outlet",
+        "author": "Andy Adams",
+        "file": "dz\\gear\\books\\Automatic\\TheOutlet.html",
+        "displayName": "The Outlet",
+        "descriptionShort": "The Outlet",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheOutlet_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthepictureofdoriangray",
+      "className": "BookThePictureOfDorianGray",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Picture Of Dorian Gray",
+      "fallbackName": "Book The Picture Of Dorian Gray",
+      "descriptionShortKey": "The Picture Of Dorian Gray",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ThePictureOfDorianGray_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthepictureofdoriangray"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Picture Of Dorian Gray",
+        "author": "Oscar Wilde",
+        "file": "dz\\gear\\books\\fiction\\ThePictureOfDorianGray.html",
+        "displayName": "The Picture Of Dorian Gray",
+        "descriptionShort": "The Picture Of Dorian Gray",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ThePictureOfDorianGray_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthepitandthependulum",
+      "className": "BookThePitAndThePendulum",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Pit and the Pendulum",
+      "fallbackName": "Book The Pit And The Pendulum",
+      "descriptionShortKey": "The Pit and the Pendulum",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ThePitAndThePendulum_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthepitandthependulum"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Pit and the Pendulum",
+        "author": "E. A. Poe",
+        "file": "dz\\gear\\books\\short_stories\\ThePitAndThePendulum.html",
+        "displayName": "The Pit and the Pendulum",
+        "descriptionShort": "The Pit and the Pendulum",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ThePitAndThePendulum_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthepossessed",
+      "className": "BookThePossessed",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Possessed",
+      "fallbackName": "Book The Possessed",
+      "descriptionShortKey": "The Possessed",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ThePossessed_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthepossessed"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Possessed",
+        "author": "Fyodor Dostoevsky",
+        "file": "dz\\gear\\books\\Automatic\\ThePossessed.html",
+        "displayName": "The Possessed",
+        "descriptionShort": "The Possessed",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ThePossessed_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheprisonerofzenda",
+      "className": "BookThePrisonerOfZenda",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Prisoner of Zenda",
+      "fallbackName": "Book The Prisoner Of Zenda",
+      "descriptionShortKey": "The Prisoner of Zenda",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ThePrisonerOfZenda_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheprisonerofzenda"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Prisoner of Zenda",
+        "author": "Anthony Hope",
+        "file": "dz\\gear\\books\\Automatic\\ThePrisonerOfZenda.html",
+        "displayName": "The Prisoner of Zenda",
+        "descriptionShort": "The Prisoner of Zenda",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ThePrisonerOfZenda_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthequirt",
+      "className": "BookTheQuirt",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Quirt",
+      "fallbackName": "Book The Quirt",
+      "descriptionShortKey": "The Quirt",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheQuirt_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthequirt"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Quirt",
+        "author": "B.M. Bower",
+        "file": "dz\\gear\\books\\Automatic\\TheQuirt.html",
+        "displayName": "The Quirt",
+        "descriptionShort": "The Quirt",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheQuirt_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheraven",
+      "className": "BookTheRaven",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Raven",
+      "fallbackName": "Book The Raven",
+      "descriptionShortKey": "The Raven",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheRaven_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheraven"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Raven",
+        "author": "E. A. Poe",
+        "file": "dz\\gear\\books\\poetry\\TheRaven.html",
+        "displayName": "The Raven",
+        "descriptionShort": "The Raven",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheRaven_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheredbadgeofcourage",
+      "className": "BookTheRedBadgeOfCourage",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Red Badge of Courage",
+      "fallbackName": "Book The Red Badge Of Courage",
+      "descriptionShortKey": "The Red Badge of Courage",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheRedBadgeOfCourage_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheredbadgeofcourage"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Red Badge of Courage",
+        "author": "Stephen Crane",
+        "file": "dz\\gear\\books\\Automatic\\TheRedBadgeOfCourage.html",
+        "displayName": "The Red Badge of Courage",
+        "descriptionShort": "The Red Badge of Courage",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheRedBadgeOfCourage_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktherightsofwoman",
+      "className": "BookTheRightsOfWoman",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "A Vindication of the Rights of Women",
+      "fallbackName": "Book The Rights Of Woman",
+      "descriptionShortKey": "A Vindication of the Rights of Women",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheRightsOfWoman_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktherightsofwoman"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "A Vindication of the Rights of Women",
+        "author": "Mary Wollstonecraft [Godwin]",
+        "file": "dz\\gear\\books\\Automatic\\TheRightsOfWoman.html",
+        "displayName": "A Vindication of the Rights of Women",
+        "descriptionShort": "A Vindication of the Rights of Women",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheRightsOfWoman_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthescarletpimpernel",
+      "className": "BookTheScarletPimpernel",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Scarlet Pimpernel",
+      "fallbackName": "Book The Scarlet Pimpernel",
+      "descriptionShortKey": "The Scarlet Pimpernel",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheScarletPimpernel_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthescarletpimpernel"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Scarlet Pimpernel",
+        "author": "Baroness Orczy",
+        "file": "dz\\gear\\books\\Automatic\\TheScarletPimpernel.html",
+        "displayName": "The Scarlet Pimpernel",
+        "descriptionShort": "The Scarlet Pimpernel",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheScarletPimpernel_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheshunnedhouse",
+      "className": "BookTheShunnedHouse",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Shunned House",
+      "fallbackName": "Book The Shunned House",
+      "descriptionShortKey": "The Shunned House",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheShunnedHouse_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheshunnedhouse"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Shunned House",
+        "author": "H. P. Lovecraft",
+        "file": "dz\\gear\\books\\short_stories\\TheShunnedHouse.html",
+        "displayName": "The Shunned House",
+        "descriptionShort": "The Shunned House",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheShunnedHouse_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthethreemusketeers",
+      "className": "BookTheThreeMusketeers",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Three Musketeers",
+      "fallbackName": "Book The Three Musketeers",
+      "descriptionShortKey": "The Three Musketeers",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheThreeMusketeers_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthethreemusketeers"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Three Musketeers",
+        "author": "",
+        "file": "dz\\gear\\books\\Automatic\\TheThreeMusketeers.html",
+        "displayName": "The Three Musketeers",
+        "descriptionShort": "The Three Musketeers",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheThreeMusketeers_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthethunderbird",
+      "className": "BookTheThunderBird",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Thunder Bird",
+      "fallbackName": "Book The Thunder Bird",
+      "descriptionShortKey": "The Thunder Bird",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheThunderBird_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthethunderbird"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Thunder Bird",
+        "author": "B. M. Bower",
+        "file": "dz\\gear\\books\\Automatic\\TheThunderBird.html",
+        "displayName": "The Thunder Bird",
+        "descriptionShort": "The Thunder Bird",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheThunderBird_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthetimemachine",
+      "className": "BookTheTimeMachine",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Time Machine",
+      "fallbackName": "Book The Time Machine",
+      "descriptionShortKey": "The Time Machine",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheTimeMachine_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthetimemachine"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Time Machine",
+        "author": "H. G. Wells",
+        "file": "dz\\gear\\books\\short_stories\\TheTimeMachine.html",
+        "displayName": "The Time Machine",
+        "descriptionShort": "The Time Machine",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheTimeMachine_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthetrial",
+      "className": "BookTheTrial",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Trial",
+      "fallbackName": "Book The Trial",
+      "descriptionShortKey": "The Trial",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheTrial_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthetrial"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Trial",
+        "author": "Franz Kafka",
+        "file": "dz\\gear\\books\\Automatic\\TheTrial.html",
+        "displayName": "The Trial",
+        "descriptionShort": "The Trial",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheTrial_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktheturnofthescrew",
+      "className": "BookTheTurnOfTheScrew",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Turn of the Screw",
+      "fallbackName": "Book The Turn Of The Screw",
+      "descriptionShortKey": "The Turn of the Screw",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheTurnOfTheScrew_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktheturnofthescrew"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Turn of the Screw",
+        "author": "Henry James",
+        "file": "dz\\gear\\books\\Automatic\\TheTurnOfTheScrew.html",
+        "displayName": "The Turn of the Screw",
+        "descriptionShort": "The Turn of the Screw",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheTurnOfTheScrew_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthevariableman",
+      "className": "BookTheVariableMan",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The Variable Man",
+      "fallbackName": "Book The Variable Man",
+      "descriptionShortKey": "The Variable Man",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheVariableMan_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthevariableman"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The Variable Man",
+        "author": "Philip K. Dick",
+        "file": "dz\\gear\\books\\fiction\\TheVariableMan.html",
+        "displayName": "The Variable Man",
+        "descriptionShort": "The Variable Man",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheVariableMan_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthewaroftheworlds",
+      "className": "BookTheWarOfTheWorlds",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "The War of the Worlds",
+      "fallbackName": "Book The War Of The Worlds",
+      "descriptionShortKey": "The War of the Worlds",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TheWarOfTheWorlds_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthewaroftheworlds"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "The War of the Worlds",
+        "author": "H.G. Wells",
+        "file": "dz\\gear\\books\\fiction\\TheWarOfTheWorlds.html",
+        "displayName": "The War of the Worlds",
+        "descriptionShort": "The War of the Worlds",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TheWarOfTheWorlds_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookthreemeninaboat",
+      "className": "BookThreeMenInABoat",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Three Men in a Boat",
+      "fallbackName": "Book Three Men In ABoat",
+      "descriptionShortKey": "Three Men in a Boat",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ThreeMenInABoat_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookthreemeninaboat"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Three Men in a Boat",
+        "author": "Jerome K. Jerome",
+        "file": "dz\\gear\\books\\fiction\\ThreeMenInABoat.html",
+        "displayName": "Three Men in a Boat",
+        "descriptionShort": "Three Men in a Boat",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ThreeMenInABoat_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktonyandthebeetles",
+      "className": "BookTonyAndTheBeetles",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Tony and the Beetles",
+      "fallbackName": "Book Tony And The Beetles",
+      "descriptionShortKey": "Tony and the Beetles",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TonyAndTheBeetles_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktonyandthebeetles"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Tony and the Beetles",
+        "author": "Philip K. Dick",
+        "file": "dz\\gear\\books\\short_stories\\TonyAndTheBeetles.html",
+        "displayName": "Tony and the Beetles",
+        "descriptionShort": "Tony and the Beetles",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TonyAndTheBeetles_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktotheinterioroftheearth",
+      "className": "BookToTheInteriorOfTheEarth",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "A Journey to the Interior of the Earth",
+      "fallbackName": "Book To The Interior Of The Earth",
+      "descriptionShortKey": "A Journey to the Interior of the Earth",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_ToTheInteriorOfTheEarth_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktotheinterioroftheearth"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "A Journey to the Interior of the Earth",
+        "author": "Jules Verne",
+        "file": "dz\\gear\\books\\Automatic\\ToTheInteriorOfTheEarth.html",
+        "displayName": "A Journey to the Interior of the Earth",
+        "descriptionShort": "A Journey to the Interior of the Earth",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_ToTheInteriorOfTheEarth_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktrailin",
+      "className": "BookTrailin",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Trailin'!",
+      "fallbackName": "Book Trailin",
+      "descriptionShortKey": "Trailin'!",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Trailin_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktrailin"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Trailin'!",
+        "author": "Max Brand",
+        "file": "dz\\gear\\books\\Automatic\\Trailin.html",
+        "displayName": "Trailin'!",
+        "descriptionShort": "Trailin'!",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Trailin_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktranslationsofshakuntala",
+      "className": "BookTranslationsOfShakuntala",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Translations of Shakuntala and Other Works",
+      "fallbackName": "Book Translations Of Shakuntala",
+      "descriptionShortKey": "Translations of Shakuntala and Other Works",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TranslationsOfShakuntala_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktranslationsofshakuntala"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Translations of Shakuntala and Other Works",
+        "author": "K?alid?asa",
+        "file": "dz\\gear\\books\\Automatic\\TranslationsOfShakuntala.html",
+        "displayName": "Translations of Shakuntala and Other Works",
+        "descriptionShort": "Translations of Shakuntala and Other Works",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TranslationsOfShakuntala_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::booktreasureisland",
+      "className": "BookTreasureIsland",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Treasure Island",
+      "fallbackName": "Book Treasure Island",
+      "descriptionShortKey": "Treasure Island",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_TreasureIsland_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::booktreasureisland"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Treasure Island",
+        "author": "Robert Louis Stevenson",
+        "file": "dz\\gear\\books\\Automatic\\TreasureIsland.html",
+        "displayName": "Treasure Island",
+        "descriptionShort": "Treasure Island",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_TreasureIsland_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookulysses",
+      "className": "BookUlysses",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Ulysses",
+      "fallbackName": "Book Ulysses",
+      "descriptionShortKey": "Ulysses",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Ulysses_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookulysses"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Ulysses",
+        "author": "James Joyce",
+        "file": "dz\\gear\\books\\Automatic\\Ulysses.html",
+        "displayName": "Ulysses",
+        "descriptionShort": "Ulysses",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Ulysses_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookunclesilas",
+      "className": "BookUncleSilas",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Uncle Silas",
+      "fallbackName": "Book Uncle Silas",
+      "descriptionShortKey": "Uncle Silas",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_UncleSilas_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookunclesilas"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Uncle Silas",
+        "author": "J. S. LeFanu",
+        "file": "dz\\gear\\books\\Automatic\\UncleSilas.html",
+        "displayName": "Uncle Silas",
+        "descriptionShort": "Uncle Silas",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_UncleSilas_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookverwandlung",
+      "className": "BookVerwandlung",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Die Verwandlung",
+      "fallbackName": "Book Verwandlung",
+      "descriptionShortKey": "Die Verwandlung",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Verwandlung_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookverwandlung"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Die Verwandlung",
+        "author": "Franz Kafka",
+        "file": "dz\\gear\\books\\short_stories\\Verwandlung.html",
+        "displayName": "Die Verwandlung",
+        "descriptionShort": "Die Verwandlung",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Verwandlung_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookvoyageaucentredelaterre",
+      "className": "BookVoyageAuCentreDeLaTerre",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Voyage au Centre de la Terre",
+      "fallbackName": "Book Voyage Au Centre De La Terre",
+      "descriptionShortKey": "Voyage au Centre de la Terre",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_VoyageAuCentreDeLaTerre_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookvoyageaucentredelaterre"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Voyage au Centre de la Terre",
+        "author": "Jules Verne",
+        "file": "dz\\gear\\books\\Automatic\\VoyageAuCentreDeLaTerre.html",
+        "displayName": "Voyage au Centre de la Terre",
+        "descriptionShort": "Voyage au Centre de la Terre",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_VoyageAuCentreDeLaTerre_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookwarandpeace",
+      "className": "BookWarAndPeace",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "War and Peace",
+      "fallbackName": "Book War And Peace",
+      "descriptionShortKey": "War and Peace",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_WarAndPeace_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookwarandpeace"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "file": "dz\\gear\\books\\Automatic\\WarAndPeace.html",
+        "displayName": "War and Peace",
+        "descriptionShort": "War and Peace",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_WarAndPeace_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookwealthofnations",
+      "className": "BookWealthOfNations",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+      "fallbackName": "Book Wealth Of Nations",
+      "descriptionShortKey": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_WealthOfNations_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookwealthofnations"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+        "author": "Adam Smith",
+        "file": "dz\\gear\\books\\Automatic\\WealthOfNations.html",
+        "displayName": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+        "descriptionShort": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_WealthOfNations_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookwielandorthetransformation",
+      "className": "BookWielandOrTheTransformation",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Wieland or The Transformation",
+      "fallbackName": "Book Wieland Or The Transformation",
+      "descriptionShortKey": "Wieland or The Transformation",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_WielandOrTheTransformation_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookwielandorthetransformation"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Wieland or The Transformation",
+        "author": "Charles Brockden Brown",
+        "file": "dz\\gear\\books\\Automatic\\WielandOrTheTransformation.html",
+        "displayName": "Wieland or The Transformation",
+        "descriptionShort": "Wieland or The Transformation",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_WielandOrTheTransformation_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookwutheringheights",
+      "className": "BookWutheringHeights",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Wuthering Heights",
+      "fallbackName": "Book Wuthering Heights",
+      "descriptionShortKey": "Wuthering Heights",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_WutheringHeights_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookwutheringheights"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Wuthering Heights",
+        "author": "Emily Bronte",
+        "file": "dz\\gear\\books\\Automatic\\WutheringHeights.html",
+        "displayName": "Wuthering Heights",
+        "descriptionShort": "Wuthering Heights",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_WutheringHeights_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bookyouth",
+      "className": "BookYouth",
+      "section": "CfgVehicles",
+      "category": "book",
+      "parentClass": "ItemBook",
+      "displayNameKey": "Youth",
+      "fallbackName": "Book Youth",
+      "descriptionShortKey": "Youth",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_Youth_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookyouth"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "Youth",
+        "author": "Isaac Asimov",
+        "file": "dz\\gear\\books\\short_stories\\Youth.html",
+        "displayName": "Youth",
+        "descriptionShort": "Youth",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_Youth_co.paa"
+        ]
+      }
+    }
+  ]
+}

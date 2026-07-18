@@ -1,0 +1,709 @@
+{
+  "metadata": {
+    "category": "ammo-box",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 22
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::ammobox",
+      "className": "AmmoBox",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Container_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox0",
+      "fallbackName": "Ammo Box",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox1",
+      "model": "\\dz\\gear\\containers\\300RoundBox.p3d",
+      "weight": 2250,
+      "itemSize": [
+        5,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::ammobox"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox1",
+        "model": "\\dz\\gear\\containers\\300RoundBox.p3d",
+        "weight": 2250,
+        "itemSize": [
+          5,
+          4
+        ],
+        "itemsCargoSize": [
+          5,
+          4
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 4,
+        "canBeDigged": 1,
+        "repairableWithKits": [
+          8
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_00buck_10rnd",
+      "className": "AmmoBox_00buck_10rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_00buck_10rnd0",
+      "fallbackName": "Ammo Box 00 buck 10 rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_00buck_10rnd1",
+      "model": "\\dz\\weapons\\ammunition\\00Buck_10RoundBox.p3d",
+      "weight": 355,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_00buck_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_00buck_10rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_00buck_10rnd1",
+        "model": "\\dz\\weapons\\ammunition\\00Buck_10RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 355
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_12gabeanbag_10rnd",
+      "className": "AmmoBox_12gaBeanbag_10Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "TODO",
+      "fallbackName": "Ammo Box 12 ga Beanbag 10 Rnd",
+      "descriptionShortKey": "TODO",
+      "model": "\\dz\\weapons\\ammunition\\00Buck_10RoundBox.p3d",
+      "weight": 85,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_12gabeanbag_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "TODO",
+        "descriptionShort": "TODO",
+        "model": "\\dz\\weapons\\ammunition\\00Buck_10RoundBox.p3d",
+        "rotationFlags": 17,
+        "weight": 85,
+        "Selections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_12garubberslug_10rnd",
+      "className": "AmmoBox_12gaRubberSlug_10Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_12gaRubberSlug_10Rnd0",
+      "fallbackName": "Ammo Box 12 ga Rubber Slug 10 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_12gaRubberSlug_10Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\00Buck_10RoundBox.p3d",
+      "weight": 85,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\12ga_rubberbaton_box.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_12garubberslug_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_12gaRubberSlug_10Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_12gaRubberSlug_10Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\00Buck_10RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 85,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\12ga_rubberbaton_box.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_12gaslug_10rnd",
+      "className": "AmmoBox_12gaSlug_10Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_12gaSlug_10Rnd0",
+      "fallbackName": "Ammo Box 12 ga Slug 10 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_12gaSlug_10Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\00Buck_10RoundBox.p3d",
+      "weight": 355,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\12ga_rifledSlug_10RoundBox_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_12gaslug_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_12gaSlug_10Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_12gaSlug_10Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\00Buck_10RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 355,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\12ga_rifledSlug_10RoundBox_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_22_50rnd",
+      "className": "AmmoBox_22_50Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_22_50Rnd0",
+      "fallbackName": "Ammo Box 22 50 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_22_50Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\22_50RoundBox.p3d",
+      "weight": 155,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_22_50rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_22_50Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_22_50Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\22_50RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 12,
+        "weight": 155
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_308win_20rnd",
+      "className": "AmmoBox_308Win_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_308Win_20Rnd0",
+      "fallbackName": "Ammo Box 308 Win 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_308Win_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\308Win_20RoundBox.p3d",
+      "weight": 205,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_308win_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_308Win_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_308Win_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\308Win_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 205
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_308wintracer_20rnd",
+      "className": "AmmoBox_308WinTracer_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_308WinTracer_20Rnd0",
+      "fallbackName": "Ammo Box 308 Win Tracer 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_308WinTracer_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\308Win_20RoundBox.p3d",
+      "weight": 185,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\308Win_box_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_308wintracer_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_308WinTracer_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_308WinTracer_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\308Win_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "iconType": 1,
+        "rotationFlags": 17,
+        "weight": 185,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\308Win_box_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_357_20rnd",
+      "className": "AmmoBox_357_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_357_20Rnd0",
+      "fallbackName": "Ammo Box 357 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_357_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\357_20RoundBox.p3d",
+      "weight": 165,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_357_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_357_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_357_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\357_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 165
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_380_35rnd",
+      "className": "AmmoBox_380_35rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_380_35rnd0",
+      "fallbackName": "Ammo Box 380 35 rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_380_35rnd1",
+      "model": "\\dz\\weapons\\ammunition\\380auto_35RoundBox.p3d",
+      "weight": 215,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_380_35rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_380_35rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_380_35rnd1",
+        "model": "\\dz\\weapons\\ammunition\\380auto_35RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 215
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_45acp_25rnd",
+      "className": "AmmoBox_45ACP_25rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_45ACP_25rnd0",
+      "fallbackName": "Ammo Box 45 ACP 25 rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_45ACP_25rnd1",
+      "model": "\\dz\\weapons\\ammunition\\45acp_25rnd_box.p3d",
+      "weight": 305,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_45acp_25rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_45ACP_25rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_45ACP_25rnd1",
+        "model": "\\dz\\weapons\\ammunition\\45acp_25rnd_box.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 305
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_545x39_20rnd",
+      "className": "AmmoBox_545x39_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_545x39_20Rnd0",
+      "fallbackName": "Ammo Box 545 x 39 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_545x39_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\545x39_20RoundBox.p3d",
+      "weight": 85,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_545x39_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_545x39_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_545x39_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\545x39_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 85
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_545x39tracer_20rnd",
+      "className": "AmmoBox_545x39Tracer_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_545x39Tracer_20Rnd0",
+      "fallbackName": "Ammo Box 545 x 39 Tracer 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_545x39Tracer_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\545x39_20RoundBox.p3d",
+      "weight": 85,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\545x39box_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_545x39tracer_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_545x39Tracer_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_545x39Tracer_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\545x39_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "iconType": 1,
+        "rotationFlags": 17,
+        "weight": 85,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\545x39box_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_556x45_20rnd",
+      "className": "AmmoBox_556x45_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_556x45_20Rnd0",
+      "fallbackName": "Ammo Box 556 x 45 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_556x45_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\556_20RoundBox.p3d",
+      "weight": 85,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_556x45_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_556x45_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_556x45_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\556_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 85
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_556x45tracer_20rnd",
+      "className": "AmmoBox_556x45Tracer_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_556x45Tracer_20Rnd0",
+      "fallbackName": "Ammo Box 556 x 45 Tracer 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_556x45Tracer_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\556_20RoundBox.p3d",
+      "weight": 85,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\556_20RoundBox_tracer_CO.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_556x45tracer_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_556x45Tracer_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_556x45Tracer_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\556_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "iconType": 1,
+        "rotationFlags": 17,
+        "weight": 85,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\556_20RoundBox_tracer_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_762x39_20rnd",
+      "className": "AmmoBox_762x39_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_762x39_20Rnd0",
+      "fallbackName": "Ammo Box 762 x 39 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_762x39_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\762x39_20RoundBox.p3d",
+      "weight": 165,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_762x39_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_762x39_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_762x39_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\762x39_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 165
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_762x39tracer_20rnd",
+      "className": "AmmoBox_762x39Tracer_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_762x39Tracer_20Rnd0",
+      "fallbackName": "Ammo Box 762 x 39 Tracer 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_762x39Tracer_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\762x39_20RoundBox.p3d",
+      "weight": 165,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\762x39_box_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_762x39tracer_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_762x39Tracer_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_762x39Tracer_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\762x39_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "iconType": 1,
+        "rotationFlags": 17,
+        "weight": 165,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\762x39_box_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_762x54_20rnd",
+      "className": "AmmoBox_762x54_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_762x54_20Rnd0",
+      "fallbackName": "Ammo Box 762 x 54 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_762x54_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\762_20RoundBox.p3d",
+      "weight": 185,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_762x54_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_762x54_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_762x54_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\762_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 185
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_762x54tracer_20rnd",
+      "className": "AmmoBox_762x54Tracer_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_762x54Tracer_20Rnd0",
+      "fallbackName": "Ammo Box 762 x 54 Tracer 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_762x54Tracer_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\762_20RoundBox.p3d",
+      "weight": 185,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\762_box_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_762x54tracer_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_762x54Tracer_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_762x54Tracer_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\762_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "iconType": 1,
+        "rotationFlags": 17,
+        "weight": 185,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\762_box_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_9x19_25rnd",
+      "className": "AmmoBox_9x19_25rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_9x19_25rnd0",
+      "fallbackName": "Ammo Box 9 x 19 25 rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_9x19_25rnd1",
+      "model": "\\dz\\weapons\\ammunition\\9mm_25rnd_box.p3d",
+      "weight": 205,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_9x19_25rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_9x19_25rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_9x19_25rnd1",
+        "model": "\\dz\\weapons\\ammunition\\9mm_25rnd_box.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 205
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_9x39_20rnd",
+      "className": "AmmoBox_9x39_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_9x39_20Rnd0",
+      "fallbackName": "Ammo Box 9 x 39 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_9x39_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\9x39_20RoundBox.p3d",
+      "weight": 345,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\9x39_box_variant_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_9x39_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_9x39_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_9x39_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\9x39_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "rotationFlags": 17,
+        "weight": 345,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\9x39_box_variant_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ammobox_9x39ap_20rnd",
+      "className": "AmmoBox_9x39AP_20Rnd",
+      "section": "CfgVehicles",
+      "category": "ammo-box",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_AmmoBox_9x39AP_20Rnd0",
+      "fallbackName": "Ammo Box 9 x 39 AP 20 Rnd",
+      "descriptionShortKey": "$STR_CfgVehicles_AmmoBox_9x39AP_20Rnd1",
+      "model": "\\dz\\weapons\\ammunition\\9x39_20RoundBox.p3d",
+      "weight": 325,
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::ammobox_9x39ap_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AmmoBox_9x39AP_20Rnd0",
+        "descriptionShort": "$STR_CfgVehicles_AmmoBox_9x39AP_20Rnd1",
+        "model": "\\dz\\weapons\\ammunition\\9x39_20RoundBox.p3d",
+        "debug_ItemCategory": 5,
+        "iconType": 2,
+        "rotationFlags": 17,
+        "weight": 325
+      }
+    }
+  ]
+}

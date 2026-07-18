@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "category": "trap",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 5
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::beartrap",
+      "className": "BearTrap",
+      "section": "CfgVehicles",
+      "category": "trap",
+      "parentClass": "Trap_Base",
+      "displayNameKey": "$STR_CfgVehicles_BearTrap0",
+      "fallbackName": "Bear Trap",
+      "descriptionShortKey": "$STR_CfgVehicles_BearTrap1",
+      "model": "\\DZ\\gear\\traps\\beartrap.p3d",
+      "weight": 12000,
+      "itemSize": [
+        7,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\traps\\data\\beartrap_CO.paa"
+      ],
+      "sourcePbo": "gear_traps.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::trap_base",
+        "cfgvehicles::beartrap"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BearTrap0",
+        "descriptionShort": "$STR_CfgVehicles_BearTrap1",
+        "model": "\\DZ\\gear\\traps\\beartrap.p3d",
+        "itemSize": [
+          7,
+          3
+        ],
+        "weight": 12000,
+        "itemBehaviour": 2,
+        "lootTag": [
+          "Hunting",
+          "Forester",
+          "Work"
+        ],
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          60,
+          60,
+          60
+        ],
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\traps\\data\\beartrap_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\traps\\data\\beartrap.rvmat"
+        ],
+        "hologramMaterial": "beartrap",
+        "hologramMaterialPath": "dz\\gear\\traps\\data",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::fishnettrap",
+      "className": "FishNetTrap",
+      "section": "CfgVehicles",
+      "category": "trap",
+      "parentClass": "Trap_Base",
+      "displayNameKey": "$STR_CfgVehicles_FishNetTrap0",
+      "fallbackName": "Fish Net Trap",
+      "descriptionShortKey": "$STR_CfgVehicles_FishNetTrap1",
+      "model": "\\dz\\gear\\traps\\fishnettrap.p3d",
+      "weight": 570,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "attachments": [
+        "Trap_Bait_1"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\traps\\data\\fishnettrap_CO.paa"
+      ],
+      "sourcePbo": "gear_traps.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::trap_base",
+        "cfgvehicles::fishnettrap"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FishNetTrap0",
+        "descriptionShort": "$STR_CfgVehicles_FishNetTrap1",
+        "model": "\\dz\\gear\\traps\\fishnettrap.p3d",
+        "attachments": [
+          "Trap_Bait_1"
+        ],
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          20,
+          20,
+          20
+        ],
+        "weight": 570,
+        "itemSize": [
+          3,
+          2
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "itemBehaviour": 1,
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\traps\\data\\fishnettrap_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\traps\\data\\fishnettrap.rvmat"
+        ],
+        "hologramMaterial": "fishnettrap",
+        "hologramMaterialPath": "dz\\gear\\traps\\data",
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::rabbitsnaretrap",
+      "className": "RabbitSnareTrap",
+      "section": "CfgVehicles",
+      "category": "trap",
+      "parentClass": "Trap_Base",
+      "displayNameKey": "$STR_CfgVehicles_RabbitSnareTrap0",
+      "fallbackName": "Rabbit Snare Trap",
+      "descriptionShortKey": "$STR_CfgVehicles_RabbitSnareTrap1",
+      "model": "\\dz\\gear\\traps\\snaretrap.p3d",
+      "weight": 400,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "Trap_Bait_2"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\traps\\data\\snaretrap_co.paa"
+      ],
+      "sourcePbo": "gear_traps.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::trap_base",
+        "cfgvehicles::rabbitsnaretrap"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_RabbitSnareTrap0",
+        "descriptionShort": "$STR_CfgVehicles_RabbitSnareTrap1",
+        "model": "\\dz\\gear\\traps\\snaretrap.p3d",
+        "rotationFlags": 16,
+        "attachments": [
+          "Trap_Bait_2"
+        ],
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "weight": 400,
+        "itemSize": [
+          1,
+          4
+        ],
+        "itemBehaviour": 1,
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\traps\\data\\snaretrap_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\traps\\data\\snaretrap.rvmat"
+        ],
+        "hologramMaterial": "snaretrap",
+        "hologramMaterialPath": "dz\\gear\\traps\\data",
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::smallfishtrap",
+      "className": "SmallFishTrap",
+      "section": "CfgVehicles",
+      "category": "trap",
+      "parentClass": "Trap_Base",
+      "displayNameKey": "$STR_CfgVehicles_SmallFishTrap0",
+      "fallbackName": "Small Fish Trap",
+      "descriptionShortKey": "$STR_CfgVehicles_SmallFishTrap1",
+      "model": "\\dz\\gear\\traps\\smallfishtrap.p3d",
+      "weight": 25,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "attachments": [
+        "Trap_Bait_1"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\drinks\\Data\\loot_waterbottle_co.paa"
+      ],
+      "sourcePbo": "gear_traps.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::trap_base",
+        "cfgvehicles::smallfishtrap"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SmallFishTrap0",
+        "descriptionShort": "$STR_CfgVehicles_SmallFishTrap1",
+        "model": "\\dz\\gear\\traps\\smallfishtrap.p3d",
+        "rotationFlags": 2,
+        "attachments": [
+          "Trap_Bait_1"
+        ],
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          20,
+          20,
+          20
+        ],
+        "weight": 25,
+        "itemSize": [
+          1,
+          2
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "itemBehaviour": 1,
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\drinks\\Data\\loot_waterbottle_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\drinks\\Data\\Loot_WaterBottle.rvmat"
+        ],
+        "hologramMaterial": "Loot_WaterBottle",
+        "hologramMaterialPath": "dz\\gear\\drinks\\Data",
+        "destroyOnEmpty": 0,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::tripwiretrap",
+      "className": "TripwireTrap",
+      "section": "CfgVehicles",
+      "category": "trap",
+      "parentClass": "Trap_Base",
+      "displayNameKey": "$STR_CfgVehicles_TripwireTrap0",
+      "fallbackName": "Tripwire Trap",
+      "descriptionShortKey": "$STR_CfgVehicles_TripwireTrap1",
+      "model": "\\dz\\gear\\traps\\tripwire.p3d",
+      "weight": 600,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "tripWireAttachment"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\traps\\data\\snaretrap_co.paa"
+      ],
+      "sourcePbo": "gear_traps.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::trap_base",
+        "cfgvehicles::tripwiretrap"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TripwireTrap0",
+        "descriptionShort": "$STR_CfgVehicles_TripwireTrap1",
+        "model": "\\dz\\gear\\traps\\tripwire.p3d",
+        "rotationFlags": 16,
+        "attachments": [
+          "tripWireAttachment"
+        ],
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          60,
+          60,
+          60
+        ],
+        "weight": 600,
+        "itemSize": [
+          1,
+          4
+        ],
+        "itemBehaviour": 1,
+        "soundImpactType": "wood",
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\traps\\data\\snaretrap_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\traps\\data\\snaretrap.rvmat"
+        ],
+        "hologramMaterial": "snaretrap",
+        "hologramMaterialPath": "dz\\gear\\traps\\data"
+      }
+    }
+  ]
+}

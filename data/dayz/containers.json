@@ -1,0 +1,3498 @@
+{
+  "metadata": {
+    "category": "container",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 53
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::anniversarybox",
+      "className": "AnniversaryBox",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Container_Base",
+      "displayNameKey": "$STR_CfgVehicles_AnniversaryBox0",
+      "fallbackName": "Anniversary Box",
+      "descriptionShortKey": "$STR_CfgVehicles_AnniversaryBox1",
+      "model": "\\DZ\\gear\\camping\\sea_chest_anniversary.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        10
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\data\\sea_chest_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::anniversarybox"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AnniversaryBox0",
+        "descriptionShort": "$STR_CfgVehicles_AnniversaryBox1",
+        "model": "\\DZ\\gear\\camping\\sea_chest_anniversary.p3d",
+        "hologramMaterial": "sea_chest",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "slopeTolerance": 0.40000001,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "weight": 10000,
+        "itemBehaviour": 0,
+        "itemSize": [
+          10,
+          10
+        ],
+        "carveNavmesh": 1,
+        "canBeDigged": 0,
+        "rotationFlags": 2,
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\data\\sea_chest_co.paa"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::barrel_blue",
+      "className": "Barrel_Blue",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Barrel_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Barrel_ColorBase0",
+      "fallbackName": "Barrel Blue",
+      "descriptionShortKey": "$STR_CfgVehicles_Barrel_ColorBase1",
+      "model": "\\dz\\gear\\containers\\55galDrum.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Truck_01_Barrel1",
+        "Truck_01_Barrel2",
+        "Truck_01_Barrel3",
+        "Truck_01_Barrel4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\data\\barrel_blue_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::barrel_colorbase",
+        "cfgvehicles::barrel_blue"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Barrel_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Barrel_ColorBase1",
+        "model": "\\dz\\gear\\containers\\55galDrum.p3d",
+        "overrideDrawArea": "8.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "quantityBar": 1,
+        "carveNavmesh": 1,
+        "canBeDigged": 0,
+        "heavyItem": 1,
+        "inventorySlot": [
+          "Truck_01_Barrel1",
+          "Truck_01_Barrel2",
+          "Truck_01_Barrel3",
+          "Truck_01_Barrel4"
+        ],
+        "weight": 10000,
+        "itemSize": [
+          10,
+          15
+        ],
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          30
+        ],
+        "itemBehaviour": 0,
+        "stackedUnit": "ml",
+        "randomQuantity": 2,
+        "varLiquidTypeInit": 512,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 + 8192 + 16384 + 32768 + 65536  + 131072 + 262144 + 524288 + 2097152 + 4194304 - (1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256) - 32768",
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 200000,
+        "varTemperatureMin": -100,
+        "varTemperatureMax": 200,
+        "varTemperatureFreezePoint": -200,
+        "varTemperatureThawPoint": -200,
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600,
+        "absorbency": 0.1,
+        "allowOwnedCargoManipulation": 1,
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "metal",
+        "scope": 2,
+        "color": "Blue",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\data\\barrel_blue_co.paa"
+        ],
+        "hologramMaterial": "barrel",
+        "hologramMaterialPath": "dz\\gear\\containers\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::barrel_green",
+      "className": "Barrel_Green",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Barrel_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Barrel_ColorBase0",
+      "fallbackName": "Barrel Green",
+      "descriptionShortKey": "$STR_CfgVehicles_Barrel_ColorBase1",
+      "model": "\\dz\\gear\\containers\\55galDrum.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Truck_01_Barrel1",
+        "Truck_01_Barrel2",
+        "Truck_01_Barrel3",
+        "Truck_01_Barrel4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\data\\barrel_green_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::barrel_colorbase",
+        "cfgvehicles::barrel_green"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Barrel_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Barrel_ColorBase1",
+        "model": "\\dz\\gear\\containers\\55galDrum.p3d",
+        "overrideDrawArea": "8.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "quantityBar": 1,
+        "carveNavmesh": 1,
+        "canBeDigged": 0,
+        "heavyItem": 1,
+        "inventorySlot": [
+          "Truck_01_Barrel1",
+          "Truck_01_Barrel2",
+          "Truck_01_Barrel3",
+          "Truck_01_Barrel4"
+        ],
+        "weight": 10000,
+        "itemSize": [
+          10,
+          15
+        ],
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          30
+        ],
+        "itemBehaviour": 0,
+        "stackedUnit": "ml",
+        "randomQuantity": 2,
+        "varLiquidTypeInit": 512,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 + 8192 + 16384 + 32768 + 65536  + 131072 + 262144 + 524288 + 2097152 + 4194304 - (1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256) - 32768",
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 200000,
+        "varTemperatureMin": -100,
+        "varTemperatureMax": 200,
+        "varTemperatureFreezePoint": -200,
+        "varTemperatureThawPoint": -200,
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600,
+        "absorbency": 0.1,
+        "allowOwnedCargoManipulation": 1,
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "metal",
+        "scope": 2,
+        "color": "Green",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\data\\barrel_green_co.paa"
+        ],
+        "hologramMaterial": "barrel",
+        "hologramMaterialPath": "dz\\gear\\containers\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::barrel_red",
+      "className": "Barrel_Red",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Barrel_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Barrel_ColorBase0",
+      "fallbackName": "Barrel Red",
+      "descriptionShortKey": "$STR_CfgVehicles_Barrel_ColorBase1",
+      "model": "\\dz\\gear\\containers\\55galDrum.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Truck_01_Barrel1",
+        "Truck_01_Barrel2",
+        "Truck_01_Barrel3",
+        "Truck_01_Barrel4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\data\\barrel_red_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::barrel_colorbase",
+        "cfgvehicles::barrel_red"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Barrel_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Barrel_ColorBase1",
+        "model": "\\dz\\gear\\containers\\55galDrum.p3d",
+        "overrideDrawArea": "8.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "quantityBar": 1,
+        "carveNavmesh": 1,
+        "canBeDigged": 0,
+        "heavyItem": 1,
+        "inventorySlot": [
+          "Truck_01_Barrel1",
+          "Truck_01_Barrel2",
+          "Truck_01_Barrel3",
+          "Truck_01_Barrel4"
+        ],
+        "weight": 10000,
+        "itemSize": [
+          10,
+          15
+        ],
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          30
+        ],
+        "itemBehaviour": 0,
+        "stackedUnit": "ml",
+        "randomQuantity": 2,
+        "varLiquidTypeInit": 512,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 + 8192 + 16384 + 32768 + 65536  + 131072 + 262144 + 524288 + 2097152 + 4194304 - (1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256) - 32768",
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 200000,
+        "varTemperatureMin": -100,
+        "varTemperatureMax": 200,
+        "varTemperatureFreezePoint": -200,
+        "varTemperatureThawPoint": -200,
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600,
+        "absorbency": 0.1,
+        "allowOwnedCargoManipulation": 1,
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "metal",
+        "scope": 2,
+        "color": "Red",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\data\\barrel_red_co.paa"
+        ],
+        "hologramMaterial": "barrel",
+        "hologramMaterialPath": "dz\\gear\\containers\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::barrel_yellow",
+      "className": "Barrel_Yellow",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Barrel_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Barrel_ColorBase0",
+      "fallbackName": "Barrel Yellow",
+      "descriptionShortKey": "$STR_CfgVehicles_Barrel_ColorBase1",
+      "model": "\\dz\\gear\\containers\\55galDrum.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Truck_01_Barrel1",
+        "Truck_01_Barrel2",
+        "Truck_01_Barrel3",
+        "Truck_01_Barrel4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\data\\barrel_yellow_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::barrel_colorbase",
+        "cfgvehicles::barrel_yellow"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Barrel_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Barrel_ColorBase1",
+        "model": "\\dz\\gear\\containers\\55galDrum.p3d",
+        "overrideDrawArea": "8.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "quantityBar": 1,
+        "carveNavmesh": 1,
+        "canBeDigged": 0,
+        "heavyItem": 1,
+        "inventorySlot": [
+          "Truck_01_Barrel1",
+          "Truck_01_Barrel2",
+          "Truck_01_Barrel3",
+          "Truck_01_Barrel4"
+        ],
+        "weight": 10000,
+        "itemSize": [
+          10,
+          15
+        ],
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          30
+        ],
+        "itemBehaviour": 0,
+        "stackedUnit": "ml",
+        "randomQuantity": 2,
+        "varLiquidTypeInit": 512,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 + 8192 + 16384 + 32768 + 65536  + 131072 + 262144 + 524288 + 2097152 + 4194304 - (1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256) - 32768",
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 200000,
+        "varTemperatureMin": -100,
+        "varTemperatureMax": 200,
+        "varTemperatureFreezePoint": -200,
+        "varTemperatureThawPoint": -200,
+        "varTemperatureFreezeTime": 6600,
+        "varTemperatureThawTime": 6600,
+        "absorbency": 0.1,
+        "allowOwnedCargoManipulation": 1,
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "metal",
+        "scope": 2,
+        "color": "Yellow",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\data\\barrel_yellow_co.paa"
+        ],
+        "hologramMaterial": "barrel",
+        "hologramMaterialPath": "dz\\gear\\containers\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::bear_beige",
+      "className": "Bear_Beige",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Bear_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Bear_ColorBase0",
+      "fallbackName": "Bear Beige",
+      "descriptionShortKey": "$STR_CfgVehicles_Bear_ColorBase1",
+      "model": "\\dz\\gear\\containers\\teddybear.p3d",
+      "weight": 130,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\Data\\teddybear_brown_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::bear_colorbase",
+        "cfgvehicles::bear_beige"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Bear_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Bear_ColorBase1",
+        "model": "\\dz\\gear\\containers\\teddybear.p3d",
+        "weight": 130,
+        "itemSize": [
+          2,
+          3
+        ],
+        "itemsCargoSize": [
+          2,
+          3
+        ],
+        "canBeDigged": 1,
+        "allowOwnedCargoManipulation": 1,
+        "repairableWithKits": [
+          2
+        ],
+        "repairCosts": [
+          25
+        ],
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "textile",
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\Data\\teddybear_brown_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bear_dark",
+      "className": "Bear_Dark",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Bear_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Bear_ColorBase0",
+      "fallbackName": "Bear Dark",
+      "descriptionShortKey": "$STR_CfgVehicles_Bear_ColorBase1",
+      "model": "\\dz\\gear\\containers\\teddybear.p3d",
+      "weight": 130,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\Data\\teddybear_dark_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::bear_colorbase",
+        "cfgvehicles::bear_dark"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Bear_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Bear_ColorBase1",
+        "model": "\\dz\\gear\\containers\\teddybear.p3d",
+        "weight": 130,
+        "itemSize": [
+          2,
+          3
+        ],
+        "itemsCargoSize": [
+          2,
+          3
+        ],
+        "canBeDigged": 1,
+        "allowOwnedCargoManipulation": 1,
+        "repairableWithKits": [
+          2
+        ],
+        "repairCosts": [
+          25
+        ],
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "textile",
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\Data\\teddybear_dark_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bear_pink",
+      "className": "Bear_Pink",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Bear_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Bear_ColorBase0",
+      "fallbackName": "Bear Pink",
+      "descriptionShortKey": "$STR_CfgVehicles_Bear_ColorBase1",
+      "model": "\\dz\\gear\\containers\\teddybear.p3d",
+      "weight": 130,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\Data\\teddybear_pink_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::bear_colorbase",
+        "cfgvehicles::bear_pink"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Bear_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Bear_ColorBase1",
+        "model": "\\dz\\gear\\containers\\teddybear.p3d",
+        "weight": 130,
+        "itemSize": [
+          2,
+          3
+        ],
+        "itemsCargoSize": [
+          2,
+          3
+        ],
+        "canBeDigged": 1,
+        "allowOwnedCargoManipulation": 1,
+        "repairableWithKits": [
+          2
+        ],
+        "repairCosts": [
+          25
+        ],
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "textile",
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\Data\\teddybear_pink_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bear_white",
+      "className": "Bear_White",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Bear_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Bear_ColorBase0",
+      "fallbackName": "Bear White",
+      "descriptionShortKey": "$STR_CfgVehicles_Bear_ColorBase1",
+      "model": "\\dz\\gear\\containers\\teddybear.p3d",
+      "weight": 130,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\Data\\teddybear_white_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::bear_colorbase",
+        "cfgvehicles::bear_white"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Bear_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Bear_ColorBase1",
+        "model": "\\dz\\gear\\containers\\teddybear.p3d",
+        "weight": 130,
+        "itemSize": [
+          2,
+          3
+        ],
+        "itemsCargoSize": [
+          2,
+          3
+        ],
+        "canBeDigged": 1,
+        "allowOwnedCargoManipulation": 1,
+        "repairableWithKits": [
+          2
+        ],
+        "repairCosts": [
+          25
+        ],
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "textile",
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\Data\\teddybear_white_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::cartent",
+      "className": "CarTent",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "TentBase",
+      "displayNameKey": "$STR_CfgVehicles_CarTent0",
+      "fallbackName": "Car Tent",
+      "descriptionShortKey": "$STR_CfgVehicles_CarTent1",
+      "model": "\\DZ\\gear\\camping\\CarTent.p3d",
+      "weight": 60000,
+      "itemSize": [
+        10,
+        5
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\car_tent_packed_co.paa",
+        "dz\\gear\\camping\\data\\tent_pristine_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::cartent"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CarTent0",
+        "descriptionShort": "$STR_CfgVehicles_CarTent1",
+        "model": "\\DZ\\gear\\camping\\CarTent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          15,
+          15,
+          15
+        ],
+        "hiddenSelections": [
+          "bags",
+          "camo",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\car_tent_packed_co.paa",
+          "dz\\gear\\camping\\data\\tent_pristine_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\car_tent_packed.rvmat",
+          "dz\\gear\\camping\\data\\car_tent.rvmat"
+        ],
+        "openable": 0,
+        "carveNavmesh": 1,
+        "weight": 60000,
+        "itemSize": [
+          10,
+          5
+        ],
+        "itemsCargoSize": [
+          10,
+          50
+        ],
+        "itemBehaviour": 0,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ],
+        "minPlacingDist": 10,
+        "rotationFlags": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::firstaidkit",
+      "className": "FirstAidKit",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Container_Base",
+      "displayNameKey": "$STR_CfgVehicles_FirstAidKit0",
+      "fallbackName": "First Aid Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_FirstAidKit1",
+      "model": "\\dz\\gear\\containers\\FirstAidKit.p3d",
+      "weight": 140,
+      "itemSize": [
+        3,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::firstaidkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FirstAidKit0",
+        "descriptionShort": "$STR_CfgVehicles_FirstAidKit1",
+        "model": "\\dz\\gear\\containers\\FirstAidKit.p3d",
+        "rotationFlags": 17,
+        "weight": 140,
+        "itemSize": [
+          3,
+          3
+        ],
+        "itemsCargoSize": [
+          3,
+          3
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "canBeDigged": 1,
+        "repairableWithKits": [
+          2
+        ],
+        "repairCosts": [
+          25
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_large_1",
+      "className": "GiftBox_Large_1",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Large",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxlarge0",
+      "fallbackName": "Gift Box Large 1",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox3.p3d",
+      "weight": 500,
+      "itemSize": [
+        5,
+        5
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper1_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_large",
+        "cfgvehicles::giftbox_large_1"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxlarge0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox3.p3d",
+        "weight": 500,
+        "itemSize": [
+          5,
+          5
+        ],
+        "itemsCargoSize": [
+          5,
+          5
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox3",
+          "ChristmasBox3_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper1_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_RED.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_large_2",
+      "className": "GiftBox_Large_2",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Large",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxlarge0",
+      "fallbackName": "Gift Box Large 2",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox3.p3d",
+      "weight": 500,
+      "itemSize": [
+        5,
+        5
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper2_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_large",
+        "cfgvehicles::giftbox_large_2"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxlarge0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox3.p3d",
+        "weight": 500,
+        "itemSize": [
+          5,
+          5
+        ],
+        "itemsCargoSize": [
+          5,
+          5
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox3",
+          "ChristmasBox3_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper2_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_SILVER.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_large_3",
+      "className": "GiftBox_Large_3",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Large",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxlarge0",
+      "fallbackName": "Gift Box Large 3",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox3.p3d",
+      "weight": 500,
+      "itemSize": [
+        5,
+        5
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper3_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_large",
+        "cfgvehicles::giftbox_large_3"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxlarge0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox3.p3d",
+        "weight": 500,
+        "itemSize": [
+          5,
+          5
+        ],
+        "itemsCargoSize": [
+          5,
+          5
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox3",
+          "ChristmasBox3_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper3_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_GOLD.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_large_4",
+      "className": "GiftBox_Large_4",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Large",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxlarge0",
+      "fallbackName": "Gift Box Large 4",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox3.p3d",
+      "weight": 500,
+      "itemSize": [
+        5,
+        5
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper4_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_large",
+        "cfgvehicles::giftbox_large_4"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxlarge0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox3.p3d",
+        "weight": 500,
+        "itemSize": [
+          5,
+          5
+        ],
+        "itemsCargoSize": [
+          5,
+          5
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox3",
+          "ChristmasBox3_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper4_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_GREEN.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_medium_1",
+      "className": "GiftBox_Medium_1",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Medium",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxmedium0",
+      "fallbackName": "Gift Box Medium 1",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox2.p3d",
+      "weight": 300,
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper1_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_medium",
+        "cfgvehicles::giftbox_medium_1"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxmedium0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox2.p3d",
+        "weight": 300,
+        "itemSize": [
+          4,
+          4
+        ],
+        "itemsCargoSize": [
+          4,
+          4
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox2",
+          "ChristmasBox2_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper1_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_GREEN.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_medium_2",
+      "className": "GiftBox_Medium_2",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Medium",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxmedium0",
+      "fallbackName": "Gift Box Medium 2",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox2.p3d",
+      "weight": 300,
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper2_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_medium",
+        "cfgvehicles::giftbox_medium_2"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxmedium0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox2.p3d",
+        "weight": 300,
+        "itemSize": [
+          4,
+          4
+        ],
+        "itemsCargoSize": [
+          4,
+          4
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox2",
+          "ChristmasBox2_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper2_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_RED.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_medium_3",
+      "className": "GiftBox_Medium_3",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Medium",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxmedium0",
+      "fallbackName": "Gift Box Medium 3",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox2.p3d",
+      "weight": 300,
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper3_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_medium",
+        "cfgvehicles::giftbox_medium_3"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxmedium0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox2.p3d",
+        "weight": 300,
+        "itemSize": [
+          4,
+          4
+        ],
+        "itemsCargoSize": [
+          4,
+          4
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox2",
+          "ChristmasBox2_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper3_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_SILVER.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_medium_4",
+      "className": "GiftBox_Medium_4",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Medium",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxmedium0",
+      "fallbackName": "Gift Box Medium 4",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox2.p3d",
+      "weight": 300,
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper4_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_medium",
+        "cfgvehicles::giftbox_medium_4"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxmedium0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox2.p3d",
+        "weight": 300,
+        "itemSize": [
+          4,
+          4
+        ],
+        "itemsCargoSize": [
+          4,
+          4
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox2",
+          "ChristmasBox2_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper4_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_GOLD.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_small_1",
+      "className": "GiftBox_Small_1",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Small",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxsmall0",
+      "fallbackName": "Gift Box Small 1",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox1.p3d",
+      "weight": 100,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper1_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_small",
+        "cfgvehicles::giftbox_small_1"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxsmall0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox1.p3d",
+        "weight": 100,
+        "itemSize": [
+          2,
+          2
+        ],
+        "itemsCargoSize": [
+          2,
+          2
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox1",
+          "ChristmasBox1_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper1_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_GOLD.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_small_2",
+      "className": "GiftBox_Small_2",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Small",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxsmall0",
+      "fallbackName": "Gift Box Small 2",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox1.p3d",
+      "weight": 100,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper2_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_small",
+        "cfgvehicles::giftbox_small_2"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxsmall0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox1.p3d",
+        "weight": 100,
+        "itemSize": [
+          2,
+          2
+        ],
+        "itemsCargoSize": [
+          2,
+          2
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox1",
+          "ChristmasBox1_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper2_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_GREEN.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_small_3",
+      "className": "GiftBox_Small_3",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Small",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxsmall0",
+      "fallbackName": "Gift Box Small 3",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox1.p3d",
+      "weight": 100,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper3_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_small",
+        "cfgvehicles::giftbox_small_3"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxsmall0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox1.p3d",
+        "weight": 100,
+        "itemSize": [
+          2,
+          2
+        ],
+        "itemsCargoSize": [
+          2,
+          2
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox1",
+          "ChristmasBox1_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper3_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_RED.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::giftbox_small_4",
+      "className": "GiftBox_Small_4",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "GiftBox_Small",
+      "displayNameKey": "$STR_cfgvehicles_xmasboxsmall0",
+      "fallbackName": "Gift Box Small 4",
+      "descriptionShortKey": "$STR_cfgvehicles_xmasbox_common1",
+      "model": "\\DZ\\gear\\containers\\ChristmasBox1.p3d",
+      "weight": 100,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\christmas_paper4_CO.paa",
+        "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::giftbox_base",
+        "cfgvehicles::giftbox_small",
+        "cfgvehicles::giftbox_small_4"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_xmasboxsmall0",
+        "descriptionShort": "$STR_cfgvehicles_xmasbox_common1",
+        "model": "\\DZ\\gear\\containers\\ChristmasBox1.p3d",
+        "weight": 100,
+        "itemSize": [
+          2,
+          2
+        ],
+        "itemsCargoSize": [
+          2,
+          2
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "absorbency": 0,
+        "reversed": 1,
+        "hiddenSelections": [
+          "ChristmasBox1",
+          "ChristmasBox1_ribbon"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\christmas_paper4_CO.paa",
+          "dz\\gear\\containers\\data\\christmas_paper_ribbon_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\containers\\data\\christmas_paper1.rvmat",
+          "DZ\\gear\\containers\\data\\christmas_ribbon_SILVER.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::land_containerlocked_blue_de",
+      "className": "Land_ContainerLocked_Blue_DE",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "ContainerLockedBase",
+      "fallbackName": "Land Container Locked Blue DE",
+      "model": "\\dz\\structures\\Industrial\\Containers\\ContainerLocked.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\structures\\Industrial\\Containers\\Data\\ShippingContainerLock_blue_CO.paa"
+      ],
+      "sourcePbo": "structures_industrial.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::housenodestruct",
+        "cfgvehicles::containerlockedbase",
+        "cfgvehicles::land_containerlocked_blue_de"
+      ],
+      "properties": {
+        "scope": 2,
+        "storageCategory": 4,
+        "model": "\\dz\\structures\\Industrial\\Containers\\ContainerLocked.p3d",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\structures\\Industrial\\Containers\\Data\\ShippingContainerLock_blue_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::land_containerlocked_orange_de",
+      "className": "Land_ContainerLocked_Orange_DE",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "ContainerLockedBase",
+      "fallbackName": "Land Container Locked Orange DE",
+      "model": "\\dz\\structures\\Industrial\\Containers\\ContainerLocked.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\structures\\Industrial\\Containers\\Data\\ShippingContainerLock_orange_CO.paa"
+      ],
+      "sourcePbo": "structures_industrial.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::housenodestruct",
+        "cfgvehicles::containerlockedbase",
+        "cfgvehicles::land_containerlocked_orange_de"
+      ],
+      "properties": {
+        "scope": 2,
+        "storageCategory": 4,
+        "model": "\\dz\\structures\\Industrial\\Containers\\ContainerLocked.p3d",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\structures\\Industrial\\Containers\\Data\\ShippingContainerLock_orange_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::land_containerlocked_red_de",
+      "className": "Land_ContainerLocked_Red_DE",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "ContainerLockedBase",
+      "fallbackName": "Land Container Locked Red DE",
+      "model": "\\dz\\structures\\Industrial\\Containers\\ContainerLocked.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\structures\\Industrial\\Containers\\Data\\ShippingContainerLock_red_CO.paa"
+      ],
+      "sourcePbo": "structures_industrial.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::housenodestruct",
+        "cfgvehicles::containerlockedbase",
+        "cfgvehicles::land_containerlocked_red_de"
+      ],
+      "properties": {
+        "scope": 2,
+        "storageCategory": 4,
+        "model": "\\dz\\structures\\Industrial\\Containers\\ContainerLocked.p3d",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\structures\\Industrial\\Containers\\Data\\ShippingContainerLock_red_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::land_containerlocked_yellow_de",
+      "className": "Land_ContainerLocked_Yellow_DE",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "ContainerLockedBase",
+      "fallbackName": "Land Container Locked Yellow DE",
+      "model": "\\dz\\structures\\Industrial\\Containers\\ContainerLocked.p3d",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\structures\\Industrial\\Containers\\Data\\ShippingContainerLock_yellow_CO.paa"
+      ],
+      "sourcePbo": "structures_industrial.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::housenodestruct",
+        "cfgvehicles::containerlockedbase",
+        "cfgvehicles::land_containerlocked_yellow_de"
+      ],
+      "properties": {
+        "scope": 2,
+        "storageCategory": 4,
+        "model": "\\dz\\structures\\Industrial\\Containers\\ContainerLocked.p3d",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\structures\\Industrial\\Containers\\Data\\ShippingContainerLock_yellow_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::largetent",
+      "className": "LargeTent",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "TentBase",
+      "displayNameKey": "$STR_CfgVehicles_LargeTent0",
+      "fallbackName": "Large Tent",
+      "descriptionShortKey": "$STR_CfgVehicles_LargeTent1",
+      "model": "\\DZ\\gear\\camping\\LargeTent.p3d",
+      "weight": 90000,
+      "itemSize": [
+        10,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\tent_door_co.paa",
+        "",
+        "dz\\gear\\camping\\data\\bagpack_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::largetent"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_LargeTent0",
+        "descriptionShort": "$STR_CfgVehicles_LargeTent1",
+        "model": "\\DZ\\gear\\camping\\LargeTent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          12,
+          12,
+          12
+        ],
+        "hiddenSelections": [
+          "entrancec",
+          "camo",
+          "bags",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\tent_door_co.paa",
+          "",
+          "dz\\gear\\camping\\data\\bagpack_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\tent_door.rvmat",
+          "dz\\gear\\camping\\data\\large_tent.rvmat",
+          "dz\\gear\\camping\\data\\bagpack.rvmat"
+        ],
+        "openable": 0,
+        "carveNavmesh": 1,
+        "weight": 90000,
+        "itemSize": [
+          10,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          40
+        ],
+        "itemBehaviour": 0,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ],
+        "minPlacingDist": 10,
+        "rotationFlags": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::mediumtent",
+      "className": "MediumTent",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "TentBase",
+      "displayNameKey": "$STR_CfgVehicles_MediumTent0",
+      "fallbackName": "Medium Tent",
+      "descriptionShortKey": "$STR_CfgVehicles_MediumTent1",
+      "model": "\\DZ\\gear\\camping\\MediumTent.p3d",
+      "weight": 3000,
+      "itemSize": [
+        8,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.470588,0.470588,0.470588,1.0,co)",
+        "dz\\gear\\camping\\data\\tent_pristine_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::mediumtent"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_MediumTent0",
+        "descriptionShort": "$STR_CfgVehicles_MediumTent1",
+        "model": "\\DZ\\gear\\camping\\MediumTent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          12,
+          12,
+          12
+        ],
+        "hiddenSelections": [
+          "bags",
+          "camo",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.470588,0.470588,0.470588,1.0,co)",
+          "dz\\gear\\camping\\data\\tent_pristine_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\tent_medium_packed.rvmat",
+          "dz\\gear\\camping\\data\\tent_medium_pitched.rvmat"
+        ],
+        "openable": 0,
+        "carveNavmesh": 1,
+        "weight": 3000,
+        "itemSize": [
+          8,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          20
+        ],
+        "itemBehaviour": 2,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ],
+        "rotationFlags": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::mediumtent_green",
+      "className": "MediumTent_Green",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "MediumTent",
+      "displayNameKey": "$STR_CfgVehicles_MediumTent0",
+      "fallbackName": "Medium Tent Green",
+      "descriptionShortKey": "$STR_CfgVehicles_MediumTent1",
+      "model": "\\DZ\\gear\\camping\\MediumTent.p3d",
+      "weight": 3000,
+      "itemSize": [
+        8,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.152941,0.176471,0.101961,1.0,co)",
+        "dz\\gear\\camping\\data\\tent_pristine_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::mediumtent",
+        "cfgvehicles::mediumtent_green"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_MediumTent0",
+        "descriptionShort": "$STR_CfgVehicles_MediumTent1",
+        "model": "\\DZ\\gear\\camping\\MediumTent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          12,
+          12,
+          12
+        ],
+        "hiddenSelections": [
+          "bags",
+          "camo",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.152941,0.176471,0.101961,1.0,co)",
+          "dz\\gear\\camping\\data\\tent_pristine_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\tent_medium_packed.rvmat",
+          "dz\\gear\\camping\\data\\tent_medium_pitched_g.rvmat"
+        ],
+        "openable": 0,
+        "carveNavmesh": 1,
+        "weight": 3000,
+        "itemSize": [
+          8,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          20
+        ],
+        "itemBehaviour": 2,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ],
+        "rotationFlags": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::mediumtent_orange",
+      "className": "MediumTent_Orange",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "MediumTent",
+      "displayNameKey": "$STR_CfgVehicles_MediumTent0",
+      "fallbackName": "Medium Tent Orange",
+      "descriptionShortKey": "$STR_CfgVehicles_MediumTent1",
+      "model": "\\DZ\\gear\\camping\\MediumTent.p3d",
+      "weight": 3000,
+      "itemSize": [
+        8,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.152941,0.145098,0.203922,1.0,co)",
+        "dz\\gear\\camping\\data\\tent_pristine_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::mediumtent",
+        "cfgvehicles::mediumtent_orange"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_MediumTent0",
+        "descriptionShort": "$STR_CfgVehicles_MediumTent1",
+        "model": "\\DZ\\gear\\camping\\MediumTent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          12,
+          12,
+          12
+        ],
+        "hiddenSelections": [
+          "bags",
+          "camo",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.152941,0.145098,0.203922,1.0,co)",
+          "dz\\gear\\camping\\data\\tent_pristine_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\tent_medium_packed.rvmat",
+          "dz\\gear\\camping\\data\\tent_medium_pitched_o.rvmat"
+        ],
+        "openable": 0,
+        "carveNavmesh": 1,
+        "weight": 3000,
+        "itemSize": [
+          8,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          20
+        ],
+        "itemBehaviour": 2,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ],
+        "rotationFlags": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::partytent",
+      "className": "PartyTent",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "TentBase",
+      "displayNameKey": "$STR_CfgVehicles_PartyTent0",
+      "fallbackName": "Party Tent",
+      "descriptionShortKey": "$STR_CfgVehicles_PartyTent1",
+      "model": "\\DZ\\gear\\camping\\party_tent.p3d",
+      "weight": 30000,
+      "itemSize": [
+        9,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.619608,0.603922,0.505882,1.0,co)",
+        "dz\\gear\\camping\\data\\tent_pristine_co.paa",
+        "dz\\gear\\camping\\data\\party_tent_pieces_co.paa",
+        "dz\\gear\\camping\\data\\party_tent_tubes_cables_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::partytent"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PartyTent0",
+        "descriptionShort": "$STR_CfgVehicles_PartyTent1",
+        "model": "\\DZ\\gear\\camping\\party_tent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          15,
+          15,
+          15
+        ],
+        "weight": 30000,
+        "itemSize": [
+          9,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          15
+        ],
+        "minPlacingDist": 10,
+        "openable": 0,
+        "carveNavmesh": 1,
+        "itemBehaviour": 0,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "rotationFlags": 2,
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "hiddenSelections": [
+          "bags",
+          "camo",
+          "party_tent_pieces",
+          "party_tent_tubes_cables",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.619608,0.603922,0.505882,1.0,co)",
+          "dz\\gear\\camping\\data\\tent_pristine_co.paa",
+          "dz\\gear\\camping\\data\\party_tent_pieces_co.paa",
+          "dz\\gear\\camping\\data\\party_tent_tubes_cables_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\party_tent_bag.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_cloth.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_pieces.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_tubes_cables.rvmat"
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::partytent_blue",
+      "className": "PartyTent_Blue",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "PartyTent",
+      "displayNameKey": "$STR_CfgVehicles_PartyTent0",
+      "fallbackName": "Party Tent Blue",
+      "descriptionShortKey": "$STR_CfgVehicles_PartyTent1",
+      "model": "\\DZ\\gear\\camping\\party_tent.p3d",
+      "weight": 30000,
+      "itemSize": [
+        9,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.0862745,0.180392,0.537255,1.0,co)",
+        "dz\\gear\\camping\\data\\tent_pristine_co.paa",
+        "dz\\gear\\camping\\data\\party_tent_pieces_co.paa",
+        "dz\\gear\\camping\\data\\party_tent_tubes_cables_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::partytent",
+        "cfgvehicles::partytent_blue"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PartyTent0",
+        "descriptionShort": "$STR_CfgVehicles_PartyTent1",
+        "model": "\\DZ\\gear\\camping\\party_tent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          15,
+          15,
+          15
+        ],
+        "weight": 30000,
+        "itemSize": [
+          9,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          15
+        ],
+        "minPlacingDist": 10,
+        "openable": 0,
+        "carveNavmesh": 1,
+        "itemBehaviour": 0,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "rotationFlags": 2,
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "hiddenSelections": [
+          "bags",
+          "camo",
+          "party_tent_pieces",
+          "party_tent_tubes_cables",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.0862745,0.180392,0.537255,1.0,co)",
+          "dz\\gear\\camping\\data\\tent_pristine_co.paa",
+          "dz\\gear\\camping\\data\\party_tent_pieces_co.paa",
+          "dz\\gear\\camping\\data\\party_tent_tubes_cables_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\party_tent_bag.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_cloth_blue.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_pieces.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_tubes_cables.rvmat"
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::partytent_brown",
+      "className": "PartyTent_Brown",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "PartyTent",
+      "displayNameKey": "$STR_CfgVehicles_PartyTent0",
+      "fallbackName": "Party Tent Brown",
+      "descriptionShortKey": "$STR_CfgVehicles_PartyTent1",
+      "model": "\\DZ\\gear\\camping\\party_tent.p3d",
+      "weight": 30000,
+      "itemSize": [
+        9,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.196078,0,0.0980392,1.0,co)",
+        "dz\\gear\\camping\\data\\tent_pristine_co.paa",
+        "dz\\gear\\camping\\data\\party_tent_pieces_co.paa",
+        "dz\\gear\\camping\\data\\party_tent_tubes_cables_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::partytent",
+        "cfgvehicles::partytent_brown"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PartyTent0",
+        "descriptionShort": "$STR_CfgVehicles_PartyTent1",
+        "model": "\\DZ\\gear\\camping\\party_tent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          15,
+          15,
+          15
+        ],
+        "weight": 30000,
+        "itemSize": [
+          9,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          15
+        ],
+        "minPlacingDist": 10,
+        "openable": 0,
+        "carveNavmesh": 1,
+        "itemBehaviour": 0,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "rotationFlags": 2,
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "hiddenSelections": [
+          "bags",
+          "camo",
+          "party_tent_pieces",
+          "party_tent_tubes_cables",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.196078,0,0.0980392,1.0,co)",
+          "dz\\gear\\camping\\data\\tent_pristine_co.paa",
+          "dz\\gear\\camping\\data\\party_tent_pieces_co.paa",
+          "dz\\gear\\camping\\data\\party_tent_tubes_cables_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\party_tent_bag.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_cloth_brown.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_pieces.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_tubes_cables.rvmat"
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::partytent_lunapark",
+      "className": "PartyTent_Lunapark",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "PartyTent",
+      "displayNameKey": "$STR_CfgVehicles_PartyTent0",
+      "fallbackName": "Party Tent Lunapark",
+      "descriptionShortKey": "$STR_CfgVehicles_PartyTent1",
+      "model": "\\DZ\\gear\\camping\\party_tent.p3d",
+      "weight": 30000,
+      "itemSize": [
+        9,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "CamoNet",
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.611765,0.584314,0.054902,1.0,co)",
+        "dz\\gear\\camping\\data\\tent_pristine_co.paa",
+        "dz\\gear\\camping\\data\\party_tent_pieces_co.paa",
+        "dz\\gear\\camping\\data\\party_tent_tubes_cables_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::partytent",
+        "cfgvehicles::partytent_lunapark"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PartyTent0",
+        "descriptionShort": "$STR_CfgVehicles_PartyTent1",
+        "model": "\\DZ\\gear\\camping\\party_tent.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          15,
+          15,
+          15
+        ],
+        "weight": 30000,
+        "itemSize": [
+          9,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          15
+        ],
+        "minPlacingDist": 10,
+        "openable": 0,
+        "carveNavmesh": 1,
+        "itemBehaviour": 0,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "rotationFlags": 2,
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "hiddenSelections": [
+          "bags",
+          "camo",
+          "party_tent_pieces",
+          "party_tent_tubes_cables",
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.611765,0.584314,0.054902,1.0,co)",
+          "dz\\gear\\camping\\data\\tent_pristine_co.paa",
+          "dz\\gear\\camping\\data\\party_tent_pieces_co.paa",
+          "dz\\gear\\camping\\data\\party_tent_tubes_cables_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\party_tent_bag.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_cloth_lunapark.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_pieces.rvmat",
+          "dz\\gear\\camping\\data\\party_tent_tubes_cables.rvmat"
+        ],
+        "attachments": [
+          "CamoNet",
+          "Lights"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::platecarrierpouches",
+      "className": "PlateCarrierPouches",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Container_Base",
+      "displayNameKey": "$STR_CfgVehicles_CarrierPouches0",
+      "fallbackName": "Plate Carrier Pouches",
+      "descriptionShortKey": "$STR_CfgVehicles_CarrierPouches1",
+      "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+      "weight": 250,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "VestPouch"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::platecarrierpouches"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CarrierPouches0",
+        "descriptionShort": "$STR_CfgVehicles_CarrierPouches1",
+        "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+        "inventorySlot": [
+          "VestPouch"
+        ],
+        "weight": 250,
+        "itemSize": [
+          5,
+          3
+        ],
+        "itemsCargoSize": [
+          5,
+          3
+        ],
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::platecarrierpouches_black",
+      "className": "PlateCarrierPouches_Black",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "PlateCarrierPouches",
+      "displayNameKey": "$STR_CfgVehicles_CarrierPouches0",
+      "fallbackName": "Plate Carrier Pouches Black",
+      "descriptionShortKey": "$STR_CfgVehicles_CarrierPouches1",
+      "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+      "weight": 250,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "VestPouch"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\vests\\data\\BallisticVest_black_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_black_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_black_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::platecarrierpouches",
+        "cfgvehicles::platecarrierpouches_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CarrierPouches0",
+        "descriptionShort": "$STR_CfgVehicles_CarrierPouches1",
+        "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+        "inventorySlot": [
+          "VestPouch"
+        ],
+        "weight": 250,
+        "itemSize": [
+          5,
+          3
+        ],
+        "itemsCargoSize": [
+          5,
+          3
+        ],
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "soundImpactType": "textile",
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\vests\\data\\BallisticVest_black_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_black_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_black_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::platecarrierpouches_camo",
+      "className": "PlateCarrierPouches_Camo",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "PlateCarrierPouches",
+      "displayNameKey": "$STR_CfgVehicles_CarrierPouches0",
+      "fallbackName": "Plate Carrier Pouches Camo",
+      "descriptionShortKey": "$STR_CfgVehicles_CarrierPouches1",
+      "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+      "weight": 250,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "VestPouch"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\vests\\data\\BallisticVest_camo_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_camo_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_camo_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::platecarrierpouches",
+        "cfgvehicles::platecarrierpouches_camo"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CarrierPouches0",
+        "descriptionShort": "$STR_CfgVehicles_CarrierPouches1",
+        "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+        "inventorySlot": [
+          "VestPouch"
+        ],
+        "weight": 250,
+        "itemSize": [
+          5,
+          3
+        ],
+        "itemsCargoSize": [
+          5,
+          3
+        ],
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "soundImpactType": "textile",
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\vests\\data\\BallisticVest_camo_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_camo_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_camo_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::platecarrierpouches_desert",
+      "className": "PlateCarrierPouches_Desert",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "PlateCarrierPouches",
+      "displayNameKey": "$STR_CfgVehicles_CarrierPouches0",
+      "fallbackName": "Plate Carrier Pouches Desert",
+      "descriptionShortKey": "$STR_CfgVehicles_CarrierPouches1",
+      "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+      "weight": 250,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "VestPouch"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\vests\\data\\BallisticVest_Desert_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_Desert_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_Desert_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::platecarrierpouches",
+        "cfgvehicles::platecarrierpouches_desert"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CarrierPouches0",
+        "descriptionShort": "$STR_CfgVehicles_CarrierPouches1",
+        "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+        "inventorySlot": [
+          "VestPouch"
+        ],
+        "weight": 250,
+        "itemSize": [
+          5,
+          3
+        ],
+        "itemsCargoSize": [
+          5,
+          3
+        ],
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "soundImpactType": "textile",
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\vests\\data\\BallisticVest_Desert_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_Desert_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_Desert_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::platecarrierpouches_green",
+      "className": "PlateCarrierPouches_Green",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "PlateCarrierPouches",
+      "displayNameKey": "$STR_CfgVehicles_CarrierPouches0",
+      "fallbackName": "Plate Carrier Pouches Green",
+      "descriptionShortKey": "$STR_CfgVehicles_CarrierPouches1",
+      "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+      "weight": 250,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "VestPouch"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\vests\\data\\BallisticVest_green_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_green_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_green_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::platecarrierpouches",
+        "cfgvehicles::platecarrierpouches_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CarrierPouches0",
+        "descriptionShort": "$STR_CfgVehicles_CarrierPouches1",
+        "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+        "inventorySlot": [
+          "VestPouch"
+        ],
+        "weight": 250,
+        "itemSize": [
+          5,
+          3
+        ],
+        "itemsCargoSize": [
+          5,
+          3
+        ],
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "soundImpactType": "textile",
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\vests\\data\\BallisticVest_green_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_green_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_green_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::platecarrierpouches_winter",
+      "className": "PlateCarrierPouches_Winter",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "PlateCarrierPouches",
+      "displayNameKey": "$STR_CfgVehicles_CarrierPouches0",
+      "fallbackName": "Plate Carrier Pouches Winter",
+      "descriptionShortKey": "$STR_CfgVehicles_CarrierPouches1",
+      "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+      "weight": 250,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "VestPouch"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\vests\\data\\BallisticVest_winter_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_winter_co.paa",
+        "\\dz\\characters\\vests\\data\\BallisticVest_winter_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::platecarrierpouches",
+        "cfgvehicles::platecarrierpouches_winter"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CarrierPouches0",
+        "descriptionShort": "$STR_CfgVehicles_CarrierPouches1",
+        "model": "\\dz\\characters\\vests\\plate_carrier_pouches_g.p3d",
+        "inventorySlot": [
+          "VestPouch"
+        ],
+        "weight": 250,
+        "itemSize": [
+          5,
+          3
+        ],
+        "itemsCargoSize": [
+          5,
+          3
+        ],
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "soundImpactType": "textile",
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\vests\\data\\BallisticVest_winter_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_winter_co.paa",
+          "\\dz\\characters\\vests\\data\\BallisticVest_winter_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::refrigeratorminsk",
+      "className": "RefrigeratorMinsk",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "WorldContainer_Base",
+      "displayNameKey": "$STR_CfgVehicles_RefrigeratorMinsk0",
+      "fallbackName": "Refrigerator Minsk",
+      "descriptionShortKey": "$STR_CfgVehicles_RefrigeratorMinsk1",
+      "model": "\\DZ\\gear\\containers\\fridge.p3d",
+      "weight": 50000,
+      "itemSize": [
+        5,
+        10
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::worldcontainer_base",
+        "cfgvehicles::refrigeratorminsk"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_RefrigeratorMinsk0",
+        "descriptionShort": "$STR_CfgVehicles_RefrigeratorMinsk1",
+        "model": "\\DZ\\gear\\containers\\fridge.p3d",
+        "weight": 50000,
+        "itemSize": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::scientificbriefcase",
+      "className": "ScientificBriefcase",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Container_Base",
+      "displayNameKey": "$STR_CfgVehicles_ScientificBriefcase0",
+      "fallbackName": "Scientific Briefcase",
+      "descriptionShortKey": "$STR_CfgVehicles_ScientificBriefcase1",
+      "model": "\\dz\\gear\\containers\\ScientificCase.p3d",
+      "weight": 2500,
+      "itemSize": [
+        6,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\data\\ScientificCase_CO.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::scientificbriefcase"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ScientificBriefcase0",
+        "descriptionShort": "$STR_CfgVehicles_ScientificBriefcase1",
+        "model": "\\dz\\gear\\containers\\ScientificCase.p3d",
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "rotationFlags": 17,
+        "weight": 2500,
+        "itemSize": [
+          6,
+          4
+        ],
+        "itemsCargoSize": [
+          6,
+          4
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "canBeDigged": 1,
+        "repairableWithKits": [
+          8
+        ],
+        "repairCosts": [
+          25
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "textile",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\data\\ScientificCase_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::seachest",
+      "className": "SeaChest",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Container_Base",
+      "displayNameKey": "$STR_CfgVehicles_SeaChest0",
+      "fallbackName": "Sea Chest",
+      "descriptionShortKey": "$STR_CfgVehicles_SeaChest1",
+      "model": "\\DZ\\gear\\camping\\sea_chest.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        10
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\data\\sea_chest_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::seachest"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SeaChest0",
+        "descriptionShort": "$STR_CfgVehicles_SeaChest1",
+        "model": "\\DZ\\gear\\camping\\sea_chest.p3d",
+        "hologramMaterial": "sea_chest",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "slopeTolerance": 0.40000001,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "weight": 10000,
+        "itemBehaviour": 0,
+        "itemSize": [
+          10,
+          10
+        ],
+        "carveNavmesh": 1,
+        "canBeDigged": 1,
+        "rotationFlags": 2,
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\data\\sea_chest_co.paa"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::shelterfabric",
+      "className": "ShelterFabric",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "ShelterBase",
+      "displayNameKey": "$STR_CfgVehicles_ShelterFabric0",
+      "fallbackName": "Shelter Fabric",
+      "descriptionShortKey": "$STR_CfgVehicles_ShelterFabric1",
+      "model": "\\DZ\\gear\\camping\\shelter_fabric.p3d",
+      "weight": 10000,
+      "itemSize": [
+        8,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::shelterbase",
+        "cfgvehicles::shelterfabric"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "model": "\\DZ\\gear\\camping\\shelter_fabric.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          15,
+          15,
+          15
+        ],
+        "hiddenSelections": [
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "openable": 0,
+        "carveNavmesh": 1,
+        "inherit_rotation": 1,
+        "weight": 10000,
+        "itemSize": [
+          8,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          10
+        ],
+        "itemBehaviour": 2,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "rotationFlags": 2,
+        "displayName": "$STR_CfgVehicles_ShelterFabric0",
+        "descriptionShort": "$STR_CfgVehicles_ShelterFabric1",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::shelterleather",
+      "className": "ShelterLeather",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "ShelterBase",
+      "displayNameKey": "$STR_CfgVehicles_ShelterLeather0",
+      "fallbackName": "Shelter Leather",
+      "descriptionShortKey": "$STR_CfgVehicles_ShelterLeather1",
+      "model": "\\DZ\\gear\\camping\\shelter_leather.p3d",
+      "weight": 10000,
+      "itemSize": [
+        8,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::shelterbase",
+        "cfgvehicles::shelterleather"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "model": "\\DZ\\gear\\camping\\shelter_leather.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          15,
+          15,
+          15
+        ],
+        "hiddenSelections": [
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "openable": 0,
+        "carveNavmesh": 1,
+        "inherit_rotation": 1,
+        "weight": 10000,
+        "itemSize": [
+          8,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          10
+        ],
+        "itemBehaviour": 2,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "rotationFlags": 2,
+        "displayName": "$STR_CfgVehicles_ShelterLeather0",
+        "descriptionShort": "$STR_CfgVehicles_ShelterLeather1",
+        "repairableWithKits": [
+          5,
+          3
+        ],
+        "repairCosts": [
+          30,
+          25
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::shelterstick",
+      "className": "ShelterStick",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "ShelterBase",
+      "displayNameKey": "$STR_CfgVehicles_ShelterStick0",
+      "fallbackName": "Shelter Stick",
+      "descriptionShortKey": "$STR_CfgVehicles_ShelterStick1",
+      "model": "\\DZ\\gear\\camping\\shelter_stick.p3d",
+      "weight": 10000,
+      "itemSize": [
+        8,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::tentbase",
+        "cfgvehicles::shelterbase",
+        "cfgvehicles::shelterstick"
+      ],
+      "properties": {
+        "destrType": "DestructTent",
+        "debug_ItemCategory": 10,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "model": "\\DZ\\gear\\camping\\shelter_stick.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.30000001,
+        "yawPitchRollLimit": [
+          15,
+          15,
+          15
+        ],
+        "hiddenSelections": [
+          "xlights_glass_r",
+          "xlights_glass_g",
+          "xlights_glass_b",
+          "xlights_glass_y"
+        ],
+        "openable": 0,
+        "carveNavmesh": 1,
+        "inherit_rotation": 1,
+        "weight": 10000,
+        "itemSize": [
+          8,
+          4
+        ],
+        "itemsCargoSize": [
+          10,
+          10
+        ],
+        "itemBehaviour": 2,
+        "lootCategory": "Tents",
+        "placement": "ForceSlopeOnTerrain",
+        "physLayer": "item_large",
+        "rotationFlags": 2,
+        "displayName": "$STR_CfgVehicles_ShelterStick0",
+        "descriptionShort": "$STR_CfgVehicles_ShelterStick1",
+        "repairableWithKits": [
+          5
+        ],
+        "repairCosts": [
+          25
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::smallprotectorcase",
+      "className": "SmallProtectorCase",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Container_Base",
+      "displayNameKey": "$STR_CfgVehicles_SmallProtectorCase0",
+      "fallbackName": "Small Protector Case",
+      "descriptionShortKey": "$STR_CfgVehicles_SmallProtectorCase1",
+      "model": "\\dz\\gear\\containers\\Protector_Case.p3d",
+      "weight": 980,
+      "itemSize": [
+        3,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::smallprotectorcase"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SmallProtectorCase0",
+        "descriptionShort": "$STR_CfgVehicles_SmallProtectorCase1",
+        "model": "\\dz\\gear\\containers\\Protector_Case.p3d",
+        "rotationFlags": 17,
+        "weight": 980,
+        "itemSize": [
+          3,
+          4
+        ],
+        "itemsCargoSize": [
+          3,
+          4
+        ],
+        "canBeDigged": 1,
+        "isMeleeWeapon": 1,
+        "allowOwnedCargoManipulation": 1,
+        "randomQuantity": 2,
+        "repairableWithKits": [
+          8
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::trashcan",
+      "className": "TrashCan",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "WorldContainer_Base",
+      "displayNameKey": "$STR_CfgVehicles_TrashCan0",
+      "fallbackName": "Trash Can",
+      "descriptionShortKey": "$STR_CfgVehicles_TrashCan1",
+      "model": "\\DZ\\gear\\containers\\trashcan.p3d",
+      "weight": 13500,
+      "itemSize": [
+        10,
+        15
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::worldcontainer_base",
+        "cfgvehicles::trashcan"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TrashCan0",
+        "descriptionShort": "$STR_CfgVehicles_TrashCan1",
+        "model": "\\DZ\\gear\\containers\\trashcan.p3d",
+        "weight": 13500,
+        "itemSize": [
+          10,
+          15
+        ],
+        "canBeDigged": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::waterproofbag_green",
+      "className": "WaterproofBag_Green",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "WaterproofBag_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_WaterproofBag_ColorBase0",
+      "fallbackName": "Waterproof Bag Green",
+      "descriptionShortKey": "$STR_CfgVehicles_WaterproofBag_ColorBase1",
+      "model": "\\dz\\gear\\containers\\WaterproofBag.p3d",
+      "weight": 350,
+      "itemSize": [
+        4,
+        5
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\Data\\WaterproofBag_green_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::waterproofbag_colorbase",
+        "cfgvehicles::waterproofbag_green"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_WaterproofBag_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_WaterproofBag_ColorBase1",
+        "model": "\\dz\\gear\\containers\\WaterproofBag.p3d",
+        "rotationFlags": 17,
+        "weight": 350,
+        "itemSize": [
+          4,
+          5
+        ],
+        "itemsCargoSize": [
+          4,
+          5
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "canBeDigged": 1,
+        "varWetMax": 0.249,
+        "heatIsolation": 1,
+        "repairableWithKits": [
+          5,
+          6
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "textile",
+        "scope": 2,
+        "color": "Green",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\Data\\WaterproofBag_green_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::waterproofbag_orange",
+      "className": "WaterproofBag_Orange",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "WaterproofBag_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_WaterproofBag_ColorBase0",
+      "fallbackName": "Waterproof Bag Orange",
+      "descriptionShortKey": "$STR_CfgVehicles_WaterproofBag_ColorBase1",
+      "model": "\\dz\\gear\\containers\\WaterproofBag.p3d",
+      "weight": 350,
+      "itemSize": [
+        4,
+        5
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\Data\\WaterproofBag_orange_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::waterproofbag_colorbase",
+        "cfgvehicles::waterproofbag_orange"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_WaterproofBag_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_WaterproofBag_ColorBase1",
+        "model": "\\dz\\gear\\containers\\WaterproofBag.p3d",
+        "rotationFlags": 17,
+        "weight": 350,
+        "itemSize": [
+          4,
+          5
+        ],
+        "itemsCargoSize": [
+          4,
+          5
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "canBeDigged": 1,
+        "varWetMax": 0.249,
+        "heatIsolation": 1,
+        "repairableWithKits": [
+          5,
+          6
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "textile",
+        "scope": 2,
+        "color": "Orange",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\Data\\WaterproofBag_orange_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::waterproofbag_yellow",
+      "className": "WaterproofBag_Yellow",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "WaterproofBag_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_WaterproofBag_ColorBase0",
+      "fallbackName": "Waterproof Bag Yellow",
+      "descriptionShortKey": "$STR_CfgVehicles_WaterproofBag_ColorBase1",
+      "model": "\\dz\\gear\\containers\\WaterproofBag.p3d",
+      "weight": 350,
+      "itemSize": [
+        4,
+        5
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\containers\\Data\\WaterproofBag_yellow_co.paa"
+      ],
+      "sourcePbo": "gear_containers.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::waterproofbag_colorbase",
+        "cfgvehicles::waterproofbag_yellow"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_WaterproofBag_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_WaterproofBag_ColorBase1",
+        "model": "\\dz\\gear\\containers\\WaterproofBag.p3d",
+        "rotationFlags": 17,
+        "weight": 350,
+        "itemSize": [
+          4,
+          5
+        ],
+        "itemsCargoSize": [
+          4,
+          5
+        ],
+        "allowOwnedCargoManipulation": 1,
+        "canBeDigged": 1,
+        "varWetMax": 0.249,
+        "heatIsolation": 1,
+        "repairableWithKits": [
+          5,
+          6
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "soundImpactType": "textile",
+        "scope": 2,
+        "color": "Yellow",
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\containers\\Data\\WaterproofBag_yellow_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::woodencrate",
+      "className": "WoodenCrate",
+      "section": "CfgVehicles",
+      "category": "container",
+      "parentClass": "Container_Base",
+      "displayNameKey": "$STR_CfgVehicles_Wooden_Case0",
+      "fallbackName": "Wooden Crate",
+      "descriptionShortKey": "$STR_CfgVehicles_Wooden_Case1",
+      "model": "\\DZ\\gear\\camping\\wooden_case.p3d",
+      "weight": 10000,
+      "itemSize": [
+        10,
+        5
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Truck_01_WoodenCrate1",
+        "Truck_01_WoodenCrate2",
+        "Truck_01_WoodenCrate3",
+        "Truck_01_WoodenCrate4"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\data\\wooden_case_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::container_base",
+        "cfgvehicles::woodencrate"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Wooden_Case0",
+        "descriptionShort": "$STR_CfgVehicles_Wooden_Case1",
+        "model": "\\DZ\\gear\\camping\\wooden_case.p3d",
+        "hologramMaterial": "wooden_case",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "slopeTolerance": 0.40000001,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "inventorySlot": [
+          "Truck_01_WoodenCrate1",
+          "Truck_01_WoodenCrate2",
+          "Truck_01_WoodenCrate3",
+          "Truck_01_WoodenCrate4"
+        ],
+        "weight": 10000,
+        "itemSize": [
+          10,
+          5
+        ],
+        "itemBehaviour": 0,
+        "carveNavmesh": 1,
+        "canBeDigged": 1,
+        "rotationFlags": 2,
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\data\\wooden_case_co.paa"
+        ],
+        "soundImpactType": "wood"
+      }
+    }
+  ]
+}

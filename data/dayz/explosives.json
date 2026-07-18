@@ -1,0 +1,1135 @@
+{
+  "metadata": {
+    "category": "explosive",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 23
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::bookkingsolomonsmines",
+      "className": "BookKingSolomonsMines",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "ItemBook",
+      "displayNameKey": "King Solomon's Mines",
+      "fallbackName": "Book King Solomons Mines",
+      "descriptionShortKey": "King Solomon's Mines",
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\books\\data\\book_KingSolomonsMines_co.paa"
+      ],
+      "sourcePbo": "gear_books.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::book_base",
+        "cfgvehicles::itembook",
+        "cfgvehicles::bookkingsolomonsmines"
+      ],
+      "properties": {
+        "quantityShow": 0,
+        "scope": 2,
+        "title": "King Solomon's Mines",
+        "author": "H. Rider Haggard",
+        "file": "dz\\gear\\books\\Automatic\\KingSolomonsMines.html",
+        "displayName": "King Solomon's Mines",
+        "descriptionShort": "King Solomon's Mines",
+        "rotationFlags": 1,
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\books\\data\\book_KingSolomonsMines_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::claymoremine",
+      "className": "ClaymoreMine",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "ExplosivesBase",
+      "displayNameKey": "$STR_ClaymoreMine0",
+      "fallbackName": "Claymore Mine",
+      "descriptionShortKey": "$STR_ClaymoreMine1",
+      "model": "\\DZ\\weapons\\explosives\\ClaymoreMine.p3d",
+      "weight": 3000,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\claymore_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::explosivesbase",
+        "cfgvehicles::claymoremine"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_ClaymoreMine0",
+        "descriptionShort": "$STR_ClaymoreMine1",
+        "model": "\\DZ\\weapons\\explosives\\ClaymoreMine.p3d",
+        "rotationFlags": 2,
+        "itemBehaviour": 2,
+        "slopeTolerance": 0.15000001,
+        "yawPitchRollLimit": [
+          60,
+          60,
+          60
+        ],
+        "hologramMaterial": "claymore",
+        "hologramMaterialPath": "dz\\weapons\\explosives\\data",
+        "projectionTypename": "ClaymoreMinePlacing",
+        "itemSize": [
+          4,
+          3
+        ],
+        "weight": 3000,
+        "inventorySlot": [],
+        "hiddenSelections": [
+          "LED"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\claymore_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\gear\\tools\\data\\RemoteDetonator_LED.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::claymoremineplacing",
+      "className": "ClaymoreMinePlacing",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "ClaymoreMine",
+      "displayNameKey": "$STR_ClaymoreMine0",
+      "fallbackName": "Claymore Mine Placing",
+      "descriptionShortKey": "$STR_ClaymoreMine1",
+      "model": "\\DZ\\weapons\\explosives\\ClaymoreMinePlacing.p3d",
+      "weight": 3000,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\claymore_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::explosivesbase",
+        "cfgvehicles::claymoremine",
+        "cfgvehicles::claymoremineplacing"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_ClaymoreMine0",
+        "descriptionShort": "$STR_ClaymoreMine1",
+        "model": "\\DZ\\weapons\\explosives\\ClaymoreMinePlacing.p3d",
+        "rotationFlags": 2,
+        "itemBehaviour": 2,
+        "slopeTolerance": 0.15000001,
+        "yawPitchRollLimit": [
+          60,
+          60,
+          60
+        ],
+        "hologramMaterial": "claymore",
+        "hologramMaterialPath": "dz\\weapons\\explosives\\data",
+        "projectionTypename": "ClaymoreMinePlacing",
+        "itemSize": [
+          4,
+          3
+        ],
+        "weight": 3000,
+        "inventorySlot": [],
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\claymore_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\claymore.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::flashgrenade",
+      "className": "FlashGrenade",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "Grenade_Base",
+      "displayNameKey": "$STR_CfgVehicles_FlashGrenade0",
+      "fallbackName": "Flash Grenade",
+      "descriptionShortKey": "$STR_CfgVehicles_FlashGrenade1",
+      "model": "\\dz\\weapons\\explosives\\flashbang.p3d",
+      "weight": 300,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\flashbang_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::flashgrenade"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FlashGrenade0",
+        "descriptionShort": "$STR_CfgVehicles_FlashGrenade1",
+        "model": "\\dz\\weapons\\explosives\\flashbang.p3d",
+        "rotationFlags": 17,
+        "weight": 300,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\flashbang_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\flashbang.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::grenade_chemgas",
+      "className": "Grenade_ChemGas",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "Grenade_Base",
+      "displayNameKey": "$STR_Grenade_ChemGas0",
+      "fallbackName": "Grenade Chem Gas",
+      "descriptionShortKey": "$STR_Grenade_ChemGas1",
+      "model": "\\dz\\weapons\\explosives\\Grenade_ChemGas.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "IEDExplosiveA",
+        "IEDExplosiveB"
+      ],
+      "hiddenSelectionsTextures": [],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::grenade_chemgas"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_Grenade_ChemGas0",
+        "descriptionShort": "$STR_Grenade_ChemGas1",
+        "model": "\\dz\\weapons\\explosives\\Grenade_ChemGas.p3d",
+        "weight": 500,
+        "itemSize": [
+          1,
+          1
+        ],
+        "inventorySlot": [
+          "IEDExplosiveA",
+          "IEDExplosiveB"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [],
+        "hiddenSelectionsMaterials": []
+      }
+    },
+    {
+      "id": "cfgvehicles::improvisedexplosive",
+      "className": "ImprovisedExplosive",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "ExplosivesBase",
+      "displayNameKey": "$STR_ImprovisedExplosive0",
+      "fallbackName": "Improvised Explosive",
+      "descriptionShortKey": "$STR_ImprovisedExplosive1",
+      "model": "\\DZ\\weapons\\explosives\\ImprovisedExplosive.p3d",
+      "weight": 2000,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "attachments": [
+        "TriggerAlarmClock",
+        "TriggerKitchenTimer",
+        "TriggerRemoteDetonator_Receiver",
+        "IEDExplosiveA",
+        "IEDExplosiveB"
+      ],
+      "inventorySlot": [],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\ied_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::explosivesbase",
+        "cfgvehicles::improvisedexplosive"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_ImprovisedExplosive0",
+        "descriptionShort": "$STR_ImprovisedExplosive1",
+        "model": "\\DZ\\weapons\\explosives\\ImprovisedExplosive.p3d",
+        "rotationFlags": 2,
+        "itemBehaviour": 2,
+        "itemSize": [
+          4,
+          3
+        ],
+        "weight": 2000,
+        "inventorySlot": [],
+        "slopeTolerance": 0.5,
+        "alignHologramToTerain": 1,
+        "yawPitchRollLimit": [
+          20,
+          20,
+          20
+        ],
+        "hologramMaterial": "protector_case",
+        "hologramMaterialPath": "dz\\gear\\containers\\data",
+        "projectionTypename": "ImprovisedExplosivePlacing",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\ied_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\ied.rvmat"
+        ],
+        "attachments": [
+          "TriggerAlarmClock",
+          "TriggerKitchenTimer",
+          "TriggerRemoteDetonator_Receiver",
+          "IEDExplosiveA",
+          "IEDExplosiveB"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::improvisedexplosiveplacing",
+      "className": "ImprovisedExplosivePlacing",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "ImprovisedExplosive",
+      "displayNameKey": "$STR_ImprovisedExplosive0",
+      "fallbackName": "Improvised Explosive Placing",
+      "descriptionShortKey": "$STR_ImprovisedExplosive1",
+      "model": "\\DZ\\weapons\\explosives\\ImprovisedExplosivePlacing.p3d",
+      "weight": 2000,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "attachments": [
+        "TriggerAlarmClock",
+        "TriggerKitchenTimer",
+        "TriggerRemoteDetonator_Receiver",
+        "IEDExplosiveA",
+        "IEDExplosiveB"
+      ],
+      "inventorySlot": [],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\containers\\data\\loot_protectorcase_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::explosivesbase",
+        "cfgvehicles::improvisedexplosive",
+        "cfgvehicles::improvisedexplosiveplacing"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_ImprovisedExplosive0",
+        "descriptionShort": "$STR_ImprovisedExplosive1",
+        "model": "\\DZ\\weapons\\explosives\\ImprovisedExplosivePlacing.p3d",
+        "rotationFlags": 2,
+        "itemBehaviour": 2,
+        "itemSize": [
+          4,
+          3
+        ],
+        "weight": 2000,
+        "inventorySlot": [],
+        "slopeTolerance": 0.5,
+        "alignHologramToTerain": 1,
+        "yawPitchRollLimit": [
+          20,
+          20,
+          20
+        ],
+        "hologramMaterial": "protector_case",
+        "hologramMaterialPath": "dz\\gear\\containers\\data",
+        "projectionTypename": "ImprovisedExplosivePlacing",
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\containers\\data\\loot_protectorcase_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\containers\\data\\protector_case.rvmat"
+        ],
+        "attachments": [
+          "TriggerAlarmClock",
+          "TriggerKitchenTimer",
+          "TriggerRemoteDetonator_Receiver",
+          "IEDExplosiveA",
+          "IEDExplosiveB"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::landminetrap",
+      "className": "LandMineTrap",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "Trap_Base",
+      "displayNameKey": "$STR_CfgVehicles_LandMineTrap0",
+      "fallbackName": "Land Mine Trap",
+      "descriptionShortKey": "$STR_CfgVehicles_LandMineTrap1",
+      "model": "\\DZ\\gear\\traps\\landmine.p3d",
+      "weight": 1670,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "IEDExplosiveA",
+        "IEDExplosiveB"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\traps\\data\\landmine_CO.paa"
+      ],
+      "sourcePbo": "gear_traps.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::trap_base",
+        "cfgvehicles::landminetrap"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_LandMineTrap0",
+        "descriptionShort": "$STR_CfgVehicles_LandMineTrap1",
+        "model": "\\DZ\\gear\\traps\\landmine.p3d",
+        "weight": 1670,
+        "itemSize": [
+          2,
+          2
+        ],
+        "itemBehaviour": 1,
+        "inventorySlot": [
+          "IEDExplosiveA",
+          "IEDExplosiveB"
+        ],
+        "slopeTolerance": 0.15000001,
+        "yawPitchRollLimit": [
+          60,
+          60,
+          60
+        ],
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\traps\\data\\landmine_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\traps\\data\\landmine.rvmat"
+        ],
+        "hologramMaterial": "landmine",
+        "hologramMaterialPath": "dz\\gear\\traps\\data",
+        "ammoType": "LandMineExplosion",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::m18smokegrenade_green",
+      "className": "M18SmokeGrenade_Green",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "M18SmokeGrenade_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+      "fallbackName": "M 18 Smoke Grenade Green",
+      "descriptionShortKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+      "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+      "weight": 500,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\smokegrenade_green_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::m18smokegrenade_colorbase",
+        "cfgvehicles::m18smokegrenade_green"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+        "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+        "rotationFlags": 17,
+        "weight": 500,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\smokegrenade.rvmat"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_green_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::m18smokegrenade_purple",
+      "className": "M18SmokeGrenade_Purple",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "M18SmokeGrenade_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+      "fallbackName": "M 18 Smoke Grenade Purple",
+      "descriptionShortKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+      "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+      "weight": 500,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\smokegrenade_violet_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::m18smokegrenade_colorbase",
+        "cfgvehicles::m18smokegrenade_purple"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+        "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+        "rotationFlags": 17,
+        "weight": 500,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\smokegrenade.rvmat"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_violet_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::m18smokegrenade_red",
+      "className": "M18SmokeGrenade_Red",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "M18SmokeGrenade_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+      "fallbackName": "M 18 Smoke Grenade Red",
+      "descriptionShortKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+      "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+      "weight": 500,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\smokegrenade_red_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::m18smokegrenade_colorbase",
+        "cfgvehicles::m18smokegrenade_red"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+        "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+        "rotationFlags": 17,
+        "weight": 500,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\smokegrenade.rvmat"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_red_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::m18smokegrenade_red_contaminated",
+      "className": "M18SmokeGrenade_Red_Contaminated",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "M18SmokeGrenade_Red",
+      "displayNameKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+      "fallbackName": "M 18 Smoke Grenade Red Contaminated",
+      "descriptionShortKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+      "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+      "weight": 500,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\smokegrenade_red_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::m18smokegrenade_colorbase",
+        "cfgvehicles::m18smokegrenade_red",
+        "cfgvehicles::m18smokegrenade_red_contaminated"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+        "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+        "rotationFlags": 17,
+        "weight": 500,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\smokegrenade.rvmat"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_red_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::m18smokegrenade_white",
+      "className": "M18SmokeGrenade_White",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "M18SmokeGrenade_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+      "fallbackName": "M 18 Smoke Grenade White",
+      "descriptionShortKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+      "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+      "weight": 500,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\smokegrenade_white_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::m18smokegrenade_colorbase",
+        "cfgvehicles::m18smokegrenade_white"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+        "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+        "rotationFlags": 17,
+        "weight": 500,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\smokegrenade.rvmat"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_white_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::m18smokegrenade_yellow",
+      "className": "M18SmokeGrenade_Yellow",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "M18SmokeGrenade_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+      "fallbackName": "M 18 Smoke Grenade Yellow",
+      "descriptionShortKey": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+      "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+      "weight": 500,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\smokegrenade_yellow_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::m18smokegrenade_colorbase",
+        "cfgvehicles::m18smokegrenade_yellow"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_M18SmokeGrenade_ColorBase1",
+        "model": "\\dz\\weapons\\explosives\\smokegrenade.p3d",
+        "rotationFlags": 17,
+        "weight": 500,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\smokegrenade.rvmat"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_yellow_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::m67grenade",
+      "className": "M67Grenade",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "Grenade_Base",
+      "displayNameKey": "$STR_CfgVehicles_M67Grenade0",
+      "fallbackName": "M 67 Grenade",
+      "descriptionShortKey": "$STR_CfgVehicles_M67Grenade1",
+      "model": "\\dz\\weapons\\explosives\\grenade.p3d",
+      "weight": 400,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\grenade_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::m67grenade"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_M67Grenade0",
+        "descriptionShort": "$STR_CfgVehicles_M67Grenade1",
+        "model": "\\dz\\weapons\\explosives\\grenade.p3d",
+        "weight": 400,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\grenade_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\grenade.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::plastic_explosive",
+      "className": "Plastic_Explosive",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "ExplosivesBase",
+      "displayNameKey": "$STR_PlasticExplosive0",
+      "fallbackName": "Plastic Explosive",
+      "descriptionShortKey": "$STR_PlasticExplosive1",
+      "model": "\\dz\\weapons\\explosives\\Plastic_Explosive.p3d",
+      "weight": 400,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "attachments": [
+        "TriggerRemoteDetonator_Receiver"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\Plastic_Explosive.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::explosivesbase",
+        "cfgvehicles::plastic_explosive"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_PlasticExplosive0",
+        "descriptionShort": "$STR_PlasticExplosive1",
+        "model": "\\dz\\weapons\\explosives\\Plastic_Explosive.p3d",
+        "weight": 400,
+        "itemSize": [
+          3,
+          2
+        ],
+        "itemBehaviour": 1,
+        "slopeTolerance": 0.5,
+        "alignHologramToTerain": 1,
+        "yawPitchRollLimit": [
+          20,
+          20,
+          20
+        ],
+        "hologramMaterial": "plastic_explosive",
+        "hologramMaterialPath": "dz\\weapons\\explosives\\data",
+        "projectionTypename": "Plastic_Explosive_Placing",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\Plastic_Explosive.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\Plastic_Explosive.rvmat"
+        ],
+        "attachments": [
+          "TriggerRemoteDetonator_Receiver"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::plastic_explosive_placing",
+      "className": "Plastic_Explosive_Placing",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "Plastic_Explosive",
+      "displayNameKey": "$STR_PlasticExplosive0",
+      "fallbackName": "Plastic Explosive Placing",
+      "descriptionShortKey": "$STR_PlasticExplosive1",
+      "model": "\\dz\\weapons\\explosives\\Plastic_Explosive_Placing.p3d",
+      "weight": 400,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "attachments": [
+        "TriggerRemoteDetonator_Receiver"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\Plastic_Explosive.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::explosivesbase",
+        "cfgvehicles::plastic_explosive",
+        "cfgvehicles::plastic_explosive_placing"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_PlasticExplosive0",
+        "descriptionShort": "$STR_PlasticExplosive1",
+        "model": "\\dz\\weapons\\explosives\\Plastic_Explosive_Placing.p3d",
+        "weight": 400,
+        "itemSize": [
+          3,
+          2
+        ],
+        "itemBehaviour": 1,
+        "slopeTolerance": 0.5,
+        "alignHologramToTerain": 1,
+        "yawPitchRollLimit": [
+          20,
+          20,
+          20
+        ],
+        "hologramMaterial": "plastic_explosive",
+        "hologramMaterialPath": "dz\\weapons\\explosives\\data",
+        "projectionTypename": "Plastic_Explosive_Placing",
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\Plastic_Explosive.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\Plastic_Explosive.rvmat"
+        ],
+        "attachments": [
+          "TriggerRemoteDetonator_Receiver"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::rdg2smokegrenade_black",
+      "className": "RDG2SmokeGrenade_Black",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "RDG2SmokeGrenade_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_RDG2SmokeGrenade_ColorBase0",
+      "fallbackName": "RDG 2 Smoke Grenade Black",
+      "descriptionShortKey": "$STR_CfgVehicles_RDG2SmokeGrenade_ColorBase1",
+      "model": "\\dz\\weapons\\explosives\\smokegrenade_rdg2.p3d",
+      "weight": 300,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\smokegrenade_rdg2_black_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::rdg2smokegrenade_colorbase",
+        "cfgvehicles::rdg2smokegrenade_black"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_RDG2SmokeGrenade_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_RDG2SmokeGrenade_ColorBase1",
+        "model": "\\dz\\weapons\\explosives\\smokegrenade_rdg2.p3d",
+        "rotationFlags": 17,
+        "weight": 300,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_rdg2.rvmat"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_rdg2_black_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::rdg2smokegrenade_white",
+      "className": "RDG2SmokeGrenade_White",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "RDG2SmokeGrenade_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_RDG2SmokeGrenade_ColorBase0",
+      "fallbackName": "RDG 2 Smoke Grenade White",
+      "descriptionShortKey": "$STR_CfgVehicles_RDG2SmokeGrenade_ColorBase1",
+      "model": "\\dz\\weapons\\explosives\\smokegrenade_rdg2.p3d",
+      "weight": 300,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\smokegrenade_rdg2_white_co.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::rdg2smokegrenade_colorbase",
+        "cfgvehicles::rdg2smokegrenade_white"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_RDG2SmokeGrenade_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_RDG2SmokeGrenade_ColorBase1",
+        "model": "\\dz\\weapons\\explosives\\smokegrenade_rdg2.p3d",
+        "rotationFlags": 17,
+        "weight": 300,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_rdg2.rvmat"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\smokegrenade_rdg2_white_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::remotedetonator",
+      "className": "RemoteDetonator",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_RemoteDetonator0",
+      "fallbackName": "Remote Detonator",
+      "descriptionShortKey": "$STR_RemoteDetonator1",
+      "model": "\\DZ\\gear\\tools\\RemoteDetonator.p3d",
+      "weight": 250,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "TriggerRemoteDetonator_Receiver"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::remotedetonator"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_RemoteDetonator0",
+        "descriptionShort": "$STR_RemoteDetonator1",
+        "model": "\\DZ\\gear\\tools\\RemoteDetonator.p3d",
+        "rotationFlags": 12,
+        "inventorySlot": [
+          "TriggerRemoteDetonator_Receiver"
+        ],
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 250,
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::remotedetonatorreceiver",
+      "className": "RemoteDetonatorReceiver",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "RemoteDetonator",
+      "displayNameKey": "$STR_RemoteDetonatorReceiver0",
+      "fallbackName": "Remote Detonator Receiver",
+      "descriptionShortKey": "$STR_RemoteDetonatorTrigger1",
+      "model": "\\DZ\\gear\\tools\\RemoteDetonator_Receiver.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "TriggerRemoteDetonator_Receiver"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\tools\\data\\remotedetonator_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::remotedetonator",
+        "cfgvehicles::remotedetonatorreceiver"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_RemoteDetonatorReceiver0",
+        "descriptionShort": "$STR_RemoteDetonatorTrigger1",
+        "model": "\\DZ\\gear\\tools\\RemoteDetonator_Receiver.p3d",
+        "rotationFlags": 12,
+        "inventorySlot": [
+          "TriggerRemoteDetonator_Receiver"
+        ],
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 150,
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "plastic",
+        "hiddenSelections": [
+          "LED"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\tools\\data\\remotedetonator_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::remotedetonatortrigger",
+      "className": "RemoteDetonatorTrigger",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "RemoteDetonator",
+      "displayNameKey": "$STR_RemoteDetonatorTrigger0",
+      "fallbackName": "Remote Detonator Trigger",
+      "descriptionShortKey": "$STR_RemoteDetonatorTrigger1",
+      "model": "\\DZ\\gear\\tools\\RemoteDetonator_Trigger.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "tripWireAttachment"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\tools\\data\\remotedetonator_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::remotedetonator",
+        "cfgvehicles::remotedetonatortrigger"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_RemoteDetonatorTrigger0",
+        "descriptionShort": "$STR_RemoteDetonatorTrigger1",
+        "model": "\\DZ\\gear\\tools\\RemoteDetonator_Trigger.p3d",
+        "rotationFlags": 12,
+        "inventorySlot": [
+          "tripWireAttachment"
+        ],
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 150,
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "plastic",
+        "lockType": 4,
+        "hiddenSelections": [
+          "LED"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\tools\\data\\remotedetonator_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::rgd5grenade",
+      "className": "RGD5Grenade",
+      "section": "CfgVehicles",
+      "category": "explosive",
+      "parentClass": "Grenade_Base",
+      "displayNameKey": "$STR_CfgVehicles_RGD5Grenade0",
+      "fallbackName": "RGD 5 Grenade",
+      "descriptionShortKey": "$STR_CfgVehicles_RGD5Grenade1",
+      "model": "\\dz\\weapons\\explosives\\frag_RGD5.p3d",
+      "weight": 350,
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\frag_RGD5_CO.paa"
+      ],
+      "sourcePbo": "weapons_explosives.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::grenade_base",
+        "cfgvehicles::rgd5grenade"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_RGD5Grenade0",
+        "descriptionShort": "$STR_CfgVehicles_RGD5Grenade1",
+        "model": "\\dz\\weapons\\explosives\\frag_RGD5.p3d",
+        "weight": 350,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\frag_RGD5_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\frag_RGD5.rvmat"
+        ]
+      }
+    }
+  ]
+}

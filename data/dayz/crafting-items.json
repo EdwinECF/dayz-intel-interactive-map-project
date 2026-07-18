@@ -1,0 +1,868 @@
+{
+  "metadata": {
+    "category": "crafting-item",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 15
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::burlapsack",
+      "className": "BurlapSack",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BurlapSack0",
+      "fallbackName": "Burlap Sack",
+      "descriptionShortKey": "$STR_CfgVehicles_BurlapSack1",
+      "model": "\\dz\\gear\\crafting\\bp_burlap_sack.p3d",
+      "weight": 510,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::burlapsack"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BurlapSack0",
+        "descriptionShort": "$STR_CfgVehicles_BurlapSack1",
+        "model": "\\dz\\gear\\crafting\\bp_burlap_sack.p3d",
+        "rotationFlags": 17,
+        "weight": 510,
+        "itemSize": [
+          3,
+          2
+        ],
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::chickenfeather",
+      "className": "ChickenFeather",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_ChickenFeathers0",
+      "fallbackName": "Chicken Feather",
+      "descriptionShortKey": "$STR_CfgVehicles_ChickenFeathers1",
+      "model": "\\dz\\gear\\consumables\\arrow_feather.p3d",
+      "weight": 1,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::chickenfeather"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ChickenFeathers0",
+        "descriptionShort": "$STR_CfgVehicles_ChickenFeathers1",
+        "model": "\\dz\\gear\\consumables\\arrow_feather.p3d",
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 1,
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "soundImpactType": "textile",
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::gasmask_filter_improvised",
+      "className": "GasMask_Filter_Improvised",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_GasMask_FilterImprovised0",
+      "fallbackName": "Gas Mask Filter Improvised",
+      "descriptionShortKey": "$STR_GasMask_FilterImprovised1",
+      "model": "\\dz\\gear\\crafting\\GasMask_filter_improvised.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "GasMaskFilter"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\crafting\\gasmask_filter_improvised_co.paa"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::gasmask_filter_improvised"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_GasMask_FilterImprovised0",
+        "descriptionShort": "$STR_GasMask_FilterImprovised1",
+        "model": "\\dz\\gear\\crafting\\GasMask_filter_improvised.p3d",
+        "inventorySlot": [
+          "GasMaskFilter"
+        ],
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 100,
+        "weightPerQuantityUnit": 0.2,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "varQuantityDestroyOnMin": 0,
+        "varWetMax": 0.249,
+        "heatIsolation": 0,
+        "soundImpactType": "plastic",
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\crafting\\gasmask_filter_improvised_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::gorkahelmetvisor",
+      "className": "GorkaHelmetVisor",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_GorkaHelmetVisor0",
+      "fallbackName": "Gorka Helmet Visor",
+      "descriptionShortKey": "$STR_CfgVehicles_GorkaHelmetVisor1",
+      "model": "\\dz\\characters\\headgear\\Maska_glass_g.p3d",
+      "weight": 350,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Glass"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::gorkahelmetvisor"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_GorkaHelmetVisor0",
+        "descriptionShort": "$STR_CfgVehicles_GorkaHelmetVisor1",
+        "model": "\\dz\\characters\\headgear\\Maska_glass_g.p3d",
+        "hiddenSelections": [
+          "camo01",
+          "camo02"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\characters\\headgear\\data\\maska.rvmat",
+          "dz\\characters\\headgear\\data\\maska_glass.rvmat"
+        ],
+        "rotationFlags": 16,
+        "weight": 350,
+        "itemSize": [
+          3,
+          2
+        ],
+        "inventorySlot": [
+          "Glass"
+        ],
+        "soundImpactType": "glass"
+      }
+    },
+    {
+      "id": "cfgvehicles::handdrillkit",
+      "className": "HandDrillKit",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_HandDrillKit0",
+      "fallbackName": "Hand Drill Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_HandDrillKit1",
+      "model": "\\dz\\gear\\crafting\\hand_drill_kit.p3d",
+      "weight": 210,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::handdrillkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_HandDrillKit0",
+        "descriptionShort": "$STR_CfgVehicles_HandDrillKit1",
+        "model": "\\dz\\gear\\crafting\\hand_drill_kit.p3d",
+        "weight": 210,
+        "itemSize": [
+          1,
+          4
+        ],
+        "rotationFlags": 8,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::longtorch",
+      "className": "LongTorch",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Torch",
+      "displayNameKey": "$STR_cfgvehicles_long_torch",
+      "fallbackName": "Long Torch",
+      "descriptionShortKey": "$STR_cfgvehicles_long_torch_desc",
+      "model": "\\dz\\gear\\crafting\\LongTorch.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        8
+      ],
+      "scope": 2,
+      "attachments": [
+        "Rags"
+      ],
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "hiddenSelectionsTextures": [
+        "",
+        "dz\\gear\\crafting\\data\\Torch_co.paa"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::torch",
+        "cfgvehicles::longtorch"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_long_torch",
+        "descriptionShort": "$STR_cfgvehicles_long_torch_desc",
+        "model": "\\dz\\gear\\crafting\\LongTorch.p3d",
+        "overrideDrawArea": "8.0",
+        "rotationFlags": 17,
+        "absorbency": 0.5,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "isMeleeWeapon": 1,
+        "burnTimePerRag": 120,
+        "burnTimePerFullLardDose": 900,
+        "burnTimePerFullFuelDose": 600,
+        "maxConsumableLardDose": 200,
+        "maxConsumableFuelDose": 200,
+        "canBeSplit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "weight": 500,
+        "itemSize": [
+          1,
+          8
+        ],
+        "attachments": [
+          "Rags"
+        ],
+        "hiddenSelections": [
+          "flame",
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "",
+          "dz\\gear\\crafting\\data\\Torch_co.paa"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::longwoodenstick",
+      "className": "LongWoodenStick",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_LongWoodenStick0",
+      "fallbackName": "Long Wooden Stick",
+      "descriptionShortKey": "$STR_CfgVehicles_LongWoodenStick1",
+      "model": "\\dz\\gear\\crafting\\Wooden_stick_blunt.p3d",
+      "weight": 670,
+      "itemSize": [
+        1,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee",
+        "Material_Shelter_FrameSticks"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::longwoodenstick"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_LongWoodenStick0",
+        "descriptionShort": "$STR_CfgVehicles_LongWoodenStick1",
+        "model": "\\dz\\gear\\crafting\\Wooden_stick_blunt.p3d",
+        "rotationFlags": 17,
+        "absorbency": 0.89999998,
+        "weight": 670,
+        "itemSize": [
+          1,
+          8
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 10,
+        "varQuantityDestroyOnMin": 1,
+        "varStackMax": 1,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee",
+          "Material_Shelter_FrameSticks"
+        ],
+        "itemBehaviour": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::metalwire",
+      "className": "MetalWire",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_MetalWire0",
+      "fallbackName": "Metal Wire",
+      "descriptionShortKey": "$STR_CfgVehicles_MetalWire1",
+      "model": "\\dz\\gear\\crafting\\String_MetalWire.p3d",
+      "weight": 170,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "MetalWire",
+        "Material_MetalWire",
+        "Material_FPole_MetalWire"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\crafting\\data\\string_metalwire_co.paa",
+        "dz\\gear\\crafting\\data\\string_metalwire_co.paa",
+        "dz\\gear\\crafting\\data\\string_metalwire_co.paa",
+        "dz\\gear\\crafting\\data\\string_metalwire_co.paa",
+        "",
+        "",
+        "dz\\gear\\crafting\\data\\string_metalwire_co.paa"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::metalwire"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_MetalWire0",
+        "descriptionShort": "$STR_CfgVehicles_MetalWire1",
+        "model": "\\dz\\gear\\crafting\\String_MetalWire.p3d",
+        "OnRestrainChange": "MetalWireLocked",
+        "rotationFlags": 17,
+        "itemSize": [
+          2,
+          3
+        ],
+        "weight": 170,
+        "inventorySlot": [
+          "MetalWire",
+          "Material_MetalWire",
+          "Material_FPole_MetalWire"
+        ],
+        "hiddenSelections": [
+          "att_battery_car",
+          "att_battery_car_plugged",
+          "att_battery_truck",
+          "att_battery_truck_plugged",
+          "att_battery_car_plug",
+          "att_battery_truck_plug",
+          "rolled"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\crafting\\data\\string_metalwire_co.paa",
+          "dz\\gear\\crafting\\data\\string_metalwire_co.paa",
+          "dz\\gear\\crafting\\data\\string_metalwire_co.paa",
+          "dz\\gear\\crafting\\data\\string_metalwire_co.paa",
+          "",
+          "",
+          "dz\\gear\\crafting\\data\\string_metalwire_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\crafting\\data\\String_MetalWire.rvmat",
+          "dz\\gear\\crafting\\data\\String_MetalWire.rvmat",
+          "dz\\gear\\crafting\\data\\String_MetalWire.rvmat",
+          "dz\\gear\\crafting\\data\\String_MetalWire.rvmat",
+          "",
+          "",
+          "dz\\gear\\crafting\\data\\String_MetalWire.rvmat"
+        ],
+        "repairableWithKits": [
+          5,
+          7
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::rope",
+      "className": "Rope",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Rope0",
+      "fallbackName": "Rope",
+      "descriptionShortKey": "$STR_CfgVehicles_Rope1",
+      "model": "\\dz\\gear\\crafting\\bp_rope.p3d",
+      "weight": 280,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Rope",
+        "Material_FPole_Rope",
+        "Material_Shelter_Rope"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::rope"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Rope0",
+        "descriptionShort": "$STR_CfgVehicles_Rope1",
+        "model": "\\dz\\gear\\crafting\\bp_rope.p3d",
+        "OnRestrainChange": "RopeLocked",
+        "RestrainTime": 10,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          "Rope",
+          "Material_FPole_Rope",
+          "Material_Shelter_Rope"
+        ],
+        "itemSize": [
+          1,
+          3
+        ],
+        "weight": 280,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::sharpwoodenstick",
+      "className": "SharpWoodenStick",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_SharpLongWoodenStick0",
+      "fallbackName": "Sharp Wooden Stick",
+      "descriptionShortKey": "$STR_CfgVehicles_SharpLongWoodenStick1",
+      "model": "\\dz\\gear\\crafting\\Wooden_stick.p3d",
+      "weight": 670,
+      "itemSize": [
+        1,
+        8
+      ],
+      "scope": 2,
+      "attachments": [
+        "Ingredient"
+      ],
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::sharpwoodenstick"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SharpLongWoodenStick0",
+        "descriptionShort": "$STR_CfgVehicles_SharpLongWoodenStick1",
+        "model": "\\dz\\gear\\crafting\\Wooden_stick.p3d",
+        "rotationFlags": 17,
+        "itemBehaviour": 1,
+        "attachments": [
+          "Ingredient"
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "suicideAnim": "spear",
+        "absorbency": 0.89999998,
+        "weight": 670,
+        "itemSize": [
+          1,
+          8
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 1,
+        "varQuantityDestroyOnMin": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::spearbone",
+      "className": "SpearBone",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Spear",
+      "displayNameKey": "$STR_CfgVehicles_Improvised_Spear0",
+      "fallbackName": "Spear Bone",
+      "descriptionShortKey": "$STR_CfgVehicles_Improvised_Spear1",
+      "model": "\\dz\\gear\\crafting\\advanced_spear.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::spear",
+        "cfgvehicles::spearbone"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Improvised_Spear0",
+        "descriptionShort": "$STR_CfgVehicles_Improvised_Spear1",
+        "model": "\\dz\\gear\\crafting\\advanced_spear.p3d",
+        "hiddenSelections": [
+          "spike_stone"
+        ],
+        "rotationFlags": 17,
+        "weight": 500,
+        "itemSize": [
+          1,
+          8
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "suicideAnim": "spear",
+        "itemBehaviour": 2,
+        "soundImpactType": "wood",
+        "openItemSpillRange": [
+          30,
+          60
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::spearstone",
+      "className": "SpearStone",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Spear",
+      "displayNameKey": "$STR_CfgVehicles_Improvised_Spear0",
+      "fallbackName": "Spear Stone",
+      "descriptionShortKey": "$STR_CfgVehicles_Improvised_Spear1",
+      "model": "\\dz\\gear\\crafting\\advanced_spear.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::spear",
+        "cfgvehicles::spearstone"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Improvised_Spear0",
+        "descriptionShort": "$STR_CfgVehicles_Improvised_Spear1",
+        "model": "\\dz\\gear\\crafting\\advanced_spear.p3d",
+        "hiddenSelections": [
+          "spike_bone"
+        ],
+        "rotationFlags": 17,
+        "weight": 500,
+        "itemSize": [
+          1,
+          8
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "suicideAnim": "spear",
+        "itemBehaviour": 2,
+        "soundImpactType": "wood",
+        "openItemSpillRange": [
+          30,
+          60
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::torch",
+      "className": "Torch",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Torch0",
+      "fallbackName": "Torch",
+      "descriptionShortKey": "$STR_CfgVehicles_Torch1",
+      "model": "\\dz\\gear\\crafting\\Torch.p3d",
+      "weight": 240,
+      "itemSize": [
+        1,
+        5
+      ],
+      "scope": 2,
+      "attachments": [
+        "Rags"
+      ],
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "hiddenSelectionsTextures": [
+        "",
+        "dz\\gear\\crafting\\data\\Torch_co.paa"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::torch"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Torch0",
+        "descriptionShort": "$STR_CfgVehicles_Torch1",
+        "model": "\\dz\\gear\\crafting\\Torch.p3d",
+        "overrideDrawArea": "8.0",
+        "rotationFlags": 17,
+        "absorbency": 0.5,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "isMeleeWeapon": 1,
+        "burnTimePerRag": 120,
+        "burnTimePerFullLardDose": 900,
+        "burnTimePerFullFuelDose": 600,
+        "maxConsumableLardDose": 200,
+        "maxConsumableFuelDose": 200,
+        "canBeSplit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "weight": 240,
+        "itemSize": [
+          1,
+          5
+        ],
+        "attachments": [
+          "Rags"
+        ],
+        "hiddenSelections": [
+          "flame",
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "",
+          "dz\\gear\\crafting\\data\\Torch_co.paa"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::torch_video",
+      "className": "Torch_Video",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "LongTorch",
+      "displayNameKey": "$STR_cfgvehicles_long_torch",
+      "fallbackName": "Torch Video",
+      "descriptionShortKey": "$STR_cfgvehicles_long_torch_desc",
+      "model": "\\dz\\gear\\crafting\\LongTorch.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        8
+      ],
+      "scope": 2,
+      "attachments": [
+        "Rags"
+      ],
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "hiddenSelectionsTextures": [
+        "",
+        "dz\\gear\\crafting\\data\\Torch_co.paa"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::torch",
+        "cfgvehicles::longtorch",
+        "cfgvehicles::torch_video"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_long_torch",
+        "descriptionShort": "$STR_cfgvehicles_long_torch_desc",
+        "model": "\\dz\\gear\\crafting\\LongTorch.p3d",
+        "overrideDrawArea": "8.0",
+        "rotationFlags": 17,
+        "absorbency": 0.5,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "isMeleeWeapon": 1,
+        "burnTimePerRag": 120,
+        "burnTimePerFullLardDose": 900,
+        "burnTimePerFullFuelDose": 600,
+        "maxConsumableLardDose": 200,
+        "maxConsumableFuelDose": 200,
+        "canBeSplit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "weight": 500,
+        "itemSize": [
+          1,
+          8
+        ],
+        "attachments": [
+          "Rags"
+        ],
+        "hiddenSelections": [
+          "flame",
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "",
+          "dz\\gear\\crafting\\data\\Torch_co.paa"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::woodenstick",
+      "className": "WoodenStick",
+      "section": "CfgVehicles",
+      "category": "crafting-item",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_WoodenStick0",
+      "fallbackName": "Wooden Stick",
+      "descriptionShortKey": "$STR_CfgVehicles_WoodenStick1",
+      "model": "\\dz\\gear\\crafting\\bp_wooden_stick.p3d",
+      "weight": 220,
+      "itemSize": [
+        5,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "WoodenStick",
+        "Material_Shelter_Sticks"
+      ],
+      "sourcePbo": "gear_crafting.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::woodenstick"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_WoodenStick0",
+        "descriptionShort": "$STR_CfgVehicles_WoodenStick1",
+        "model": "\\dz\\gear\\crafting\\bp_wooden_stick.p3d",
+        "inventorySlot": [
+          "WoodenStick",
+          "Material_Shelter_Sticks"
+        ],
+        "absorbency": 0.89999998,
+        "weight": 220,
+        "itemSize": [
+          5,
+          1
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 50,
+        "varQuantityDestroyOnMin": 1,
+        "varStackMax": 5,
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    }
+  ]
+}

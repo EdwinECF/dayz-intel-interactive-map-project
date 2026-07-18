@@ -1,0 +1,2054 @@
+{
+  "metadata": {
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00"
+  },
+  "weaponsToMagazines": {
+    "AK101": [
+      "Mag_AK101_30Rnd",
+      "Mag_AK101_30Rnd_Black",
+      "Mag_AK101_30Rnd_Green"
+    ],
+    "AK101_Black": [
+      "Mag_AK101_30Rnd",
+      "Mag_AK101_30Rnd_Black",
+      "Mag_AK101_30Rnd_Green"
+    ],
+    "AK101_Green": [
+      "Mag_AK101_30Rnd",
+      "Mag_AK101_30Rnd_Black",
+      "Mag_AK101_30Rnd_Green"
+    ],
+    "AK74": [
+      "Mag_AK74_30Rnd",
+      "Mag_AK74_30Rnd_Black",
+      "Mag_AK74_30Rnd_Green",
+      "Mag_AK74_45Rnd"
+    ],
+    "AK74_Black": [
+      "Mag_AK74_30Rnd",
+      "Mag_AK74_30Rnd_Black",
+      "Mag_AK74_30Rnd_Green",
+      "Mag_AK74_45Rnd"
+    ],
+    "AK74_Green": [
+      "Mag_AK74_30Rnd",
+      "Mag_AK74_30Rnd_Black",
+      "Mag_AK74_30Rnd_Green",
+      "Mag_AK74_45Rnd"
+    ],
+    "AKM": [
+      "Mag_AKM_30Rnd",
+      "Mag_AKM_Palm30Rnd",
+      "Mag_AKM_Palm30Rnd_Black",
+      "Mag_AKM_Palm30Rnd_Green",
+      "Mag_AKM_Drum75Rnd",
+      "Mag_AKM_Drum75Rnd_Green",
+      "Mag_AKM_Drum75Rnd_Black",
+      "Mag_AKM_Drum_TEST"
+    ],
+    "AKM_TESTBED": [
+      "Mag_AKM_30Rnd",
+      "Mag_AKM_Palm30Rnd",
+      "Mag_AKM_Palm30Rnd_Black",
+      "Mag_AKM_Palm30Rnd_Green",
+      "Mag_AKM_Drum75Rnd",
+      "Mag_AKM_Drum75Rnd_Green",
+      "Mag_AKM_Drum75Rnd_Black",
+      "Mag_AKM_Drum_TEST"
+    ],
+    "AKS74U": [
+      "Mag_AK74_30Rnd",
+      "Mag_AK74_30Rnd_Black",
+      "Mag_AK74_30Rnd_Green",
+      "Mag_AK74_45Rnd"
+    ],
+    "AKS74U_Black": [
+      "Mag_AK74_30Rnd",
+      "Mag_AK74_30Rnd_Black",
+      "Mag_AK74_30Rnd_Green",
+      "Mag_AK74_45Rnd"
+    ],
+    "AKS74U_Green": [
+      "Mag_AK74_30Rnd",
+      "Mag_AK74_30Rnd_Black",
+      "Mag_AK74_30Rnd_Green",
+      "Mag_AK74_45Rnd"
+    ],
+    "ASVAL": [
+      "Mag_VSS_10Rnd",
+      "Mag_VAL_20Rnd",
+      "Mag_Vikhr_30Rnd"
+    ],
+    "Aug": [
+      "Mag_Aug_30Rnd",
+      "Mag_STANAG_30Rnd",
+      "Mag_STANAGCoupled_30Rnd",
+      "Mag_STANAG_60Rnd",
+      "Mag_CMAG_10Rnd",
+      "Mag_CMAG_20Rnd",
+      "Mag_CMAG_30Rnd",
+      "Mag_CMAG_40Rnd",
+      "Mag_CMAG_10Rnd_Green",
+      "Mag_CMAG_20Rnd_Green",
+      "Mag_CMAG_30Rnd_Green",
+      "Mag_CMAG_40Rnd_Green",
+      "Mag_CMAG_10Rnd_Black",
+      "Mag_CMAG_20Rnd_Black",
+      "Mag_CMAG_30Rnd_Black",
+      "Mag_CMAG_40Rnd_Black"
+    ],
+    "AugShort": [
+      "Mag_Aug_30Rnd"
+    ],
+    "B95": [],
+    "B95_Black": [],
+    "B95_Green": [],
+    "Colt1911": [
+      "Mag_1911_7Rnd"
+    ],
+    "Crossbow": [],
+    "Crossbow_Autumn": [],
+    "Crossbow_Black": [],
+    "Crossbow_Summer": [],
+    "Crossbow_Wood": [],
+    "CZ527": [
+      "Mag_CZ527_5rnd"
+    ],
+    "CZ527_Black": [
+      "Mag_CZ527_5rnd"
+    ],
+    "CZ527_Camo": [
+      "Mag_CZ527_5rnd"
+    ],
+    "CZ527_Green": [
+      "Mag_CZ527_5rnd"
+    ],
+    "CZ550": [
+      "Mag_CZ550_4rnd",
+      "Mag_CZ550_10rnd"
+    ],
+    "CZ61": [
+      "Mag_CZ61_20Rnd"
+    ],
+    "CZ75": [
+      "Mag_CZ75_15Rnd"
+    ],
+    "DartGun": [
+      "D_Syringe_Single",
+      "Mag_Dartgun_CO2"
+    ],
+    "Deagle": [
+      "Mag_Deagle_9rnd"
+    ],
+    "Deagle_Gold": [
+      "Mag_Deagle_9rnd"
+    ],
+    "Derringer_Black": [],
+    "Derringer_Grey": [],
+    "Derringer_Pink": [],
+    "Engraved1911": [
+      "Mag_1911_7Rnd"
+    ],
+    "FAL": [
+      "Mag_FAL_20Rnd"
+    ],
+    "FAMAS": [
+      "Mag_FAMAS_25Rnd"
+    ],
+    "Flaregun": [],
+    "FNX45": [
+      "Mag_FNX45_15Rnd"
+    ],
+    "FNX45_arrow": [
+      "Mag_FNX45_15Rnd"
+    ],
+    "Glock19": [
+      "Mag_Glock_15Rnd"
+    ],
+    "GP25": [],
+    "GP25_Standalone": [],
+    "Groza": [
+      "Mag_Groza_20Rnd",
+      "Mag_VSS_10Rnd"
+    ],
+    "Izh18": [],
+    "Izh18Shotgun": [],
+    "Izh43Shotgun": [],
+    "LAW": [],
+    "LongHorn": [],
+    "M14": [
+      "Mag_M14_10Rnd",
+      "Mag_M14_20Rnd"
+    ],
+    "M16A2": [
+      "Mag_STANAG_30Rnd",
+      "Mag_STANAGCoupled_30Rnd",
+      "Mag_STANAG_60Rnd",
+      "Mag_CMAG_10Rnd",
+      "Mag_CMAG_20Rnd",
+      "Mag_CMAG_30Rnd",
+      "Mag_CMAG_40Rnd",
+      "Mag_CMAG_10Rnd_Green",
+      "Mag_CMAG_20Rnd_Green",
+      "Mag_CMAG_30Rnd_Green",
+      "Mag_CMAG_40Rnd_Green",
+      "Mag_CMAG_10Rnd_Black",
+      "Mag_CMAG_20Rnd_Black",
+      "Mag_CMAG_30Rnd_Black",
+      "Mag_CMAG_40Rnd_Black"
+    ],
+    "M203": [],
+    "M203_Standalone": [],
+    "M249": [
+      "Mag_M249_Box200Rnd"
+    ],
+    "M4A1": [
+      "Mag_STANAG_30Rnd",
+      "Mag_STANAGCoupled_30Rnd",
+      "Mag_STANAG_60Rnd",
+      "Mag_CMAG_10Rnd",
+      "Mag_CMAG_20Rnd",
+      "Mag_CMAG_30Rnd",
+      "Mag_CMAG_40Rnd",
+      "Mag_CMAG_10Rnd_Green",
+      "Mag_CMAG_20Rnd_Green",
+      "Mag_CMAG_30Rnd_Green",
+      "Mag_CMAG_40Rnd_Green",
+      "Mag_CMAG_10Rnd_Black",
+      "Mag_CMAG_20Rnd_Black",
+      "Mag_CMAG_30Rnd_Black",
+      "Mag_CMAG_40Rnd_Black"
+    ],
+    "M4A1_Black": [
+      "Mag_STANAG_30Rnd",
+      "Mag_STANAGCoupled_30Rnd",
+      "Mag_STANAG_60Rnd",
+      "Mag_CMAG_10Rnd",
+      "Mag_CMAG_20Rnd",
+      "Mag_CMAG_30Rnd",
+      "Mag_CMAG_40Rnd",
+      "Mag_CMAG_10Rnd_Green",
+      "Mag_CMAG_20Rnd_Green",
+      "Mag_CMAG_30Rnd_Green",
+      "Mag_CMAG_40Rnd_Green",
+      "Mag_CMAG_10Rnd_Black",
+      "Mag_CMAG_20Rnd_Black",
+      "Mag_CMAG_30Rnd_Black",
+      "Mag_CMAG_40Rnd_Black"
+    ],
+    "M4A1_Green": [
+      "Mag_STANAG_30Rnd",
+      "Mag_STANAGCoupled_30Rnd",
+      "Mag_STANAG_60Rnd",
+      "Mag_CMAG_10Rnd",
+      "Mag_CMAG_20Rnd",
+      "Mag_CMAG_30Rnd",
+      "Mag_CMAG_40Rnd",
+      "Mag_CMAG_10Rnd_Green",
+      "Mag_CMAG_20Rnd_Green",
+      "Mag_CMAG_30Rnd_Green",
+      "Mag_CMAG_40Rnd_Green",
+      "Mag_CMAG_10Rnd_Black",
+      "Mag_CMAG_20Rnd_Black",
+      "Mag_CMAG_30Rnd_Black",
+      "Mag_CMAG_40Rnd_Black"
+    ],
+    "M79": [],
+    "Magnum": [],
+    "MakarovIJ70": [
+      "Mag_IJ70_8Rnd"
+    ],
+    "MakarovPB": [
+      "Mag_MakarovPB_8Rnd"
+    ],
+    "MKII": [
+      "Mag_MKII_10Rnd"
+    ],
+    "Mosin9130": [],
+    "Mosin9130_Black": [],
+    "Mosin9130_Camo": [],
+    "Mosin9130_Green": [],
+    "Mp133Shotgun": [],
+    "Mp133Shotgun_PistolGrip": [],
+    "MP5K": [
+      "Mag_MP5_15Rnd",
+      "Mag_MP5_30Rnd"
+    ],
+    "P1": [
+      "Mag_P1_8Rnd"
+    ],
+    "PM73Rak": [
+      "Mag_PM73_25Rnd",
+      "Mag_PM73_15Rnd"
+    ],
+    "PP19": [
+      "Mag_PP19_64Rnd"
+    ],
+    "PVCBow": [],
+    "QuickieBow": [],
+    "R12": [],
+    "RecurveBow": [],
+    "Red9": [],
+    "Repeater": [],
+    "RPG7": [],
+    "Ruger1022": [
+      "Mag_Ruger1022_30Rnd",
+      "Mag_Ruger1022_15Rnd"
+    ],
+    "Saiga": [
+      "Mag_Saiga_5Rnd",
+      "Mag_Saiga_8Rnd",
+      "Mag_Saiga_Drum20Rnd"
+    ],
+    "SawedoffB95": [],
+    "SawedoffFAMAS": [
+      "Mag_FAMAS_25Rnd"
+    ],
+    "SawedoffIzh18": [],
+    "SawedoffIzh18Shotgun": [],
+    "SawedoffIzh43Shotgun": [],
+    "SawedoffMagnum": [],
+    "SawedoffMosin9130": [],
+    "SawedoffMosin9130_Black": [],
+    "SawedoffMosin9130_Camo": [],
+    "SawedoffMosin9130_Green": [],
+    "SCARH": [
+      "Mag_SCARH_20Rnd",
+      "Mag_SCARH_20Rnd_Black"
+    ],
+    "SCARH_Black": [
+      "Mag_SCARH_20Rnd",
+      "Mag_SCARH_20Rnd_Black"
+    ],
+    "Scout": [
+      "Mag_Scout_5Rnd"
+    ],
+    "Scout_Chernarus": [
+      "Mag_Scout_5Rnd"
+    ],
+    "Scout_Livonia": [
+      "Mag_Scout_5Rnd"
+    ],
+    "Shockpistol": [
+      "Mag_ShockCartridge"
+    ],
+    "Shockpistol_Black": [
+      "Mag_ShockCartridge"
+    ],
+    "SKS": [],
+    "SKS_Black": [],
+    "SKS_Green": [],
+    "SSG82": [
+      "Mag_SSG82_5rnd"
+    ],
+    "SV98": [
+      "Mag_SV98_10rnd"
+    ],
+    "SVD": [
+      "Mag_SVD_10Rnd"
+    ],
+    "SVD_Wooden": [
+      "Mag_SVD_10Rnd"
+    ],
+    "Trumpet": [],
+    "UMP45": [
+      "Mag_UMP_25Rnd"
+    ],
+    "UnderSlugGrenadeM4": [],
+    "Vikhr": [
+      "Mag_VSS_10Rnd",
+      "Mag_VAL_20Rnd",
+      "Mag_Vikhr_30Rnd"
+    ],
+    "VSS": [
+      "Mag_VSS_10Rnd",
+      "Mag_VAL_20Rnd",
+      "Mag_Vikhr_30Rnd"
+    ],
+    "Winchester70": [],
+    "Winchester70_Black": [],
+    "Winchester70_Green": []
+  },
+  "weaponsToAmmunition": {
+    "AK101": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "AK101_Black": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "AK101_Green": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "AK74": [
+      "Ammo_545x39",
+      "Ammo_545x39Tracer"
+    ],
+    "AK74_Black": [
+      "Ammo_545x39",
+      "Ammo_545x39Tracer"
+    ],
+    "AK74_Green": [
+      "Ammo_545x39",
+      "Ammo_545x39Tracer"
+    ],
+    "AKM": [
+      "Ammo_762x39",
+      "Ammo_762x39Tracer"
+    ],
+    "AKM_TESTBED": [
+      "Ammo_762x39",
+      "Ammo_762x39Tracer"
+    ],
+    "AKS74U": [
+      "Ammo_545x39",
+      "Ammo_545x39Tracer"
+    ],
+    "AKS74U_Black": [
+      "Ammo_545x39",
+      "Ammo_545x39Tracer"
+    ],
+    "AKS74U_Green": [
+      "Ammo_545x39",
+      "Ammo_545x39Tracer"
+    ],
+    "ASVAL": [
+      "Ammo_9x39",
+      "Ammo_9x39AP"
+    ],
+    "Aug": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "AugShort": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "B95": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer",
+      "Mag_308WinSnaploader_2Rnd"
+    ],
+    "B95_Black": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer",
+      "Mag_308WinSnaploader_2Rnd"
+    ],
+    "B95_Green": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer",
+      "Mag_308WinSnaploader_2Rnd"
+    ],
+    "Colt1911": [
+      "Ammo_45ACP"
+    ],
+    "Crossbow": [
+      "Ammo_HuntingBolt",
+      "Ammo_ImprovisedBolt_1",
+      "Ammo_ImprovisedBolt_2",
+      "Ammo_CupidsBolt"
+    ],
+    "Crossbow_Autumn": [
+      "Ammo_HuntingBolt",
+      "Ammo_ImprovisedBolt_1",
+      "Ammo_ImprovisedBolt_2",
+      "Ammo_CupidsBolt"
+    ],
+    "Crossbow_Black": [
+      "Ammo_HuntingBolt",
+      "Ammo_ImprovisedBolt_1",
+      "Ammo_ImprovisedBolt_2",
+      "Ammo_CupidsBolt"
+    ],
+    "Crossbow_Summer": [
+      "Ammo_HuntingBolt",
+      "Ammo_ImprovisedBolt_1",
+      "Ammo_ImprovisedBolt_2",
+      "Ammo_CupidsBolt"
+    ],
+    "Crossbow_Wood": [
+      "Ammo_HuntingBolt",
+      "Ammo_ImprovisedBolt_1",
+      "Ammo_ImprovisedBolt_2",
+      "Ammo_CupidsBolt"
+    ],
+    "CZ527": [
+      "Ammo_762x39",
+      "Ammo_762x39Tracer"
+    ],
+    "CZ527_Black": [
+      "Ammo_762x39",
+      "Ammo_762x39Tracer"
+    ],
+    "CZ527_Camo": [
+      "Ammo_762x39",
+      "Ammo_762x39Tracer"
+    ],
+    "CZ527_Green": [
+      "Ammo_762x39",
+      "Ammo_762x39Tracer"
+    ],
+    "CZ550": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ],
+    "CZ61": [
+      "Ammo_380"
+    ],
+    "CZ75": [
+      "Ammo_9x19"
+    ],
+    "DartGun": [],
+    "Deagle": [
+      "Ammo_357"
+    ],
+    "Deagle_Gold": [
+      "Ammo_357"
+    ],
+    "Derringer_Black": [
+      "Ammo_357"
+    ],
+    "Derringer_Grey": [
+      "Ammo_357"
+    ],
+    "Derringer_Pink": [
+      "Ammo_357"
+    ],
+    "Engraved1911": [
+      "Ammo_45ACP"
+    ],
+    "FAL": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ],
+    "FAMAS": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "Flaregun": [
+      "Ammo_Flare",
+      "Ammo_FlareRed",
+      "Ammo_FlareGreen",
+      "Ammo_FlareBlue"
+    ],
+    "FNX45": [
+      "Ammo_45ACP"
+    ],
+    "FNX45_arrow": [
+      "Ammo_HuntingArrow",
+      "Ammo_ImprovisedArrow"
+    ],
+    "Glock19": [
+      "Ammo_9x19"
+    ],
+    "GP25": [],
+    "GP25_Standalone": [],
+    "Groza": [
+      "Ammo_9x39",
+      "Ammo_9x39AP"
+    ],
+    "Izh18": [
+      "Ammo_762x39",
+      "Ammo_762x39Tracer"
+    ],
+    "Izh18Shotgun": [
+      "Ammo_12gaPellets",
+      "Ammo_12gaSlug",
+      "Ammo_12gaRubberSlug",
+      "Ammo_12gaBeanbag",
+      "Mag_12gaSnaploader_2Rnd"
+    ],
+    "Izh43Shotgun": [
+      "Ammo_12gaPellets",
+      "Ammo_12gaSlug",
+      "Ammo_12gaRubberSlug",
+      "Ammo_12gaBeanbag",
+      "Mag_12gaSnaploader_2Rnd"
+    ],
+    "LAW": [
+      "Ammo_LAW_HE"
+    ],
+    "LongHorn": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ],
+    "M14": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ],
+    "M16A2": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "M203": [],
+    "M203_Standalone": [],
+    "M249": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "M4A1": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "M4A1_Black": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "M4A1_Green": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "M79": [
+      "Ammo_40mm_Explosive",
+      "Ammo_40mm_ChemGas",
+      "Ammo_40mm_Smoke_Red",
+      "Ammo_40mm_Smoke_Green",
+      "Ammo_40mm_Smoke_White",
+      "Ammo_40mm_Smoke_Black"
+    ],
+    "Magnum": [
+      "Ammo_357",
+      "Mag_357Speedloader_6Rnd"
+    ],
+    "MakarovIJ70": [
+      "Ammo_380"
+    ],
+    "MakarovPB": [
+      "Ammo_380"
+    ],
+    "MKII": [
+      "Ammo_22"
+    ],
+    "Mosin9130": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer",
+      "Mag_CLIP762x54_5Rnd"
+    ],
+    "Mosin9130_Black": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer",
+      "Mag_CLIP762x54_5Rnd"
+    ],
+    "Mosin9130_Camo": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer",
+      "Mag_CLIP762x54_5Rnd"
+    ],
+    "Mosin9130_Green": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer",
+      "Mag_CLIP762x54_5Rnd"
+    ],
+    "Mp133Shotgun": [
+      "Ammo_12gaPellets",
+      "Ammo_12gaSlug",
+      "Ammo_12gaRubberSlug",
+      "Ammo_12gaBeanbag"
+    ],
+    "Mp133Shotgun_PistolGrip": [
+      "Ammo_12gaPellets",
+      "Ammo_12gaSlug",
+      "Ammo_12gaRubberSlug",
+      "Ammo_12gaBeanbag"
+    ],
+    "MP5K": [
+      "Ammo_9x19"
+    ],
+    "P1": [
+      "Ammo_9x19"
+    ],
+    "PM73Rak": [
+      "Ammo_380"
+    ],
+    "PP19": [
+      "Ammo_380"
+    ],
+    "PVCBow": [
+      "Ammo_ArrowComposite",
+      "Ammo_ArrowPrimitive",
+      "Ammo_ArrowBoned",
+      "Ammo_SharpStick",
+      "Mag_Arrows_Quiver"
+    ],
+    "QuickieBow": [
+      "Ammo_ArrowComposite",
+      "Ammo_ArrowPrimitive",
+      "Ammo_ArrowBoned",
+      "Ammo_SharpStick",
+      "Mag_Arrows_Quiver"
+    ],
+    "R12": [
+      "Ammo_12gaPellets",
+      "Ammo_12gaSlug",
+      "Ammo_12gaRubberSlug",
+      "Ammo_12gaBeanbag"
+    ],
+    "RecurveBow": [
+      "Ammo_ArrowComposite",
+      "Ammo_ArrowPrimitive",
+      "Ammo_ArrowBoned",
+      "Ammo_SharpStick",
+      "Mag_Arrows_Quiver"
+    ],
+    "Red9": [
+      "Ammo_9x19",
+      "Mag_CLIP9x19_10Rnd"
+    ],
+    "Repeater": [
+      "Ammo_357"
+    ],
+    "RPG7": [
+      "Ammo_RPG7_HE",
+      "Ammo_RPG7_AP"
+    ],
+    "Ruger1022": [
+      "Ammo_22"
+    ],
+    "Saiga": [
+      "Ammo_12gaPellets",
+      "Ammo_12gaSlug",
+      "Ammo_12gaRubberSlug",
+      "Ammo_12gaBeanbag"
+    ],
+    "SawedoffB95": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer",
+      "Mag_308WinSnaploader_2Rnd"
+    ],
+    "SawedoffFAMAS": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "SawedoffIzh18": [
+      "Ammo_762x39",
+      "Ammo_762x39Tracer"
+    ],
+    "SawedoffIzh18Shotgun": [
+      "Ammo_12gaPellets",
+      "Ammo_12gaSlug",
+      "Ammo_12gaRubberSlug",
+      "Ammo_12gaBeanbag",
+      "Mag_12gaSnaploader_2Rnd"
+    ],
+    "SawedoffIzh43Shotgun": [
+      "Ammo_12gaPellets",
+      "Ammo_12gaSlug",
+      "Ammo_12gaRubberSlug",
+      "Ammo_12gaBeanbag",
+      "Mag_12gaSnaploader_2Rnd"
+    ],
+    "SawedoffMagnum": [
+      "Ammo_357",
+      "Mag_357Speedloader_6Rnd"
+    ],
+    "SawedoffMosin9130": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer",
+      "Mag_CLIP762x54_5Rnd"
+    ],
+    "SawedoffMosin9130_Black": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer",
+      "Mag_CLIP762x54_5Rnd"
+    ],
+    "SawedoffMosin9130_Camo": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer",
+      "Mag_CLIP762x54_5Rnd"
+    ],
+    "SawedoffMosin9130_Green": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer",
+      "Mag_CLIP762x54_5Rnd"
+    ],
+    "SCARH": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ],
+    "SCARH_Black": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ],
+    "Scout": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "Scout_Chernarus": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "Scout_Livonia": [
+      "Ammo_556x45",
+      "Ammo_556x45Tracer"
+    ],
+    "Shockpistol": [
+      "Ammo_9x19"
+    ],
+    "Shockpistol_Black": [
+      "Ammo_9x19"
+    ],
+    "SKS": [
+      "Ammo_762x39",
+      "Mag_CLIP762x39_10Rnd",
+      "Ammo_762x39Tracer"
+    ],
+    "SKS_Black": [
+      "Ammo_762x39",
+      "Mag_CLIP762x39_10Rnd",
+      "Ammo_762x39Tracer"
+    ],
+    "SKS_Green": [
+      "Ammo_762x39",
+      "Mag_CLIP762x39_10Rnd",
+      "Ammo_762x39Tracer"
+    ],
+    "SSG82": [
+      "Ammo_545x39",
+      "Ammo_545x39Tracer"
+    ],
+    "SV98": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer"
+    ],
+    "SVD": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer"
+    ],
+    "SVD_Wooden": [
+      "Ammo_762x54",
+      "Ammo_762x54Tracer"
+    ],
+    "Trumpet": [
+      "Ammo_22"
+    ],
+    "UMP45": [
+      "Ammo_45ACP"
+    ],
+    "UnderSlugGrenadeM4": [
+      "Ammo_GrenadeM4"
+    ],
+    "Vikhr": [
+      "Ammo_9x39",
+      "Ammo_9x39AP"
+    ],
+    "VSS": [
+      "Ammo_9x39",
+      "Ammo_9x39AP"
+    ],
+    "Winchester70": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ],
+    "Winchester70_Black": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ],
+    "Winchester70_Green": [
+      "Ammo_308Win",
+      "Ammo_308WinTracer"
+    ]
+  },
+  "weaponsToAttachmentSlots": {
+    "AK101": [
+      "weaponButtstockAK",
+      "WeaponHandguardAK",
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponFlashlight",
+      "weaponMuzzleAK",
+      "weaponBayonetAK"
+    ],
+    "AK101_Black": [
+      "weaponButtstockAK",
+      "WeaponHandguardAK",
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponFlashlight",
+      "weaponMuzzleAK",
+      "weaponBayonetAK"
+    ],
+    "AK101_Green": [
+      "weaponButtstockAK",
+      "WeaponHandguardAK",
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponFlashlight",
+      "weaponMuzzleAK",
+      "weaponBayonetAK"
+    ],
+    "AK74": [
+      "weaponButtstockAK",
+      "WeaponHandguardAK",
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponFlashlight",
+      "weaponMuzzleAK",
+      "weaponBayonetAK"
+    ],
+    "AK74_Black": [
+      "weaponButtstockAK",
+      "WeaponHandguardAK",
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponFlashlight",
+      "weaponMuzzleAK",
+      "weaponBayonetAK"
+    ],
+    "AK74_Green": [
+      "weaponButtstockAK",
+      "WeaponHandguardAK",
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponFlashlight",
+      "weaponMuzzleAK",
+      "weaponBayonetAK"
+    ],
+    "AKM": [
+      "weaponButtstockAK",
+      "WeaponHandguardAK",
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponFlashlight",
+      "weaponMuzzleAK",
+      "weaponBayonetAK"
+    ],
+    "AKM_TESTBED": [
+      "weaponButtstockAK",
+      "WeaponHandguardAK",
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponFlashlight",
+      "weaponMuzzleAK",
+      "weaponBayonetAK"
+    ],
+    "AKS74U": [
+      "weaponButtstockAK",
+      "weaponWrap",
+      "weaponMuzzleAK"
+    ],
+    "AKS74U_Black": [
+      "weaponButtstockAK",
+      "weaponWrap",
+      "weaponMuzzleAK"
+    ],
+    "AKS74U_Green": [
+      "weaponButtstockAK",
+      "weaponWrap",
+      "weaponMuzzleAK"
+    ],
+    "ASVAL": [
+      "weaponWrap",
+      "WeaponOptics",
+      "weaponFlashlight"
+    ],
+    "Aug": [
+      "weaponWrap",
+      "weaponMuzzleM4",
+      "weaponOptics",
+      "weaponFlashlight"
+    ],
+    "AugShort": [
+      "weaponWrap",
+      "weaponOpticsAug",
+      "suppressorImpro"
+    ],
+    "B95": [
+      "weaponWrap",
+      "weaponOpticsHunting"
+    ],
+    "B95_Black": [
+      "weaponWrap",
+      "weaponOpticsHunting"
+    ],
+    "B95_Green": [
+      "weaponWrap",
+      "weaponOpticsHunting"
+    ],
+    "Colt1911": [
+      "pistolFlashlight",
+      "pistolMuzzle"
+    ],
+    "Crossbow": [
+      "weaponOptics"
+    ],
+    "Crossbow_Autumn": [
+      "weaponOptics"
+    ],
+    "Crossbow_Black": [
+      "weaponOptics"
+    ],
+    "Crossbow_Summer": [
+      "weaponOptics"
+    ],
+    "Crossbow_Wood": [
+      "weaponOptics"
+    ],
+    "CZ527": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "CZ527_Black": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "CZ527_Camo": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "CZ527_Green": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "CZ550": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "CZ61": [
+      "pistolMuzzle"
+    ],
+    "CZ75": [
+      "pistolOptics",
+      "pistolFlashlight",
+      "pistolMuzzle"
+    ],
+    "DartGun": [
+      "weaponOptics"
+    ],
+    "Deagle": [
+      "weaponOpticsCrossbow",
+      "pistolMuzzle"
+    ],
+    "Deagle_Gold": [
+      "weaponOpticsCrossbow",
+      "pistolMuzzle"
+    ],
+    "Derringer_Black": [],
+    "Derringer_Grey": [],
+    "Derringer_Pink": [],
+    "Engraved1911": [
+      "pistolFlashlight",
+      "pistolMuzzle"
+    ],
+    "FAL": [
+      "weaponButtstockFal",
+      "weaponWrap",
+      "weaponOptics",
+      "suppressorImpro"
+    ],
+    "FAMAS": [
+      "weaponWrap",
+      "suppressorImpro"
+    ],
+    "Flaregun": [],
+    "FNX45": [
+      "pistolOptics",
+      "pistolFlashlight",
+      "pistolMuzzle"
+    ],
+    "FNX45_arrow": [
+      "pistolMuzzle",
+      "pistolOptics",
+      "pistolFlashlight"
+    ],
+    "Glock19": [
+      "pistolOptics",
+      "pistolFlashlight",
+      "pistolMuzzle"
+    ],
+    "GP25": [],
+    "GP25_Standalone": [],
+    "Groza": [
+      "weaponButtstockAK",
+      "weaponOpticsAK",
+      "weaponMuzzleAK"
+    ],
+    "Izh18": [
+      "weaponWrap",
+      "suppressorImpro"
+    ],
+    "Izh18Shotgun": [
+      "weaponWrap"
+    ],
+    "Izh43Shotgun": [
+      "weaponWrap"
+    ],
+    "LAW": [],
+    "LongHorn": [
+      "weaponOpticsCrossbow",
+      "suppressorImpro"
+    ],
+    "M14": [
+      "weaponWrap",
+      "weaponOptics",
+      "suppressorImpro"
+    ],
+    "M16A2": [
+      "weaponWrap",
+      "weaponMuzzleM4",
+      "weaponBayonet"
+    ],
+    "M203": [],
+    "M203_Standalone": [],
+    "M249": [
+      "weaponOptics",
+      "weaponMuzzleM4",
+      "weaponHandguardM249",
+      "Att_Handguard_M249_Ris"
+    ],
+    "M4A1": [
+      "weaponButtstockM4",
+      "WeaponHandguardM4",
+      "weaponWrap",
+      "weaponOptics",
+      "weaponFlashlight",
+      "weaponMuzzleM4",
+      "weaponBayonet"
+    ],
+    "M4A1_Black": [
+      "weaponButtstockM4",
+      "WeaponHandguardM4",
+      "weaponWrap",
+      "weaponOptics",
+      "weaponFlashlight",
+      "weaponMuzzleM4",
+      "weaponBayonet"
+    ],
+    "M4A1_Green": [
+      "weaponButtstockM4",
+      "WeaponHandguardM4",
+      "weaponWrap",
+      "weaponOptics",
+      "weaponFlashlight",
+      "weaponMuzzleM4",
+      "weaponBayonet"
+    ],
+    "M79": [
+      "weaponOpticsAug"
+    ],
+    "Magnum": [
+      "RevolverCylinder",
+      "RevolverEjector"
+    ],
+    "MakarovIJ70": [
+      "pistolMuzzle"
+    ],
+    "MakarovPB": [
+      "pistolMuzzle"
+    ],
+    "MKII": [],
+    "Mosin9130": [
+      "weaponWrap",
+      "weaponOpticsMosin",
+      "suppressorImpro",
+      "weaponMuzzleMosin",
+      "weaponBayonetMosin"
+    ],
+    "Mosin9130_Black": [
+      "weaponWrap",
+      "weaponOpticsMosin",
+      "suppressorImpro",
+      "weaponMuzzleMosin",
+      "weaponBayonetMosin"
+    ],
+    "Mosin9130_Camo": [
+      "weaponWrap",
+      "weaponOpticsMosin",
+      "suppressorImpro",
+      "weaponMuzzleMosin",
+      "weaponBayonetMosin"
+    ],
+    "Mosin9130_Green": [
+      "weaponWrap",
+      "weaponOpticsMosin",
+      "suppressorImpro",
+      "weaponMuzzleMosin",
+      "weaponBayonetMosin"
+    ],
+    "Mp133Shotgun": [
+      "pistolOptics"
+    ],
+    "Mp133Shotgun_PistolGrip": [
+      "pistolOptics"
+    ],
+    "MP5K": [
+      "weaponButtstockMP5",
+      "WeaponHandguardMP5",
+      "weaponOptics",
+      "weaponFlashlight",
+      "weaponMuzzleMP5",
+      "pistolMuzzle"
+    ],
+    "P1": [
+      "suppressorImpro"
+    ],
+    "PM73Rak": [],
+    "PP19": [
+      "weaponWrap",
+      "weaponOpticsAK",
+      "pistolMuzzle",
+      "weaponButtstockPP19"
+    ],
+    "PVCBow": [],
+    "QuickieBow": [],
+    "R12": [
+      "weaponOptics",
+      "weaponWrap",
+      "weaponFlashlight"
+    ],
+    "RecurveBow": [],
+    "Red9": [
+      "weaponButtstockRed9",
+      "suppressorImpro"
+    ],
+    "Repeater": [
+      "weaponWrap",
+      "suppressorImpro"
+    ],
+    "RPG7": [],
+    "Ruger1022": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "Saiga": [
+      "weaponButtstockSaiga",
+      "weaponWrap",
+      "weaponOpticsAK"
+    ],
+    "SawedoffB95": [
+      "weaponOpticsHunting"
+    ],
+    "SawedoffFAMAS": [
+      "weaponWrap",
+      "suppressorImpro"
+    ],
+    "SawedoffIzh18": [],
+    "SawedoffIzh18Shotgun": [],
+    "SawedoffIzh43Shotgun": [],
+    "SawedoffMagnum": [
+      "RevolverCylinder",
+      "RevolverEjector"
+    ],
+    "SawedoffMosin9130": [
+      "weaponOpticsMosin"
+    ],
+    "SawedoffMosin9130_Black": [
+      "weaponOpticsMosin"
+    ],
+    "SawedoffMosin9130_Camo": [
+      "weaponOpticsMosin"
+    ],
+    "SawedoffMosin9130_Green": [
+      "weaponOpticsMosin"
+    ],
+    "SCARH": [
+      "weaponButtstockSCAR",
+      "weaponWrap",
+      "weaponOptics",
+      "suppressorImpro",
+      "Scarh_FrontSight",
+      "weaponFlashlight"
+    ],
+    "SCARH_Black": [
+      "weaponButtstockSCAR",
+      "weaponWrap",
+      "weaponOptics",
+      "suppressorImpro",
+      "Scarh_FrontSight",
+      "weaponFlashlight"
+    ],
+    "Scout": [
+      "weaponWrap",
+      "weaponOptics",
+      "weaponMuzzleM4"
+    ],
+    "Scout_Chernarus": [
+      "weaponWrap",
+      "weaponOptics",
+      "weaponMuzzleM4"
+    ],
+    "Scout_Livonia": [
+      "weaponWrap",
+      "weaponOptics",
+      "weaponMuzzleM4"
+    ],
+    "Shockpistol": [],
+    "Shockpistol_Black": [],
+    "SKS": [
+      "weaponWrap",
+      "weaponOpticsMosin",
+      "suppressorImpro",
+      "weaponBayonetSKS"
+    ],
+    "SKS_Black": [
+      "weaponWrap",
+      "weaponOpticsMosin",
+      "suppressorImpro",
+      "weaponBayonetSKS"
+    ],
+    "SKS_Green": [
+      "weaponWrap",
+      "weaponOpticsMosin",
+      "suppressorImpro",
+      "weaponBayonetSKS"
+    ],
+    "SSG82": [
+      "weaponWrap",
+      "weaponOpticsAug",
+      "suppressorImpro"
+    ],
+    "SV98": [
+      "weaponWrap",
+      "suppressorImpro",
+      "weaponOptics"
+    ],
+    "SVD": [
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponMuzzleAK"
+    ],
+    "SVD_Wooden": [
+      "weaponWrap",
+      "weaponOpticsAK",
+      "weaponMuzzleAK"
+    ],
+    "Trumpet": [
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "UMP45": [
+      "weaponWrap",
+      "weaponOptics",
+      "weaponFlashlight",
+      "pistolMuzzle"
+    ],
+    "UnderSlugGrenadeM4": [],
+    "Vikhr": [
+      "weaponWrap",
+      "weaponOpticsAK",
+      "suppressorImpro"
+    ],
+    "VSS": [
+      "weaponWrap",
+      "weaponOpticsAK"
+    ],
+    "Winchester70": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "Winchester70_Black": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ],
+    "Winchester70_Green": [
+      "weaponWrap",
+      "weaponOpticsHunting",
+      "suppressorImpro"
+    ]
+  },
+  "magazinesToWeapons": {
+    "Mag_AK101_30Rnd": [
+      "AK101",
+      "AK101_Black",
+      "AK101_Green"
+    ],
+    "Mag_AK101_30Rnd_Black": [
+      "AK101",
+      "AK101_Black",
+      "AK101_Green"
+    ],
+    "Mag_AK101_30Rnd_Green": [
+      "AK101",
+      "AK101_Black",
+      "AK101_Green"
+    ],
+    "Mag_AK74_30Rnd": [
+      "AK74",
+      "AK74_Black",
+      "AK74_Green",
+      "AKS74U",
+      "AKS74U_Black",
+      "AKS74U_Green"
+    ],
+    "Mag_AK74_30Rnd_Black": [
+      "AK74",
+      "AK74_Black",
+      "AK74_Green",
+      "AKS74U",
+      "AKS74U_Black",
+      "AKS74U_Green"
+    ],
+    "Mag_AK74_30Rnd_Green": [
+      "AK74",
+      "AK74_Black",
+      "AK74_Green",
+      "AKS74U",
+      "AKS74U_Black",
+      "AKS74U_Green"
+    ],
+    "Mag_AK74_45Rnd": [
+      "AK74",
+      "AK74_Black",
+      "AK74_Green",
+      "AKS74U",
+      "AKS74U_Black",
+      "AKS74U_Green"
+    ],
+    "Mag_AKM_30Rnd": [
+      "AKM",
+      "AKM_TESTBED"
+    ],
+    "Mag_AKM_Palm30Rnd": [
+      "AKM",
+      "AKM_TESTBED"
+    ],
+    "Mag_AKM_Palm30Rnd_Black": [
+      "AKM",
+      "AKM_TESTBED"
+    ],
+    "Mag_AKM_Palm30Rnd_Green": [
+      "AKM",
+      "AKM_TESTBED"
+    ],
+    "Mag_AKM_Drum75Rnd": [
+      "AKM",
+      "AKM_TESTBED"
+    ],
+    "Mag_AKM_Drum75Rnd_Green": [
+      "AKM",
+      "AKM_TESTBED"
+    ],
+    "Mag_AKM_Drum75Rnd_Black": [
+      "AKM",
+      "AKM_TESTBED"
+    ],
+    "Mag_AKM_Drum_TEST": [
+      "AKM",
+      "AKM_TESTBED"
+    ],
+    "Mag_VSS_10Rnd": [
+      "ASVAL",
+      "Groza",
+      "Vikhr",
+      "VSS"
+    ],
+    "Mag_VAL_20Rnd": [
+      "ASVAL",
+      "Vikhr",
+      "VSS"
+    ],
+    "Mag_Vikhr_30Rnd": [
+      "ASVAL",
+      "Vikhr",
+      "VSS"
+    ],
+    "Mag_Aug_30Rnd": [
+      "Aug",
+      "AugShort"
+    ],
+    "Mag_STANAG_30Rnd": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_STANAGCoupled_30Rnd": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_STANAG_60Rnd": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_10Rnd": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_20Rnd": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_30Rnd": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_40Rnd": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_10Rnd_Green": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_20Rnd_Green": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_30Rnd_Green": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_40Rnd_Green": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_10Rnd_Black": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_20Rnd_Black": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_30Rnd_Black": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_CMAG_40Rnd_Black": [
+      "Aug",
+      "M16A2",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green"
+    ],
+    "Mag_1911_7Rnd": [
+      "Colt1911",
+      "Engraved1911"
+    ],
+    "Mag_CZ527_5rnd": [
+      "CZ527",
+      "CZ527_Black",
+      "CZ527_Camo",
+      "CZ527_Green"
+    ],
+    "Mag_CZ550_4rnd": [
+      "CZ550"
+    ],
+    "Mag_CZ550_10rnd": [
+      "CZ550"
+    ],
+    "Mag_CZ61_20Rnd": [
+      "CZ61"
+    ],
+    "Mag_CZ75_15Rnd": [
+      "CZ75"
+    ],
+    "D_Syringe_Single": [
+      "DartGun"
+    ],
+    "Mag_Dartgun_CO2": [
+      "DartGun"
+    ],
+    "Mag_Deagle_9rnd": [
+      "Deagle",
+      "Deagle_Gold"
+    ],
+    "Mag_FAL_20Rnd": [
+      "FAL"
+    ],
+    "Mag_FAMAS_25Rnd": [
+      "FAMAS",
+      "SawedoffFAMAS"
+    ],
+    "Mag_FNX45_15Rnd": [
+      "FNX45",
+      "FNX45_arrow"
+    ],
+    "Mag_Glock_15Rnd": [
+      "Glock19"
+    ],
+    "Mag_Groza_20Rnd": [
+      "Groza"
+    ],
+    "Mag_M14_10Rnd": [
+      "M14"
+    ],
+    "Mag_M14_20Rnd": [
+      "M14"
+    ],
+    "Mag_M249_Box200Rnd": [
+      "M249"
+    ],
+    "Mag_IJ70_8Rnd": [
+      "MakarovIJ70"
+    ],
+    "Mag_MakarovPB_8Rnd": [
+      "MakarovPB"
+    ],
+    "Mag_MKII_10Rnd": [
+      "MKII"
+    ],
+    "Mag_MP5_15Rnd": [
+      "MP5K"
+    ],
+    "Mag_MP5_30Rnd": [
+      "MP5K"
+    ],
+    "Mag_P1_8Rnd": [
+      "P1"
+    ],
+    "Mag_PM73_25Rnd": [
+      "PM73Rak"
+    ],
+    "Mag_PM73_15Rnd": [
+      "PM73Rak"
+    ],
+    "Mag_PP19_64Rnd": [
+      "PP19"
+    ],
+    "Mag_Ruger1022_30Rnd": [
+      "Ruger1022"
+    ],
+    "Mag_Ruger1022_15Rnd": [
+      "Ruger1022"
+    ],
+    "Mag_Saiga_5Rnd": [
+      "Saiga"
+    ],
+    "Mag_Saiga_8Rnd": [
+      "Saiga"
+    ],
+    "Mag_Saiga_Drum20Rnd": [
+      "Saiga"
+    ],
+    "Mag_SCARH_20Rnd": [
+      "SCARH",
+      "SCARH_Black"
+    ],
+    "Mag_SCARH_20Rnd_Black": [
+      "SCARH",
+      "SCARH_Black"
+    ],
+    "Mag_Scout_5Rnd": [
+      "Scout",
+      "Scout_Chernarus",
+      "Scout_Livonia"
+    ],
+    "Mag_ShockCartridge": [
+      "Shockpistol",
+      "Shockpistol_Black"
+    ],
+    "Mag_SSG82_5rnd": [
+      "SSG82"
+    ],
+    "Mag_SV98_10rnd": [
+      "SV98"
+    ],
+    "Mag_SVD_10Rnd": [
+      "SVD",
+      "SVD_Wooden"
+    ],
+    "Mag_UMP_25Rnd": [
+      "UMP45"
+    ]
+  },
+  "ammunitionToWeapons": {
+    "Ammo_556x45": [
+      "AK101",
+      "AK101_Black",
+      "AK101_Green",
+      "Aug",
+      "AugShort",
+      "FAMAS",
+      "M16A2",
+      "M249",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green",
+      "SawedoffFAMAS",
+      "Scout",
+      "Scout_Chernarus",
+      "Scout_Livonia"
+    ],
+    "Ammo_556x45Tracer": [
+      "AK101",
+      "AK101_Black",
+      "AK101_Green",
+      "Aug",
+      "AugShort",
+      "FAMAS",
+      "M16A2",
+      "M249",
+      "M4A1",
+      "M4A1_Black",
+      "M4A1_Green",
+      "SawedoffFAMAS",
+      "Scout",
+      "Scout_Chernarus",
+      "Scout_Livonia"
+    ],
+    "Ammo_545x39": [
+      "AK74",
+      "AK74_Black",
+      "AK74_Green",
+      "AKS74U",
+      "AKS74U_Black",
+      "AKS74U_Green",
+      "SSG82"
+    ],
+    "Ammo_545x39Tracer": [
+      "AK74",
+      "AK74_Black",
+      "AK74_Green",
+      "AKS74U",
+      "AKS74U_Black",
+      "AKS74U_Green",
+      "SSG82"
+    ],
+    "Ammo_762x39": [
+      "AKM",
+      "AKM_TESTBED",
+      "CZ527",
+      "CZ527_Black",
+      "CZ527_Camo",
+      "CZ527_Green",
+      "Izh18",
+      "SawedoffIzh18",
+      "SKS",
+      "SKS_Black",
+      "SKS_Green"
+    ],
+    "Ammo_762x39Tracer": [
+      "AKM",
+      "AKM_TESTBED",
+      "CZ527",
+      "CZ527_Black",
+      "CZ527_Camo",
+      "CZ527_Green",
+      "Izh18",
+      "SawedoffIzh18",
+      "SKS",
+      "SKS_Black",
+      "SKS_Green"
+    ],
+    "Ammo_9x39": [
+      "ASVAL",
+      "Groza",
+      "Vikhr",
+      "VSS"
+    ],
+    "Ammo_9x39AP": [
+      "ASVAL",
+      "Groza",
+      "Vikhr",
+      "VSS"
+    ],
+    "Ammo_308Win": [
+      "B95",
+      "B95_Black",
+      "B95_Green",
+      "CZ550",
+      "FAL",
+      "LongHorn",
+      "M14",
+      "SawedoffB95",
+      "SCARH",
+      "SCARH_Black",
+      "Winchester70",
+      "Winchester70_Black",
+      "Winchester70_Green"
+    ],
+    "Ammo_308WinTracer": [
+      "B95",
+      "B95_Black",
+      "B95_Green",
+      "CZ550",
+      "FAL",
+      "LongHorn",
+      "M14",
+      "SawedoffB95",
+      "SCARH",
+      "SCARH_Black",
+      "Winchester70",
+      "Winchester70_Black",
+      "Winchester70_Green"
+    ],
+    "Mag_308WinSnaploader_2Rnd": [
+      "B95",
+      "B95_Black",
+      "B95_Green",
+      "SawedoffB95"
+    ],
+    "Ammo_45ACP": [
+      "Colt1911",
+      "Engraved1911",
+      "FNX45",
+      "UMP45"
+    ],
+    "Ammo_HuntingBolt": [
+      "Crossbow",
+      "Crossbow_Autumn",
+      "Crossbow_Black",
+      "Crossbow_Summer",
+      "Crossbow_Wood"
+    ],
+    "Ammo_ImprovisedBolt_1": [
+      "Crossbow",
+      "Crossbow_Autumn",
+      "Crossbow_Black",
+      "Crossbow_Summer",
+      "Crossbow_Wood"
+    ],
+    "Ammo_ImprovisedBolt_2": [
+      "Crossbow",
+      "Crossbow_Autumn",
+      "Crossbow_Black",
+      "Crossbow_Summer",
+      "Crossbow_Wood"
+    ],
+    "Ammo_CupidsBolt": [
+      "Crossbow",
+      "Crossbow_Autumn",
+      "Crossbow_Black",
+      "Crossbow_Summer",
+      "Crossbow_Wood"
+    ],
+    "Ammo_380": [
+      "CZ61",
+      "MakarovIJ70",
+      "MakarovPB",
+      "PM73Rak",
+      "PP19"
+    ],
+    "Ammo_9x19": [
+      "CZ75",
+      "Glock19",
+      "MP5K",
+      "P1",
+      "Red9",
+      "Shockpistol",
+      "Shockpistol_Black"
+    ],
+    "Ammo_357": [
+      "Deagle",
+      "Deagle_Gold",
+      "Derringer_Black",
+      "Derringer_Grey",
+      "Derringer_Pink",
+      "Magnum",
+      "Repeater",
+      "SawedoffMagnum"
+    ],
+    "Ammo_Flare": [
+      "Flaregun"
+    ],
+    "Ammo_FlareRed": [
+      "Flaregun"
+    ],
+    "Ammo_FlareGreen": [
+      "Flaregun"
+    ],
+    "Ammo_FlareBlue": [
+      "Flaregun"
+    ],
+    "Ammo_HuntingArrow": [
+      "FNX45_arrow"
+    ],
+    "Ammo_ImprovisedArrow": [
+      "FNX45_arrow"
+    ],
+    "Ammo_12gaPellets": [
+      "Izh18Shotgun",
+      "Izh43Shotgun",
+      "Mp133Shotgun",
+      "Mp133Shotgun_PistolGrip",
+      "R12",
+      "Saiga",
+      "SawedoffIzh18Shotgun",
+      "SawedoffIzh43Shotgun"
+    ],
+    "Ammo_12gaSlug": [
+      "Izh18Shotgun",
+      "Izh43Shotgun",
+      "Mp133Shotgun",
+      "Mp133Shotgun_PistolGrip",
+      "R12",
+      "Saiga",
+      "SawedoffIzh18Shotgun",
+      "SawedoffIzh43Shotgun"
+    ],
+    "Ammo_12gaRubberSlug": [
+      "Izh18Shotgun",
+      "Izh43Shotgun",
+      "Mp133Shotgun",
+      "Mp133Shotgun_PistolGrip",
+      "R12",
+      "Saiga",
+      "SawedoffIzh18Shotgun",
+      "SawedoffIzh43Shotgun"
+    ],
+    "Ammo_12gaBeanbag": [
+      "Izh18Shotgun",
+      "Izh43Shotgun",
+      "Mp133Shotgun",
+      "Mp133Shotgun_PistolGrip",
+      "R12",
+      "Saiga",
+      "SawedoffIzh18Shotgun",
+      "SawedoffIzh43Shotgun"
+    ],
+    "Mag_12gaSnaploader_2Rnd": [
+      "Izh18Shotgun",
+      "Izh43Shotgun",
+      "SawedoffIzh18Shotgun",
+      "SawedoffIzh43Shotgun"
+    ],
+    "Ammo_LAW_HE": [
+      "LAW"
+    ],
+    "Ammo_40mm_Explosive": [
+      "M79"
+    ],
+    "Ammo_40mm_ChemGas": [
+      "M79"
+    ],
+    "Ammo_40mm_Smoke_Red": [
+      "M79"
+    ],
+    "Ammo_40mm_Smoke_Green": [
+      "M79"
+    ],
+    "Ammo_40mm_Smoke_White": [
+      "M79"
+    ],
+    "Ammo_40mm_Smoke_Black": [
+      "M79"
+    ],
+    "Mag_357Speedloader_6Rnd": [
+      "Magnum",
+      "SawedoffMagnum"
+    ],
+    "Ammo_22": [
+      "MKII",
+      "Ruger1022",
+      "Trumpet"
+    ],
+    "Ammo_762x54": [
+      "Mosin9130",
+      "Mosin9130_Black",
+      "Mosin9130_Camo",
+      "Mosin9130_Green",
+      "SawedoffMosin9130",
+      "SawedoffMosin9130_Black",
+      "SawedoffMosin9130_Camo",
+      "SawedoffMosin9130_Green",
+      "SV98",
+      "SVD",
+      "SVD_Wooden"
+    ],
+    "Ammo_762x54Tracer": [
+      "Mosin9130",
+      "Mosin9130_Black",
+      "Mosin9130_Camo",
+      "Mosin9130_Green",
+      "SawedoffMosin9130",
+      "SawedoffMosin9130_Black",
+      "SawedoffMosin9130_Camo",
+      "SawedoffMosin9130_Green",
+      "SV98",
+      "SVD",
+      "SVD_Wooden"
+    ],
+    "Mag_CLIP762x54_5Rnd": [
+      "Mosin9130",
+      "Mosin9130_Black",
+      "Mosin9130_Camo",
+      "Mosin9130_Green",
+      "SawedoffMosin9130",
+      "SawedoffMosin9130_Black",
+      "SawedoffMosin9130_Camo",
+      "SawedoffMosin9130_Green"
+    ],
+    "Ammo_ArrowComposite": [
+      "PVCBow",
+      "QuickieBow",
+      "RecurveBow"
+    ],
+    "Ammo_ArrowPrimitive": [
+      "PVCBow",
+      "QuickieBow",
+      "RecurveBow"
+    ],
+    "Ammo_ArrowBoned": [
+      "PVCBow",
+      "QuickieBow",
+      "RecurveBow"
+    ],
+    "Ammo_SharpStick": [
+      "PVCBow",
+      "QuickieBow",
+      "RecurveBow"
+    ],
+    "Mag_Arrows_Quiver": [
+      "PVCBow",
+      "QuickieBow",
+      "RecurveBow"
+    ],
+    "Mag_CLIP9x19_10Rnd": [
+      "Red9"
+    ],
+    "Ammo_RPG7_HE": [
+      "RPG7"
+    ],
+    "Ammo_RPG7_AP": [
+      "RPG7"
+    ],
+    "Mag_CLIP762x39_10Rnd": [
+      "SKS",
+      "SKS_Black",
+      "SKS_Green"
+    ],
+    "Ammo_GrenadeM4": [
+      "UnderSlugGrenadeM4"
+    ]
+  }
+}

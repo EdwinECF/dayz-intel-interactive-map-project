@@ -1,0 +1,1875 @@
+{
+  "metadata": {
+    "category": "melee-weapon",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 31
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::barbedbaseballbat",
+      "className": "BarbedBaseballBat",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BarbedBaseballBat0",
+      "fallbackName": "Barbed Baseball Bat",
+      "descriptionShortKey": "$STR_CfgVehicles_BarbedBaseballBat1",
+      "model": "\\dz\\weapons\\melee\\blunt\\Baseballbat_barbed.p3d",
+      "weight": 600,
+      "itemSize": [
+        1,
+        7
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::barbedbaseballbat"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BarbedBaseballBat0",
+        "descriptionShort": "$STR_CfgVehicles_BarbedBaseballBat1",
+        "model": "\\dz\\weapons\\melee\\blunt\\Baseballbat_barbed.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "weight": 600,
+        "itemSize": [
+          1,
+          7
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.02,
+        "openItemSpillRange": [
+          40,
+          70
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::baseballbat",
+      "className": "BaseballBat",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BaseballBat0",
+      "fallbackName": "Baseball Bat",
+      "descriptionShortKey": "$STR_CfgVehicles_BaseballBat1",
+      "model": "\\dz\\weapons\\melee\\blunt\\baseballbat.p3d",
+      "weight": 566,
+      "itemSize": [
+        1,
+        7
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::baseballbat"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BaseballBat0",
+        "descriptionShort": "$STR_CfgVehicles_BaseballBat1",
+        "model": "\\dz\\weapons\\melee\\blunt\\baseballbat.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "weight": 566,
+        "itemSize": [
+          1,
+          7
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.02,
+        "openItemSpillRange": [
+          40,
+          80
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::brassknuckles_dull",
+      "className": "BrassKnuckles_Dull",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "BrassKnuckles_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_BrassKnuckles_ColorBase0",
+      "fallbackName": "Brass Knuckles Dull",
+      "descriptionShortKey": "$STR_CfgVehicles_BrassKnuckles_ColorBase1",
+      "model": "\\dz\\weapons\\melee\\blunt\\Brassknuckles.p3d",
+      "weight": 142,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        ""
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\melee\\blunt\\data\\BrassKnuckles_dull_co.paa"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::brassknuckles_colorbase",
+        "cfgvehicles::brassknuckles_dull"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_BrassKnuckles_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_BrassKnuckles_ColorBase1",
+        "model": "\\dz\\weapons\\melee\\blunt\\Brassknuckles.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          ""
+        ],
+        "weight": 142,
+        "itemSize": [
+          1,
+          2
+        ],
+        "fragility": 0.0020000001,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\melee\\blunt\\data\\Brassknuckles_dull.rvmat"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\melee\\blunt\\data\\BrassKnuckles_dull_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::brassknuckles_menatarms",
+      "className": "BrassKnuckles_MenAtArms",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "BrassKnuckles_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_BrassKnuckles_ColorBase0",
+      "fallbackName": "Brass Knuckles Men At Arms",
+      "descriptionShortKey": "$STR_CfgVehicles_BrassKnuckles_ColorBase1",
+      "model": "\\dz\\weapons\\melee\\blunt\\BrassKnuckles_Manatarms.p3d",
+      "weight": 250,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        ""
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\melee\\blunt\\data\\Brassknuckles_manatarms_co.paa"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::brassknuckles_colorbase",
+        "cfgvehicles::brassknuckles_menatarms"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_BrassKnuckles_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_BrassKnuckles_ColorBase1",
+        "model": "\\dz\\weapons\\melee\\blunt\\BrassKnuckles_Manatarms.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          ""
+        ],
+        "weight": 250,
+        "itemSize": [
+          1,
+          2
+        ],
+        "fragility": 0.0020000001,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\melee\\blunt\\Data\\Brassknuckles_manatarms.rvmat"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\melee\\blunt\\data\\Brassknuckles_manatarms_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::brassknuckles_shiny",
+      "className": "BrassKnuckles_Shiny",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "BrassKnuckles_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_BrassKnuckles_ColorBase0",
+      "fallbackName": "Brass Knuckles Shiny",
+      "descriptionShortKey": "$STR_CfgVehicles_BrassKnuckles_ColorBase1",
+      "model": "\\dz\\weapons\\melee\\blunt\\Brassknuckles.p3d",
+      "weight": 162,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        ""
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\melee\\blunt\\data\\BrassKnuckles_shiny_co.paa"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::brassknuckles_colorbase",
+        "cfgvehicles::brassknuckles_shiny"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_BrassKnuckles_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_BrassKnuckles_ColorBase1",
+        "model": "\\dz\\weapons\\melee\\blunt\\Brassknuckles.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          ""
+        ],
+        "weight": 162,
+        "itemSize": [
+          1,
+          2
+        ],
+        "fragility": 0.0020000001,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\melee\\blunt\\Data\\Brassknuckles_shiny.rvmat"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\melee\\blunt\\data\\BrassKnuckles_shiny_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::cattleprod",
+      "className": "CattleProd",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Powered_Base",
+      "displayNameKey": "$STR_CfgVehicles_CattleProd0",
+      "fallbackName": "Cattle Prod",
+      "descriptionShortKey": "$STR_CfgVehicles_CattleProd1",
+      "model": "\\dz\\gear\\tools\\Catle_Prod.p3d",
+      "weight": 2700,
+      "itemSize": [
+        1,
+        6
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::powered_base",
+        "cfgvehicles::cattleprod"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CattleProd0",
+        "descriptionShort": "$STR_CfgVehicles_CattleProd1",
+        "model": "\\dz\\gear\\tools\\Catle_Prod.p3d",
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "rotationFlags": 1,
+        "weight": 2700,
+        "itemSize": [
+          1,
+          6
+        ],
+        "itemBehaviour": 1,
+        "fragility": 0.0080000004,
+        "lootTag": [
+          "Farm"
+        ],
+        "lootCategory": "Tools",
+        "energyResources": [
+          [
+            "power",
+            0.1
+          ]
+        ],
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::chainsaw",
+      "className": "Chainsaw",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Switchable_Base",
+      "displayNameKey": "$STR_CfgVehicles_Chainsaw0",
+      "fallbackName": "Chainsaw",
+      "descriptionShortKey": "$STR_CfgVehicles_Chainsaw1",
+      "model": "\\dz\\weapons\\melee\\powered\\chainsaw.p3d",
+      "weight": 5800,
+      "itemSize": [
+        10,
+        5
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        ""
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::switchable_base",
+        "cfgvehicles::chainsaw"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Chainsaw0",
+        "descriptionShort": "$STR_CfgVehicles_Chainsaw1",
+        "model": "\\dz\\weapons\\melee\\powered\\chainsaw.p3d",
+        "animClass": "Chainsaw",
+        "weight": 5800,
+        "itemSize": [
+          10,
+          5
+        ],
+        "absorbency": 0,
+        "openItemSpillRange": [
+          40,
+          60
+        ],
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "hiddenSelections": [
+          "flame"
+        ],
+        "hiddenSelectionsTextures": [
+          ""
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::cleaver",
+      "className": "Cleaver",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Cleaver0",
+      "fallbackName": "Cleaver",
+      "descriptionShortKey": "$STR_CfgVehicles_Cleaver1",
+      "model": "\\dz\\weapons\\melee\\blade\\meat_cleaver.p3d",
+      "weight": 500,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        ""
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::cleaver"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Cleaver0",
+        "descriptionShort": "$STR_CfgVehicles_Cleaver1",
+        "model": "\\dz\\weapons\\melee\\blade\\meat_cleaver.p3d",
+        "debug_ItemCategory": 2,
+        "inventorySlot": [
+          ""
+        ],
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          15
+        ],
+        "rotationFlags": 17,
+        "canSkinBodies": 1,
+        "weight": 500,
+        "itemSize": [
+          2,
+          3
+        ],
+        "lootTag": [
+          "Kitchen",
+          "Civilian"
+        ],
+        "lootCategory": "Tools",
+        "openItemSpillRange": [
+          10,
+          35
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::combatknife",
+      "className": "CombatKnife",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_CombatKnife0",
+      "fallbackName": "Combat Knife",
+      "descriptionShortKey": "$STR_CfgVehicles_CombatKnife1",
+      "model": "\\dz\\weapons\\melee\\blade\\combatknife.p3d",
+      "weight": 312,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Knife"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::combatknife"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CombatKnife0",
+        "descriptionShort": "$STR_CfgVehicles_CombatKnife1",
+        "model": "\\dz\\weapons\\melee\\blade\\combatknife.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          10
+        ],
+        "inventorySlot": [
+          "Knife"
+        ],
+        "rotationFlags": 17,
+        "canSkinBodies": 1,
+        "RestrainUnlockType": 1,
+        "weight": 312,
+        "itemSize": [
+          1,
+          3
+        ],
+        "lootTag": [
+          "Military_east",
+          "Military_west"
+        ],
+        "lootCategory": "Tools",
+        "itemInfo": [
+          "Knife"
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::crudemachete",
+      "className": "CrudeMachete",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CrudeMachete0",
+      "fallbackName": "Crude Machete",
+      "descriptionShortKey": "$STR_CrudeMachete1",
+      "model": "\\dz\\weapons\\melee\\blade\\machete_tactical.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::crudemachete"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CrudeMachete0",
+        "descriptionShort": "$STR_CrudeMachete1",
+        "model": "\\dz\\weapons\\melee\\blade\\machete_tactical.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "RestrainUnlockType": 1,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          12
+        ],
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "rotationFlags": 17,
+        "canSkinBodies": 1,
+        "weight": 500,
+        "itemSize": [
+          1,
+          4
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::fangeknife",
+      "className": "FangeKnife",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_FangeKnife0",
+      "fallbackName": "Fange Knife",
+      "descriptionShortKey": "$STR_CfgVehicles_FangeKnife1",
+      "model": "\\dz\\weapons\\melee\\blade\\fange_knife.p3d",
+      "weight": 200,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Knife"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\weapons\\melee\\blade\\data\\fange_knife_co.paa",
+        "\\dz\\weapons\\melee\\blade\\data\\fange_knife_co.paa"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fangeknife"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FangeKnife0",
+        "descriptionShort": "$STR_CfgVehicles_FangeKnife1",
+        "model": "\\dz\\weapons\\melee\\blade\\fange_knife.p3d",
+        "debug_ItemCategory": 2,
+        "inventorySlot": [
+          "Knife"
+        ],
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          10
+        ],
+        "rotationFlags": 17,
+        "RestrainUnlockType": 1,
+        "canSkinBodies": 1,
+        "weight": 200,
+        "itemSize": [
+          1,
+          4
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "hiddenSelections": [
+          "blade",
+          "handle"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\weapons\\melee\\blade\\data\\fange_knife_co.paa",
+          "\\dz\\weapons\\melee\\blade\\data\\fange_knife_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\melee\\blade\\data\\fange_knife_blade.rvmat",
+          "dz\\weapons\\melee\\blade\\data\\fange_knife_handle.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::firefighteraxe",
+      "className": "FirefighterAxe",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_FirefighterAxe0",
+      "fallbackName": "Firefighter Axe",
+      "descriptionShortKey": "$STR_CfgVehicles_FirefighterAxe1",
+      "model": "\\dz\\weapons\\melee\\blade\\FirefighterAxe.p3d",
+      "weight": 2600,
+      "itemSize": [
+        2,
+        7
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\melee\\blade\\data\\ffax_co.paa"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::firefighteraxe"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FirefighterAxe0",
+        "descriptionShort": "$STR_CfgVehicles_FirefighterAxe1",
+        "model": "\\dz\\weapons\\melee\\blade\\FirefighterAxe.p3d",
+        "debug_ItemCategory": 2,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\melee\\blade\\data\\ffax_co.paa"
+        ],
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          20
+        ],
+        "rotationFlags": 12,
+        "weight": 2600,
+        "itemSize": [
+          2,
+          7
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.0099999998,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "lootCategory": "Tools",
+        "lootTag": [
+          "Work",
+          "Forester",
+          "Camping"
+        ],
+        "dismantle_action_type": 74,
+        "openItemSpillRange": [
+          20,
+          40
+        ],
+        "itemInfo": [
+          "Axe"
+        ],
+        "soundImpactType": "metal",
+        "isMeleeWeapon": 1,
+        "suicideAnim": "fireaxe"
+      }
+    },
+    {
+      "id": "cfgvehicles::firefighteraxe_black",
+      "className": "FirefighterAxe_Black",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "FirefighterAxe",
+      "displayNameKey": "$STR_CfgVehicles_FirefighterAxe0",
+      "fallbackName": "Firefighter Axe Black",
+      "descriptionShortKey": "$STR_CfgVehicles_FirefighterAxe1",
+      "model": "\\dz\\weapons\\melee\\blade\\FirefighterAxe.p3d",
+      "weight": 2600,
+      "itemSize": [
+        2,
+        7
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::firefighteraxe",
+        "cfgvehicles::firefighteraxe_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FirefighterAxe0",
+        "descriptionShort": "$STR_CfgVehicles_FirefighterAxe1",
+        "model": "\\dz\\weapons\\melee\\blade\\FirefighterAxe.p3d",
+        "debug_ItemCategory": 2,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          20
+        ],
+        "rotationFlags": 12,
+        "weight": 2600,
+        "itemSize": [
+          2,
+          7
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.0099999998,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "lootCategory": "Crafted",
+        "lootTag": [
+          "Work",
+          "Forester",
+          "Camping"
+        ],
+        "dismantle_action_type": 74,
+        "openItemSpillRange": [
+          20,
+          40
+        ],
+        "itemInfo": [
+          "Axe"
+        ],
+        "soundImpactType": "metal",
+        "isMeleeWeapon": 1,
+        "suicideAnim": "fireaxe",
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgvehicles::firefighteraxe_green",
+      "className": "FirefighterAxe_Green",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "FirefighterAxe",
+      "displayNameKey": "$STR_CfgVehicles_FirefighterAxe0",
+      "fallbackName": "Firefighter Axe Green",
+      "descriptionShortKey": "$STR_CfgVehicles_FirefighterAxe1",
+      "model": "\\dz\\weapons\\melee\\blade\\FirefighterAxe.p3d",
+      "weight": 2600,
+      "itemSize": [
+        2,
+        7
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.37,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::firefighteraxe",
+        "cfgvehicles::firefighteraxe_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FirefighterAxe0",
+        "descriptionShort": "$STR_CfgVehicles_FirefighterAxe1",
+        "model": "\\dz\\weapons\\melee\\blade\\FirefighterAxe.p3d",
+        "debug_ItemCategory": 2,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.37,0.28,1.0,CO)"
+        ],
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          20
+        ],
+        "rotationFlags": 12,
+        "weight": 2600,
+        "itemSize": [
+          2,
+          7
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.0099999998,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "lootCategory": "Crafted",
+        "lootTag": [
+          "Work",
+          "Forester",
+          "Camping"
+        ],
+        "dismantle_action_type": 74,
+        "openItemSpillRange": [
+          20,
+          40
+        ],
+        "itemInfo": [
+          "Axe"
+        ],
+        "soundImpactType": "metal",
+        "isMeleeWeapon": 1,
+        "suicideAnim": "fireaxe",
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgvehicles::hatchet",
+      "className": "Hatchet",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Hatchet0",
+      "fallbackName": "Hatchet",
+      "descriptionShortKey": "$STR_CfgVehicles_Hatchet1",
+      "model": "\\dz\\weapons\\melee\\blade\\hatchet.p3d",
+      "weight": 1000,
+      "itemSize": [
+        2,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::hatchet"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Hatchet0",
+        "descriptionShort": "$STR_CfgVehicles_Hatchet1",
+        "model": "\\dz\\weapons\\melee\\blade\\hatchet.p3d",
+        "debug_ItemCategory": 2,
+        "build_action_type": 10,
+        "dismantle_action_type": 74,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          18
+        ],
+        "rotationFlags": 17,
+        "weight": 1000,
+        "itemSize": [
+          2,
+          4
+        ],
+        "fragility": 0.0099999998,
+        "lootCategory": "Tools",
+        "lootTag": [
+          "Work",
+          "Forester",
+          "Camping"
+        ],
+        "itemInfo": [
+          "Axe"
+        ],
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "openItemSpillRange": [
+          20,
+          40
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "woodaxe",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::hockeystick",
+      "className": "HockeyStick",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_HockeyStick0",
+      "fallbackName": "Hockey Stick",
+      "descriptionShortKey": "$STR_CfgVehicles_HockeyStick1",
+      "model": "\\dz\\weapons\\melee\\blunt\\hockey_stick_peters.p3d",
+      "weight": 650,
+      "itemSize": [
+        2,
+        10
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::hockeystick"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_HockeyStick0",
+        "descriptionShort": "$STR_CfgVehicles_HockeyStick1",
+        "model": "\\dz\\weapons\\melee\\blunt\\hockey_stick_peters.p3d",
+        "rotationFlags": 12,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "weight": 650,
+        "itemSize": [
+          2,
+          10
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.02,
+        "openItemSpillRange": [
+          40,
+          80
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::huntingknife",
+      "className": "HuntingKnife",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_HuntingKnife0",
+      "fallbackName": "Hunting Knife",
+      "descriptionShortKey": "$STR_CfgVehicles_HuntingKnife1",
+      "model": "\\dz\\weapons\\melee\\blade\\Hunting_knife.p3d",
+      "weight": 200,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Knife"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::huntingknife"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_HuntingKnife0",
+        "descriptionShort": "$STR_CfgVehicles_HuntingKnife1",
+        "model": "\\dz\\weapons\\melee\\blade\\Hunting_knife.p3d",
+        "debug_ItemCategory": 2,
+        "inventorySlot": [
+          "Knife"
+        ],
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          10
+        ],
+        "rotationFlags": 17,
+        "RestrainUnlockType": 1,
+        "canSkinBodies": 1,
+        "weight": 200,
+        "itemSize": [
+          1,
+          3
+        ],
+        "lootTag": [
+          "Hunting",
+          "Camping"
+        ],
+        "lootCategory": "Tools",
+        "itemInfo": [
+          "Knife"
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::kukriknife",
+      "className": "KukriKnife",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_KukriKnife0",
+      "fallbackName": "Kukri Knife",
+      "descriptionShortKey": "$STR_CfgVehicles_KukriKnife1",
+      "model": "\\dz\\weapons\\melee\\blade\\kukri_knife.p3d",
+      "weight": 250,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::kukriknife"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_KukriKnife0",
+        "descriptionShort": "$STR_CfgVehicles_KukriKnife1",
+        "model": "\\dz\\weapons\\melee\\blade\\kukri_knife.p3d",
+        "debug_ItemCategory": 2,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          10
+        ],
+        "rotationFlags": 17,
+        "RestrainUnlockType": 1,
+        "canSkinBodies": 1,
+        "weight": 250,
+        "itemSize": [
+          1,
+          4
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::machete",
+      "className": "Machete",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Machete0",
+      "fallbackName": "Machete",
+      "descriptionShortKey": "$STR_CfgVehicles_Machete1",
+      "model": "\\dz\\weapons\\melee\\blade\\machete.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::machete"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Machete0",
+        "descriptionShort": "$STR_CfgVehicles_Machete1",
+        "model": "\\dz\\weapons\\melee\\blade\\machete.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "RestrainUnlockType": 1,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          12
+        ],
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "rotationFlags": 17,
+        "canSkinBodies": 1,
+        "weight": 500,
+        "itemSize": [
+          1,
+          4
+        ],
+        "lootTag": [
+          "Work",
+          "Forester",
+          "Hunting",
+          "Farm"
+        ],
+        "lootCategory": "Tools",
+        "itemInfo": [
+          "Knife"
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::nailedbaseballbat",
+      "className": "NailedBaseballBat",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_NailedBaseballBat0",
+      "fallbackName": "Nailed Baseball Bat",
+      "descriptionShortKey": "$STR_CfgVehicles_NailedBaseballBat1",
+      "model": "\\dz\\weapons\\melee\\blunt\\Baseballbat_nailed.p3d",
+      "weight": 600,
+      "itemSize": [
+        1,
+        7
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::nailedbaseballbat"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_NailedBaseballBat0",
+        "descriptionShort": "$STR_CfgVehicles_NailedBaseballBat1",
+        "model": "\\dz\\weapons\\melee\\blunt\\Baseballbat_nailed.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "weight": 600,
+        "itemSize": [
+          1,
+          7
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.02,
+        "openItemSpillRange": [
+          40,
+          70
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::newhockeystick",
+      "className": "NewHockeyStick",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_NewHockeyStick0",
+      "fallbackName": "New Hockey Stick",
+      "descriptionShortKey": "$STR_CfgVehicles_NewHockeyStick1",
+      "model": "\\dz\\weapons\\melee\\blunt\\hockey_stick_peters.p3d",
+      "weight": 650,
+      "itemSize": [
+        2,
+        10
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::newhockeystick"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_NewHockeyStick0",
+        "descriptionShort": "$STR_CfgVehicles_NewHockeyStick1",
+        "model": "\\dz\\weapons\\melee\\blunt\\hockey_stick_peters.p3d",
+        "rotationFlags": 12,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "weight": 650,
+        "itemSize": [
+          2,
+          10
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.02,
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::orientalmachete",
+      "className": "OrientalMachete",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_OrientalMachete0",
+      "fallbackName": "Oriental Machete",
+      "descriptionShortKey": "$STR_OrientalMachete1",
+      "model": "\\dz\\weapons\\melee\\blade\\machete_oriental.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::orientalmachete"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_OrientalMachete0",
+        "descriptionShort": "$STR_OrientalMachete1",
+        "model": "\\dz\\weapons\\melee\\blade\\machete_oriental.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "RestrainUnlockType": 1,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          12
+        ],
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "rotationFlags": 17,
+        "canSkinBodies": 1,
+        "weight": 500,
+        "itemSize": [
+          1,
+          4
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::pickaxe",
+      "className": "Pickaxe",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Pickaxe0",
+      "fallbackName": "Pickaxe",
+      "descriptionShortKey": "$STR_CfgVehicles_Pickaxe1",
+      "model": "\\dz\\weapons\\melee\\blade\\Pickaxe.p3d",
+      "weight": 2500,
+      "itemSize": [
+        3,
+        6
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\melee\\blade\\data\\Pickaxe_co.paa"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pickaxe"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Pickaxe0",
+        "descriptionShort": "$STR_CfgVehicles_Pickaxe1",
+        "model": "\\dz\\weapons\\melee\\blade\\Pickaxe.p3d",
+        "debug_ItemCategory": 2,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "rotationFlags": 12,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          25
+        ],
+        "build_action_type": 36,
+        "dismantle_action_type": 46,
+        "itemInfo": [
+          "Pickaxe"
+        ],
+        "RestrainUnlockType": 1,
+        "itemSize": [
+          3,
+          6
+        ],
+        "weight": 2500,
+        "itemBehaviour": 2,
+        "lootTag": [
+          "Work"
+        ],
+        "lootCategory": "Tools",
+        "openItemSpillRange": [
+          40,
+          70
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\melee\\blade\\data\\Pickaxe_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "fireaxe",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::pipewrench",
+      "className": "PipeWrench",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PipeWrench0",
+      "fallbackName": "Pipe Wrench",
+      "descriptionShortKey": "$STR_CfgVehicles_PipeWrench1",
+      "model": "\\dz\\weapons\\melee\\blunt\\pipewrench.p3d",
+      "weight": 4400,
+      "itemSize": [
+        2,
+        5
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pipewrench"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PipeWrench0",
+        "descriptionShort": "$STR_CfgVehicles_PipeWrench1",
+        "model": "\\dz\\weapons\\melee\\blunt\\pipewrench.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 12,
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "weight": 4400,
+        "itemSize": [
+          2,
+          5
+        ],
+        "itemBehaviour": 1,
+        "fragility": 0.0020000001,
+        "openItemSpillRange": [
+          30,
+          60
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::pitchfork",
+      "className": "Pitchfork",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Pitchfork0",
+      "fallbackName": "Pitchfork",
+      "descriptionShortKey": "$STR_CfgVehicles_Pitchfork1",
+      "model": "\\dz\\weapons\\melee\\blade\\Hay_Fork.p3d",
+      "weight": 1700,
+      "itemSize": [
+        2,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pitchfork"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Pitchfork0",
+        "descriptionShort": "$STR_CfgVehicles_Pitchfork1",
+        "model": "\\dz\\weapons\\melee\\blade\\Hay_Fork.p3d",
+        "debug_ItemCategory": 2,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "rotationFlags": 17,
+        "itemSize": [
+          2,
+          8
+        ],
+        "weight": 1700,
+        "itemBehaviour": 2,
+        "lootTag": [
+          "Farm"
+        ],
+        "lootCategory": "Tools",
+        "openItemSpillRange": [
+          30,
+          60
+        ],
+        "soundImpactType": "metal",
+        "isMeleeWeapon": 1,
+        "suicideAnim": "pitchfork"
+      }
+    },
+    {
+      "id": "cfgvehicles::policebaton",
+      "className": "PoliceBaton",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PoliceBaton0",
+      "fallbackName": "Police Baton",
+      "descriptionShortKey": "$STR_CfgVehicles_PoliceBaton1",
+      "model": "\\dz\\weapons\\melee\\blunt\\Police_baton.p3d",
+      "weight": 540,
+      "itemSize": [
+        2,
+        5
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::policebaton"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PoliceBaton0",
+        "descriptionShort": "$STR_CfgVehicles_PoliceBaton1",
+        "model": "\\dz\\weapons\\melee\\blunt\\Police_baton.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 16,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "weight": 540,
+        "itemSize": [
+          2,
+          5
+        ],
+        "itemBehaviour": 1,
+        "fragility": 0.0020000001,
+        "openItemSpillRange": [
+          35,
+          55
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::stunbaton",
+      "className": "StunBaton",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Powered_Base",
+      "displayNameKey": "$STR_CfgVehicles_StunBaton0",
+      "fallbackName": "Stun Baton",
+      "descriptionShortKey": "$STR_CfgVehicles_StunBaton1",
+      "model": "\\dz\\weapons\\melee\\powered\\Stun_Baton.p3d",
+      "weight": 800,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::powered_base",
+        "cfgvehicles::stunbaton"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_StunBaton0",
+        "descriptionShort": "$STR_CfgVehicles_StunBaton1",
+        "model": "\\dz\\weapons\\melee\\powered\\Stun_Baton.p3d",
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "rotationFlags": 1,
+        "weight": 800,
+        "itemSize": [
+          1,
+          4
+        ],
+        "itemBehaviour": 1,
+        "fragility": 0.0080000004,
+        "lootTag": [
+          "Police"
+        ],
+        "lootCategory": "Tools",
+        "energyResources": [
+          [
+            "power",
+            0.1
+          ]
+        ],
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::sword",
+      "className": "Sword",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Sword0",
+      "fallbackName": "Sword",
+      "descriptionShortKey": "$STR_CfgVehicles_Sword1",
+      "model": "\\dz\\weapons\\melee\\blade\\medieval_sword.p3d",
+      "weight": 1500,
+      "itemSize": [
+        2,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::sword"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Sword0",
+        "descriptionShort": "$STR_CfgVehicles_Sword1",
+        "model": "\\dz\\weapons\\melee\\blade\\medieval_sword.p3d",
+        "debug_ItemCategory": 2,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          25
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "RestrainUnlockType": 1,
+        "rotationFlags": 12,
+        "itemSize": [
+          2,
+          8
+        ],
+        "weight": 1500,
+        "itemBehaviour": 2,
+        "itemInfo": [
+          "Axe"
+        ],
+        "openItemSpillRange": [
+          40,
+          60
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "sword",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::telescopicbaton",
+      "className": "TelescopicBaton",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_TelescopicBaton0",
+      "fallbackName": "Telescopic Baton",
+      "descriptionShortKey": "$STR_CfgVehicles_TelescopicBaton1",
+      "model": "\\dz\\weapons\\melee\\blunt\\TelescopingBaton.p3d",
+      "weight": 252,
+      "itemSize": [
+        2,
+        5
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::telescopicbaton"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TelescopicBaton0",
+        "descriptionShort": "$STR_CfgVehicles_TelescopicBaton1",
+        "model": "\\dz\\weapons\\melee\\blunt\\TelescopingBaton.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "weight": 252,
+        "itemSize": [
+          2,
+          5
+        ],
+        "itemBehaviour": 1,
+        "fragility": 0.0020000001,
+        "openItemSpillRange": [
+          35,
+          55
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::woodaxe",
+      "className": "WoodAxe",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_WoodAxe0",
+      "fallbackName": "Wood Axe",
+      "descriptionShortKey": "$STR_CfgVehicles_WoodAxe1",
+      "model": "\\dz\\weapons\\melee\\blade\\woodaxe.p3d",
+      "weight": 1500,
+      "itemSize": [
+        2,
+        6
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::woodaxe"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_WoodAxe0",
+        "descriptionShort": "$STR_CfgVehicles_WoodAxe1",
+        "model": "\\dz\\weapons\\melee\\blade\\woodaxe.p3d",
+        "debug_ItemCategory": 2,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          20
+        ],
+        "rotationFlags": 12,
+        "weight": 1500,
+        "itemSize": [
+          2,
+          6
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.0099999998,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "lootCategory": "Tools",
+        "lootTag": [
+          "Work",
+          "Forester",
+          "Camping"
+        ],
+        "dismantle_action_type": 74,
+        "openItemSpillRange": [
+          20,
+          40
+        ],
+        "itemInfo": [
+          "Axe"
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "woodaxe",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::xmasbaseballbat",
+      "className": "XmasBaseballBat",
+      "section": "CfgVehicles",
+      "category": "melee-weapon",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_XmasBaseballBat0",
+      "fallbackName": "Xmas Baseball Bat",
+      "descriptionShortKey": "$STR_CfgVehicles_XmasBaseballBat1",
+      "model": "\\dz\\weapons\\melee\\blunt\\Baseballbat_xmas.p3d",
+      "weight": 566,
+      "itemSize": [
+        1,
+        7
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "weapons_melee.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::xmasbaseballbat"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_XmasBaseballBat0",
+        "descriptionShort": "$STR_CfgVehicles_XmasBaseballBat1",
+        "model": "\\dz\\weapons\\melee\\blunt\\Baseballbat_xmas.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "weight": 566,
+        "itemSize": [
+          1,
+          7
+        ],
+        "itemBehaviour": 2,
+        "fragility": 0.02,
+        "openItemSpillRange": [
+          40,
+          80
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    }
+  ]
+}

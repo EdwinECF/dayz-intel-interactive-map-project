@@ -1,0 +1,2932 @@
+{
+  "metadata": {
+    "category": "consumable",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 58
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::bait",
+      "className": "Bait",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Bait0",
+      "fallbackName": "Bait",
+      "descriptionShortKey": "$STR_CfgVehicles_Bait1",
+      "model": "\\dz\\gear\\consumables\\bait_worm_pinned.p3d",
+      "weight": 15,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Hook"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bait"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Bait0",
+        "descriptionShort": "$STR_CfgVehicles_Bait1",
+        "model": "\\dz\\gear\\consumables\\bait_worm_pinned.p3d",
+        "weight": 15,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          1
+        ],
+        "inventorySlot": [
+          "Hook"
+        ],
+        "rotationFlags": 17,
+        "hookType": "Hook"
+      }
+    },
+    {
+      "id": "cfgvehicles::bark_birch",
+      "className": "Bark_Birch",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Bark_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Bark_Birch0",
+      "fallbackName": "Bark Birch",
+      "descriptionShortKey": "$STR_CfgVehicles_Bark_Birch1",
+      "model": "\\dz\\gear\\consumables\\birch_bark.p3d",
+      "weight": 80,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Bark"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bark_colorbase",
+        "cfgvehicles::bark_birch"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Bark_Birch0",
+        "descriptionShort": "$STR_CfgVehicles_Bark_Birch1",
+        "model": "\\dz\\gear\\consumables\\birch_bark.p3d",
+        "weight": 80,
+        "absorbency": 0.30000001,
+        "itemSize": [
+          1,
+          3
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 8,
+        "varQuantityDestroyOnMin": 1,
+        "soundImpactType": "wood",
+        "scope": 2,
+        "inventorySlot": [
+          "Bark"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bark_oak",
+      "className": "Bark_Oak",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Bark_ColorBase",
+      "displayNameKey": "$STR_cfgvehicles_bark_oak0",
+      "fallbackName": "Bark Oak",
+      "descriptionShortKey": "$STR_CfgVehicles_Bark_Oak1",
+      "model": "\\dz\\gear\\consumables\\oak_bark.p3d",
+      "weight": 80,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Bark"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bark_colorbase",
+        "cfgvehicles::bark_oak"
+      ],
+      "properties": {
+        "displayName": "$STR_cfgvehicles_bark_oak0",
+        "descriptionShort": "$STR_CfgVehicles_Bark_Oak1",
+        "model": "\\dz\\gear\\consumables\\oak_bark.p3d",
+        "weight": 80,
+        "absorbency": 0.30000001,
+        "itemSize": [
+          1,
+          3
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 8,
+        "varQuantityDestroyOnMin": 1,
+        "soundImpactType": "wood",
+        "scope": 2,
+        "inventorySlot": [
+          "Bark"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::bearpelt",
+      "className": "BearPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_BearPelt0",
+      "fallbackName": "Bear Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_BearPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Bear.p3d",
+      "weight": 15000,
+      "itemSize": [
+        8,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::bearpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_BearPelt0",
+        "descriptionShort": "$STR_CfgVehicles_BearPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Bear.p3d",
+        "weight": 15000,
+        "itemSize": [
+          8,
+          4
+        ],
+        "peltGain": 10,
+        "leatherYield": 12
+      }
+    },
+    {
+      "id": "cfgvehicles::bone",
+      "className": "Bone",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Bone0",
+      "fallbackName": "Bone",
+      "descriptionShortKey": "$STR_CfgVehicles_Bone1",
+      "model": "\\dz\\gear\\food\\pile_of_bones.p3d",
+      "weight": 200,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bone"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Bone0",
+        "descriptionShort": "$STR_CfgVehicles_Bone1",
+        "model": "\\dz\\gear\\food\\pile_of_bones.p3d",
+        "handheld": "true",
+        "weight": 200,
+        "itemSize": [
+          2,
+          2
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 10,
+        "varQuantityMin": 0,
+        "varQuantityMax": 10,
+        "varQuantityDestroyOnMin": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::bonebait",
+      "className": "BoneBait",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BoneBait0",
+      "fallbackName": "Bone Bait",
+      "descriptionShortKey": "$STR_CfgVehicles_BoneBait1",
+      "model": "\\dz\\gear\\crafting\\bone_bait.p3d",
+      "weight": 15,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Hook"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bonebait"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BoneBait0",
+        "descriptionShort": "$STR_CfgVehicles_BoneBait1",
+        "model": "\\dz\\gear\\crafting\\bone_bait.p3d",
+        "weight": 15,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          1
+        ],
+        "inventorySlot": [
+          "Hook"
+        ],
+        "rotationFlags": 17,
+        "hookType": "BoneHook"
+      }
+    },
+    {
+      "id": "cfgvehicles::bonehook",
+      "className": "BoneHook",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BoneHook0",
+      "fallbackName": "Bone Hook",
+      "descriptionShortKey": "$STR_CfgVehicles_BoneHook1",
+      "model": "\\dz\\gear\\crafting\\bone_hook.p3d",
+      "weight": 1,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "attachments": [
+        "Bait"
+      ],
+      "inventorySlot": [
+        "Hook"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bonehook"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BoneHook0",
+        "descriptionShort": "$STR_CfgVehicles_BoneHook1",
+        "model": "\\dz\\gear\\crafting\\bone_hook.p3d",
+        "weight": 1,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          1
+        ],
+        "inventorySlot": [
+          "Hook"
+        ],
+        "attachments": [
+          "Bait"
+        ],
+        "rotationFlags": 17
+      }
+    },
+    {
+      "id": "cfgvehicles::burlapstrip",
+      "className": "BurlapStrip",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BurlapStrip0",
+      "fallbackName": "Burlap Strip",
+      "descriptionShortKey": "$STR_CfgVehicles_BurlapStrip1",
+      "model": "\\DZ\\gear\\crafting\\sackcloth_rag.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::burlapstrip"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BurlapStrip0",
+        "descriptionShort": "$STR_CfgVehicles_BurlapStrip1",
+        "model": "\\DZ\\gear\\crafting\\sackcloth_rag.p3d",
+        "weight": 50,
+        "itemSize": [
+          1,
+          3
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 10,
+        "rotationFlags": 17,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::butanecanister",
+      "className": "ButaneCanister",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_ButaneCanister0",
+      "fallbackName": "Butane Canister",
+      "descriptionShortKey": "$STR_CfgVehicles_ButaneCanister1",
+      "model": "\\dz\\gear\\consumables\\ButaneCanister.p3d",
+      "weight": 120,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "ButaneTorchCanister"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::butanecanister"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ButaneCanister0",
+        "descriptionShort": "$STR_CfgVehicles_ButaneCanister1",
+        "model": "\\dz\\gear\\consumables\\ButaneCanister.p3d",
+        "overrideDrawArea": "8.0",
+        "weight": 120,
+        "itemSize": [
+          2,
+          3
+        ],
+        "quantityBar": 1,
+        "inventorySlot": [
+          "ButaneTorchCanister"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::chemlight_blue",
+      "className": "Chemlight_Blue",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Chemlight_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Chemlight_ColorBase0",
+      "fallbackName": "Chemlight Blue",
+      "descriptionShortKey": "$STR_CfgVehicles_Chemlight_ColorBase1",
+      "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Chemlight",
+        "WalkieTalkie"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::chemlight_colorbase",
+        "cfgvehicles::chemlight_blue"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Chemlight_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Chemlight_ColorBase1",
+        "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+        "overrideDrawArea": "8.0",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 30,
+        "weightPerQuantityUnit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "Chemlight",
+          "WalkieTalkie"
+        ],
+        "rotationFlags": 17,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+        ],
+        "soundImpactType": "plastic",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\consumables\\data\\chemlight_blue_off.rvmat",
+          "dz\\gear\\consumables\\data\\chemlight_blue_on.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::chemlight_farbubble",
+      "className": "Chemlight_FarBubble",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Chemlight_Yellow",
+      "displayNameKey": "$STR_CfgVehicles_Chemlight_ColorBase0",
+      "fallbackName": "Chemlight Far Bubble",
+      "descriptionShortKey": "A container used for testing network bubble",
+      "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Chemlight",
+        "WalkieTalkie"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::chemlight_colorbase",
+        "cfgvehicles::chemlight_yellow",
+        "cfgvehicles::chemlight_farbubble"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Chemlight_ColorBase0",
+        "descriptionShort": "A container used for testing network bubble",
+        "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+        "overrideDrawArea": "8.0",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 30,
+        "weightPerQuantityUnit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "Chemlight",
+          "WalkieTalkie"
+        ],
+        "rotationFlags": 17,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+        ],
+        "soundImpactType": "plastic",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\consumables\\data\\chemlight_yellow_off.rvmat",
+          "dz\\gear\\consumables\\data\\chemlight_yellow_on.rvmat"
+        ],
+        "forceFarBubble": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::chemlight_green",
+      "className": "Chemlight_Green",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Chemlight_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Chemlight_ColorBase0",
+      "fallbackName": "Chemlight Green",
+      "descriptionShortKey": "$STR_CfgVehicles_Chemlight_ColorBase1",
+      "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Chemlight",
+        "WalkieTalkie"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::chemlight_colorbase",
+        "cfgvehicles::chemlight_green"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Chemlight_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Chemlight_ColorBase1",
+        "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+        "overrideDrawArea": "8.0",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 30,
+        "weightPerQuantityUnit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "Chemlight",
+          "WalkieTalkie"
+        ],
+        "rotationFlags": 17,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+        ],
+        "soundImpactType": "plastic",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\consumables\\data\\chemlight_green_off.rvmat",
+          "dz\\gear\\consumables\\data\\chemlight_green_on.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::chemlight_nearbubble",
+      "className": "Chemlight_NearBubble",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Chemlight_Blue",
+      "displayNameKey": "$STR_CfgVehicles_Chemlight_ColorBase0",
+      "fallbackName": "Chemlight Near Bubble",
+      "descriptionShortKey": "A container used for testing network bubble",
+      "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Chemlight",
+        "WalkieTalkie"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::chemlight_colorbase",
+        "cfgvehicles::chemlight_blue",
+        "cfgvehicles::chemlight_nearbubble"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Chemlight_ColorBase0",
+        "descriptionShort": "A container used for testing network bubble",
+        "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+        "overrideDrawArea": "8.0",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 30,
+        "weightPerQuantityUnit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "Chemlight",
+          "WalkieTalkie"
+        ],
+        "rotationFlags": 17,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+        ],
+        "soundImpactType": "plastic",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\consumables\\data\\chemlight_blue_off.rvmat",
+          "dz\\gear\\consumables\\data\\chemlight_blue_on.rvmat"
+        ],
+        "forceFarBubble": 0
+      }
+    },
+    {
+      "id": "cfgvehicles::chemlight_red",
+      "className": "Chemlight_Red",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Chemlight_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Chemlight_ColorBase0",
+      "fallbackName": "Chemlight Red",
+      "descriptionShortKey": "$STR_CfgVehicles_Chemlight_ColorBase1",
+      "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Chemlight",
+        "WalkieTalkie"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::chemlight_colorbase",
+        "cfgvehicles::chemlight_red"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Chemlight_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Chemlight_ColorBase1",
+        "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+        "overrideDrawArea": "8.0",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 30,
+        "weightPerQuantityUnit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "Chemlight",
+          "WalkieTalkie"
+        ],
+        "rotationFlags": 17,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+        ],
+        "soundImpactType": "plastic",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\consumables\\data\\chemlight_red_off.rvmat",
+          "dz\\gear\\consumables\\data\\chemlight_red_on.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::chemlight_white",
+      "className": "Chemlight_White",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Chemlight_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Chemlight_ColorBase0",
+      "fallbackName": "Chemlight White",
+      "descriptionShortKey": "$STR_CfgVehicles_Chemlight_ColorBase1",
+      "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Chemlight",
+        "WalkieTalkie"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::chemlight_colorbase",
+        "cfgvehicles::chemlight_white"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Chemlight_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Chemlight_ColorBase1",
+        "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+        "overrideDrawArea": "8.0",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 30,
+        "weightPerQuantityUnit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "Chemlight",
+          "WalkieTalkie"
+        ],
+        "rotationFlags": 17,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+        ],
+        "soundImpactType": "plastic",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\consumables\\data\\chemlight_white_off.rvmat",
+          "dz\\gear\\consumables\\data\\chemlight_white_on.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::chemlight_yellow",
+      "className": "Chemlight_Yellow",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Chemlight_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Chemlight_ColorBase0",
+      "fallbackName": "Chemlight Yellow",
+      "descriptionShortKey": "$STR_CfgVehicles_Chemlight_ColorBase1",
+      "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Chemlight",
+        "WalkieTalkie"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::chemlight_colorbase",
+        "cfgvehicles::chemlight_yellow"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Chemlight_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Chemlight_ColorBase1",
+        "model": "\\dz\\gear\\consumables\\Chemlight.p3d",
+        "overrideDrawArea": "8.0",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 30,
+        "weightPerQuantityUnit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "Chemlight",
+          "WalkieTalkie"
+        ],
+        "rotationFlags": 17,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\chemlight_ca.paa"
+        ],
+        "soundImpactType": "plastic",
+        "scope": 2,
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\consumables\\data\\chemlight_yellow_off.rvmat",
+          "dz\\gear\\consumables\\data\\chemlight_yellow_on.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::cowpelt",
+      "className": "CowPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_CowPelt0",
+      "fallbackName": "Cow Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_CowPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Cow.p3d",
+      "weight": 10000,
+      "itemSize": [
+        7,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::cowpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_CowPelt0",
+        "descriptionShort": "$STR_CfgVehicles_CowPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Cow.p3d",
+        "weight": 10000,
+        "itemSize": [
+          7,
+          3
+        ],
+        "peltGain": 12,
+        "leatherYield": 8
+      }
+    },
+    {
+      "id": "cfgvehicles::deerpelt",
+      "className": "DeerPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_DeerPelt0",
+      "fallbackName": "Deer Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_DeerPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Deer.p3d",
+      "weight": 5000,
+      "itemSize": [
+        6,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::deerpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_DeerPelt0",
+        "descriptionShort": "$STR_CfgVehicles_DeerPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Deer.p3d",
+        "weight": 5000,
+        "itemSize": [
+          6,
+          3
+        ],
+        "peltGain": 8,
+        "leatherYield": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::ducttape",
+      "className": "DuctTape",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_DuctTape0",
+      "fallbackName": "Duct Tape",
+      "descriptionShortKey": "$STR_CfgVehicles_DuctTape1",
+      "model": "\\dz\\gear\\consumables\\DuctTape.p3d",
+      "weight": 100,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ducttape"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_DuctTape0",
+        "descriptionShort": "$STR_CfgVehicles_DuctTape1",
+        "model": "\\dz\\gear\\consumables\\DuctTape.p3d",
+        "OnRestrainChange": "DuctTapeLocked",
+        "isMeleeWeapon": 1,
+        "weight": 100,
+        "weightPerQuantityUnit": 5,
+        "absorbency": 0.30000001,
+        "itemSize": [
+          2,
+          2
+        ],
+        "rotationFlags": 17,
+        "stackedUnit": "percentage",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "repairKitType": 5,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::easteregg",
+      "className": "EasterEgg",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_EasterEgg0",
+      "fallbackName": "Easter Egg",
+      "descriptionShortKey": "$STR_EasterEgg1",
+      "model": "\\dz\\gear\\consumables\\EasterEgg.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::easteregg"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_EasterEgg0",
+        "descriptionShort": "$STR_EasterEgg1",
+        "model": "\\dz\\gear\\consumables\\EasterEgg.p3d",
+        "weight": 100,
+        "itemSize": [
+          1,
+          1
+        ],
+        "stackedUnit": "g",
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 1,
+        "quantityBar": 1,
+        "ammoType": "G_GrenadeHand",
+        "soundImpactType": "grenade"
+      }
+    },
+    {
+      "id": "cfgvehicles::firewood",
+      "className": "Firewood",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Firewood0",
+      "fallbackName": "Firewood",
+      "descriptionShortKey": "$STR_CfgVehicles_Firewood1",
+      "model": "\\dz\\gear\\cooking\\log01.p3d",
+      "weight": 2000,
+      "itemSize": [
+        5,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Firewood"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::firewood"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Firewood0",
+        "descriptionShort": "$STR_CfgVehicles_Firewood1",
+        "model": "\\dz\\gear\\cooking\\log01.p3d",
+        "animClass": "NoFireClass",
+        "weight": 2000,
+        "absorbency": 0.30000001,
+        "itemSize": [
+          5,
+          2
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 6,
+        "varQuantityDestroyOnMin": 1,
+        "varStackMax": 3,
+        "inventorySlot": [
+          "Firewood"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::foxpelt",
+      "className": "FoxPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_FoxPelt0",
+      "fallbackName": "Fox Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_FoxPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Fox.p3d",
+      "weight": 2000,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::foxpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_FoxPelt0",
+        "descriptionShort": "$STR_CfgVehicles_FoxPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Fox.p3d",
+        "weight": 2000,
+        "itemSize": [
+          4,
+          3
+        ],
+        "peltGain": 2,
+        "leatherYield": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::gardenlime",
+      "className": "GardenLime",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_GardenLime0",
+      "fallbackName": "Garden Lime",
+      "descriptionShortKey": "$STR_CfgVehicles_GardenLime1",
+      "model": "\\dz\\gear\\consumables\\garden_lime.p3d",
+      "weight": 300,
+      "itemSize": [
+        3,
+        5
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Lime"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::gardenlime"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_GardenLime0",
+        "descriptionShort": "$STR_CfgVehicles_GardenLime1",
+        "model": "\\dz\\gear\\consumables\\garden_lime.p3d",
+        "animClass": "NoFireClass",
+        "weight": 300,
+        "itemSize": [
+          3,
+          5
+        ],
+        "stackedUnit": "g",
+        "quantityBar": 1,
+        "inventorySlot": [
+          "Lime"
+        ],
+        "varQuantityInit": 5000,
+        "varQuantityMin": 0,
+        "varQuantityMax": 5000,
+        "soundImpactType": "organic"
+      }
+    },
+    {
+      "id": "cfgvehicles::gasmask_filter",
+      "className": "GasMask_Filter",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_GasMask_Filter0",
+      "fallbackName": "Gas Mask Filter",
+      "descriptionShortKey": "$STR_GasMask_Filter1",
+      "model": "\\DZ\\gear\\consumables\\GasMask_filter.p3d",
+      "weight": 270,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "GasMaskFilter"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\consumables\\data\\gasmask_filter_co.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::gasmask_filter"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_GasMask_Filter0",
+        "descriptionShort": "$STR_GasMask_Filter1",
+        "model": "\\DZ\\gear\\consumables\\GasMask_filter.p3d",
+        "inventorySlot": [
+          "GasMaskFilter"
+        ],
+        "rotationFlags": 2,
+        "itemSize": [
+          2,
+          2
+        ],
+        "weight": 270,
+        "weightPerQuantityUnit": 0.2,
+        "varQuantityInit": 150,
+        "varQuantityMin": 0,
+        "varQuantityMax": 150,
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "varQuantityDestroyOnMin": 0,
+        "varWetMax": 0.249,
+        "heatIsolation": 0,
+        "hiddenSelections": [
+          "camoGround"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\consumables\\data\\gasmask_filter_co.paa"
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::giftwrappaper",
+      "className": "GiftWrapPaper",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_GiftWrapPaper0",
+      "fallbackName": "Gift Wrap Paper",
+      "descriptionShortKey": "$STR_GiftWrapPaper1",
+      "model": "\\dz\\gear\\consumables\\GiftWrapPaper.p3d",
+      "weight": 100,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Paper"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::giftwrappaper"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_GiftWrapPaper0",
+        "descriptionShort": "$STR_GiftWrapPaper1",
+        "model": "\\dz\\gear\\consumables\\GiftWrapPaper.p3d",
+        "isMeleeWeapon": 1,
+        "weight": 100,
+        "itemSize": [
+          2,
+          2
+        ],
+        "rotationFlags": 2,
+        "inventorySlot": [
+          "Paper"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::goatpelt",
+      "className": "GoatPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_GoatPelt0",
+      "fallbackName": "Goat Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_GoatPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Goat.p3d",
+      "weight": 3000,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::goatpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_GoatPelt0",
+        "descriptionShort": "$STR_CfgVehicles_GoatPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Goat.p3d",
+        "weight": 3000,
+        "itemSize": [
+          5,
+          3
+        ],
+        "peltGain": 4,
+        "leatherYield": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::hook",
+      "className": "Hook",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Hook0",
+      "fallbackName": "Hook",
+      "descriptionShortKey": "$STR_CfgVehicles_Hook1",
+      "model": "\\dz\\gear\\consumables\\bait_hook.p3d",
+      "weight": 1,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "attachments": [
+        "Bait"
+      ],
+      "inventorySlot": [
+        "Hook"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::hook"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Hook0",
+        "descriptionShort": "$STR_CfgVehicles_Hook1",
+        "model": "\\dz\\gear\\consumables\\bait_hook.p3d",
+        "rotationFlags": 12,
+        "weight": 1,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          1
+        ],
+        "inventorySlot": [
+          "Hook"
+        ],
+        "attachments": [
+          "Bait"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::jig",
+      "className": "Jig",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Jig0",
+      "fallbackName": "Jig",
+      "descriptionShortKey": "$STR_CfgVehicles_Jig1",
+      "model": "\\dz\\gear\\consumables\\jig.p3d",
+      "weight": 15,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Hook"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::jig"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Jig0",
+        "descriptionShort": "$STR_CfgVehicles_Jig1",
+        "model": "\\dz\\gear\\consumables\\jig.p3d",
+        "weight": 15,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          1
+        ],
+        "inventorySlot": [
+          "Hook"
+        ],
+        "rotationFlags": 17,
+        "hookType": "Hook"
+      }
+    },
+    {
+      "id": "cfgvehicles::largegascanister",
+      "className": "LargeGasCanister",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_LargeGasCanister0",
+      "fallbackName": "Large Gas Canister",
+      "descriptionShortKey": "$STR_cfgvehicles_portablegascanister1",
+      "model": "\\dz\\gear\\consumables\\GasCannisterLarge.p3d",
+      "weight": 195,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "GasCanister"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::largegascanister"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_LargeGasCanister0",
+        "descriptionShort": "$STR_cfgvehicles_portablegascanister1",
+        "model": "\\dz\\gear\\consumables\\GasCannisterLarge.p3d",
+        "overrideDrawArea": "8.0",
+        "weight": 195,
+        "weightPerQuantityUnit": 0.51999998,
+        "itemSize": [
+          4,
+          3
+        ],
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "GasCanister"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::matchbox",
+      "className": "Matchbox",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Matchbox0",
+      "fallbackName": "Matchbox",
+      "descriptionShortKey": "$STR_CfgVehicles_Matchbox1",
+      "model": "\\dz\\gear\\consumables\\Matchbox.p3d",
+      "weight": 12,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::matchbox"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Matchbox0",
+        "descriptionShort": "$STR_CfgVehicles_Matchbox1",
+        "model": "\\dz\\gear\\consumables\\Matchbox.p3d",
+        "isMeleeWeapon": 1,
+        "itemSize": [
+          1,
+          1
+        ],
+        "absorbency": 0.80000001,
+        "weight": 12,
+        "weightPerQuantityUnit": 2.5,
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 1,
+        "destroyOnEmpty": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::mediumgascanister",
+      "className": "MediumGasCanister",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_MediumGasCanister0",
+      "fallbackName": "Medium Gas Canister",
+      "descriptionShortKey": "$STR_cfgvehicles_portablegascanister1",
+      "model": "\\dz\\gear\\consumables\\GasCannisterMedium.p3d",
+      "weight": 126,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "GasCanister"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::mediumgascanister"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_MediumGasCanister0",
+        "descriptionShort": "$STR_cfgvehicles_portablegascanister1",
+        "model": "\\dz\\gear\\consumables\\GasCannisterMedium.p3d",
+        "overrideDrawArea": "8.0",
+        "weight": 126,
+        "weightPerQuantityUnit": 0.31999999,
+        "itemSize": [
+          4,
+          3
+        ],
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0.2,
+        "varQuantityMax": 20,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "GasCanister"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::metalplate",
+      "className": "MetalPlate",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_MetalPlate0",
+      "fallbackName": "Metal Plate",
+      "descriptionShortKey": "$STR_CfgVehicles_MetalPlate1",
+      "model": "\\dz\\gear\\consumables\\Single_Metal_Sheet.p3d",
+      "weight": 1200,
+      "itemSize": [
+        10,
+        10
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Truck_01_MetalSheets",
+        "Material_MetalSheets",
+        "Material_L3_MetalSheets",
+        "Material_L1W1_MetalSheets",
+        "Material_L1W2_MetalSheets",
+        "Material_L1W3_MetalSheets",
+        "Material_L2W1_MetalSheets",
+        "Material_L2W2_MetalSheets",
+        "Material_L2W3_MetalSheets",
+        "Material_L3W1_MetalSheets",
+        "Material_L3W2_MetalSheets",
+        "Material_L3W3_MetalSheets"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::metalplate"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_MetalPlate0",
+        "descriptionShort": "$STR_CfgVehicles_MetalPlate1",
+        "model": "\\dz\\gear\\consumables\\Single_Metal_Sheet.p3d",
+        "rotationFlags": 34,
+        "weight": 1200,
+        "itemSize": [
+          10,
+          10
+        ],
+        "itemBehaviour": 0,
+        "canBeSplit": 1,
+        "varQuantityInit": 10,
+        "varQuantityMin": 0,
+        "varQuantityMax": 40,
+        "varQuantityDestroyOnMin": 1,
+        "varStackMax": 10,
+        "repairableWithKits": [
+          10
+        ],
+        "repairCosts": [
+          30
+        ],
+        "inventorySlot": [
+          "Truck_01_MetalSheets",
+          "Material_MetalSheets",
+          "Material_L3_MetalSheets",
+          "Material_L1W1_MetalSheets",
+          "Material_L1W2_MetalSheets",
+          "Material_L1W3_MetalSheets",
+          "Material_L2W1_MetalSheets",
+          "Material_L2W2_MetalSheets",
+          "Material_L2W3_MetalSheets",
+          "Material_L3W1_MetalSheets",
+          "Material_L3W2_MetalSheets",
+          "Material_L3W3_MetalSheets"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::morsecodeleaflet_blood",
+      "className": "MorsecodeLeaflet_blood",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "MorsecodeLeaflet_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Paper0",
+      "fallbackName": "Morsecode Leaflet blood",
+      "descriptionShortKey": "$STR_CfgVehicles_Paper1",
+      "model": "\\dz\\gear\\consumables\\MorseCodeLeaflet.p3d",
+      "weight": 2,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Paper"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\morsecodeleaflet_farblood_ca.paa",
+        "dz\\gear\\consumables\\data\\morsecodeleaflet_engblood_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::morsecodeleaflet_colorbase",
+        "cfgvehicles::morsecodeleaflet_blood"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Paper0",
+        "descriptionShort": "$STR_CfgVehicles_Paper1",
+        "model": "\\dz\\gear\\consumables\\MorseCodeLeaflet.p3d",
+        "isMeleeWeapon": 1,
+        "weight": 2,
+        "absorbency": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "rotationFlags": 16,
+        "inventorySlot": [
+          "Paper"
+        ],
+        "hiddenSelections": [
+          "camo1",
+          "camo2"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\morsecodeleaflet_farblood_ca.paa",
+          "dz\\gear\\consumables\\data\\morsecodeleaflet_engblood_ca.paa"
+        ],
+        "varWetMax": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::morsecodeleaflet_coffee",
+      "className": "MorsecodeLeaflet_coffee",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "MorsecodeLeaflet_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Paper0",
+      "fallbackName": "Morsecode Leaflet coffee",
+      "descriptionShortKey": "$STR_CfgVehicles_Paper1",
+      "model": "\\dz\\gear\\consumables\\MorseCodeLeaflet.p3d",
+      "weight": 2,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Paper"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\morsecodeleaflet_farcoffee_ca.paa",
+        "dz\\gear\\consumables\\data\\morsecodeleaflet_engcoffee_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::morsecodeleaflet_colorbase",
+        "cfgvehicles::morsecodeleaflet_coffee"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Paper0",
+        "descriptionShort": "$STR_CfgVehicles_Paper1",
+        "model": "\\dz\\gear\\consumables\\MorseCodeLeaflet.p3d",
+        "isMeleeWeapon": 1,
+        "weight": 2,
+        "absorbency": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "rotationFlags": 16,
+        "inventorySlot": [
+          "Paper"
+        ],
+        "hiddenSelections": [
+          "camo1",
+          "camo2"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\morsecodeleaflet_farcoffee_ca.paa",
+          "dz\\gear\\consumables\\data\\morsecodeleaflet_engcoffee_ca.paa"
+        ],
+        "varWetMax": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::morsecodeleaflet_fire",
+      "className": "MorsecodeLeaflet_fire",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "MorsecodeLeaflet_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Paper0",
+      "fallbackName": "Morsecode Leaflet fire",
+      "descriptionShortKey": "$STR_CfgVehicles_Paper1",
+      "model": "\\dz\\gear\\consumables\\MorseCodeLeaflet.p3d",
+      "weight": 2,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Paper"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\morsecodeleaflet_farfire_ca.paa",
+        "dz\\gear\\consumables\\data\\morsecodeleaflet_engfire_ca.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::morsecodeleaflet_colorbase",
+        "cfgvehicles::morsecodeleaflet_fire"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Paper0",
+        "descriptionShort": "$STR_CfgVehicles_Paper1",
+        "model": "\\dz\\gear\\consumables\\MorseCodeLeaflet.p3d",
+        "isMeleeWeapon": 1,
+        "weight": 2,
+        "absorbency": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "rotationFlags": 16,
+        "inventorySlot": [
+          "Paper"
+        ],
+        "hiddenSelections": [
+          "camo1",
+          "camo2"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\morsecodeleaflet_farfire_ca.paa",
+          "dz\\gear\\consumables\\data\\morsecodeleaflet_engfire_ca.paa"
+        ],
+        "varWetMax": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::mouflonpelt",
+      "className": "MouflonPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_Pelt_Base0",
+      "fallbackName": "Mouflon Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_MouflonPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Mouflon.p3d",
+      "weight": 1200,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::mouflonpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Pelt_Base0",
+        "descriptionShort": "$STR_CfgVehicles_MouflonPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Mouflon.p3d",
+        "weight": 1200,
+        "itemSize": [
+          4,
+          3
+        ],
+        "peltGain": 10,
+        "leatherYield": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::nail",
+      "className": "Nail",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Nail0",
+      "fallbackName": "Nail",
+      "descriptionShortKey": "$STR_CfgVehicles_Nail1",
+      "model": "\\dz\\gear\\consumables\\Nails_loose_10.p3d",
+      "weight": 36.279999,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_Nails",
+        "Material_L1_Nails",
+        "Material_L1W1_Nails",
+        "Material_L1W2_Nails",
+        "Material_L1W3_Nails",
+        "Material_L2_Nails",
+        "Material_L2W1_Nails",
+        "Material_L2W2_Nails",
+        "Material_L2W3_Nails",
+        "Material_L3_Nails",
+        "Material_L3W1_Nails",
+        "Material_L3W2_Nails",
+        "Material_L3W3_Nails",
+        "Material_FPole_Nails"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::nail"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Nail0",
+        "descriptionShort": "$STR_CfgVehicles_Nail1",
+        "model": "\\dz\\gear\\consumables\\Nails_loose_10.p3d",
+        "weight": 36.279999,
+        "itemSize": [
+          1,
+          1
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 70,
+        "varQuantityMin": 0,
+        "varQuantityMax": 99,
+        "varQuantityDestroyOnMin": 1,
+        "inventorySlot": [
+          "Material_Nails",
+          "Material_L1_Nails",
+          "Material_L1W1_Nails",
+          "Material_L1W2_Nails",
+          "Material_L1W3_Nails",
+          "Material_L2_Nails",
+          "Material_L2W1_Nails",
+          "Material_L2W2_Nails",
+          "Material_L2W3_Nails",
+          "Material_L3_Nails",
+          "Material_L3W1_Nails",
+          "Material_L3W2_Nails",
+          "Material_L3W3_Nails",
+          "Material_FPole_Nails"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::nailbox",
+      "className": "NailBox",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Box_Base",
+      "displayNameKey": "$STR_CfgVehicles_NailBox0",
+      "fallbackName": "Nail Box",
+      "descriptionShortKey": "$STR_CfgVehicles_NailBox1",
+      "model": "\\dz\\gear\\consumables\\Nails_box.p3d",
+      "weight": 2540,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::box_base",
+        "cfgvehicles::nailbox"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_NailBox0",
+        "descriptionShort": "$STR_CfgVehicles_NailBox1",
+        "model": "\\dz\\gear\\consumables\\Nails_box.p3d",
+        "weight": 2540,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          1
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::netting",
+      "className": "Netting",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Netting0",
+      "fallbackName": "Netting",
+      "descriptionShortKey": "$STR_CfgVehicles_Netting1",
+      "model": "\\dz\\gear\\consumables\\Netting.p3d",
+      "weight": 400,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::netting"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Netting0",
+        "descriptionShort": "$STR_CfgVehicles_Netting1",
+        "model": "\\dz\\gear\\consumables\\Netting.p3d",
+        "animClass": "NoFireClass",
+        "weight": 400,
+        "itemSize": [
+          2,
+          3
+        ],
+        "absorbency": 0.30000001,
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 4,
+        "varQuantityDestroyOnMin": 1,
+        "rotationFlags": 17,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::paper",
+      "className": "Paper",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Paper0",
+      "fallbackName": "Paper",
+      "descriptionShortKey": "$STR_CfgVehicles_Paper1",
+      "model": "\\dz\\gear\\consumables\\Paper.p3d",
+      "weight": 2,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Paper"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::paper"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Paper0",
+        "descriptionShort": "$STR_CfgVehicles_Paper1",
+        "model": "\\dz\\gear\\consumables\\Paper.p3d",
+        "isMeleeWeapon": 1,
+        "weight": 2,
+        "absorbency": 1,
+        "itemSize": [
+          1,
+          1
+        ],
+        "rotationFlags": 16,
+        "inventorySlot": [
+          "Paper"
+        ],
+        "varWetMax": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::pigpelt",
+      "className": "PigPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_PigPelt0",
+      "fallbackName": "Pig Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_PigPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Pig.p3d",
+      "weight": 7000,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::pigpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_PigPelt0",
+        "descriptionShort": "$STR_CfgVehicles_PigPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Pig.p3d",
+        "weight": 7000,
+        "itemSize": [
+          5,
+          3
+        ],
+        "peltGain": 6,
+        "leatherYield": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::pileofwoodenplanks",
+      "className": "PileOfWoodenPlanks",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PileOfWoodenPlanks0",
+      "fallbackName": "Pile Of Wooden Planks",
+      "descriptionShortKey": "$STR_CfgVehicles_PileOfWoodenPlanks1",
+      "model": "\\dz\\gear\\consumables\\pile_of_planks.p3d",
+      "weight": 5000,
+      "itemSize": [
+        7,
+        20
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pileofwoodenplanks"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PileOfWoodenPlanks0",
+        "descriptionShort": "$STR_CfgVehicles_PileOfWoodenPlanks1",
+        "model": "\\dz\\gear\\consumables\\pile_of_planks.p3d",
+        "weight": 5000,
+        "displayWeight": 0,
+        "itemSize": [
+          7,
+          20
+        ],
+        "canBeSplit": 0,
+        "varQuantityInit": 252,
+        "varQuantityMin": 0,
+        "varQuantityMax": 252,
+        "varQuantityDestroyOnMin": 1,
+        "rotationFlags": 256,
+        "physLayer": "item_large",
+        "useEntityHierarchy": "true",
+        "hiddenSelectionsTextures": [],
+        "hiddenSelectionsMaterials": [],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::punchedcard",
+      "className": "PunchedCard",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Paper",
+      "displayNameKey": "$STR_PunchedCard0",
+      "fallbackName": "Punched Card",
+      "descriptionShortKey": "$STR_PunchedCard1",
+      "model": "\\dz\\gear\\consumables\\PunchedCard.p3d",
+      "weight": 10,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Paper"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::paper",
+        "cfgvehicles::punchedcard"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_PunchedCard0",
+        "descriptionShort": "$STR_PunchedCard1",
+        "model": "\\dz\\gear\\consumables\\PunchedCard.p3d",
+        "isMeleeWeapon": 1,
+        "weight": 10,
+        "absorbency": 1,
+        "itemSize": [
+          2,
+          1
+        ],
+        "rotationFlags": 16,
+        "inventorySlot": [
+          "Paper"
+        ],
+        "varWetMax": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::rabbitpelt",
+      "className": "RabbitPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_RabbitPelt0",
+      "fallbackName": "Rabbit Pelt",
+      "descriptionShortKey": "$STR_RabbitPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Rabbit.p3d",
+      "weight": 700,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::rabbitpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_RabbitPelt0",
+        "descriptionShort": "$STR_RabbitPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Rabbit.p3d",
+        "weight": 700,
+        "itemSize": [
+          3,
+          2
+        ],
+        "peltGain": 1,
+        "leatherYield": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::rag",
+      "className": "Rag",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Rag0",
+      "fallbackName": "Rag",
+      "descriptionShortKey": "$STR_CfgVehicles_Rag1",
+      "model": "\\dz\\gear\\consumables\\Rags.p3d",
+      "weight": 20,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Rags"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::rag"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Rag0",
+        "descriptionShort": "$STR_CfgVehicles_Rag1",
+        "model": "\\dz\\gear\\consumables\\Rags.p3d",
+        "weight": 20,
+        "absorbency": 1,
+        "itemSize": [
+          1,
+          3
+        ],
+        "inventorySlot": [
+          "Rags"
+        ],
+        "ChangeInventorySlot": [
+          "Mask"
+        ],
+        "ChangeIntoOnAttach": [
+          "",
+          "MouthRag"
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 6,
+        "varQuantityMin": 0,
+        "varQuantityMax": 6,
+        "varQuantityDestroyOnMin": 1,
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "rotationFlags": 17,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::reindeerpelt",
+      "className": "ReindeerPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_ReindeerPelt0",
+      "fallbackName": "Reindeer Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_ReindeerPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Reindeer.p3d",
+      "weight": 6000,
+      "itemSize": [
+        6,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::reindeerpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_ReindeerPelt0",
+        "descriptionShort": "$STR_CfgVehicles_ReindeerPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Reindeer.p3d",
+        "weight": 6000,
+        "itemSize": [
+          6,
+          3
+        ],
+        "peltGain": 8,
+        "leatherYield": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::roadflare",
+      "className": "Roadflare",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Roadflare0",
+      "fallbackName": "Roadflare",
+      "descriptionShortKey": "$STR_CfgVehicles_Roadflare1",
+      "model": "\\dz\\gear\\consumables\\road_flare.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "tripWireAttachment"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\consumables\\data\\road_flare_co.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::roadflare"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Roadflare0",
+        "descriptionShort": "$STR_CfgVehicles_Roadflare1",
+        "model": "\\dz\\gear\\consumables\\road_flare.p3d",
+        "overrideDrawArea": "8.0",
+        "lockType": 4,
+        "weight": 50,
+        "weightPerQuantityUnit": 0,
+        "absorbency": 0.5,
+        "itemSize": [
+          1,
+          3
+        ],
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "tripWireAttachment"
+        ],
+        "rotationFlags": 17,
+        "hiddenSelections": [
+          "Burning",
+          "Burned_out",
+          "Pristine",
+          "All"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\consumables\\data\\road_flare_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\consumables\\data\\Road_flare.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::sheeppelt",
+      "className": "SheepPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_SheepPelt0",
+      "fallbackName": "Sheep Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_SheepPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Sheep.p3d",
+      "weight": 5000,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::sheeppelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_SheepPelt0",
+        "descriptionShort": "$STR_CfgVehicles_SheepPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Sheep.p3d",
+        "weight": 5000,
+        "itemSize": [
+          5,
+          3
+        ],
+        "peltGain": 4,
+        "leatherYield": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::smallgascanister",
+      "className": "SmallGasCanister",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_SmallGasCanister0",
+      "fallbackName": "Small Gas Canister",
+      "descriptionShortKey": "$STR_cfgvehicles_portablegascanister1",
+      "model": "\\dz\\gear\\consumables\\GasCannisterSmall.p3d",
+      "weight": 94,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "GasCanister"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::smallgascanister"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SmallGasCanister0",
+        "descriptionShort": "$STR_cfgvehicles_portablegascanister1",
+        "model": "\\dz\\gear\\consumables\\GasCannisterSmall.p3d",
+        "overrideDrawArea": "8.0",
+        "weight": 94,
+        "weightPerQuantityUnit": 0.28,
+        "itemSize": [
+          4,
+          3
+        ],
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "GasCanister"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::smallstone",
+      "className": "SmallStone",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_SmallStone0",
+      "fallbackName": "Small Stone",
+      "descriptionShortKey": "$STR_CfgVehicles_SmallStone1",
+      "model": "\\dz\\gear\\consumables\\SmallStone.p3d",
+      "weight": 500,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::smallstone"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SmallStone0",
+        "descriptionShort": "$STR_CfgVehicles_SmallStone1",
+        "model": "\\dz\\gear\\consumables\\SmallStone.p3d",
+        "animClass": "NoFireClass",
+        "weight": 500,
+        "itemSize": [
+          1,
+          1
+        ],
+        "rotationFlags": 17
+      }
+    },
+    {
+      "id": "cfgvehicles::spraycan_black",
+      "className": "Spraycan_Black",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Spraycan_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Spraycan_ColorBase0",
+      "fallbackName": "Spraycan Black",
+      "descriptionShortKey": "$STR_CfgVehicles_Spraycan_Black0",
+      "model": "\\dz\\gear\\consumables\\spraycan.p3d",
+      "weight": 100,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\gear\\consumables\\data\\spraycan_black_co.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::spraycan_colorbase",
+        "cfgvehicles::spraycan_black"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Spraycan_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Spraycan_Black0",
+        "model": "\\dz\\gear\\consumables\\spraycan.p3d",
+        "weight": 100,
+        "itemSize": [
+          2,
+          3
+        ],
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "soundImpactType": "metal",
+        "scope": 2,
+        "color": "Black",
+        "hiddenSelectionsTextures": [
+          "DZ\\gear\\consumables\\data\\spraycan_black_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::spraycan_green",
+      "className": "Spraycan_Green",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Spraycan_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Spraycan_ColorBase0",
+      "fallbackName": "Spraycan Green",
+      "descriptionShortKey": "$STR_CfgVehicles_Spraycan_Green0",
+      "model": "\\dz\\gear\\consumables\\spraycan.p3d",
+      "weight": 100,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\gear\\consumables\\data\\spraycan_green_co.paa"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::spraycan_colorbase",
+        "cfgvehicles::spraycan_green"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Spraycan_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Spraycan_Green0",
+        "model": "\\dz\\gear\\consumables\\spraycan.p3d",
+        "weight": 100,
+        "itemSize": [
+          2,
+          3
+        ],
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "soundImpactType": "metal",
+        "scope": 2,
+        "color": "Green",
+        "hiddenSelectionsTextures": [
+          "DZ\\gear\\consumables\\data\\spraycan_green_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::tannedleather",
+      "className": "TannedLeather",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_TannedLeather0",
+      "fallbackName": "Tanned Leather",
+      "descriptionShortKey": "$STR_CfgVehicles_TannedLeather1",
+      "model": "\\dz\\gear\\consumables\\tanned_leather.p3d",
+      "weight": 500,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_Shelter_Leather"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::tannedleather"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TannedLeather0",
+        "descriptionShort": "$STR_CfgVehicles_TannedLeather1",
+        "model": "\\dz\\gear\\consumables\\tanned_leather.p3d",
+        "weight": 500,
+        "absorbency": 0.30000001,
+        "itemSize": [
+          4,
+          3
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 8,
+        "varQuantityMin": 0,
+        "varQuantityMax": 8,
+        "varQuantityDestroyOnMin": 1,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "inventorySlot": [
+          "Material_Shelter_Leather"
+        ],
+        "attachSoundSet": [
+          "Shelter_Site_Attach_Leather_SoundSet"
+        ],
+        "attachSoundSlot": [
+          "Material_Shelter_Leather"
+        ],
+        "soundImpactType": "organic"
+      }
+    },
+    {
+      "id": "cfgvehicles::wildboarpelt",
+      "className": "WildboarPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_WildboarPelt0",
+      "fallbackName": "Wildboar Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_WildboarPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Wildboar.p3d",
+      "weight": 9000,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::wildboarpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_WildboarPelt0",
+        "descriptionShort": "$STR_CfgVehicles_WildboarPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Wildboar.p3d",
+        "weight": 9000,
+        "itemSize": [
+          5,
+          3
+        ],
+        "peltGain": 6,
+        "leatherYield": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::wolfpelt",
+      "className": "WolfPelt",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Pelt_Base",
+      "displayNameKey": "$STR_CfgVehicles_WolfPelt0",
+      "fallbackName": "Wolf Pelt",
+      "descriptionShortKey": "$STR_CfgVehicles_WolfPelt1",
+      "model": "\\dz\\gear\\consumables\\Pelt_Wolf.p3d",
+      "weight": 6000,
+      "itemSize": [
+        5,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pelt_base",
+        "cfgvehicles::wolfpelt"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_WolfPelt0",
+        "descriptionShort": "$STR_CfgVehicles_WolfPelt1",
+        "animClass": "NoFireClass",
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          3
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "organic",
+        "scope": 2,
+        "model": "\\dz\\gear\\consumables\\Pelt_Wolf.p3d",
+        "weight": 6000,
+        "itemSize": [
+          5,
+          3
+        ],
+        "peltGain": 6,
+        "leatherYield": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::woodenhook",
+      "className": "WoodenHook",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_WoodenHook0",
+      "fallbackName": "Wooden Hook",
+      "descriptionShortKey": "$STR_CfgVehicles_WoodenHook1",
+      "model": "\\dz\\gear\\crafting\\wooden_hook.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "attachments": [
+        "Bait"
+      ],
+      "inventorySlot": [
+        "Hook"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::woodenhook"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_WoodenHook0",
+        "descriptionShort": "$STR_CfgVehicles_WoodenHook1",
+        "model": "\\dz\\gear\\crafting\\wooden_hook.p3d",
+        "weight": 10,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          1
+        ],
+        "inventorySlot": [
+          "Hook"
+        ],
+        "attachments": [
+          "Bait"
+        ],
+        "rotationFlags": 17
+      }
+    },
+    {
+      "id": "cfgvehicles::woodenlog",
+      "className": "WoodenLog",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_WoodenLog0",
+      "fallbackName": "Wooden Log",
+      "descriptionShortKey": "$STR_CfgVehicles_WoodenLog1",
+      "model": "\\dz\\gear\\camping\\wooden_log.p3d",
+      "weight": 20000,
+      "itemSize": [
+        3,
+        11
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Truck_01_WoodenLogs",
+        "Material_WoodenLogs",
+        "Material_L1_WoodenLogs",
+        "Material_L2_WoodenLogs",
+        "Material_L3_WoodenLogs",
+        "Material_FPole_WoodenLog",
+        "Material_FPole_WoodenLog2",
+        "Material_FPole_MagicStick"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::woodenlog"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_WoodenLog0",
+        "descriptionShort": "$STR_CfgVehicles_WoodenLog1",
+        "model": "\\dz\\gear\\camping\\wooden_log.p3d",
+        "weight": 20000,
+        "itemSize": [
+          3,
+          11
+        ],
+        "varQuantityDestroyOnMin": 1,
+        "itemBehaviour": 0,
+        "canBeSplit": 1,
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 50,
+        "varStackMax": 1,
+        "inventorySlot": [
+          "Truck_01_WoodenLogs",
+          "Material_WoodenLogs",
+          "Material_L1_WoodenLogs",
+          "Material_L2_WoodenLogs",
+          "Material_L3_WoodenLogs",
+          "Material_FPole_WoodenLog",
+          "Material_FPole_WoodenLog2",
+          "Material_FPole_MagicStick"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::woodenplank",
+      "className": "WoodenPlank",
+      "section": "CfgVehicles",
+      "category": "consumable",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_WoodenPlank0",
+      "fallbackName": "Wooden Plank",
+      "descriptionShortKey": "$STR_CfgVehicles_WoodenPlank1",
+      "model": "\\dz\\gear\\consumables\\single_plank.p3d",
+      "weight": 1500,
+      "itemSize": [
+        2,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Truck_01_WoodenPlanks",
+        "Material_WoodenPlanks",
+        "Material_L1_WoodenPlanks",
+        "Material_L1W1_WoodenPlanks",
+        "Material_L1W2_WoodenPlanks",
+        "Material_L1W3_WoodenPlanks",
+        "Material_L2_WoodenPlanks",
+        "Material_L2W1_WoodenPlanks",
+        "Material_L2W2_WoodenPlanks",
+        "Material_L2W3_WoodenPlanks",
+        "Material_L3_WoodenPlanks",
+        "Material_L3W1_WoodenPlanks",
+        "Material_L3W2_WoodenPlanks",
+        "Material_L3W3_WoodenPlanks"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::woodenplank"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_WoodenPlank0",
+        "descriptionShort": "$STR_CfgVehicles_WoodenPlank1",
+        "model": "\\dz\\gear\\consumables\\single_plank.p3d",
+        "weight": 1500,
+        "itemSize": [
+          2,
+          8
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 10,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 1,
+        "varStackMax": 10,
+        "inventorySlot": [
+          "Truck_01_WoodenPlanks",
+          "Material_WoodenPlanks",
+          "Material_L1_WoodenPlanks",
+          "Material_L1W1_WoodenPlanks",
+          "Material_L1W2_WoodenPlanks",
+          "Material_L1W3_WoodenPlanks",
+          "Material_L2_WoodenPlanks",
+          "Material_L2W1_WoodenPlanks",
+          "Material_L2W2_WoodenPlanks",
+          "Material_L2W3_WoodenPlanks",
+          "Material_L3_WoodenPlanks",
+          "Material_L3W1_WoodenPlanks",
+          "Material_L3W2_WoodenPlanks",
+          "Material_L3W3_WoodenPlanks"
+        ],
+        "soundImpactType": "wood"
+      }
+    }
+  ]
+}

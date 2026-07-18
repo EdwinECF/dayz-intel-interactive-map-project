@@ -1,0 +1,1689 @@
+{
+  "metadata": {
+    "category": "cultivation",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 23
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::antipestsspray",
+      "className": "AntiPestsSpray",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_AntiPestsSpray0",
+      "fallbackName": "Anti Pests Spray",
+      "descriptionShortKey": "$STR_CfgVehicles_AntiPestsSpray1",
+      "model": "\\dz\\gear\\medical\\DisinfectantSpray.p3d",
+      "weight": 200,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::antipestsspray"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AntiPestsSpray0",
+        "descriptionShort": "$STR_CfgVehicles_AntiPestsSpray1",
+        "model": "\\dz\\gear\\medical\\DisinfectantSpray.p3d",
+        "lootTag": [
+          "Farm"
+        ],
+        "lootCategory": "Crafted",
+        "weight": 200,
+        "itemSize": [
+          1,
+          3
+        ],
+        "varQuantityInit": 120,
+        "varQuantityMin": 0,
+        "varQuantityMax": 120,
+        "varQuantityDestroyOnMin": 1,
+        "quantityBar": 1,
+        "varLiquidTypeInit": 32768,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::cannabisseeds",
+      "className": "CannabisSeeds",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "SeedBase",
+      "displayNameKey": "$STR_CfgVehicles_CannabisSeeds0",
+      "fallbackName": "Cannabis Seeds",
+      "descriptionShortKey": "$STR_CfgVehicles_CannabisSeeds1",
+      "model": "\\dz\\gear\\cultivation\\cannabis_seeds.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13",
+        "Trap_Bait_2"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::seedbase",
+        "cfgvehicles::cannabisseeds"
+      ],
+      "properties": {
+        "scope": 2,
+        "weight": 10,
+        "itemSize": [
+          1,
+          1
+        ],
+        "spawnOffset": 0,
+        "lootCategory": "Crafted",
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13",
+          "Trap_Bait_2"
+        ],
+        "displayName": "$STR_CfgVehicles_CannabisSeeds0",
+        "descriptionShort": "$STR_CfgVehicles_CannabisSeeds1",
+        "model": "\\dz\\gear\\cultivation\\cannabis_seeds.p3d",
+        "canBeSplit": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20
+      }
+    },
+    {
+      "id": "cfgvehicles::cannabisseedspack",
+      "className": "CannabisSeedsPack",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_CannabisSeedsPack0",
+      "fallbackName": "Cannabis Seeds Pack",
+      "descriptionShortKey": "$STR_CfgVehicles_CannabisSeedsPack1",
+      "model": "\\dz\\gear\\cultivation\\cannabis_seeds_pack.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::cannabisseedspack"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CannabisSeedsPack0",
+        "descriptionShort": "$STR_CfgVehicles_CannabisSeedsPack1",
+        "model": "\\dz\\gear\\cultivation\\cannabis_seeds_pack.p3d",
+        "rotationFlags": 17,
+        "quantityBar": 1,
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 30,
+        "spawnOffset": 0,
+        "lootCategory": "Materials",
+        "lootTag": [
+          "Farm",
+          "Kitchen",
+          "Forester"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::gardenplot",
+      "className": "GardenPlot",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "fallbackName": "Garden Plot",
+      "model": "DZ\\gear\\cultivation\\garden_plot_outside.p3d",
+      "weight": 100000,
+      "itemSize": [
+        50,
+        50
+      ],
+      "scope": 2,
+      "attachments": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\soil_cultivated_co.paa",
+        "dz\\gear\\cultivation\\data\\soil_cultivated_limed_CO.paa",
+        "dz\\gear\\cultivation\\data\\soil_cultivated_compost_CO.paa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "dz\\gear\\cultivation\\data\\tile_co.paa"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::gardenplot"
+      ],
+      "properties": {
+        "scope": 2,
+        "model": "DZ\\gear\\cultivation\\garden_plot_outside.p3d",
+        "storageCategory": 1,
+        "lootCategory": "Crafted",
+        "useEntityHierarchy": "true",
+        "slopeTolerance": 0.30000001,
+        "alignHologramToTerain": 1,
+        "yawPitchRollLimit": [
+          10,
+          10,
+          10
+        ],
+        "weight": 100000,
+        "itemSize": [
+          50,
+          50
+        ],
+        "attachments": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9"
+        ],
+        "physLayer": "item_large",
+        "hiddenSelections": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "slotCovered_01",
+          "slotCovered_02",
+          "slotCovered_03",
+          "slotCovered_04",
+          "slotCovered_05",
+          "slotCovered_06",
+          "slotCovered_07",
+          "slotCovered_08",
+          "slotCovered_09",
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\soil_cultivated_co.paa",
+          "dz\\gear\\cultivation\\data\\soil_cultivated_limed_CO.paa",
+          "dz\\gear\\cultivation\\data\\soil_cultivated_compost_CO.paa",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "dz\\gear\\cultivation\\data\\tile_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "dz\\gear\\cultivation\\data\\tile.rvmat"
+        ],
+        "hologramMaterial": "tile",
+        "hologramMaterialPath": "dz\\gear\\cultivation\\data"
+      }
+    },
+    {
+      "id": "cfgvehicles::gardenplotgreenhouse",
+      "className": "GardenPlotGreenhouse",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "fallbackName": "Garden Plot Greenhouse",
+      "model": "DZ\\gear\\cultivation\\garden_plot_greenhouse.p3d",
+      "scope": 2,
+      "attachments": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\soil_cultivated_co.paa",
+        "dz\\gear\\cultivation\\data\\soil_cultivated_limed_CO.paa",
+        "dz\\gear\\cultivation\\data\\soil_cultivated_compost_CO.paa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::gardenplotgreenhouse"
+      ],
+      "properties": {
+        "scope": 2,
+        "model": "DZ\\gear\\cultivation\\garden_plot_greenhouse.p3d",
+        "storageCategory": 1,
+        "useEntityHierarchy": "true",
+        "slopeTolerance": 0.30000001,
+        "alignHologramToTerain": 1,
+        "yawPitchRollLimit": [
+          10,
+          10,
+          10
+        ],
+        "physLayer": "item_large",
+        "attachments": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9"
+        ],
+        "hiddenSelections": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "slotCovered_01",
+          "slotCovered_02",
+          "slotCovered_03",
+          "slotCovered_04",
+          "slotCovered_05",
+          "slotCovered_06",
+          "slotCovered_07",
+          "slotCovered_08",
+          "slotCovered_09"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\soil_cultivated_co.paa",
+          "dz\\gear\\cultivation\\data\\soil_cultivated_limed_CO.paa",
+          "dz\\gear\\cultivation\\data\\soil_cultivated_compost_CO.paa",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "hiddenSelectionsMaterials": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::gardenplotplacing",
+      "className": "GardenPlotPlacing",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "GardenPlot",
+      "displayNameKey": "This is a hologram",
+      "fallbackName": "Garden Plot Placing",
+      "descriptionShortKey": "Nothing to see here, move along",
+      "model": "DZ\\gear\\cultivation\\garden_plot_outside_placing.p3d",
+      "weight": 100000,
+      "itemSize": [
+        50,
+        50
+      ],
+      "scope": 2,
+      "attachments": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\tile_co.tga"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::gardenplot",
+        "cfgvehicles::gardenplotplacing"
+      ],
+      "properties": {
+        "scope": 2,
+        "model": "DZ\\gear\\cultivation\\garden_plot_outside_placing.p3d",
+        "storageCategory": 10,
+        "lootCategory": "Crafted",
+        "useEntityHierarchy": "true",
+        "slopeTolerance": 0.30000001,
+        "alignHologramToTerain": 1,
+        "yawPitchRollLimit": [
+          10,
+          10,
+          10
+        ],
+        "weight": 100000,
+        "itemSize": [
+          50,
+          50
+        ],
+        "attachments": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9"
+        ],
+        "physLayer": "item_large",
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\tile_co.tga"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cultivation\\data\\tile.rvmat"
+        ],
+        "hologramMaterial": "tile",
+        "hologramMaterialPath": "dz\\gear\\cultivation\\data",
+        "displayName": "This is a hologram",
+        "descriptionShort": "Nothing to see here, move along"
+      }
+    },
+    {
+      "id": "cfgvehicles::gardenplotpolytunnel",
+      "className": "GardenPlotPolytunnel",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "fallbackName": "Garden Plot Polytunnel",
+      "model": "DZ\\gear\\cultivation\\garden_plot_polytunnel.p3d",
+      "scope": 2,
+      "attachments": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\soil_cultivated_co.paa",
+        "dz\\gear\\cultivation\\data\\soil_cultivated_limed_CO.paa",
+        "dz\\gear\\cultivation\\data\\soil_cultivated_compost_CO.paa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::gardenplotpolytunnel"
+      ],
+      "properties": {
+        "scope": 2,
+        "model": "DZ\\gear\\cultivation\\garden_plot_polytunnel.p3d",
+        "storageCategory": 1,
+        "useEntityHierarchy": "true",
+        "slopeTolerance": 0.30000001,
+        "alignHologramToTerain": 1,
+        "yawPitchRollLimit": [
+          10,
+          10,
+          10
+        ],
+        "physLayer": "item_large",
+        "attachments": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13"
+        ],
+        "hiddenSelections": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13",
+          "slotCovered_01",
+          "slotCovered_02",
+          "slotCovered_03",
+          "slotCovered_04",
+          "slotCovered_05",
+          "slotCovered_06",
+          "slotCovered_07",
+          "slotCovered_08",
+          "slotCovered_09",
+          "slotCovered_10",
+          "slotCovered_11",
+          "slotCovered_12",
+          "slotCovered_13"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\soil_cultivated_co.paa",
+          "dz\\gear\\cultivation\\data\\soil_cultivated_limed_CO.paa",
+          "dz\\gear\\cultivation\\data\\soil_cultivated_compost_CO.paa",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "hiddenSelectionsMaterials": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::pepperseeds",
+      "className": "PepperSeeds",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "SeedBase",
+      "displayNameKey": "$STR_CfgVehicles_PepperSeeds0",
+      "fallbackName": "Pepper Seeds",
+      "descriptionShortKey": "$STR_CfgVehicles_PepperSeeds1",
+      "model": "\\dz\\gear\\cultivation\\pepper_seeds.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13",
+        "Trap_Bait_2"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::seedbase",
+        "cfgvehicles::pepperseeds"
+      ],
+      "properties": {
+        "scope": 2,
+        "weight": 10,
+        "itemSize": [
+          1,
+          1
+        ],
+        "spawnOffset": 0,
+        "lootCategory": "Crafted",
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13",
+          "Trap_Bait_2"
+        ],
+        "displayName": "$STR_CfgVehicles_PepperSeeds0",
+        "descriptionShort": "$STR_CfgVehicles_PepperSeeds1",
+        "model": "\\dz\\gear\\cultivation\\pepper_seeds.p3d",
+        "canBeSplit": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20
+      }
+    },
+    {
+      "id": "cfgvehicles::pepperseedspack",
+      "className": "PepperSeedsPack",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PepperSeedsPack0",
+      "fallbackName": "Pepper Seeds Pack",
+      "descriptionShortKey": "$STR_CfgVehicles_PepperSeedsPack1",
+      "model": "\\dz\\gear\\cultivation\\pepper_seeds_pack.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pepperseedspack"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PepperSeedsPack0",
+        "descriptionShort": "$STR_CfgVehicles_PepperSeedsPack1",
+        "model": "\\dz\\gear\\cultivation\\pepper_seeds_pack.p3d",
+        "rotationFlags": 17,
+        "quantityBar": 1,
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 30,
+        "spawnOffset": 0,
+        "lootCategory": "Materials",
+        "lootTag": [
+          "Farm",
+          "Kitchen",
+          "Forester"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::plant_cannabis",
+      "className": "Plant_Cannabis",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "PlantBase",
+      "fallbackName": "Plant Cannabis",
+      "model": "DZ\\gear\\cultivation\\Cannabis_plant.p3d",
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\Cannabis_plant_co.paa"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::plantbase",
+        "cfgvehicles::plant_cannabis"
+      ],
+      "properties": {
+        "storageCategory": 1,
+        "lootCategory": "Crafted",
+        "hiddenSelections": [
+          "infestedParts"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\Cannabis_plant_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cultivation\\data\\Cannabis_plant.rvmat"
+        ],
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13"
+        ],
+        "scope": 2,
+        "model": "DZ\\gear\\cultivation\\Cannabis_plant.p3d"
+      }
+    },
+    {
+      "id": "cfgvehicles::plant_pepper",
+      "className": "Plant_Pepper",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "PlantBase",
+      "displayNameKey": "$STR_cfgvehicles_land_horticulture_plant_pepper0",
+      "fallbackName": "Plant Pepper",
+      "descriptionShortKey": "$STR_cfgvehicles_land_horticulture_plant_pepper1",
+      "model": "DZ\\gear\\cultivation\\pepper_plant.p3d",
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\pepper_plant_co.paa"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::plantbase",
+        "cfgvehicles::plant_pepper"
+      ],
+      "properties": {
+        "storageCategory": 1,
+        "lootCategory": "Crafted",
+        "hiddenSelections": [
+          "infestedParts"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\pepper_plant_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cultivation\\data\\pepper_plant.rvmat"
+        ],
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13"
+        ],
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_land_horticulture_plant_pepper0",
+        "descriptionShort": "$STR_cfgvehicles_land_horticulture_plant_pepper1",
+        "model": "DZ\\gear\\cultivation\\pepper_plant.p3d"
+      }
+    },
+    {
+      "id": "cfgvehicles::plant_potato",
+      "className": "Plant_Potato",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "PlantBase",
+      "displayNameKey": "$STR_cfgvehicles_land_horticulture_plant_potato0",
+      "fallbackName": "Plant Potato",
+      "descriptionShortKey": "$STR_cfgvehicles_land_horticulture_plant_potato1",
+      "model": "DZ\\gear\\cultivation\\potato_plant.p3d",
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\potato_plant_co.paa",
+        "dz\\gear\\cultivation\\data\\potato_plant_nohq.paa",
+        "dz\\gear\\cultivation\\data\\potato_plant_smdi.paa"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::plantbase",
+        "cfgvehicles::plant_potato"
+      ],
+      "properties": {
+        "storageCategory": 1,
+        "lootCategory": "Crafted",
+        "hiddenSelections": [
+          "infestedParts"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\potato_plant_co.paa",
+          "dz\\gear\\cultivation\\data\\potato_plant_nohq.paa",
+          "dz\\gear\\cultivation\\data\\potato_plant_smdi.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cultivation\\data\\potato_plant.rvmat"
+        ],
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13"
+        ],
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_land_horticulture_plant_potato0",
+        "descriptionShort": "$STR_cfgvehicles_land_horticulture_plant_potato1",
+        "model": "DZ\\gear\\cultivation\\potato_plant.p3d"
+      }
+    },
+    {
+      "id": "cfgvehicles::plant_pumpkin",
+      "className": "Plant_Pumpkin",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "PlantBase",
+      "displayNameKey": "$STR_cfgvehicles_land_horticulture_plant_pumpkin0",
+      "fallbackName": "Plant Pumpkin",
+      "descriptionShortKey": "$STR_cfgvehicles_land_horticulture_plant_pumpkin1",
+      "model": "DZ\\gear\\cultivation\\pumpkin_plant.p3d",
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\pumpkin_plant_co.paa"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::plantbase",
+        "cfgvehicles::plant_pumpkin"
+      ],
+      "properties": {
+        "storageCategory": 1,
+        "lootCategory": "Crafted",
+        "hiddenSelections": [
+          "infestedParts"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\pumpkin_plant_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cultivation\\data\\pumpkin_plant.rvmat"
+        ],
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13"
+        ],
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_land_horticulture_plant_pumpkin0",
+        "descriptionShort": "$STR_cfgvehicles_land_horticulture_plant_pumpkin1",
+        "model": "DZ\\gear\\cultivation\\pumpkin_plant.p3d"
+      }
+    },
+    {
+      "id": "cfgvehicles::plant_tomato",
+      "className": "Plant_Tomato",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "PlantBase",
+      "displayNameKey": "$STR_cfgvehicles_land_horticulture_plant_tomato0",
+      "fallbackName": "Plant Tomato",
+      "descriptionShortKey": "$STR_cfgvehicles_land_horticulture_plant_tomato1",
+      "model": "DZ\\gear\\cultivation\\tomato_plant.p3d",
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\tomato_plant_co.paa"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::plantbase",
+        "cfgvehicles::plant_tomato"
+      ],
+      "properties": {
+        "storageCategory": 1,
+        "lootCategory": "Crafted",
+        "hiddenSelections": [
+          "infestedParts"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\tomato_plant_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cultivation\\data\\tomato_plant.rvmat"
+        ],
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13"
+        ],
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_land_horticulture_plant_tomato0",
+        "descriptionShort": "$STR_cfgvehicles_land_horticulture_plant_tomato1",
+        "model": "DZ\\gear\\cultivation\\tomato_plant.p3d"
+      }
+    },
+    {
+      "id": "cfgvehicles::plant_zucchini",
+      "className": "Plant_Zucchini",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "PlantBase",
+      "displayNameKey": "$STR_cfgvehicles_land_horticulture_plant_zucchini0",
+      "fallbackName": "Plant Zucchini",
+      "descriptionShortKey": "$STR_cfgvehicles_land_horticulture_plant_zucchini1",
+      "model": "DZ\\gear\\cultivation\\zucchini_plant.p3d",
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\zucchini_plant_co.paa"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::plantbase",
+        "cfgvehicles::plant_zucchini"
+      ],
+      "properties": {
+        "storageCategory": 1,
+        "lootCategory": "Crafted",
+        "hiddenSelections": [
+          "infestedParts"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\zucchini_plant_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cultivation\\data\\zucchini_plant.rvmat"
+        ],
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13"
+        ],
+        "scope": 2,
+        "displayName": "$STR_cfgvehicles_land_horticulture_plant_zucchini0",
+        "descriptionShort": "$STR_cfgvehicles_land_horticulture_plant_zucchini1",
+        "model": "DZ\\gear\\cultivation\\zucchini_plant.p3d"
+      }
+    },
+    {
+      "id": "cfgvehicles::plantmaterial",
+      "className": "PlantMaterial",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PlantMaterial0",
+      "fallbackName": "Plant Material",
+      "descriptionShortKey": "$STR_CfgVehicles_PlantMaterial1",
+      "model": "\\dz\\gear\\cultivation\\plant_material.p3d",
+      "weight": 0,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Plant"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::plantmaterial"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PlantMaterial0",
+        "descriptionShort": "$STR_CfgVehicles_PlantMaterial1",
+        "model": "\\dz\\gear\\cultivation\\plant_material.p3d",
+        "inventorySlot": [
+          "Plant"
+        ],
+        "lootCategory": "Crafted",
+        "itemSize": [
+          3,
+          2
+        ],
+        "rotationFlags": 34,
+        "weight": 0,
+        "weightPerQuantityUnit": 9.5,
+        "spawnOffset": 0,
+        "varQuantityInit": 350,
+        "varQuantityMin": 0,
+        "varQuantityMax": 350,
+        "quantityBar": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::potatoseed",
+      "className": "PotatoSeed",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "SeedBase",
+      "displayNameKey": "$STR_PotatoSeed0",
+      "fallbackName": "Potato Seed",
+      "descriptionShortKey": "$STR_PotatoSeed1",
+      "model": "\\dz\\gear\\food\\potato.p3d",
+      "weight": 0,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13",
+        "Trap_Bait_2"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::seedbase",
+        "cfgvehicles::potatoseed"
+      ],
+      "properties": {
+        "scope": 2,
+        "weight": 0,
+        "itemSize": [
+          2,
+          1
+        ],
+        "spawnOffset": 0,
+        "lootCategory": "Crafted",
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13",
+          "Trap_Bait_2"
+        ],
+        "displayName": "$STR_PotatoSeed0",
+        "descriptionShort": "$STR_PotatoSeed1",
+        "model": "\\dz\\gear\\food\\potato.p3d",
+        "varQuantityInit": 1,
+        "varQuantityMin": 0,
+        "varQuantityMax": 1,
+        "varTemperatureFreezeTime": 2640,
+        "varTemperatureThawTime": 2640,
+        "varTemperatureFreezePoint": -2,
+        "varTemperatureThawPoint": -2,
+        "varTemperatureMax": 105,
+        "varTemperatureMin": -100,
+        "rotationFlags": 12,
+        "stackedUnit": "g",
+        "absorbency": 0.2
+      }
+    },
+    {
+      "id": "cfgvehicles::pumpkinseeds",
+      "className": "PumpkinSeeds",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "SeedBase",
+      "displayNameKey": "$STR_CfgVehicles_PumpkinSeeds0",
+      "fallbackName": "Pumpkin Seeds",
+      "descriptionShortKey": "$STR_CfgVehicles_PumpkinSeeds1",
+      "model": "\\dz\\gear\\cultivation\\pumpkin_seeds.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13",
+        "Trap_Bait_2"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::seedbase",
+        "cfgvehicles::pumpkinseeds"
+      ],
+      "properties": {
+        "scope": 2,
+        "weight": 10,
+        "itemSize": [
+          1,
+          1
+        ],
+        "spawnOffset": 0,
+        "lootCategory": "Crafted",
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13",
+          "Trap_Bait_2"
+        ],
+        "displayName": "$STR_CfgVehicles_PumpkinSeeds0",
+        "descriptionShort": "$STR_CfgVehicles_PumpkinSeeds1",
+        "model": "\\dz\\gear\\cultivation\\pumpkin_seeds.p3d",
+        "canBeSplit": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20
+      }
+    },
+    {
+      "id": "cfgvehicles::pumpkinseedspack",
+      "className": "PumpkinSeedsPack",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PumpkinSeedsPack0",
+      "fallbackName": "Pumpkin Seeds Pack",
+      "descriptionShortKey": "$STR_CfgVehicles_PumpkinSeedsPack1",
+      "model": "\\dz\\gear\\cultivation\\Pumpkin_seeds_pack.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pumpkinseedspack"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PumpkinSeedsPack0",
+        "descriptionShort": "$STR_CfgVehicles_PumpkinSeedsPack1",
+        "model": "\\dz\\gear\\cultivation\\Pumpkin_seeds_pack.p3d",
+        "itemSize": [
+          1,
+          1
+        ],
+        "rotationFlags": 17,
+        "quantityBar": 1,
+        "weight": 30,
+        "spawnOffset": 0,
+        "lootCategory": "Materials",
+        "lootTag": [
+          "Farm",
+          "Kitchen",
+          "Forester"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::tomatoseeds",
+      "className": "TomatoSeeds",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "SeedBase",
+      "displayNameKey": "$STR_CfgVehicles_TomatoSeeds0",
+      "fallbackName": "Tomato Seeds",
+      "descriptionShortKey": "$STR_CfgVehicles_TomatoSeeds1",
+      "model": "\\dz\\gear\\cultivation\\tomato_seeds.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13",
+        "Trap_Bait_2"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::seedbase",
+        "cfgvehicles::tomatoseeds"
+      ],
+      "properties": {
+        "scope": 2,
+        "weight": 10,
+        "itemSize": [
+          1,
+          1
+        ],
+        "spawnOffset": 0,
+        "lootCategory": "Crafted",
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13",
+          "Trap_Bait_2"
+        ],
+        "displayName": "$STR_CfgVehicles_TomatoSeeds0",
+        "descriptionShort": "$STR_CfgVehicles_TomatoSeeds1",
+        "model": "\\dz\\gear\\cultivation\\tomato_seeds.p3d",
+        "canBeSplit": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20
+      }
+    },
+    {
+      "id": "cfgvehicles::tomatoseedspack",
+      "className": "TomatoSeedsPack",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_TomatoSeedsPack0",
+      "fallbackName": "Tomato Seeds Pack",
+      "descriptionShortKey": "$STR_CfgVehicles_TomatoSeedsPack1",
+      "model": "\\dz\\gear\\cultivation\\tomato_seeds_pack.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::tomatoseedspack"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TomatoSeedsPack0",
+        "descriptionShort": "$STR_CfgVehicles_TomatoSeedsPack1",
+        "model": "\\dz\\gear\\cultivation\\tomato_seeds_pack.p3d",
+        "rotationFlags": 17,
+        "quantityBar": 1,
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 30,
+        "spawnOffset": 0,
+        "lootCategory": "Materials",
+        "lootTag": [
+          "Farm",
+          "Kitchen",
+          "Forester"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::zucchiniseeds",
+      "className": "ZucchiniSeeds",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "SeedBase",
+      "displayNameKey": "$STR_CfgVehicles_ZucchiniSeeds0",
+      "fallbackName": "Zucchini Seeds",
+      "descriptionShortKey": "$STR_CfgVehicles_ZucchiniSeeds1",
+      "model": "\\dz\\gear\\cultivation\\Zucchini_seeds.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "SeedBase_1",
+        "SeedBase_2",
+        "SeedBase_3",
+        "SeedBase_4",
+        "SeedBase_5",
+        "SeedBase_6",
+        "SeedBase_7",
+        "SeedBase_8",
+        "SeedBase_9",
+        "SeedBase_10",
+        "SeedBase_11",
+        "SeedBase_12",
+        "SeedBase_13",
+        "Trap_Bait_2"
+      ],
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::seedbase",
+        "cfgvehicles::zucchiniseeds"
+      ],
+      "properties": {
+        "scope": 2,
+        "weight": 10,
+        "itemSize": [
+          1,
+          1
+        ],
+        "spawnOffset": 0,
+        "lootCategory": "Crafted",
+        "inventorySlot": [
+          "SeedBase_1",
+          "SeedBase_2",
+          "SeedBase_3",
+          "SeedBase_4",
+          "SeedBase_5",
+          "SeedBase_6",
+          "SeedBase_7",
+          "SeedBase_8",
+          "SeedBase_9",
+          "SeedBase_10",
+          "SeedBase_11",
+          "SeedBase_12",
+          "SeedBase_13",
+          "Trap_Bait_2"
+        ],
+        "displayName": "$STR_CfgVehicles_ZucchiniSeeds0",
+        "descriptionShort": "$STR_CfgVehicles_ZucchiniSeeds1",
+        "model": "\\dz\\gear\\cultivation\\Zucchini_seeds.p3d",
+        "canBeSplit": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20
+      }
+    },
+    {
+      "id": "cfgvehicles::zucchiniseedspack",
+      "className": "ZucchiniSeedsPack",
+      "section": "CfgVehicles",
+      "category": "cultivation",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_ZucchiniSeedsPack0",
+      "fallbackName": "Zucchini Seeds Pack",
+      "descriptionShortKey": "$STR_CfgVehicles_ZucchiniSeedsPack1",
+      "model": "\\dz\\gear\\cultivation\\Zucchini_seeds_pack.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_cultivation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::zucchiniseedspack"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ZucchiniSeedsPack0",
+        "descriptionShort": "$STR_CfgVehicles_ZucchiniSeedsPack1",
+        "model": "\\dz\\gear\\cultivation\\Zucchini_seeds_pack.p3d",
+        "rotationFlags": 17,
+        "quantityBar": 1,
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 30,
+        "spawnOffset": 0,
+        "lootCategory": "Materials",
+        "lootTag": [
+          "Farm",
+          "Kitchen",
+          "Forester"
+        ]
+      }
+    }
+  ]
+}

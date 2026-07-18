@@ -1,0 +1,545 @@
+{
+  "metadata": {
+    "category": "electronics",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 9
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::baseradio",
+      "className": "BaseRadio",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "Transmitter_Base",
+      "displayNameKey": "$STR_CfgVehicles_BaseRadio0",
+      "fallbackName": "Base Radio",
+      "descriptionShortKey": "$STR_CfgVehicles_BaseRadio1",
+      "model": "\\dz\\gear\\radio\\Base_radio_station_g.p3d",
+      "weight": 10000,
+      "itemSize": [
+        5,
+        5
+      ],
+      "scope": 2,
+      "attachments": [
+        "CarBattery"
+      ],
+      "inventorySlot": [
+        "Back"
+      ],
+      "sourcePbo": "gear_radio.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::transmitter_base",
+        "cfgvehicles::baseradio"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BaseRadio0",
+        "descriptionShort": "$STR_CfgVehicles_BaseRadio1",
+        "model": "\\dz\\gear\\radio\\Base_radio_station_g.p3d",
+        "weight": 10000,
+        "absorbency": 0.5,
+        "itemSize": [
+          5,
+          5
+        ],
+        "inventorySlot": [
+          "Back"
+        ],
+        "oldpower": 0,
+        "simulation": "itemTransmitter",
+        "inputRange": 8,
+        "range": 50000,
+        "attachments": [
+          "CarBattery"
+        ],
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "metal",
+        "soundAttType": "Small"
+      }
+    },
+    {
+      "id": "cfgvehicles::battery9v",
+      "className": "Battery9V",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Battery9V0",
+      "fallbackName": "Battery 9 V",
+      "descriptionShortKey": "$STR_CfgVehicles_Battery9V1",
+      "model": "\\dz\\gear\\consumables\\9v_battery.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "BatteryD"
+      ],
+      "sourcePbo": "gear_consumables.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::battery9v"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Battery9V0",
+        "descriptionShort": "$STR_CfgVehicles_Battery9V1",
+        "model": "\\dz\\gear\\consumables\\9v_battery.p3d",
+        "isMeleeWeapon": 1,
+        "weight": 10,
+        "weightPerQuantityUnit": 0,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          1
+        ],
+        "stackedUnit": "w",
+        "quantityBar": 1,
+        "varQuantityInit": 50,
+        "varQuantityMin": 0,
+        "varQuantityMax": 50,
+        "varQuantityDestroyOnMin": 0,
+        "inventorySlot": [
+          "BatteryD"
+        ],
+        "rotationFlags": 17
+      }
+    },
+    {
+      "id": "cfgvehicles::batterycharger",
+      "className": "BatteryCharger",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BatteryCharger0",
+      "fallbackName": "Battery Charger",
+      "descriptionShortKey": "$STR_CfgVehicles_BatteryCharger1",
+      "model": "\\dz\\gear\\camping\\battery_charger.p3d",
+      "weight": 5000,
+      "itemSize": [
+        3,
+        3
+      ],
+      "scope": 2,
+      "attachments": [
+        "LargeBattery"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\battery_charger_co.paa",
+        "dz\\gear\\camping\\data\\battery_charger_co.paa",
+        "dz\\gear\\camping\\data\\battery_charger_co.paa",
+        "dz\\gear\\camping\\data\\battery_charger_co.paa",
+        "dz\\gear\\camping\\data\\battery_charger_co.paa",
+        "dz\\gear\\camping\\data\\battery_charger_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::batterycharger"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BatteryCharger0",
+        "descriptionShort": "$STR_CfgVehicles_BatteryCharger1",
+        "model": "\\dz\\gear\\camping\\battery_charger.p3d",
+        "slopeTolerance": 0.15000001,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "attachments": [
+          "LargeBattery"
+        ],
+        "weight": 5000,
+        "itemSize": [
+          3,
+          3
+        ],
+        "itemBehaviour": 1,
+        "rotationFlags": 2,
+        "hiddenSelections": [
+          "clips_detached",
+          "clips_folded",
+          "cord_plugged",
+          "cord_folded",
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\battery_charger_co.paa",
+          "dz\\gear\\camping\\data\\battery_charger_co.paa",
+          "dz\\gear\\camping\\data\\battery_charger_co.paa",
+          "dz\\gear\\camping\\data\\battery_charger_co.paa",
+          "dz\\gear\\camping\\data\\battery_charger_co.paa",
+          "dz\\gear\\camping\\data\\battery_charger_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\battery_charger.rvmat",
+          "dz\\gear\\camping\\data\\battery_charger.rvmat",
+          "dz\\gear\\camping\\data\\battery_charger.rvmat",
+          "dz\\gear\\camping\\data\\battery_charger.rvmat",
+          "dz\\gear\\camping\\data\\battery_charger.rvmat"
+        ],
+        "hologramMaterial": "battery_charger",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "ChargeEnergyPerSecond": 1,
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::gpsreceiver",
+      "className": "GPSReceiver",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "ItemGPS",
+      "displayNameKey": "$STR_GPSReceiver0",
+      "fallbackName": "GPSReceiver",
+      "descriptionShortKey": "$STR_GPSReceiver1",
+      "model": "\\dz\\gear\\navigation\\GPSReceiver.p3d",
+      "weight": 350,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "attachments": [
+        "BatteryD"
+      ],
+      "inventorySlot": [
+        "WalkieTalkie",
+        "Chemlight"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+        "dz\\gear\\navigation\\data\\GPS_dash_ca.paa"
+      ],
+      "sourcePbo": "gear_navigation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemgps",
+        "cfgvehicles::gpsreceiver"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_GPSReceiver0",
+        "descriptionShort": "$STR_GPSReceiver1",
+        "model": "\\dz\\gear\\navigation\\GPSReceiver.p3d",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 350,
+        "rotationFlags": 1,
+        "simulation": "ItemGPS",
+        "inventorySlot": [
+          "WalkieTalkie",
+          "Chemlight"
+        ],
+        "attachments": [
+          "BatteryD"
+        ],
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          50
+        ],
+        "hiddenSelections": [
+          "grid_1_0",
+          "grid_1_1",
+          "grid_1_2",
+          "grid_2_0",
+          "grid_2_1",
+          "grid_2_2",
+          "alt_0",
+          "alt_1",
+          "alt_2",
+          "alt_3"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa",
+          "dz\\gear\\navigation\\data\\GPS_dash_ca.paa"
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::land_radio_panelbig",
+      "className": "Land_Radio_PanelBig",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "HouseNoDestruct",
+      "displayNameKey": "$STR_CfgVehicles_Land_Radio_PanelBig0",
+      "fallbackName": "Land Radio Panel Big",
+      "descriptionShortKey": "$STR_CfgVehicles_Land_Radio_PanelBig1",
+      "model": "\\dz\\structures\\Specific\\Radio\\Radio_PanelBig.p3d",
+      "scope": 2,
+      "attachments": [
+        "LargeBattery"
+      ],
+      "sourcePbo": "structures_specific.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::housenodestruct",
+        "cfgvehicles::land_radio_panelbig"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Land_Radio_PanelBig0",
+        "descriptionShort": "$STR_CfgVehicles_Land_Radio_PanelBig1",
+        "model": "\\dz\\structures\\Specific\\Radio\\Radio_PanelBig.p3d",
+        "oldpower": 0,
+        "simulation": "statictransmitter",
+        "inputRange": 8,
+        "range": 20000,
+        "useEntityHierarchy": "true",
+        "attachments": [
+          "LargeBattery"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::land_radio_panelpas",
+      "className": "Land_Radio_PanelPAS",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "HouseNoDestruct",
+      "displayNameKey": "$STR_CfgVehicles_Land_Radio_PanelPAS0",
+      "fallbackName": "Land Radio Panel PAS",
+      "descriptionShortKey": "$STR_CfgVehicles_Land_Radio_PanelPAS1",
+      "model": "\\dz\\structures\\Specific\\Radio\\Radio_PanelPAS.p3d",
+      "scope": 2,
+      "attachments": [
+        "LargeBattery"
+      ],
+      "sourcePbo": "structures_specific.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::housenodestruct",
+        "cfgvehicles::land_radio_panelpas"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Land_Radio_PanelPAS0",
+        "descriptionShort": "$STR_CfgVehicles_Land_Radio_PanelPAS1",
+        "model": "\\dz\\structures\\Specific\\Radio\\Radio_PanelPAS.p3d",
+        "oldpower": 0,
+        "simulation": "pasbroadcaster",
+        "inputRange": 8,
+        "useEntityHierarchy": "true",
+        "attachments": [
+          "LargeBattery"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::megaphone",
+      "className": "Megaphone",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Megaphone0",
+      "fallbackName": "Megaphone",
+      "descriptionShortKey": "$STR_CfgVehicles_Megaphone1",
+      "model": "\\dz\\gear\\radio\\megaphone.p3d",
+      "weight": 2400,
+      "itemSize": [
+        3,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "BatteryD"
+      ],
+      "sourcePbo": "gear_radio.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::megaphone"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Megaphone0",
+        "descriptionShort": "$STR_CfgVehicles_Megaphone1",
+        "lootTag": [
+          "Police",
+          "Military_east"
+        ],
+        "model": "\\dz\\gear\\radio\\megaphone.p3d",
+        "weight": 2400,
+        "absorbency": 0.5,
+        "itemSize": [
+          3,
+          4
+        ],
+        "rotationFlags": 17,
+        "oldpower": 0,
+        "simulation": "itemMegaphone",
+        "range": 200,
+        "gain": 3,
+        "attachments": [
+          "BatteryD"
+        ],
+        "repairableWithKits": [
+          5,
+          7
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::personalradio",
+      "className": "PersonalRadio",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "Transmitter_Base",
+      "displayNameKey": "$STR_CfgVehicles_PersonalRadio0",
+      "fallbackName": "Personal Radio",
+      "descriptionShortKey": "$STR_CfgVehicles_PersonalRadio1",
+      "model": "\\dz\\gear\\radio\\WalkieTalkie.p3d",
+      "weight": 250,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "attachments": [
+        "BatteryD"
+      ],
+      "inventorySlot": [
+        "WalkieTalkie",
+        "Chemlight"
+      ],
+      "sourcePbo": "gear_radio.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::transmitter_base",
+        "cfgvehicles::personalradio"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PersonalRadio0",
+        "descriptionShort": "$STR_CfgVehicles_PersonalRadio1",
+        "lootTag": [
+          "Police",
+          "Hunting",
+          "Camping",
+          "Military_east"
+        ],
+        "model": "\\dz\\gear\\radio\\WalkieTalkie.p3d",
+        "weight": 250,
+        "absorbency": 0.5,
+        "itemSize": [
+          1,
+          3
+        ],
+        "inventorySlot": [
+          "WalkieTalkie",
+          "Chemlight"
+        ],
+        "rotationFlags": 1,
+        "oldpower": 0,
+        "isMeleeWeapon": 1,
+        "simulation": "itemTransmitter",
+        "inputRange": [
+          2,
+          5,
+          10
+        ],
+        "range": 5000,
+        "attachments": [
+          "BatteryD"
+        ],
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::radio",
+      "className": "Radio",
+      "section": "CfgVehicles",
+      "category": "electronics",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Radio0",
+      "fallbackName": "Radio",
+      "descriptionShortKey": "$STR_CfgVehicles_Radio1",
+      "model": "\\dz\\gear\\radio\\unitra_wilga.p3d",
+      "weight": 1700,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "attachments": [
+        "BatteryD"
+      ],
+      "sourcePbo": "gear_radio.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::radio"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Radio0",
+        "descriptionShort": "$STR_CfgVehicles_Radio1",
+        "model": "\\dz\\gear\\radio\\unitra_wilga.p3d",
+        "animClass": "Knife",
+        "weight": 1700,
+        "itemSize": [
+          2,
+          3
+        ],
+        "fragility": 0.0099999998,
+        "absorbency": 0.5,
+        "simulation": "ItemRadio",
+        "attachments": [
+          "BatteryD"
+        ],
+        "oldpower": 0,
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "plastic"
+      }
+    }
+  ]
+}

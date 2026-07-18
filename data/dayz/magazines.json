@@ -1,0 +1,6126 @@
+{
+  "metadata": {
+    "category": "magazine",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 121
+  },
+  "items": [
+    {
+      "id": "cfgmagazines::ammo_12gabeanbag",
+      "className": "Ammo_12gaBeanbag",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "TODO",
+      "fallbackName": "Ammo 12 ga Beanbag",
+      "descriptionShortKey": "TODO",
+      "model": "\\dz\\weapons\\ammunition\\12ga_beanbag.p3d",
+      "weight": 8,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_12gabeanbag"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_12GaugeBeanbag",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "TODO",
+        "descriptionShort": "TODO",
+        "model": "\\dz\\weapons\\ammunition\\12ga_beanbag.p3d",
+        "weight": 8,
+        "count": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_12gapellets",
+      "className": "Ammo_12gaPellets",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_12gaPellets0",
+      "fallbackName": "Ammo 12 ga Pellets",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_12gaPellets1",
+      "model": "\\dz\\weapons\\ammunition\\12ga_00buck.p3d",
+      "weight": 35,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_12gapellets"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_12GaugePellets",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_12gaPellets0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_12gaPellets1",
+        "model": "\\dz\\weapons\\ammunition\\12ga_00buck.p3d",
+        "weight": 35,
+        "count": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_12garubberslug",
+      "className": "Ammo_12gaRubberSlug",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_12gaRubberSlug0",
+      "fallbackName": "Ammo 12 ga Rubber Slug",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_12gaRubberSlug1",
+      "model": "\\dz\\weapons\\ammunition\\12ga_RubberRifled_slug.p3d",
+      "weight": 8,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_12garubberslug"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_12GaugeRubberSlug",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_12gaRubberSlug0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_12gaRubberSlug1",
+        "model": "\\dz\\weapons\\ammunition\\12ga_RubberRifled_slug.p3d",
+        "weight": 8,
+        "count": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_12gaslug",
+      "className": "Ammo_12gaSlug",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_12gaSlug0",
+      "fallbackName": "Ammo 12 ga Slug",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_12gaSlug1",
+      "model": "\\dz\\weapons\\ammunition\\12ga_rifled_slug.p3d",
+      "weight": 35,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_12gaslug"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_12GaugeSlug",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_12gaSlug0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_12gaSlug1",
+        "model": "\\dz\\weapons\\ammunition\\12ga_rifled_slug.p3d",
+        "weight": 35,
+        "count": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_22",
+      "className": "Ammo_22",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_220",
+      "fallbackName": "Ammo 22",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_221",
+      "model": "\\dz\\weapons\\ammunition\\22_LooseRounds.p3d",
+      "weight": 3,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_22"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 1,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_22",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_220",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_221",
+        "model": "\\dz\\weapons\\ammunition\\22_LooseRounds.p3d",
+        "weight": 3,
+        "count": 50
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_308win",
+      "className": "Ammo_308Win",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_308Win0",
+      "fallbackName": "Ammo 308 Win",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_308Win1",
+      "model": "\\dz\\weapons\\ammunition\\308Win_LooseRounds.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_308win"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 3,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_308Win",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_308Win0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_308Win1",
+        "model": "\\dz\\weapons\\ammunition\\308Win_LooseRounds.p3d",
+        "weight": 10,
+        "count": 20
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_308wintracer",
+      "className": "Ammo_308WinTracer",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_308WinTracer0",
+      "fallbackName": "Ammo 308 Win Tracer",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_308WinTracer1",
+      "model": "\\dz\\weapons\\ammunition\\308Win_LooseRounds.p3d",
+      "weight": 9,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\Data\\308_loose_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_308wintracer"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 3,
+        "iconType": 1,
+        "repairableWithKits": [],
+        "ammo": "Bullet_308WinTracer",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_308WinTracer0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_308WinTracer1",
+        "model": "\\dz\\weapons\\ammunition\\308Win_LooseRounds.p3d",
+        "weight": 9,
+        "count": 20,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\Data\\308_loose_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_357",
+      "className": "Ammo_357",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_3570",
+      "fallbackName": "Ammo 357",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_3571",
+      "model": "\\dz\\weapons\\ammunition\\357_looseRounds.p3d",
+      "weight": 8,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_357"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 1,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_357",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_3570",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_3571",
+        "model": "\\dz\\weapons\\ammunition\\357_looseRounds.p3d",
+        "weight": 8,
+        "count": 20
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_380",
+      "className": "Ammo_380",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_3800",
+      "fallbackName": "Ammo 380",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_3801",
+      "model": "\\dz\\weapons\\ammunition\\380auto_LooseRounds.p3d",
+      "weight": 6,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_380"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 1,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_380",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_3800",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_3801",
+        "model": "\\dz\\weapons\\ammunition\\380auto_LooseRounds.p3d",
+        "weight": 6,
+        "count": 35
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_40mm_chemgas",
+      "className": "Ammo_40mm_ChemGas",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_40mm_Base",
+      "displayNameKey": "$STR_Ammo_40mm_ChemGas0",
+      "fallbackName": "Ammo 40 mm Chem Gas",
+      "descriptionShortKey": "$STR_Ammo_40mm_ChemGas1",
+      "model": "\\dz\\weapons\\ammunition\\40mm_grenade_ChemGas.p3d",
+      "weight": 230,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "IEDExplosiveA",
+        "IEDExplosiveB",
+        "VestGrenadeA",
+        "VestGrenadeB",
+        "VestGrenadeC",
+        "VestGrenadeD"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_40mm_base",
+        "cfgmagazines::ammo_40mm_chemgas"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_40mm_ChemGas",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_Ammo_40mm_ChemGas0",
+        "descriptionShort": "$STR_Ammo_40mm_ChemGas1",
+        "model": "\\dz\\weapons\\ammunition\\40mm_grenade_ChemGas.p3d",
+        "weight": 230,
+        "count": 1,
+        "inventorySlot": [
+          "IEDExplosiveA",
+          "IEDExplosiveB",
+          "VestGrenadeA",
+          "VestGrenadeB",
+          "VestGrenadeC",
+          "VestGrenadeD"
+        ],
+        "muzzleFlashParticle": "weapon_shot_izh18_01"
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_40mm_explosive",
+      "className": "Ammo_40mm_Explosive",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_40mm_Base",
+      "displayNameKey": "$STR_Ammo_40mm_Explosive0",
+      "fallbackName": "Ammo 40 mm Explosive",
+      "descriptionShortKey": "$STR_Ammo_40mm_Explosive1",
+      "model": "\\dz\\weapons\\ammunition\\40mm_grenade.p3d",
+      "weight": 230,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "IEDExplosiveA",
+        "IEDExplosiveB",
+        "VestGrenadeA",
+        "VestGrenadeB",
+        "VestGrenadeC",
+        "VestGrenadeD"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_40mm_base",
+        "cfgmagazines::ammo_40mm_explosive"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_40mm_Explosive",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_Ammo_40mm_Explosive0",
+        "descriptionShort": "$STR_Ammo_40mm_Explosive1",
+        "model": "\\dz\\weapons\\ammunition\\40mm_grenade.p3d",
+        "weight": 230,
+        "count": 1,
+        "inventorySlot": [
+          "IEDExplosiveA",
+          "IEDExplosiveB",
+          "VestGrenadeA",
+          "VestGrenadeB",
+          "VestGrenadeC",
+          "VestGrenadeD"
+        ],
+        "muzzleFlashParticle": "weapon_shot_izh18_01"
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_40mm_smoke_black",
+      "className": "Ammo_40mm_Smoke_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_40mm_Smoke_ColorBase",
+      "displayNameKey": "$STR_Ammo_40mm_Smoke0",
+      "fallbackName": "Ammo 40 mm Smoke Black",
+      "descriptionShortKey": "$STR_Ammo_40mm_Smoke1",
+      "model": "\\dz\\weapons\\ammunition\\40mm_grenade_smoke_b.p3d",
+      "weight": 230,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "IEDExplosiveA",
+        "IEDExplosiveB",
+        "VestGrenadeA",
+        "VestGrenadeB",
+        "VestGrenadeC",
+        "VestGrenadeD"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_40mm_base",
+        "cfgmagazines::ammo_40mm_smoke_colorbase",
+        "cfgmagazines::ammo_40mm_smoke_black"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_40mm_Smoke_Black",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "smoke_M18_black_02",
+        "particleLifeTime": 60,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_Ammo_40mm_Smoke0",
+        "descriptionShort": "$STR_Ammo_40mm_Smoke1",
+        "model": "\\dz\\weapons\\ammunition\\40mm_grenade_smoke_b.p3d",
+        "weight": 230,
+        "count": 1,
+        "inventorySlot": [
+          "IEDExplosiveA",
+          "IEDExplosiveB",
+          "VestGrenadeA",
+          "VestGrenadeB",
+          "VestGrenadeC",
+          "VestGrenadeD"
+        ],
+        "muzzleFlashParticle": "weapon_shot_izh18_01"
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_40mm_smoke_green",
+      "className": "Ammo_40mm_Smoke_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_40mm_Smoke_ColorBase",
+      "displayNameKey": "$STR_Ammo_40mm_Smoke0",
+      "fallbackName": "Ammo 40 mm Smoke Green",
+      "descriptionShortKey": "$STR_Ammo_40mm_Smoke1",
+      "model": "\\dz\\weapons\\ammunition\\40mm_grenade_smoke_g.p3d",
+      "weight": 230,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "IEDExplosiveA",
+        "IEDExplosiveB",
+        "VestGrenadeA",
+        "VestGrenadeB",
+        "VestGrenadeC",
+        "VestGrenadeD"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_40mm_base",
+        "cfgmagazines::ammo_40mm_smoke_colorbase",
+        "cfgmagazines::ammo_40mm_smoke_green"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_40mm_Smoke_Green",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "smoke_M18_green_02",
+        "particleLifeTime": 60,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_Ammo_40mm_Smoke0",
+        "descriptionShort": "$STR_Ammo_40mm_Smoke1",
+        "model": "\\dz\\weapons\\ammunition\\40mm_grenade_smoke_g.p3d",
+        "weight": 230,
+        "count": 1,
+        "inventorySlot": [
+          "IEDExplosiveA",
+          "IEDExplosiveB",
+          "VestGrenadeA",
+          "VestGrenadeB",
+          "VestGrenadeC",
+          "VestGrenadeD"
+        ],
+        "muzzleFlashParticle": "weapon_shot_izh18_01"
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_40mm_smoke_red",
+      "className": "Ammo_40mm_Smoke_Red",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_40mm_Smoke_ColorBase",
+      "displayNameKey": "$STR_Ammo_40mm_Smoke0",
+      "fallbackName": "Ammo 40 mm Smoke Red",
+      "descriptionShortKey": "$STR_Ammo_40mm_Smoke1",
+      "model": "\\dz\\weapons\\ammunition\\40mm_grenade_smoke_r.p3d",
+      "weight": 230,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "IEDExplosiveA",
+        "IEDExplosiveB",
+        "VestGrenadeA",
+        "VestGrenadeB",
+        "VestGrenadeC",
+        "VestGrenadeD"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_40mm_base",
+        "cfgmagazines::ammo_40mm_smoke_colorbase",
+        "cfgmagazines::ammo_40mm_smoke_red"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_40mm_Smoke_Red",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "smoke_M18_red_02",
+        "particleLifeTime": 60,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_Ammo_40mm_Smoke0",
+        "descriptionShort": "$STR_Ammo_40mm_Smoke1",
+        "model": "\\dz\\weapons\\ammunition\\40mm_grenade_smoke_r.p3d",
+        "weight": 230,
+        "count": 1,
+        "inventorySlot": [
+          "IEDExplosiveA",
+          "IEDExplosiveB",
+          "VestGrenadeA",
+          "VestGrenadeB",
+          "VestGrenadeC",
+          "VestGrenadeD"
+        ],
+        "muzzleFlashParticle": "weapon_shot_izh18_01"
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_40mm_smoke_white",
+      "className": "Ammo_40mm_Smoke_White",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_40mm_Smoke_ColorBase",
+      "displayNameKey": "$STR_Ammo_40mm_Smoke0",
+      "fallbackName": "Ammo 40 mm Smoke White",
+      "descriptionShortKey": "$STR_Ammo_40mm_Smoke1",
+      "model": "\\dz\\weapons\\ammunition\\40mm_grenade_smoke_w.p3d",
+      "weight": 230,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "IEDExplosiveA",
+        "IEDExplosiveB",
+        "VestGrenadeA",
+        "VestGrenadeB",
+        "VestGrenadeC",
+        "VestGrenadeD"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_40mm_base",
+        "cfgmagazines::ammo_40mm_smoke_colorbase",
+        "cfgmagazines::ammo_40mm_smoke_white"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_40mm_Smoke_White",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "smoke_M18_white_02",
+        "particleLifeTime": 60,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_Ammo_40mm_Smoke0",
+        "descriptionShort": "$STR_Ammo_40mm_Smoke1",
+        "model": "\\dz\\weapons\\ammunition\\40mm_grenade_smoke_w.p3d",
+        "weight": 230,
+        "count": 1,
+        "inventorySlot": [
+          "IEDExplosiveA",
+          "IEDExplosiveB",
+          "VestGrenadeA",
+          "VestGrenadeB",
+          "VestGrenadeC",
+          "VestGrenadeD"
+        ],
+        "muzzleFlashParticle": "weapon_shot_izh18_01"
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_45acp",
+      "className": "Ammo_45ACP",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_45ACP0",
+      "fallbackName": "Ammo 45 ACP",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_45ACP1",
+      "model": "\\dz\\weapons\\ammunition\\45acp_LooseRounds.p3d",
+      "weight": 12,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_45acp"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 1,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_45ACP",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_45ACP0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_45ACP1",
+        "model": "\\dz\\weapons\\ammunition\\45acp_LooseRounds.p3d",
+        "weight": 12,
+        "count": 25
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_545x39",
+      "className": "Ammo_545x39",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_545x390",
+      "fallbackName": "Ammo 545 x 39",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_545x391",
+      "model": "\\dz\\weapons\\ammunition\\545x39_LooseRounds.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_545x39"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 2,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_545x39",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_545x390",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_545x391",
+        "model": "\\dz\\weapons\\ammunition\\545x39_LooseRounds.p3d",
+        "weight": 4,
+        "count": 20
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_545x39tracer",
+      "className": "Ammo_545x39Tracer",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_545x39Tracer0",
+      "fallbackName": "Ammo 545 x 39 Tracer",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_545x39Tracer1",
+      "model": "\\dz\\weapons\\ammunition\\545x39_LooseRounds.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\545x39_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_545x39tracer"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 2,
+        "iconType": 1,
+        "repairableWithKits": [],
+        "ammo": "Bullet_545x39Tracer",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_545x39Tracer0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_545x39Tracer1",
+        "model": "\\dz\\weapons\\ammunition\\545x39_LooseRounds.p3d",
+        "weight": 4,
+        "count": 20,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\545x39_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_556x45",
+      "className": "Ammo_556x45",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_556x450",
+      "fallbackName": "Ammo 556 x 45",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_556x451",
+      "model": "\\dz\\weapons\\ammunition\\556_LooseRounds.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_556x45"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 2,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_556x45",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_556x450",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_556x451",
+        "model": "\\dz\\weapons\\ammunition\\556_LooseRounds.p3d",
+        "weight": 4,
+        "count": 20
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_556x45tracer",
+      "className": "Ammo_556x45Tracer",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_556x45Tracer0",
+      "fallbackName": "Ammo 556 x 45 Tracer",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_556x45Tracer1",
+      "model": "\\dz\\weapons\\ammunition\\556_LooseRounds.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\Data\\556_loose_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_556x45tracer"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 2,
+        "iconType": 1,
+        "repairableWithKits": [],
+        "ammo": "Bullet_556x45Tracer",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_556x45Tracer0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_556x45Tracer1",
+        "model": "\\dz\\weapons\\ammunition\\556_LooseRounds.p3d",
+        "weight": 4,
+        "count": 20,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\Data\\556_loose_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_762x39",
+      "className": "Ammo_762x39",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_762x390",
+      "fallbackName": "Ammo 762 x 39",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_762x391",
+      "model": "\\dz\\weapons\\ammunition\\762x39_LooseRounds.p3d",
+      "weight": 8,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_762x39"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 2,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_762x39",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_762x390",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_762x391",
+        "model": "\\dz\\weapons\\ammunition\\762x39_LooseRounds.p3d",
+        "weight": 8,
+        "count": 20,
+        "muzzleFlashParticle": "weapon_shot_izh18_01"
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_762x39tracer",
+      "className": "Ammo_762x39Tracer",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_762x39Tracer0",
+      "fallbackName": "Ammo 762 x 39 Tracer",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_762x39Tracer1",
+      "model": "\\dz\\weapons\\ammunition\\762x39_LooseRounds.p3d",
+      "weight": 8,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\ammunition\\data\\762x39_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_762x39tracer"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 2,
+        "iconType": 1,
+        "repairableWithKits": [],
+        "ammo": "Bullet_762x39Tracer",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_762x39Tracer0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_762x39Tracer1",
+        "model": "\\dz\\weapons\\ammunition\\762x39_LooseRounds.p3d",
+        "weight": 8,
+        "count": 20,
+        "muzzleFlashParticle": "weapon_shot_izh18_01",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\ammunition\\data\\762x39_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_762x54",
+      "className": "Ammo_762x54",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_762x540",
+      "fallbackName": "Ammo 762 x 54",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_762x541",
+      "model": "\\dz\\weapons\\ammunition\\762_LooseRounds.p3d",
+      "weight": 9,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_762x54"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 3,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_762x54",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_762x540",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_762x541",
+        "model": "\\dz\\weapons\\ammunition\\762_LooseRounds.p3d",
+        "weight": 9,
+        "count": 20
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_762x54tracer",
+      "className": "Ammo_762x54Tracer",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_762x54Tracer0",
+      "fallbackName": "Ammo 762 x 54 Tracer",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_762x54Tracer1",
+      "model": "\\dz\\weapons\\ammunition\\762_LooseRounds.p3d",
+      "weight": 9,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\mosinclip_tracer_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_762x54tracer"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 3,
+        "iconType": 1,
+        "repairableWithKits": [],
+        "ammo": "Bullet_762x54Tracer",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_762x54Tracer0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_762x54Tracer1",
+        "model": "\\dz\\weapons\\ammunition\\762_LooseRounds.p3d",
+        "weight": 9,
+        "count": 20,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\mosinclip_tracer_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_9x19",
+      "className": "Ammo_9x19",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_9x190",
+      "fallbackName": "Ammo 9 x 19",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_9x191",
+      "model": "\\dz\\weapons\\ammunition\\9mm_LooseRounds.p3d",
+      "weight": 8,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_9x19"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 1,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_9x19",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_9x190",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_9x191",
+        "model": "\\dz\\weapons\\ammunition\\9mm_LooseRounds.p3d",
+        "weight": 8,
+        "count": 25,
+        "muzzleFlashParticle": "weapon_shot_mp5k_01"
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_9x39",
+      "className": "Ammo_9x39",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_9x390",
+      "fallbackName": "Ammo 9 x 39",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_9x391",
+      "model": "\\dz\\weapons\\ammunition\\9x39_LooseRounds.p3d",
+      "weight": 17,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\vss_mag_variant_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_9x39"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 2,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_9x39",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_9x390",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_9x391",
+        "model": "\\dz\\weapons\\ammunition\\9x39_LooseRounds.p3d",
+        "weight": 17,
+        "count": 20,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\vss_mag_variant_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\magazine\\data\\vss_mag_variant.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_9x39ap",
+      "className": "Ammo_9x39AP",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_cfgmagazines_ammo_9x39AP0",
+      "fallbackName": "Ammo 9 x 39 AP",
+      "descriptionShortKey": "$STR_cfgmagazines_ammo_9x39AP1",
+      "model": "\\dz\\weapons\\ammunition\\9x39_LooseRounds.p3d",
+      "weight": 16,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_9x39ap"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 2,
+        "iconType": 2,
+        "repairableWithKits": [],
+        "ammo": "Bullet_9x39AP",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_cfgmagazines_ammo_9x39AP0",
+        "descriptionShort": "$STR_cfgmagazines_ammo_9x39AP1",
+        "model": "\\dz\\weapons\\ammunition\\9x39_LooseRounds.p3d",
+        "weight": 16,
+        "count": 20
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_cupidsbolt",
+      "className": "Ammo_CupidsBolt",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_CupidsBolt0",
+      "fallbackName": "Ammo Cupids Bolt",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_CupidsBolt1",
+      "model": "\\dz\\weapons\\projectiles\\bolt_cupids.p3d",
+      "weight": 45,
+      "itemSize": [
+        4,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_cupidsbolt"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          4,
+          1
+        ],
+        "iconCartridge": 0,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_CupidsBolt",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "empty_arrows",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_CupidsBolt0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_CupidsBolt1",
+        "model": "\\dz\\weapons\\projectiles\\bolt_cupids.p3d",
+        "weight": 45,
+        "count": 5
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_flare",
+      "className": "Ammo_Flare",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_Flare0",
+      "fallbackName": "Ammo Flare",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_Flare1",
+      "model": "\\dz\\weapons\\ammunition\\Flare_SingleRound.p3d",
+      "weight": 80,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_flare"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_Flare",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_Flare0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_Flare1",
+        "model": "\\dz\\weapons\\ammunition\\Flare_SingleRound.p3d",
+        "weight": 80,
+        "count": 5
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_flareblue",
+      "className": "Ammo_FlareBlue",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_Flare",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_Flare0",
+      "fallbackName": "Ammo Flare Blue",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_Flare1",
+      "model": "\\dz\\weapons\\ammunition\\Flare_SingleRound_Blue.p3d",
+      "weight": 80,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_flare",
+        "cfgmagazines::ammo_flareblue"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_FlareBlue",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_Flare0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_Flare1",
+        "model": "\\dz\\weapons\\ammunition\\Flare_SingleRound_Blue.p3d",
+        "weight": 80,
+        "count": 5
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_flaregreen",
+      "className": "Ammo_FlareGreen",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_Flare",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_Flare0",
+      "fallbackName": "Ammo Flare Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_Flare1",
+      "model": "\\dz\\weapons\\ammunition\\Flare_SingleRound_Green.p3d",
+      "weight": 80,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_flare",
+        "cfgmagazines::ammo_flaregreen"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_FlareGreen",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_Flare0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_Flare1",
+        "model": "\\dz\\weapons\\ammunition\\Flare_SingleRound_Green.p3d",
+        "weight": 80,
+        "count": 5
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_flarered",
+      "className": "Ammo_FlareRed",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammo_Flare",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_Flare0",
+      "fallbackName": "Ammo Flare Red",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_Flare1",
+      "model": "\\dz\\weapons\\ammunition\\Flare_SingleRound_Red.p3d",
+      "weight": 80,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_flare",
+        "cfgmagazines::ammo_flarered"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          1,
+          1
+        ],
+        "iconCartridge": 4,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_FlareRed",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_Flare0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_Flare1",
+        "model": "\\dz\\weapons\\ammunition\\Flare_SingleRound_Red.p3d",
+        "weight": 80,
+        "count": 5
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_grenadem4",
+      "className": "Ammo_GrenadeM4",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_GrenadeM40",
+      "fallbackName": "Ammo Grenade M4",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_GrenadeM41",
+      "model": "\\dz\\weapons\\explosives\\grenade.p3d",
+      "weight": 397,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\explosives\\data\\grenade_co.paa"
+      ],
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_grenadem4"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 2,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 0,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "GrenadeM4",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_GrenadeM40",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_GrenadeM41",
+        "model": "\\dz\\weapons\\explosives\\grenade.p3d",
+        "weight": 397,
+        "count": 1,
+        "fuseDelay": 5,
+        "timeToLive": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\explosives\\data\\grenade_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\explosives\\data\\grenade.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_huntingbolt",
+      "className": "Ammo_HuntingBolt",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_HuntingBolt0",
+      "fallbackName": "Ammo Hunting Bolt",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_HuntingBolt1",
+      "model": "\\dz\\weapons\\projectiles\\bolt_biggame.p3d",
+      "weight": 35,
+      "itemSize": [
+        4,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_huntingbolt"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          4,
+          1
+        ],
+        "iconCartridge": 5,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_HuntingBolt",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "empty_arrows",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_HuntingBolt0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_HuntingBolt1",
+        "model": "\\dz\\weapons\\projectiles\\bolt_biggame.p3d",
+        "weight": 35,
+        "count": 5
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_improvisedbolt_1",
+      "className": "Ammo_ImprovisedBolt_1",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_ImprovisedBolt0",
+      "fallbackName": "Ammo Improvised Bolt 1",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_ImprovisedBolt1",
+      "model": "\\dz\\weapons\\projectiles\\bolt_crude.p3d",
+      "weight": 35,
+      "itemSize": [
+        4,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_improvisedbolt_1"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          4,
+          1
+        ],
+        "iconCartridge": 5,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_ImprovisedBolt_1",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "empty_arrows",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_ImprovisedBolt0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_ImprovisedBolt1",
+        "model": "\\dz\\weapons\\projectiles\\bolt_crude.p3d",
+        "weight": 35,
+        "count": 5
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_improvisedbolt_2",
+      "className": "Ammo_ImprovisedBolt_2",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_ImprovisedBolt0",
+      "fallbackName": "Ammo Improvised Bolt 2",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_ImprovisedBolt1",
+      "model": "\\dz\\weapons\\projectiles\\bolt_crafted.p3d",
+      "weight": 45,
+      "itemSize": [
+        4,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_improvisedbolt_2"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          4,
+          1
+        ],
+        "iconCartridge": 5,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Bullet_ImprovisedBolt_2",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "empty_arrows",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_ImprovisedBolt0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_ImprovisedBolt1",
+        "model": "\\dz\\weapons\\projectiles\\bolt_crafted.p3d",
+        "weight": 45,
+        "count": 5
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_law_he",
+      "className": "Ammo_LAW_HE",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_LAW_HE0",
+      "fallbackName": "Ammo LAW HE",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_LAW_HE1",
+      "model": "\\dz\\weapons\\launchers\\law\\law_rocket.p3d",
+      "weight": 1800,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_law_he"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 0,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Rocket_LAW_HE",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_LAW_HE0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_LAW_HE1",
+        "model": "\\dz\\weapons\\launchers\\law\\law_rocket.p3d",
+        "weight": 1800,
+        "count": 1
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_rpg7_ap",
+      "className": "Ammo_RPG7_AP",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_RPG7_AP0",
+      "fallbackName": "Ammo RPG 7 AP",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_RPG7_AP1",
+      "model": "\\dz\\weapons\\ammunition\\rocket_rpg7.p3d",
+      "weight": 2200,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_rpg7_ap"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 0,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Rocket_RPG7_AP",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_RPG7_AP0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_RPG7_AP1",
+        "model": "\\dz\\weapons\\ammunition\\rocket_rpg7.p3d",
+        "weight": 2200,
+        "count": 1
+      }
+    },
+    {
+      "id": "cfgmagazines::ammo_rpg7_he",
+      "className": "Ammo_RPG7_HE",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Ammunition_Base",
+      "displayNameKey": "$STR_CfgMagazines_Ammo_RPG7_HE0",
+      "fallbackName": "Ammo RPG 7 HE",
+      "descriptionShortKey": "$STR_CfgMagazines_Ammo_RPG7_HE1",
+      "model": "\\dz\\weapons\\ammunition\\rocket_rpg7.p3d",
+      "weight": 2200,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapons_ammunition.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::ammunition_base",
+        "cfgmagazines::ammo_rpg7_he"
+      ],
+      "properties": {
+        "debug_ItemCategory": 5,
+        "rotationFlags": 34,
+        "itemSize": [
+          2,
+          1
+        ],
+        "iconCartridge": 0,
+        "iconType": 0,
+        "repairableWithKits": [],
+        "ammo": "Rocket_RPG7_HE",
+        "spawnDamageRange": [
+          0,
+          0.60000002
+        ],
+        "particleStrIdentifier": "",
+        "particleLifeTime": 0,
+        "destroyOnEmpty": 1,
+        "varQuantityDestroyOnMin": 1,
+        "canBeSplit": 1,
+        "simpleHeap": 1,
+        "soundUse": "craft_rounds",
+        "emptySound": "craft_rounds",
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Ammo_RPG7_HE0",
+        "descriptionShort": "$STR_CfgMagazines_Ammo_RPG7_HE1",
+        "model": "\\dz\\weapons\\ammunition\\rocket_rpg7.p3d",
+        "weight": 2200,
+        "count": 1
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_12gasnaploader_2rnd",
+      "className": "Mag_12gaSnaploader_2Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_12gaSnaploader_2Rnd0",
+      "fallbackName": "Mag 12 ga Snaploader 2 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_12gaSnaploader_2Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\snaploader.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\snaploader_red_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_12gasnaploader_2rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_12gaSnaploader_2Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_12gaSnaploader_2Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\snaploader.p3d",
+        "weight": 10,
+        "weightPerQuantityUnit": 35,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 2,
+        "ammo": "Bullet_12GaugePellets",
+        "ammoItems": [
+          "Ammo_12gaPellets",
+          "Ammo_12gaSlug",
+          "Ammo_12gaRubberSlug"
+        ],
+        "tracersEvery": 0,
+        "mass": 10,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\snaploader_red_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_1911_7rnd",
+      "className": "Mag_1911_7Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_1911_7Rnd0",
+      "fallbackName": "Mag 1911 7 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_1911_7Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_1911.p3d",
+      "weight": 68,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\1911_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_1911_7rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_1911_7Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_1911_7Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_1911.p3d",
+        "weight": 68,
+        "weightPerQuantityUnit": 12,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 7,
+        "ammo": "Bullet_45ACP",
+        "ammoItems": [
+          "Ammo_45ACP"
+        ],
+        "tracersEvery": 0,
+        "mass": 10,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\1911_mag_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\1911.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_308winsnaploader_2rnd",
+      "className": "Mag_308WinSnaploader_2Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_308WinSnaploader_2Rnd0",
+      "fallbackName": "Mag 308 Win Snaploader 2 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_308WinSnaploader_2Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\snaploader_762.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_308winsnaploader_2rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_308WinSnaploader_2Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_308WinSnaploader_2Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\snaploader_762.p3d",
+        "weight": 30,
+        "weightPerQuantityUnit": 10,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 2,
+        "ammo": "Bullet_308Win",
+        "ammoItems": [
+          "Ammo_308Win",
+          "Ammo_308WinTracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_357speedloader_6rnd",
+      "className": "Mag_357Speedloader_6Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_357Speedloader_6Rnd0",
+      "fallbackName": "Mag 357 Speedloader 6 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_357Speedloader_6Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\357_SpeedLoader.p3d",
+      "weight": 25,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_357speedloader_6rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_357Speedloader_6Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_357Speedloader_6Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\357_SpeedLoader.p3d",
+        "weight": 25,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 6,
+        "ammo": "Bullet_357",
+        "ammoItems": [
+          "Ammo_357"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_762x54snaploader_2rnd",
+      "className": "Mag_762x54Snaploader_2Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_762x54Snaploader_2Rnd0",
+      "fallbackName": "Mag 762 x 54 Snaploader 2 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_762x54Snaploader_2Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\snaploader_762.p3d",
+      "weight": 20,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_762x54snaploader_2rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_762x54Snaploader_2Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_762x54Snaploader_2Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\snaploader_762.p3d",
+        "weight": 20,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 2,
+        "ammo": "Bullet_762x54",
+        "ammoItems": [
+          "Ammo_762x54",
+          "Ammo_762x54Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ak101_30rnd",
+      "className": "Mag_AK101_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AK101_30Rnd0",
+      "fallbackName": "Mag AK 101 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AK101_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak101_30rnd.p3d",
+      "weight": 400,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\firearms\\AK101\\data\\ak101_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ak101_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AK101_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AK101_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak101_30rnd.p3d",
+        "weight": 400,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\firearms\\AK101\\data\\ak101_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\weapons\\firearms\\AK101\\data\\ak101.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ak101_30rnd_black",
+      "className": "Mag_AK101_30Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AK101_30Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AK101_30Rnd0",
+      "fallbackName": "Mag AK 101 30 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AK101_30Rnd_Black0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak101_30rnd.p3d",
+      "weight": 400,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\firearms\\AK101\\data\\ak101_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ak101_30rnd",
+        "cfgmagazines::mag_ak101_30rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AK101_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AK101_30Rnd_Black0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak101_30rnd.p3d",
+        "weight": 400,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\firearms\\AK101\\data\\ak101_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\weapons\\firearms\\AK101\\data\\ak101.rvmat"
+        ],
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ak101_30rnd_green",
+      "className": "Mag_AK101_30Rnd_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AK101_30Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AK101_30Rnd0",
+      "fallbackName": "Mag AK 101 30 Rnd Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AK101_30Rnd_Green0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak101_30rnd.p3d",
+      "weight": 400,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ak101_30rnd",
+        "cfgmagazines::mag_ak101_30rnd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AK101_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AK101_30Rnd_Green0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak101_30rnd.p3d",
+        "weight": 400,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\weapons\\firearms\\AK101\\data\\ak101.rvmat"
+        ],
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ak74_30rnd",
+      "className": "Mag_AK74_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AK74_30Rnd0",
+      "fallbackName": "Mag AK 74 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AK74_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak74_30rnd.p3d",
+      "weight": 230,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\magazine\\data\\magazine_ak74_tan_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ak74_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AK74_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AK74_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak74_30rnd.p3d",
+        "weight": 230,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_545x39",
+        "ammoItems": [
+          "Ammo_545x39",
+          "Ammo_545x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\magazine\\data\\magazine_ak74_tan_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\weapons\\attachments\\magazine\\data\\magazine_ak74_tan.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ak74_30rnd_black",
+      "className": "Mag_AK74_30Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AK74_30Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AK74_30Rnd0",
+      "fallbackName": "Mag AK 74 30 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AK74_30Rnd_Black0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak74_30rnd.p3d",
+      "weight": 230,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ak74_30rnd",
+        "cfgmagazines::mag_ak74_30rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AK74_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AK74_30Rnd_Black0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak74_30rnd.p3d",
+        "weight": 230,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_545x39",
+        "ammoItems": [
+          "Ammo_545x39",
+          "Ammo_545x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\weapons\\attachments\\magazine\\data\\magazine_ak74.rvmat"
+        ],
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ak74_30rnd_green",
+      "className": "Mag_AK74_30Rnd_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AK74_30Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AK74_30Rnd0",
+      "fallbackName": "Mag AK 74 30 Rnd Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AK74_30Rnd_Green0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak74_30rnd.p3d",
+      "weight": 230,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ak74_30rnd",
+        "cfgmagazines::mag_ak74_30rnd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AK74_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AK74_30Rnd_Green0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak74_30rnd.p3d",
+        "weight": 230,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_545x39",
+        "ammoItems": [
+          "Ammo_545x39",
+          "Ammo_545x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\weapons\\attachments\\magazine\\data\\magazine_ak74.rvmat"
+        ],
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ak74_45rnd",
+      "className": "Mag_AK74_45Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_Mag_AK74_45rd_0",
+      "fallbackName": "Mag AK 74 45 Rnd",
+      "descriptionShortKey": "$STR_Mag_AK74_45rd_1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak74_45rnd.p3d",
+      "weight": 250,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\magazine\\data\\magazine_ak74_45rnd_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ak74_45rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_Mag_AK74_45rd_0",
+        "descriptionShort": "$STR_Mag_AK74_45rd_1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ak74_45rnd.p3d",
+        "weight": 250,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          4
+        ],
+        "count": 45,
+        "ammo": "Bullet_545x39",
+        "ammoItems": [
+          "Ammo_545x39",
+          "Ammo_545x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\magazine\\data\\magazine_ak74_45rnd_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\weapons\\attachments\\magazine\\data\\magazine_ak74_45rnd.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_akm_30rnd",
+      "className": "Mag_AKM_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AKM_30Rnd0",
+      "fallbackName": "Mag AKM 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AKM_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_30rnd.p3d",
+      "weight": 430,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_steel_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_akm_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AKM_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AKM_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_30rnd.p3d",
+        "weight": 430,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          1,
+          3
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_steel_mag_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\akm_steel_mag.rvmat"
+        ],
+        "count": 30,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_akm_drum75rnd",
+      "className": "Mag_AKM_Drum75Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd0",
+      "fallbackName": "Mag AKM Drum 75 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_drum.p3d",
+      "weight": 1100,
+      "itemSize": [
+        3,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\data\\magazine_drum_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_akm_drum75rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_drum.p3d",
+        "rotationFlags": 12,
+        "weight": 1100,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          3,
+          3
+        ],
+        "count": 75,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\data\\magazine_drum_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\magazine_drum.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_akm_drum75rnd_black",
+      "className": "Mag_AKM_Drum75Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AKM_Drum75Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd0",
+      "fallbackName": "Mag AKM Drum 75 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd_Black0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_drum.p3d",
+      "weight": 1100,
+      "itemSize": [
+        3,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\data\\magazine_drum_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_akm_drum75rnd",
+        "cfgmagazines::mag_akm_drum75rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd_Black0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_drum.p3d",
+        "rotationFlags": 12,
+        "weight": 1100,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          3,
+          3
+        ],
+        "count": 75,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\data\\magazine_drum_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\magazine_drum.rvmat"
+        ],
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_akm_drum75rnd_green",
+      "className": "Mag_AKM_Drum75Rnd_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AKM_Drum75Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd0",
+      "fallbackName": "Mag AKM Drum 75 Rnd Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd_Green0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_drum.p3d",
+      "weight": 1100,
+      "itemSize": [
+        3,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\data\\magazine_drum_green_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_akm_drum75rnd",
+        "cfgmagazines::mag_akm_drum75rnd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AKM_Drum75Rnd_Green0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_drum.p3d",
+        "rotationFlags": 12,
+        "weight": 1100,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          3,
+          3
+        ],
+        "count": 75,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\data\\magazine_drum_green_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\magazine_drum.rvmat"
+        ],
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_akm_drum_test",
+      "className": "Mag_AKM_Drum_TEST",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AKM_Drum75Rnd",
+      "displayNameKey": "Tracer testing mag",
+      "fallbackName": "Mag AKM Drum TEST",
+      "descriptionShortKey": "Hope it won't cause lag",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_drum.p3d",
+      "weight": 1100,
+      "itemSize": [
+        3,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\data\\magazine_drum_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_akm_drum75rnd",
+        "cfgmagazines::mag_akm_drum_test"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "Tracer testing mag",
+        "descriptionShort": "Hope it won't cause lag",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_drum.p3d",
+        "rotationFlags": 12,
+        "weight": 1100,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          3,
+          3
+        ],
+        "count": 300,
+        "ammo": "Bullet_762x39Tracer",
+        "ammoItems": [
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\data\\magazine_drum_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\magazine_drum.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_akm_palm30rnd",
+      "className": "Mag_AKM_Palm30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd0",
+      "fallbackName": "Mag AKM Palm 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_palm30.p3d",
+      "weight": 430,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_akm_palm30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_palm30.p3d",
+        "weight": 430,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_akm_palm30rnd_black",
+      "className": "Mag_AKM_Palm30Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AKM_Palm30Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd0",
+      "fallbackName": "Mag AKM Palm 30 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd_Black0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_palm30.p3d",
+      "weight": 430,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_akm_palm30rnd",
+        "cfgmagazines::mag_akm_palm30rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd_Black0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_palm30.p3d",
+        "weight": 430,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+        ],
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_akm_palm30rnd_green",
+      "className": "Mag_AKM_Palm30Rnd_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_AKM_Palm30Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd0",
+      "fallbackName": "Mag AKM Palm 30 Rnd Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd_Green0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_palm30.p3d",
+      "weight": 430,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_green_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_akm_palm30rnd",
+        "cfgmagazines::mag_akm_palm30rnd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AKM_Palm30Rnd_Green0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_akm_palm30.p3d",
+        "weight": 430,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_green_co.paa"
+        ],
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_arrows_quiver",
+      "className": "Mag_Arrows_Quiver",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Arrows_Quiver0",
+      "fallbackName": "Mag Arrows Quiver",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Arrows_Quiver1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_quiver.p3d",
+      "weight": 150,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_arrows_quiver"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Arrows_Quiver0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Arrows_Quiver1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_quiver.p3d",
+        "rotationFlags": 1,
+        "weight": 150,
+        "itemSize": [
+          2,
+          3
+        ],
+        "count": 5,
+        "ammo": "Arrow_Composite",
+        "ammoItems": [
+          "Ammo_ArrowComposite"
+        ],
+        "tracersEvery": 1,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_aug_30rnd",
+      "className": "Mag_Aug_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_AUG_30Rnd0",
+      "fallbackName": "Mag Aug 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_AUG_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_aug30.p3d",
+      "weight": 90,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\magazine\\data\\aug_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_aug_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_AUG_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_AUG_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_aug30.p3d",
+        "weight": 90,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\magazine\\data\\aug_mag_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "DZ\\weapons\\attachments\\magazine\\data\\aug_mag.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_bolts_quiver",
+      "className": "Mag_Bolts_Quiver",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Bolts_Quiver0",
+      "fallbackName": "Mag Bolts Quiver",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Bolts_Quiver1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_quiver.p3d",
+      "weight": 150,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_bolts_quiver"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Bolts_Quiver0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Bolts_Quiver1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_quiver.p3d",
+        "rotationFlags": 1,
+        "weight": 150,
+        "itemSize": [
+          2,
+          3
+        ],
+        "count": 5,
+        "ammo": "Arrow_Bolt",
+        "ammoItems": [
+          "Ammo_ArrowBolt"
+        ],
+        "tracersEvery": 1,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_clip762x39_10rnd",
+      "className": "Mag_CLIP762x39_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CLIP762x39_10Rnd0",
+      "fallbackName": "Mag CLIP 762 x 39 10 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CLIP762x39_10Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\clip_762x39_10rnd.p3d",
+      "weight": 20,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_clip762x39_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CLIP762x39_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CLIP762x39_10Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\clip_762x39_10rnd.p3d",
+        "weight": 20,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          2,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_clip762x54_5rnd",
+      "className": "Mag_CLIP762x54_5Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CLIP762x54_5Rnd0",
+      "fallbackName": "Mag CLIP 762 x 54 5 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CLIP762x54_5Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\clip_762_5rnd.p3d",
+      "weight": 20,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_clip762x54_5rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CLIP762x54_5Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CLIP762x54_5Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\clip_762_5rnd.p3d",
+        "weight": 20,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 5,
+        "ammo": "Bullet_762x54",
+        "ammoItems": [
+          "Ammo_762x54",
+          "Ammo_762x54Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_clip9x19_10rnd",
+      "className": "Mag_CLIP9x19_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CLIP9x19_10Rnd0",
+      "fallbackName": "Mag CLIP 9 x 19 10 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CLIP9x19_10Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\clip_9mm_10rnd.p3d",
+      "weight": 18,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_clip9x19_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CLIP9x19_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CLIP9x19_10Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\clip_9mm_10rnd.p3d",
+        "weight": 18,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          2,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_9x19",
+        "ammoItems": [
+          "Ammo_9x19"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_10rnd",
+      "className": "Mag_CMAG_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_10Rnd0",
+      "fallbackName": "Mag CMAG 10 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_10Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_10.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_10Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_10.p3d",
+        "weight": 30,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_10rnd_black",
+      "className": "Mag_CMAG_10Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_CMAG_10Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_10Rnd0",
+      "fallbackName": "Mag CMAG 10 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_10Rnd_Black0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_10.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_10rnd",
+        "cfgmagazines::mag_cmag_10rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_10Rnd_Black0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_10.p3d",
+        "weight": 30,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+        ],
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_10rnd_green",
+      "className": "Mag_CMAG_10Rnd_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_CMAG_10Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_10Rnd0",
+      "fallbackName": "Mag CMAG 10 Rnd Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_10Rnd_Green0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_10.p3d",
+      "weight": 30,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_10rnd",
+        "cfgmagazines::mag_cmag_10rnd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_10Rnd_Green0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_10.p3d",
+        "weight": 30,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_co.paa"
+        ],
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_20rnd",
+      "className": "Mag_CMAG_20Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_20Rnd0",
+      "fallbackName": "Mag CMAG 20 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_20Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_20.p3d",
+      "weight": 60,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_20Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_20.p3d",
+        "weight": 60,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_20rnd_black",
+      "className": "Mag_CMAG_20Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_CMAG_20Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_20Rnd0",
+      "fallbackName": "Mag CMAG 20 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_20Rnd_Black0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_20.p3d",
+      "weight": 60,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_20rnd",
+        "cfgmagazines::mag_cmag_20rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_20Rnd_Black0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_20.p3d",
+        "weight": 60,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+        ],
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_20rnd_green",
+      "className": "Mag_CMAG_20Rnd_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_CMAG_20Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_20Rnd0",
+      "fallbackName": "Mag CMAG 20 Rnd Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_20Rnd_Green0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_20.p3d",
+      "weight": 60,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_20rnd",
+        "cfgmagazines::mag_cmag_20rnd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_20Rnd_Green0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_20.p3d",
+        "weight": 60,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_co.paa"
+        ],
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_30rnd",
+      "className": "Mag_CMAG_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_30Rnd0",
+      "fallbackName": "Mag CMAG 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_30.p3d",
+      "weight": 90,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_30.p3d",
+        "weight": 90,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_30rnd_black",
+      "className": "Mag_CMAG_30Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_CMAG_30Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_30Rnd0",
+      "fallbackName": "Mag CMAG 30 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_30Rnd_Black0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_30.p3d",
+      "weight": 90,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_30rnd",
+        "cfgmagazines::mag_cmag_30rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_30Rnd_Black0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_30.p3d",
+        "weight": 90,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+        ],
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_30rnd_green",
+      "className": "Mag_CMAG_30Rnd_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_CMAG_30Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_30Rnd0",
+      "fallbackName": "Mag CMAG 30 Rnd Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_30Rnd_Green0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_30.p3d",
+      "weight": 90,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_30rnd",
+        "cfgmagazines::mag_cmag_30rnd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_30Rnd_Green0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_30.p3d",
+        "weight": 90,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_co.paa"
+        ],
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_40rnd",
+      "className": "Mag_CMAG_40Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_40Rnd0",
+      "fallbackName": "Mag CMAG 40 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_40Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_40.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_40rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_40Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_40Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_40.p3d",
+        "weight": 100,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          4
+        ],
+        "count": 40,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_40rnd_black",
+      "className": "Mag_CMAG_40Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_CMAG_40Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_40Rnd0",
+      "fallbackName": "Mag CMAG 40 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_40Rnd_Black0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_40.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_40rnd",
+        "cfgmagazines::mag_cmag_40rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_40Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_40Rnd_Black0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_40.p3d",
+        "weight": 100,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          4
+        ],
+        "count": 40,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_black_co.paa"
+        ],
+        "color": "Black"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cmag_40rnd_green",
+      "className": "Mag_CMAG_40Rnd_Green",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_CMAG_40Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CMAG_40Rnd0",
+      "fallbackName": "Mag CMAG 40 Rnd Green",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CMAG_40Rnd_Green0",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_40.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\pmag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cmag_40rnd",
+        "cfgmagazines::mag_cmag_40rnd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CMAG_40Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CMAG_40Rnd_Green0",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pmag_40.p3d",
+        "weight": 100,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          4
+        ],
+        "count": 40,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\pmag_co.paa"
+        ],
+        "color": "Green"
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cz527_5rnd",
+      "className": "Mag_CZ527_5rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CZ527_5rnd0",
+      "fallbackName": "Mag CZ 527 5 rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CZ527_5rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_CZ527.p3d",
+      "weight": 91,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cz527_5rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CZ527_5rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CZ527_5rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_CZ527.p3d",
+        "weight": 91,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 5,
+        "ammo": "Bullet_762x39",
+        "ammoItems": [
+          "Ammo_762x39",
+          "Ammo_762x39Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cz550_10rnd",
+      "className": "Mag_CZ550_10rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CZ550_10rnd0",
+      "fallbackName": "Mag CZ 550 10 rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CZ550_10rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_cz550_10rnd.p3d",
+      "weight": 220,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cz550_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CZ550_10rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CZ550_10rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_cz550_10rnd.p3d",
+        "weight": 220,
+        "weightPerQuantityUnit": 10,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_308Win",
+        "ammoItems": [
+          "Ammo_308Win",
+          "Ammo_308WinTracer"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cz550_4rnd",
+      "className": "Mag_CZ550_4rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CZ550_4rnd0",
+      "fallbackName": "Mag CZ 550 4 rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CZ550_4rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_cz550_4rnd.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cz550_4rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CZ550_4rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CZ550_4rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_cz550_4rnd.p3d",
+        "weight": 100,
+        "weightPerQuantityUnit": 10,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 4,
+        "ammo": "Bullet_308Win",
+        "ammoItems": [
+          "Ammo_308Win",
+          "Ammo_308WinTracer"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cz61_20rnd",
+      "className": "Mag_CZ61_20Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CZ61_20Rnd0",
+      "fallbackName": "Mag CZ 61 20 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CZ61_20Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_cz61.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cz61_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CZ61_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CZ61_20Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_cz61.p3d",
+        "weight": 150,
+        "weightPerQuantityUnit": 6,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_380",
+        "ammoItems": [
+          "Ammo_380"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_cz75_15rnd",
+      "className": "Mag_CZ75_15Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_CZ75_15Rnd0",
+      "fallbackName": "Mag CZ 75 15 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_CZ75_15Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_CZ75.p3d",
+      "weight": 131,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_cz75_15rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_CZ75_15Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_CZ75_15Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_CZ75.p3d",
+        "weight": 131,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 15,
+        "ammo": "Bullet_9x19",
+        "ammoItems": [
+          "Ammo_9x19"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_dartgun_co2",
+      "className": "Mag_Dartgun_CO2",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Dartgun_CO20",
+      "fallbackName": "Mag Dartgun CO 2",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Dartgun_CO21",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_dartgun_CO2.p3d",
+      "weight": 12,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_dartgun_co2"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Dartgun_CO20",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Dartgun_CO21",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_dartgun_CO2.p3d",
+        "weight": 12,
+        "itemSize": [
+          2,
+          2
+        ],
+        "count": 0,
+        "tracersEvery": 1,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_deagle_9rnd",
+      "className": "Mag_Deagle_9rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Deagle_9rnd0",
+      "fallbackName": "Mag Deagle 9 rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Deagle_9rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_DE.p3d",
+      "weight": 70,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_deagle_9rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Deagle_9rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Deagle_9rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_DE.p3d",
+        "weight": 70,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          2
+        ],
+        "ammo": "Bullet_357",
+        "ammoItems": [
+          "Ammo_357"
+        ],
+        "count": 9,
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_fal_20rnd",
+      "className": "Mag_FAL_20Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_FAL_20Rnd0",
+      "fallbackName": "Mag FAL 20 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_FAL_20Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_fal.p3d",
+      "weight": 120,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\magazine\\data\\fal_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_fal_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_FAL_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_FAL_20Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_fal.p3d",
+        "weight": 120,
+        "weightPerQuantityUnit": 10,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_308Win",
+        "ammoItems": [
+          "Ammo_308Win",
+          "Ammo_308WinTracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\magazine\\data\\fal_mag_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_famas_25rnd",
+      "className": "Mag_FAMAS_25Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_FAMAS_25Rnd0",
+      "fallbackName": "Mag FAMAS 25 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_FAMAS_25Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_famas.p3d",
+      "weight": 200,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_famas_25rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_FAMAS_25Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_FAMAS_25Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_famas.p3d",
+        "weight": 200,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 25,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_fnx45_15rnd",
+      "className": "Mag_FNX45_15Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_FNX45_15Rnd0",
+      "fallbackName": "Mag FNX 45 15 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_FNX45_15Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_fnp45.p3d",
+      "weight": 113,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_fnx45_15rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_FNX45_15Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_FNX45_15Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_fnp45.p3d",
+        "weight": 113,
+        "weightPerQuantityUnit": 12,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 15,
+        "ammo": "Bullet_45ACP",
+        "ammoItems": [
+          "Ammo_45ACP"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_glock_15rnd",
+      "className": "Mag_Glock_15Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Glock_15Rnd0",
+      "fallbackName": "Mag Glock 15 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Glock_15Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_glock19.p3d",
+      "weight": 131,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_glock_15rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Glock_15Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Glock_15Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_glock19.p3d",
+        "weight": 131,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 15,
+        "ammo": "Bullet_9x19",
+        "ammoItems": [
+          "Ammo_9x19"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_groza_20rnd",
+      "className": "Mag_Groza_20Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Groza_20Rnd0",
+      "fallbackName": "Mag Groza 20 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Groza_20Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_ots14.p3d",
+      "weight": 410,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_groza_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Groza_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Groza_20Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_ots14.p3d",
+        "weight": 410,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_9x39AP",
+        "ammoItems": [
+          "Ammo_9x39",
+          "Ammo_9x39AP"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ij70_8rnd",
+      "className": "Mag_IJ70_8Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_IJ70_12Rnd0",
+      "fallbackName": "Mag IJ 70 8 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_IJ70_12Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ij70.p3d",
+      "weight": 131,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ij70_8rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_IJ70_12Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_IJ70_12Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ij70.p3d",
+        "weight": 131,
+        "weightPerQuantityUnit": 6,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 12,
+        "ammo": "Bullet_380",
+        "ammoItems": [
+          "Ammo_380"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_m14_10rnd",
+      "className": "Mag_M14_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_M14_10Rnd0",
+      "fallbackName": "Mag M 14 10 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_M14_10Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_m14_10rnd.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\magazine\\data\\m14_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_m14_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_M14_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_M14_10Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_m14_10rnd.p3d",
+        "weight": 100,
+        "weightPerQuantityUnit": 10,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_308Win",
+        "ammoItems": [
+          "Ammo_308Win",
+          "Ammo_308WinTracer"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\magazine\\data\\m14_mag_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\magazine\\data\\m14_mag.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_m14_20rnd",
+      "className": "Mag_M14_20Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_M14_20Rnd0",
+      "fallbackName": "Mag M 14 20 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_M14_20Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_m14_20rnd.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\magazine\\data\\m14_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_m14_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_M14_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_M14_20Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_m14_20rnd.p3d",
+        "weight": 100,
+        "weightPerQuantityUnit": 10,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_308Win",
+        "ammoItems": [
+          "Ammo_308Win",
+          "Ammo_308WinTracer"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\magazine\\data\\m14_mag_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\magazine\\data\\m14_mag.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_m249_box200rnd",
+      "className": "Mag_M249_Box200Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_M249_Box200Rnd0",
+      "fallbackName": "Mag M 249 Box 200 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_M249_Box200Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_m249_ammobox.p3d",
+      "weight": 2000,
+      "itemSize": [
+        5,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_m249_box200rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_M249_Box200Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_M249_Box200Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_m249_ammobox.p3d",
+        "rotationFlags": 12,
+        "weight": 2000,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          5,
+          4
+        ],
+        "count": 200,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_makarovpb_8rnd",
+      "className": "Mag_MakarovPB_8Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_MakarovPB_8Rnd0",
+      "fallbackName": "Mag Makarov PB 8 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_MakarovPB_8Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pb6p9.p3d",
+      "weight": 131,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_makarovpb_8rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_MakarovPB_8Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_MakarovPB_8Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pb6p9.p3d",
+        "weight": 131,
+        "weightPerQuantityUnit": 6,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 8,
+        "ammo": "Bullet_380",
+        "ammoItems": [
+          "Ammo_380"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_mkii_10rnd",
+      "className": "Mag_MKII_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_MKII_10Rnd0",
+      "fallbackName": "Mag MKII 10 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_MKII_10Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_mk2.p3d",
+      "weight": 55,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_mkii_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_MKII_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_MKII_10Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_mk2.p3d",
+        "weight": 55,
+        "weightPerQuantityUnit": 3,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_22",
+        "ammoItems": [
+          "Ammo_22"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_mp5_15rnd",
+      "className": "Mag_MP5_15Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_MP5_15Rnd0",
+      "fallbackName": "Mag MP 5 15 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_MP5_15Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_mp5_15rnd.p3d",
+      "weight": 120,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\mp5k_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_mp5_15rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_MP5_15Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_MP5_15Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_mp5_15rnd.p3d",
+        "weight": 120,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 15,
+        "ammo": "Bullet_9x19",
+        "ammoItems": [
+          "Ammo_9x19"
+        ],
+        "tracersEvery": 0,
+        "mass": 10,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\mp5k_mag_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\mp5k_mag.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_mp5_30rnd",
+      "className": "Mag_MP5_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_MP5_30Rnd0",
+      "fallbackName": "Mag MP 5 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_MP5_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_mp5_30rnd.p3d",
+      "weight": 170,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\mp5k_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_mp5_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_MP5_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_MP5_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_mp5_30rnd.p3d",
+        "weight": 170,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_9x19",
+        "ammoItems": [
+          "Ammo_9x19"
+        ],
+        "tracersEvery": 0,
+        "mass": 10,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\mp5k_mag_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\mp5k_mag.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_p1_8rnd",
+      "className": "Mag_P1_8Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_P1_8Rnd0",
+      "fallbackName": "Mag P1 8 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_P1_8Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_p1.p3d",
+      "weight": 227,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_p1_8rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_P1_8Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_P1_8Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_p1.p3d",
+        "weight": 227,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 8,
+        "ammo": "Bullet_9x19",
+        "ammoItems": [
+          "Ammo_9x19"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_pm73_15rnd",
+      "className": "Mag_PM73_15Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_PM73Rak_15Rnd0",
+      "fallbackName": "Mag PM 73 15 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_PM73Rak_15Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pm73_15rnd.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_pm73_15rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_PM73Rak_15Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_PM73Rak_15Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pm73_15rnd.p3d",
+        "weight": 150,
+        "weightPerQuantityUnit": 6,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 15,
+        "ammo": "Bullet_380",
+        "ammoItems": [
+          "Ammo_380"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_pm73_25rnd",
+      "className": "Mag_PM73_25Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_PM73Rak_25Rnd0",
+      "fallbackName": "Mag PM 73 25 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_PM73Rak_25Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pm73_25rnd.p3d",
+      "weight": 170,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_pm73_25rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_PM73Rak_25Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_PM73Rak_25Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_pm73_25rnd.p3d",
+        "weight": 170,
+        "weightPerQuantityUnit": 6,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 25,
+        "ammo": "Bullet_380",
+        "ammoItems": [
+          "Ammo_380"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_pp19_64rnd",
+      "className": "Mag_PP19_64Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_PP19_64Rnd0",
+      "fallbackName": "Mag PP 19 64 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_PP19_64Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_PP19.p3d",
+      "weight": 400,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_pp19_64rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_PP19_64Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_PP19_64Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_PP19.p3d",
+        "rotationFlags": 12,
+        "weight": 400,
+        "weightPerQuantityUnit": 6,
+        "itemSize": [
+          1,
+          4
+        ],
+        "count": 64,
+        "ammo": "Bullet_380",
+        "ammoItems": [
+          "Ammo_380"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ruger1022_10rnd",
+      "className": "Mag_Ruger1022_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_cfgmagazines_mag_ruger1022_10rnd0",
+      "fallbackName": "Mag Ruger 1022 10 Rnd",
+      "descriptionShortKey": "$STR_cfgmagazines_mag_ruger1022_10rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ruger1022_10.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ruger1022_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgmagazines_mag_ruger1022_10rnd0",
+        "descriptionShort": "$STR_cfgmagazines_mag_ruger1022_10rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ruger1022_10.p3d",
+        "weight": 50,
+        "weightPerQuantityUnit": 3,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 10,
+        "ammo": "Bullet_22",
+        "ammoItems": [
+          "Ammo_22"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ruger1022_15rnd",
+      "className": "Mag_Ruger1022_15Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Ruger1022_15Rnd0",
+      "fallbackName": "Mag Ruger 1022 15 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Ruger1022_15Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ruger1022_15.p3d",
+      "weight": 80,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ruger1022_15rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Ruger1022_15Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Ruger1022_15Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ruger1022_15.p3d",
+        "weight": 80,
+        "weightPerQuantityUnit": 3,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 15,
+        "ammo": "Bullet_22",
+        "ammoItems": [
+          "Ammo_22"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ruger1022_30rnd",
+      "className": "Mag_Ruger1022_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Ruger1022_30Rnd0",
+      "fallbackName": "Mag Ruger 1022 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Ruger1022_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ruger1022_30.p3d",
+      "weight": 110,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ruger1022_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Ruger1022_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Ruger1022_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ruger1022_30.p3d",
+        "weight": 110,
+        "weightPerQuantityUnit": 3,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_22",
+        "ammoItems": [
+          "Ammo_22"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_saiga_5rnd",
+      "className": "Mag_Saiga_5Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Saiga_5Rnd0",
+      "fallbackName": "Mag Saiga 5 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Saiga_5Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_saiga_mag5.p3d",
+      "weight": 200,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\saiga_mag5_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_saiga_5rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Saiga_5Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Saiga_5Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_saiga_mag5.p3d",
+        "weight": 200,
+        "weightPerQuantityUnit": 35,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 5,
+        "ammo": "Bullet_12GaugePellets",
+        "ammoItems": [
+          "Ammo_12gaPellets",
+          "Ammo_12gaSlug",
+          "Ammo_12gaRubberSlug",
+          "Ammo_12gaBeanbag"
+        ],
+        "tracersEvery": 0,
+        "mass": 10,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\saiga_mag5_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_saiga_8rnd",
+      "className": "Mag_Saiga_8Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Saiga_8Rnd0",
+      "fallbackName": "Mag Saiga 8 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Saiga_8Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_saiga_mag8.p3d",
+      "weight": 220,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\saiga_mag8_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_saiga_8rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Saiga_8Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Saiga_8Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_saiga_mag8.p3d",
+        "weight": 220,
+        "weightPerQuantityUnit": 35,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 8,
+        "ammo": "Bullet_12GaugePellets",
+        "ammoItems": [
+          "Ammo_12gaPellets",
+          "Ammo_12gaSlug",
+          "Ammo_12gaRubberSlug",
+          "Ammo_12gaBeanbag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\saiga_mag8_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_saiga_drum20rnd",
+      "className": "Mag_Saiga_Drum20Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Saiga_Drum20Rnd0",
+      "fallbackName": "Mag Saiga Drum 20 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Saiga_Drum20Rnd1",
+      "model": "\\dz\\weapons\\attachments\\magazine\\magazine_saiga_drum.p3d",
+      "weight": 260,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\saiga_drum_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_saiga_drum20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Saiga_Drum20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Saiga_Drum20Rnd1",
+        "model": "\\dz\\weapons\\attachments\\magazine\\magazine_saiga_drum.p3d",
+        "rotationFlags": 12,
+        "weight": 260,
+        "weightPerQuantityUnit": 35,
+        "itemSize": [
+          2,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_12GaugePellets",
+        "ammoItems": [
+          "Ammo_12gaPellets",
+          "Ammo_12gaSlug",
+          "Ammo_12gaRubberSlug",
+          "Ammo_12gaBeanbag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\saiga_drum_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_scarh_20rnd",
+      "className": "Mag_SCARH_20Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_SCARH_20Rnd0",
+      "fallbackName": "Mag SCARH 20 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_SCARH_20Rnd1",
+      "model": "dz\\weapons\\attachments\\magazine\\magazine_SCARH_20rnd.p3d",
+      "weight": 275,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\magazine_scarh_20rnd_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_scarh_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_SCARH_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_SCARH_20Rnd1",
+        "model": "dz\\weapons\\attachments\\magazine\\magazine_SCARH_20rnd.p3d",
+        "weight": 275,
+        "weightPerQuantityUnit": 10,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_308Win",
+        "ammoItems": [
+          "Ammo_308Win",
+          "Ammo_308WinTracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\magazine_scarh_20rnd_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_scarh_20rnd_black",
+      "className": "Mag_SCARH_20Rnd_Black",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Mag_SCARH_20Rnd",
+      "displayNameKey": "$STR_CfgMagazines_Mag_SCARH_20Rnd0",
+      "fallbackName": "Mag SCARH 20 Rnd Black",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_SCARH_20Rnd1",
+      "model": "dz\\weapons\\attachments\\magazine\\magazine_SCARH_20rnd.p3d",
+      "weight": 275,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\magazine_scarh_20rnd_black_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_scarh_20rnd",
+        "cfgmagazines::mag_scarh_20rnd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_SCARH_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_SCARH_20Rnd1",
+        "model": "dz\\weapons\\attachments\\magazine\\magazine_SCARH_20rnd.p3d",
+        "weight": 275,
+        "weightPerQuantityUnit": 10,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_308Win",
+        "ammoItems": [
+          "Ammo_308Win",
+          "Ammo_308WinTracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\magazine_scarh_20rnd_black_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\magazine\\data\\magazine_scarh_20rnd_black.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_scout_5rnd",
+      "className": "Mag_Scout_5Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Scout_5Rnd0",
+      "fallbackName": "Mag Scout 5 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Scout_5Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_scout.p3d",
+      "weight": 40,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\scout_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_scout_5rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Scout_5Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Scout_5Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_scout.p3d",
+        "weight": 40,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 5,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\scout_mag_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_shockcartridge",
+      "className": "Mag_ShockCartridge",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_ShockCartridge0",
+      "fallbackName": "Mag Shock Cartridge",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_ShockCartridge1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\shockpistol_cartridge.p3d",
+      "weight": 131,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_shockcartridge"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_ShockCartridge0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_ShockCartridge1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\shockpistol_cartridge.p3d",
+        "weight": 131,
+        "itemSize": [
+          2,
+          2
+        ],
+        "count": 1,
+        "ammo": "Dart_Syringe",
+        "ammoItems": [
+          "Ammo_DartSyringe"
+        ],
+        "tracersEvery": 0,
+        "mass": 10
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ssg82_5rnd",
+      "className": "Mag_SSG82_5rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_SSG82_5rnd0",
+      "fallbackName": "Mag SSG 82 5 rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_SSG82_5rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ssg82.p3d",
+      "weight": 220,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\magazine\\data\\magazine_ssg82_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ssg82_5rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_SSG82_5rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_SSG82_5rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ssg82.p3d",
+        "weight": 220,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          1
+        ],
+        "count": 5,
+        "ammo": "Bullet_545x39",
+        "ammoItems": [
+          "Ammo_545x39",
+          "Ammo_545x39Tracer"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\magazine\\data\\magazine_ssg82_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\magazine\\data\\magazine_ssg82.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_stanag_30rnd",
+      "className": "Mag_STANAG_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_STANAG_30Rnd0",
+      "fallbackName": "Mag STANAG 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_STANAG_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_stanag30.p3d",
+      "weight": 90,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_stanag_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_STANAG_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_STANAG_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_stanag30.p3d",
+        "weight": 90,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_stanag_60rnd",
+      "className": "Mag_STANAG_60Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_Mag_STANAG_60rd_0",
+      "fallbackName": "Mag STANAG 60 Rnd",
+      "descriptionShortKey": "$STR_Mag_STANAG_60rd_1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_stanag60.p3d",
+      "weight": 450,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_stanag_60rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_Mag_STANAG_60rd_0",
+        "descriptionShort": "$STR_Mag_STANAG_60rd_1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_stanag60.p3d",
+        "weight": 450,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          2,
+          3
+        ],
+        "count": 60,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_stanagcoupled_30rnd",
+      "className": "Mag_STANAGCoupled_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_STANAGCoupled_30Rnd0",
+      "fallbackName": "Mag STANAGCoupled 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_STANAGCoupled_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_stanag30_coupled.p3d",
+      "weight": 180,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_stanagcoupled_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_STANAGCoupled_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_STANAGCoupled_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_stanag30_coupled.p3d",
+        "weight": 180,
+        "weightPerQuantityUnit": 4,
+        "itemSize": [
+          2,
+          3
+        ],
+        "count": 60,
+        "ammo": "Bullet_556x45",
+        "ammoItems": [
+          "Ammo_556x45",
+          "Ammo_556x45Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_sv98_10rnd",
+      "className": "Mag_SV98_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_SV98_10Rnd0",
+      "fallbackName": "Mag SV 98 10 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_SV98_10Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_sv98_10rnd.p3d",
+      "weight": 220,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\weapons\\attachments\\magazine\\data\\magazine_sv98_10rnd_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_sv98_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_SV98_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_SV98_10Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_sv98_10rnd.p3d",
+        "weight": 220,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_762x54",
+        "ammoItems": [
+          "Ammo_762x54",
+          "Ammo_762x54Tracer"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "DZ\\weapons\\attachments\\magazine\\data\\magazine_sv98_10rnd_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_svd_10rnd",
+      "className": "Mag_SVD_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_SVD_10Rnd0",
+      "fallbackName": "Mag SVD 10 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_SVD_10Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_svd.p3d",
+      "weight": 120,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_svd_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_SVD_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_SVD_10Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_svd.p3d",
+        "weight": 120,
+        "weightPerQuantityUnit": 9,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_762x54",
+        "ammoItems": [
+          "Ammo_762x54",
+          "Ammo_762x54Tracer"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_ump_25rnd",
+      "className": "Mag_UMP_25Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_UMP_25Rnd0",
+      "fallbackName": "Mag UMP 25 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_UMP_25Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ump45_25rnd.p3d",
+      "weight": 350,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_ump_25rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_UMP_25Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_UMP_25Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_ump45_25rnd.p3d",
+        "weight": 350,
+        "weightPerQuantityUnit": 12,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 25,
+        "ammo": "Bullet_45ACP",
+        "ammoItems": [
+          "Ammo_45ACP"
+        ],
+        "tracersEvery": 0
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_val_20rnd",
+      "className": "Mag_VAL_20Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_VAL_20Rnd0",
+      "fallbackName": "Mag VAL 20 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_VAL_20Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_val.p3d",
+      "weight": 550,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\val_mag_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_val_20rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_VAL_20Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_VAL_20Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_val.p3d",
+        "weight": 550,
+        "weightPerQuantityUnit": 16,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 20,
+        "ammo": "Bullet_9x39",
+        "ammoItems": [
+          "Ammo_9x39",
+          "Ammo_9x39AP"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\val_mag_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\magazine\\data\\val_mag.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_vikhr_30rnd",
+      "className": "Mag_Vikhr_30Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_Vikhr_30Rnd0",
+      "fallbackName": "Mag Vikhr 30 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_Vikhr_30Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_vikhr_30rnd.p3d",
+      "weight": 750,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\magazine\\data\\magazine_vikhr_30rnd_co.paa"
+      ],
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_vikhr_30rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_Vikhr_30Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_Vikhr_30Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_vikhr_30rnd.p3d",
+        "weight": 750,
+        "weightPerQuantityUnit": 16,
+        "itemSize": [
+          1,
+          3
+        ],
+        "count": 30,
+        "ammo": "Bullet_9x39",
+        "ammoItems": [
+          "Ammo_9x39",
+          "Ammo_9x39AP"
+        ],
+        "tracersEvery": 0,
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\magazine\\data\\magazine_vikhr_30rnd_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\magazine\\data\\magazine_vikhr_30rnd.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgmagazines::mag_vss_10rnd",
+      "className": "Mag_VSS_10Rnd",
+      "section": "CfgMagazines",
+      "category": "magazine",
+      "parentClass": "Magazine_Base",
+      "displayNameKey": "$STR_CfgMagazines_Mag_VSS_10Rnd0",
+      "fallbackName": "Mag VSS 10 Rnd",
+      "descriptionShortKey": "$STR_CfgMagazines_Mag_VSS_10Rnd1",
+      "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_vss.p3d",
+      "weight": 350,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "weapon_magazines.pbo",
+      "inheritanceChain": [
+        "cfgmagazines::magazine_base",
+        "cfgmagazines::mag_vss_10rnd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgMagazines_Mag_VSS_10Rnd0",
+        "descriptionShort": "$STR_CfgMagazines_Mag_VSS_10Rnd1",
+        "model": "\\DZ\\weapons\\attachments\\magazine\\magazine_vss.p3d",
+        "weight": 350,
+        "weightPerQuantityUnit": 8,
+        "itemSize": [
+          1,
+          2
+        ],
+        "count": 10,
+        "ammo": "Bullet_9x39",
+        "ammoItems": [
+          "Ammo_9x39",
+          "Ammo_9x39AP"
+        ],
+        "tracersEvery": 0
+      }
+    }
+  ]
+}

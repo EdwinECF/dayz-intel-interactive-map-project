@@ -1,0 +1,3087 @@
+{
+  "metadata": {
+    "category": "camping",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 56
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::barbedwire",
+      "className": "BarbedWire",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BarbedWire0",
+      "fallbackName": "Barbed Wire",
+      "descriptionShortKey": "$STR_CfgVehicles_BarbedWire1",
+      "model": "\\dz\\gear\\camping\\Barbed_wire.p3d",
+      "weight": 400,
+      "itemSize": [
+        2,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Wall_Barbedwire_1",
+        "Wall_Barbedwire_2",
+        "Level_1_Wall_1_Barbedwire_1",
+        "Level_1_Wall_1_Barbedwire_2",
+        "Level_1_Wall_2_Barbedwire_1",
+        "Level_1_Wall_2_Barbedwire_2",
+        "Level_1_Wall_3_Barbedwire_1",
+        "Level_1_Wall_3_Barbedwire_2"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\Barbed_wire_CO.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::barbedwire"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BarbedWire0",
+        "descriptionShort": "$STR_CfgVehicles_BarbedWire1",
+        "model": "\\dz\\gear\\camping\\Barbed_wire.p3d",
+        "OnRestrainChange": "BarbedWireLocked",
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\Barbed_wire_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\Barbed_wire.rvmat"
+        ],
+        "hologramMaterial": "Barbed_wire",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "barbedWireShockEnergyConsumption": 3,
+        "carveNavmesh": 1,
+        "itemSize": [
+          2,
+          4
+        ],
+        "weight": 400,
+        "inventorySlot": [
+          "Wall_Barbedwire_1",
+          "Wall_Barbedwire_2",
+          "Level_1_Wall_1_Barbedwire_1",
+          "Level_1_Wall_1_Barbedwire_2",
+          "Level_1_Wall_2_Barbedwire_1",
+          "Level_1_Wall_2_Barbedwire_2",
+          "Level_1_Wall_3_Barbedwire_1",
+          "Level_1_Wall_3_Barbedwire_2"
+        ],
+        "physLayer": "item_large",
+        "rotationFlags": 2,
+        "repairableWithKits": [
+          5,
+          7
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::bonfire",
+      "className": "Bonfire",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "HouseNoDestruct",
+      "fallbackName": "Bonfire",
+      "model": "\\DZ\\gear\\camping\\bonfire.p3d",
+      "scope": 2,
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::housenodestruct",
+        "cfgvehicles::bonfire"
+      ],
+      "properties": {
+        "scope": 2,
+        "model": "\\DZ\\gear\\camping\\bonfire.p3d",
+        "storageCategory": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::cablereel",
+      "className": "CableReel",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_CableReel0",
+      "fallbackName": "Cable Reel",
+      "descriptionShortKey": "$STR_CfgVehicles_CableReel1",
+      "model": "\\dz\\gear\\camping\\cable_reel.p3d",
+      "weight": 5000,
+      "itemSize": [
+        3,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "CableReel"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\cable_reel_co.paa",
+        "dz\\gear\\camping\\data\\cable_reel_co.paa",
+        "dz\\gear\\camping\\data\\cable_reel_co.paa",
+        "dz\\gear\\camping\\data\\cable_reel_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::cablereel"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CableReel0",
+        "descriptionShort": "$STR_CfgVehicles_CableReel1",
+        "model": "\\dz\\gear\\camping\\cable_reel.p3d",
+        "inventorySlot": [
+          "CableReel"
+        ],
+        "slopeTolerance": 0.2,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "weight": 5000,
+        "itemSize": [
+          3,
+          4
+        ],
+        "itemBehaviour": 2,
+        "rotationFlags": 2,
+        "hiddenSelections": [
+          "socket_1_plugged",
+          "cord_plugged",
+          "cord_folded",
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\cable_reel_co.paa",
+          "dz\\gear\\camping\\data\\cable_reel_co.paa",
+          "dz\\gear\\camping\\data\\cable_reel_co.paa",
+          "dz\\gear\\camping\\data\\cable_reel_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\cable_reel.rvmat",
+          "dz\\gear\\camping\\data\\cable_reel.rvmat",
+          "dz\\gear\\camping\\data\\cable_reel.rvmat",
+          "dz\\gear\\camping\\data\\cable_reel.rvmat"
+        ],
+        "hologramMaterial": "cable_reel",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "repairableWithKits": [
+          5,
+          7
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::camonetshelter",
+      "className": "CamoNetShelter",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_CamoNetShelter0",
+      "fallbackName": "Camo Net Shelter",
+      "descriptionShortKey": "$STR_CfgVehicles_CamoNetShelter1",
+      "model": "\\DZ\\gear\\camping\\camo_net_shelter.p3d",
+      "weight": 10000,
+      "itemSize": [
+        5,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::camonetshelter"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CamoNetShelter0",
+        "descriptionShort": "$STR_CfgVehicles_CamoNetShelter1",
+        "model": "\\DZ\\gear\\camping\\camo_net_shelter.p3d",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "lootCategory": "Crafted",
+        "weight": 10000,
+        "itemSize": [
+          5,
+          2
+        ],
+        "minPlacingDist": 12,
+        "carveNavmesh": 1,
+        "rotationFlags": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::combinationlock",
+      "className": "CombinationLock",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_CombinationLock0",
+      "fallbackName": "Combination Lock",
+      "descriptionShortKey": "$STR_CfgVehicles_CombinationLock1",
+      "model": "\\DZ\\gear\\camping\\combination_lock3.p3d",
+      "weight": 350,
+      "itemSize": [
+        3,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Att_CombinationLock",
+        "Att_CombinationLock1_Wood",
+        "Att_CombinationLock1_Metal",
+        "Att_CombinationLock2_Wood",
+        "Att_CombinationLock2_Metal",
+        "Att_CombinationLock3_Wood",
+        "Att_CombinationLock3_Metal",
+        "Att_CombinationLock4_Wood",
+        "Att_CombinationLock4_Metal",
+        "Att_CombinationLock5_Wood",
+        "Att_CombinationLock5_Metal"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::combinationlock"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CombinationLock0",
+        "descriptionShort": "$STR_CfgVehicles_CombinationLock1",
+        "model": "\\DZ\\gear\\camping\\combination_lock3.p3d",
+        "inventorySlot": [
+          "Att_CombinationLock",
+          "Att_CombinationLock1_Wood",
+          "Att_CombinationLock1_Metal",
+          "Att_CombinationLock2_Wood",
+          "Att_CombinationLock2_Metal",
+          "Att_CombinationLock3_Wood",
+          "Att_CombinationLock3_Metal",
+          "Att_CombinationLock4_Wood",
+          "Att_CombinationLock4_Metal",
+          "Att_CombinationLock5_Wood",
+          "Att_CombinationLock5_Metal"
+        ],
+        "rotationFlags": 34,
+        "itemSize": [
+          3,
+          3
+        ],
+        "weight": 350,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::combinationlock4",
+      "className": "CombinationLock4",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "CombinationLock",
+      "displayNameKey": "$STR_CfgVehicles_4digitcombinationlock0",
+      "fallbackName": "Combination Lock 4",
+      "descriptionShortKey": "$STR_CfgVehicles_4digitcombinationlock1",
+      "model": "\\DZ\\gear\\camping\\combination_lock4.p3d",
+      "weight": 350,
+      "itemSize": [
+        3,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Att_CombinationLock",
+        "Att_CombinationLock1_Wood",
+        "Att_CombinationLock1_Metal",
+        "Att_CombinationLock2_Wood",
+        "Att_CombinationLock2_Metal",
+        "Att_CombinationLock3_Wood",
+        "Att_CombinationLock3_Metal",
+        "Att_CombinationLock4_Wood",
+        "Att_CombinationLock4_Metal",
+        "Att_CombinationLock5_Wood",
+        "Att_CombinationLock5_Metal"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::combinationlock",
+        "cfgvehicles::combinationlock4"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_4digitcombinationlock0",
+        "descriptionShort": "$STR_CfgVehicles_4digitcombinationlock1",
+        "model": "\\DZ\\gear\\camping\\combination_lock4.p3d",
+        "inventorySlot": [
+          "Att_CombinationLock",
+          "Att_CombinationLock1_Wood",
+          "Att_CombinationLock1_Metal",
+          "Att_CombinationLock2_Wood",
+          "Att_CombinationLock2_Metal",
+          "Att_CombinationLock3_Wood",
+          "Att_CombinationLock3_Metal",
+          "Att_CombinationLock4_Wood",
+          "Att_CombinationLock4_Metal",
+          "Att_CombinationLock5_Wood",
+          "Att_CombinationLock5_Metal"
+        ],
+        "rotationFlags": 34,
+        "itemSize": [
+          3,
+          3
+        ],
+        "weight": 350,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::fence",
+      "className": "Fence",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "BaseBuildingBase",
+      "displayNameKey": "$STR_CfgVehicles_Fence0",
+      "fallbackName": "Fence",
+      "descriptionShortKey": "$STR_CfgVehicles_Fence1",
+      "model": "\\DZ\\gear\\camping\\fence.p3d",
+      "weight": 100000,
+      "itemSize": [
+        50,
+        50
+      ],
+      "scope": 2,
+      "attachments": [
+        "Wall_Barbedwire_1",
+        "Wall_Barbedwire_2",
+        "Wall_Camonet",
+        "Att_CombinationLock",
+        "Material_Nails",
+        "Material_WoodenPlanks",
+        "Material_MetalSheets",
+        "Material_WoodenLogs",
+        "Material_MetalWire"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::basebuildingbase",
+        "cfgvehicles::fence"
+      ],
+      "properties": {
+        "debug_ItemCategory": 10,
+        "weight": 100000,
+        "itemSize": [
+          50,
+          50
+        ],
+        "disallowSwapCollisions": "true",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Fence0",
+        "descriptionShort": "$STR_CfgVehicles_Fence1",
+        "model": "\\DZ\\gear\\camping\\fence.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "handheld": "false",
+        "lootCategory": "Crafted",
+        "carveNavmesh": 1,
+        "physLayer": "item_large",
+        "createProxyPhysicsOnInit": "false",
+        "createdProxiesOnInit": [
+          "Deployed"
+        ],
+        "hybridAttachments": [
+          "Material_WoodenLogs",
+          "Material_MetalWire",
+          "Wall_Barbedwire_1",
+          "Wall_Barbedwire_2"
+        ],
+        "mountables": [
+          "Wall_Barbedwire_1",
+          "Wall_Barbedwire_2"
+        ],
+        "rotationFlags": 2,
+        "attachments": [
+          "Wall_Barbedwire_1",
+          "Wall_Barbedwire_2",
+          "Wall_Camonet",
+          "Att_CombinationLock",
+          "Material_Nails",
+          "Material_WoodenPlanks",
+          "Material_MetalSheets",
+          "Material_WoodenLogs",
+          "Material_MetalWire"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::fencekit",
+      "className": "FenceKit",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_FenceKit0",
+      "fallbackName": "Fence Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_FenceKit1",
+      "model": "\\DZ\\gear\\camping\\fence_kit.p3d",
+      "weight": 280,
+      "itemSize": [
+        1,
+        5
+      ],
+      "scope": 2,
+      "attachments": [
+        "Rope"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fencekit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FenceKit0",
+        "descriptionShort": "$STR_CfgVehicles_FenceKit1",
+        "model": "\\DZ\\gear\\camping\\fence_kit.p3d",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          5
+        ],
+        "weight": 280,
+        "itemBehaviour": 1,
+        "attachments": [
+          "Rope"
+        ],
+        "debug_ItemCategory": 10,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_altis",
+      "className": "Flag_Altis",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Altis",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Alti_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_altis"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Alti_co.paa"
+        ],
+        "color": "Altis"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_apa",
+      "className": "Flag_APA",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag APA",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_APA_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_apa"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_APA_co.paa"
+        ],
+        "color": "APA"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_babydeer",
+      "className": "Flag_BabyDeer",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Baby Deer",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Fawn_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_babydeer"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Fawn_co.paa"
+        ],
+        "color": "BabyDeer"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_bear",
+      "className": "Flag_Bear",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Bear",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_bear_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_bear"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_bear_co.paa"
+        ],
+        "color": "Bear"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_bohemia",
+      "className": "Flag_Bohemia",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Bohemia",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_BI_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_bohemia"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_BI_co.paa"
+        ],
+        "color": "Bohemia"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_brainz",
+      "className": "Flag_BrainZ",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Brain Z",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_brain_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_brainz"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_brain_co.paa"
+        ],
+        "color": "BrainZ"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_cannibals",
+      "className": "Flag_Cannibals",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Cannibals",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_jolly_c_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_cannibals"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_jolly_c_co.paa"
+        ],
+        "color": "Cannibals"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_cdf",
+      "className": "Flag_CDF",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag CDF",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_CDF_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_cdf"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_CDF_co.paa"
+        ],
+        "color": "CDF"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_chedaki",
+      "className": "Flag_Chedaki",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Chedaki",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Ched_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_chedaki"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Ched_co.paa"
+        ],
+        "color": "Chedaki"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_chel",
+      "className": "Flag_CHEL",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag CHEL",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_CHEL_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_chel"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_CHEL_co.paa"
+        ],
+        "color": "CHEL"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_chernarus",
+      "className": "Flag_Chernarus",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Chernarus",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Chern_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_chernarus"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Chern_co.paa"
+        ],
+        "color": "Chernarus"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_cmc",
+      "className": "Flag_CMC",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag CMC",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_CMC_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_cmc"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_CMC_co.paa"
+        ],
+        "color": "CMC"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_crook",
+      "className": "Flag_Crook",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Crook",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Crook_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_crook"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Crook_co.paa"
+        ],
+        "color": "Crook"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_dayz",
+      "className": "Flag_DayZ",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Day Z",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_dayz"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa"
+        ],
+        "color": "DayZ"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_hunterz",
+      "className": "Flag_HunterZ",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Hunter Z",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_zhunters_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_hunterz"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_zhunters_co.paa"
+        ],
+        "color": "HunterZ"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_livonia",
+      "className": "Flag_Livonia",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Livonia",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Livo_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_livonia"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Livo_co.paa"
+        ],
+        "color": "Livonia"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_livoniaarmy",
+      "className": "Flag_LivoniaArmy",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Livonia Army",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_LDF_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_livoniaarmy"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_LDF_co.paa"
+        ],
+        "color": "LivoniaArmy"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_livoniapolice",
+      "className": "Flag_LivoniaPolice",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Livonia Police",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_police_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_livoniapolice"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_police_co.paa"
+        ],
+        "color": "LivoniaPolice"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_napa",
+      "className": "Flag_NAPA",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag NAPA",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_NAPA_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_napa"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_NAPA_co.paa"
+        ],
+        "color": "NAPA"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_nsahrani",
+      "className": "Flag_NSahrani",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag NSahrani",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_DRoS_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_nsahrani"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_DRoS_co.paa"
+        ],
+        "color": "NSahrani"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_pirates",
+      "className": "Flag_Pirates",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Pirates",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_jolly_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_pirates"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_jolly_co.paa"
+        ],
+        "color": "Pirates"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_refuge",
+      "className": "Flag_Refuge",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Refuge",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_refuge_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_refuge"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_refuge_co.paa"
+        ],
+        "color": "Refuge"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_rex",
+      "className": "Flag_Rex",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Rex",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Rex_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_rex"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Rex_co.paa"
+        ],
+        "color": "Rex"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_rooster",
+      "className": "Flag_Rooster",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Rooster",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_cock_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_rooster"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_cock_co.paa"
+        ],
+        "color": "Rooster"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_rsta",
+      "className": "Flag_RSTA",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag RSTA",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_rsta_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_rsta"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_rsta_co.paa"
+        ],
+        "color": "RSTA"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_sakhal",
+      "className": "Flag_Sakhal",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Sakhal",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Sakhal_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_sakhal"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Sakhal_co.paa"
+        ],
+        "color": "Sakhal"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_snake",
+      "className": "Flag_Snake",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Snake",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_snake_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_snake"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_snake_co.paa"
+        ],
+        "color": "Snake"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_ssahrani",
+      "className": "Flag_SSahrani",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag SSahrani",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_KoS_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_ssahrani"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_KoS_co.paa"
+        ],
+        "color": "SSahrani"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_tec",
+      "className": "Flag_TEC",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag TEC",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_TEC_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_tec"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_TEC_co.paa"
+        ],
+        "color": "TEC"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_uec",
+      "className": "Flag_UEC",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag UEC",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_UEC_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_uec"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_UEC_co.paa"
+        ],
+        "color": "UEC"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_white",
+      "className": "Flag_White",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag White",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_white_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_white"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_white_co.paa"
+        ],
+        "color": "White"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_wolf",
+      "className": "Flag_Wolf",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Wolf",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_wolf_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_wolf"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_wolf_co.paa"
+        ],
+        "color": "Wolf"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_zagorky",
+      "className": "Flag_Zagorky",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Zagorky",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Zagorky_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_zagorky"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Zagorky_co.paa"
+        ],
+        "color": "Zagorky"
+      }
+    },
+    {
+      "id": "cfgvehicles::flag_zenit",
+      "className": "Flag_Zenit",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Flag_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flag_Base0",
+      "fallbackName": "Flag Zenit",
+      "descriptionShortKey": "$STR_CfgVehicles_Flag_Base1",
+      "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Material_FPole_Flag"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\camping\\Data\\Flag_Zenit_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flag_base",
+        "cfgvehicles::flag_zenit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flag_Base0",
+        "descriptionShort": "$STR_CfgVehicles_Flag_Base1",
+        "model": "\\dz\\gear\\camping\\DZ_Flag.p3d",
+        "itemSize": [
+          2,
+          2
+        ],
+        "absorbency": 0.89999998,
+        "ragQuantity": 6,
+        "inventorySlot": [
+          "Material_FPole_Flag"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\camping\\Data\\Flag_Zenit_co.paa"
+        ],
+        "color": "Zenit"
+      }
+    },
+    {
+      "id": "cfgvehicles::hescobox",
+      "className": "HescoBox",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_HescoBox0",
+      "fallbackName": "Hesco Box",
+      "descriptionShortKey": "$STR_CfgVehicles_HescoBox1",
+      "model": "\\dz\\gear\\camping\\hbox_base.p3d",
+      "weight": 5000,
+      "itemSize": [
+        10,
+        10
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\hbox_filled_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::hescobox"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_HescoBox0",
+        "descriptionShort": "$STR_CfgVehicles_HescoBox1",
+        "model": "\\dz\\gear\\camping\\hbox_base.p3d",
+        "forceFarBubble": "true",
+        "slopeTolerance": 0.15000001,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "weight": 5000,
+        "itemSize": [
+          10,
+          10
+        ],
+        "carveNavmesh": 1,
+        "itemBehaviour": 0,
+        "createProxyPhysicsOnInit": "false",
+        "createdProxiesOnInit": [
+          "Deployed"
+        ],
+        "physLayer": "item_large",
+        "hiddenSelections": [
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\hbox_filled_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\hbox_filled.rvmat"
+        ],
+        "hologramMaterial": "hbox_empty",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "rotationFlags": 4,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::powergenerator",
+      "className": "PowerGenerator",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_PowerGenerator0",
+      "fallbackName": "Power Generator",
+      "descriptionShortKey": "$STR_CfgVehicles_PowerGenerator1",
+      "model": "\\DZ\\gear\\camping\\power_generator.p3d",
+      "weight": 45000,
+      "itemSize": [
+        10,
+        10
+      ],
+      "scope": 2,
+      "attachments": [
+        "SparkPlug"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\plug_black_CO.paa",
+        "dz\\gear\\camping\\data\\plug_yellow_CO.paa",
+        "dz\\gear\\camping\\data\\plug_white_CO.paa",
+        "dz\\gear\\camping\\data\\plug_orange_CO.paa",
+        "dz\\gear\\camping\\data\\power_generator_CO.paa",
+        "dz\\gear\\camping\\data\\power_generator_CO.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::powergenerator"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PowerGenerator0",
+        "descriptionShort": "$STR_CfgVehicles_PowerGenerator1",
+        "model": "\\DZ\\gear\\camping\\power_generator.p3d",
+        "rotationFlags": 2,
+        "slopeTolerance": 0.40000001,
+        "yawPitchRollLimit": [
+          45,
+          45,
+          45
+        ],
+        "weight": 45000,
+        "itemSize": [
+          10,
+          10
+        ],
+        "itemBehaviour": 0,
+        "attachments": [
+          "SparkPlug"
+        ],
+        "fuelTankCapacity": 7000,
+        "carveNavmesh": 1,
+        "heavyItem": 1,
+        "hiddenSelections": [
+          "socket_1_plugged",
+          "socket_2_plugged",
+          "socket_3_plugged",
+          "socket_4_plugged",
+          "sparkplug_installed",
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\plug_black_CO.paa",
+          "dz\\gear\\camping\\data\\plug_yellow_CO.paa",
+          "dz\\gear\\camping\\data\\plug_white_CO.paa",
+          "dz\\gear\\camping\\data\\plug_orange_CO.paa",
+          "dz\\gear\\camping\\data\\power_generator_CO.paa",
+          "dz\\gear\\camping\\data\\power_generator_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\plug.rvmat",
+          "dz\\gear\\camping\\data\\plug.rvmat",
+          "dz\\gear\\camping\\data\\plug.rvmat",
+          "dz\\gear\\camping\\data\\plug.rvmat",
+          "dz\\gear\\camping\\data\\power_generator.rvmat",
+          "dz\\gear\\camping\\data\\power_generator.rvmat"
+        ],
+        "hologramMaterial": "power_generator",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "repairableWithKits": [
+          7,
+          10
+        ],
+        "repairCosts": [
+          25,
+          30
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::refridgerator",
+      "className": "Refridgerator",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Refridgerator0",
+      "fallbackName": "Refridgerator",
+      "descriptionShortKey": "$STR_CfgVehicles_Refridgerator1",
+      "model": "\\DZ\\gear\\containers\\fridge.p3d",
+      "weight": 1700,
+      "itemSize": [
+        7,
+        10
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::refridgerator"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Refridgerator0",
+        "descriptionShort": "$STR_CfgVehicles_Refridgerator1",
+        "model": "\\DZ\\gear\\containers\\fridge.p3d",
+        "canBeDigged": 1,
+        "weight": 1700,
+        "itemSize": [
+          7,
+          10
+        ],
+        "rotationFlags": 2,
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::shelterkit",
+      "className": "ShelterKit",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_ShelterKit0",
+      "fallbackName": "Shelter Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_ShelterKit1",
+      "model": "\\DZ\\gear\\camping\\watchtower_kit.p3d",
+      "weight": 280,
+      "itemSize": [
+        1,
+        5
+      ],
+      "scope": 2,
+      "attachments": [
+        "Rope"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::shelterkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ShelterKit0",
+        "descriptionShort": "$STR_CfgVehicles_ShelterKit1",
+        "model": "\\DZ\\gear\\camping\\watchtower_kit.p3d",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          5
+        ],
+        "weight": 280,
+        "itemBehaviour": 1,
+        "attachments": [
+          "Rope"
+        ],
+        "debug_ItemCategory": 10,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::sheltersite",
+      "className": "ShelterSite",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "BaseBuildingBase",
+      "displayNameKey": "$STR_CfgVehicles_ShelterSite0",
+      "fallbackName": "Shelter Site",
+      "descriptionShortKey": "$STR_CfgVehicles_ShelterSite1",
+      "model": "\\DZ\\gear\\camping\\sheltersite.p3d",
+      "weight": 100000,
+      "itemSize": [
+        50,
+        50
+      ],
+      "scope": 2,
+      "attachments": [
+        "Material_Shelter_FrameSticks",
+        "Material_Shelter_Leather",
+        "Material_Shelter_Fabric",
+        "Material_Shelter_Sticks"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::basebuildingbase",
+        "cfgvehicles::sheltersite"
+      ],
+      "properties": {
+        "debug_ItemCategory": 10,
+        "weight": 100000,
+        "itemSize": [
+          50,
+          50
+        ],
+        "disallowSwapCollisions": "true",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ShelterSite0",
+        "descriptionShort": "$STR_CfgVehicles_ShelterSite1",
+        "model": "\\DZ\\gear\\camping\\sheltersite.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "handheld": "false",
+        "lootCategory": "Crafted",
+        "carveNavmesh": 1,
+        "physLayer": "item_large",
+        "createProxyPhysicsOnInit": "false",
+        "rotationFlags": 2,
+        "attachments": [
+          "Material_Shelter_FrameSticks",
+          "Material_Shelter_Leather",
+          "Material_Shelter_Fabric",
+          "Material_Shelter_Sticks"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::spotlight",
+      "className": "Spotlight",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Spotlight0",
+      "fallbackName": "Spotlight",
+      "descriptionShortKey": "$STR_CfgVehicles_Spotlight1",
+      "model": "\\dz\\gear\\camping\\spotlight.p3d",
+      "weight": 1700,
+      "itemSize": [
+        3,
+        7
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\spotlight_co.paa",
+        "dz\\gear\\camping\\data\\plug_yellow_co.paa",
+        "dz\\gear\\camping\\data\\plug_yellow_co.paa",
+        "dz\\gear\\camping\\data\\spotlight_glass_ca.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::spotlight"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Spotlight0",
+        "descriptionShort": "$STR_CfgVehicles_Spotlight1",
+        "model": "\\dz\\gear\\camping\\spotlight.p3d",
+        "slopeTolerance": 0.15000001,
+        "yawPitchRollLimit": [
+          18,
+          18,
+          18
+        ],
+        "hiddenSelections": [
+          "placing",
+          "cord_folded",
+          "cord_plugged",
+          "glass_unfolded",
+          "reflector_unfolded",
+          "glass_folded",
+          "reflector_folded"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\spotlight_co.paa",
+          "dz\\gear\\camping\\data\\plug_yellow_co.paa",
+          "dz\\gear\\camping\\data\\plug_yellow_co.paa",
+          "dz\\gear\\camping\\data\\spotlight_glass_ca.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\spotlight.rvmat",
+          "dz\\gear\\camping\\data\\plug.rvmat",
+          "dz\\gear\\camping\\data\\plug.rvmat",
+          "dz\\gear\\camping\\data\\spotlight_glass.rvmat"
+        ],
+        "hologramMaterial": "spotlight",
+        "hologramMaterialPath": "dz\\gear\\camping\\data",
+        "weight": 1700,
+        "itemSize": [
+          3,
+          7
+        ],
+        "itemBehaviour": 2,
+        "rotationFlags": 2,
+        "repairableWithKits": [
+          7,
+          10
+        ],
+        "repairCosts": [
+          25,
+          30
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::staticflagpole",
+      "className": "StaticFlagPole",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "TerritoryFlag",
+      "displayNameKey": "$STR_CfgVehicles_TerritoryFlag0",
+      "fallbackName": "Static Flag Pole",
+      "descriptionShortKey": "$STR_CfgVehicles_TerritoryFlag1",
+      "model": "\\DZ\\gear\\camping\\territory_flag.p3d",
+      "weight": 100000,
+      "itemSize": [
+        50,
+        50
+      ],
+      "scope": 2,
+      "attachments": [
+        "Material_FPole_WoodenLog",
+        "Material_FPole_Stones",
+        "Material_FPole_WoodenLog2",
+        "Material_FPole_MetalWire",
+        "Material_FPole_Rope",
+        "Material_FPole_Nails",
+        "Material_FPole_MagicStick",
+        "Material_FPole_Flag"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::basebuildingbase",
+        "cfgvehicles::territoryflag",
+        "cfgvehicles::staticflagpole"
+      ],
+      "properties": {
+        "debug_ItemCategory": 10,
+        "weight": 100000,
+        "itemSize": [
+          50,
+          50
+        ],
+        "disallowSwapCollisions": "true",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TerritoryFlag0",
+        "descriptionShort": "$STR_CfgVehicles_TerritoryFlag1",
+        "model": "\\DZ\\gear\\camping\\territory_flag.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "handheld": "false",
+        "lootCategory": "Crafted",
+        "carveNavmesh": 1,
+        "physLayer": "item_large",
+        "createProxyPhysicsOnInit": "false",
+        "createdProxiesOnInit": [
+          "Deployed"
+        ],
+        "rotationFlags": 2,
+        "attachments": [
+          "Material_FPole_WoodenLog",
+          "Material_FPole_Stones",
+          "Material_FPole_WoodenLog2",
+          "Material_FPole_MetalWire",
+          "Material_FPole_Rope",
+          "Material_FPole_Nails",
+          "Material_FPole_MagicStick",
+          "Material_FPole_Flag"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::territoryflag",
+      "className": "TerritoryFlag",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "BaseBuildingBase",
+      "displayNameKey": "$STR_CfgVehicles_TerritoryFlag0",
+      "fallbackName": "Territory Flag",
+      "descriptionShortKey": "$STR_CfgVehicles_TerritoryFlag1",
+      "model": "\\DZ\\gear\\camping\\territory_flag.p3d",
+      "weight": 100000,
+      "itemSize": [
+        50,
+        50
+      ],
+      "scope": 2,
+      "attachments": [
+        "Material_FPole_WoodenLog",
+        "Material_FPole_Stones",
+        "Material_FPole_WoodenLog2",
+        "Material_FPole_MetalWire",
+        "Material_FPole_Rope",
+        "Material_FPole_Nails",
+        "Material_FPole_MagicStick",
+        "Material_FPole_Flag"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::basebuildingbase",
+        "cfgvehicles::territoryflag"
+      ],
+      "properties": {
+        "debug_ItemCategory": 10,
+        "weight": 100000,
+        "itemSize": [
+          50,
+          50
+        ],
+        "disallowSwapCollisions": "true",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TerritoryFlag0",
+        "descriptionShort": "$STR_CfgVehicles_TerritoryFlag1",
+        "model": "\\DZ\\gear\\camping\\territory_flag.p3d",
+        "bounding": "BSphere",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "handheld": "false",
+        "lootCategory": "Crafted",
+        "carveNavmesh": 1,
+        "physLayer": "item_large",
+        "createProxyPhysicsOnInit": "false",
+        "createdProxiesOnInit": [
+          "Deployed"
+        ],
+        "rotationFlags": 2,
+        "attachments": [
+          "Material_FPole_WoodenLog",
+          "Material_FPole_Stones",
+          "Material_FPole_WoodenLog2",
+          "Material_FPole_MetalWire",
+          "Material_FPole_Rope",
+          "Material_FPole_Nails",
+          "Material_FPole_MagicStick",
+          "Material_FPole_Flag"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::territoryflagkit",
+      "className": "TerritoryFlagKit",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_TerritoryFlagKit0",
+      "fallbackName": "Territory Flag Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_TerritoryFlagKit1",
+      "model": "\\DZ\\gear\\camping\\territory_flag_kit.p3d",
+      "weight": 280,
+      "itemSize": [
+        1,
+        5
+      ],
+      "scope": 2,
+      "attachments": [
+        "Rope"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::territoryflagkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TerritoryFlagKit0",
+        "descriptionShort": "$STR_CfgVehicles_TerritoryFlagKit1",
+        "model": "\\DZ\\gear\\camping\\territory_flag_kit.p3d",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          5
+        ],
+        "weight": 280,
+        "itemBehaviour": 1,
+        "attachments": [
+          "Rope"
+        ],
+        "debug_ItemCategory": 10
+      }
+    },
+    {
+      "id": "cfgvehicles::undergroundstash",
+      "className": "UndergroundStash",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_UndergroundStash0",
+      "fallbackName": "Underground Stash",
+      "model": "\\DZ\\gear\\camping\\underground_stash.p3d",
+      "itemSize": [
+        20,
+        20
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\cultivation\\data\\soil_cultivated_co.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::undergroundstash"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_UndergroundStash0",
+        "model": "\\DZ\\gear\\camping\\underground_stash.p3d",
+        "canBeDigged": 1,
+        "itemSize": [
+          20,
+          20
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\cultivation\\data\\soil_cultivated_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\cultivation\\data\\soil_cultivated.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::undergroundstashsnow",
+      "className": "UndergroundStashSnow",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "UndergroundStash",
+      "displayNameKey": "$STR_CfgVehicles_UndergroundStash0",
+      "fallbackName": "Underground Stash Snow",
+      "model": "\\DZ\\gear\\camping\\underground_stash_snow.p3d",
+      "itemSize": [
+        20,
+        20
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\camping\\data\\underground_stash_snow_ca.paa"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::undergroundstash",
+        "cfgvehicles::undergroundstashsnow"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_UndergroundStash0",
+        "model": "\\DZ\\gear\\camping\\underground_stash_snow.p3d",
+        "canBeDigged": 1,
+        "itemSize": [
+          20,
+          20
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\camping\\data\\underground_stash_snow_ca.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\camping\\data\\underground_stash_snow.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::watchtower",
+      "className": "Watchtower",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "BaseBuildingBase",
+      "displayNameKey": "$STR_CfgVehicles_Watchtower0",
+      "fallbackName": "Watchtower",
+      "descriptionShortKey": "$STR_CfgVehicles_Watchtower1",
+      "model": "\\DZ\\gear\\camping\\watchtower.p3d",
+      "weight": 100000,
+      "itemSize": [
+        50,
+        50
+      ],
+      "scope": 2,
+      "attachments": [
+        "Level_1_Wall_1_Barbedwire_1",
+        "Level_1_Wall_1_Barbedwire_2",
+        "Level_1_Wall_2_Barbedwire_1",
+        "Level_1_Wall_2_Barbedwire_2",
+        "Level_1_Wall_3_Barbedwire_1",
+        "Level_1_Wall_3_Barbedwire_2",
+        "Level_1_Wall_1_Camonet",
+        "Level_1_Wall_2_Camonet",
+        "Level_1_Wall_3_Camonet",
+        "Level_2_Wall_1_Camonet",
+        "Level_2_Wall_2_Camonet",
+        "Level_2_Wall_3_Camonet",
+        "Level_3_Wall_1_Camonet",
+        "Level_3_Wall_2_Camonet",
+        "Level_3_Wall_3_Camonet",
+        "Material_L1_WoodenLogs",
+        "Material_L2_WoodenLogs",
+        "Material_L3_WoodenLogs",
+        "Material_L1_Nails",
+        "Material_L1W1_Nails",
+        "Material_L1W2_Nails",
+        "Material_L1W3_Nails",
+        "Material_L2_Nails",
+        "Material_L2W1_Nails",
+        "Material_L2W2_Nails",
+        "Material_L2W3_Nails",
+        "Material_L3_Nails",
+        "Material_L3W1_Nails",
+        "Material_L3W2_Nails",
+        "Material_L3W3_Nails",
+        "Material_L1_WoodenPlanks",
+        "Material_L1W1_WoodenPlanks",
+        "Material_L1W2_WoodenPlanks",
+        "Material_L1W3_WoodenPlanks",
+        "Material_L2_WoodenPlanks",
+        "Material_L2W1_WoodenPlanks",
+        "Material_L2W2_WoodenPlanks",
+        "Material_L2W3_WoodenPlanks",
+        "Material_L3_WoodenPlanks",
+        "Material_L3W1_WoodenPlanks",
+        "Material_L3W2_WoodenPlanks",
+        "Material_L3W3_WoodenPlanks",
+        "Material_L3_MetalSheets",
+        "Material_L1W1_MetalSheets",
+        "Material_L1W2_MetalSheets",
+        "Material_L1W3_MetalSheets",
+        "Material_L2W1_MetalSheets",
+        "Material_L2W2_MetalSheets",
+        "Material_L2W3_MetalSheets",
+        "Material_L3W1_MetalSheets",
+        "Material_L3W2_MetalSheets",
+        "Material_L3W3_MetalSheets"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::basebuildingbase",
+        "cfgvehicles::watchtower"
+      ],
+      "properties": {
+        "debug_ItemCategory": 10,
+        "weight": 100000,
+        "itemSize": [
+          50,
+          50
+        ],
+        "disallowSwapCollisions": "true",
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Watchtower0",
+        "descriptionShort": "$STR_CfgVehicles_Watchtower1",
+        "model": "\\DZ\\gear\\camping\\watchtower.p3d",
+        "overrideDrawArea": "3.0",
+        "forceFarBubble": "true",
+        "lootCategory": "Crafted",
+        "carveNavmesh": 1,
+        "physLayer": "item_large",
+        "createProxyPhysicsOnInit": "false",
+        "createdProxiesOnInit": [
+          "Deployed"
+        ],
+        "mountables": [
+          "Level_1_Wall_1_Barbedwire_1",
+          "Level_1_Wall_1_Barbedwire_2",
+          "Level_1_Wall_2_Barbedwire_1",
+          "Level_1_Wall_2_Barbedwire_2",
+          "Level_1_Wall_3_Barbedwire_1",
+          "Level_1_Wall_3_Barbedwire_2"
+        ],
+        "rotationFlags": 2,
+        "attachments": [
+          "Level_1_Wall_1_Barbedwire_1",
+          "Level_1_Wall_1_Barbedwire_2",
+          "Level_1_Wall_2_Barbedwire_1",
+          "Level_1_Wall_2_Barbedwire_2",
+          "Level_1_Wall_3_Barbedwire_1",
+          "Level_1_Wall_3_Barbedwire_2",
+          "Level_1_Wall_1_Camonet",
+          "Level_1_Wall_2_Camonet",
+          "Level_1_Wall_3_Camonet",
+          "Level_2_Wall_1_Camonet",
+          "Level_2_Wall_2_Camonet",
+          "Level_2_Wall_3_Camonet",
+          "Level_3_Wall_1_Camonet",
+          "Level_3_Wall_2_Camonet",
+          "Level_3_Wall_3_Camonet",
+          "Material_L1_WoodenLogs",
+          "Material_L2_WoodenLogs",
+          "Material_L3_WoodenLogs",
+          "Material_L1_Nails",
+          "Material_L1W1_Nails",
+          "Material_L1W2_Nails",
+          "Material_L1W3_Nails",
+          "Material_L2_Nails",
+          "Material_L2W1_Nails",
+          "Material_L2W2_Nails",
+          "Material_L2W3_Nails",
+          "Material_L3_Nails",
+          "Material_L3W1_Nails",
+          "Material_L3W2_Nails",
+          "Material_L3W3_Nails",
+          "Material_L1_WoodenPlanks",
+          "Material_L1W1_WoodenPlanks",
+          "Material_L1W2_WoodenPlanks",
+          "Material_L1W3_WoodenPlanks",
+          "Material_L2_WoodenPlanks",
+          "Material_L2W1_WoodenPlanks",
+          "Material_L2W2_WoodenPlanks",
+          "Material_L2W3_WoodenPlanks",
+          "Material_L3_WoodenPlanks",
+          "Material_L3W1_WoodenPlanks",
+          "Material_L3W2_WoodenPlanks",
+          "Material_L3W3_WoodenPlanks",
+          "Material_L3_MetalSheets",
+          "Material_L1W1_MetalSheets",
+          "Material_L1W2_MetalSheets",
+          "Material_L1W3_MetalSheets",
+          "Material_L2W1_MetalSheets",
+          "Material_L2W2_MetalSheets",
+          "Material_L2W3_MetalSheets",
+          "Material_L3W1_MetalSheets",
+          "Material_L3W2_MetalSheets",
+          "Material_L3W3_MetalSheets"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::watchtowerkit",
+      "className": "WatchtowerKit",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_WatchtowerKit0",
+      "fallbackName": "Watchtower Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_WatchtowerKit1",
+      "model": "\\DZ\\gear\\camping\\watchtower_kit.p3d",
+      "weight": 280,
+      "itemSize": [
+        1,
+        5
+      ],
+      "scope": 2,
+      "attachments": [
+        "Rope"
+      ],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::watchtowerkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_WatchtowerKit0",
+        "descriptionShort": "$STR_CfgVehicles_WatchtowerKit1",
+        "model": "\\DZ\\gear\\camping\\watchtower_kit.p3d",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          5
+        ],
+        "weight": 280,
+        "itemBehaviour": 1,
+        "attachments": [
+          "Rope"
+        ],
+        "debug_ItemCategory": 10,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::xmaslights",
+      "className": "XmasLights",
+      "section": "CfgVehicles",
+      "category": "camping",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_XmasLights0",
+      "fallbackName": "Xmas Lights",
+      "descriptionShortKey": "$STR_CfgVehicles_XmasLights1",
+      "model": "\\dz\\gear\\camping\\christmas_lights.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Lights"
+      ],
+      "hiddenSelectionsTextures": [],
+      "sourcePbo": "gear_camping.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::xmaslights"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_XmasLights0",
+        "descriptionShort": "$STR_CfgVehicles_XmasLights1",
+        "model": "\\dz\\gear\\camping\\christmas_lights.p3d",
+        "hiddenSelections": [
+          "glass_r",
+          "glass_g",
+          "glass_b",
+          "glass_y"
+        ],
+        "hiddenSelectionsTextures": [],
+        "hiddenSelectionsMaterials": [],
+        "itemSize": [
+          1,
+          3
+        ],
+        "weight": 150,
+        "inventorySlot": [
+          "Lights"
+        ],
+        "rotationFlags": 1,
+        "repairableWithKits": [
+          5,
+          7
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "soundImpactType": "plastic"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5487 @@
+{
+  "metadata": {
+    "category": "weapon-attachment",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 82
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::ak74_hndgrd",
+      "className": "AK74_Hndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK74_Hndgrd0",
+      "fallbackName": "AK 74 Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_AK74_Hndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+      "weight": 550,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\ak74_wood_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak74_hndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK74_Hndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK74_Hndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 550,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\ak74_wood_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak74_hndgrd_black",
+      "className": "AK74_Hndgrd_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK74_Hndgrd",
+      "displayNameKey": "$STR_cfgVehicles_AK74_Hndgrd0",
+      "fallbackName": "AK 74 Hndgrd Black",
+      "descriptionShortKey": "$STR_cfgVehicles_AK74_Hndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+      "weight": 550,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak74_hndgrd",
+        "cfgvehicles::ak74_hndgrd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK74_Hndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK74_Hndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 550,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_black_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak74_hndgrd_camo",
+      "className": "AK74_Hndgrd_Camo",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK74_Hndgrd",
+      "displayNameKey": "$STR_cfgVehicles_AK74_Hndgrd0",
+      "fallbackName": "AK 74 Hndgrd Camo",
+      "descriptionShortKey": "$STR_cfgVehicles_AK74_Hndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+      "weight": 550,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_camo_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak74_hndgrd",
+        "cfgvehicles::ak74_hndgrd_camo"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK74_Hndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK74_Hndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 550,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_camo_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood",
+        "color": "Camo",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak74_woodbttstck",
+      "className": "AK74_WoodBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK74_WoodBttstck0",
+      "fallbackName": "AK 74 Wood Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_AK74_WoodBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+      "weight": 530,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\ak74_wood_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak74_woodbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK74_WoodBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK74_WoodBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 530,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\ak74_wood_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\ak74_wood.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak74_woodbttstck_black",
+      "className": "AK74_WoodBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK74_WoodBttstck",
+      "displayNameKey": "$STR_cfgVehicles_AK74_WoodBttstck0",
+      "fallbackName": "AK 74 Wood Bttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_AK74_WoodBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+      "weight": 530,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak74_woodbttstck",
+        "cfgvehicles::ak74_woodbttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK74_WoodBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK74_WoodBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 530,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_black_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\ak74_wood.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak74_woodbttstck_camo",
+      "className": "AK74_WoodBttstck_Camo",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK74_WoodBttstck",
+      "displayNameKey": "$STR_cfgVehicles_AK74_WoodBttstck0",
+      "fallbackName": "AK 74 Wood Bttstck Camo",
+      "descriptionShortKey": "$STR_cfgVehicles_AK74_WoodBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+      "weight": 530,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_camo_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak74_woodbttstck",
+        "cfgvehicles::ak74_woodbttstck_camo"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK74_WoodBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK74_WoodBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 530,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_camo_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\ak74_wood.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood",
+        "color": "Camo",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_bayonet",
+      "className": "AK_Bayonet",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK_Bayonet0",
+      "fallbackName": "AK Bayonet",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_Bayonet1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\bayonet_ak.p3d",
+      "weight": 470,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponBayonetAK",
+        "Knife"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_bayonet"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_Bayonet0",
+        "descriptionShort": "$STR_cfgVehicles_AK_Bayonet1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\bayonet_ak.p3d",
+        "debug_ItemCategory": 3,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          10
+        ],
+        "animClass": "Knife",
+        "suicideAnim": "onehanded",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 470,
+        "itemSize": [
+          1,
+          3
+        ],
+        "itemModelLength": 0.34599999,
+        "itemAttachOffset": -0.16,
+        "lootTag": [
+          "Military_east"
+        ],
+        "lootCategory": "Attachments",
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "inventorySlot": [
+          "weaponBayonetAK",
+          "Knife"
+        ],
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_foldingbttstck",
+      "className": "AK_FoldingBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK_FoldingBttstck0",
+      "fallbackName": "AK Folding Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_FoldingBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_folding.p3d",
+      "weight": 720,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_foldingbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_FoldingBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_FoldingBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_folding.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 720,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_foldingbttstck_black",
+      "className": "AK_FoldingBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_FoldingBttstck",
+      "displayNameKey": "$STR_cfgVehicles_AK_FoldingBttstck0",
+      "fallbackName": "AK Folding Bttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_FoldingBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_folding.p3d",
+      "weight": 720,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_foldingbttstck",
+        "cfgvehicles::ak_foldingbttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_FoldingBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_FoldingBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_folding.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 720,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_foldingbttstck_green",
+      "className": "AK_FoldingBttstck_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_FoldingBttstck",
+      "displayNameKey": "$STR_cfgVehicles_AK_FoldingBttstck0",
+      "fallbackName": "AK Folding Bttstck Green",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_FoldingBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_folding.p3d",
+      "weight": 720,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_green_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_foldingbttstck",
+        "cfgvehicles::ak_foldingbttstck_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_FoldingBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_FoldingBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_folding.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 720,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_green_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_plasticbttstck",
+      "className": "AK_PlasticBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK_PlasticBttstck0",
+      "fallbackName": "AK Plastic Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_PlasticBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_plastic.p3d",
+      "weight": 363,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\firearms\\AK101\\data\\ak101_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_plasticbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_PlasticBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_PlasticBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_plastic.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 363,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\firearms\\AK101\\data\\ak101_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\firearms\\AK101\\data\\ak101.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_plasticbttstck_black",
+      "className": "AK_PlasticBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_PlasticBttstck",
+      "displayNameKey": "$STR_cfgVehicles_AK_PlasticBttstck0",
+      "fallbackName": "AK Plastic Bttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_PlasticBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_plastic.p3d",
+      "weight": 363,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_plasticbttstck",
+        "cfgvehicles::ak_plasticbttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_PlasticBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_PlasticBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_plastic.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 363,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\firearms\\AK101\\data\\ak101.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_plasticbttstck_green",
+      "className": "AK_PlasticBttstck_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_PlasticBttstck",
+      "displayNameKey": "$STR_cfgVehicles_AK_PlasticBttstck0",
+      "fallbackName": "AK Plastic Bttstck Green",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_PlasticBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_plastic.p3d",
+      "weight": 363,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_plasticbttstck",
+        "cfgvehicles::ak_plasticbttstck_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_PlasticBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_PlasticBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_plastic.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 363,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\firearms\\AK101\\data\\ak101.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_plastichndgrd",
+      "className": "AK_PlasticHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK_PlasticHndgrd0",
+      "fallbackName": "AK Plastic Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_PlasticHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_plastic.p3d",
+      "weight": 160,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\firearms\\AK101\\data\\ak101_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_plastichndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_PlasticHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK_PlasticHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_plastic.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 160,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\firearms\\AK101\\data\\ak101_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_railhndgrd",
+      "className": "AK_RailHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK_RailHndgrd0",
+      "fallbackName": "AK Rail Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_RailHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_rail.p3d",
+      "weight": 430,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_railhndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_RailHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK_RailHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_rail.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 430,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "hasRailFunctionality": 1,
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_railhndgrd_black",
+      "className": "AK_RailHndgrd_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_RailHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_AK_RailHndgrd0",
+      "fallbackName": "AK Rail Hndgrd Black",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_RailHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_rail.p3d",
+      "weight": 430,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_railhndgrd",
+        "cfgvehicles::ak_railhndgrd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_RailHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK_RailHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_rail.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 430,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "hasRailFunctionality": 1,
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_black_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_railhndgrd_green",
+      "className": "AK_RailHndgrd_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_RailHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_AK_RailHndgrd0",
+      "fallbackName": "AK Rail Hndgrd Green",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_RailHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_rail.p3d",
+      "weight": 430,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_accessories_green_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_railhndgrd",
+        "cfgvehicles::ak_railhndgrd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_RailHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK_RailHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_rail.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 430,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "hasRailFunctionality": 1,
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_accessories_green_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_suppressor",
+      "className": "AK_Suppressor",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_AK_Suppressor0",
+      "fallbackName": "AK Suppressor",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_Suppressor1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_545.p3d",
+      "weight": 100,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponMuzzleAK"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::ak_suppressor"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "weaponMuzzleAK"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          3,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 1,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 2250,
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_AK_Suppressor0",
+        "descriptionShort": "$STR_cfgVehicles_AK_Suppressor1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_545.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 100,
+        "itemModelLength": 0.23,
+        "lootCategory": "Attachments",
+        "lootTag": [
+          "Military_east"
+        ],
+        "dispersionModifier": -0.00015000001,
+        "dispersionCondition": "true",
+        "noiseShootModifier": -0.93000001
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_woodbttstck",
+      "className": "AK_WoodBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK_WoodBttstck0",
+      "fallbackName": "AK Wood Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_WoodBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+      "weight": 530,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_woodbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_WoodBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_WoodBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 530,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\akm_wood.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_woodbttstck_black",
+      "className": "AK_WoodBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_WoodBttstck",
+      "displayNameKey": "$STR_cfgVehicles_AK_WoodBttstck0",
+      "fallbackName": "AK Wood Bttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_WoodBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+      "weight": 530,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_woodbttstck",
+        "cfgvehicles::ak_woodbttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_WoodBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_WoodBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 530,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_black_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\akm_wood.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_woodbttstck_camo",
+      "className": "AK_WoodBttstck_Camo",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_WoodBttstck",
+      "displayNameKey": "$STR_cfgVehicles_AK_WoodBttstck0",
+      "fallbackName": "AK Wood Bttstck Camo",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_WoodBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+      "weight": 530,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_camo_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_woodbttstck",
+        "cfgvehicles::ak_woodbttstck_camo"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_WoodBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AK_WoodBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 530,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_camo_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\akm_wood.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_woodhndgrd",
+      "className": "AK_WoodHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AK_WoodHndgrd0",
+      "fallbackName": "AK Wood Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_WoodHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+      "weight": 550,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_woodhndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_WoodHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK_WoodHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 550,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_woodhndgrd_black",
+      "className": "AK_WoodHndgrd_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_WoodHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_AK_WoodHndgrd0",
+      "fallbackName": "AK Wood Hndgrd Black",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_WoodHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+      "weight": 550,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_woodhndgrd",
+        "cfgvehicles::ak_woodhndgrd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_WoodHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK_WoodHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 550,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_black_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::ak_woodhndgrd_camo",
+      "className": "AK_WoodHndgrd_Camo",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AK_WoodHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_AK_WoodHndgrd0",
+      "fallbackName": "AK Wood Hndgrd Camo",
+      "descriptionShortKey": "$STR_cfgVehicles_AK_WoodHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+      "weight": 550,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\akm_wood_camo_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ak_woodhndgrd",
+        "cfgvehicles::ak_woodhndgrd_camo"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AK_WoodHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_AK_WoodHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_ak_wood.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 550,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardAK"
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\akm_wood_camo_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "wood",
+        "color": "Camo",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::aks74u_bttstck",
+      "className": "AKS74U_Bttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AKS74U_Bttstck0",
+      "fallbackName": "AKS 74 U Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_AKS74U_Bttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_aks.p3d",
+      "weight": 450,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\firearms\\AK74\\data\\aks74u_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::aks74u_bttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AKS74U_Bttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AKS74U_Bttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_aks.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 450,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.85000002,
+          0.85000002,
+          0.85000002
+        ],
+        "swayModifier": [
+          0.60000002,
+          0.60000002,
+          0.60000002
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\firearms\\AK74\\data\\aks74u_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\firearms\\AK74\\data\\aks74u.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::aks74u_bttstck_black",
+      "className": "AKS74U_Bttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AKS74U_Bttstck",
+      "displayNameKey": "$STR_cfgVehicles_AKS74U_Bttstck0",
+      "fallbackName": "AKS 74 U Bttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_AKS74U_Bttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_aks.p3d",
+      "weight": 450,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\firearms\\AK74\\data\\aks74u_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::aks74u_bttstck",
+        "cfgvehicles::aks74u_bttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AKS74U_Bttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AKS74U_Bttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_aks.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 450,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.85000002,
+          0.85000002,
+          0.85000002
+        ],
+        "swayModifier": [
+          0.60000002,
+          0.60000002,
+          0.60000002
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\firearms\\AK74\\data\\aks74u_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\firearms\\AK74\\data\\aks74u.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::aks74u_bttstck_green",
+      "className": "AKS74U_Bttstck_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "AKS74U_Bttstck",
+      "displayNameKey": "$STR_cfgVehicles_AKS74U_Bttstck0",
+      "fallbackName": "AKS 74 U Bttstck Green",
+      "descriptionShortKey": "$STR_cfgVehicles_AKS74U_Bttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_aks.p3d",
+      "weight": 450,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.37,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::aks74u_bttstck",
+        "cfgvehicles::aks74u_bttstck_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AKS74U_Bttstck0",
+        "descriptionShort": "$STR_cfgVehicles_AKS74U_Bttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_aks.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 450,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.85000002,
+          0.85000002,
+          0.85000002
+        ],
+        "swayModifier": [
+          0.60000002,
+          0.60000002,
+          0.60000002
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.37,0.28,1.0,CO)"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\firearms\\AK74\\data\\aks74u.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::atlasbipod",
+      "className": "AtlasBipod",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_AtlasBipod0",
+      "fallbackName": "Atlas Bipod",
+      "descriptionShortKey": "$STR_cfgVehicles_AtlasBipod1",
+      "model": "\\DZ\\weapons\\attachments\\support\\bipod_atlas.p3d",
+      "weight": 376,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponBipod"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::atlasbipod"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_AtlasBipod0",
+        "descriptionShort": "$STR_cfgVehicles_AtlasBipod1",
+        "model": "\\DZ\\weapons\\attachments\\support\\bipod_atlas.p3d",
+        "rotationFlags": 12,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponBipod"
+        ],
+        "weight": 376,
+        "itemSize": [
+          1,
+          3
+        ],
+        "dispersionModifier": -0.00025000001,
+        "dexterityModifier": -0.2,
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::aug_barrel",
+      "className": "Aug_Barrel",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemBarrel",
+      "displayNameKey": "$STR_cfgVehicles_Aug_Barrel0",
+      "fallbackName": "Aug Barrel",
+      "descriptionShortKey": "$STR_cfgVehicles_Aug_Barrel1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_556.p3d",
+      "weight": 73,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponBarrelAug"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itembarrel",
+        "cfgvehicles::aug_barrel"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_Aug_Barrel0",
+        "descriptionShort": "$STR_cfgVehicles_Aug_Barrel1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_556.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 73,
+        "itemSize": [
+          1,
+          3
+        ],
+        "itemModelLength": 0.148,
+        "lootCategory": "Attachments",
+        "lootTag": [
+          "Military_west"
+        ],
+        "inventorySlot": [
+          "weaponBarrelAug"
+        ],
+        "simulation": "ItemBarrel",
+        "noiseShootModifier": -0.89999998,
+        "dispersionCondition": "true",
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 1,
+        "muzzlePos": "usti hlavne"
+      }
+    },
+    {
+      "id": "cfgvehicles::fal_foldingbttstck",
+      "className": "Fal_FoldingBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_Fal_FoldingBttstck0",
+      "fallbackName": "Fal Folding Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_Fal_FoldingBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_fal_folding.p3d",
+      "weight": 530,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockFal"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\FAL_stock_folding_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fal_foldingbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_Fal_FoldingBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_Fal_FoldingBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_fal_folding.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockFal"
+        ],
+        "weight": 530,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.85000002,
+          0.85000002,
+          0.85000002
+        ],
+        "swayModifier": [
+          0.60000002,
+          0.60000002,
+          0.60000002
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\FAL_stock_folding_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\support\\data\\FAL_stock_folding.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::fal_oebttstck",
+      "className": "Fal_OeBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_Fal_OeBttstck0",
+      "fallbackName": "Fal Oe Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_Fal_OeBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_fal_oe.p3d",
+      "weight": 530,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockFal"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\FAL_stock_oe_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fal_oebttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_Fal_OeBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_Fal_OeBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_fal_oe.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockFal"
+        ],
+        "weight": 530,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\FAL_stock_oe_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\support\\data\\FAL_stock_oe.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::ghillieatt_mossy",
+      "className": "GhillieAtt_Mossy",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "GhillieAtt_ColorBase",
+      "displayNameKey": "$STR_cfgVehicles_GhillieAtt_ColorBase0",
+      "fallbackName": "Ghillie Att Mossy",
+      "descriptionShortKey": "$STR_cfgVehicles_GhillieAtt_ColorBase1",
+      "model": "\\DZ\\weapons\\attachments\\support\\ghillie_wrap.p3d",
+      "weight": 500,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponWrap"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\backpacks\\data\\ghillie_mossy_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ghillieatt_colorbase",
+        "cfgvehicles::ghillieatt_mossy"
+      ],
+      "properties": {
+        "displayName": "$STR_cfgVehicles_GhillieAtt_ColorBase0",
+        "descriptionShort": "$STR_cfgVehicles_GhillieAtt_ColorBase1",
+        "model": "\\DZ\\weapons\\attachments\\support\\ghillie_wrap.p3d",
+        "inventorySlot": [
+          "weaponWrap"
+        ],
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 500,
+        "itemSize": [
+          4,
+          3
+        ],
+        "varWetMax": 0.048999999,
+        "lootCategory": "Crafted",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\characters\\backpacks\\data\\ghillie.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\backpacks\\data\\ghillie_mossy_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ghillieatt_tan",
+      "className": "GhillieAtt_Tan",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "GhillieAtt_ColorBase",
+      "displayNameKey": "$STR_cfgVehicles_GhillieAtt_ColorBase0",
+      "fallbackName": "Ghillie Att Tan",
+      "descriptionShortKey": "$STR_cfgVehicles_GhillieAtt_ColorBase1",
+      "model": "\\DZ\\weapons\\attachments\\support\\ghillie_wrap.p3d",
+      "weight": 500,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponWrap"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\backpacks\\data\\ghillie_tan_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ghillieatt_colorbase",
+        "cfgvehicles::ghillieatt_tan"
+      ],
+      "properties": {
+        "displayName": "$STR_cfgVehicles_GhillieAtt_ColorBase0",
+        "descriptionShort": "$STR_cfgVehicles_GhillieAtt_ColorBase1",
+        "model": "\\DZ\\weapons\\attachments\\support\\ghillie_wrap.p3d",
+        "inventorySlot": [
+          "weaponWrap"
+        ],
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 500,
+        "itemSize": [
+          4,
+          3
+        ],
+        "varWetMax": 0.048999999,
+        "lootCategory": "Crafted",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\characters\\backpacks\\data\\ghillie.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\backpacks\\data\\ghillie_tan_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ghillieatt_winter",
+      "className": "GhillieAtt_Winter",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "GhillieAtt_ColorBase",
+      "displayNameKey": "$STR_cfgVehicles_GhillieAtt_ColorBase0",
+      "fallbackName": "Ghillie Att Winter",
+      "descriptionShortKey": "$STR_cfgVehicles_GhillieAtt_ColorBase1",
+      "model": "\\DZ\\weapons\\attachments\\support\\ghillie_wrap.p3d",
+      "weight": 500,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponWrap"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\backpacks\\data\\ghillie_winter_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ghillieatt_colorbase",
+        "cfgvehicles::ghillieatt_winter"
+      ],
+      "properties": {
+        "displayName": "$STR_cfgVehicles_GhillieAtt_ColorBase0",
+        "descriptionShort": "$STR_cfgVehicles_GhillieAtt_ColorBase1",
+        "model": "\\DZ\\weapons\\attachments\\support\\ghillie_wrap.p3d",
+        "inventorySlot": [
+          "weaponWrap"
+        ],
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 500,
+        "itemSize": [
+          4,
+          3
+        ],
+        "varWetMax": 0.048999999,
+        "lootCategory": "Crafted",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\characters\\backpacks\\data\\ghillie.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\backpacks\\data\\ghillie_winter_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::ghillieatt_woodland",
+      "className": "GhillieAtt_Woodland",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "GhillieAtt_ColorBase",
+      "displayNameKey": "$STR_cfgVehicles_GhillieAtt_ColorBase0",
+      "fallbackName": "Ghillie Att Woodland",
+      "descriptionShortKey": "$STR_cfgVehicles_GhillieAtt_ColorBase1",
+      "model": "\\DZ\\weapons\\attachments\\support\\ghillie_wrap.p3d",
+      "weight": 500,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponWrap"
+      ],
+      "hiddenSelectionsTextures": [
+        "\\dz\\characters\\backpacks\\data\\ghillie_green_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::ghillieatt_colorbase",
+        "cfgvehicles::ghillieatt_woodland"
+      ],
+      "properties": {
+        "displayName": "$STR_cfgVehicles_GhillieAtt_ColorBase0",
+        "descriptionShort": "$STR_cfgVehicles_GhillieAtt_ColorBase1",
+        "model": "\\DZ\\weapons\\attachments\\support\\ghillie_wrap.p3d",
+        "inventorySlot": [
+          "weaponWrap"
+        ],
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 500,
+        "itemSize": [
+          4,
+          3
+        ],
+        "varWetMax": 0.048999999,
+        "lootCategory": "Crafted",
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\characters\\backpacks\\data\\ghillie.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "textile",
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "\\dz\\characters\\backpacks\\data\\ghillie_green_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::groza_barrel_grip",
+      "className": "Groza_Barrel_Grip",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_Groza_Barrel_Grip0",
+      "fallbackName": "Groza Barrel Grip",
+      "descriptionShortKey": "$STR_cfgVehicles_Groza_Barrel_Grip1",
+      "model": "\\dz\\weapons\\firearms\\ots14\\ots14_barrel_grip.p3d",
+      "weight": 354,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponMuzzleAK"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::groza_barrel_grip"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "weaponMuzzleAK"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          1,
+          2
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 1,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 3000,
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_Groza_Barrel_Grip0",
+        "descriptionShort": "$STR_cfgVehicles_Groza_Barrel_Grip1",
+        "model": "\\dz\\weapons\\firearms\\ots14\\ots14_barrel_grip.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 354,
+        "lootCategory": "Attachments",
+        "lootTag": [
+          "Military_east"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::groza_barrel_short",
+      "className": "Groza_Barrel_Short",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_Groza_Barrel_Short0",
+      "fallbackName": "Groza Barrel Short",
+      "descriptionShortKey": "$STR_cfgVehicles_Groza_Barrel_Short1",
+      "model": "\\dz\\weapons\\firearms\\ots14\\ots14_barrel.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponMuzzleAK"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::groza_barrel_short"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "weaponMuzzleAK"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          1,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 1,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 3000,
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_Groza_Barrel_Short0",
+        "descriptionShort": "$STR_cfgVehicles_Groza_Barrel_Short1",
+        "model": "\\dz\\weapons\\firearms\\ots14\\ots14_barrel.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 150,
+        "lootCategory": "Attachments",
+        "lootTag": [
+          "Military_east"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::groza_barrel_suppressor",
+      "className": "Groza_Barrel_Suppressor",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_Groza_Barrel_Suppressor0",
+      "fallbackName": "Groza Barrel Suppressor",
+      "descriptionShortKey": "$STR_cfgVehicles_Groza_Barrel_Suppressor1",
+      "model": "\\dz\\weapons\\firearms\\ots14\\ots14_silencer.p3d",
+      "weight": 120,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponMuzzleAK"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::groza_barrel_suppressor"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "weaponMuzzleAK"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          1,
+          2
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 1,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 3000,
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_Groza_Barrel_Suppressor0",
+        "descriptionShort": "$STR_cfgVehicles_Groza_Barrel_Suppressor1",
+        "model": "\\dz\\weapons\\firearms\\ots14\\ots14_silencer.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 120,
+        "lootCategory": "Attachments",
+        "lootTag": [
+          "Military_east"
+        ],
+        "dispersionModifier": -9.9999997e-05,
+        "noiseShootModifier": -0.89999998,
+        "dispersionCondition": "true"
+      }
+    },
+    {
+      "id": "cfgvehicles::groza_lowerreceiver",
+      "className": "Groza_LowerReceiver",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_Groza_LowerReceiver0",
+      "fallbackName": "Groza Lower Receiver",
+      "descriptionShortKey": "$STR_cfgVehicles_Groza_LowerReceiver1",
+      "model": "\\DZ\\weapons\\firearms\\ots14\\ots14_grip.p3d",
+      "weight": 354,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\firearms\\ots14\\data\\ots14_grip_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::groza_lowerreceiver"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_Groza_LowerReceiver0",
+        "descriptionShort": "$STR_cfgVehicles_Groza_LowerReceiver1",
+        "model": "\\DZ\\weapons\\firearms\\ots14\\ots14_grip.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 354,
+        "itemSize": [
+          2,
+          2
+        ],
+        "dispersionModifier": -0.00019999999,
+        "dispersionCondition": "true",
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\firearms\\ots14\\data\\ots14_grip_co.paa"
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::grozagl_lowerreceiver",
+      "className": "GrozaGL_LowerReceiver",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_GrozaGL_LowerReceiver0",
+      "fallbackName": "Groza GL Lower Receiver",
+      "descriptionShortKey": "$STR_cfgVehicles_GrozaGL_LowerReceiver1",
+      "model": "\\DZ\\weapons\\firearms\\ots14\\ots14_launcher.p3d",
+      "weight": 1954,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockAK"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\firearms\\ots14\\data\\ots14_launcher_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::grozagl_lowerreceiver"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_GrozaGL_LowerReceiver0",
+        "descriptionShort": "$STR_cfgVehicles_GrozaGL_LowerReceiver1",
+        "model": "\\DZ\\weapons\\firearms\\ots14\\ots14_launcher.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockAK"
+        ],
+        "weight": 1954,
+        "itemSize": [
+          3,
+          2
+        ],
+        "dispersionModifier": -0.00019999999,
+        "dispersionCondition": "true",
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\firearms\\ots14\\data\\ots14_launcher_co.paa"
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::improvisedsuppressor",
+      "className": "ImprovisedSuppressor",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_ImprovisedSuppressor0",
+      "fallbackName": "Improvised Suppressor",
+      "descriptionShortKey": "$STR_cfgVehicles_ImprovisedSuppressor1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\bottle_suppressor.p3d",
+      "weight": 50,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "suppressorImpro",
+        "weaponMuzzleAK",
+        "weaponMuzzleM4",
+        "pistolMuzzle"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::improvisedsuppressor"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "suppressorImpro",
+          "weaponMuzzleAK",
+          "weaponMuzzleM4",
+          "pistolMuzzle"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          3,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 2,
+        "repairableWithKits": [
+          0
+        ],
+        "repairCosts": [
+          0
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 1500,
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "displayName": "$STR_cfgVehicles_ImprovisedSuppressor0",
+        "descriptionShort": "$STR_cfgVehicles_ImprovisedSuppressor1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\bottle_suppressor.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 50,
+        "itemModelLength": 0.23999999,
+        "lootCategory": "Attachments",
+        "noiseShootModifier": -0.85000002
+      }
+    },
+    {
+      "id": "cfgvehicles::m249_bipod",
+      "className": "M249_Bipod",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M249_Bipod0",
+      "fallbackName": "M 249 Bipod",
+      "descriptionShortKey": "$STR_cfgVehicles_M249_Bipod1",
+      "model": "\\DZ\\weapons\\attachments\\support\\bipod_m249.p3d",
+      "weight": 376,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponBipodM249"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m249_bipod"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M249_Bipod0",
+        "descriptionShort": "$STR_cfgVehicles_M249_Bipod1",
+        "model": "\\DZ\\weapons\\attachments\\support\\bipod_m249.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponBipodM249"
+        ],
+        "weight": 376,
+        "itemSize": [
+          1,
+          3
+        ],
+        "dispersionModifier": -0.00025000001,
+        "dexterityModifier": -0.2,
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::m249_hndgrd",
+      "className": "M249_Hndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M249_Hndgrd0",
+      "fallbackName": "M 249 Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_M249_Hndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m249.p3d",
+      "weight": 350,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM249"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\m249_handguard_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m249_hndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M249_Hndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M249_Hndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m249.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 350,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM249"
+        ],
+        "dispersionModifier": -0.00050000002,
+        "dispersionCondition": "true",
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\m249_handguard_co.paa"
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::m249_rishndgrd",
+      "className": "M249_RisHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M249_RisHndgrd0",
+      "fallbackName": "M 249 Ris Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_M249_RisHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m249_ris.p3d",
+      "weight": 400,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM249"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\m249_handguard_ris_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m249_rishndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M249_RisHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M249_RisHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m249_ris.p3d",
+        "rotationFlags": 4,
+        "reversed": 0,
+        "weight": 400,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM249"
+        ],
+        "dispersionModifier": -0.00050000002,
+        "dispersionCondition": "true",
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\m249_handguard_ris_co.paa"
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_cqbbttstck",
+      "className": "M4_CQBBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M4_CQBBttstck0",
+      "fallbackName": "M4 CQBBttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_CQBBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_cqb.p3d",
+      "weight": 450,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_cqbbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_CQBBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_CQBBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_cqb.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 450,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_cqbbttstck_black",
+      "className": "M4_CQBBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_CQBBttstck",
+      "displayNameKey": "$STR_cfgVehicles_M4_CQBBttstck0",
+      "fallbackName": "M4 CQBBttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_CQBBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_cqb.p3d",
+      "weight": 450,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_cqbbttstck",
+        "cfgvehicles::m4_cqbbttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_CQBBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_CQBBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_cqb.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 450,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_cqbbttstck_green",
+      "className": "M4_CQBBttstck_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_CQBBttstck",
+      "displayNameKey": "$STR_cfgVehicles_M4_CQBBttstck0",
+      "fallbackName": "M4 CQBBttstck Green",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_CQBBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_cqb.p3d",
+      "weight": 450,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_cqbbttstck",
+        "cfgvehicles::m4_cqbbttstck_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_CQBBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_CQBBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_cqb.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 450,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_mpbttstck",
+      "className": "M4_MPBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M4_MPBttstck0",
+      "fallbackName": "M4 MPBttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_MPBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_mp.p3d",
+      "weight": 330,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_mpbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_MPBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_MPBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_mp.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 330,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_mpbttstck_black",
+      "className": "M4_MPBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_MPBttstck",
+      "displayNameKey": "$STR_cfgVehicles_M4_MPBttstck0",
+      "fallbackName": "M4 MPBttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_MPBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_mp.p3d",
+      "weight": 330,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_mpbttstck",
+        "cfgvehicles::m4_mpbttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_MPBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_MPBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_mp.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 330,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_mpbttstck_green",
+      "className": "M4_MPBttstck_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_MPBttstck",
+      "displayNameKey": "$STR_cfgVehicles_M4_MPBttstck0",
+      "fallbackName": "M4 MPBttstck Green",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_MPBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_mp.p3d",
+      "weight": 330,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_mpbttstck",
+        "cfgvehicles::m4_mpbttstck_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_MPBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_MPBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_mp.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 330,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_mphndgrd",
+      "className": "M4_MPHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M4_MPHndgrd0",
+      "fallbackName": "M4 MPHndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_MPHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_mp.p3d",
+      "weight": 350,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_mphndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_MPHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_MPHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_mp.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 350,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_mphndgrd_black",
+      "className": "M4_MPHndgrd_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_MPHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_M4_MPHndgrd0",
+      "fallbackName": "M4 MPHndgrd Black",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_MPHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_mp.p3d",
+      "weight": 350,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_mphndgrd",
+        "cfgvehicles::m4_mphndgrd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_MPHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_MPHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_mp.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 350,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_mphndgrd_green",
+      "className": "M4_MPHndgrd_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_MPHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_M4_MPHndgrd0",
+      "fallbackName": "M4 MPHndgrd Green",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_MPHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_mp.p3d",
+      "weight": 350,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_mphndgrd",
+        "cfgvehicles::m4_mphndgrd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_MPHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_MPHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_mp.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 350,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_oebttstck",
+      "className": "M4_OEBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M4_OEBttstck0",
+      "fallbackName": "M4 OEBttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_OEBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_oe.p3d",
+      "weight": 354,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_oebttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_OEBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_OEBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_oe.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 354,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_oebttstck_black",
+      "className": "M4_OEBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_OEBttstck",
+      "displayNameKey": "$STR_cfgVehicles_M4_OEBttstck0",
+      "fallbackName": "M4 OEBttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_OEBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_oe.p3d",
+      "weight": 354,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_oebttstck",
+        "cfgvehicles::m4_oebttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_OEBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_OEBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_oe.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 354,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_oebttstck_green",
+      "className": "M4_OEBttstck_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_OEBttstck",
+      "displayNameKey": "$STR_cfgVehicles_M4_OEBttstck0",
+      "fallbackName": "M4 OEBttstck Green",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_OEBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_oe.p3d",
+      "weight": 354,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_oebttstck",
+        "cfgvehicles::m4_oebttstck_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_OEBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_M4_OEBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_m4_oe.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockM4"
+        ],
+        "weight": 354,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_plastichndgrd",
+      "className": "M4_PlasticHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M4_PlasticHndgrd0",
+      "fallbackName": "M4 Plastic Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_PlasticHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_plastic.p3d",
+      "weight": 250,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\handguard_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_plastichndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_PlasticHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_PlasticHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_plastic.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 250,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\handguard_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_plastichndgrd_black",
+      "className": "M4_PlasticHndgrd_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_PlasticHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_M4_PlasticHndgrd0",
+      "fallbackName": "M4 Plastic Hndgrd Black",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_PlasticHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_plastic.p3d",
+      "weight": 250,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\handguard_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_plastichndgrd",
+        "cfgvehicles::m4_plastichndgrd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_PlasticHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_PlasticHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_plastic.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 250,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\handguard_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_plastichndgrd_green",
+      "className": "M4_PlasticHndgrd_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_PlasticHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_M4_PlasticHndgrd0",
+      "fallbackName": "M4 Plastic Hndgrd Green",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_PlasticHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_plastic.p3d",
+      "weight": 250,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\handguard_green_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_plastichndgrd",
+        "cfgvehicles::m4_plastichndgrd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_PlasticHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_PlasticHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_plastic.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 250,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\handguard_green_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_rishndgrd",
+      "className": "M4_RISHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M4_RISHndgrd0",
+      "fallbackName": "M4 RISHndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_RISHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_ris.p3d",
+      "weight": 470,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_rishndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_RISHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_RISHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_ris.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 470,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "hasRailFunctionality": 1,
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_rishndgrd_black",
+      "className": "M4_RISHndgrd_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_RISHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_M4_RISHndgrd0",
+      "fallbackName": "M4 RISHndgrd Black",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_RISHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_ris.p3d",
+      "weight": 470,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_rishndgrd",
+        "cfgvehicles::m4_rishndgrd_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_RISHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_RISHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_ris.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 470,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "hasRailFunctionality": 1,
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.15,0.15,0.15,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Black",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_rishndgrd_green",
+      "className": "M4_RISHndgrd_Green",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "M4_RISHndgrd",
+      "displayNameKey": "$STR_cfgVehicles_M4_RISHndgrd0",
+      "fallbackName": "M4 RISHndgrd Green",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_RISHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_ris.p3d",
+      "weight": 470,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardM4"
+      ],
+      "hiddenSelectionsTextures": [
+        "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m4_rishndgrd",
+        "cfgvehicles::m4_rishndgrd_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M4_RISHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_M4_RISHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_m4_ris.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 470,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponHandguardM4"
+        ],
+        "hasRailFunctionality": 1,
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "#(argb,8,8,3)color(0.35,0.36,0.28,1.0,CO)"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "color": "Green",
+        "lootCategory": "Crafted"
+      }
+    },
+    {
+      "id": "cfgvehicles::m4_suppressor",
+      "className": "M4_Suppressor",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_M4_Suppressor0",
+      "fallbackName": "M4 Suppressor",
+      "descriptionShortKey": "$STR_cfgVehicles_M4_Suppressor1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_556.p3d",
+      "weight": 73,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponMuzzleM4"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::m4_suppressor"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "weaponMuzzleM4"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          3,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 1,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 2250,
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_M4_Suppressor0",
+        "descriptionShort": "$STR_cfgVehicles_M4_Suppressor1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_556.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 73,
+        "itemModelLength": 0.148,
+        "lootCategory": "Attachments",
+        "lootTag": [
+          "Military_west"
+        ],
+        "dispersionModifier": -0.00015000001,
+        "dispersionCondition": "true",
+        "noiseShootModifier": -0.93000001
+      }
+    },
+    {
+      "id": "cfgvehicles::m9a1_bayonet",
+      "className": "M9A1_Bayonet",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_M9A1_Bayonet0",
+      "fallbackName": "M9 A1 Bayonet",
+      "descriptionShortKey": "$STR_cfgVehicles_M9A1_Bayonet1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\bayonet_m9a1.p3d",
+      "weight": 450,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponBayonet",
+        "Knife"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::m9a1_bayonet"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_M9A1_Bayonet0",
+        "descriptionShort": "$STR_cfgVehicles_M9A1_Bayonet1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\bayonet_m9a1.p3d",
+        "debug_ItemCategory": 3,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          10
+        ],
+        "animClass": "Knife",
+        "suicideAnim": "onehanded",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 450,
+        "itemSize": [
+          1,
+          3
+        ],
+        "itemModelLength": 0.30000001,
+        "itemAttachOffset": -0.18000001,
+        "lootTag": [
+          "Military_west"
+        ],
+        "lootCategory": "Attachments",
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "inventorySlot": [
+          "weaponBayonet",
+          "Knife"
+        ],
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::makarovpbsuppressor",
+      "className": "MakarovPBSuppressor",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_MakarovPBSuppressor0",
+      "fallbackName": "Makarov PBSuppressor",
+      "descriptionShortKey": "$STR_cfgVehicles_MakarovPBSuppressor1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_pb6p9.p3d",
+      "weight": 70,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "pistolMuzzle"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::makarovpbsuppressor"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "pistolMuzzle"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          3,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 1,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 3000,
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_MakarovPBSuppressor0",
+        "descriptionShort": "$STR_cfgVehicles_MakarovPBSuppressor1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_pb6p9.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 70,
+        "itemModelLength": 0.13600001,
+        "lootCategory": "Attachments",
+        "lootTag": [
+          "Military_east"
+        ],
+        "noiseShootModifier": -0.89999998
+      }
+    },
+    {
+      "id": "cfgvehicles::mosin_bayonet",
+      "className": "Mosin_Bayonet",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_Mosin_Bayonet0",
+      "fallbackName": "Mosin Bayonet",
+      "descriptionShortKey": "$STR_cfgVehicles_Mosin_Bayonet1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\bayonet_mosin.p3d",
+      "weight": 480,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponBayonetMosin"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::mosin_bayonet"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_Mosin_Bayonet0",
+        "descriptionShort": "$STR_cfgVehicles_Mosin_Bayonet1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\bayonet_mosin.p3d",
+        "debug_ItemCategory": 3,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          10
+        ],
+        "animClass": "Knife",
+        "suicideAnim": "onehanded",
+        "rotationFlags": 12,
+        "reversed": 0,
+        "weight": 480,
+        "itemSize": [
+          1,
+          4
+        ],
+        "itemModelLength": 0.47600001,
+        "itemAttachOffset": -0.13,
+        "lootTag": [
+          "Civilian"
+        ],
+        "lootCategory": "Attachments",
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "inventorySlot": [
+          "weaponBayonetMosin"
+        ],
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::mosin_compensator",
+      "className": "Mosin_Compensator",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_Mosin_Compensator0",
+      "fallbackName": "Mosin Compensator",
+      "descriptionShortKey": "$STR_cfgVehicles_Mosin_Compensator1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\mosin_compensator.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponMuzzleMosin"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::mosin_compensator"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "weaponMuzzleMosin"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          1,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 0,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 39.063,
+        "recoilModifier": [
+          0.60000002,
+          0.60000002,
+          0.60000002
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_Mosin_Compensator0",
+        "descriptionShort": "$STR_cfgVehicles_Mosin_Compensator1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\mosin_compensator.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 150,
+        "itemModelLength": 0.089000002,
+        "lootTag": [
+          "Hunting"
+        ],
+        "lootCategory": "Attachments"
+      }
+    },
+    {
+      "id": "cfgvehicles::mp5_compensator",
+      "className": "MP5_Compensator",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_MP5_Compensator0",
+      "fallbackName": "MP 5 Compensator",
+      "descriptionShortKey": "$STR_cfgVehicles_MP5_Compensator1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\MP5k_compensator.p3d",
+      "weight": 80,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponMuzzleMP5"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\mp5k_compensator_co.paa"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::mp5_compensator"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "weaponMuzzleMP5"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          1,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 0,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 20.834,
+        "recoilModifier": [
+          0.60000002,
+          0.60000002,
+          0.60000002
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_MP5_Compensator0",
+        "descriptionShort": "$STR_cfgVehicles_MP5_Compensator1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\MP5k_compensator.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 80,
+        "itemModelLength": 0.071000002,
+        "lootTag": [
+          "Police"
+        ],
+        "lootCategory": "Attachments",
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\mp5k_compensator_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\mp5k_compensator.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::mp5_plastichndgrd",
+      "className": "MP5_PlasticHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_MP5_PlasticHndgrd0",
+      "fallbackName": "MP 5 Plastic Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_MP5_PlasticHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_mp5k_plastic.p3d",
+      "weight": 250,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardMP5"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\MP5k_grip01_CO.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::mp5_plastichndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_MP5_PlasticHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_MP5_PlasticHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_mp5k_plastic.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 250,
+        "itemSize": [
+          1,
+          2
+        ],
+        "inventorySlot": [
+          "weaponHandguardMP5"
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\MP5k_grip01_CO.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::mp5_railhndgrd",
+      "className": "MP5_RailHndgrd",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_MP5_RailHndgrd0",
+      "fallbackName": "MP 5 Rail Hndgrd",
+      "descriptionShortKey": "$STR_cfgVehicles_MP5_RailHndgrd1",
+      "model": "\\DZ\\weapons\\attachments\\support\\handguard_mp5k_rail.p3d",
+      "weight": 250,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponHandguardMP5"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\MP5k_grip_CO.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::mp5_railhndgrd"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_MP5_RailHndgrd0",
+        "descriptionShort": "$STR_cfgVehicles_MP5_RailHndgrd1",
+        "model": "\\DZ\\weapons\\attachments\\support\\handguard_mp5k_rail.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 250,
+        "itemSize": [
+          1,
+          2
+        ],
+        "inventorySlot": [
+          "weaponHandguardMP5"
+        ],
+        "hasRailFunctionality": 1,
+        "recoilModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "swayModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\MP5k_grip_CO.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::mp5k_stockbttstck",
+      "className": "MP5k_StockBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_MP5k_StockBttstck0",
+      "fallbackName": "MP 5 k Stock Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_MP5k_StockBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_mp5K_stock.p3d",
+      "weight": 450,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockMP5"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\MP5k_stock_CO.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::mp5k_stockbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_MP5k_StockBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_MP5k_StockBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_mp5K_stock.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockMP5"
+        ],
+        "weight": 450,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\MP5k_stock_CO.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::pistolsuppressor",
+      "className": "PistolSuppressor",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "ItemSuppressor",
+      "displayNameKey": "$STR_cfgVehicles_PistolSuppressor0",
+      "fallbackName": "Pistol Suppressor",
+      "descriptionShortKey": "$STR_cfgVehicles_PistolSuppressor1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_45acp.p3d",
+      "weight": 70,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "pistolMuzzle"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemsuppressor",
+        "cfgvehicles::pistolsuppressor"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 3,
+        "inventorySlot": [
+          "pistolMuzzle"
+        ],
+        "simulation": "ItemSuppressor",
+        "itemSize": [
+          3,
+          1
+        ],
+        "selectionFireAnim": "zasleh",
+        "soundIndex": 1,
+        "repairableWithKits": [
+          1
+        ],
+        "repairCosts": [
+          25
+        ],
+        "muzzlePos": "usti hlavne",
+        "barrelArmor": 600,
+        "recoilModifier": [
+          0.89999998,
+          0.89999998,
+          0.89999998
+        ],
+        "swayModifier": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal",
+        "displayName": "$STR_cfgVehicles_PistolSuppressor0",
+        "descriptionShort": "$STR_cfgVehicles_PistolSuppressor1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\suppressor_45acp.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 70,
+        "itemModelLength": 0.176,
+        "lootCategory": "Attachments",
+        "lootTag": [
+          "Military_east",
+          "Military_west",
+          "Police",
+          "Civilian"
+        ],
+        "dispersionModifier": -0.00015000001,
+        "dispersionCondition": "true",
+        "noiseShootModifier": -0.93000001
+      }
+    },
+    {
+      "id": "cfgvehicles::pp19_bttstck",
+      "className": "PP19_Bttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_PP19_Bttstck0",
+      "fallbackName": "PP 19 Bttstck",
+      "descriptionShortKey": "$STR_PP19_Bttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_pp19.p3d",
+      "weight": 720,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockPP19"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\buttstock_pp19_CO.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pp19_bttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_PP19_Bttstck0",
+        "descriptionShort": "$STR_PP19_Bttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_pp19.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockPP19"
+        ],
+        "weight": 720,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_pp19_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_PP_19.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::red9bttstck",
+      "className": "Red9Bttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_Red9Bttstck0",
+      "fallbackName": "Red 9 Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_Red9Bttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_red9.p3d",
+      "weight": 400,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockRed9"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\buttstock_red9_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::red9bttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_Red9Bttstck0",
+        "descriptionShort": "$STR_cfgVehicles_Red9Bttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_red9.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockRed9"
+        ],
+        "weight": 400,
+        "itemSize": [
+          3,
+          1
+        ],
+        "dispersionModifier": -0.00025000001,
+        "dispersionCondition": "true",
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_red9_co.paa"
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::saiga_bttstck",
+      "className": "Saiga_Bttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_Saiga_Bttstck0",
+      "fallbackName": "Saiga Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_Saiga_Bttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_saiga_folding.p3d",
+      "weight": 720,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockSaiga"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\saiga_folding_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::saiga_bttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_Saiga_Bttstck0",
+        "descriptionShort": "$STR_cfgVehicles_Saiga_Bttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_saiga_folding.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockSaiga"
+        ],
+        "weight": 720,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "swayModifier": [
+          0.69999999,
+          0.69999999,
+          0.69999999
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\saiga_folding_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\support\\data\\saiga_folding.rvmat"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::scar_precisionbttstck",
+      "className": "SCAR_PrecisionBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_SCAR_PrecisionBttstck0",
+      "fallbackName": "SCAR Precision Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_SCAR_PrecisionBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_SCAR_precision.p3d",
+      "weight": 1200,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockSCAR"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\buttstock_scar_precision_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::scar_precisionbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_SCAR_PrecisionBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_SCAR_PrecisionBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_SCAR_precision.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockSCAR"
+        ],
+        "weight": 1200,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.85000002,
+          0.85000002,
+          0.85000002
+        ],
+        "swayModifier": [
+          0.60000002,
+          0.60000002,
+          0.60000002
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_scar_precision_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::scar_precisionbttstck_black",
+      "className": "SCAR_PrecisionBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "SCAR_PrecisionBttstck",
+      "displayNameKey": "$STR_cfgVehicles_SCAR_PrecisionBttstck0",
+      "fallbackName": "SCAR Precision Bttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_SCAR_PrecisionBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_SCAR_precision.p3d",
+      "weight": 1200,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockSCAR"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\buttstock_scar_precision_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::scar_precisionbttstck",
+        "cfgvehicles::scar_precisionbttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_SCAR_PrecisionBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_SCAR_PrecisionBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_SCAR_precision.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockSCAR"
+        ],
+        "weight": 1200,
+        "itemSize": [
+          3,
+          1
+        ],
+        "recoilModifier": [
+          0.85000002,
+          0.85000002,
+          0.85000002
+        ],
+        "swayModifier": [
+          0.60000002,
+          0.60000002,
+          0.60000002
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_scar_precision_black_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_scar_precision_black.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::scar_stockbttstck",
+      "className": "SCAR_StockBttstck",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_SCAR_StockBttstck0",
+      "fallbackName": "SCAR Stock Bttstck",
+      "descriptionShortKey": "$STR_cfgVehicles_SCAR_StockBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_SCAR_stock.p3d",
+      "weight": 650,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockSCAR"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\buttstock_scar_stock_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::scar_stockbttstck"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_SCAR_StockBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_SCAR_StockBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_SCAR_stock.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockSCAR"
+        ],
+        "weight": 650,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_scar_stock_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::scar_stockbttstck_black",
+      "className": "SCAR_StockBttstck_Black",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "SCAR_StockBttstck",
+      "displayNameKey": "$STR_cfgVehicles_SCAR_StockBttstck0",
+      "fallbackName": "SCAR Stock Bttstck Black",
+      "descriptionShortKey": "$STR_cfgVehicles_SCAR_StockBttstck1",
+      "model": "\\DZ\\weapons\\attachments\\support\\buttstock_SCAR_stock.p3d",
+      "weight": 650,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponButtstockSCAR"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\support\\data\\buttstock_scar_stock_black_co.paa"
+      ],
+      "sourcePbo": "weapon_supports.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::scar_stockbttstck",
+        "cfgvehicles::scar_stockbttstck_black"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_SCAR_StockBttstck0",
+        "descriptionShort": "$STR_cfgVehicles_SCAR_StockBttstck1",
+        "model": "\\DZ\\weapons\\attachments\\support\\buttstock_SCAR_stock.p3d",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "inventorySlot": [
+          "weaponButtstockSCAR"
+        ],
+        "weight": 650,
+        "itemSize": [
+          2,
+          1
+        ],
+        "recoilModifier": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "swayModifier": [
+          0.80000001,
+          0.80000001,
+          0.80000001
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_scar_stock_black_co.paa"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic",
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\support\\data\\buttstock_scar_stock_black.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::sks_bayonet",
+      "className": "SKS_Bayonet",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_cfgVehicles_SKS_Bayonet0",
+      "fallbackName": "SKS Bayonet",
+      "descriptionShortKey": "$STR_cfgVehicles_SKS_Bayonet1",
+      "model": "\\dz\\weapons\\attachments\\muzzle\\bayonet_sks.p3d",
+      "weight": 450,
+      "itemSize": [
+        1,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponBayonetSKS"
+      ],
+      "sourcePbo": "weapon_muzzles.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::sks_bayonet"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_SKS_Bayonet0",
+        "descriptionShort": "$STR_cfgVehicles_SKS_Bayonet1",
+        "model": "\\dz\\weapons\\attachments\\muzzle\\bayonet_sks.p3d",
+        "debug_ItemCategory": 3,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          10
+        ],
+        "animClass": "Knife",
+        "suicideAnim": "onehanded",
+        "rotationFlags": 17,
+        "reversed": 0,
+        "weight": 450,
+        "itemSize": [
+          1,
+          4
+        ],
+        "itemModelLength": 0.37200001,
+        "itemAttachOffset": -0.050000001,
+        "lootTag": [
+          "Military_east"
+        ],
+        "lootCategory": "Attachments",
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "inventorySlot": [
+          "weaponBayonetSKS"
+        ],
+        "recoilModifier": [
+          1,
+          1,
+          1
+        ],
+        "swayModifier": [
+          1,
+          1,
+          1
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::tlrlight",
+      "className": "TLRLight",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Switchable_Base",
+      "displayNameKey": "$STR_cfgVehicles_TLRLight0",
+      "fallbackName": "TLRLight",
+      "descriptionShortKey": "$STR_cfgVehicles_TLRLight1",
+      "model": "\\DZ\\weapons\\attachments\\light\\weaponlight_TLR.p3d",
+      "weight": 118,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "pistolFlashlight"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\flashlight_glass.paa",
+        "dz\\gear\\tools\\data\\flashlight_old_co.paa"
+      ],
+      "sourcePbo": "weapon_lights.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::switchable_base",
+        "cfgvehicles::tlrlight"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_TLRLight0",
+        "descriptionShort": "$STR_cfgVehicles_TLRLight1",
+        "model": "\\DZ\\weapons\\attachments\\light\\weaponlight_TLR.p3d",
+        "debug_ItemCategory": 3,
+        "rotationFlags": 17,
+        "reversed": 1,
+        "weight": 118,
+        "itemSize": [
+          1,
+          1
+        ],
+        "inventorySlot": [
+          "pistolFlashlight"
+        ],
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "hiddenSelections": [
+          "glass",
+          "reflector"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\flashlight_glass.paa",
+          "dz\\gear\\tools\\data\\flashlight_old_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\flashlight_glass.rvmat"
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::universallight",
+      "className": "UniversalLight",
+      "section": "cfgVehicles",
+      "category": "weapon-attachment",
+      "parentClass": "Switchable_Base",
+      "displayNameKey": "$STR_cfgVehicles_UniversalLight0",
+      "fallbackName": "Universal Light",
+      "descriptionShortKey": "$STR_cfgVehicles_UniversalLight1",
+      "model": "\\DZ\\weapons\\attachments\\light\\weaponlight_universal.p3d",
+      "weight": 80,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "weaponFlashlight",
+        "helmetFlashlight"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\attachments\\data\\m4_flashlight_co.paa",
+        "dz\\weapons\\attachments\\data\\m4_flashlight_co.paa",
+        "dz\\gear\\tools\\data\\flashlight_glass.paa",
+        "dz\\weapons\\attachments\\data\\m4_flashlight_co.paa"
+      ],
+      "sourcePbo": "weapon_lights.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::switchable_base",
+        "cfgvehicles::universallight"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_cfgVehicles_UniversalLight0",
+        "descriptionShort": "$STR_cfgVehicles_UniversalLight1",
+        "model": "\\DZ\\weapons\\attachments\\light\\weaponlight_universal.p3d",
+        "debug_ItemCategory": 3,
+        "rotationFlags": 17,
+        "reversed": 1,
+        "weight": 80,
+        "itemSize": [
+          2,
+          1
+        ],
+        "inventorySlot": [
+          "weaponFlashlight",
+          "helmetFlashlight"
+        ],
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "hiddenSelections": [
+          "zbytek",
+          "reflector",
+          "glass",
+          "reflector_far"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\attachments\\data\\m4_flashlight_co.paa",
+          "dz\\weapons\\attachments\\data\\m4_flashlight_co.paa",
+          "dz\\gear\\tools\\data\\flashlight_glass.paa",
+          "dz\\weapons\\attachments\\data\\m4_flashlight_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\weapons\\attachments\\data\\m4_flashlight.rvmat",
+          "dz\\weapons\\attachments\\data\\m4_flashlight.rvmat",
+          "dz\\gear\\tools\\data\\flashlight_glass.rvmat",
+          "dz\\weapons\\attachments\\data\\m4_flashlight.rvmat"
+        ],
+        "soundImpactType": "plastic"
+      }
+    }
+  ]
+}

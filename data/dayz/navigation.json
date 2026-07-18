@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "category": "navigation",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 5
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::chernarusmap",
+      "className": "ChernarusMap",
+      "section": "CfgVehicles",
+      "category": "navigation",
+      "parentClass": "ItemMap",
+      "displayNameKey": "$STR_CfgVehicles_ChernarusMap0",
+      "fallbackName": "Chernarus Map",
+      "descriptionShortKey": "$STR_CfgVehicles_ChernarusMap1",
+      "model": "\\dz\\gear\\navigation\\Map_chernarus_animated.p3d",
+      "weight": 40,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_navigation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemmap",
+        "cfgvehicles::chernarusmap"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ChernarusMap0",
+        "descriptionShort": "$STR_CfgVehicles_ChernarusMap1",
+        "model": "\\dz\\gear\\navigation\\Map_chernarus_animated.p3d",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 40,
+        "selectionPaper": "paper",
+        "simulation": "ItemMap",
+        "hiddenSelections": [
+          "texture_map_closed",
+          "texture_map_opened",
+          "texture_legend"
+        ],
+        "absorbency": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::chernarusmap_open",
+      "className": "ChernarusMap_Open",
+      "section": "CfgVehicles",
+      "category": "navigation",
+      "parentClass": "ChernarusMap",
+      "displayNameKey": "$STR_CfgVehicles_ChernarusMap0",
+      "fallbackName": "Chernarus Map Open",
+      "descriptionShortKey": "$STR_CfgVehicles_ChernarusMap1",
+      "model": "\\dz\\gear\\navigation\\Map_chernarus_animated.p3d",
+      "weight": 40,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_navigation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemmap",
+        "cfgvehicles::chernarusmap",
+        "cfgvehicles::chernarusmap_open"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ChernarusMap0",
+        "descriptionShort": "$STR_CfgVehicles_ChernarusMap1",
+        "model": "\\dz\\gear\\navigation\\Map_chernarus_animated.p3d",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 40,
+        "selectionPaper": "paper",
+        "simulation": "ItemMap",
+        "hiddenSelections": [
+          "texture_map_closed",
+          "texture_map_opened",
+          "texture_legend"
+        ],
+        "absorbency": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::chernarusmap_open_test",
+      "className": "ChernarusMap_Open_Test",
+      "section": "CfgVehicles",
+      "category": "navigation",
+      "parentClass": "ChernarusMap",
+      "displayNameKey": "$STR_CfgVehicles_ChernarusMap0",
+      "fallbackName": "Chernarus Map Open Test",
+      "descriptionShortKey": "a map for the video team",
+      "model": "\\dz\\gear\\navigation\\Map_chernarus_animated.p3d",
+      "weight": 40,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_navigation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemmap",
+        "cfgvehicles::chernarusmap",
+        "cfgvehicles::chernarusmap_open_test"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ChernarusMap0",
+        "descriptionShort": "a map for the video team",
+        "model": "\\dz\\gear\\navigation\\Map_chernarus_animated.p3d",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 40,
+        "selectionPaper": "paper",
+        "simulation": "ItemMap",
+        "hiddenSelections": [
+          "texture_map_closed",
+          "texture_map_opened",
+          "texture_legend"
+        ],
+        "absorbency": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::compass",
+      "className": "Compass",
+      "section": "CfgVehicles",
+      "category": "navigation",
+      "parentClass": "ItemCompass",
+      "displayNameKey": "$STR_CfgVehicles_Compass0",
+      "fallbackName": "Compass",
+      "descriptionShortKey": "$STR_CfgVehicles_Compass1",
+      "model": "\\dz\\gear\\navigation\\compass.p3d",
+      "weight": 190,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "WalkieTalkie",
+        "Chemlight"
+      ],
+      "sourcePbo": "gear_navigation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemcompass",
+        "cfgvehicles::compass"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Compass0",
+        "descriptionShort": "$STR_CfgVehicles_Compass1",
+        "model": "\\dz\\gear\\navigation\\compass.p3d",
+        "animClass": "Compass",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 190,
+        "simulation": "ItemCompass",
+        "inventorySlot": [
+          "WalkieTalkie",
+          "Chemlight"
+        ],
+        "soundImpactType": "glass"
+      }
+    },
+    {
+      "id": "cfgvehicles::orienteeringcompass",
+      "className": "OrienteeringCompass",
+      "section": "CfgVehicles",
+      "category": "navigation",
+      "parentClass": "ItemCompass",
+      "displayNameKey": "$STR_CfgVehicles_OrienteeringCompass0",
+      "fallbackName": "Orienteering Compass",
+      "descriptionShortKey": "$STR_CfgVehicles_OrienteeringCompass1",
+      "model": "\\dz\\gear\\navigation\\compass_modern.p3d",
+      "weight": 130,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "WalkieTalkie",
+        "Chemlight"
+      ],
+      "sourcePbo": "gear_navigation.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::itemcompass",
+        "cfgvehicles::orienteeringcompass"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_OrienteeringCompass0",
+        "descriptionShort": "$STR_CfgVehicles_OrienteeringCompass1",
+        "model": "\\dz\\gear\\navigation\\compass_modern.p3d",
+        "animClass": "Compass",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 130,
+        "simulation": "ItemCompass",
+        "inventorySlot": [
+          "WalkieTalkie",
+          "Chemlight"
+        ],
+        "soundImpactType": "plastic"
+      }
+    }
+  ]
+}

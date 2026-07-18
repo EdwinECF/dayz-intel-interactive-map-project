@@ -1,0 +1,3141 @@
+{
+  "metadata": {
+    "category": "tool",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 62
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::alarmclock_blue",
+      "className": "AlarmClock_Blue",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "AlarmClock_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_AlarmClock0",
+      "fallbackName": "Alarm Clock Blue",
+      "descriptionShortKey": "$STR_CfgVehicles_AlarmClock1",
+      "model": "\\dz\\gear\\tools\\AlarmClock.p3d",
+      "weight": 250,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "TriggerAlarmClock"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\alarmclock_blue_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::alarmclock_colorbase",
+        "cfgvehicles::alarmclock_blue"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AlarmClock0",
+        "descriptionShort": "$STR_CfgVehicles_AlarmClock1",
+        "model": "\\dz\\gear\\tools\\AlarmClock.p3d",
+        "isMeleeWeapon": 1,
+        "itemSize": [
+          2,
+          2
+        ],
+        "weight": 250,
+        "inventorySlot": [
+          "TriggerAlarmClock"
+        ],
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\alarmclock_blue_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::alarmclock_green",
+      "className": "AlarmClock_Green",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "AlarmClock_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_AlarmClock0",
+      "fallbackName": "Alarm Clock Green",
+      "descriptionShortKey": "$STR_CfgVehicles_AlarmClock1",
+      "model": "\\dz\\gear\\tools\\AlarmClock.p3d",
+      "weight": 250,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "TriggerAlarmClock"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\alarmclock_green_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::alarmclock_colorbase",
+        "cfgvehicles::alarmclock_green"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AlarmClock0",
+        "descriptionShort": "$STR_CfgVehicles_AlarmClock1",
+        "model": "\\dz\\gear\\tools\\AlarmClock.p3d",
+        "isMeleeWeapon": 1,
+        "itemSize": [
+          2,
+          2
+        ],
+        "weight": 250,
+        "inventorySlot": [
+          "TriggerAlarmClock"
+        ],
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\alarmclock_green_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::alarmclock_red",
+      "className": "AlarmClock_Red",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "AlarmClock_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_AlarmClock0",
+      "fallbackName": "Alarm Clock Red",
+      "descriptionShortKey": "$STR_CfgVehicles_AlarmClock1",
+      "model": "\\dz\\gear\\tools\\AlarmClock.p3d",
+      "weight": 250,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "TriggerAlarmClock"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\alarmclock_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::alarmclock_colorbase",
+        "cfgvehicles::alarmclock_red"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_AlarmClock0",
+        "descriptionShort": "$STR_CfgVehicles_AlarmClock1",
+        "model": "\\dz\\gear\\tools\\AlarmClock.p3d",
+        "isMeleeWeapon": 1,
+        "itemSize": [
+          2,
+          2
+        ],
+        "weight": 250,
+        "inventorySlot": [
+          "TriggerAlarmClock"
+        ],
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\alarmclock_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::anniversary_fireworkslauncher",
+      "className": "Anniversary_FireworksLauncher",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "FireworksLauncher",
+      "displayNameKey": "$STR_FireworksLauncher0",
+      "fallbackName": "Anniversary Fireworks Launcher",
+      "descriptionShortKey": "$STR_FireworksLauncher1",
+      "model": "\\dz\\gear\\tools\\FireworksLauncher.p3d",
+      "weight": 5000,
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\FireworksLauncher_co.paa",
+        "dz\\gear\\tools\\data\\FireworksLauncher_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireworkslauncher",
+        "cfgvehicles::anniversary_fireworkslauncher"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_FireworksLauncher0",
+        "descriptionShort": "$STR_FireworksLauncher1",
+        "model": "\\dz\\gear\\tools\\FireworksLauncher.p3d",
+        "forceFarBubble": 1,
+        "isMeleeWeapon": 1,
+        "itemBehaviour": 2,
+        "itemSize": [
+          4,
+          4
+        ],
+        "weight": 5000,
+        "hiddenSelections": [
+          "camo",
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\FireworksLauncher_co.paa",
+          "dz\\gear\\tools\\data\\FireworksLauncher_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\FireworksLauncher.rvmat",
+          "dz\\gear\\tools\\data\\FireworksLauncher.rvmat"
+        ],
+        "yawPitchRollLimit": [
+          60,
+          60,
+          60
+        ],
+        "hologramMaterial": "fireworkslauncher",
+        "hologramMaterialPath": "dz\\gear\\tools\\data",
+        "alignHologramToTerain": 0
+      }
+    },
+    {
+      "id": "cfgvehicles::blowtorch",
+      "className": "Blowtorch",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_Blowtorch0",
+      "fallbackName": "Blowtorch",
+      "descriptionShortKey": "$STR_Blowtorch1",
+      "model": "\\dz\\gear\\tools\\Blowtorch.p3d",
+      "weight": 210,
+      "itemSize": [
+        3,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "GasCanister"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::blowtorch"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_Blowtorch0",
+        "descriptionShort": "$STR_Blowtorch1",
+        "model": "\\dz\\gear\\tools\\Blowtorch.p3d",
+        "rotationFlags": 17,
+        "weight": 210,
+        "itemSize": [
+          3,
+          4
+        ],
+        "attachments": [
+          "GasCanister"
+        ],
+        "containerSlot": "GasCanister",
+        "repairKitType": 10,
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "flame_hide"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::boneknife",
+      "className": "BoneKnife",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BoneKnife0",
+      "fallbackName": "Bone Knife",
+      "descriptionShortKey": "$STR_CfgVehicles_BoneKnife1",
+      "model": "\\dz\\gear\\tools\\Bone_Knife.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::boneknife"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BoneKnife0",
+        "descriptionShort": "$STR_CfgVehicles_BoneKnife1",
+        "model": "\\dz\\gear\\tools\\Bone_Knife.p3d",
+        "debug_ItemCategory": 2,
+        "itemInfo": [
+          "Knife"
+        ],
+        "repairableWithKits": [],
+        "repairCosts": [
+          5
+        ],
+        "rotationFlags": 17,
+        "RestrainUnlockType": 1,
+        "suicideAnim": "onehanded",
+        "weight": 50,
+        "itemSize": [
+          1,
+          2
+        ],
+        "openItemSpillRange": [
+          10,
+          30
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::broom",
+      "className": "Broom",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Broom0",
+      "fallbackName": "Broom",
+      "descriptionShortKey": "$STR_CfgVehicles_Broom1",
+      "model": "\\dz\\gear\\tools\\broom.p3d",
+      "weight": 450,
+      "itemSize": [
+        2,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::broom"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_Broom0",
+        "descriptionShort": "$STR_CfgVehicles_Broom1",
+        "model": "\\dz\\gear\\tools\\broom.p3d",
+        "weight": 450,
+        "weightPerQuantityUnit": 0.25,
+        "itemSize": [
+          2,
+          8
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\broom.rvmat"
+        ],
+        "rotationFlags": 12,
+        "quantityShow": 0,
+        "canBeSplit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "burnTimePerRag": 120,
+        "burnTimePerFullLardDose": 900,
+        "burnTimePerFullFuelDose": 600,
+        "maxConsumableLardDose": 200,
+        "maxConsumableFuelDose": 200,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::broom_birch",
+      "className": "Broom_Birch",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Broom",
+      "displayNameKey": "$STR_CfgVehicles_BirchBroom0",
+      "fallbackName": "Broom Birch",
+      "descriptionShortKey": "$STR_CfgVehicles_BirchBroom1",
+      "model": "\\dz\\gear\\tools\\broom_birch.p3d",
+      "weight": 670,
+      "itemSize": [
+        2,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::broom",
+        "cfgvehicles::broom_birch"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_BirchBroom0",
+        "descriptionShort": "$STR_CfgVehicles_BirchBroom1",
+        "model": "\\dz\\gear\\tools\\broom_birch.p3d",
+        "weight": 670,
+        "weightPerQuantityUnit": 0.34999999,
+        "itemSize": [
+          2,
+          8
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\broom_birch.rvmat"
+        ],
+        "rotationFlags": 12,
+        "quantityShow": 0,
+        "canBeSplit": 0,
+        "stackedUnit": "w",
+        "quantityBar": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "varQuantityDestroyOnMin": 0,
+        "burnTimePerRag": 120,
+        "burnTimePerFullLardDose": 900,
+        "burnTimePerFullFuelDose": 600,
+        "maxConsumableLardDose": 200,
+        "maxConsumableFuelDose": 200,
+        "soundImpactType": "wood",
+        "varWetMax": 0.49000001
+      }
+    },
+    {
+      "id": "cfgvehicles::canopener",
+      "className": "CanOpener",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_CanOpener0",
+      "fallbackName": "Can Opener",
+      "descriptionShortKey": "$STR_CfgVehicles_CanOpener1",
+      "model": "\\dz\\gear\\tools\\CanOpener.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::canopener"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CanOpener0",
+        "descriptionShort": "$STR_CfgVehicles_CanOpener1",
+        "model": "\\dz\\gear\\tools\\CanOpener.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "rotationFlags": 12,
+        "isMeleeWeapon": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 150,
+        "fragility": 0.0099999998,
+        "openItemSpillRange": [
+          0,
+          0
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::cassette",
+      "className": "Cassette",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Cassette0",
+      "fallbackName": "Cassette",
+      "descriptionShortKey": "$STR_CfgVehicles_Cassette1",
+      "model": "\\dz\\gear\\tools\\cassette.p3d",
+      "weight": 80,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::cassette"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Cassette0",
+        "descriptionShort": "$STR_CfgVehicles_Cassette1",
+        "model": "\\dz\\gear\\tools\\cassette.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 80,
+        "absorbency": 0.5,
+        "itemSize": [
+          2,
+          1
+        ],
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::crowbar",
+      "className": "Crowbar",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Crowbar0",
+      "fallbackName": "Crowbar",
+      "descriptionShortKey": "$STR_CfgVehicles_Crowbar1",
+      "model": "\\dz\\gear\\tools\\Crowbar.p3d",
+      "weight": 4400,
+      "itemSize": [
+        1,
+        6
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::crowbar"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Crowbar0",
+        "descriptionShort": "$STR_CfgVehicles_Crowbar1",
+        "model": "\\dz\\gear\\tools\\Crowbar.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 12,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          20
+        ],
+        "build_action_type": 0,
+        "dismantle_action_type": 10,
+        "weight": 4400,
+        "itemSize": [
+          1,
+          6
+        ],
+        "fragility": 0.001,
+        "itemBehaviour": 1,
+        "openItemSpillRange": [
+          20,
+          50
+        ],
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "suicideAnim": "woodaxe",
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::doortestcamera",
+      "className": "DoorTestCamera",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "DoorTestCamera",
+      "fallbackName": "Door Test Camera",
+      "descriptionShortKey": "DoorTestCamera",
+      "model": "\\dz\\gear\\tools\\DoorCheck120x220-1cm.p3d",
+      "weight": 210,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::doortestcamera"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "DoorTestCamera",
+        "descriptionShort": "DoorTestCamera",
+        "model": "\\dz\\gear\\tools\\DoorCheck120x220-1cm.p3d",
+        "animClass": "Knife",
+        "quantityBar": 1,
+        "itemSize": [
+          2,
+          1
+        ],
+        "weight": 210,
+        "fragility": 0.0099999998,
+        "lootCategory": "Tools",
+        "lootTag": [
+          "Civilian"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::electronicrepairkit",
+      "className": "ElectronicRepairKit",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_ElectronicRepairKit0",
+      "fallbackName": "Electronic Repair Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_ElectronicRepairKit1",
+      "model": "\\dz\\gear\\tools\\electronicCase.p3d",
+      "weight": 1000,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::electronicrepairkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_ElectronicRepairKit0",
+        "descriptionShort": "$STR_CfgVehicles_ElectronicRepairKit1",
+        "model": "\\dz\\gear\\tools\\electronicCase.p3d",
+        "animClass": "Knife",
+        "rotationFlags": 17,
+        "stackedUnit": "percentage",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "weight": 1000,
+        "weightPerQuantityUnit": 0,
+        "itemSize": [
+          2,
+          3
+        ],
+        "repairKitType": 7,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::epoxyputty",
+      "className": "EpoxyPutty",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_EpoxyPutty0",
+      "fallbackName": "Epoxy Putty",
+      "descriptionShortKey": "$STR_CfgVehicles_EpoxyPutty1",
+      "model": "\\dz\\gear\\tools\\epoxy_putty.p3d",
+      "weight": 20,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::epoxyputty"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_EpoxyPutty0",
+        "descriptionShort": "$STR_CfgVehicles_EpoxyPutty1",
+        "model": "\\dz\\gear\\tools\\epoxy_putty.p3d",
+        "animClass": "Knife",
+        "rotationFlags": 17,
+        "stackedUnit": "percentage",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "weight": 20,
+        "weightPerQuantityUnit": 2,
+        "itemSize": [
+          1,
+          2
+        ],
+        "repairKitType": 8,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::farminghoe",
+      "className": "FarmingHoe",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_FarmingHoe0",
+      "fallbackName": "Farming Hoe",
+      "descriptionShortKey": "$STR_CfgVehicles_FarmingHoe1",
+      "model": "\\dz\\gear\\tools\\Farming_Hoe.p3d",
+      "weight": 1600,
+      "itemSize": [
+        2,
+        7
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::farminghoe"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FarmingHoe0",
+        "descriptionShort": "$STR_CfgVehicles_FarmingHoe1",
+        "model": "\\dz\\gear\\tools\\Farming_Hoe.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 12,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          20
+        ],
+        "weight": 1600,
+        "itemSize": [
+          2,
+          7
+        ],
+        "openItemSpillRange": [
+          35,
+          55
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "hoe",
+        "build_action_type": 4,
+        "dismantle_action_type": 4,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::fieldshovel",
+      "className": "FieldShovel",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_FieldShovel0",
+      "fallbackName": "Field Shovel",
+      "descriptionShortKey": "$STR_CfgVehicles_FieldShovel1",
+      "model": "\\dz\\gear\\tools\\CSLA_Field_Shovel.p3d",
+      "weight": 1800,
+      "itemSize": [
+        2,
+        5
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fieldshovel"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FieldShovel0",
+        "descriptionShort": "$STR_CfgVehicles_FieldShovel1",
+        "model": "\\dz\\gear\\tools\\CSLA_Field_Shovel.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "suicideAnim": "woodaxe",
+        "weight": 1800,
+        "itemSize": [
+          2,
+          5
+        ],
+        "build_action_type": 4,
+        "dismantle_action_type": 4,
+        "openItemSpillRange": [
+          30,
+          60
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::fireextinguisher",
+      "className": "FireExtinguisher",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_FireExtinguisher0",
+      "fallbackName": "Fire Extinguisher",
+      "descriptionShortKey": "$STR_CfgVehicles_FireExtinguisher1",
+      "model": "\\dz\\gear\\tools\\FireExtinguisher.p3d",
+      "weight": 7700,
+      "itemSize": [
+        3,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireextinguisher"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FireExtinguisher0",
+        "descriptionShort": "$STR_CfgVehicles_FireExtinguisher1",
+        "model": "\\dz\\gear\\tools\\FireExtinguisher.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": "17+\t\t\t\t\t\t\t\t2",
+        "weight": 7700,
+        "itemSize": [
+          3,
+          8
+        ],
+        "fragility": 0.001,
+        "itemBehaviour": 2,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "quantityBar": 1,
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varQuantityInit": 6000,
+        "varQuantityMin": 0,
+        "varQuantityMax": 6000,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::fireworkslauncher",
+      "className": "FireworksLauncher",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_FireworksLauncher0",
+      "fallbackName": "Fireworks Launcher",
+      "descriptionShortKey": "$STR_FireworksLauncher1",
+      "model": "\\dz\\gear\\tools\\FireworksLauncher.p3d",
+      "weight": 5000,
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\FireworksLauncher_co.paa",
+        "dz\\gear\\tools\\data\\FireworksLauncher_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::fireworkslauncher"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_FireworksLauncher0",
+        "descriptionShort": "$STR_FireworksLauncher1",
+        "model": "\\dz\\gear\\tools\\FireworksLauncher.p3d",
+        "forceFarBubble": 1,
+        "isMeleeWeapon": 1,
+        "itemBehaviour": 2,
+        "itemSize": [
+          4,
+          4
+        ],
+        "weight": 5000,
+        "hiddenSelections": [
+          "camo",
+          "placing"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\FireworksLauncher_co.paa",
+          "dz\\gear\\tools\\data\\FireworksLauncher_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\FireworksLauncher.rvmat",
+          "dz\\gear\\tools\\data\\FireworksLauncher.rvmat"
+        ],
+        "yawPitchRollLimit": [
+          60,
+          60,
+          60
+        ],
+        "hologramMaterial": "fireworkslauncher",
+        "hologramMaterialPath": "dz\\gear\\tools\\data",
+        "alignHologramToTerain": 0
+      }
+    },
+    {
+      "id": "cfgvehicles::fishingrod",
+      "className": "FishingRod",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "FishingRod_Base_New",
+      "displayNameKey": "$STR_CfgVehicles_FishingRod0",
+      "fallbackName": "Fishing Rod",
+      "descriptionShortKey": "$STR_CfgVehicles_FishingRod1",
+      "model": "\\dz\\gear\\tools\\fishing_rod.p3d",
+      "weight": 910,
+      "itemSize": [
+        2,
+        5
+      ],
+      "scope": 2,
+      "attachments": [
+        "Hook"
+      ],
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::fishingrod_base",
+        "cfgvehicles::fishingrod_base_new",
+        "cfgvehicles::fishingrod"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_FishingRod0",
+        "descriptionShort": "$STR_CfgVehicles_FishingRod1",
+        "model": "\\dz\\gear\\tools\\fishing_rod.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 12,
+        "weight": 910,
+        "itemSize": [
+          2,
+          5
+        ],
+        "itemBehaviour": 1,
+        "absorbency": 0,
+        "attachments": [
+          "Hook"
+        ],
+        "energyResources": [
+          [
+            "power",
+            0.15000001
+          ]
+        ],
+        "soundImpactType": "wood",
+        "inventorySlot": [
+          "Backpack_1"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::flashlight",
+      "className": "Flashlight",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Flashlight0",
+      "fallbackName": "Flashlight",
+      "descriptionShortKey": "$STR_CfgVehicles_Flashlight1",
+      "model": "\\DZ\\gear\\tools\\flashlight.p3d",
+      "weight": 210,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "attachments": [
+        "BatteryD"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\flashlight_old_co.paa",
+        "dz\\gear\\tools\\data\\flashlight_old_co.paa",
+        "dz\\gear\\tools\\data\\flashlight_glass.paa",
+        "dz\\gear\\tools\\data\\flashlight_old_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flashlight"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Flashlight0",
+        "descriptionShort": "$STR_CfgVehicles_Flashlight1",
+        "model": "\\DZ\\gear\\tools\\flashlight.p3d",
+        "rotationFlags": 34,
+        "itemSize": [
+          3,
+          1
+        ],
+        "weight": 210,
+        "animClass": "Pistol",
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "attachments": [
+          "BatteryD"
+        ],
+        "soundImpactType": "plastic",
+        "hiddenSelections": [
+          "zbytek",
+          "reflector",
+          "glass",
+          "reflector_far"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\flashlight_old_co.paa",
+          "dz\\gear\\tools\\data\\flashlight_old_co.paa",
+          "dz\\gear\\tools\\data\\flashlight_glass.paa",
+          "dz\\gear\\tools\\data\\flashlight_old_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\flashlight_old.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::hacksaw",
+      "className": "Hacksaw",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Hacksaw0",
+      "fallbackName": "Hacksaw",
+      "descriptionShortKey": "$STR_CfgVehicles_Hacksaw1",
+      "model": "\\dz\\gear\\tools\\hacksaw.p3d",
+      "weight": 800,
+      "itemSize": [
+        4,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::hacksaw"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Hacksaw0",
+        "descriptionShort": "$STR_CfgVehicles_Hacksaw1",
+        "model": "\\dz\\gear\\tools\\hacksaw.p3d",
+        "debug_ItemCategory": 2,
+        "action": "GestureMeleeBayonetStab",
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          15
+        ],
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "rotationFlags": 17,
+        "RestrainUnlockType": 1,
+        "weight": 800,
+        "itemSize": [
+          4,
+          2
+        ],
+        "fragility": 0.079999998,
+        "dismantle_action_type": 64,
+        "openItemSpillRange": [
+          10,
+          40
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::hammer",
+      "className": "Hammer",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Hammer0",
+      "fallbackName": "Hammer",
+      "descriptionShortKey": "$STR_CfgVehicles_Hammer1",
+      "model": "\\dz\\gear\\tools\\Hammer.p3d",
+      "weight": 940,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::hammer"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Hammer0",
+        "descriptionShort": "$STR_CfgVehicles_Hammer1",
+        "model": "\\dz\\gear\\tools\\Hammer.p3d",
+        "debug_ItemCategory": 2,
+        "build_action_type": 10,
+        "dismantle_action_type": 0,
+        "rotationFlags": 17,
+        "weight": 940,
+        "itemSize": [
+          2,
+          3
+        ],
+        "fragility": 0.0080000004,
+        "openItemSpillRange": [
+          20,
+          50
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::handcuffkeys",
+      "className": "HandcuffKeys",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_HandcuffKeys0",
+      "fallbackName": "Handcuff Keys",
+      "descriptionShortKey": "$STR_CfgVehicles_HandcuffKeys1",
+      "model": "\\dz\\gear\\tools\\Handcuff_Keys.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::handcuffkeys"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_HandcuffKeys0",
+        "descriptionShort": "$STR_CfgVehicles_HandcuffKeys1",
+        "model": "\\dz\\gear\\tools\\Handcuff_Keys.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "RestrainUnlockType": 0,
+        "weight": 4,
+        "itemSize": [
+          1,
+          1
+        ],
+        "fragility": 0.0099999998,
+        "animClass": "Knife",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::handcuffs",
+      "className": "Handcuffs",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Handcuffs0",
+      "fallbackName": "Handcuffs",
+      "descriptionShortKey": "$STR_CfgVehicles_Handcuffs1",
+      "model": "\\dz\\gear\\tools\\Handcuffs.p3d",
+      "weight": 380,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::handcuffs"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Handcuffs0",
+        "descriptionShort": "$STR_CfgVehicles_Handcuffs1",
+        "model": "\\dz\\gear\\tools\\Handcuffs.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "itemSize": [
+          2,
+          1
+        ],
+        "rotationFlags": 17,
+        "weight": 380,
+        "fragility": 0.0099999998,
+        "OnRestrainChange": "HandcuffsLocked",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::handcuffslocked",
+      "className": "HandcuffsLocked",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_HandcuffsLocked0",
+      "fallbackName": "Handcuffs Locked",
+      "model": "\\dz\\gear\\tools\\Handcuffs_locked.p3d",
+      "weight": 380,
+      "itemSize": [
+        2,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::handcuffslocked"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_HandcuffsLocked0",
+        "model": "\\dz\\gear\\tools\\Handcuffs_locked.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "itemSize": [
+          2,
+          1
+        ],
+        "rotationFlags": 17,
+        "weight": 380,
+        "fragility": 0.0099999998,
+        "OnRestrainChange": "Handcuffs",
+        "CanBeUnrestrainedBy": [
+          "HandcuffKeys",
+          "3",
+          "Hacksaw",
+          "15",
+          "Pliers",
+          "25",
+          "Lockpick",
+          "10",
+          "HandSaw",
+          "15"
+        ],
+        "CanBeUnrestrainedByDMG": [
+          5,
+          30,
+          30,
+          12,
+          30
+        ],
+        "StruggleLength": 20
+      }
+    },
+    {
+      "id": "cfgvehicles::handsaw",
+      "className": "HandSaw",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_HandSaw0",
+      "fallbackName": "Hand Saw",
+      "descriptionShortKey": "$STR_CfgVehicles_HandSaw1",
+      "model": "\\dz\\gear\\tools\\handsaw.p3d",
+      "weight": 800,
+      "itemSize": [
+        5,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::handsaw"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_HandSaw0",
+        "descriptionShort": "$STR_CfgVehicles_HandSaw1",
+        "model": "\\dz\\gear\\tools\\handsaw.p3d",
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          15
+        ],
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "rotationFlags": 17,
+        "RestrainUnlockType": 1,
+        "weight": 800,
+        "itemSize": [
+          5,
+          2
+        ],
+        "fragility": 0.079999998,
+        "dismantle_action_type": 64,
+        "openItemSpillRange": [
+          10,
+          40
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::hayhook",
+      "className": "HayHook",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_HayHook0",
+      "fallbackName": "Hay Hook",
+      "descriptionShortKey": "$STR_CfgVehicles_HayHook1",
+      "model": "\\dz\\gear\\tools\\Hay_Hook.p3d",
+      "weight": 250,
+      "itemSize": [
+        3,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::hayhook"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_HayHook0",
+        "descriptionShort": "$STR_CfgVehicles_HayHook1",
+        "model": "\\dz\\gear\\tools\\Hay_Hook.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          8
+        ],
+        "RestrainUnlockType": 1,
+        "rotationFlags": 1,
+        "suicideAnim": "onehanded",
+        "weight": 250,
+        "itemSize": [
+          3,
+          2
+        ],
+        "openItemSpillRange": [
+          10,
+          30
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::heatpack",
+      "className": "Heatpack",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Heatpack0",
+      "fallbackName": "Heatpack",
+      "descriptionShortKey": "$STR_CfgVehicles_Heatpack1",
+      "model": "\\DZ\\gear\\tools\\Heatpack.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::heatpack"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Heatpack0",
+        "descriptionShort": "$STR_CfgVehicles_Heatpack1",
+        "model": "\\DZ\\gear\\tools\\Heatpack.p3d",
+        "animClass": "Knife",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "varEnergyInit": 1000,
+        "varEnergyMin": 0,
+        "varEnergyMax": 1000,
+        "weightPerQuantityUnit": 0,
+        "temperaturePerQuantityWeight": 4,
+        "varTemperatureMax": 80,
+        "varTemperatureMin": 25,
+        "weight": 150,
+        "fragility": 0.0099999998,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::iceaxe",
+      "className": "Iceaxe",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Iceaxe0",
+      "fallbackName": "Iceaxe",
+      "descriptionShortKey": "$STR_CfgVehicles_Iceaxe1",
+      "model": "\\dz\\gear\\tools\\Ice_Axe.p3d",
+      "weight": 550,
+      "itemSize": [
+        2,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\weapons\\melee\\blade\\data\\Pickaxe_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::iceaxe"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_Iceaxe0",
+        "descriptionShort": "$STR_CfgVehicles_Iceaxe1",
+        "model": "\\dz\\gear\\tools\\Ice_Axe.p3d",
+        "rotationFlags": 17,
+        "weight": 550,
+        "itemSize": [
+          2,
+          4
+        ],
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "build_action_type": 4,
+        "dismantle_action_type": 14,
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          20
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\weapons\\melee\\blade\\data\\Pickaxe_co.paa"
+        ],
+        "openItemSpillRange": [
+          20,
+          40
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "woodaxe",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::improvisedfishingrod",
+      "className": "ImprovisedFishingRod",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "FishingRod_Base_New",
+      "displayNameKey": "$STR_CfgVehicles_ImprovisedFishingRod0",
+      "fallbackName": "Improvised Fishing Rod",
+      "descriptionShortKey": "$STR_CfgVehicles_ImprovisedFishingRod1",
+      "model": "\\dz\\gear\\tools\\ImprovisedFishingRod.p3d",
+      "weight": 950,
+      "itemSize": [
+        1,
+        9
+      ],
+      "scope": 2,
+      "attachments": [
+        "Hook"
+      ],
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::fishingrod_base",
+        "cfgvehicles::fishingrod_base_new",
+        "cfgvehicles::improvisedfishingrod"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ImprovisedFishingRod0",
+        "descriptionShort": "$STR_CfgVehicles_ImprovisedFishingRod1",
+        "model": "\\dz\\gear\\tools\\ImprovisedFishingRod.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 950,
+        "itemSize": [
+          1,
+          9
+        ],
+        "itemBehaviour": 1,
+        "absorbency": 0.80000001,
+        "lootCategory": "Crafted",
+        "attachments": [
+          "Hook"
+        ],
+        "energyResources": [
+          [
+            "power",
+            0.1
+          ]
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::kitchenknife",
+      "className": "KitchenKnife",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_KitchenKnife0",
+      "fallbackName": "Kitchen Knife",
+      "descriptionShortKey": "$STR_CfgVehicles_KitchenKnife1",
+      "model": "\\dz\\gear\\tools\\kitchenknife.p3d",
+      "weight": 170,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Knife"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::kitchenknife"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_KitchenKnife0",
+        "descriptionShort": "$STR_CfgVehicles_KitchenKnife1",
+        "model": "\\dz\\gear\\tools\\kitchenknife.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          5
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "inventorySlot": [
+          "Knife"
+        ],
+        "RestrainUnlockType": 1,
+        "rotationFlags": 17,
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "weight": 170,
+        "itemSize": [
+          1,
+          3
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::kitchentimer",
+      "className": "KitchenTimer",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_KitchenTimer0",
+      "fallbackName": "Kitchen Timer",
+      "descriptionShortKey": "$STR_KitchenTimer1",
+      "model": "\\dz\\gear\\tools\\KitchenTimer.p3d",
+      "weight": 200,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "TriggerKitchenTimer"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\kitchentimer_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::kitchentimer"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_KitchenTimer0",
+        "descriptionShort": "$STR_KitchenTimer1",
+        "model": "\\dz\\gear\\tools\\KitchenTimer.p3d",
+        "isMeleeWeapon": 1,
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 200,
+        "inventorySlot": [
+          "TriggerKitchenTimer"
+        ],
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\kitchentimer_co.paa"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::leathersewingkit",
+      "className": "LeatherSewingKit",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_LeatherSewingKit0",
+      "fallbackName": "Leather Sewing Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_LeatherSewingKit1",
+      "model": "\\dz\\gear\\tools\\leather_sewing_kit.p3d",
+      "weight": 1200,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::leathersewingkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_LeatherSewingKit0",
+        "descriptionShort": "$STR_CfgVehicles_LeatherSewingKit1",
+        "model": "\\dz\\gear\\tools\\leather_sewing_kit.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "rotationFlags": 1,
+        "stackedUnit": "percentage",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "weight": 1200,
+        "weightPerQuantityUnit": 0.30000001,
+        "itemSize": [
+          2,
+          3
+        ],
+        "fragility": 0.0099999998,
+        "repairKitType": 3,
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::lockpick",
+      "className": "Lockpick",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Lockpick0",
+      "fallbackName": "Lockpick",
+      "descriptionShortKey": "$STR_CfgVehicles_Lockpick1",
+      "model": "\\dz\\gear\\tools\\Lockpick.p3d",
+      "weight": 190,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::lockpick"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Lockpick0",
+        "descriptionShort": "$STR_CfgVehicles_Lockpick1",
+        "model": "\\dz\\gear\\tools\\Lockpick.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "RestrainUnlockType": 0,
+        "rotationFlags": 17,
+        "isLockpick": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 190,
+        "fragility": 0.0099999998,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::lugwrench",
+      "className": "LugWrench",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_LugWrench0",
+      "fallbackName": "Lug Wrench",
+      "descriptionShortKey": "$STR_CfgVehicles_LugWrench1",
+      "model": "\\dz\\gear\\tools\\Lug_wrench.p3d",
+      "weight": 1600,
+      "itemSize": [
+        1,
+        5
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::lugwrench"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_LugWrench0",
+        "descriptionShort": "$STR_CfgVehicles_LugWrench1",
+        "model": "\\dz\\gear\\tools\\Lug_wrench.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 1600,
+        "itemSize": [
+          1,
+          5
+        ],
+        "fragility": 0.001,
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "openItemSpillRange": [
+          30,
+          60
+        ],
+        "compatibleLocks": [
+          3
+        ],
+        "lockSoundSet": "wrench_loop_SoundSet",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::mace",
+      "className": "Mace",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Mace0",
+      "fallbackName": "Mace",
+      "descriptionShortKey": "$STR_CfgVehicles_Mace1",
+      "model": "\\dz\\gear\\tools\\Flanged_Mace.p3d",
+      "weight": 1200,
+      "itemSize": [
+        2,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::mace"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Mace0",
+        "descriptionShort": "$STR_CfgVehicles_Mace1",
+        "model": "\\dz\\gear\\tools\\Flanged_Mace.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 1200,
+        "itemSize": [
+          2,
+          4
+        ],
+        "itemBehaviour": 1,
+        "openItemSpillRange": [
+          60,
+          80
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "isMeleeWeapon": 1,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::meattenderizer",
+      "className": "MeatTenderizer",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_MeatTenderizer0",
+      "fallbackName": "Meat Tenderizer",
+      "descriptionShortKey": "$STR_CfgVehicles_MeatTenderizer1",
+      "model": "\\dz\\gear\\tools\\Meat_Tenderizer.p3d",
+      "weight": 350,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::meattenderizer"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_MeatTenderizer0",
+        "descriptionShort": "$STR_CfgVehicles_MeatTenderizer1",
+        "model": "\\dz\\gear\\tools\\Meat_Tenderizer.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "build_action_type": 10,
+        "dismantle_action_type": 0,
+        "weight": 350,
+        "itemSize": [
+          2,
+          3
+        ],
+        "fragility": 0.0080000004,
+        "openItemSpillRange": [
+          30,
+          60
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::messtin",
+      "className": "MessTin",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_MessTin0",
+      "fallbackName": "Mess Tin",
+      "descriptionShortKey": "$STR_CfgVehicles_MessTin1",
+      "model": "\\dz\\gear\\tools\\Mess_tin.p3d",
+      "weight": 170,
+      "itemSize": [
+        4,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::messtin"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_MessTin0",
+        "descriptionShort": "$STR_CfgVehicles_MessTin1",
+        "model": "\\dz\\gear\\tools\\Mess_tin.p3d",
+        "animClass": "Knife",
+        "weight": 170,
+        "itemSize": [
+          4,
+          3
+        ],
+        "fragility": 0.0099999998,
+        "lootCategory": "Tools",
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::obsoletefishingrod",
+      "className": "ObsoleteFishingRod",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "FishingRod_Base_New",
+      "displayNameKey": "$STR_CfgVehicles_ObsoleteFishingRod0",
+      "fallbackName": "Obsolete Fishing Rod",
+      "descriptionShortKey": "$STR_CfgVehicles_ObsoleteFishingRod1",
+      "model": "\\dz\\gear\\crafting\\Wooden_stick.p3d",
+      "weight": 510,
+      "itemSize": [
+        2,
+        9
+      ],
+      "scope": 2,
+      "attachments": [
+        "Hook"
+      ],
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::fishingrod_base",
+        "cfgvehicles::fishingrod_base_new",
+        "cfgvehicles::obsoletefishingrod"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ObsoleteFishingRod0",
+        "descriptionShort": "$STR_CfgVehicles_ObsoleteFishingRod1",
+        "model": "\\dz\\gear\\crafting\\Wooden_stick.p3d",
+        "rotationFlags": 17,
+        "weight": 510,
+        "itemSize": [
+          2,
+          9
+        ],
+        "itemBehaviour": 2,
+        "absorbency": 0.80000001,
+        "lootCategory": "Crafted",
+        "attachments": [
+          "Hook"
+        ],
+        "energyResources": [
+          [
+            "power",
+            0.15000001
+          ]
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::paddle",
+      "className": "Paddle",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Paddle0",
+      "fallbackName": "Paddle",
+      "descriptionShortKey": "$STR_CfgVehicles_Paddle1",
+      "model": "\\dz\\gear\\tools\\canoe_paddle.p3d",
+      "weight": 800,
+      "itemSize": [
+        2,
+        10
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::paddle"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_Paddle0",
+        "descriptionShort": "$STR_CfgVehicles_Paddle1",
+        "model": "\\dz\\gear\\tools\\canoe_paddle.p3d",
+        "rotationFlags": 12,
+        "weight": 800,
+        "itemSize": [
+          2,
+          10
+        ],
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::pen_black",
+      "className": "Pen_Black",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Pen_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Pen_ColorBase0",
+      "fallbackName": "Pen Black",
+      "descriptionShortKey": "$STR_CfgVehicles_Pen_ColorBase1",
+      "model": "\\dz\\gear\\tools\\Pen.p3d",
+      "weight": 12,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pen_colorbase",
+        "cfgvehicles::pen_black"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Pen_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Pen_ColorBase1",
+        "model": "\\dz\\gear\\tools\\Pen.p3d",
+        "animClass": "Knife",
+        "itemSize": [
+          1,
+          1
+        ],
+        "rotationFlags": 17,
+        "weight": 12,
+        "lootTag": [
+          "Work",
+          "Office",
+          "Civilian"
+        ],
+        "writingColor": "#000000",
+        "absorbency": 0.1,
+        "fragility": 0.0099999998,
+        "lootCategory": "Tools",
+        "soundImpactType": "plastic",
+        "scope": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::pen_blue",
+      "className": "Pen_Blue",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Pen_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Pen_ColorBase0",
+      "fallbackName": "Pen Blue",
+      "descriptionShortKey": "$STR_CfgVehicles_Pen_ColorBase1",
+      "model": "\\dz\\gear\\tools\\Pen.p3d",
+      "weight": 12,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pen_colorbase",
+        "cfgvehicles::pen_blue"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Pen_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Pen_ColorBase1",
+        "model": "\\dz\\gear\\tools\\Pen.p3d",
+        "animClass": "Knife",
+        "itemSize": [
+          1,
+          1
+        ],
+        "rotationFlags": 17,
+        "weight": 12,
+        "lootTag": [
+          "Work",
+          "Office",
+          "Civilian"
+        ],
+        "writingColor": "#0431B4",
+        "absorbency": 0.1,
+        "fragility": 0.0099999998,
+        "lootCategory": "Tools",
+        "soundImpactType": "plastic",
+        "scope": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::pen_green",
+      "className": "Pen_Green",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Pen_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Pen_ColorBase0",
+      "fallbackName": "Pen Green",
+      "descriptionShortKey": "$STR_CfgVehicles_Pen_ColorBase1",
+      "model": "\\dz\\gear\\tools\\Pen.p3d",
+      "weight": 12,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pen_colorbase",
+        "cfgvehicles::pen_green"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Pen_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Pen_ColorBase1",
+        "model": "\\dz\\gear\\tools\\Pen.p3d",
+        "animClass": "Knife",
+        "itemSize": [
+          1,
+          1
+        ],
+        "rotationFlags": 17,
+        "weight": 12,
+        "lootTag": [
+          "Work",
+          "Office",
+          "Civilian"
+        ],
+        "writingColor": "#088A08",
+        "absorbency": 0.1,
+        "fragility": 0.0099999998,
+        "lootCategory": "Tools",
+        "soundImpactType": "plastic",
+        "scope": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::pen_red",
+      "className": "Pen_Red",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Pen_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_Pen_ColorBase0",
+      "fallbackName": "Pen Red",
+      "descriptionShortKey": "$STR_CfgVehicles_Pen_ColorBase1",
+      "model": "\\dz\\gear\\tools\\Pen.p3d",
+      "weight": 12,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pen_colorbase",
+        "cfgvehicles::pen_red"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_Pen_ColorBase0",
+        "descriptionShort": "$STR_CfgVehicles_Pen_ColorBase1",
+        "model": "\\dz\\gear\\tools\\Pen.p3d",
+        "animClass": "Knife",
+        "itemSize": [
+          1,
+          1
+        ],
+        "rotationFlags": 17,
+        "weight": 12,
+        "lootTag": [
+          "Work",
+          "Office",
+          "Civilian"
+        ],
+        "writingColor": "#B40404",
+        "absorbency": 0.1,
+        "fragility": 0.0099999998,
+        "lootCategory": "Tools",
+        "soundImpactType": "plastic",
+        "scope": 2
+      }
+    },
+    {
+      "id": "cfgvehicles::pipe",
+      "className": "Pipe",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Pipe0",
+      "fallbackName": "Pipe",
+      "descriptionShortKey": "$STR_CfgVehicles_Pipe1",
+      "model": "\\dz\\gear\\tools\\metal_pipe.p3d",
+      "weight": 3200,
+      "itemSize": [
+        1,
+        6
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Backpack_1"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pipe"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Pipe0",
+        "descriptionShort": "$STR_CfgVehicles_Pipe1",
+        "model": "\\dz\\gear\\tools\\metal_pipe.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 12,
+        "isMeleeWeapon": 1,
+        "weight": 3200,
+        "itemSize": [
+          1,
+          6
+        ],
+        "fragility": 0.001,
+        "itemBehaviour": 1,
+        "inventorySlot": [
+          "Backpack_1"
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::pliers",
+      "className": "Pliers",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Pliers0",
+      "fallbackName": "Pliers",
+      "descriptionShortKey": "$STR_CfgVehicles_Pliers1",
+      "model": "\\dz\\gear\\tools\\Pliers.p3d",
+      "weight": 240,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::pliers"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Pliers0",
+        "descriptionShort": "$STR_CfgVehicles_Pliers1",
+        "model": "\\dz\\gear\\tools\\Pliers.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "RestrainUnlockType": 1,
+        "build_action_type": 1,
+        "dismantle_action_type": 1,
+        "rotationFlags": 17,
+        "weight": 240,
+        "fragility": 0.0099999998,
+        "itemSize": [
+          1,
+          3
+        ],
+        "openItemSpillRange": [
+          25,
+          40
+        ],
+        "soundImpactType": "metal",
+        "compatibleLocks": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::raycaster",
+      "className": "Raycaster",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Flashlight",
+      "displayNameKey": "Raycast Scanner",
+      "fallbackName": "Raycaster",
+      "descriptionShortKey": "Debug item for raycast experimenting.",
+      "model": "\\DZ\\gear\\tools\\flashlight.p3d",
+      "weight": 210,
+      "itemSize": [
+        3,
+        1
+      ],
+      "scope": 2,
+      "attachments": [
+        "BatteryD"
+      ],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\flashlight_old_co.paa",
+        "dz\\gear\\tools\\data\\flashlight_old_co.paa",
+        "dz\\gear\\tools\\data\\flashlight_glass.paa",
+        "dz\\gear\\tools\\data\\flashlight_old_co.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::flashlight",
+        "cfgvehicles::raycaster"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "Raycast Scanner",
+        "descriptionShort": "Debug item for raycast experimenting.",
+        "model": "\\DZ\\gear\\tools\\flashlight.p3d",
+        "rotationFlags": 34,
+        "itemSize": [
+          3,
+          1
+        ],
+        "weight": 210,
+        "animClass": "Pistol",
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          25
+        ],
+        "attachments": [
+          "BatteryD"
+        ],
+        "soundImpactType": "plastic",
+        "hiddenSelections": [
+          "zbytek",
+          "reflector",
+          "glass",
+          "reflector_far"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\flashlight_old_co.paa",
+          "dz\\gear\\tools\\data\\flashlight_old_co.paa",
+          "dz\\gear\\tools\\data\\flashlight_glass.paa",
+          "dz\\gear\\tools\\data\\flashlight_old_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\flashlight_old.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::scientificbriefcasekeys",
+      "className": "ScientificBriefcaseKeys",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_ScientificBriefcaseKeys0",
+      "fallbackName": "Scientific Briefcase Keys",
+      "descriptionShortKey": "$STR_CfgVehicles_ScientificBriefcaseKeys1",
+      "model": "\\dz\\gear\\tools\\Handcuff_Keys.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\ScientificCaseKeys_CO.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::scientificbriefcasekeys"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ScientificBriefcaseKeys0",
+        "descriptionShort": "$STR_CfgVehicles_ScientificBriefcaseKeys1",
+        "model": "\\dz\\gear\\tools\\Handcuff_Keys.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 4,
+        "itemSize": [
+          1,
+          1
+        ],
+        "fragility": 0.0099999998,
+        "animClass": "Knife",
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\ScientificCaseKeys_CO.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\ScientificCaseKeys.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::screwdriver",
+      "className": "Screwdriver",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Screwdriver0",
+      "fallbackName": "Screwdriver",
+      "descriptionShortKey": "$STR_CfgVehicles_Screwdriver1",
+      "model": "\\dz\\gear\\tools\\Screwdriver.p3d",
+      "weight": 150,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::screwdriver"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Screwdriver0",
+        "descriptionShort": "$STR_CfgVehicles_Screwdriver1",
+        "model": "\\dz\\gear\\tools\\Screwdriver.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          5
+        ],
+        "rotationFlags": 17,
+        "suicideAnim": "onehanded",
+        "RestrainUnlockType": 1,
+        "weight": 150,
+        "itemSize": [
+          1,
+          3
+        ],
+        "fragility": 0.0080000004,
+        "openItemSpillRange": [
+          20,
+          40
+        ],
+        "action": "GestureMeleeBayonetStab",
+        "lockSoundSet": "wrench_loop_SoundSet",
+        "compatibleLocks": [
+          1
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::sewingkit",
+      "className": "SewingKit",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_SewingKit0",
+      "fallbackName": "Sewing Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_SewingKit1",
+      "model": "\\dz\\gear\\tools\\sewing_kit.p3d",
+      "weight": 210,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::sewingkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SewingKit0",
+        "descriptionShort": "$STR_CfgVehicles_SewingKit1",
+        "model": "\\dz\\gear\\tools\\sewing_kit.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "rotationFlags": 17,
+        "stackedUnit": "percentage",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 210,
+        "weightPerQuantityUnit": 0.2,
+        "fragility": 0.0099999998,
+        "repairKitType": 2,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::shippingcontainerkeys_blue",
+      "className": "ShippingContainerKeys_Blue",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "ShippingContainerKeys_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_ContainerKey0",
+      "fallbackName": "Shipping Container Keys Blue",
+      "descriptionShortKey": "$STR_CfgVehicles_ContainerKey1",
+      "model": "\\dz\\gear\\tools\\ShippingContainerKeys.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\ShippingContainerKeys_blue_CO.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::shippingcontainerkeys_colorbase",
+        "cfgvehicles::shippingcontainerkeys_blue"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ContainerKey0",
+        "descriptionShort": "$STR_CfgVehicles_ContainerKey1",
+        "model": "\\dz\\gear\\tools\\ShippingContainerKeys.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 4,
+        "itemSize": [
+          1,
+          1
+        ],
+        "fragility": 0.0099999998,
+        "animClass": "Knife",
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\ShippingContainerKeys.rvmat"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\ShippingContainerKeys_blue_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::shippingcontainerkeys_orange",
+      "className": "ShippingContainerKeys_Orange",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "ShippingContainerKeys_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_ContainerKey0",
+      "fallbackName": "Shipping Container Keys Orange",
+      "descriptionShortKey": "$STR_CfgVehicles_ContainerKey1",
+      "model": "\\dz\\gear\\tools\\ShippingContainerKeys.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\ShippingContainerKeys_orange_CO.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::shippingcontainerkeys_colorbase",
+        "cfgvehicles::shippingcontainerkeys_orange"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ContainerKey0",
+        "descriptionShort": "$STR_CfgVehicles_ContainerKey1",
+        "model": "\\dz\\gear\\tools\\ShippingContainerKeys.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 4,
+        "itemSize": [
+          1,
+          1
+        ],
+        "fragility": 0.0099999998,
+        "animClass": "Knife",
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\ShippingContainerKeys.rvmat"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\ShippingContainerKeys_orange_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::shippingcontainerkeys_red",
+      "className": "ShippingContainerKeys_Red",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "ShippingContainerKeys_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_ContainerKey0",
+      "fallbackName": "Shipping Container Keys Red",
+      "descriptionShortKey": "$STR_CfgVehicles_ContainerKey1",
+      "model": "\\dz\\gear\\tools\\ShippingContainerKeys.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\ShippingContainerKeys_red_CO.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::shippingcontainerkeys_colorbase",
+        "cfgvehicles::shippingcontainerkeys_red"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ContainerKey0",
+        "descriptionShort": "$STR_CfgVehicles_ContainerKey1",
+        "model": "\\dz\\gear\\tools\\ShippingContainerKeys.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 4,
+        "itemSize": [
+          1,
+          1
+        ],
+        "fragility": 0.0099999998,
+        "animClass": "Knife",
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\ShippingContainerKeys.rvmat"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\ShippingContainerKeys_red_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::shippingcontainerkeys_yellow",
+      "className": "ShippingContainerKeys_Yellow",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "ShippingContainerKeys_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_ContainerKey0",
+      "fallbackName": "Shipping Container Keys Yellow",
+      "descriptionShortKey": "$STR_CfgVehicles_ContainerKey1",
+      "model": "\\dz\\gear\\tools\\ShippingContainerKeys.p3d",
+      "weight": 4,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\tools\\data\\ShippingContainerKeys_yellow_CO.paa"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::shippingcontainerkeys_colorbase",
+        "cfgvehicles::shippingcontainerkeys_yellow"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ContainerKey0",
+        "descriptionShort": "$STR_CfgVehicles_ContainerKey1",
+        "model": "\\dz\\gear\\tools\\ShippingContainerKeys.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 4,
+        "itemSize": [
+          1,
+          1
+        ],
+        "fragility": 0.0099999998,
+        "animClass": "Knife",
+        "soundImpactType": "metal",
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\tools\\data\\ShippingContainerKeys.rvmat"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\tools\\data\\ShippingContainerKeys_yellow_CO.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::shovel",
+      "className": "Shovel",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Shovel0",
+      "fallbackName": "Shovel",
+      "descriptionShortKey": "$STR_CfgVehicles_Shovel1",
+      "model": "\\dz\\gear\\tools\\Shovel.p3d",
+      "weight": 3000,
+      "itemSize": [
+        2,
+        8
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::shovel"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Shovel0",
+        "descriptionShort": "$STR_CfgVehicles_Shovel1",
+        "model": "\\dz\\gear\\tools\\Shovel.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 3000,
+        "itemSize": [
+          2,
+          8
+        ],
+        "fragility": 0.0080000004,
+        "itemBehaviour": 2,
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "suicideAnim": "pitchfork",
+        "build_action_type": 4,
+        "dismantle_action_type": 4,
+        "openItemSpillRange": [
+          30,
+          60
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::sickle",
+      "className": "Sickle",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Sickle0",
+      "fallbackName": "Sickle",
+      "descriptionShortKey": "$STR_CfgVehicles_Sickle1",
+      "model": "\\dz\\gear\\tools\\sickle.p3d",
+      "weight": 350,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::sickle"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Sickle0",
+        "descriptionShort": "$STR_CfgVehicles_Sickle1",
+        "model": "\\dz\\gear\\tools\\sickle.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "itemInfo": [
+          "Knife"
+        ],
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          15
+        ],
+        "rotationFlags": 17,
+        "suicideAnim": "sickle",
+        "RestrainUnlockType": 1,
+        "weight": 350,
+        "itemSize": [
+          2,
+          3
+        ],
+        "openItemSpillRange": [
+          10,
+          30
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::sledgehammer",
+      "className": "SledgeHammer",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_SledgeHammer0",
+      "fallbackName": "Sledge Hammer",
+      "descriptionShortKey": "$STR_CfgVehicles_SledgeHammer1",
+      "model": "\\dz\\gear\\tools\\Sledge_Hammer.p3d",
+      "weight": 5000,
+      "itemSize": [
+        2,
+        6
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Shoulder",
+        "Melee"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::sledgehammer"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_SledgeHammer0",
+        "descriptionShort": "$STR_CfgVehicles_SledgeHammer1",
+        "model": "\\dz\\gear\\tools\\Sledge_Hammer.p3d",
+        "itemInfo": [
+          "SledgeHammer"
+        ],
+        "rotationFlags": 12,
+        "weight": 5000,
+        "itemSize": [
+          2,
+          6
+        ],
+        "itemBehaviour": 2,
+        "openItemSpillRange": [
+          30,
+          50
+        ],
+        "inventorySlot": [
+          "Shoulder",
+          "Melee"
+        ],
+        "isMeleeWeapon": 1,
+        "build_action_type": 16,
+        "dismantle_action_type": 16,
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::steakknife",
+      "className": "SteakKnife",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_SteakKnife0",
+      "fallbackName": "Steak Knife",
+      "descriptionShortKey": "$STR_CfgVehicles_SteakKnife1",
+      "model": "\\dz\\gear\\tools\\steak_knife.p3d",
+      "weight": 90,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Knife"
+      ],
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::steakknife"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SteakKnife0",
+        "descriptionShort": "$STR_CfgVehicles_SteakKnife1",
+        "model": "\\dz\\gear\\tools\\steak_knife.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "repairableWithKits": [
+          4
+        ],
+        "repairCosts": [
+          5
+        ],
+        "itemInfo": [
+          "Knife"
+        ],
+        "RestrainUnlockType": 1,
+        "rotationFlags": 17,
+        "inventorySlot": [
+          "Knife"
+        ],
+        "isMeleeWeapon": 1,
+        "suicideAnim": "onehanded",
+        "weight": 90,
+        "itemSize": [
+          1,
+          2
+        ],
+        "openItemSpillRange": [
+          10,
+          20
+        ],
+        "soundImpactType": "metal"
+      }
+    },
+    {
+      "id": "cfgvehicles::stoneknife",
+      "className": "StoneKnife",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_StoneKnife0",
+      "fallbackName": "Stone Knife",
+      "descriptionShortKey": "$STR_CfgVehicles_StoneKnife1",
+      "model": "\\dz\\gear\\consumables\\Stone_slice.p3d",
+      "weight": 260,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::stoneknife"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_StoneKnife0",
+        "descriptionShort": "$STR_CfgVehicles_StoneKnife1",
+        "model": "\\dz\\gear\\consumables\\Stone_slice.p3d",
+        "debug_ItemCategory": 2,
+        "itemInfo": [
+          "Knife"
+        ],
+        "repairableWithKits": [],
+        "repairCosts": [
+          5
+        ],
+        "rotationFlags": 17,
+        "RestrainUnlockType": 1,
+        "suicideAnim": "onehanded",
+        "weight": 260,
+        "itemSize": [
+          1,
+          2
+        ],
+        "openItemSpillRange": [
+          10,
+          30
+        ],
+        "isMeleeWeapon": 1
+      }
+    },
+    {
+      "id": "cfgvehicles::weaponcleaningkit",
+      "className": "WeaponCleaningKit",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_WeaponCleaningKit0",
+      "fallbackName": "Weapon Cleaning Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_WeaponCleaningKit1",
+      "model": "\\dz\\gear\\tools\\cleaning_kit_wood.p3d",
+      "weight": 780,
+      "itemSize": [
+        2,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::weaponcleaningkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_WeaponCleaningKit0",
+        "descriptionShort": "$STR_CfgVehicles_WeaponCleaningKit1",
+        "model": "\\dz\\gear\\tools\\cleaning_kit_wood.p3d",
+        "debug_ItemCategory": 2,
+        "animClass": "Knife",
+        "rotationFlags": 17,
+        "stackedUnit": "percentage",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "weight": 780,
+        "weightPerQuantityUnit": 0,
+        "itemSize": [
+          2,
+          3
+        ],
+        "fragility": 0.0099999998,
+        "repairKitType": 1,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::whetstone",
+      "className": "Whetstone",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Whetstone0",
+      "fallbackName": "Whetstone",
+      "descriptionShortKey": "$STR_CfgVehicles_Whetstone1",
+      "model": "\\dz\\gear\\tools\\whetstone.p3d",
+      "weight": 200,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::whetstone"
+      ],
+      "properties": {
+        "scope": 2,
+        "debug_ItemCategory": 2,
+        "displayName": "$STR_CfgVehicles_Whetstone0",
+        "descriptionShort": "$STR_CfgVehicles_Whetstone1",
+        "model": "\\dz\\gear\\tools\\whetstone.p3d",
+        "animClass": "Knife",
+        "rotationFlags": 34,
+        "stackedUnit": "percentage",
+        "quantityBar": 1,
+        "varQuantityInit": 100,
+        "varQuantityMin": 0,
+        "varQuantityMax": 100,
+        "weight": 200,
+        "itemSize": [
+          1,
+          2
+        ],
+        "repairKitType": 4
+      }
+    },
+    {
+      "id": "cfgvehicles::wrench",
+      "className": "Wrench",
+      "section": "CfgVehicles",
+      "category": "tool",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Wrench0",
+      "fallbackName": "Wrench",
+      "descriptionShortKey": "$STR_CfgVehicles_Wrench1",
+      "model": "\\dz\\gear\\tools\\Wrench.p3d",
+      "weight": 340,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_tools.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::wrench"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Wrench0",
+        "descriptionShort": "$STR_CfgVehicles_Wrench1",
+        "model": "\\dz\\gear\\tools\\Wrench.p3d",
+        "debug_ItemCategory": 2,
+        "rotationFlags": 17,
+        "weight": 340,
+        "itemSize": [
+          1,
+          3
+        ],
+        "fragility": 0.001,
+        "openItemSpillRange": [
+          20,
+          40
+        ],
+        "compatibleLocks": [
+          2
+        ],
+        "lockSoundSet": "wrench_loop_SoundSet",
+        "soundImpactType": "metal"
+      }
+    }
+  ]
+}

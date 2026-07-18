@@ -1,0 +1,1397 @@
+{
+  "metadata": {
+    "category": "medical",
+    "generatedAt": "2026-07-18T03:52:12.520499+00:00",
+    "itemCount": 31
+  },
+  "items": [
+    {
+      "id": "cfgvehicles::anticheminjector",
+      "className": "AntiChemInjector",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_AntiChemInjector0",
+      "fallbackName": "Anti Chem Injector",
+      "descriptionShortKey": "$STR_AntiChemInjector1",
+      "model": "\\dz\\gear\\medical\\Epinephrine.p3d",
+      "weight": 60,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\medical\\data\\antidote_co.paa"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::anticheminjector"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_AntiChemInjector0",
+        "descriptionShort": "$STR_AntiChemInjector1",
+        "model": "\\dz\\gear\\medical\\Epinephrine.p3d",
+        "debug_ItemCategory": 7,
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\medical\\data\\antidote_co.paa"
+        ],
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 60,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::bandagedressing",
+      "className": "BandageDressing",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BandageDressing0",
+      "fallbackName": "Bandage Dressing",
+      "descriptionShortKey": "$STR_CfgVehicles_BandageDressing1",
+      "model": "\\dz\\gear\\medical\\Bandage_dressing.p3d",
+      "weight": 10,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "MedicalBandage"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bandagedressing"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BandageDressing0",
+        "descriptionShort": "$STR_CfgVehicles_BandageDressing1",
+        "model": "\\dz\\gear\\medical\\Bandage_dressing.p3d",
+        "debug_ItemCategory": 7,
+        "inventorySlot": [
+          "MedicalBandage"
+        ],
+        "isMeleeWeapon": 1,
+        "quantityBar": 1,
+        "varQuantityDestroyOnMin": 1,
+        "varQuantityInit": 4,
+        "varQuantityMin": 0,
+        "varQuantityMax": 4,
+        "varCleannessInit": 1,
+        "rotationFlags": 17,
+        "weight": 10,
+        "weightPerQuantityUnit": 30,
+        "absorbency": 0.80000001,
+        "itemSize": [
+          1,
+          2
+        ],
+        "repairableWithKits": [
+          5,
+          2
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "soundImpactType": "textile"
+      }
+    },
+    {
+      "id": "cfgvehicles::bloodbagempty",
+      "className": "BloodBagEmpty",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BloodBagEmpty0",
+      "fallbackName": "Blood Bag Empty",
+      "descriptionShortKey": "$STR_CfgVehicles_BloodBagEmpty1",
+      "model": "\\dz\\gear\\medical\\BloodBag_Sealed.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bloodbagempty"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BloodBagEmpty0",
+        "descriptionShort": "$STR_CfgVehicles_BloodBagEmpty1",
+        "model": "\\dz\\gear\\medical\\BloodBag_Sealed.p3d",
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 100,
+        "rotationFlags": 17,
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 0,
+        "varLiquidTypeInit": 4,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256",
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::bloodbagfull",
+      "className": "BloodBagFull",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BloodBagFull0",
+      "fallbackName": "Blood Bag Full",
+      "descriptionShortKey": "$STR_CfgVehicles_BloodBagFull1",
+      "model": "\\dz\\gear\\medical\\BloodBag_Full.p3d",
+      "weight": 500,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bloodbagfull"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BloodBagFull0",
+        "descriptionShort": "$STR_CfgVehicles_BloodBagFull1",
+        "model": "\\dz\\gear\\medical\\BloodBag_Full.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          2,
+          2
+        ],
+        "weight": 500,
+        "weightPerQuantityUnit": 1,
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "varQuantityInit": 500,
+        "varQuantityMin": 0,
+        "varQuantityMax": 500,
+        "varLiquidTypeInit": 4,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256",
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::bloodbagiv",
+      "className": "BloodBagIV",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BloodBagIV0",
+      "fallbackName": "Blood Bag IV",
+      "descriptionShortKey": "$STR_CfgVehicles_BloodBagIV1",
+      "model": "\\dz\\gear\\medical\\BloodBag_Full_IV.p3d",
+      "weight": 110,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bloodbagiv"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BloodBagIV0",
+        "descriptionShort": "$STR_CfgVehicles_BloodBagIV1",
+        "model": "\\dz\\gear\\medical\\BloodBag_Full_IV.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          2,
+          2
+        ],
+        "weight": 110,
+        "weightPerQuantityUnit": 1,
+        "quantityBar": 1,
+        "stackedUnit": "ml",
+        "varQuantityInit": 500,
+        "varQuantityMin": 0,
+        "varQuantityMax": 500,
+        "varQuantityDestroyOnMin": 1,
+        "varLiquidTypeInit": 4,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256",
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::bloodsyringe",
+      "className": "BloodSyringe",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Syringe0",
+      "fallbackName": "Blood Syringe",
+      "descriptionShortKey": "$STR_CfgVehicles_Syringe1",
+      "model": "\\dz\\gear\\medical\\syringe_Full.p3d",
+      "weight": 110,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\medical\\data\\SyringeFluid_Blood_CO.paa"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bloodsyringe"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Syringe0",
+        "descriptionShort": "$STR_CfgVehicles_Syringe1",
+        "model": "\\dz\\gear\\medical\\syringe_Full.p3d",
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\medical\\data\\SyringeFluid_Blood_CO.paa"
+        ],
+        "rotationFlags": 17,
+        "weight": 110,
+        "itemSize": [
+          1,
+          2
+        ],
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "varLiquidTypeInit": 4,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256"
+      }
+    },
+    {
+      "id": "cfgvehicles::bloodtestkit",
+      "className": "BloodTestKit",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_BloodTestKit0",
+      "fallbackName": "Blood Test Kit",
+      "descriptionShortKey": "$STR_CfgVehicles_BloodTestKit1",
+      "model": "\\dz\\gear\\medical\\BloodTest_Kit.p3d",
+      "weight": 130,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::bloodtestkit"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_BloodTestKit0",
+        "descriptionShort": "$STR_CfgVehicles_BloodTestKit1",
+        "model": "\\dz\\gear\\medical\\BloodTest_Kit.p3d",
+        "debug_ItemCategory": 7,
+        "itemSize": [
+          1,
+          1
+        ],
+        "rotationFlags": 17,
+        "weight": 130,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::charcoaltablets",
+      "className": "CharcoalTablets",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_CfgVehicles_CharcoalTablets0",
+      "fallbackName": "Charcoal Tablets",
+      "descriptionShortKey": "$STR_CfgVehicles_CharcoalTablets1",
+      "model": "\\dz\\gear\\medical\\charcoal_tablets.p3d",
+      "weight": 20,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::charcoaltablets"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_CharcoalTablets0",
+        "descriptionShort": "$STR_CfgVehicles_CharcoalTablets1",
+        "model": "\\dz\\gear\\medical\\charcoal_tablets.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "canBeSplit": 1,
+        "varQuantityInit": 12,
+        "varQuantityMin": 0,
+        "varQuantityMax": 12,
+        "varQuantityDestroyOnMin": 1,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 20,
+        "weightPerQuantityUnit": 2,
+        "stackedUnit": "pills",
+        "quantityBar": 0,
+        "absorbency": 0.89999998,
+        "inventorySlot": []
+      }
+    },
+    {
+      "id": "cfgvehicles::chelatingtablets",
+      "className": "ChelatingTablets",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_CfgVehicles_ChelatingTablets0",
+      "fallbackName": "Chelating Tablets",
+      "descriptionShortKey": "$STR_CfgVehicles_ChelatingTablets1",
+      "model": "\\dz\\gear\\medical\\ChelatingTablets.p3d",
+      "weight": "200g",
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "hiddenSelectionsTextures": [
+        "dz\\gear\\medical\\data\\chelating_tablets_co.paa"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::chelatingtablets"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_ChelatingTablets0",
+        "descriptionShort": "$STR_CfgVehicles_ChelatingTablets1",
+        "model": "\\dz\\gear\\medical\\ChelatingTablets.p3d",
+        "debug_ItemCategory": 7,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "varQuantityDestroyOnMin": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": "200g",
+        "weightPerQuantityUnit": 2,
+        "stackedUnit": "pills",
+        "quantityBar": 0,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "soundImpactType": "plastic",
+        "inventorySlot": [],
+        "hiddenSelections": [
+          "zbytek"
+        ],
+        "hiddenSelectionsTextures": [
+          "dz\\gear\\medical\\data\\chelating_tablets_co.paa"
+        ],
+        "hiddenSelectionsMaterials": [
+          "dz\\gear\\medical\\data\\chelating_tablets.rvmat"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::cigarettepack_chernamorka",
+      "className": "CigarettePack_Chernamorka",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "CigarettePack_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_CigarettePack_Chernamorka0",
+      "fallbackName": "Cigarette Pack Chernamorka",
+      "descriptionShortKey": "$STR_CfgVehicles_CigarettePack_ColorBase1",
+      "model": "\\dz\\gear\\medical\\cigarette_pack.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\gear\\medical\\Data\\pack_of_cigs_cherno_co.paa",
+        "DZ\\gear\\medical\\Data\\pack_of_cigs_cherno_co.paa"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::cigarettepack_colorbase",
+        "cfgvehicles::cigarettepack_chernamorka"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_CigarettePack_Chernamorka0",
+        "descriptionShort": "$STR_CfgVehicles_CigarettePack_ColorBase1",
+        "model": "\\dz\\gear\\medical\\cigarette_pack.p3d",
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 50,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "absorbency": 0.69999999,
+        "hiddenSelections": [
+          "camoGround",
+          "zbytek"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "DZ\\gear\\medical\\Data\\pack_of_cigs_cherno_co.paa",
+          "DZ\\gear\\medical\\Data\\pack_of_cigs_cherno_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::cigarettepack_merkur",
+      "className": "CigarettePack_Merkur",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "CigarettePack_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_CigarettePack_Merkur0",
+      "fallbackName": "Cigarette Pack Merkur",
+      "descriptionShortKey": "$STR_CfgVehicles_CigarettePack_ColorBase1",
+      "model": "\\dz\\gear\\medical\\cigarette_pack.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\gear\\medical\\Data\\pack_of_cigs_merkur_co.paa",
+        "DZ\\gear\\medical\\Data\\pack_of_cigs_merkur_co.paa"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::cigarettepack_colorbase",
+        "cfgvehicles::cigarettepack_merkur"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_CigarettePack_Merkur0",
+        "descriptionShort": "$STR_CfgVehicles_CigarettePack_ColorBase1",
+        "model": "\\dz\\gear\\medical\\cigarette_pack.p3d",
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 50,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "absorbency": 0.69999999,
+        "hiddenSelections": [
+          "camoGround",
+          "zbytek"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "DZ\\gear\\medical\\Data\\pack_of_cigs_merkur_co.paa",
+          "DZ\\gear\\medical\\Data\\pack_of_cigs_merkur_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::cigarettepack_partyzanka",
+      "className": "CigarettePack_Partyzanka",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "CigarettePack_ColorBase",
+      "displayNameKey": "$STR_CfgVehicles_CigarettePack_Partyzanka0",
+      "fallbackName": "Cigarette Pack Partyzanka",
+      "descriptionShortKey": "$STR_CfgVehicles_CigarettePack_ColorBase1",
+      "model": "\\dz\\gear\\medical\\cigarette_pack.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "DZ\\gear\\medical\\Data\\pack_of_cigs_partyzanka_co.paa",
+        "DZ\\gear\\medical\\Data\\pack_of_cigs_partyzanka_co.paa"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::cigarettepack_colorbase",
+        "cfgvehicles::cigarettepack_partyzanka"
+      ],
+      "properties": {
+        "displayName": "$STR_CfgVehicles_CigarettePack_Partyzanka0",
+        "descriptionShort": "$STR_CfgVehicles_CigarettePack_ColorBase1",
+        "model": "\\dz\\gear\\medical\\cigarette_pack.p3d",
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 50,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "absorbency": 0.69999999,
+        "hiddenSelections": [
+          "camoGround",
+          "zbytek"
+        ],
+        "scope": 2,
+        "hiddenSelectionsTextures": [
+          "DZ\\gear\\medical\\Data\\pack_of_cigs_partyzanka_co.paa",
+          "DZ\\gear\\medical\\Data\\pack_of_cigs_partyzanka_co.paa"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::clearsyringe",
+      "className": "ClearSyringe",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Syringe0",
+      "fallbackName": "Clear Syringe",
+      "descriptionShortKey": "$STR_CfgVehicles_Syringe1",
+      "model": "\\dz\\gear\\medical\\syringe_Full.p3d",
+      "weight": 110,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "hiddenSelectionsTextures": [
+        "\\dz\\gear\\medical\\data\\SyringeFluid_Grey_CA.paa"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::clearsyringe"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Syringe0",
+        "descriptionShort": "$STR_CfgVehicles_Syringe1",
+        "model": "\\dz\\gear\\medical\\syringe_Full.p3d",
+        "hiddenSelections": [
+          "camo"
+        ],
+        "hiddenSelectionsTextures": [
+          "\\dz\\gear\\medical\\data\\SyringeFluid_Grey_CA.paa"
+        ],
+        "rotationFlags": 17,
+        "weight": 110,
+        "itemSize": [
+          1,
+          2
+        ],
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "varQuantityInit": 20,
+        "varQuantityMin": 0,
+        "varQuantityMax": 20,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 + 8192 + 16384 + 32768 + 65536  + 131072 + 262144 + 524288 + 2097152 + 4194304 - (1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256) - 32768"
+      }
+    },
+    {
+      "id": "cfgvehicles::defibrillator",
+      "className": "Defibrillator",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Defibrillator0",
+      "fallbackName": "Defibrillator",
+      "descriptionShortKey": "$STR_CfgVehicles_Defibrillator1",
+      "model": "\\dz\\gear\\medical\\Defibrillator.p3d",
+      "weight": 1200,
+      "itemSize": [
+        4,
+        4
+      ],
+      "scope": 2,
+      "attachments": [
+        "BatteryD"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::defibrillator"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Defibrillator0",
+        "descriptionShort": "$STR_CfgVehicles_Defibrillator1",
+        "model": "\\dz\\gear\\medical\\Defibrillator.p3d",
+        "animClass": "NoFireClass",
+        "weight": 1200,
+        "itemSize": [
+          4,
+          4
+        ],
+        "defibChargeTime": 8.3500004,
+        "defibEnergyNeededPerCharge": 9,
+        "absorbency": 0.30000001,
+        "repairableWithKits": [
+          7
+        ],
+        "repairCosts": [
+          30,
+          25
+        ],
+        "soundImpactType": "plastic",
+        "attachments": [
+          "BatteryD"
+        ]
+      }
+    },
+    {
+      "id": "cfgvehicles::disinfectantalcohol",
+      "className": "DisinfectantAlcohol",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_CfgVehicles_DisinfectantAlcohol0",
+      "fallbackName": "Disinfectant Alcohol",
+      "descriptionShortKey": "$STR_CfgVehicles_DisinfectantAlcohol1",
+      "model": "\\dz\\gear\\medical\\alfa.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::disinfectantalcohol"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_DisinfectantAlcohol0",
+        "descriptionShort": "$STR_CfgVehicles_DisinfectantAlcohol1",
+        "model": "\\dz\\gear\\medical\\alfa.p3d",
+        "debug_ItemCategory": 7,
+        "isMeleeWeapon": 1,
+        "weight": 100,
+        "weightPerQuantityUnit": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "varQuantityInit": 200,
+        "varQuantityMin": 0,
+        "varQuantityMax": 200,
+        "varQuantityDestroyOnMin": 1,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "varLiquidTypeInit": 32768,
+        "soundImpactType": "glass",
+        "inventorySlot": []
+      }
+    },
+    {
+      "id": "cfgvehicles::disinfectantspray",
+      "className": "DisinfectantSpray",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_CfgVehicles_DisinfectantSpray0",
+      "fallbackName": "Disinfectant Spray",
+      "descriptionShortKey": "$STR_CfgVehicles_DisinfectantSpray1",
+      "model": "\\dz\\gear\\medical\\DisinfectantSpray.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        3
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Disinfectant"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::disinfectantspray"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_DisinfectantSpray0",
+        "descriptionShort": "$STR_CfgVehicles_DisinfectantSpray1",
+        "model": "\\dz\\gear\\medical\\DisinfectantSpray.p3d",
+        "debug_ItemCategory": 7,
+        "inventorySlot": [
+          "Disinfectant"
+        ],
+        "quantityBar": 1,
+        "varQuantityInit": 500,
+        "varQuantityMin": 0,
+        "varQuantityMax": 500,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "weight": 50,
+        "weightPerQuantityUnit": 1,
+        "stackedUnit": "ml",
+        "itemSize": [
+          1,
+          3
+        ],
+        "varLiquidTypeInit": 32768,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::epinephrine",
+      "className": "Epinephrine",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Epinephrine0",
+      "fallbackName": "Epinephrine",
+      "descriptionShortKey": "$STR_CfgVehicles_Epinephrine1",
+      "model": "\\dz\\gear\\medical\\Epinephrine.p3d",
+      "weight": 60,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::epinephrine"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Epinephrine0",
+        "descriptionShort": "$STR_CfgVehicles_Epinephrine1",
+        "model": "\\dz\\gear\\medical\\Epinephrine.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 60,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::injectionvial",
+      "className": "InjectionVial",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_InjectionVial0",
+      "fallbackName": "Injection Vial",
+      "descriptionShortKey": "$STR_CfgVehicles_InjectionVial1",
+      "model": "\\dz\\gear\\medical\\InjectionVial.p3d",
+      "weight": 50,
+      "itemSize": [
+        1,
+        1
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::injectionvial"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_InjectionVial0",
+        "descriptionShort": "$STR_CfgVehicles_InjectionVial1",
+        "model": "\\dz\\gear\\medical\\InjectionVial.p3d",
+        "itemSize": [
+          1,
+          1
+        ],
+        "weight": 50,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::iodinetincture",
+      "className": "IodineTincture",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_IodineTincture0",
+      "fallbackName": "Iodine Tincture",
+      "descriptionShortKey": "$STR_IodineTincture1",
+      "model": "\\dz\\gear\\medical\\IodineTincture.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::iodinetincture"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_IodineTincture0",
+        "descriptionShort": "$STR_IodineTincture1",
+        "model": "\\dz\\gear\\medical\\IodineTincture.p3d",
+        "debug_ItemCategory": 7,
+        "isMeleeWeapon": 1,
+        "weight": 100,
+        "weightPerQuantityUnit": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "varQuantityInit": 250,
+        "varQuantityMin": 0,
+        "varQuantityMax": 250,
+        "varQuantityDestroyOnMin": 1,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "varLiquidTypeInit": 32768,
+        "soundImpactType": "glass",
+        "inventorySlot": []
+      }
+    },
+    {
+      "id": "cfgvehicles::morphine",
+      "className": "Morphine",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Morphine0",
+      "fallbackName": "Morphine",
+      "descriptionShortKey": "$STR_CfgVehicles_Morphine1",
+      "model": "\\dz\\gear\\medical\\Morphine.p3d",
+      "weight": 60,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::morphine"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Morphine0",
+        "descriptionShort": "$STR_CfgVehicles_Morphine1",
+        "model": "\\dz\\gear\\medical\\Morphine.p3d",
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 60,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::painkillertablets",
+      "className": "PainkillerTablets",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_CfgVehicles_PainkillerTablets0",
+      "fallbackName": "Painkiller Tablets",
+      "descriptionShortKey": "$STR_CfgVehicles_PainkillerTablets1",
+      "model": "\\dz\\gear\\medical\\painkillers2.p3d",
+      "weight": 20,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::painkillertablets"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PainkillerTablets0",
+        "descriptionShort": "$STR_CfgVehicles_PainkillerTablets1",
+        "model": "\\dz\\gear\\medical\\painkillers2.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "canBeSplit": 1,
+        "varQuantityInit": 12,
+        "varQuantityMin": 0,
+        "varQuantityMax": 12,
+        "varQuantityDestroyOnMin": 1,
+        "weight": 20,
+        "weightPerQuantityUnit": 2,
+        "stackedUnit": "pills",
+        "quantityBar": 0,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "absorbency": 0.69999999,
+        "inventorySlot": []
+      }
+    },
+    {
+      "id": "cfgvehicles::purificationtablets",
+      "className": "PurificationTablets",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_CfgVehicles_PurificationTablets0",
+      "fallbackName": "Purification Tablets",
+      "descriptionShortKey": "$STR_CfgVehicles_PurificationTablets1",
+      "model": "\\dz\\gear\\medical\\Water_purification_tablets.p3d",
+      "weight": 20,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::purificationtablets"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_PurificationTablets0",
+        "descriptionShort": "$STR_CfgVehicles_PurificationTablets1",
+        "model": "\\dz\\gear\\medical\\Water_purification_tablets.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "canBeSplit": 1,
+        "varQuantityInit": 10,
+        "varQuantityMin": 0,
+        "varQuantityMax": 10,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 20,
+        "weightPerQuantityUnit": 2,
+        "stackedUnit": "pills",
+        "quantityBar": 0,
+        "absorbency": 0.69999999,
+        "inventorySlot": []
+      }
+    },
+    {
+      "id": "cfgvehicles::salinebag",
+      "className": "SalineBag",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_SalineBag0",
+      "fallbackName": "Saline Bag",
+      "descriptionShortKey": "$STR_CfgVehicles_SalineBag1",
+      "model": "\\dz\\gear\\medical\\SalineBag.p3d",
+      "weight": 1000,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::salinebag"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SalineBag0",
+        "descriptionShort": "$STR_CfgVehicles_SalineBag1",
+        "model": "\\dz\\gear\\medical\\SalineBag.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          2,
+          2
+        ],
+        "weight": 1000,
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::salinebagiv",
+      "className": "SalineBagIV",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_SalineBagIV0",
+      "fallbackName": "Saline Bag IV",
+      "descriptionShortKey": "$STR_CfgVehicles_SalineBagIV1",
+      "model": "\\dz\\gear\\medical\\TransfusionKit.p3d",
+      "weight": 500,
+      "itemSize": [
+        2,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::salinebagiv"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_SalineBagIV0",
+        "descriptionShort": "$STR_CfgVehicles_SalineBagIV1",
+        "model": "\\dz\\gear\\medical\\TransfusionKit.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          2,
+          2
+        ],
+        "weight": 500,
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::splint",
+      "className": "Splint",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Splint0",
+      "fallbackName": "Splint",
+      "descriptionShortKey": "$STR_CfgVehicles_Splint1",
+      "model": "\\dz\\gear\\medical\\Improvised_fixture.p3d",
+      "weight": 540,
+      "itemSize": [
+        2,
+        4
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::splint"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Splint0",
+        "descriptionShort": "$STR_CfgVehicles_Splint1",
+        "model": "\\dz\\gear\\medical\\Improvised_fixture.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          2,
+          4
+        ],
+        "weight": 540,
+        "absorbency": 0.30000001,
+        "soundImpactType": "wood"
+      }
+    },
+    {
+      "id": "cfgvehicles::splint_applied",
+      "className": "Splint_Applied",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Clothing",
+      "displayNameKey": "$STR_CfgVehicles_Splint0",
+      "fallbackName": "Splint Applied",
+      "descriptionShortKey": "$STR_CfgVehicles_Splint1",
+      "model": "\\dz\\gear\\medical\\Improvised_fixture.p3d",
+      "weight": 540,
+      "itemSize": [
+        2,
+        4
+      ],
+      "scope": 2,
+      "inventorySlot": [
+        "Splint_Right"
+      ],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::clothing_base",
+        "cfgvehicles::clothing",
+        "cfgvehicles::splint_applied"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Splint0",
+        "descriptionShort": "$STR_CfgVehicles_Splint1",
+        "model": "\\dz\\gear\\medical\\Improvised_fixture.p3d",
+        "inventorySlot": [
+          "Splint_Right"
+        ],
+        "simulation": "clothing",
+        "rotationFlags": 17,
+        "itemSize": [
+          2,
+          4
+        ],
+        "weight": 540,
+        "absorbency": 0.30000001
+      }
+    },
+    {
+      "id": "cfgvehicles::startkitiv",
+      "className": "StartKitIV",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_StartKitIV0",
+      "fallbackName": "Start Kit IV",
+      "descriptionShortKey": "$STR_CfgVehicles_StartKitIV1",
+      "model": "\\dz\\gear\\medical\\StartKit.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::startkitiv"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_StartKitIV0",
+        "descriptionShort": "$STR_CfgVehicles_StartKitIV1",
+        "model": "\\dz\\gear\\medical\\StartKit.p3d",
+        "debug_ItemCategory": 7,
+        "itemSize": [
+          1,
+          2
+        ],
+        "rotationFlags": 17,
+        "weight": 100,
+        "isMeleeWeapon": 1,
+        "soundImpactType": "plastic"
+      }
+    },
+    {
+      "id": "cfgvehicles::syringe",
+      "className": "Syringe",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Epinephrine",
+      "displayNameKey": "$STR_CfgVehicles_Syringe0",
+      "fallbackName": "Syringe",
+      "descriptionShortKey": "$STR_CfgVehicles_Syringe1",
+      "model": "\\dz\\gear\\medical\\syringe_empty.p3d",
+      "weight": 130,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::epinephrine",
+        "cfgvehicles::syringe"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Syringe0",
+        "descriptionShort": "$STR_CfgVehicles_Syringe1",
+        "model": "\\dz\\gear\\medical\\syringe_empty.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 130,
+        "soundImpactType": "plastic",
+        "stackedUnit": "ml",
+        "quantityBar": 1,
+        "destroyOnEmpty": 0,
+        "varQuantityDestroyOnMin": 0,
+        "varQuantityInit": 0,
+        "varQuantityMin": 0,
+        "varQuantityMax": 0,
+        "liquidContainerType": "1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256"
+      }
+    },
+    {
+      "id": "cfgvehicles::tetracyclineantibiotics",
+      "className": "TetracyclineAntibiotics",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_CfgVehicles_TetracyclineAntibiotics0",
+      "fallbackName": "Tetracycline Antibiotics",
+      "descriptionShortKey": "$STR_CfgVehicles_TetracyclineAntibiotics1",
+      "model": "\\dz\\gear\\medical\\tetracycline.p3d",
+      "weight": 20,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::tetracyclineantibiotics"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_TetracyclineAntibiotics0",
+        "descriptionShort": "$STR_CfgVehicles_TetracyclineAntibiotics1",
+        "model": "\\dz\\gear\\medical\\tetracycline.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "canBeSplit": 1,
+        "varQuantityInit": 12,
+        "varQuantityMin": 0,
+        "varQuantityMax": 12,
+        "varQuantityDestroyOnMin": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 20,
+        "weightPerQuantityUnit": 2,
+        "stackedUnit": "pills",
+        "quantityBar": 0,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "absorbency": 0.69999999,
+        "inventorySlot": []
+      }
+    },
+    {
+      "id": "cfgvehicles::thermometer",
+      "className": "Thermometer",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Inventory_Base",
+      "displayNameKey": "$STR_CfgVehicles_Thermometer0",
+      "fallbackName": "Thermometer",
+      "descriptionShortKey": "$STR_CfgVehicles_Thermometer1",
+      "model": "\\dz\\gear\\medical\\med_tmeter.p3d",
+      "weight": 15,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::inventory_base",
+        "cfgvehicles::thermometer"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_Thermometer0",
+        "descriptionShort": "$STR_CfgVehicles_Thermometer1",
+        "model": "\\dz\\gear\\medical\\med_tmeter.p3d",
+        "debug_ItemCategory": 7,
+        "rotationFlags": 17,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 15,
+        "fragility": 0.5,
+        "soundImpactType": "glass"
+      }
+    },
+    {
+      "id": "cfgvehicles::vitaminbottle",
+      "className": "VitaminBottle",
+      "section": "CfgVehicles",
+      "category": "medical",
+      "parentClass": "Edible_Base",
+      "displayNameKey": "$STR_CfgVehicles_VitaminBottle0",
+      "fallbackName": "Vitamin Bottle",
+      "descriptionShortKey": "$STR_CfgVehicles_VitaminBottle1",
+      "model": "\\dz\\gear\\medical\\VitaminBottle.p3d",
+      "weight": 100,
+      "itemSize": [
+        1,
+        2
+      ],
+      "scope": 2,
+      "inventorySlot": [],
+      "sourcePbo": "gear_medical.pbo",
+      "inheritanceChain": [
+        "cfgvehicles::edible_base",
+        "cfgvehicles::vitaminbottle"
+      ],
+      "properties": {
+        "scope": 2,
+        "displayName": "$STR_CfgVehicles_VitaminBottle0",
+        "descriptionShort": "$STR_CfgVehicles_VitaminBottle1",
+        "model": "\\dz\\gear\\medical\\VitaminBottle.p3d",
+        "debug_ItemCategory": 7,
+        "varQuantityInit": 50,
+        "varQuantityMin": 0,
+        "varQuantityMax": 50,
+        "varQuantityDestroyOnMin": 1,
+        "itemSize": [
+          1,
+          2
+        ],
+        "weight": 100,
+        "weightPerQuantityUnit": 2,
+        "stackedUnit": "pills",
+        "quantityBar": 0,
+        "varTemperatureMin": 0,
+        "varTemperatureMax": 0,
+        "soundImpactType": "plastic",
+        "inventorySlot": []
+      }
+    }
+  ]
+}
