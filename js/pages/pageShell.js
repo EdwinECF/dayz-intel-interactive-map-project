@@ -108,17 +108,21 @@ window.DZAtlasPageShell = (() => {
     });
   }
 
-  function openDetailSheet(card) {
+  function openDetailSheet(item, card) {
     ensureDetailSheet();
     const sheet = document.getElementById("library-detail-sheet");
     const content = document.getElementById("library-detail-content");
     if (!sheet || !content || !card) return;
 
-    const clone = card.cloneNode(true);
-    clone.removeAttribute("tabindex");
-    clone.removeAttribute("role");
-    clone.removeAttribute("data-mobile-detail");
-    content.replaceChildren(clone);
+    if (typeof state.config?.detail === "function") {
+      content.innerHTML = state.config.detail(item, safe, iconFor);
+    } else {
+      const clone = card.cloneNode(true);
+      clone.removeAttribute("tabindex");
+      clone.removeAttribute("role");
+      clone.removeAttribute("data-mobile-detail");
+      content.replaceChildren(clone);
+    }
     sheet.classList.add("is-open");
     sheet.setAttribute("aria-hidden", "false");
     document.body.classList.add("library-detail-open");
@@ -133,20 +137,21 @@ window.DZAtlasPageShell = (() => {
     document.body.classList.remove("library-detail-open");
   }
 
-  function bindRenderedCards(container) {
-    container.querySelectorAll(".library-card").forEach(card => {
+  function bindRenderedCards(container, rows) {
+    container.querySelectorAll(".library-card").forEach((card, index) => {
+      const item = rows[index];
       card.dataset.mobileDetail = "true";
       card.setAttribute("role", "button");
       card.setAttribute("tabindex", "0");
       card.setAttribute("aria-label", `Open details for ${card.querySelector("h3")?.textContent || "item"}`);
       card.addEventListener("click", event => {
         if (event.target.closest("a, button, input, select, textarea")) return;
-        openDetailSheet(card);
+        openDetailSheet(item, card);
       });
       card.addEventListener("keydown", event => {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
-          openDetailSheet(card);
+          openDetailSheet(item, card);
         }
       });
     });
@@ -163,7 +168,7 @@ window.DZAtlasPageShell = (() => {
     document.getElementById("page-total-count")?.replaceChildren(String(state.items.length));
     empty?.classList.toggle("hidden", rows.length > 0);
     container.classList.toggle("hidden", rows.length === 0);
-    bindRenderedCards(container);
+    bindRenderedCards(container, rows);
   }
 
   async function mount(config) {
@@ -173,7 +178,14 @@ window.DZAtlasPageShell = (() => {
     try {
       const response = await fetch(config.dataFile, { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      state.items = await response.json();
+      const payload = await response.json();
+
+      state.items = Array.isArray(payload)
+        ? payload
+        : Array.isArray(payload.items)
+          ? payload.items
+          : [];
+
       renderFilters();
       render();
     } catch (error) {
